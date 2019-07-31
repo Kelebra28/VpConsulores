@@ -1,0 +1,726 @@
+Return-Path: <rosaura.garcia@cmigrupo.com>
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id UOQPB+Yh51x79xUAFq4nlA
+	(envelope-from <rosaura.garcia@cmigrupo.com>); Thu, 23 May 2019 15:42:46 -0700
+Return-path: <rosaura.garcia@cmigrupo.com>
+Envelope-to: raymundo@vpconsultores.com.mx,
+ patricia@vpconsultores.com.mx
+Delivery-date: Thu, 23 May 2019 15:42:46 -0700
+Received: from mail-eopbgr720084.outbound.protection.outlook.com ([40.107.72.84]:32938 helo=NAM05-CO1-obe.outbound.protection.outlook.com)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <rosaura.garcia@cmigrupo.com>)
+	id 1hTwQ1-0064GB-VQ; Thu, 23 May 2019 15:42:46 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=cmigrupomx.onmicrosoft.com; s=selector1-cmigrupomx-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=b8yT8WkqjQEzGsnzn3E0yW0WPUWZ0TwaOEbiHASrdMQ=;
+ b=AVJ46bWFPuFkhsaQLJeuzu9Cyj1TNqsy8CR1LIiVieTeKajG1qDyUCQhuvU/SrYZ2glLa4JHM3wi2jUnJXw+MEth0T9KohCV16YYc3JKf2Koa1GRuv1Lfrc3umKgKqblYXNqNMCToSl69badzrmyCW6pF5PWcHm9cfEwsRKDj0g=
+Received: from CY4PR10MB1813.namprd10.prod.outlook.com (10.175.61.7) by
+ CY4PR10MB1397.namprd10.prod.outlook.com (10.169.253.9) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.1922.16; Thu, 23 May 2019 22:41:31 +0000
+Received: from CY4PR10MB1813.namprd10.prod.outlook.com
+ ([fe80::5974:1f98:125e:6f47]) by CY4PR10MB1813.namprd10.prod.outlook.com
+ ([fe80::5974:1f98:125e:6f47%4]) with mapi id 15.20.1900.020; Thu, 23 May 2019
+ 22:41:31 +0000
+From: Rosaura Garcia <rosaura.garcia@cmigrupo.com>
+To: Patricia Perez <patricia@vpconsultores.com.mx>,
+	=?iso-8859-1?Q?=27Mar=EDa_Guadalupe_Rosalino_Hern=E1ndez=27?=
+	<maria.rosalino@alvear.com.mx>
+CC: =?iso-8859-1?Q?Edith_Garc=EDa?= <edith.garcia@cmigrupo.com>,
+	"raymundo@vpconsultores.com.mx" <raymundo@vpconsultores.com.mx>
+Subject: Re: FACTURA ABRIL 3-D
+Thread-Topic: FACTURA ABRIL 3-D
+Thread-Index: AQHU6mehCZRDc+8TYEqnMTwsfID+r6ZVXgUAgBp79dqAAAMc8IAJuFoAgAADfUs=
+Date: Thu, 23 May 2019 22:41:31 +0000
+Message-ID:
+ <CY4PR10MB1813B00287B0030E197B103EF5010@CY4PR10MB1813.namprd10.prod.outlook.com>
+References:
+ <CY4PR10MB18135D07AAB2B7C16502AB5BF5570@CY4PR10MB1813.namprd10.prod.outlook.com>,<000901d4ff99$6e2cb590$4a8620b0$@vpconsultores.com.mx>
+ <CY4PR10MB18135D00A53BA184ED3D3CC6F50B0@CY4PR10MB1813.namprd10.prod.outlook.com>
+ <DM5PR2201MB1211BAB1F7A2F997FF16D774D00B0@DM5PR2201MB1211.namprd22.prod.outlook.com>,<001301d511b5$23af9540$6b0ebfc0$@vpconsultores.com.mx>
+In-Reply-To: <001301d511b5$23af9540$6b0ebfc0$@vpconsultores.com.mx>
+Accept-Language: es-MX, en-US
+Content-Language: es-MX
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=rosaura.garcia@cmigrupo.com; 
+x-originating-ip: [201.103.182.225]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 0b4420b1-21fc-464e-e2d3-08d6dfcfcd7b
+x-microsoft-antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(7021145)(8989299)(4534185)(7022145)(4603075)(4627221)(201702281549075)(8990200)(5600141)(711020)(4605104)(2017052603328)(49563074)(7193020);SRVR:CY4PR10MB1397;
+x-ms-traffictypediagnostic: CY4PR10MB1397:
+x-ms-exchange-purlcount: 1
+x-microsoft-antispam-prvs:
+ <CY4PR10MB139743CBBD399A79454EF1E0F5010@CY4PR10MB1397.namprd10.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:2512;
+x-forefront-prvs: 00462943DE
+x-forefront-antispam-report:
+ SFV:NSPM;SFS:(10009020)(979002)(366004)(376002)(346002)(396003)(39830400003)(136003)(189003)(199004)(66446008)(66476007)(66616009)(64756008)(66556008)(66946007)(76116006)(6606003)(606006)(91956017)(8676002)(73956011)(68736007)(99286004)(19627405001)(7736002)(25786009)(66574012)(53936002)(6246003)(71190400001)(76176011)(4326008)(71200400001)(8936002)(74316002)(236005)(33656002)(6306002)(54556002)(54896002)(9686003)(55016002)(66066001)(7696005)(5660300002)(99936001)(6436002)(733005)(229853002)(478600001)(6116002)(44832011)(1015004)(6506007)(3846002)(316002)(110136005)(102836004)(476003)(26005)(11346002)(81156014)(86362001)(2906002)(486006)(81166006)(52536014)(256004)(186003)(446003)(54906003)(14454004)(5024004)(14444005)(969003)(989001)(999001)(1009001)(1019001);DIR:OUT;SFP:1101;SCL:1;SRVR:CY4PR10MB1397;H:CY4PR10MB1813.namprd10.prod.outlook.com;FPR:;SPF:None;LANG:es;PTR:InfoNoRecords;MX:3;A:3;
+received-spf: None (protection.outlook.com: cmigrupo.com does not designate
+ permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam-message-info:
+ WWy1Cauz82P2P8ZGLt31ofREQMRFgVsw0RwuoHAIaln2E7sde6vHKWtrKGu4wCp+ClKO/YDCZJ0qngjf/V/c3+xkux71IpbsyARpxYwB4YQFHHn4bmO0tqypU5Gk0xDr9JGAKackbnP5nUObU1V5MZXnM9e+2xPM1VL9GnwM7ccAYUWkyjbXFSz5CPi9YI5Gkr4HuqsROkCkXeO3dGmXd6vdXiOxgwlX7xp9ssOe7Ue7UN9H+kOxvOgPghTYUsNDCnBqaZu1a97CQlnndCjWac5/k+2xYQ5PWSql7pTWzu5fAxEJLmghFP8O12H3nptjCtZaIlmhjwIRVoIbngZnO3nUvlbtXLtGZfnQAESoSpn3i2BA0k2QEBkGhW/BJP/3rLNCiPWztNs9RQuNfZFvaj/A6UlRiogmNkuyd4A46hM=
+Content-Type: multipart/related;
+	boundary="_004_CY4PR10MB1813B00287B0030E197B103EF5010CY4PR10MB1813namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: cmigrupo.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0b4420b1-21fc-464e-e2d3-08d6dfcfcd7b
+X-MS-Exchange-CrossTenant-originalarrivaltime: 23 May 2019 22:41:31.5854
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 1d940465-a061-4e49-842d-e9bccf62f80a
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY4PR10MB1397
+X-Spam-Status: No, score=1.6
+X-Spam-Score: 16
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Buenas tardes contadora Pérez: Estoy recibiendo su comprobante
+    del depósito, el cual le agradezco, solo le pido me indique con que fecha
+    quiere que le haga su complemento de pago ya que como se le notifico en días
+    pasados no cayo [...] 
+ 
+ Content analysis details:   (1.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vpconsultores.com.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: cmigrupo.com]
+  1.6 SUBJ_ALL_CAPS          Subject is all capitals
+  0.0 T_SPF_TEMPERROR        SPF: test of record failed (temperror)
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--_004_CY4PR10MB1813B00287B0030E197B103EF5010CY4PR10MB1813namp_
+Content-Type: multipart/alternative;
+	boundary="_000_CY4PR10MB1813B00287B0030E197B103EF5010CY4PR10MB1813namp_"
+
+--_000_CY4PR10MB1813B00287B0030E197B103EF5010CY4PR10MB1813namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Buenas tardes contadora P=E9rez:
+
+
+            Estoy recibiendo su comprobante del dep=F3sito, el cual le agra=
+dezco, solo le pido me indique con que fecha quiere que le haga su compleme=
+nto de pago ya que como se le notifico en d=EDas pasados no cayo en el esta=
+do de cuenta de Torre Privanza, en el mes de Abril.
+
+
+Quedo en espera de su respuesta.
+
+
+Saludos.
+
+________________________________
+De: Patricia Perez <patricia@vpconsultores.com.mx>
+Enviado: jueves, 23 de mayo de 2019 05:16:10 p. m.
+Para: 'Mar=EDa Guadalupe Rosalino Hern=E1ndez'
+CC: Edith Garc=EDa; Rosaura Garcia
+Asunto: RE: FACTURA ABRIL 3-D
+
+
+Buenas tardes:
+
+
+
+
+
+Envi=F3 comprobante de la transferencia.
+
+
+
+Quedo a la espera.
+
+
+
+
+
+Saludos
+
+
+
+
+
+Patricia P=E9rez
+
+
+
+De: Mar=EDa Guadalupe Rosalino Hern=E1ndez [mailto:maria.rosalino@alvear.co=
+m.mx]
+Enviado el: viernes, 17 de mayo de 2019 01:41 p.m.
+Para: patricia@vpconsultores.com.mx
+CC: Edith Garc=EDa; Rosaura Garcia
+Asunto: RE: FACTURA ABRIL 3-D
+
+
+
+Buena tarde
+
+
+
+Estimada Srita. Patricia, me comenta la Lic. Rosaura que al parecer existe =
+un inconveniente en la elaboraci=F3n de un recibo de pago, le estoy enviand=
+o el extracto del estado de cuenta con fecha del 24 al 30 de abril como ver=
+a no tengo referencia de un dep=F3sito, de favor agradecer=EDa si nos envia=
+ra la transferencia realizada.
+
+
+
+Quedo en espera de sus comentarios.
+
+
+
+Saludos cordiales
+
+
+
+Mar=EDa Guadalupe Rosalino.
+
+Asociada.
+
+=C1rea Contable.
+
+
+
+[cid:9A5CE82B-1AAC-43D2-BFCD-1D3A3A2642FC]
+
+
+
+Melchor Ocampo 193, Torre A,
+
+Piso 1. Colonia Ver=F3nica Anzures,
+
+Delegaci=F3n Miguel Hidalgo
+
+C.P. 11300, Ciudad de M=E9xico.
+
+T. + 52 55 11022770
+
+
+
+
+
+Corporativo Alvear L=F3pez D=EDaz Ordaz, S.C.
+
+alvear.com.mx<http://alvear.com.mx/>
+
+_
+
+
+
+Lo comprendido en este medio electr=F3nico, as=ED como sus anexos son total=
+mente confidenciales. En caso de que usted haya recibido =E9ste mensaje por=
+ error, le solicitamos no reenviarlo y eliminarlo inmediatamente.
+
+The information contained in these means of communication and its attachmen=
+ts are strictly confidential. If by mistake you received this message we as=
+k you not to forward it and to delete it immediately.
+
+
+
+De: Rosaura Garcia <rosaura.garcia@cmigrupo.com>
+Enviado el: viernes, 17 de mayo de 2019 12:41 p.m.
+Para: Mar=EDa Guadalupe Rosalino Hern=E1ndez <maria.rosalino@alvear.com.mx>
+Asunto: RV: FACTURA ABRIL 3-D
+
+
+
+Contadora Lupita:
+
+
+
+          Este es el primer comunicado que me env=EDa la C.P. Patria P=E9re=
+z, de VAZQUES PEREZ CONSULTORES  oficina 3-D
+
+
+
+________________________________
+
+De: Patricia Perez <patricia@vpconsultores.com.mx<mailto:patricia@vpconsult=
+ores.com.mx>>
+Enviado: martes, 30 de abril de 2019 04:12 p. m.
+Para: Rosaura Garcia
+Asunto: RE: FACTURA ABRIL 3-D
+
+
+
+Buen d=EDa:
+
+
+
+
+
+El d=EDa de hoy quedo en firme el dep=F3sito para el pago de esta factura e=
+nviada.
+
+
+
+
+
+Les agradecer=E9 mucho enviarme el REP.
+
+
+
+
+
+
+
+Saludos
+
+
+
+
+
+
+
+
+
+De: Rosaura Garcia [mailto:rosaura.garcia@cmigrupo.com]
+Enviado el: mi=E9rcoles, 03 de abril de 2019 03:56 p.m.
+Para: raymundo@vpconsultores.com.mx<mailto:raymundo@vpconsultores.com.mx>; =
+patricia@vpconsultores.com.mx<mailto:patricia@vpconsultores.com.mx>
+Asunto: FACTURA ABRIL 3-D
+
+
+
+Buenas tardes:
+
+
+
+            Adjunto s=EDrvanse encontrar la factura del mantenimiento corre=
+spondiente al mes de Abril.
+
+
+
+Mucho agradecer=E9 la confirmaci=F3n  de estos documentos.
+
+
+
+Como siempre quedamos a sus =F3rdenes para cualquier duda al respecto.
+
+
+
+Saludos.
+
+
+
+--_000_CY4PR10MB1813B00287B0030E197B103EF5010CY4PR10MB1813namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"color: rgb(0, 0, 0); font-family:=
+ Calibri,Helvetica,sans-serif,'EmojiFont','Apple Color Emoji', 'Segoe UI Em=
+oji', NotoColorEmoji, 'Segoe UI Symbol', 'Android Emoji', EmojiSymbols; fon=
+t-size: 12pt;" dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"color: rgb(0, 0, 0); font-family:=
+ Calibri,Helvetica,sans-serif,&quot;EmojiFont&quot;,&quot;Apple Color Emoji=
+&quot;,&quot;Segoe UI Emoji&quot;,NotoColorEmoji,&quot;Segoe UI Symbol&quot=
+;,&quot;Android Emoji&quot;,EmojiSymbols; font-size: 12pt;" dir=3D"ltr">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;">Buenas tardes contadora P=
+=E9rez:</p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><br>
+</p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Estoy recibiendo su comprobante d=
+el dep=F3sito, el cual le agradezco, solo le pido me indique con que fecha =
+quiere que le haga su complemento de pago ya que como se le notifico en d=
+=EDas pasados no cayo
+ en el estado de cuenta de Torre Privanza, en el mes de Abril.</p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><br>
+</p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;">Quedo en espera de su res=
+puesta.</p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><br>
+</p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;">Saludos.<br>
+</p>
+</div>
+<hr tabindex=3D"-1" style=3D"width: 98%; display: inline-block;">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font color=3D"#000000" face=3D"Calib=
+ri, sans-serif" style=3D"font-size: 11pt;"><b>De:</b> Patricia Perez &lt;pa=
+tricia@vpconsultores.com.mx&gt;<br>
+<b>Enviado:</b> jueves, 23 de mayo de 2019 05:16:10 p. m.<br>
+<b>Para:</b> 'Mar=EDa Guadalupe Rosalino Hern=E1ndez'<br>
+<b>CC:</b> Edith Garc=EDa; Rosaura Garcia<br>
+<b>Asunto:</b> RE: FACTURA ABRIL 3-D</font>
+<div>&nbsp;</div>
+</div>
+<div lang=3D"ES-MX">
+<div class=3D"x_WordSection1">
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125);">Buenas ta=
+rdes:</span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</s=
+pan></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</s=
+pan></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125);">Envi=F3 c=
+omprobante de la transferencia.</span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</s=
+pan></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125);">Quedo a l=
+a espera.</span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</s=
+pan></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</s=
+pan></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125);">Saludos</=
+span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</s=
+pan></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</s=
+pan></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125);">Patricia =
+P=E9rez</span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</s=
+pan></p>
+<div>
+<div style=3D"border-width: 1pt medium medium; border-style: solid none non=
+e; border-color: rgb(181, 196, 223) currentColor currentColor; padding: 3pt=
+ 0cm 0cm;">
+<p class=3D"x_MsoNormal"><b><span lang=3D"ES" style=3D"font-family: &quot;T=
+ahoma&quot;,&quot;sans-serif&quot;; font-size: 10pt;">De:</span></b><span l=
+ang=3D"ES" style=3D"font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;=
+ font-size: 10pt;"> Mar=EDa Guadalupe Rosalino Hern=E1ndez [mailto:maria.ro=
+salino@alvear.com.mx]
+<br>
+<b>Enviado el:</b> viernes, 17 de mayo de 2019 01:41 p.m.<br>
+<b>Para:</b> patricia@vpconsultores.com.mx<br>
+<b>CC:</b> Edith Garc=EDa; Rosaura Garcia<br>
+<b>Asunto:</b> RE: FACTURA ABRIL 3-D</span></p>
+</div>
+</div>
+<p class=3D"x_MsoNormal">&nbsp;</p>
+<p class=3D"x_MsoNormal"><b><span style=3D"color: rgb(31, 73, 125);">Buena =
+tarde </span>
+</b></p>
+<p class=3D"x_MsoNormal"><b><span style=3D"color: rgb(31, 73, 125);">&nbsp;=
+</span></b></p>
+<p class=3D"x_MsoNormal"><b><span style=3D"color: rgb(31, 73, 125);">Estima=
+da Srita. Patricia, me comenta la Lic. Rosaura que al parecer existe un inc=
+onveniente en la elaboraci=F3n de un recibo de pago, le estoy enviando el e=
+xtracto del estado de cuenta con fecha
+ del 24 al 30 de abril como vera no tengo referencia de un dep=F3sito, de f=
+avor agradecer=EDa si nos enviara la transferencia realizada.</span></b></p=
+>
+<p class=3D"x_MsoNormal"><b><span style=3D"color: rgb(31, 73, 125);">&nbsp;=
+</span></b></p>
+<p class=3D"x_MsoNormal"><b><span style=3D"color: rgb(31, 73, 125);">Quedo =
+en espera de sus comentarios.</span></b></p>
+<p class=3D"x_MsoNormal"><b><span style=3D"color: rgb(31, 73, 125);">&nbsp;=
+</span></b></p>
+<p class=3D"x_MsoNormal"><b><span style=3D"color: rgb(31, 73, 125);">Saludo=
+s cordiales
+</span></b></p>
+<p class=3D"x_MsoNormal"><b><span style=3D"color: rgb(31, 73, 125);">&nbsp;=
+</span></b></p>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125); font-famil=
+y: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 10pt;">Mar=EDa Guad=
+alupe Rosalino.</span><span style=3D"color: black; font-family: &quot;Arial=
+&quot;,&quot;sans-serif&quot;; font-size: 10pt;"></span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(170, 121, 66); font-fami=
+ly: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 9pt;">Asociada.&nb=
+sp;</span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(170, 121, 66); font-fami=
+ly: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 9pt;">=C1rea Conta=
+ble.</span><span style=3D"color: black; font-family: &quot;Arial&quot;,&quo=
+t;sans-serif&quot;; font-size: 9pt;"></span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: black; font-family: &quot;Ar=
+ial&quot;,&quot;sans-serif&quot;; font-size: 9pt;">&nbsp;</span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: black; font-family: &quot;Ar=
+ial&quot;,&quot;sans-serif&quot;; font-size: 9pt;"><img width=3D"178" heigh=
+t=3D"18" tabindex=3D"0" id=3D"x_Imagen_x0020_1" alt=3D"cid:9A5CE82B-1AAC-43=
+D2-BFCD-1D3A3A2642FC" unselectable=3D"on" data-outlook-trace=3D"F:1|T:1" sr=
+c=3D"cid:image001.png@01D5118B.3725AD00"></span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: black; font-family: &quot;Ar=
+ial&quot;,&quot;sans-serif&quot;; font-size: 9pt;">&nbsp;</span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125); font-famil=
+y: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 9pt;">Melchor Ocamp=
+o 193, Torre A,</span><span style=3D"color: black; font-family: &quot;Arial=
+&quot;,&quot;sans-serif&quot;; font-size: 9pt;"></span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125); font-famil=
+y: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 9pt;">Piso 1. Colon=
+ia Ver=F3nica Anzures,</span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125); font-famil=
+y: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 9pt;">Delegaci=F3n =
+Miguel Hidalgo</span><span style=3D"color: black; font-family: &quot;Arial&=
+quot;,&quot;sans-serif&quot;; font-size: 9pt;"></span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125); font-famil=
+y: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 9pt;">C.P. 11300, C=
+iudad de M=E9xico.</span><span style=3D"color: black; font-family: &quot;Ar=
+ial&quot;,&quot;sans-serif&quot;; font-size: 9pt;"></span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(170, 121, 66); font-fami=
+ly: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 9pt;">T. &#43; 52 =
+55 11022770</span><span style=3D"color: black; font-family: &quot;Arial&quo=
+t;,&quot;sans-serif&quot;; font-size: 9pt;"></span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: black; font-family: &quot;He=
+lvetica&quot;,&quot;sans-serif&quot;; font-size: 9pt;">&nbsp;</span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: black; font-family: &quot;He=
+lvetica&quot;,&quot;sans-serif&quot;; font-size: 9pt;">&nbsp;</span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(55, 73, 125); font-famil=
+y: &quot;Georgia&quot;,&quot;serif&quot;; font-size: 9pt;">Corporativo Alve=
+ar L=F3pez D=EDaz Ordaz, S.C.</span><span style=3D"color: black; font-famil=
+y: &quot;Helvetica&quot;,&quot;sans-serif&quot;; font-size: 9pt;"></span></=
+p>
+<p class=3D"x_MsoNormal"><a class=3D"OWAAutoLink" id=3D"LPlnk634909" href=
+=3D"http://alvear.com.mx/" previewremoved=3D"true"><span style=3D"color: bl=
+ue; font-family: &quot;Georgia&quot;,&quot;serif&quot;; font-size: 9pt;">al=
+vear.com.mx</span></a><span style=3D"color: rgb(170, 121, 66); font-family:=
+ &quot;Georgia&quot;,&quot;serif&quot;; font-size: 9pt;">&nbsp;</span><span=
+ style=3D"color: black; font-family: &quot;Helvetica&quot;,&quot;sans-serif=
+&quot;; font-size: 9pt;"></span></p>
+<p class=3D"x_MsoNormal"><b><span style=3D"color: rgb(55, 73, 125); font-fa=
+mily: &quot;Trebuchet MS&quot;,&quot;sans-serif&quot;; font-size: 9pt;">_</=
+span></b><span style=3D"color: black; font-family: &quot;Helvetica&quot;,&q=
+uot;sans-serif&quot;; font-size: 9pt;"></span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: black; font-family: &quot;He=
+lvetica&quot;,&quot;sans-serif&quot;; font-size: 9pt;">&nbsp;</span></p>
+<p class=3D"x_MsoNormal"><span style=3D"color: rgb(31, 73, 125); font-famil=
+y: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 6pt;">Lo comprendid=
+o en este medio electr=F3nico, as=ED como sus anexos son totalmente confide=
+nciales. En caso de que usted haya recibido =E9ste mensaje por
+ error, le solicitamos no reenviarlo y eliminarlo inmediatamente.&nbsp;</sp=
+an><span style=3D"color: black; font-family: &quot;Helvetica&quot;,&quot;sa=
+ns-serif&quot;; font-size: 9pt;"></span></p>
+<p class=3D"x_MsoNormal"><i><span lang=3D"EN-US" style=3D"color: rgb(31, 73=
+, 125); font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 7=
+pt;">The information contained in these means of communication and its atta=
+chments are strictly confidential. If by mistake you received
+ this message we ask you not to forward it and to delete it immediately.</s=
+pan></i><span lang=3D"EN-US" style=3D"color: black; font-family: &quot;Helv=
+etica&quot;,&quot;sans-serif&quot;; font-size: 9pt;"></span></p>
+</div>
+<p class=3D"x_MsoNormal"><b><span style=3D"color: rgb(31, 73, 125);">&nbsp;=
+</span></b></p>
+<div>
+<div style=3D"border-width: 1pt medium medium; border-style: solid none non=
+e; border-color: rgb(225, 225, 225) currentColor currentColor; padding: 3pt=
+ 0cm 0cm;">
+<p class=3D"x_MsoNormal"><b><span lang=3D"ES">De:</span></b><span lang=3D"E=
+S"> Rosaura Garcia &lt;rosaura.garcia@cmigrupo.com&gt;
+<br>
+<b>Enviado el:</b> viernes, 17 de mayo de 2019 12:41 p.m.<br>
+<b>Para:</b> Mar=EDa Guadalupe Rosalino Hern=E1ndez &lt;maria.rosalino@alve=
+ar.com.mx&gt;<br>
+<b>Asunto:</b> RV: FACTURA ABRIL 3-D</span></p>
+</div>
+</div>
+<p class=3D"x_MsoNormal">&nbsp;</p>
+<div id=3D"x_divtagdefaultwrapper">
+<p><span style=3D"color: black;">Contadora Lupita:</span></p>
+<p><span style=3D"color: black;">&nbsp;</span></p>
+<p><span style=3D"color: black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp; Este es el primer comunicado que me env=EDa la C.P. Patria P=
+=E9rez, de VAZQUES PEREZ CONSULTORES&nbsp; oficina 3-D</span></p>
+<p class=3D"x_MsoNormal" style=3D"margin-bottom: 12pt;"><span style=3D"colo=
+r: black; font-size: 12pt;">&nbsp;</span></p>
+<div>
+<div align=3D"center" class=3D"x_MsoNormal" style=3D"text-align: center;"><=
+span style=3D"color: black; font-size: 12pt;">
+<hr width=3D"98%" size=3D"2" align=3D"center">
+</span></div>
+<div id=3D"x_divRplyFwdMsg">
+<p class=3D"x_MsoNormal"><b><span style=3D"color: black;">De:</span></b><sp=
+an style=3D"color: black;"> Patricia Perez &lt;</span><a class=3D"OWAAutoLi=
+nk" id=3D"LPlnk621020" href=3D"mailto:patricia@vpconsultores.com.mx" previe=
+wremoved=3D"true">patricia@vpconsultores.com.mx</a><span style=3D"color: bl=
+ack;">&gt;<br>
+<b>Enviado:</b> martes, 30 de abril de 2019 04:12 p. m.<br>
+<b>Para:</b> Rosaura Garcia<br>
+<b>Asunto:</b> RE: FACTURA ABRIL 3-D</span><span style=3D"color: black; fon=
+t-size: 12pt;">
+</span></p>
+<div>
+<p class=3D"x_MsoNormal"><span style=3D"color: black; font-size: 12pt;">&nb=
+sp;</span></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">Buen d=
+=EDa:</span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</=
+span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</=
+span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">El d=EDa=
+ de hoy quedo en firme el dep=F3sito para el pago de esta factura enviada.<=
+/span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</=
+span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</=
+span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">Les agra=
+decer=E9 mucho enviarme el REP.</span><span style=3D"color: black; font-siz=
+e: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</=
+span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</=
+span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</=
+span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">Saludos<=
+/span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</=
+span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</=
+span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</=
+span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<p class=3D"x_xmsonormal"><span style=3D"color: rgb(31, 73, 125);">&nbsp;</=
+span><span style=3D"color: black; font-size: 12pt;"></span></p>
+<div>
+<div style=3D"border-width: 1pt medium medium; border-style: solid none non=
+e; border-color: currentColor; padding: 3pt 0cm 0cm;">
+<p class=3D"x_xmsonormal"><b><span lang=3D"ES" style=3D"color: black; font-=
+family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; font-size: 10pt;">De:</s=
+pan></b><span lang=3D"ES" style=3D"color: black; font-family: &quot;Tahoma&=
+quot;,&quot;sans-serif&quot;; font-size: 10pt;"> Rosaura Garcia [</span><a =
+class=3D"OWAAutoLink" id=3D"LPlnk173711" href=3D"mailto:rosaura.garcia@cmig=
+rupo.com" previewremoved=3D"true"><span lang=3D"ES" style=3D"font-family: &=
+quot;Tahoma&quot;,&quot;sans-serif&quot;; font-size: 10pt;">mailto:rosaura.=
+garcia@cmigrupo.com</span></a><span lang=3D"ES" style=3D"color: black; font=
+-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; font-size: 10pt;">]
+<br>
+<b>Enviado el:</b> mi=E9rcoles, 03 de abril de 2019 03:56 p.m.<br>
+<b>Para:</b> </span><a class=3D"OWAAutoLink" id=3D"LPlnk492572" href=3D"mai=
+lto:raymundo@vpconsultores.com.mx" previewremoved=3D"true"><span lang=3D"ES=
+" style=3D"font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; font-siz=
+e: 10pt;">raymundo@vpconsultores.com.mx</span></a><span lang=3D"ES" style=
+=3D"color: black; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; f=
+ont-size: 10pt;">;
+</span><a class=3D"OWAAutoLink" id=3D"LPlnk258337" href=3D"mailto:patricia@=
+vpconsultores.com.mx" previewremoved=3D"true"><span lang=3D"ES" style=3D"fo=
+nt-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; font-size: 10pt;">pat=
+ricia@vpconsultores.com.mx</span></a><span lang=3D"ES" style=3D"color: blac=
+k; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; font-size: 10pt;=
+"><br>
+<b>Asunto:</b> FACTURA ABRIL 3-D</span><span style=3D"color: black; font-si=
+ze: 12pt;"></span></p>
+</div>
+</div>
+<p class=3D"x_xmsonormal"><span style=3D"color: black; font-size: 12pt;">&n=
+bsp;</span></p>
+<div id=3D"x_x_divtagdefaultwrapper">
+<div id=3D"x_x_divtagdefaultwrapper">
+<div id=3D"x_x_divtagdefaultwrapper">
+<p><span style=3D"color: black;">Buenas tardes:</span></p>
+<p><span style=3D"color: black;">&nbsp;</span></p>
+<p><span style=3D"color: black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp; Adjunto s=EDrvanse encontrar la factura del manten=
+imiento correspondiente al mes de Abril.</span></p>
+<p><span style=3D"color: black;">&nbsp;</span></p>
+<p><span style=3D"color: black;">Mucho agradecer=E9 la confirmaci=F3n&nbsp;=
+ de estos documentos.</span></p>
+<p><span style=3D"color: black;">&nbsp;</span></p>
+<p><span style=3D"color: black;">Como siempre quedamos a sus =F3rdenes para=
+ cualquier duda al respecto.</span></p>
+<p><span style=3D"color: black;">&nbsp;</span></p>
+<p><span style=3D"color: black;">Saludos.</span></p>
+<p><span style=3D"color: black;">&nbsp;</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_CY4PR10MB1813B00287B0030E197B103EF5010CY4PR10MB1813namp_--
+
+--_004_CY4PR10MB1813B00287B0030E197B103EF5010CY4PR10MB1813namp_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=2607;
+	creation-date="Thu, 23 May 2019 22:19:49 GMT";
+	modification-date="Thu, 23 May 2019 22:19:49 GMT"
+Content-ID: <image001.png@01D5118B.3725AD00>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAALIAAAASCAIAAABw9BPRAAAACXBIWXMAABcRAAAXEQHKJvM/AAAJ
+4UlEQVRo3u1aXUwb2RW+oD5gZqQ4QYsdySkYnEjsstjhBQOW4jWEWGKzkB+0oG3BFVFXkVAgyVaN
+YtolKiTRdlOcDdlmVVAMmwoUfooCVIaUCVHBGFULdkISFQwmwio2iYGUGQ9v7sMhN5cZ29B9XY4s
+y3Pnzr137vnOd75zISYUCqFd27WtFru7Bbu2PSzW2I3kX3y9xm78RN6/7ZvruyDYHha99ucv/Wu9
+9uc/hZf3etwOZtDB2HZxILCfCa4t3Xb4NhVkku3WoUnr4BT8rjmZo1crrUOTvWMvcEtxbto7bI29
+sPTYpXRc2s/fG3++KJhCSsf1XvmMbNFfbKkrN+jVStyy4F+1dNudcz7ckiyX6tVKvVqZLNtLPstz
+bH+H1TvvltB0xblLEorGt5i+LpdjVK3VZRuMZDu2ccaGEHJOjGoNRvHdgQ7rosfNsyzPsQc/1JRU
+VuEZmb4uuAWXihSV1mA8lK4RjOBgbM6JUYQQ9ARLkMlLKqtgzQih8upLCYlyAVhdE6OFpSay0TUx
+yjzowiME/D6EkCJFdUCpCrv4mWknwD3g9/EcK6Fo8T54PW6mrwuGQgiVnKlSKFWb90KEPXLOo3zz
+nqI/oHzzlPs/oa2m/vUtlG+uvt2PWxq7x1C+GeWbPb4VsqfHt4LyzXcHfwiFQtW3+1G++ciFZhj/
+7uAPRb+/J54UOogHQfnm1XV+dZ2v+KoL1ra6zodE1nrz2tki/Wv/kqDxfvOtUGRrqK4cftApfjAU
+CvW33/3zVTP8DrLrrTevwe/F+dkLZYXDDzoFnc8W6cm5gux6Q3Vl681rQXadbLzffOtPl6tDoZDT
+8U/BI+SyzWc+Fbffb751tkiPB3ztX+pvv3uhrNB85tN/P50S9GyoriRf6rV/qaG68kJZ4eL8LF4M
+eTn8oJMcJFZACUU5aRD3lh67KMol+BuTRJJMihDCRIIpJ0kmBb4h++vVSlNBZl25QTApQujxE8+C
+f5Vsx6wgpeOkdJz1N6eSZNI33EbYBFdSWSWJp9puXifDxTvvxiEuNtfE6D6ZXJ2lg9/CaHvqxNEv
+oWiISJ5jG801hWUmw/HTZOfCUlNhacWjvm6mbzOg71yt3SeTl29lLwlFl1RWJcjkCCGYN17EYTzH
+zjx1rrzyi5cEnfGACYnywlLT+QYLz7HfXa31etwkR55vsJAklJAoP99gkVB0o7mG51iE0KLHzQc5
+TA/ZBiPZP5YUm61DU8W5acU57yOEWoemdiI8wffgWsLTUzUncyI9okndTyaL1qGpioLDCKG6Nib6
+XAAUKSUR35JQdHn1pdlnLiwUBtqtp89URRnNNTGqydIlJMoPfqDG/LwlBQzbYAcRQgCRzpYmCUUL
+MAFmOH5aEk/BODPTztlnrkiIFGQH8arUWp0iOXV8Z4pHoVR9frmeD3KdzU2AqoF2q+GT0+KkKaHo
+j8tMfJCDkQFkGMcSig4PC+vQ5B4qzlSQWZybtskBW50d1sD9L/1rIy4PGf0CaUKCzzm39G7Swami
+nDTgj96xF9GBuMbySTIpKUFIU2fpMrJyO5ubeI51MDZFikqc7MmgdDlGIWSz84wrr/wz084tbv7k
+tHdhrtFcg6MQIeRyjCpSVGEHhOS98srv9bgBmgLFQAZulHccH7ZlG4zaPOOTibHAsm8nyDiUrjn4
+gXr2mYvnWNfEKMkB4i2CtwA8KZJTu1puD3RYo1Uilh47lo3FOeHziNikdBzEOsaQpdteczJHSseR
+3R4/8cQcrY05Wrv3RD0WqmvshqXHbirITJbtPZKhfMNthAUiYMU6NLngX+u98plgZEEqgZjub7d+
+vF1QJiTKFz3umWknBJagHlFn6bSGY4AM4HOeY/kgdyDCjmN/Bzk24Pfte0/2I/R/YNkXWPYplCrw
+385LpEMfaiAvREeShKIl8RS+/PxyvSI5daCjFWcWISxGXB6IeP3FFv3Fll77CwEHbEsYkHScc0uu
+eZ84gxzJUIYe1oce1j/6upIshqV0HGDRdOxwJCDuPVEfc7T2V3/sKc5NIxNQWMdo84wOZlCt1YUt
+PcigVKSoZqeds9NOr8etSE51MIOCrSk/d6n83G/5IPfdtd9h9CwS5BHFVl75fwQsgORmpp2BZd++
+92Tjw/9f5Rwf9ZXFXAWCA5im0VwTBhbWoUl1inzh3hcjNypHblQu3PtCnSLfYR7RpO4/kqEEN1t6
+7BUFh6MEtF6tBARgMQFABNH60r+GuQRb6GH96t9qk2TS1qGpbdcDiSNK+oCghNxfWGra/JSZwgpP
+rcF4ufEvkniqq7kJISSJp6CqDGtBjkUIHVCqINEIstJObHzYpsnSbWrAPGNY4RmRCeIphVIFXvdG
+xq53YQ40L+aP8w0W4EWSnGKx2Kw5tSXE4XKnwhNivdveOjQlKDQiKcdNfrpRiT/VJ7IjEQZUIgih
+mm//TkqTsDxJyvVIGURrOEb2UWfpsGAUazrQGQghUA+R/D371JmRlSuh6GyDETRvJFkTtn1m2hlP
+0XD+cShdAxp2h8ITjmcE6iHsFID1sHUcmYBisSegAMFWnPP+HiouusJYYzcg4k0FmUkyqWvedyRD
+eNwkthGXxzm3VNfGFOWkkZ0BiOJKFdPMl780vOE29BdboiNjW2MedKnfBuU7YsgzehfmsMvJMFUo
+VVrDMSgigDnErnUwtsCyD8QN9J995gp7sg7iX4wtB2PT5hkFGlYsPKNPLaHowtKK2WcuXGJsOaBr
+t2Zk5QKVki8ooWjF1mOxWOvQ5JXvGXWKXMD8OOtbeuzgBvCWpcde18b0jr2oa2P0F5txXQClh5gq
+4Fnn3JKlxz7i8lh67DXfDtT/deTxE4+gpgDhiRAyfdUD6MEw2kw65YaKgsOADHGu2Uzqy77oLNr2
+zfWVV35xloGyE0I8sOwbaLeCA6Dkg6oSknFg2ddoriH9yvR19bdbyaOC8nOXPjp+ysEMYsWKXTjz
+1Im9G3zrYwdjczCDggoCltTZ0oRzn8CdPMcOdFhhakx+haWmj46fghIDYyiw7LtzrRYOgomDf9s7
+AS6Tk7Ij5svWYSwRyANsqBhxXO6h4t5wG4JyESFUV54HeIKyQgAL59ySwH9rLO99/d/0ZBkgz1SQ
+ScLR0mOHnJUopRBCy2scdNOrlVhs4lXBWbhANMAm8iybnWcUs2VnSxMck8dTdPnbDcJbfOdqLZwo
+q7N0rolR77wbFP7BdA0JI55jxxmby7G5lYse96F0Tdjz9cCyj+nrEsiRkjNVEooe6LAGOZZnWbVW
+l5Aoh/yVIJOTqyKXtP9A8r8e/2MzuGn6gFIV5NjAsk+TpYty+B3w+0Do8BwrOJ6fmXYyfV3xFJ2Q
+KIfER64/Zvf/LXZt+7+g7tquIYT+B/NAhsfhfUKEAAAAAElFTkSuQmCC
+
+--_004_CY4PR10MB1813B00287B0030E197B103EF5010CY4PR10MB1813namp_--

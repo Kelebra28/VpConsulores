@@ -1,0 +1,85 @@
+Return-Path: <joanna2401@yahoo.com.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id yKfpCkrXUFzxrjgAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Tue, 29 Jan 2019 15:44:26 -0700
+Return-path: <joanna2401@yahoo.com.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Tue, 29 Jan 2019 15:44:26 -0700
+Received: from sonic306-22.consmr.mail.ne1.yahoo.com ([66.163.189.84]:54110)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <joanna2401@yahoo.com.mx>)
+	id 1goc7F-00Ffws-5G
+	for raymundo@vpconsultores.com.mx; Tue, 29 Jan 2019 15:44:26 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com.mx; s=s2048; t=1548801824; bh=Ko86eTdCj+WOMCk+aT68Z60oID1cds9EVSHAPUf+zUM=; h=From:Date:Subject:To:From:Subject; b=LFVaXsuDo3cUcIWbvHE+66LElPPaTkqxvAQ0eCzV+riDki+DkYgLd4o5SQa1yaMUm9B+GjJ+8snztfVdGrCzBc06Da0HBL/sXJ4ZohKYyPkgOp5w5IEGK0DqGl28AhVTjgWAe9NizFVj7EAK/1i+ztiOWYVYoQb4KPhLBELXGaKQtsTgVV+yoZaNc4oklp2Xfnymz7clDgUMEfNQ0/JOT7+kCtXQZrnX4eebAFFm+HpOM6858/Q3yUBjzL1+1NZpPVtegQjoDmC51rqneNsICG6ykGVUH09ueRYIzT0+uHfcmKMtQZ70dYcUUcTFovjOjLpVjJ4/QtEeg+gXAVJJQQ==
+X-YMail-OSG: VygM4QsVM1kVN7MV5fFBaklkcDzYEor9r8mskmhKwehyb6PEuOciym3qY2DzNQg
+ nlRo5RjdYS23JwcHvIxX.F.80gC2LnEHoj7T4lWyvvV_9KSBlpWixZRvUUbwgf1IP6ZeTrKH2pUQ
+ WtNAuKHDcVpU_2n3yfaI4Qjkvv0Xgb3jXxgXlr1QNmvu2vNSs_Ur1sbY2fNmLZQc_v1erehA7U1s
+ g_aKO_uItjOjce8SWgp336rOYyjb8lh6V5Pm66tvyssqBZpJY54V4TWoKfmkcCIShdKdXMuEt.Fs
+ ZbTd69kNSVz2GqO0pGnFKWpPGQRUgLH58dMsqbEQrfDEmEmsrZx49bCfPvRyZYgKzZxvz0ppZJM5
+ rDsN.fOok21awWTjTdLwG7gxety.ZsP8xagX9E_xpIEp9P3A6U3ncI7f3e1NVpCdfxCXnzvB0mYn
+ z4SZRAUkdHI1m3x8BcGVdCZcEW96fb_5tmZ4pj94OUDSevsOMsvyzKIckXJ4T.lT6ozqQ2vOt49U
+ 6fa2MnrTmeK71zWmFmEzqu3nigDkZ1k49_0r2j2B_cs5ITODvW_MFsR_6_lG8spmej5rMpu7TAJu
+ 3D5K8PBZdNfUET85c5cUEkaONxTMuhzp1COU_h6XkpdBTCmJ93X1X.jWaUJTms4H.1fiNU.HYAR3
+ plJctc02uJNhHpgNkqI0tgu2cF9DTRuGTR.XF8IkR4W8OSBxFftUKQqmEf2v4anVDOnFpI3WTh4a
+ qBql.EoZDWQuaIuD9PpWXm0MaUPL3eI7tzLpDq21Rtl_Yln9H0RW_Q.2hmmNwQP9Q_Rpljx0Z_MT
+ tNmdKOCvxhsLct8u_63s05g35X6zNUPufBNg5UagZg8sONn4nvEA2.pzdhIktk9d84xsFJIRo5N_
+ o21VAXOteVUE0fzs_c1Nc2C73v5qgrt2SgL4TyWDOugARZndosAy6M1k321Mir6KYrxr03NA7RQb
+ B4ubW_x5rzxz1_chaTCURwi6J3J0cvu4N76iuQOrblVI5FqP8omfmu6GsJ_QfXF24SsLLVT.rSda
+ FVtAArgQL8pt_St3q2TETMHgGm.DkESi4laNW8w2Rhw--
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic306.consmr.mail.ne1.yahoo.com with HTTP; Tue, 29 Jan 2019 22:43:44 +0000
+Received: from 189.144.134.5 (EHLO [192.168.1.69]) ([189.144.134.5])
+          by smtp415.mail.ne1.yahoo.com (Oath Hermes SMTP Server) with ESMTPA ID 385b7d8555b79750545f03b9a256f7f4
+          for <raymundo@vpconsultores.com.mx>;
+          Tue, 29 Jan 2019 22:43:42 +0000 (UTC)
+From: joanna caballero <joanna2401@yahoo.com.mx>
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Date: Tue, 29 Jan 2019 16:43:41 -0600
+Subject: Prueba
+Message-Id: <3E6A7A51-32CF-489B-B0AC-16F17AAD0D35@yahoo.com.mx>
+To: raymundo@vpconsultores.com.mx
+X-Mailer: iPhone Mail (16C101)
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Enviado desde mi iPhone [...] 
+ 
+ Content analysis details:   (1.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: yahoo.com.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: yahoo.com.mx]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit (joanna2401[at]yahoo.com.mx)
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             (joanna2401[at]yahoo.com.mx)
+  0.9 RCVD_NUMERIC_HELO      Received: contains an IP address used for HELO
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+X-Spam-Flag: NO
+
+
+
+Enviado desde mi iPhone

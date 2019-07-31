@@ -1,0 +1,235 @@
+Return-Path: <admonajusco@outlook.com>
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id 4DcYG3GOG10uOwwAFq4nlA
+	(envelope-from <admonajusco@outlook.com>); Tue, 02 Jul 2019 10:03:45 -0700
+Return-path: <admonajusco@outlook.com>
+Envelope-to: patricia@vpconsultores.com.mx,
+ raymundo@vpconsultores.com.mx
+Delivery-date: Tue, 02 Jul 2019 10:03:45 -0700
+Received: from mail-oln040092010014.outbound.protection.outlook.com ([40.92.10.14]:23264 helo=NAM04-CO1-obe.outbound.protection.outlook.com)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <admonajusco@outlook.com>)
+	id 1hiMBw-003fKQ-NA; Tue, 02 Jul 2019 10:03:45 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=rj6f5md0rZAaQfJ54PBz0Oz+kSK70Tkm0+eA1GBHuJU=;
+ b=ipcyP4M587xDHgaAXPaRhEzyr5fx7usWKCUVM4PfLHLk2AlPks3i66JNbDTLiMNUn0MLpea7i8i2xRX1sk2JNB8Zj0bSWQ0qrQAaqjMCMu8GFmVsriPDQq/ApnjGon2GY5tlLO651ID+KjHNnNjq6bZnaqwtTXArNq23h7k47LTbJ9LAkLLO1nQok2lChgCq29DFQ+BkJyLd82LEtWgUN6YE+y5QlcPc9GcJWInsQmArCTpHXClU86Ylx6c8oM5sT1Yvf9LpRchbV66P+M6Z/uaqNIlQX4PtleMzfXBk62SbtuqExDw8tb4sPPGdv6oLe8Y48KxFbyhi89PoIRfzVw==
+Received: from BN3NAM04FT028.eop-NAM04.prod.protection.outlook.com
+ (10.152.92.51) by BN3NAM04HT099.eop-NAM04.prod.protection.outlook.com
+ (10.152.92.195) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.2032.15; Tue, 2 Jul
+ 2019 17:02:31 +0000
+Received: from MN2PR14MB2605.namprd14.prod.outlook.com (10.152.92.59) by
+ BN3NAM04FT028.mail.protection.outlook.com (10.152.92.178) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.2032.15 via Frontend Transport; Tue, 2 Jul 2019 17:02:31 +0000
+Received: from MN2PR14MB2605.namprd14.prod.outlook.com
+ ([fe80::71e5:4a8f:bea:4c34]) by MN2PR14MB2605.namprd14.prod.outlook.com
+ ([fe80::71e5:4a8f:bea:4c34%7]) with mapi id 15.20.2032.019; Tue, 2 Jul 2019
+ 17:02:31 +0000
+From: Administradora Ajusco <admonajusco@outlook.com>
+To: =?iso-8859-1?Q?Patricia_P=E9rez?= <patricia@vpconsultores.com.mx>,
+	"samanthadaycisneros@live.com.mx" <samanthadaycisneros@live.com.mx>
+CC: "raymundo@vpconsultores.com.mx" <raymundo@vpconsultores.com.mx>
+Subject: PAGO DE IMPUESTOS DEL MES DE JUNIO Y NOMINA 1ra. QUINCENA DE JULIO
+Thread-Topic: PAGO DE IMPUESTOS DEL MES DE JUNIO Y NOMINA 1ra. QUINCENA DE
+ JULIO
+Thread-Index: AQHVMPfvHyEmEgcJpkesPO93faV36A==
+Date: Tue, 2 Jul 2019 17:02:30 +0000
+Message-ID: <MN2PR14MB260548C5BFFF3692BD45272DB4F80@MN2PR14MB2605.namprd14.prod.outlook.com>
+References: <MN2PR14MB260596730575182551374EB1B4F80@MN2PR14MB2605.namprd14.prod.outlook.com>
+In-Reply-To: <MN2PR14MB260596730575182551374EB1B4F80@MN2PR14MB2605.namprd14.prod.outlook.com>
+Accept-Language: es-MX, en-US
+Content-Language: es-MX
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-incomingtopheadermarker: OriginalChecksum:CC3C0C314BE8A7702BA72C5E0F048642D8BC847894CAA596A55DD350A779BFC0;UpperCasedChecksum:7CD8432AA7BAC3540C7550F847C8D3032B7AA804A8F6ED4B55898CB8FB147070;SizeAsReceived:7076;Count:43
+x-tmn: [0/nuXiLXbN/XKAzIX0fyTR+fxgSZfHAaCZQcStCZP5l+sUoJTWhQu1UCY2XDdky8]
+x-ms-publictraffictype: Email
+x-incomingheadercount: 43
+x-eopattributedmessage: 0
+x-ms-exchange-slblob-mailprops: KvCwBtHRxSnYi0EGJMo2+clijNc46U3c4WRP3NYz90p6Zx35+jmxgK7BBYzGhWGysewHlh+byPmvyMK6eG3dnv/CXGiIIfUAR7IJ5ys1dTw2rnQDUwpzxbjNZOkTf5rnW6iI+jCIRBZIyfe4Mw788Jq3sQhT2soLw5WVxgEYnzF90S4TaDYmSohRaqqZqmaXvnMrCwj/O773RBvj3BjjdD13xAd2YmSrfLub7U8yu0cRTf7M72uhPsNCm+ys7VkzuvS2PVQC+JsyyXooNO0RpvylJoSPL/dmWq+JHQCB3paWJDOfwGP7n4BTAChYmg1D11av3IgHsCkwyw4R1P3TpIqfLVlYtSKk8uK77bYMKOQbiKA0vkk8PV9sm37lJyOn8+RCWXSdAmTXKUkFzx7nt1/MgFc5PoM8MpRXQFM1jyg+Iv7GmpYvpjoyseMmYb//fQliT+cO+s7Rh5oM39Jw3JBZ5Kc2bHpG8gxlD9z3UmVco+xMqPOMxq+hit0HvrGYAsq36CbqPuENJ7TWkFHI9v+4ZqH489AtU02rFJucRum8+iSqRG+VAHK+frMSiDrT5kHB7u4sbaWthcHfZUBfVz+hIJ4Ve3tf1M8nwgN285MzG9Vj+UYmbdBsR66u+FlJ5jWiu2xVHCuALW2lTyWza+pLHFFI9dVD
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(2390118)(5050001)(7020095)(20181119110)(201702061078)(5061506573)(5061507331)(1603103135)(2017031320274)(201702181274)(2017031322404)(2017031323274)(2017031324274)(1601125500)(1603101475)(1701031045);SRVR:BN3NAM04HT099;
+x-ms-traffictypediagnostic: BN3NAM04HT099:
+x-microsoft-antispam-message-info: Nrj/WjIKO2Nw7QSyLGIhasv1OHNpIGMZXcYri2zRyS0OqLM/vrTC8ghrSrOJZhCmQ4de5XvxW5ssx8H2xrfkQTE1J/WYsliqiVRiY2+JZMaHTBnBbYAk1r2N67zN8nCg/+iEMYWUhYJRSLMmQOQOScWCqIFWwFgoAlnagcobr6yMuQkVNgzX7FGmUaWf6LrI
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR14MB260548C5BFFF3692BD45272DB4F80MN2PR14MB2605namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 28fabece-e474-4cab-cdbc-08d6ff0f11f7
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-originalarrivaltime: 02 Jul 2019 17:02:30.9359
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN3NAM04HT099
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Hola Contadora / Contador Me comenta Samy que sin problema
+    los impuestos los paga en la fechas como se viene pagando (la contabilidad
+    se entrega el día viernes antes de las 12) En cuestión de la nomina me solicita
+    samy si puede apoyarla en tenerla el día jueves por favor. 
+ 
+ Content analysis details:   (-0.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: outlook.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: outlook.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider (admonajusco[at]outlook.com)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+--_000_MN2PR14MB260548C5BFFF3692BD45272DB4F80MN2PR14MB2605namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hola Contadora / Contador
+
+Me comenta Samy que sin problema los impuestos los paga en la fechas como s=
+e viene pagando (la contabilidad se entrega el d=EDa viernes antes de las 1=
+2)
+
+En cuesti=F3n de la nomina me  solicita samy si puede apoyarla en tenerla e=
+l d=EDa jueves por favor.
+
+Gracias
+
+Saludos
+
+________________________________
+De: Administradora Ajusco
+Enviado: martes, 2 de julio de 2019 09:35 a. m.
+Para: Patricia P=E9rez; samanthadaycisneros@live.com.mx
+Asunto: PAGO DE IMPUESTOS DEL MES DE JUNIO
+
+Buenos d=EDas contadora
+
+Podr=EDa apoyarme en enviarnos las lineas de captura del pago de los pr=F3x=
+imos impuestos para poder pagarlos este jueves 4 por favor.
+
+Muchas Gracias
+
+Lucero
+
+--_000_MN2PR14MB260548C5BFFF3692BD45272DB4F80MN2PR14MB2605namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+Hola Contadora / Contador</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+Me comenta Samy que sin problema los impuestos los paga en la fechas como s=
+e viene pagando (la contabilidad se entrega el d=EDa viernes antes de las 1=
+2)</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+En cuesti=F3n de la nomina me&nbsp; solicita samy si puede apoyarla en tene=
+rla el d=EDa jueves por favor.</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+Gracias&nbsp;</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+Saludos&nbsp;</div>
+<div>
+<div id=3D"appendonsend"></div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" co=
+lor=3D"#000000" style=3D"font-size:11pt"><b>De:</b> Administradora Ajusco<b=
+r>
+<b>Enviado:</b> martes, 2 de julio de 2019 09:35 a. m.<br>
+<b>Para:</b> Patricia P=E9rez; samanthadaycisneros@live.com.mx<br>
+<b>Asunto:</b> PAGO DE IMPUESTOS DEL MES DE JUNIO </font>
+<div>&nbsp;</div>
+</div>
+<div dir=3D"ltr">
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Buenos d=EDas contadora</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Podr=EDa apoyarme en enviarnos las lineas de captura del pago de los pr=F3x=
+imos impuestos para poder pagarlos este jueves 4 por favor.</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Muchas Gracias&nbsp;</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Lucero&nbsp;</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_MN2PR14MB260548C5BFFF3692BD45272DB4F80MN2PR14MB2605namp_--

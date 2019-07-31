@@ -1,0 +1,766 @@
+Return-Path: <v-befhnfa_bgklkmcoeb_fieckpka_fieckpka_a@bounce.ve-por-mas.mkt5804.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id 8GwVKbSFsFw+DSQAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Fri, 12 Apr 2019 05:33:56 -0700
+Return-path: <v-befhnfa_bgklkmcoeb_fieckpka_fieckpka_a@bounce.ve-por-mas.mkt5804.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Fri, 12 Apr 2019 05:33:56 -0700
+Received: from mail5206.ve-por-mas.mkt5804.com ([208.85.55.101]:35987)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <v-befhnfa_bgklkmcoeb_fieckpka_fieckpka_a@bounce.ve-por-mas.mkt5804.com>)
+	id 1hEvNR-009y32-NQ
+	for raymundo@vpconsultores.com.mx; Fri, 12 Apr 2019 05:33:56 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=spop1024; d=estrategia.vepormas.mx;
+ h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe; i=info@estrategia.vepormas.mx;
+ bh=iPIj1780ryr8ca2n9bu+0LGiLnE=;
+ b=hW/mnBcYfB72xKZL5+tuCtGiHlLv1biNpeT75zb38XBlKmsANJueUyeeSZIIupYFeH7zv3Ysq5y3
+   mesI+nS7B4ksQHY0hWrZqQ2VBLGUyVFLqJRczh94IlmYae46zO2pqEjJp/Wi1S9kyUAj078lEwOH
+   UTlPdV4fezBy1mQDgWE=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=spop1024; d=estrategia.vepormas.mx;
+ b=AQpDH32eMe/h3tfWVK879eu+GX4Zv8F7VG7y1diEkKkOL/vp0gMCCMbXOvTgNNYQohuhy8f8XLjn
+   cEs0AL1Mvav1cFlo7VRdhN3k0WXQ6TRWQxn8+3mR+n4wyVmdxQBZLxOscHJFurghiLi4WybiPuI1
+   /yE1aZA6RCheHgh8NkY=;
+Received: by mail5206.ve-por-mas.mkt5804.com id hm22r219if4f for <raymundo@vpconsultores.com.mx>; Fri, 12 Apr 2019 12:33:11 +0000 (envelope-from <v-befhnfa_bgklkmcoeb_fieckpka_fieckpka_a@bounce.ve-por-mas.mkt5804.com>)
+Date: Fri, 12 Apr 2019 12:33:11 +0000 (GMT)
+From: Ve por Mas LABORATORIO BURSATIL <info@estrategia.vepormas.mx>
+Reply-To: info@estrategia.vepormas.mx
+To: raymundo@vpconsultores.com.mx
+Message-ID: <813639198.320614881555072391533.JavaMail.app@rbg52.atlis1>
+Subject: =?utf-8?B?VHUgUmVzdW1lbiBEaWFyaW8gZGUgQW7DoWxpc2lzIEJYKw==?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_88636_1631088585.1555072390378"
+x-mid: 21331280
+X-CSA-Complaints: whitelist-complaints@eco.de
+x-rpcampaign: sp21331280
+Feedback-ID: pod5_43026_21331280_1480765344:pod5_43026:ibmsilverpop
+x-job: 21331280
+x-orgId: 43026
+List-Unsubscribe: <mailto:v-befhnfa_bgklkmcoeb_fieckpka_fieckpka_a@bounce.ve-por-mas.mkt5804.com?subject=Unsubscribe>
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  &lt;h5&gt;Económico &lt;/h5&gt; &lt;p&gt;&lt;strong&gt;Fed&lt;/strong&gt;.
+    Las minutas (ayer) revel... ------- Grupo Financiero Ve Por Mas ANÁLISIS
+    Y ESTRATEGIA | ALERTA EN TIEMPO REAL 11 Abril, 20
+ 
+ Content analysis details:   (0.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vepormas.mx]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vepormas.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+X-Spam-Flag: NO
+
+------=_Part_88636_1631088585.1555072390378
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+&lt;h5&gt;Econ=C3=B3mico=C2=A0&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Fed&lt;/strong&gt;. Las minutas (ayer) revel...
+
+-------
+Grupo Financiero Ve Por Mas
+AN=C3=81LISIS Y ESTRATEGIA | ALERTA EN TIEMPO REAL
+
+11 Abril, 2019 - Econom=C3=ADa
+Publicado por:  Equipo de An=C3=A1lisis=20
+
+CLIMA DE APERTURA: Despejado...
+
+&lt;h5&gt;Econ=C3=B3mico=C2=A0&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Fed&lt;/strong&gt;. Las minutas (ayer) revelaron que=
+, ante riesgos para el crecimiento econ=C3=B3mico, la mayor=C3=ADa de los m=
+iembros esperan que la tasa de inter=C3=A9s no cambie en 2019; algunos, con=
+siderar=C3=ADan subir las tasas modestamente si la econom=C3=ADa se comport=
+a en l=C3=ADnea con sus estimados. Destacar=C3=A1n hoy comentarios sobre el=
+ futuro de la pol=C3=ADtica monetaria que el Presidente de la Fed de St. Lo=
+uis y el Vicepresidente del organismo realicen este d=C3=ADa (votantes).&lt=
+;/p&gt;
+&lt;p&gt;&lt;strong&gt;Guerra Comercial&lt;/strong&gt;. El Srio. del Tesoro=
+ de EUA apunt=C3=B3 avances en la negociaci=C3=B3n con China, como establec=
+er mecanismos para supervisar que las partes act=C3=BAen conforme a lo acor=
+dado. Al ser un punto =C3=A1lgido, genera optimismo sobre un posible acuerd=
+o en el futuro pr=C3=B3ximo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Brexit&lt;/em&gt;&lt;/strong&gt;. La UE ac=
+ord=C3=B3 extender hasta el 31 de octubre la fecha de salida del Reino Unid=
+o, buscando evitar una salida dura. Se extiende la incertidumbre sobre el p=
+roceso. La libra se apreci=C3=B3 0.3% frente al d=C3=B3lar ayer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;T-MEC&lt;/strong&gt;. Se aprob=C3=B3 en comisiones d=
+e la C=C3=A1mara de Diputados la reforma laboral; Dem=C3=B3cratas (mayor=C3=
+=ADa en C=C3=A1mara Baja en EUA) hab=C3=ADan condicionado la ratificaci=C3=
+=B3n del T-MEC a cambios en materia laboral en M=C3=A9xico.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Banxico&lt;/strong&gt;&lt;strong&gt;. &lt;/strong&gt=
+;Ser=C3=A1 relevante para el mercado de dinero de M=C3=A9xico, la publicaci=
+=C3=B3n de las minutas de la =C3=BAltima reuni=C3=B3n de Banxico, esta ma=
+=C3=B1ana.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h5&gt;Burs=C3=A1til&lt;/h5&gt;
+&lt;p&gt;Los futuros en EUA apuntan a una sesi=C3=B3n positiva tras los com=
+entarios del Secretario del Tesoro, Steve Mnuchin, respecto de los acuerdos=
+ preliminares entre Estados Unidos y China en temas comerciales, sumado al =
+impulso que recibi=C3=B3 ayer el mercado tras la publicaci=C3=B3n de las Mi=
+nutas de la FED.&lt;/p&gt;
+&lt;p&gt;En Europa, los inversionistas se mantienen atentos al desarrollo d=
+el Brexit con la autorizaci=C3=B3n del 31 de octubre como nueva fecha l=C3=
+=ADmite para que Reino Unido abandone la UE.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Positivo&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;VINTE: &lt;/strong&gt;Recibi=C3=B3 una carta de int=
+er=C3=A9s no vinculante de suscripci=C3=B3n de un paquete de hasta U$$20mn,=
+ a 27.20 pesos por acci=C3=B3n, sujeto a la previa aprobaci=C3=B3n de la As=
+amblea por parte de una instituci=C3=B3n financiera europea.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DISNEY: &lt;/strong&gt;Dar=C3=ADa a conocer hoy det=
+alles de su nueva plataforma de streaming Disney+ al mercado. El contenido =
+base de dicha plataforma ser=C3=A1 principalmente, contenido propio apoyado=
+ con nuevas producciones.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Neutral&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BANCO COMPARTAMOS:&lt;/strong&gt; Recibi=C3=B3 la r=
+atificaci=C3=B3n en Calificaci=C3=B3n de Viabilidad (VR) riesgo de contrapa=
+rte 'IDRs' (Issuer Default Ratings) en Escala Global de corto y largo plazo=
+, as=C3=AD como la ratificaci=C3=B3n de calificaciones en Escala Nacional, =
+con perspectiva Estable para ambas, por la agencia calificadora FITCH Ratin=
+gs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Negativo&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FRESNILLO:&lt;/strong&gt; Su producci=C3=B3n de pla=
+ta durante el 1T19 cay=C3=B3 14.8% a/a, y de 8.8% en oro. Mantiene sin camb=
+ios su expectativa de producci=C3=B3n para este a=C3=B1o. Se aprob=C3=B3 el=
+ proyecto de Juanicipio, a iniciar producci=C3=B3n a finales de 2020.&lt;/l=
+i&gt;
+&lt;li&gt;&lt;strong&gt;ALSEA: &lt;/strong&gt;Recibe degradaci=C3=B3n de ca=
+lificaci=C3=B3n de HR Ratings de AA-(mex) a A+(mex), su perspectiva pas=C3=
+=B3 de observaci=C3=B3n negativa a estable, debido al incremento en los niv=
+eles de deuda.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TESLA:&lt;/strong&gt; Los t=C3=ADtulos de la compa=
+=C3=B1=C3=ADa caen previo a la apertura de mercado hasta 3.5% luego de que =
+se diera a conocer que el proyecto de la f=C3=A1brica para producir bater=
+=C3=ADas de litio se detuvo. La preocupaci=C3=B3n de los inversionistas se =
+produce ante las se=C3=B1ales de una menor demanda de autom=C3=B3viles de l=
+a compa=C3=B1=C3=ADa.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h5&gt;Cambios&lt;/h5&gt;
+&lt;p&gt;El d=C3=ADa de ayer en su comparecencia ante el congreso, el gober=
+nador de Banxico menciono que el entorno actual sigue presentando important=
+es riesgos de mediano y largo plazo que podr=C3=ADan afectar las condicione=
+s macroecon=C3=B3micas del pa=C3=ADs, su capacidad de crecimiento y el proc=
+eso de formaci=C3=B3n de precios, por lo que es necesario seguir con una po=
+l=C3=ADtica monetaria y macroecon=C3=B3mica prudente y firme, e impulsar me=
+didas que propicien confianza y certidumbre para la inversi=C3=B3n, y una m=
+ayor productividad=C2=94.&lt;/p&gt;
+&lt;p&gt;Las minutas de la FED no dan ninguna se=C3=B1al nueva relevante, e=
+ incluso en l=C3=ADnea con los riesgos globales de desaceleraci=C3=B3n deja=
+ la puerta abierta a un posible &lt;em&gt;=C2=93hike=C2=94&lt;/em&gt; hacia=
+ finales de a=C3=B1o, sin embargo el mercado no reacciona ante esto por lo =
+que la tasa de 10y se mantiene sin cambios.&lt;/p&gt;
+&lt;p&gt;El secretario Mnuchin mencion=C3=B3 avances importantes sobre las =
+negociaciones entre China y EU, en espec=C3=ADfico sobre el mecanismo bajo =
+el cual ambas naciones podr=C3=A1n asegurarse del cumplimiento del acuerdo.=
+&lt;/p&gt;
+&lt;p&gt;El Brexit logra acuerdos para postergarse hasta Octubre de este a=
+=C3=B1o.&lt;/p&gt;
+
+Leer nota completa:  http://links.ve-por-mas.mkt5804.com/ctt?kn=3D147&ms=3D=
+MjEzMzEyODAS1&r=3DOTczNjk0Njg0ODES1&b=3D2&j=3DMTQ4MDc2NTM0NAS2&mt=3D2&rj=3D=
+MTQ4MDc2NTM0NAS2&rt=3D0=20
+
+-------
+El =C3=A1rea de an=C3=A1lisis y estrategia de BX+ publica peri=C3=B3dicamen=
+te documentos de investigaci=C3=B3n burs=C3=A1til y de mercados. Cont=C3=A1=
+ctate con nuestros especialistas para aprovechar estos cambios en el mercad=
+o a tu favor.
+
+-------
+Este mensaje ha sido enviado a raymundo@vpconsultores.com.mx. Para modifica=
+r sus preferencias de suscripci=C3=B3n a An=C3=A1lisis y Estrategia BX+ hag=
+a clic aqu=C3=AD.
+
+REVELACI=C3=93N DE INFORMACI=C3=93N DE REPORTES DE AN=C3=81LISIS DE CASA DE=
+ BOLSA VE POR M=C3=81S, S.A. DE C.V., GRUPO FINANCIERO VE POR M=C3=81S, des=
+tinado a los clientes de CONFORME AL ART=C3=8DCULO 50 DE LAS Disposiciones =
+de car=C3=A1cter general aplicables a las casas de bolsa e instituciones de=
+ cr=C3=A9dito en materia de servicios de inversi=C3=B3n (las "Disposiciones=
+").
+
+Grupo Financiero Ve por M=C3=A1s S.A. de C.V. con domicilio en Av. Paseo de=
+ la Reforma 365, Col. Cuauht=C3=A9moc, Delegaci=C3=B3n Cuauht=C3=A9moc, C.P=
+. 06500, M=C3=A9xico D.F., le informa que sus datos personales ser=C3=A1n t=
+ratados conforme a nuestro Aviso de Privacidad. Para ser eliminado de nuest=
+ra distribuci=C3=B3n da clic aqu=C3=AD. https://www.pages05.net/vepormas/pr=
+eferencias/OptOut?spMailingID=3D21331280&spUserID=3DOTczNjk0Njg0ODES1&spJob=
+ID=3DMTQ4MDc2NTM0NAS2&spReportId=3DMTQ4MDc2NTM0NAS2=20
+
+                     =20
+
+
+------=_Part_88636_1631088585.1555072390378
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>         <title>Newsletter</title>         <style type=3D"text/=
+css">
+#outlook a{padding:0;}
+.ReadMsgBody{width:100%;}
+.ExternalClass{width:100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font,=
+ .ExternalClass td, .ExternalClass div {line-height: 100%;}
+body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%=
+;}
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;}
+img{-ms-interpolation-mode:bicubic;}
+body{margin:0; padding:0;}
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:=
+none;}
+table{border-collapse:collapse !important;}
+body{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+ @media screen and (max-width: 525px) {
+=09     table[class=3D"table"], td[class=3D"cell"] {
+=09          width: 100% !important;
+=09     }
+=09     table[class=3D"hide"], img[class=3D"hide"], td[class=3D"hide"], spa=
+n[class=3D"hide"] {
+=09          display: none !important;
+=09     }
+=09    =20
+=09    =20
+=09    =20
+=09    =20
+=09     td[class=3D"header"] {
+=09          width: 375px!important;
+=09     }
+=09     td[class=3D"ribbon"] {
+=09     =09  padding-left: 5px !important;
+=09          width: 120px!important;
+=09     }
+=09     td[class=3D"ribbon"] span { font-size: 11px!important; }
+=09    =20
+=09    =20
+=09     td[class=3D"title"] {
+=09     =09padding-left: 5px !important;
+=09        width: 390px!important =20
+=09     }
+=09     td[class=3D"title"] a { font-size: 12px !important; }
+=09     td[class=3D"titlep"] {
+=09          width: 390px!important;
+=09     }
+=09     td[class=3D"text"] {
+=09          padding-left: 5px !important;
+=09          padding-right: 5px !important;
+=09     }
+td[class=3D"blocklist"] {
+=09          padding-left: 5px !important;
+=09          padding-right: 5px !important;
+=09     }
+=09    =20
+=09    =20
+=09    =20
+=09     table[class=3D"tablecontent"], td[class=3D"tablecontent"]{
+=09=09     width:100% !important;
+=09     }
+=09    =20
+=09    =20
+=09    =20
+=09=09table[class=3D"promotable"], td[class=3D"promocell"] {
+=09          width: 325px !important;
+=09     }
+=09=09td[class=3D"footer"] {
+=09          width: 100% !important;
+=09          padding-left: 5px!important;
+=09          padding-right: 5px!important;
+=09     }
+=09=09
+=09     img[class=3D"divider"] {
+=09=09      height: 1px !important;
+=09=09 }
+=09=09 td[class=3D"logocell"] {
+=09=09=09padding-left: 5px !important;
+=09=09=09width: 70px !important;
+=09=09 }
+=09     img[id=3D"screenshot"] {
+=09          width: 325px !important;
+=09          height: 127px !important;
+=09     }
+=09=09img[class=3D"galleryimage"] {
+=09=09=09  width: 53px !important;
+=09          height: 53px !important;
+=09=09}
+=09=09p[class=3D"reminder"] {
+=09=09=09font-size: 11px !important;
+=09=09}
+=09=09h4[class=3D"secondary"] {
+=09=09=09line-height: 22px !important;
+=09=09=09margin-bottom: 15px !important;
+=09=09=09font-size: 18px !important;
+=09=09}
+=09}
+
+
+</style>     </head>     <body marginwidth=3D"0" marginheight=3D"0" bgcolor=
+=3D"#f6f6f6" topmargin=3D"0" leftmargin=3D"0" style=3D"-webkit-font-smoothi=
+ng: antialiased; background:#f6f6f6;-webkit-text-size-adjust:none;-ms-text-=
+size-adjust:100%;height:100% !important;width:100% !important; "><p><span s=
+tyle=3D"display:none!important; font-size: 1px;" class=3D"preheader">&lt;h5=
+&gt;Econ=C3=B3mico=C2=A0&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Fed&lt;/strong&gt;. Las minutas (ayer) revel...</spa=
+n></span></p>         <table width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" bgcolor=3D"#f6f6f6">                              <tr> =
+                    <td width=3D"100%" bgcolor=3D"#f6f6f6"><table width=3D"=
+700" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" clas=
+s=3D"table">                                                      <tr>     =
+                            <td width=3D"700" class=3D"cell"><table width=
+=3D"700" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"table"> =
+                                                                           =
+  <tr>                                             <td align=3D"center" hei=
+ght=3D"41" style=3D"font-family:Arial, Helvetica, sans-serif; font-size:10p=
+x; color:#666" class=3D"hide"><center>Tu an&aacute;lisis diario BX+. Haz cl=
+ic <a name=3D"webVersion" style=3D"color:#666; text-decoration:underline;" =
+xt=3D"SPCLICKTOVIEW" href=3D"http://links.ve-por-mas.mkt5804.com/servlet/Ma=
+ilView?ms=3DMjEzMzEyODAS1&r=3DOTczNjk0Njg0ODES1&j=3DMTQ4MDc2NTM0NAS2&mt=3D1=
+&rt=3D0" target=3D"_blank">aqu&iacute;</a> para ver la versi&oacute;n web.<=
+/center></td>                                         </tr>                =
+                                                      </table></td>        =
+                     </tr>                             <tr>                =
+                 <td width=3D"700" bgcolor=3D"#343e48" class=3D"cell"><tabl=
+e width=3D"700" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"t=
+able">                                                                     =
+         <tr height=3D"10">                                             <td=
+ width=3D"10" class=3D"hide"><img width=3D"10" height=3D"10" alt=3D"" src=
+=3D'http://contentz.mkt5804.com/ra/2019/43026/04/21331280/corner-left-top2.=
+png'  style=3D"display:block;"    /></td>                                  =
+           <td width=3D"10" class=3D"hide"></td>                           =
+                  <td width=3D"660" class=3D"tablecontent"></td>           =
+                                  <td width=3D"10" class=3D"hide"></td>    =
+                                         <td width=3D"10" class=3D"hide"><i=
+mg width=3D"10" height=3D"10" alt=3D"" src=3D'http://contentz.mkt5804.com/r=
+a/2019/43026/04/21331280/corner-right-top2.png'  style=3D"display:block;"  =
+  /></td>                                         </tr>                    =
+                                                  </table></td>            =
+                 </tr>                             <tr>                    =
+             <td width=3D"700" bgcolor=3D"#343e48" class=3D"cell"><table wi=
+dth=3D"700" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"table=
+">                                                                         =
+     <tr>                                             <td width=3D"20" clas=
+s=3D"hide"></td>                                             <td width=3D"6=
+60" class=3D"tablecontent"><table width=3D"660" cellspacing=3D"0" cellpaddi=
+ng=3D"0" border=3D"0" class=3D"tablecontent">                              =
+                                                                        <tr=
+ height=3D"10">                                                         <td=
+ width=3D"144" rowspan=3D"4" class=3D"logocell"><a name=3D"imgLogo" style=
+=3D"text-decoration:none; underline:none; border:0px"  href=3D"http://links=
+.ve-por-mas.mkt5804.com/ctt?kn=3D7&ms=3DMjEzMzEyODAS1&r=3DOTczNjk0Njg0ODES1=
+&b=3D0&j=3DMTQ4MDc2NTM0NAS2&mt=3D1&rt=3D0" target=3D"_blank"><img width=3D"=
+144" height=3D"75" src=3D'http://contentz.mkt5804.com/ra/2019/43026/04/2133=
+1280/banner-top2.png'  alt=3D"Grupo Financiero Ve Por Mas" style=3D"display=
+:block; text-decoration:none; underline:none; border:0px"    title=3D"Grupo=
+ Financiero Ve Por Mas" /></a></td>                                        =
+             </tr>                                                     <tr>=
+                                                         <td width=3D"144">=
+</td>                                                         <td width=3D"=
+20"></td>                                                         <td width=
+=3D"421" valign=3D"middle" class=3D"titlep" style=3D"text-align:right; font=
+-family:Arial, sans-serif;font-size:13px;color:#C3D500; font-weight:normal;=
+text-decoration:none; line-height:35px"><span class=3D"hide" style=3D"font-=
+family:Georgia, Arial, sans-serif;font-size:13px;color:#C3D500;font-weight:=
+bold; font-style:italic; text-decoration:none; line-height:35px">An&aacute;=
+lisis y Estrategia</span>&nbsp;|&nbsp;RESUMEN DIARIO</td>                  =
+                                       <td width=3D"20"></td>              =
+                                           <td width=3D"129" class=3D"logoc=
+ell"><a name=3D"logo" style=3D"text-decoration:none; underline:none; border=
+:0px"  href=3D"http://links.ve-por-mas.mkt5804.com/ctt?kn=3D12&ms=3DMjEzMzE=
+yODAS1&r=3DOTczNjk0Njg0ODES1&b=3D0&j=3DMTQ4MDc2NTM0NAS2&mt=3D1&rt=3D0" targ=
+et=3D"_blank"><img width=3D"129" height=3D"35" src=3D'http://contentz.mkt58=
+04.com/ra/2019/43026/04/21331280/logo-newsletter2.png'  alt=3D"Grupo Financ=
+iero Ve Por Mas" style=3D"display:block; text-decoration:none; underline:no=
+ne; border:0px"    title=3D"Grupo Financiero Ve Por Mas" /></a></td>       =
+                                              </tr>                        =
+                             <tr>                                          =
+               <td bgcolor=3D"#343e48" height=3D"20"></td>                 =
+                                    </tr>                                  =
+                                                            </table></td>  =
+                                           <td width=3D"20" class=3D"hide">=
+</td>                                         </tr>                        =
+                                              </table></td>                =
+             </tr>                             <tr>                        =
+         <td width=3D"700" bgcolor=3D"#D2D3D4" class=3D"cell"><table width=
+=3D"700" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"table"> =
+                                                                           =
+  <tr>                                             <td width=3D"20" bgcolor=
+=3D"#778692" height=3D"51" class=3D"hide"></td>                            =
+                 <td width=3D"175" bgcolor=3D"#778692" height=3D"51" class=
+=3D"ribbon"><span style=3D"font-family:Georgia, Arial, Helvetica, sans-seri=
+f;font-size:14px;color:#C3D500;font-weight:bold;text-decoration:none;font-s=
+tyle: italic">NOTA DESTACADA</span></td>                                   =
+          <td width=3D"10" height=3D"51" class=3D"hide"></td>              =
+                               <td width=3D"10" height=3D"51" class=3D"hide=
+"></td>                                             <td width=3D"465" heigh=
+t=3D"51" class=3D"title"><a href=3D"http://links.ve-por-mas.mkt5804.com/ctt=
+?kn=3D143&ms=3DMjEzMzEyODAS1&r=3DOTczNjk0Njg0ODES1&b=3D0&j=3DMTQ4MDc2NTM0NA=
+S2&mt=3D2&rj=3DMTQ4MDc2NTM0NAS2&rt=3D0" style=3D"font-family:Georgia, Arial=
+, Helvetica, sans-serif;font-size:14px;color:#343e48;font-weight:bold;text-=
+decoration:none; font-style: italic"  name=3D"tituloPost">CLIMA DE APERTURA=
+: Despejado...</a></span></td>                                             =
+<td width=3D"20" height=3D"51"></td>                                       =
+  </tr>                                                                    =
+  </table></td>                             </tr>                          =
+   <tr>                                 <td bgcolor=3D"#F3F3F3" height=3D"1=
+"></td>                             </tr>                             <tr> =
+                                <td bgcolor=3D"#FFFFFF" height=3D"30"></td>=
+                             </tr>                             <tr>        =
+                         <td width=3D"700" bgcolor=3D"#FFFFFF" class=3D"cel=
+l"><table width=3D"700" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" cl=
+ass=3D"table">                                                             =
+                 <tr>                                             <td width=
+=3D"20" class=3D"hide"></td>                                             <t=
+d width=3D"660" class=3D"tablecontent"><table width=3D"660" cellspacing=3D"=
+0" cellpadding=3D"0" border=3D"0" class=3D"tablecontent">                  =
+                                                                           =
+         <tr>                                                         <td w=
+idth=3D"430" valign=3D"top" style=3D"text-align:left;" class=3D"tableconten=
+t"><table width=3D"430" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" cl=
+ass=3D"tablecontent">                                                      =
+                                                                        <tr=
+>                                                                     <td c=
+lass=3D"text"><span style=3D"font-size:11px; font-weight:normal; font-famil=
+y:Arial; color:#aaaaaa;">11 Abril, 2019 - Econom=C3=ADa</span></span></td> =
+                                                                </tr>      =
+                                                           <tr>            =
+                                                         <td class=3D"text"=
+><span style=3D"font-size:11px; font-weight:normal; font-family:Arial; colo=
+r:#aaaaaa;">Publicado por:  Equipo de An=C3=A1lisis </span></span></td>    =
+                                                             </tr>         =
+                                                        <tr>               =
+                                                      <td height=3D"15"></t=
+d>                                                                 </tr>   =
+                                                              <tr>         =
+                                                            <td style=3D"li=
+ne-height:16px; font-family:Arial, sans-serif;font-size:12px;color:#212121;=
+font-weight:normal;text-decoration:none;" class=3D"text"><img src=3D"http:/=
+/estrategia.vepormas.com/wp-content/uploads/2019/04/21DIC_1630_BLOG_CONST-F=
+INANCIAL_3.png" width=3D"160" style=3D"text-align: left; padding-right:10px=
+!important" align=3D"left" class=3D"hide" />  <p style=3D"text-align:justif=
+y; line-height:16px; font-size:12px; font-weight:normal; margin:0px; paddin=
+g:0px"><h5>Econ=C3=B3mico=C2=A0</h5>
+<p><strong>Fed</strong>. Las minutas (ayer) revelaron que, ante riesgos par=
+a el crecimiento econ=C3=B3mico, la mayor=C3=ADa de los miembros esperan qu=
+e la tasa de inter=C3=A9s no cambie en 2019; algunos, considerar=C3=ADan su=
+bir las tasas modestamente si la econom=C3=ADa se comporta en l=C3=ADnea co=
+n sus estimados. Destacar=C3=A1n hoy comentarios sobre el futuro de la pol=
+=C3=ADtica monetaria que el Presidente de la Fed de St. Louis y el Vicepres=
+idente del organismo realicen este d=C3=ADa (votantes).</p>
+<p><strong>Guerra Comercial</strong>. El Srio. del Tesoro de EUA apunt=C3=
+=B3 avances en la negociaci=C3=B3n con China, como establecer mecanismos pa=
+ra supervisar que las partes act=C3=BAen conforme a lo acordado. Al ser un =
+punto =C3=A1lgido, genera optimismo sobre un posible acuerdo en el futuro p=
+r=C3=B3ximo.</p>
+<p><strong><em>Brexit</em></strong>. La UE acord=C3=B3 extender hasta el 31=
+ de octubre la fecha de salida del Reino Unido, buscando evitar una salida =
+dura. Se extiende la incertidumbre sobre el proceso. La libra se apreci=C3=
+=B3 0.3% frente al d=C3=B3lar ayer.</p>
+<p><strong>T-MEC</strong>. Se aprob=C3=B3 en comisiones de la C=C3=A1mara d=
+e Diputados la reforma laboral; Dem=C3=B3cratas (mayor=C3=ADa en C=C3=A1mar=
+a Baja en EUA) hab=C3=ADan condicionado la ratificaci=C3=B3n del T-MEC a ca=
+mbios en materia laboral en M=C3=A9xico.</p>
+<p><strong>Banxico</strong><strong>. </strong>Ser=C3=A1 relevante para el m=
+ercado de dinero de M=C3=A9xico, la publicaci=C3=B3n de las minutas de la =
+=C3=BAltima reuni=C3=B3n de Banxico, esta ma=C3=B1ana.</p>
+<p>&nbsp;</p>
+<h5>Burs=C3=A1til</h5>
+<p>Los futuros en EUA apuntan a una sesi=C3=B3n positiva tras los comentari=
+os del Secretario del Tesoro, Steve Mnuchin, respecto de los acuerdos preli=
+minares entre Estados Unidos y China en temas comerciales, sumado al impuls=
+o que recibi=C3=B3 ayer el mercado tras la publicaci=C3=B3n de las Minutas =
+de la FED.</p>
+<p>En Europa, los inversionistas se mantienen atentos al desarrollo del Bre=
+xit con la autorizaci=C3=B3n del 31 de octubre como nueva fecha l=C3=ADmite=
+ para que Reino Unido abandone la UE.</p>
+<p><strong>Positivo</strong></p>
+<ul>
+<li><strong>VINTE: </strong>Recibi=C3=B3 una carta de inter=C3=A9s no vincu=
+lante de suscripci=C3=B3n de un paquete de hasta U$$20mn, a 27.20 pesos por=
+ acci=C3=B3n, sujeto a la previa aprobaci=C3=B3n de la Asamblea por parte d=
+e una instituci=C3=B3n financiera europea.</li>
+<li><strong>DISNEY: </strong>Dar=C3=ADa a conocer hoy detalles de su nueva =
+plataforma de streaming Disney+ al mercado. El contenido base de dicha plat=
+aforma ser=C3=A1 principalmente, contenido propio apoyado con nuevas produc=
+ciones.</li>
+</ul>
+<p><strong>Neutral</strong></p>
+<ul>
+<li><strong>BANCO COMPARTAMOS:</strong> Recibi=C3=B3 la ratificaci=C3=B3n e=
+n Calificaci=C3=B3n de Viabilidad (VR) riesgo de contraparte 'IDRs' (Issuer=
+ Default Ratings) en Escala Global de corto y largo plazo, as=C3=AD como la=
+ ratificaci=C3=B3n de calificaciones en Escala Nacional, con perspectiva Es=
+table para ambas, por la agencia calificadora FITCH Ratings.</li>
+</ul>
+<p><strong>Negativo</strong></p>
+<ul>
+<li><strong>FRESNILLO:</strong> Su producci=C3=B3n de plata durante el 1T19=
+ cay=C3=B3 14.8% a/a, y de 8.8% en oro. Mantiene sin cambios su expectativa=
+ de producci=C3=B3n para este a=C3=B1o. Se aprob=C3=B3 el proyecto de Juani=
+cipio, a iniciar producci=C3=B3n a finales de 2020.</li>
+<li><strong>ALSEA: </strong>Recibe degradaci=C3=B3n de calificaci=C3=B3n de=
+ HR Ratings de AA-(mex) a A+(mex), su perspectiva pas=C3=B3 de observaci=C3=
+=B3n negativa a estable, debido al incremento en los niveles de deuda.</li>
+<li><strong>TESLA:</strong> Los t=C3=ADtulos de la compa=C3=B1=C3=ADa caen =
+previo a la apertura de mercado hasta 3.5% luego de que se diera a conocer =
+que el proyecto de la f=C3=A1brica para producir bater=C3=ADas de litio se =
+detuvo. La preocupaci=C3=B3n de los inversionistas se produce ante las se=
+=C3=B1ales de una menor demanda de autom=C3=B3viles de la compa=C3=B1=C3=AD=
+a.</li>
+</ul>
+<p>&nbsp;</p>
+<h5>Cambios</h5>
+<p>El d=C3=ADa de ayer en su comparecencia ante el congreso, el gobernador =
+de Banxico menciono que el entorno actual sigue presentando importantes rie=
+sgos de mediano y largo plazo que podr=C3=ADan afectar las condiciones macr=
+oecon=C3=B3micas del pa=C3=ADs, su capacidad de crecimiento y el proceso de=
+ formaci=C3=B3n de precios, por lo que es necesario seguir con una pol=C3=
+=ADtica monetaria y macroecon=C3=B3mica prudente y firme, e impulsar medida=
+s que propicien confianza y certidumbre para la inversi=C3=B3n, y una mayor=
+ productividad=C2=94.</p>
+<p>Las minutas de la FED no dan ninguna se=C3=B1al nueva relevante, e inclu=
+so en l=C3=ADnea con los riesgos globales de desaceleraci=C3=B3n deja la pu=
+erta abierta a un posible <em>=C2=93hike=C2=94</em> hacia finales de a=C3=
+=B1o, sin embargo el mercado no reacciona ante esto por lo que la tasa de 1=
+0y se mantiene sin cambios.</p>
+<p>El secretario Mnuchin mencion=C3=B3 avances importantes sobre las negoci=
+aciones entre China y EU, en espec=C3=ADfico sobre el mecanismo bajo el cua=
+l ambas naciones podr=C3=A1n asegurarse del cumplimiento del acuerdo.</p>
+<p>El Brexit logra acuerdos para postergarse hasta Octubre de este a=C3=B1o=
+.</p></p></span></td>                                                      =
+           </tr>                                                           =
+      <tr>                                                                 =
+    <td height=3D"15"></td>                                                =
+                 </tr>                                                     =
+            <tr>                                                           =
+          <td align=3D"left" class=3D"text"><table cellspacing=3D"0" cellpa=
+dding=3D"0" border=3D"0" style=3D"border-collapse:collapse!important">     =
+                                                                           =
+                                                                      <tr> =
+                                                                           =
+     <td bgcolor=3D"#343e48" align=3D"left" style=3D"padding-top:8px;paddin=
+g-bottom:8px;padding-right:18px;padding-left:18px;border-radius:3px"><a hre=
+f=3D"http://links.ve-por-mas.mkt5804.com/ctt?kn=3D144&ms=3DMjEzMzEyODAS1&r=
+=3DOTczNjk0Njg0ODES1&b=3D0&j=3DMTQ4MDc2NTM0NAS2&mt=3D2&rj=3DMTQ4MDc2NTM0NAS=
+2&rt=3D0" style=3D"font-size:13px;font-family:Helvetica,Arial,sans-serif;fo=
+nt-weight:normal;color:#ffffff;text-decoration:none" target=3D"_blank" name=
+=3D"LeerNoticia" >Leer m&aacute;s &rarr;</a></span></td>                   =
+                                                          </tr>            =
+                                                                           =
+                                                       </table></td>       =
+                                                          </tr>            =
+                                                     <tr>                  =
+                                                   <td height=3D"20"></td> =
+                                                                </tr>      =
+                                                                           =
+                                     </table></td>                         =
+                                <td width=3D"20" class=3D"hide"></td>      =
+                                                   <td width=3D"210" valign=
+=3D"top" style=3D"text-align:left;" class=3D"hide"><table width=3D"210" cel=
+lspacing=3D"0" cellpadding=3D"0" border=3D"0" bgcolor=3D"#D2D3D4">         =
+                                                                           =
+                                          <tr height=3D"10">               =
+                                                      <td style=3D"text-ali=
+gn:left;line-height:16px;" colspan=3D"3"></td>                             =
+                                    </tr>                                  =
+                               <tr>                                        =
+                             <td width=3D"10" style=3D"text-align:left;line=
+-height:16px;"></td>                                                       =
+              <td style=3D"text-align:left;line-height:13px; font-family:Ar=
+ial, sans-serif;font-size:11px;color:#343e48;font-weight:normal;text-decora=
+tion:none;">El &aacute;rea de an&aacute;lisis y estrategia de BX+ publica p=
+eri&oacute;dicamente documentos de investigaci&oacute;n burs&aacute;til y d=
+e mercados. Cont&aacute;ctate con nuestros especialistas.</td>             =
+                                                        <td width=3D"10" st=
+yle=3D"text-align:left;line-height:16px;"></td>                            =
+                                     </tr>                                 =
+                                <tr>                                       =
+                              <td align=3D"center" colspan=3D"3" style=3D"t=
+ext-align:center"><table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" a=
+lign=3D"center" style=3D"border-collapse:collapse!important">              =
+                                                                           =
+                                                             <tr height=3D"=
+10">                                                                       =
+          <td style=3D"text-align:left;line-height:16px;"></td>            =
+                                                                 </tr>     =
+                                                                        <tr=
+>                                                                          =
+       <td bgcolor=3D"#343e48" align=3D"left" style=3D"padding-top:8px;padd=
+ing-bottom:8px;padding-right:18px;padding-left:18px;border-radius:3px"><a n=
+ame=3D"ContactoEspecialista" style=3D"font-size:13px;font-family:Arial,sans=
+-serif;font-weight:normal;color:#ffffff;text-decoration:none"  href=3D"http=
+://links.ve-por-mas.mkt5804.com/ctt?kn=3D4&ms=3DMjEzMzEyODAS1&r=3DOTczNjk0N=
+jg0ODES1&b=3D0&j=3DMTQ4MDc2NTM0NAS2&mt=3D1&rt=3D0" target=3D"_blank">Contac=
+to</a></td>                                                                =
+             </tr>                                                         =
+                                                                           =
+          </table></td>                                                    =
+             </tr>                                                         =
+        <tr height=3D"10">                                                 =
+                    <td style=3D"text-align:left;line-height:16px;" colspan=
+=3D"3"></td>                                                               =
+  </tr>                                                                    =
+                                                  </table></td>            =
+                                         </tr>                             =
+                                                                 </table></=
+td>                                             <td width=3D"20" class=3D"h=
+ide"></td>                                         </tr>                   =
+                      <tr>                                             <td =
+width=3D"20" class=3D"hide"></td>                                          =
+   <td width=3D"660" class=3D"tablecontent">
+=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=
+=3D"660" class=3D"tablecontent">
+            =09=09=09=09<tbody>
+            =09=09=09=09<tr>
+=09=09=09                =09<td height=3D"1" colspan=3D"3" bgcolor=3D"#F3F3=
+F3"></td>
+=09=09=09                </tr>
+=09=09=09                <tr><td height=3D"20" colspan=3D"3"></td></tr>
+=09=09=09=09<tr>
+                            =09<td width=3D"660" valign=3D"top" style=3D"te=
+xt-align:left;">
+                                =09<span style=3D"font-size:11px; font-weig=
+ht:normal; font-family:Arial; color:#aaa;">Otros</span><br><a href=3D"http:=
+//links.ve-por-mas.mkt5804.com/ctt?kn=3D145&ms=3DMjEzMzEyODAS1&r=3DOTczNjk0=
+Njg0ODES1&b=3D0&j=3DMTQ4MDc2NTM0NAS2&mt=3D2&rj=3DMTQ4MDc2NTM0NAS2&rt=3D0" n=
+ame=3D"LeerNoticia2"  target=3D"_blank" style=3D"font-family:Tahoma, Arial,=
+ sans-serif;font-size:12px;color:#212121;font-weight:600;text-decoration:no=
+ne;">EN TRES MINUTOS: A la Expectativa de los Reportes</a><br><br><span sty=
+le=3D"font-family:Tahoma, Arial, sans-serif;font-size:12px;color:#212121;fo=
+nt-weight:normal;text-decoration:none;"> </span><br>
+                                =09<p style=3D"text-align:right; line-heigh=
+t:13px;"><a href=3D"http://links.ve-por-mas.mkt5804.com/ctt?kn=3D146&ms=3DM=
+jEzMzEyODAS1&r=3DOTczNjk0Njg0ODES1&b=3D0&j=3DMTQ4MDc2NTM0NAS2&mt=3D2&rj=3DM=
+TQ4MDc2NTM0NAS2&rt=3D0" name=3D"LeerNoticia2_1"  target=3D"_blank" style=3D=
+"font-family:Tahoma, Arial, sans-serif;font-size:11px;color:#3bb0c9;font-we=
+ight:normal;text-decoration:none;">Continuar leyendo &raquo;</a></p>
+                                </td>
+            =09=09=09=09</tr>
+            =09=09=09=09<tr><td height=3D"20" colspan=3D"3"></td></tr>
+            =09=09=09=09
+            =09=09=09=09</tbody>
+            =09=09=09</table></span></td>                                  =
+           <td width=3D"20" class=3D"hide"></td>                           =
+              </tr>                                         <tr>           =
+                                  <td width=3D"20" class=3D"hide"></td>    =
+                                         <td width=3D"660" class=3D"tableco=
+ntent"><table width=3D"660" cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+" class=3D"tablecontent">                                                  =
+                                                    <tr>                   =
+                                      <td bgcolor=3D"#F3F3F3" height=3D"1" =
+colspan=3D"3"></td>                                                     </t=
+r>                                                     <tr>                =
+                                         <td height=3D"20" colspan=3D"3"></=
+td>                                                     </tr>              =
+                                       <tr>                                =
+                         <td valign=3D"top" style=3D"text-align:left;" clas=
+s=3D"blocklist"><p style=3D"line-height:13px; font-size:13px; font-weight:n=
+ormal; font-family:Arial; color:#222222; margin:0px; padding:0px;">M&aacute=
+;s noticias:</p><p style=3D"line-height:16px;"><span style=3D"font-size:12p=
+x; font-weight:normal; font-family:Arial; color:#aaa;">Econom=C3=ADa - </sp=
+an> <a href=3D"http://links.ve-por-mas.mkt5804.com/ctt?kn=3D8&ms=3DMjEzMzEy=
+ODAS1&r=3DOTczNjk0Njg0ODES1&b=3D0&j=3DMTQ4MDc2NTM0NAS2&mt=3D2&rj=3DMTQ4MDc2=
+NTM0NAS2&rt=3D0" name=3D"LeerNoticia4"  target=3D"_blank" style=3D"font-fam=
+ily:Tahoma, Arial, sans-serif;font-size:12px;color:#3bb0c9;font-weight:norm=
+al;text-decoration:underline;">CLIMA DE APERTURA: Nublado...</a><br></p></s=
+pan></td>                                                     </tr>        =
+                                             <tr>                          =
+                               <td height=3D"20" colspan=3D"3"></td>       =
+                                              </tr>                        =
+                                                                      </tab=
+le></td>                                             <td width=3D"20" class=
+=3D"hide"></td>                                         </tr>              =
+                           <tr>                                            =
+ <td class=3D"hide" colspan=3D"3"><img width=3D"600" height=3D"16" src=3D'h=
+ttp://contentz.mkt5804.com/ra/2019/43026/04/21331280/vepormas-bottom9.png' =
+ style=3D"display:block;"    alt=3D"" /></td>                              =
+           </tr>                                                           =
+           </table></td>                             </tr>                 =
+            <tr>                                 <td bgcolor=3D"#FFFFFF" he=
+ight=3D"20"></td>                             </tr>                        =
+     <tr>                                 <td width=3D"700" bgcolor=3D"#FFF=
+FFF" class=3D"cell"><table width=3D"700" cellspacing=3D"0" cellpadding=3D"0=
+" border=3D"0" class=3D"table">                                            =
+                                  <tr>                                     =
+        <td width=3D"10" class=3D"hide"><img width=3D"10" height=3D"10" src=
+=3D'http://contentz.mkt5804.com/ra/2019/43026/04/21331280/img_corner-left-b=
+ottom.png'  alt=3D"" style=3D"display:block;"    /></td>                   =
+                          <td width=3D"10" class=3D"hide"></td>            =
+                                 <td width=3D"660" class=3D"tablecontent"><=
+/td>                                             <td width=3D"10" class=3D"=
+hide"></td>                                             <td width=3D"10" cl=
+ass=3D"hide"><img width=3D"10" height=3D"10" src=3D'http://contentz.mkt5804=
+.com/ra/2019/43026/04/21331280/img_corner-right-bottom.png'  alt=3D"" style=
+=3D"display:block;"    /></td>                                         </tr=
+>                                                                      </ta=
+ble></td>                             </tr>                             <tr=
+>                                 <td height=3D"20"></td>                  =
+           </tr>                             <tr>                          =
+       <td align=3D"left" style=3D"font-family:Arial, Helvetica, sans-serif=
+; font-size:10px; color:#666666" class=3D"footer">Este mensaje ha sido envi=
+ado a raymundo@vpconsultores.com.mx. Para modificar sus preferencias de sus=
+cripci&oacute;n a An&aacute;lisis y Estrategia BX+ haga clic <a name=3D"Pre=
+ferenceCenter" xt=3D"LPWEBFORMOPTIN" href=3D"https://www.pages05.net/veporm=
+as/preferencias/Form?spMailingID=3D21331280&spUserID=3DOTczNjk0Njg0ODES1&sp=
+JobID=3DMTQ4MDc2NTM0NAS2&spReportId=3DMTQ4MDc2NTM0NAS2" target=3D"_blank" x=
+twebform=3D"9039479" style=3D"color:#666666; font-size:10px; text-decoratio=
+n:underline">aqu&iacute;</a>.<br />                                 <br /> =
+                                REVELACI&Oacute;N DE INFORMACI&Oacute;N DE =
+REPORTES DE AN&Aacute;LISIS DE <strong>CASA DE BOLSA VE POR M&Aacute;S, S.A=
+. DE C.V., GRUPO FINANCIERO VE POR M&Aacute;S</strong>, destinado a los cli=
+entes de CONFORME AL ART&Iacute;CULO 47 DE LAS Disposiciones de car&aacute;=
+cter general aplicables a las entidades financieras y dem&aacute;s personas=
+ que proporcionen servicios de inversi&oacute;n (las &quot;Disposiciones&qu=
+ot;).<br />                                 <br />                         =
+        Grupo Financiero Ve por M&aacute;s S.A. de C.V. con domicilio en Av=
+. Paseo de la Reforma 365, Col. Cuauht&eacute;moc, Delegaci&oacute;n Cuauht=
+&eacute;moc, C.P. 06500, M&eacute;xico D.F., le informa que sus datos perso=
+nales ser&aacute;n tratados conforme a nuestro <a target=3D"_blank" href=3D=
+"http://links.ve-por-mas.mkt5804.com/ctt?kn=3D13&ms=3DMjEzMzEyODAS1&r=3DOTc=
+zNjk0Njg0ODES1&b=3D0&j=3DMTQ4MDc2NTM0NAS2&mt=3D1&rt=3D0"  style=3D"color:#6=
+66666; font-size:10px;" name=3D"Privacidad">Aviso de Privacidad.</a> Para s=
+er eliminado de nuestra distribuci&oacute;n da clic <a name=3D"optOut_html"=
+ style=3D"color:#666666; font-size:10px;" xt=3D"LPWEBFORMOPTOUT" href=3D"ht=
+tps://www.pages05.net/vepormas/preferencias/OptOut?spMailingID=3D21331280&s=
+pUserID=3DOTczNjk0Njg0ODES1&spJobID=3DMTQ4MDc2NTM0NAS2&spReportId=3DMTQ4MDc=
+2NTM0NAS2" target=3D"_blank" xtwebform=3D"9039794">aqu&iacute;</a>.</td>   =
+                          </tr>                             <tr>           =
+                      <td height=3D"40"></td>                             <=
+/tr>                                              </table></td>            =
+     </tr>                      </table><IMG src=3D"http://links.ve-por-mas=
+.mkt5804.com/open/log/21331280/OTczNjk0Njg0ODES1/0/MTQ4MDc2NTM0NAS2/1/0"></=
+body></html>
+
+
+------=_Part_88636_1631088585.1555072390378--
+

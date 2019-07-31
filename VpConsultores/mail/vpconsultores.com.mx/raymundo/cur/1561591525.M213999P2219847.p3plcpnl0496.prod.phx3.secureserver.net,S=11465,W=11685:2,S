@@ -1,0 +1,220 @@
+Return-Path: <0100016b961ae100-a7eb0687-46b8-492c-8d7f-4efad0d34b92-000000@amazonses.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id COiZDOX+E11H3yEAFq4nlA
+	(envelope-from <0100016b961ae100-a7eb0687-46b8-492c-8d7f-4efad0d34b92-000000@amazonses.com>)
+	for <raymundo@vpconsultores.com.mx>; Wed, 26 Jun 2019 16:25:25 -0700
+Return-path: <0100016b961ae100-a7eb0687-46b8-492c-8d7f-4efad0d34b92-000000@amazonses.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Wed, 26 Jun 2019 16:25:25 -0700
+Received: from a38-86.smtp-out.amazonses.com ([54.240.38.86]:45280)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <0100016b961ae100-a7eb0687-46b8-492c-8d7f-4efad0d34b92-000000@amazonses.com>)
+	id 1hgHI0-009Jyd-8X
+	for raymundo@vpconsultores.com.mx; Wed, 26 Jun 2019 16:25:25 -0700
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1561591472;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=fWeT9P5TUxEntxC4kYEPoWB4sBBDr286bz+7t37Bxm4=;
+	b=XIgp+Pf8f7+OpPRV6v9T0km1VHg8kezKDQNpmMjipybRdqu+53c7Butgx88IJr/i
+	03FWy5JF6zhpJIqhbiHFX1sbDoygUF+Kk5KOgHLo4BeQDuu7grrjj1OJ5p3wYAvyS45
+	OS7593iW91HfTtnQZTc6xgiqXkpE1/a/hroLuVHI=
+Date: Wed, 26 Jun 2019 23:24:32 +0000
+To: raymundo@vpconsultores.com.mx
+From: Plaza Vacation Vallarta <contacto@pelicanosgrandvacation.com>
+Reply-To: Plaza Vacation Vallarta <contacto@pelicanosgrandvacation.com>
+Subject: =?UTF-8?Q?=C3=9Altimas_Habitaciones_en_Verano:_5_d=C3=ADas_en_la_Playa_+_?=
+ =?UTF-8?Q?Alimentos_y_Bebidas_ilimitadas_+_Bonos?=
+Message-ID: <0100016b961ae100-a7eb0687-46b8-492c-8d7f-4efad0d34b92-000000@email.amazonses.com>
+X-Mailer: Sendy (https://sendy.co)
+List-Unsubscribe: <http://clubreginahoteles.com/newsletter/unsubscribe/9763gCdQQQ94n47638P8ZEPUY2BvENxFJKHGH2huaKIIeLk/9UGm0LoHrkkG2DV3qR7GqA/giBTyQ6wqXBhyNUsOfJD892A>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_d9de5d800b36b5c22680485e65e81cde"
+Content-Transfer-Encoding: 8bit
+X-SES-Outgoing: 2019.06.26-54.240.38.86
+Feedback-ID: 1.us-east-1.oijZjkSlw2Jf/84uBezZDbwss28r7QVeSPmoKOgPA6Y=:AmazonSES
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  ¡Con Nosotros Viajas Porque Viajas! Reserva Tu Lugar Frente
+    a la Brisa del Mar... Vive el Mejor Todo Incluido del Pacífico Mexicano
+   Tu paquete incluye: 5 días y 4 noches de hospedaje en Hotel Plaza Pelicanos
+    Grand Puerto Vallarta. Alimentos y Bebidas ilimitadas. 2 adultos y 2 menores
+    de hasta 12 años GRATIS. Shows nocturnos y a [...] 
+ 
+ Content analysis details:   (-0.1 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: clubreginahoteles.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: clubreginahoteles.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+--b1_d9de5d800b36b5c22680485e65e81cde
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+¡Con Nosotros Viajas Porque Viajas!
+
+Reserva Tu Lugar Frente a la Brisa del Mar...
+Vive el Mejor Todo Incluido del Pacífico Mexicano
+
+Tu paquete incluye:
+5 días y 4 noches de hospedaje en Hotel Plaza Pelicanos Grand Puerto Vallarta.
+Alimentos y Bebidas ilimitadas.
+2 adultos y 2 menores de hasta 12 años GRATIS.
+Shows nocturnos y actividades acuáticas.
+Impuestos y propinas incluidas.
+¡Para que te sientas como en casa y nos prefieras... Siempre!
+
+de $39,900 MXN a solo:
+6 Meses Sin Intereses de $1,665 MXN por Familia
+LIMITADO A 50 PAQUETES - VIGENCIA AL 29 DE JUNIO 2019
+Primeras 20 reservas reciben ascenso a  habitación suite GRATIS
+
+OFERTA ÚNICA - RESERVA AHORA
+LLAMA YA: 01 800 099 5959
+O RESPONDE EL CORREO CON FECHA TENTATIVA Y TELÉFONOS DE CONTACTO
+
+*Sujeto a disponibilidad – No incluye boletos de avión – Aplican términos y condiciones*
+
+
+--b1_d9de5d800b36b5c22680485e65e81cde
+Content-Type: text/html; charset=us-ascii
+
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<p>&nbsp;</p>
+
+<div class="moz-forward-container">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" valign="top">
+			<table bgcolor="#f0f3f3" border="0" cellpadding="0" cellspacing="0" class="main_table" width="600">
+				<tbody>
+					<tr>
+						<td>
+						<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="layout_table" style="border-collapse: collapse; border: 1px solid #CCCCCC;" width="100%">
+							<tbody>
+								<tr>
+									<td align="left" class="header_image" style="color: #ffffff; background-color: #1d71b8; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; margin: 0; padding-top: 15px; padding-bottom: 15px; text-align: center;" width="600">&iexcl;Con Nosotros Viajas Porque Viajas!</td>
+								</tr>
+								<tr>
+									<td style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 13px; margin: 0; padding: 0;">&nbsp;</td>
+								</tr>
+								<tr>
+									<td align="center" valign="top">
+									<table align="center" border="0" cellpadding="0" cellspacing="0" width="85%">
+										<tbody>
+											<tr>
+												<td style="text-align: justify;">
+												<div class="mktEditable" id="body_copy" style="text-align: justify; color: #153b44; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; margin: 0; padding: 0;">
+												<h1 style="text-align: center; color: #db822d; line-height: 95%; font-size: 38px; font-family: Century Gothic, Arial, sans-serif;">Reserva Tu Lugar Frente a la Brisa del Mar...</h1>
+
+												<p style="text-align: center; font-size: 22px; color: #2d6e7e;">Vive el Mejor Todo Incluido del Pac&iacute;fico Mexicano</p>
+												<img alt="" src="http://clubreginahoteles.com/newsletter/uploads/1561579092.jpg" style="width: 500px; height: 200px;" />
+												<h3 style="text-align: center; color: #2d6e7e; line-height: 140%; font-size: 20px;">Tu paquete incluye:</h3>
+
+												<ul style="margin: 25px; padding-left: 25px;">
+													<li>5 d&iacute;as y 4 noches de hospedaje en Hotel Plaza Pelicanos Grand Puerto&nbsp;Vallarta.</li>
+													<li>Alimentos y Bebidas ilimitadas.</li>
+													<li>2 adultos y 2 menores de hasta 12 a&ntilde;os GRATIS.</li>
+													<li>Shows nocturnos y actividades acu&aacute;ticas.</li>
+													<li>Impuestos y propinas incluidas.</li>
+												</ul>
+
+												<p style="text-align: center; font-size: 16px;">&iexcl;Para que te sientas como en casa y nos prefieras... Siempre!</p>
+
+												<h3 style="text-align: center; color: #db822d; line-height: 140%; font-size: 20px;">de $<strike>39,900</strike> MXN a solo:<br />
+												6 Meses Sin Intereses de $1,665 MXN por Familia</h3>
+
+												<h3 style="text-align: center; color: #2d6e7e; line-height: 140%; font-size: 14px;">LIMITADO A 50 PAQUETES - VIGENCIA AL 29&nbsp;DE JUNIO&nbsp;2019<br />
+												Primeras 20 reservas reciben ascenso a&nbsp; habitaci&oacute;n suite&nbsp;GRATIS</h3>
+
+												<hr color="#fe762a" size="2" width="100%" />
+												<h3 style="text-align: center; color: #2d6e7e; line-height: 100%; font-size: 20px;">OFERTA &Uacute;NICA - RESERVA AHORA</h3>
+
+												<h3 style="text-align: center; color: #db822d; line-height: 100%; font-size: 28px;">LLAMA YA: 01 800 099 5959</h3>
+
+												<h3 style="text-align: center; color: #2d6e7e; line-height: 100%; font-size: 16px;">O RESPONDE EL CORREO CON FECHA TENTATIVA Y TEL&Eacute;FONOS DE CONTACTO</h3>
+												<img alt="" src="http://clubreginahoteles.com/newsletter/uploads/1561579113.jpg" style="width: 500px; height: 200px;" /></div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td bgcolor="#4e709d">
+									<table border="0" cellpadding="0" cellspacing="0" class="footer_table" width="100%">
+										<tbody>
+											<tr>
+												<td style="font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 17px; margin: 0; padding: 20px;">
+												<div id="footer" style="text-align: center; font-size: 11px; color: #ffffff;">
+												<p>*Sujeto a disponibilidad &ndash; No incluye boletos de avi&oacute;n &ndash; Aplican t&eacute;rminos y condiciones*<br />
+												<br />
+												Usted recibi&oacute; este correo electr&oacute;nico a raymundo@vpconsultores.com.mx si tiene cualquier otra duda o comentario puede escribirnos a contacto@pelicanosgrandvacation.com recuerde incluir su nombre.<br />
+												Para asegurar que contin&uacute;e recibiendo correos electr&oacute;nicos, por favor agregue a su lista de contactos o correos seguros, la siguiente direcci&oacute;n: contacto@pelicanosgrandvacation.com si desea cancelar el env&iacute;o de correos electr&oacute;nicos puede hacer click <a href="http://clubreginahoteles.com/newsletter/unsubscribe/9763gCdQQQ94n47638P8ZEPUY2BvENxFJKHGH2huaKIIeLk/9UGm0LoHrkkG2DV3qR7GqA/giBTyQ6wqXBhyNUsOfJD892A" >aqu&iacute;</a></p>
+												</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<p>&nbsp;</p>
+</body>
+</html>
+<img src="http://clubreginahoteles.com/newsletter/t/giBTyQ6wqXBhyNUsOfJD892A/xvrD2PRWebOVsD4C892III3Q" alt="" style="width:1px;height:1px;"/>
+
+
+
+--b1_d9de5d800b36b5c22680485e65e81cde--

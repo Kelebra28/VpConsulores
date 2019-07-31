@@ -1,0 +1,102 @@
+Return-Path: <tu.material@cefa.com.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id 6MbzG8ScCl1BmiUAFq4nlA
+	(envelope-from <tu.material@cefa.com.mx>)
+	for <raymundo@vpconsultores.com.mx>; Wed, 19 Jun 2019 13:36:20 -0700
+Return-path: <tu.material@cefa.com.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Wed, 19 Jun 2019 13:36:20 -0700
+Received: from mail-pg1-f171.google.com ([209.85.215.171]:40260)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <tu.material@cefa.com.mx>)
+	id 1hdhJX-00AMBB-PC
+	for raymundo@vpconsultores.com.mx; Wed, 19 Jun 2019 13:36:20 -0700
+Received: by mail-pg1-f171.google.com with SMTP id w10so289712pgj.7
+        for <raymundo@vpconsultores.com.mx>; Wed, 19 Jun 2019 13:35:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cefa-com-mx.20150623.gappssmtp.com; s=20150623;
+        h=message-id:date:from:to:reply-to:errors-to:mime-version:subject;
+        bh=q3uZGgMMONy9F/oPHRNbpJA0w8H/dZu7BEqlzbwEwpA=;
+        b=qShCGD+FufcY9gGw1o0TCjVgdvu6HdHmStHYlZMZ+aRqOK7U6ZcJnbx9ai1XqZu8iK
+         ptNUNPkmdd7iXuXdT+QbKqwvsujJXy4ELkkmVs6nQV+L0p6EngarCz98R0l4XPjp5z/P
+         O43t4vHosgOA/00am0+dvPSBhPQiRdq36uBxZvIWwmHNVSma+HyP0FZIHlgmQOzsvrpe
+         tM2RGN+qvRydywZvMR/G4UNTRGb5w2l4uppFIqb4yvcekEtqWCb6weB0IcbEbrIJuq6y
+         FHo6coC73PcfskKO6H1lBtzojshmIOjZ6Lyzj5Nuy7jojsMlab6k1P6d2UGhnw8pPja3
+         dlmQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:message-id:date:from:to:reply-to:errors-to
+         :mime-version:subject;
+        bh=q3uZGgMMONy9F/oPHRNbpJA0w8H/dZu7BEqlzbwEwpA=;
+        b=VNM9EAOUI2FiTDyziWY504PQMiQXZJXksMDFRP6LydtLS2FhrC0RFxDli8BxSGUNld
+         h2mt/RY6PZ/ETB8ynBI6fbG2zGfmSPlXCDzDD+N8+ywJ83/ByGzuqFbRMpUw/FDye7r+
+         UJTXb+xGCB4UdBGWQPTziOLDLQbTYx0iZX+q2vJa73d1p0APnR8eMnOUX+hUD6CiDeH7
+         AGern6HUMW3+DSCyzVzaJxhpmRrS3kMKMnso16q61+4YDQprG870t0DaudC6jSBFFqNp
+         IxSNIFE2PCnEX4FVtc+MqOTL6SDBJMmDW2VWYSmX9RYywX6MgwSXbQyZ8Tdd6OsdbL9T
+         7NRA==
+X-Gm-Message-State: APjAAAW3ubm568roLRdmesMKAr7dEfi12I7m/fbnFAj2+mSKeU1QHiBr
+	36LqxnSr/eKyfx/4Db7Dq5fVRsTGh1c=
+X-Google-Smtp-Source: APXvYqxt6I+WG+uT3NIrCrCUTyNMjBEKEpbxwMNciukG4oMk4bD/Ae9NCR0WOhTEO+TXmeLItwtANA==
+X-Received: by 2002:a17:90a:21d0:: with SMTP id q74mr13321577pjc.12.1560976528894;
+        Wed, 19 Jun 2019 13:35:28 -0700 (PDT)
+Received: from localhost ([162.221.202.181])
+        by smtp.gmail.com with ESMTPSA id x14sm25104290pfq.158.2019.06.19.13.35.27
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Wed, 19 Jun 2019 13:35:27 -0700 (PDT)
+Message-ID: <5d0a9c8f.1c69fb81.ad0d0.4c20@mx.google.com>
+Date: Wed, 19 Jun 2019 13:35:27 -0700 (PDT)
+From: "Tu Material CEFA" <tu.material@cefa.com.mx>
+To: "C.P.C. Horlet Raymundo Vazquez Madrigal" <raymundo@vpconsultores.com.mx>
+Reply-To: dennys@cefa.com.mx
+Errors-To: dennys@cefa.com.mx
+Content-Type: text/html; charset=UTF-8
+MIME-Version: 1.0
+Subject: Inscripcion 202801 a curso CEFA
+X-Spam-Status: No, score=1.7
+X-Spam-Score: 17
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Estimado(a) C.P.C. Horlet Raymundo Vazquez Madrigal Hacemos
+    de su conocimiento que ha sido inscrito a: Lo más relevante de la Resolución
+    Miscelánea Fiscal para 2019 
+ 
+ Content analysis details:   (1.7 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: cefa.com.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: cefa.com.mx]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.6 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML
+                             tag
+X-Spam-Flag: NO
+
+<p>Estimado(a) C.P.C. Horlet Raymundo Vazquez Madrigal
+<p>Hacemos de su conocimiento que ha sido inscrito a:
+<p><b>Lo más relevante de la Resolución Miscelánea Fiscal para 2019</b>
+<p><b>Modalidad: Presencial</b>
+<p>El material estará disponible para su descarga un día antes del curso en su <b>librería virtual: <a href="https://tumaterial.cefa.com.mx">https://tumaterial.cefa.com.mx</a></b>
+<p>
+<p>Dudas o aclaraciones mande un correo a: <a href='mailto:dennys@cefa.com.mx'>Dennys Mireles Bernardino</a>
+<p><b>No conteste este correo automático.</b>

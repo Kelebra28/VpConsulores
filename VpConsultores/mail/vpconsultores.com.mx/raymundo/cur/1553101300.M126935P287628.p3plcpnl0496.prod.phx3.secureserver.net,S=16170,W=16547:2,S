@@ -1,0 +1,377 @@
+Return-Path: <a.montesdeoca@notaria29df.com.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id WBl9B/RxklyMYwQAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Wed, 20 Mar 2019 10:01:40 -0700
+Return-path: <a.montesdeoca@notaria29df.com.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Wed, 20 Mar 2019 10:01:40 -0700
+Received: from mail-oi1-f180.google.com ([209.85.167.180]:42946)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <a.montesdeoca@notaria29df.com.mx>)
+	id 1h6eav-001Jat-Rk
+	for raymundo@vpconsultores.com.mx; Wed, 20 Mar 2019 10:01:40 -0700
+Received: by mail-oi1-f180.google.com with SMTP id w139so2377770oie.9
+        for <raymundo@vpconsultores.com.mx>; Wed, 20 Mar 2019 10:01:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=notaria29df-com-mx.20150623.gappssmtp.com; s=20150623;
+        h=from:to:references:in-reply-to:subject:date:message-id:mime-version
+         :thread-index:content-language;
+        bh=hD4xvNtFnupxGIFbM+sIgb2d9ENJJq7f7sLBaTFt68g=;
+        b=hETAkobvcp4v/muHaQN/OSb5SSZnbqBNVfRRRW7PRkTHS2Tpm2LpnU/7NkvrRqNYx+
+         G4Yj0y3gsINWK72iRSj/ZGqGdsPUUbnSgyzc5/aDwLaJipOBjMEzeFBeLX8Djm35hsAR
+         5jhaqXGYpwcAsdpUOWMKi75AHqljn9pbrnYK63pkfPyfdRK9rx/TxUMV7UtKj+ej+dF7
+         +EmiGWVCUv1A9HrRbEiHcgzHahwRcepIC9OBofpPJ7VrI3D7EtitqogjoHkbBa1i6cnk
+         W2OCwVi3CMWgvbLsAtfkBgU+TMXuLcXLcOCsjwFqVeZ+76rlvmcL6aZ913P1J2cQRfVu
+         pfDQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:references:in-reply-to:subject:date
+         :message-id:mime-version:thread-index:content-language;
+        bh=hD4xvNtFnupxGIFbM+sIgb2d9ENJJq7f7sLBaTFt68g=;
+        b=uce5EhWUJjFZKsBtOGoA0k437IoM3ajlGZl6pgtTVl//RN1UkviR+W0bS19rZ259Ek
+         mg/r/ZQ+0WvwnAadlvijLu6AImebAA7+1etrG0v9ACLexrE2i/tDhesJQjX8XqjkHmjY
+         W7uxiD28DhewEInUSHVg2NlIhTDlXkHP3ZKFpfbB6d5XUtcHxjLY2ByPijTyC9j+PC+m
+         D5MdRthQhCeAEtFZ0RazeORbkpXLx57CdXSUBVlOkLqw8xFinJwD5YfE6Ly9KFFsCxhH
+         cXaG1a5hVFU1elTaGUsAOa3U8f/kwme3N1RSDH7Pri3vChkelNvRxN09yUfelOsM5n8U
+         xERw==
+X-Gm-Message-State: APjAAAW3qkXMjYMkqc9jRA2LYjXUysZCQoKvT82VFL/bytKK+rlSCJGf
+	fwfp/VqwX1vA7ZYiLuS6401FV9CYnOs=
+X-Google-Smtp-Source: APXvYqxoYdkhY6LjyOledlxTqy3sySmksc9ycNaNzWBxfqnHT/2UpKLquPI5nOtb1ZdhBe6wQufTDQ==
+X-Received: by 2002:aca:4446:: with SMTP id r67mr5931845oia.103.1553101256692;
+        Wed, 20 Mar 2019 10:00:56 -0700 (PDT)
+Received: from AMM ([201.103.24.40])
+        by smtp.gmail.com with ESMTPSA id l12sm842772oil.32.2019.03.20.10.00.55
+        for <raymundo@vpconsultores.com.mx>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 20 Mar 2019 10:00:56 -0700 (PDT)
+From: <a.montesdeoca@notaria29df.com.mx>
+To: =?UTF-8?Q?'Raymundo_V=C3=A1zquez'?= <raymundo@vpconsultores.com.mx>
+References: <00e501d4c945$4f135360$ed39fa20$@vpconsultores.com.mx> <008901d4de7c$dcf239c0$96d6ad40$@notaria29df.com.mx> <6D0CFE9C-4080-4263-8EC8-4DF291EAD1CF@vpconsultores.com.mx>
+In-Reply-To: <6D0CFE9C-4080-4263-8EC8-4DF291EAD1CF@vpconsultores.com.mx>
+Subject: RE: Cita
+Date: Wed, 20 Mar 2019 11:00:57 -0600
+Message-ID: <008301d4df3e$7cf53c80$76dfb580$@notaria29df.com.mx>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0084_01D4DF0C.325D3D80"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQLVg8DDnSfb1w12jFwVAMu1Ydc09gHyg1kSAZqax8Kj9wx4MA==
+Content-Language: es-mx
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  No es nada urgente. Nos vemos el jueves después de las 12:00
+    hrs. Mil gracias! Agustín Montes de Oca [...] 
+ 
+ Content analysis details:   (0.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vpconsultores.com.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: gappssmtp.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+X-Spam-Flag: NO
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0084_01D4DF0C.325D3D80
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+No es nada urgente. Nos vemos el jueves despu=C3=A9s de las 12:00 hrs.
+
+=20
+
+Mil gracias!
+
+=20
+
+Agust=C3=ADn Montes de Oca
+
+D: (55) 5262 4223 | T: (55) 5260 5686
+
+Calzada Melchor Ocampo #193 | Torre Privanza | Piso 4
+Col. Ver=C3=B3nica Anzures | 11300 | Ciudad de M=C3=A9xico
+
+=20
+
+De: Raymundo V=C3=A1zquez <raymundo@vpconsultores.com.mx>=20
+Enviado el: martes, 19 de marzo de 2019 07:43 p. m.
+Para: a.montesdeoca@notaria29df.com.mx
+Asunto: Re: Cita
+
+=20
+
+Hola Agust=C3=ADn=20
+
+=20
+
+Para saludarte y comentarte que el jueves despu=C3=A9s de las 12:00 a la =
+hora que gustes.
+
+=20
+
+Si urge algo, con toda confianza baja ma=C3=B1ana a la hora que puedas, =
+estar=C3=A9 en la oficina toda la ma=C3=B1ana. Saludos=20
+
+Enviado desde mi iPhone
+
+
+El 19 mar 2019, a la(s) 11:54, <a.montesdeoca@notaria29df.com.mx =
+<mailto:a.montesdeoca@notaria29df.com.mx> > =
+<a.montesdeoca@notaria29df.com.mx =
+<mailto:a.montesdeoca@notaria29df.com.mx> > escribi=C3=B3:
+
+Hola Raymundo, =C2=BFqu=C3=A9 d=C3=ADa de esta semana crees tener un =
+espacio para recibirme? Me gustar=C3=ADa revisar todos los pendientes =
+que tenemos tanto de cosas personales (m=C3=ADas) como de Monmar y =
+algunos otros temas. Espero no quitarte m=C3=A1s de 15-20 minutos.
+
+=20
+
+Saludos.
+
+=20
+
+Agust=C3=ADn Montes de Oca
+
+D: (55) 5262 4223 | T: (55) 5260 5686
+
+Calzada Melchor Ocampo #193 | Torre Privanza | Piso 4
+Col. Ver=C3=B3nica Anzures | 11300 | Ciudad de M=C3=A9xico
+
+=20
+
+De: raymundo@vpconsultores.com.mx <mailto:raymundo@vpconsultores.com.mx> =
+ <raymundo@vpconsultores.com.mx <mailto:raymundo@vpconsultores.com.mx> > =
+
+Enviado el: mi=C3=A9rcoles, 20 de febrero de 2019 11:54 a. m.
+Para: Agust=C3=ADn Montes de Oca <a.montesdeoca@notaria29df.com.mx =
+<mailto:a.montesdeoca@notaria29df.com.mx> >
+Asunto: Cita
+
+=20
+
+Hola Agust=C3=ADn
+
+=20
+
+=20
+
+Para saludarte y preguntarte si me puedes recibir 5 minutos cuando =
+puedas.
+
+=20
+
+=20
+
+=20
+
+Saludos
+
+=20
+
+Raymundo Vazquez
+
+
+------=_NextPart_000_0084_01D4DF0C.325D3D80
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered =
+medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EstiloCorreo18
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EstiloCorreo19
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;}
+span.EstiloCorreo20
+	{mso-style-type:personal-reply;
+	font-family:"Arial",sans-serif;
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DES-MX =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><p =
+class=3DMsoNormal><span style=3D'font-family:"Arial",sans-serif'>No es =
+nada urgente. Nos vemos el jueves despu=C3=A9s de las 12:00 =
+hrs.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-family:"Arial",sans-serif'>Mil =
+gracias!<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif'><o:p>&nbsp;</o:p></span></p><div=
+><p class=3DMsoNormal style=3D'margin-bottom:7.5pt'><b><span =
+style=3D'font-size:8.5pt;font-family:"Arial",sans-serif;color:#88181A;mso=
+-fareast-language:ES-MX'>Agust=C3=ADn Montes de =
+Oca<o:p></o:p></span></b></p><p class=3DMsoNormal =
+style=3D'margin-bottom:7.5pt'><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:#88181A;mso=
+-fareast-language:ES-MX'>D:</span><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:gray;mso-fa=
+reast-language:ES-MX'>&nbsp;(55) 5262 4223&nbsp;</span><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:#88181A;mso=
+-fareast-language:ES-MX'>|&nbsp;T:&nbsp;</span><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:gray;mso-fa=
+reast-language:ES-MX'>(55) 5260 5686</span><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#222222;ms=
+o-fareast-language:ES-MX'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify'><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:gray;mso-fa=
+reast-language:ES-MX'>Calzada Melchor Ocampo #193 | Torre Privanza | =
+Piso 4<br>Col. Ver=C3=B3nica Anzures | 11300 | Ciudad de =
+M=C3=A9xico<o:p></o:p></span></p></div><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif'><o:p>&nbsp;</o:p></span></p><div=
+><div style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt =
+0cm 0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES =
+style=3D'mso-fareast-language:ES-MX'>De:</span></b><span lang=3DES =
+style=3D'mso-fareast-language:ES-MX'> Raymundo V=C3=A1zquez =
+&lt;raymundo@vpconsultores.com.mx&gt; <br><b>Enviado el:</b> martes, 19 =
+de marzo de 2019 07:43 p. m.<br><b>Para:</b> =
+a.montesdeoca@notaria29df.com.mx<br><b>Asunto:</b> Re: =
+Cita<o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Hola =
+Agust=C3=ADn&nbsp;<span =
+style=3D'mso-fareast-language:ES-MX'><o:p></o:p></span></p><div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div><p =
+class=3DMsoNormal>Para saludarte y comentarte que el jueves despu=C3=A9s =
+de las 12:00 a la hora que gustes.<o:p></o:p></p></div><div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div><div><p class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt'>Si urge algo, con toda confianza baja =
+ma=C3=B1ana a la hora que puedas, estar=C3=A9 en la oficina toda la =
+ma=C3=B1ana. Saludos&nbsp;<o:p></o:p></p><div id=3DAppleMailSignature><p =
+class=3DMsoNormal>Enviado desde mi iPhone<o:p></o:p></p></div><div><p =
+class=3DMsoNormal style=3D'margin-bottom:12.0pt'><br>El 19 mar 2019, a =
+la(s) 11:54, &lt;<a =
+href=3D"mailto:a.montesdeoca@notaria29df.com.mx">a.montesdeoca@notaria29d=
+f.com.mx</a>&gt; &lt;<a =
+href=3D"mailto:a.montesdeoca@notaria29df.com.mx">a.montesdeoca@notaria29d=
+f.com.mx</a>&gt; escribi=C3=B3:<o:p></o:p></p></div><blockquote =
+style=3D'margin-top:5.0pt;margin-bottom:5.0pt'><div><p =
+class=3DMsoNormal><span style=3D'font-family:"Arial",sans-serif'>Hola =
+Raymundo, =C2=BFqu=C3=A9 d=C3=ADa de esta semana crees tener un espacio =
+para recibirme? Me gustar=C3=ADa revisar todos los pendientes que =
+tenemos tanto de cosas personales (m=C3=ADas) como de Monmar y algunos =
+otros temas. Espero no quitarte m=C3=A1s de 15-20 =
+minutos.</span><o:p></o:p></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif'>&nbsp;</span><o:p></o:p></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif'>Saludos.</span><o:p></o:p></p><p=
+ class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif'>&nbsp;</span><o:p></o:p></p><div=
+><p class=3DMsoNormal style=3D'margin-bottom:7.5pt'><b><span =
+style=3D'font-size:8.5pt;font-family:"Arial",sans-serif;color:#88181A;mso=
+-fareast-language:ES-MX'>Agust=C3=ADn Montes de =
+Oca</span></b><o:p></o:p></p><p class=3DMsoNormal =
+style=3D'margin-bottom:7.5pt'><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:#88181A;mso=
+-fareast-language:ES-MX'>D:</span><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:gray;mso-fa=
+reast-language:ES-MX'>&nbsp;(55) 5262 4223&nbsp;</span><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:#88181A;mso=
+-fareast-language:ES-MX'>|&nbsp;T:&nbsp;</span><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:gray;mso-fa=
+reast-language:ES-MX'>(55) 5260 5686</span><o:p></o:p></p><p =
+class=3DMsoNormal style=3D'text-align:justify'><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:gray;mso-fa=
+reast-language:ES-MX'>Calzada Melchor Ocampo #193 | Torre Privanza | =
+Piso 4<br>Col. Ver=C3=B3nica Anzures | 11300 | Ciudad de =
+M=C3=A9xico</span><o:p></o:p></p></div><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif'>&nbsp;</span><o:p></o:p></p><div=
+><div style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt =
+0cm 0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES =
+style=3D'mso-fareast-language:ES-MX'>De:</span></b><span lang=3DES =
+style=3D'mso-fareast-language:ES-MX'> <a =
+href=3D"mailto:raymundo@vpconsultores.com.mx">raymundo@vpconsultores.com.=
+mx</a> &lt;<a =
+href=3D"mailto:raymundo@vpconsultores.com.mx">raymundo@vpconsultores.com.=
+mx</a>&gt; <br><b>Enviado el:</b> mi=C3=A9rcoles, 20 de febrero de 2019 =
+11:54 a. m.<br><b>Para:</b> Agust=C3=ADn Montes de Oca &lt;<a =
+href=3D"mailto:a.montesdeoca@notaria29df.com.mx">a.montesdeoca@notaria29d=
+f.com.mx</a>&gt;<br><b>Asunto:</b> =
+Cita</span><o:p></o:p></p></div></div><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p><p class=3DMsoNormal>Hola =
+Agust=C3=ADn<o:p></o:p></p><p class=3DMsoNormal>&nbsp;<o:p></o:p></p><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p><p class=3DMsoNormal>Para =
+saludarte y preguntarte si me puedes recibir 5 minutos cuando =
+puedas.<o:p></o:p></p><p class=3DMsoNormal>&nbsp;<o:p></o:p></p><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p><p =
+class=3DMsoNormal>Saludos<o:p></o:p></p><p =
+class=3DMsoNormal>&nbsp;<o:p></o:p></p><p class=3DMsoNormal>Raymundo =
+Vazquez<o:p></o:p></p></div></blockquote></div></div></body></html>
+------=_NextPart_000_0084_01D4DF0C.325D3D80--
+

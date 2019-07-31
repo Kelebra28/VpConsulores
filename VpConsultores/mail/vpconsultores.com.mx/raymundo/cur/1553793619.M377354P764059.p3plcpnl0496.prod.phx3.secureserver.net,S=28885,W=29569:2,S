@@ -1,0 +1,684 @@
+Return-Path: <bounce-10330765.72261486@in1.mydplr.info>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id 4AtnFlMCnVybqAsAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Thu, 28 Mar 2019 10:20:19 -0700
+Return-path: <bounce-10330765.72261486@in1.mydplr.info>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Thu, 28 Mar 2019 10:20:19 -0700
+Received: from sndr1.mydplr.info ([216.157.68.240]:55772)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1:ECDHE-RSA-AES256-SHA:256)
+	(Exim 4.91)
+	(envelope-from <bounce-10330765.72261486@in1.mydplr.info>)
+	id 1h9YhN-003rk4-92
+	for raymundo@vpconsultores.com.mx; Thu, 28 Mar 2019 10:20:19 -0700
+Content-type: multipart/alternative;
+	boundary="--Boundary.636893716714234078.231802579--"
+DKIM-Signature: v=1; a=rsa-sha256; d=themis.com.mx; s=doppler;
+	c=relaxed/simple; t=1553793577; h=from:to:date:subject;
+	bh=UL9suS+YayBFWEYNwEw0+B8Ug2WX3WHqP49X0wIgHIU=;
+	b=eZSwo1Js8fgpcAeInOYGojnfi1ffIyoo5ImhGYz2pf2t0YWmyL4st5wctcmwvwF0RVbGfjU3Ms6
+	UbddtiKaM3zd8EexAmj6bEoG01xixL7wTsPh2PkWArmLYnjMDODhUMTCiM0EDFURHzoTVBk6vHNFg
+	V4knWQtM20EviedYyEw=
+DKIM-Signature: v=1; a=rsa-sha256; d=in1.mydplr.info; s=doppler;
+	c=relaxed/simple; t=1553793577; h=from:to:date:subject;
+	bh=UL9suS+YayBFWEYNwEw0+B8Ug2WX3WHqP49X0wIgHIU=;
+	b=LX7D5z+whhYG6+eF28hkmqJEyw7AJ+qvxZrtYfFgwK4FE0OB7t+jcZtrn6sjHjq3iaMjgljmTAD
+	kZ1gtaNQZkt6FGLu/0XTm73isT24Mzj4i7dhrQcs0iHNQu9Cnqs/Z9Ua4Wv9I5c3yfQIpCMhoTiRC
+	2+fl3eQubcaAObJ6P+s=
+Received: by sndr1.mydplr.info (Doppler Mail) with ESMTP id md5636893716714234078
+	for <raymundo@vpconsultores.com.mx>; Thu, 28 Mar 2019 12:07:51 -0500 (envelope-from <bounce-10330765.a8f3d4bb4fc8a0fbe439c6372b006eba@in1.mydplr.info>)
+From: =?UTF-8?Q?Editorial_Themis?= <noticias@themis.com.mx>
+Reply-To: ventas@themis.com.mx
+To: =?UTF-8?Q?Raymundo_V=C3=A1zquez?= <raymundo@vpconsultores.com.mx>
+Date: Thu, 28 Mar 2019 12:07:51 -0500
+Subject: =?UTF-8?Q?Seminario_Anual_IFA_2019?=
+Message-ID: <a8f3d4bb4fc8a0fbe439c6372b006eba28170751@in1.mydplr.info>
+List-Unsubscribe: <https://un.mydplr.com/15ec919fbe065a8678a345b6ff10387b-a8f3d4bb4fc8a0fbe439c6372b006eba-45a2d8fd7242a171>, <mailto:msncomplaints+10330765-a8f3d4bb4fc8a0fbe439c6372b006eba@makingsense.com>
+X-Mailer: Doppler Mail (ID: 7)
+X-Report-Abuse: Please report abuse for this campaign here: http://mydplr.com/AbuseForm?id=10330765
+Feedback-ID: 10330765:a8f3d4bb4fc8a0fbe439c6372b006eba:news:dplr
+MIME-Version: 1.0
+X-Spam-Status: No, score=1.9
+X-Spam-Score: 19
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  View Online<https://vo.mydplr.com/15ec919fbe065a8678a345b6ff10387b-a8f3d4bb4fc8a0fbe439c6372b006eba>
+    <https://lt.mydplr.com/a3e5239a76c44f7ab8776833fc2d241a-a8f3d4bb4fc8a0fbe439c6372b006eba>
+    Seminar
+ 
+ Content analysis details:   (1.9 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mydplr.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mydplr.com]
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76 chars
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  1.0 KAM_MX4                MX Record and dot info domains associated with FAKERBL
+                             Spammers
+  0.2 KAM_LOTSOFHASH         Emails with lots of hash-like gibberish
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+----Boundary.636893716714234078.231802579--
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+View Online<https://vo=2Emydplr=2Ecom/15ec919fbe065a8678a345b6ff10387b-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+> =0D=0A=
+=0D=0A=
+=0D=0A=
+  <https://lt=2Emydplr=2Ecom/a3e5239a76c44f7ab8776833fc2d241a-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+>=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+Seminario IFA 2019=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+Aspectos Controvertidos en Tributaci=C3=B3n Internacional=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+4 de abril 2019 =0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+PROGRAMA=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+s =0D=0A=
+Panel I=2E Perspectivas en la Tributaci=C3=B3n Nacional e Internacional: =
+=C2=BFMedidas anti-abuso o abuso de medidas?=0D=0A=
+Coordinador: Arturo P=C3=A9rez Robles - Socio de P=C3=A9rez Robles Abogad=
+os=0D=0A=
+=0D=0A=
+Panelistas: =0D=0A=
+*=09Juan Carlos Roa=2E Magistrado Presidente de la Sala Especializada en =
+materia de Juicio de Resoluci=C3=B3n Exclusiva de Fondo y Sala Auxiliar M=
+etropolitana del TFJA=0D=0A=
+*=09Jacqueline Vargas=2E Administradora Central de Apoyo Jur=C3=ADdico y =
+Normatividad Internacional del Servicio de Administraci=C3=B3n Tributaria=
+=0D=0A=
+*=09Gerardo Nieto Mart=C3=ADnez=2E Socio de Basham, Ringe y Correa, S=2EC=
+=2E=0D=0A=
+*=09Pedro =C3=81ngel Palma=2E Asociado Senior de S=C3=A1nchez Devanny Ese=
+verri, S=2EC=2E=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+Panel II=2E Fiscalidad en la Econom=C3=ADa Digital (Parte 1 y 2)=0D=0A=
+Coordinador: Ricardo Rend=C3=B3n - Socio de Chevez, Ruiz,=0D=0A=
+Zamarripa y C=C3=ADa=2E =0D=0A=
+=0D=0A=
+Panelistas: =0D=0A=
+*=09Erick Jim=C3=A9nez Reyes=2E Administrador Central de Fiscalizaci=C3=
+=B3n Internacional del Servicio de Administraci=C3=B3n Tributaria=0D=0A=
+*=09Tatiana Falcao=2E Profesora Visitante en FGV - Funda=C3=A7=C3=A3o Get=
+ulio Vargas=0D=0A=
+*=09Jos=C3=A9 Murillo=2E L=C3=ADder de la pr=C3=A1ctica de servicios Fisc=
+ales Internacionales de Ernst & Young, LLP - Washington D=2EC=2E=0D=0A=
+*=09Juan Antonio Pizano=2E Socio de Deloitte M=C3=A9xico=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+Panel III=2E Administraci=C3=B3n de la base gravable, criterios no vincul=
+ativos y ajustes de Precios de Transferencia=2E=0D=0A=
+Coordinador: Iv=C3=A1n D=C3=ADaz Barreiro - Socio de PwC =0D=0A=
+=0D=0A=
+Panelistas: =0D=0A=
+*=09Alberto Platas Garc=C3=ADa=2E Administrador de Fiscalizac=C3=B3n de P=
+recios de Tranferencia del Servicio de Administraci=C3=B3n Tributaria=0D=
+=0A=
+*=09Jaime Heredia Montejano=2E Socio de KPMG M=C3=A9xico=0D=0A=
+*=09Yoshio Uehara Hashimoto=2E Socio de Ch=C3=A9vez Ruiz Zamparripa y C=
+=C3=ADa, S=2EC=2E=0D=0A=
+*=09Guillermo Villase=C3=B1or Tadeo=2E Socio de S=C3=A1nchez Devanny Esev=
+erri, S=2EC=2E=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+Panel IV=2E Reforma fiscal en Estados Unidos y TMEC=2E La visi=C3=B3n de =
+las empresas=2E=0D=0A=
+Coordinador: Manuel E=2E Tron - Socio de Manuel Tron S=2EC=2E=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+Inscripciones: =0D=0A=
+https://online=2Echeckmein=2Ecom=2Emx/IFA2019/ESP/ <https://lt=2Emydplr=
+=2Ecom/789f5751ed6f52c1044be952cd7ca00b-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+>=0D=0A=
+=0D=0A=
+PUNTOS EPC =0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+Informes: Laura Ysunza, al correo:=0D=0A=
+administracion@ifamexico=2Ecom=2Emx =0D=0A=
+Tel=2E 04455 4347 0347=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+Costos:=0D=0A=
+=0D=0A=
+Miembros IFA: $8,250 + IVA=0D=0A=
+=0D=0A=
+No Miembros IFA: $10,725 + IVA=0D=0A=
+=0D=0A=
+=0D=0A=
+El costo de la participaci=C3=B3n incluye material electr=C3=B3nico de le=
+ctura, servicio de caf=C3=A9, comida, =0D=0A=
+cocktail y estacionamiento=2E=0D=0A=
+=0D=0A=
+No se admiten reservaciones sin pago=2E El acceso a las conferencias ser=
+=C3=A1 =C3=BAnicamente para el miembro o persona registrada y no es trans=
+ferible=2E=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+Sede: Club de Industriales CDMX=0D=0A=
+Horario: 8:30 - 19:00 hrs=2E=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+/Editorial=0D=0A=
+Themis<https://lt=2Emydplr=2Ecom/b5fdfbdd148af54a032b023ed6552734-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+>=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+@Editorial=0D=0A=
+Themis<https://lt=2Emydplr=2Ecom/764aa9a58aae65f88b1d57a7ee6f5023-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+>=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+ThemisMx<https://lt=2Emydplr=2Ecom/449611c4d6a113054855ec813a8f24a4-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+>=0D=0A=
+=0D=0A=
+Este mensaje contiene informaci=C3=B3n propiedad de Editorial THEMIS S=2E=
+A=2E de C=2EV=2E, la cual puede ser privada y confidencial=2E El mensaje =
+y su contenido est=C3=A1 destinado para uso exclusivo del individuo y/o d=
+e la entidad al cual est=C3=A1 dirigido=2E Si el lector de este mensaje n=
+o es el destinatario, se le informa que est=C3=A1 estrictamente prohibido=
+ utilizar, difundir, hacer p=C3=BAblica o copiar esta comunicaci=C3=B3n a=
+s=C3=AD como sus documentos anexos=2E Si usted recibe esta comunicaci=C3=
+=B3n por error, favor de informarnos de inmediato al tel=C3=A9fono 0155 5=
+482 2770 o al correo electr=C3=B3nico remitente, Gracias=2E=0D=0A=
+=0D=0A=
+
+
+----Boundary.636893716714234078.231802579--
+Content-type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1=2E0 Strict//EN" "http://www=2E=
+w3=2Eorg/TR/xhtml1/DTD/xhtml1-strict=2Edtd"><html  xmlns=3D"http://www=2E=
+w3=2Eorg/1999/xhtml"><head>=0D=0A=
+<meta name=3D"viewport" content=3D"width=3Ddevice-width"/>=0D=0A=
+=0D=0A=
+=09=09<title>Editorial Themis</title>=0D=0A=
+=09=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Di=
+so-8859-1">=0D=0A=
+=09=
+<style> @media only screen and (min-width: 480px) { .dplr-mobile-only{display:none !important;}}</style></head><body>
+<img alt=3D'' src=3D"https://op=2Emydplr=2Ecom/15ec919fbe065a8678a345b6ff=
+10387b-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+"/><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"center"><tr><td bgcolor=3D"#ffffff" align=3D"center" style=3D"p=
+adding: 0 10px 0 10px;"><table cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"70%" border=3D"0" ><tbody><tr><td><table cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"100%" border=3D"0"><tbody><tr><td><table cellspacing=3D"=
+0" cellpadding=3D"10" width=3D"100%" border=3D"0"><tbody><tr><td align=3D=
+"center" style=3D"padding: 0 0 0 0; font-size: 13px; font-family: Helveti=
+ca,  Arial, sans-serif; color: #999999; text-align: center !important; he=
+ight: 40px; line-height: 1=2E4;">Ver versi=C3=B3n <a href=3D"https://vo=
+=2Emydplr=2Ecom/15ec919fbe065a8678a345b6ff10387b-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" style=3D"font-size: 13px; font-family: Helvetica,  Arial, sans-serif; c=
+olor: #2A5DB0 !important; text-decoration: underline !important; ">Online=
+</a> | <a href=3D"https://fw=2Emydplr=2Ecom/15ec919fbe065a8678a345b6ff103=
+87b-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" style=3D"font-size: 13px; font-family: Helvetica,  Arial, sans-serif; c=
+olor: #2A5DB0 !important; text-decoration: underline !important; ">Enviar=
+</a> a un amigo </td></tr></tbody></table></td></tr></tbody></table></td>=
+</tr></tbody></table></td></tr><tr><td width=3D"100%" align=3D"center">=
+=0D=0A=
+<center>=0D=0A=
+<table bgcolor=3D"#001c3f" width=3D"700px" border=3D"0" align=3D"center">=
+=0D=0A=
+  <tr> =0D=0A=
+    <td align=3D"center">=0D=0A=
+=09<table bgcolor=3D"#F2F2F2" width=3D"650px" border=3D"0" cellpadding=3D=
+"5" cellspacing=3D"5">=0D=0A=
+      <tr>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+        <td style=3D"text-align: center; color: #000000; font-family: Ver=
+dana, Arial, Helvetica, sans-serif; font-size: 12px;"><strong><a href=3D"=
+https://lt=2Emydplr=2Ecom/a3e5239a76c44f7ab8776833fc2d241a-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" target=3D"_blank"><img src=3D"https://app2=2Edopplerfiles=2Ecom/Users/1=
+4256/Campaigns/10330765/logo_ifa=2Epng" width=3D"88" height=3D"88" border=
+=3D"0" alt=3D" "></a></strong></td>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+      </tr> =0D=0A=
+      <tr>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+        <td style=3D"text-align: center; color: #2b253a; font-family: Ver=
+dana, Arial, Helvetica, sans-serif; font-size: 40px;"><p><strong>Seminari=
+o IFA 2019</strong></p>=0D=0A=
+          </td>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+      </tr>=0D=0A=
+=09=09 <tr>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+        <td style=3D"text-align: center; color: #003778; font-family: Ver=
+dana, Arial, Helvetica, sans-serif; font-size: 20px;"><p><strong>Aspectos=
+ Controvertidos en Tributaci=C3=B3n Internacional</strong></p></td>=0D=0A=
+=
+=0D=0A=
+=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+      </tr>=0D=0A=
+=0D=0A=
+      =0D=0A=
+=09=09 <tr>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+        <td style=3D"text-align: center; color: #2b253a; font-family: Ver=
+dana, Arial, Helvetica, sans-serif; font-size: 20px;"><p><strong> 4 de ab=
+ril 2019 </strong></p>=0D=0A=
+          </td>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+      </tr>=0D=0A=
+=0D=0A=
+=09=09 <tr>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+        <td style=3D"text-align: center; color: #003778; font-family: Ver=
+dana, Arial, Helvetica, sans-serif; font-size: 22px;"><p><strong>PROGRAMA=
+</strong></p>=0D=0A=
+          </td>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+      </tr>=0D=0A=
+=09=09=0D=0A=
+      =0D=0A=
+=09=09<tr>=0D=0A=
+        <td>=C2=A0</td>s=0D=0A=
+        <td style=3D"text-align: left; color: #003778; font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Panel I=2E Pe=
+rspectivas en la Tributaci=C3=B3n Nacional e Internacional: =C2=BFMedidas=
+ anti-abuso o abuso de medidas?</strong><br>=0D=0A=
+=09=09<font style=3D"text-align: left; color: #000000; font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 15px;">=0D=0A=
+=09=09=09<ul>=0D=0A=
+=09=09=09=09<strong><em>Coordinador: Arturo P=C3=A9rez Robles - </em></st=
+rong> Socio de P=C3=A9rez Robles Abogados<br>=0D=0A=
+=09=09=09</ul>=0D=0A=
+=09=09=09=09<strong> Panelistas: </strong>=0D=0A=
+=09=09=09=09<ul>=0D=0A=
+=09=09=09=09  <li><strong>Juan Carlos Roa=2E</strong> Magistrado Presiden=
+te de la Sala Especializada en materia de Juicio de Resoluci=C3=B3n Exclu=
+siva de Fondo y Sala Auxiliar Metropolitana del TFJA</li>=0D=0A=
+=09=09=09=09  <li><strong>Jacqueline Vargas=2E</strong> Administradora Ce=
+ntral de Apoyo Jur=C3=ADdico y Normatividad Internacional del Servicio de=
+ Administraci=C3=B3n Tributaria</li>=0D=0A=
+=09=09=09=09  <li><strong>Gerardo Nieto Mart=C3=ADnez=2E</strong> Socio d=
+e Basham, Ringe y Correa, S=2EC=2E</li>=0D=0A=
+=09=09=09=09  <li><strong>Pedro =C3=81ngel Palma=2E</strong> Asociado Sen=
+ior de S=C3=A1nchez Devanny Eseverri, S=2EC=2E</li>=09=0D=0A=
+=09=09=09</ul>=0D=0A=
+=09=09</font>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+=09=09</td></tr>=0D=0A=
+=09=0D=0A=
+=09=09<tr>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+        <td style=3D"text-align: left; color: #003778; font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Panel II=2E F=
+iscalidad en la Econom=C3=ADa Digital (Parte 1 y 2)</strong><br>=0D=0A=
+=09=09<font style=3D"text-align: left; color: #000000; font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 15px;">=0D=0A=
+=09=09=09<ul>=0D=0A=
+=09=09=09=09<strong><em> Coordinador: Ricardo Rend=C3=B3n - </em></strong=
+> Socio de Chevez, Ruiz,<br> Zamarripa y C=C3=ADa=2E <br>=09=0D=0A=
+=09=09=09</ul>=0D=0A=
+=0D=0A=
+        <strong> Panelistas: </strong>=0D=0A=
+=09=09=09=09<ul>=0D=0A=
+=09=09=09=09  <li><strong>Erick Jim=C3=A9nez Reyes=2E</strong> Administra=
+dor Central de Fiscalizaci=C3=B3n Internacional del Servicio de Administr=
+aci=C3=B3n Tributaria</li>=0D=0A=
+=09=09=09=09  <li><strong>Tatiana Falcao=2E</strong> Profesora Visitante =
+en FGV - Funda=C3=A7=C3=A3o Getulio Vargas</li>=0D=0A=
+=09=09=09=09  <li><strong>Jos=C3=A9 Murillo=2E</strong> L=C3=ADder de la =
+pr=C3=A1ctica de servicios Fiscales Internacionales de Ernst & Young, LLP=
+ - Washington D=2EC=2E</li>=0D=0A=
+=09=09=09=09  <li><strong>Juan Antonio Pizano=2E</strong> Socio de Deloit=
+te M=C3=A9xico</li>=09=0D=0A=
+=09=09=09</ul>=0D=0A=
+=0D=0A=
+=09=09</font>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+=09=09</td></tr>=0D=0A=
+=09=09=0D=0A=
+=09=09<tr>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+        <td style=3D"text-align: left; color: #003778; font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Panel III=2E =
+Administraci=C3=B3n de la base gravable, criterios no vinculativos y ajus=
+tes de Precios de Transferencia=2E</strong><br>=0D=0A=
+=09=09<font style=3D"text-align: left; color: #000000; font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 15px;">=0D=0A=
+=09=09=09<ul>=0D=0A=
+=09=09=09=09<strong><em> Coordinador: Iv=C3=A1n D=C3=ADaz Barreiro - </em=
+> </strong> Socio de PwC <br>=0D=0A=
+=09=09=09</ul>=0D=0A=
+=0D=0A=
+        <strong> Panelistas: </strong>=0D=0A=
+=09=09=09=09<ul>=0D=0A=
+=09=09=09=09  <li><strong>Alberto Platas Garc=C3=ADa=2E</strong> Administ=
+rador de Fiscalizac=C3=B3n de Precios de Tranferencia del Servicio de Adm=
+inistraci=C3=B3n Tributaria</li>=0D=0A=
+=09=09=09=09  <li><strong>Jaime Heredia Montejano=2E</strong> Socio de KP=
+MG M=C3=A9xico</li>=0D=0A=
+=09=09=09=09  <li><strong>Yoshio Uehara Hashimoto=2E</strong> Socio de Ch=
+=C3=A9vez Ruiz Zamparripa y C=C3=ADa, S=2EC=2E</li>=0D=0A=
+=09=09=09=09  <li><strong>Guillermo Villase=C3=B1or Tadeo=2E</strong> Soc=
+io de S=C3=A1nchez Devanny Eseverri, S=2EC=2E</li>=09=0D=0A=
+=09=09=09</ul>=0D=0A=
+=09=09=0D=0A=
+=09=09</font>=0D=0A=
+=09=09<td>=C2=A0</td>=0D=0A=
+=09=09</td></tr>=0D=0A=
+=0D=0A=
+=09=09<tr>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+        <td style=3D"text-align: left; color: #003778; font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 14px;"><strong>Panel IV=2E R=
+eforma fiscal en Estados Unidos y TMEC=2E La visi=C3=B3n de las empresas=
+=2E</strong><br>=0D=0A=
+=09=09<font style=3D"text-align: left; color: #000000; font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 15px;">=0D=0A=
+=09=09=09<ul>=0D=0A=
+=09=09=09=09<strong><em>Coordinador: Manuel E=2E Tron - </em> </strong> S=
+ocio de Manuel Tron S=2EC=2E<br>=0D=0A=
+=09=09=09</ul>=0D=0A=
+=09=09</font>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+=09=09</td></tr>=0D=0A=
+=09=09=0D=0A=
+=09=09=0D=0A=
+=09=09 <td>=C2=A0</td>=0D=0A=
+        <td style=3D"text-align: center; color: #7300B2; font-family: Ver=
+dana, Arial, Helvetica, sans-serif; font-size: 20px;">Inscripciones: <br>=
+<a href=3D"https://lt=2Emydplr=2Ecom/789f5751ed6f52c1044be952cd7ca00b-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" target=3D"_blank" style=3D"text-align: center; vertical-align:middle; c=
+olor: #B2OO98; font-family: Verdana, Arial, Helvetica, sans-serif; font-s=
+ize: 20px; text-decoration:none;"><b>https://online=2Echeckmein=2Ecom=2Em=
+x/IFA2019/ESP/=09</b></a></td>=0D=0A=
+=09=09=0D=0A=
+=09=09=0D=0A=
+=09<tr>=0D=0A=
+        <td colspan=3D"3" bgcolor=3D"#33b5e5" style=3D"text-align: center=
+; color: #ffffff; font-family: Verdana, Arial, Helvetica, sans-serif; fon=
+t-size: 24px;"><b>PUNTOS EPC</b>=0D=0A=
+=09=09</td>=0D=0A=
+      </tr>=09=0D=0A=
+=09=09=0D=0A=
+=09=09=0D=0A=
+=09=09<td>=0D=0A=
+=09=09=0D=0A=
+=09<tr>=0D=0A=
+       =0D=0A=
+=09=09=09<tr>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+        <td style=3D"text-align: left; color: #33b5e5; font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 18px;"><strong>Informes:</st=
+rong>=0D=0A=
+=09=09<font style=3D"text-align: left; color: #000000; font-family: Verda=
+na, Arial, Helvetica, sans-serif; font-size: 16px;">=0D=0A=
+=09=09=09<ul>=0D=0A=
+=09=09=09=09Laura Ysunza, al correo:<br>=0D=0A=
+=09=09=09=09administracion@ifamexico=2Ecom=2Emx <br>=0D=0A=
+=09=09=09=09Tel=2E 04455 4347 0347<br>=0D=0A=
+=09=09=09</ul>=0D=0A=
+=09=09</font>=0D=0A=
+        <td>=C2=A0</td>=0D=0A=
+        =0D=0A=
+     =0D=0A=
+=09<tr>=0D=0A=
+       =0D=0A=
+=09=09=09<table width=3D"670" height=3D"40" cellpadding=3D"0" cellspacing=
+=3D"0" align=3D"center" border=3D"0">=0D=0A=
+=09=09=09=09<tr>=0D=0A=
+=09=09=09=09=09<td style=3D"text-align: center; color: #ffea00; font-fami=
+ly: Verdana, Arial, Helvetica, sans-serif; font-size: 20px;"><b><br>Costo=
+s:</b></td>=0D=0A=
+      =09=09=09</tr>=0D=0A=
+=09=09=09=09<tr>=0D=0A=
+=09=09=09=09=09<td style=3D"text-align: center; color: #ffea00; font-fami=
+ly: Verdana, Arial, Helvetica, sans-serif; font-size: 18px;"><b>Miembros =
+IFA: $8,250 + IVA</b></td>=0D=0A=
+=09=09=09=09</tr>=0D=0A=
+=09=09=09=09<tr>=0D=0A=
+=09=09=09=09=09<td style=3D"text-align: center; color: #ffea00; font-fami=
+ly: Verdana, Arial, Helvetica, sans-serif; font-size: 18px;"><b>No Miembr=
+os IFA: $10,725 + IVA</b></td>=0D=0A=
+=09=09=09=09</tr>=0D=0A=
+=09=09=09=09=0D=0A=
+=09=09=09=09<tr> =0D=0A=
+=09=09=09=09=09<td style=3D"text-align: center; color: #ffffff; font-fami=
+ly: Verdana, Arial, Helvetica, sans-serif; font-size: 15px;"><br><em>El c=
+osto de la participaci=C3=B3n incluye material electr=C3=B3nico de lectur=
+a, servicio de caf=C3=A9, comida, <br>cocktail y estacionamiento=2E</em><=
+/td>=0D=0A=
+=09=09=09=09</tr>=0D=0A=
+=09=09=09=09<tr>=0D=0A=
+=09=09=09=09=09<td style=3D"text-align: center; color: #ffffff; font-fami=
+ly: Verdana, Arial, Helvetica, sans-serif; font-size: 15px;"><em>No se ad=
+miten reservaciones sin pago=2E El acceso a las conferencias ser=C3=A1 =
+=C3=BAnicamente para el miembro o persona registrada y no es transferible=
+=2E</em><br></td>=09=0D=0A=
+=09=09=09=09</tr>=0D=0A=
+=09=09=09=09=09=0D=0A=
+=09=09=09=09=09=0D=0A=
+=09=09=09<tr>=0D=0A=
+=09=09=09=09=09<td style=3D"text-align: center; color: #ffffff; font-fami=
+ly: Verdana, Arial, Helvetica, sans-serif; font-size: 20px;"><em><br><br>=
+=0D=0A=
+=09=09=09=09=09=09Sede: Club de Industriales CDMX<br>=0D=0A=
+=09=09=09=09=09=09Horario: 8:30 - 19:00 hrs=2E<br></em><br></td>=09=0D=0A=
+=
+=09=09=09=09</tr>=09=0D=0A=
+=09=09=09=09=0D=0A=
+=09=09=09=09=0D=0A=
+=09=09=09=09=0D=0A=
+=09=09=09=09=0D=0A=
+=09=09=09</table>=0D=0A=
+=09=09</tr></td>=0D=0A=
+=09=0D=0A=
+=09=09</tr></tr></td></table>=0D=0A=
+=09=0D=0A=
+  =0D=0A=
+</td></tr></table>=0D=0A=
+=09=09=09<br>=0D=0A=
+    =09=09<table width=3D"700" height=3D"40" cellpadding=3D"0" cellspacin=
+g=3D"0" align=3D"center" border=3D"0">=0D=0A=
+=09=09  <tr align=3D"center">=0D=0A=
+=09=09    <td>=0D=0A=
+            <table width=3D"130" height=3D"40" border=3D"0" bgcolor=3D"#1=
+33595">=0D=0A=
+=09=09      <tr>=0D=0A=
+=09=09        <td align=3D"right" width=3D"40"><img src=3D"https://app2=
+=2Edopplerfiles=2Ecom/Users/14256/Campaigns/10330765/fb=2Epng" width=3D"4=
+0" height=3D"40" alt=3D"facebook"></td>=0D=0A=
+=09=09        <td width=3D"110"><a href=3D"https://lt=2Emydplr=2Ecom/b5fd=
+fbdd148af54a032b023ed6552734-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" target=3D"_blank" style=3D"color: #ffffff; font-family: Verdana, Arial,=
+ Helvetica, sans-serif; font-size: 14px;">/Editorial<br>Themis</a></td>=
+=0D=0A=
+=09          </tr>=0D=0A=
+=09        </table>            =0D=0A=
+            </td>=0D=0A=
+=09=09    <td>=0D=0A=
+            <table width=3D"130" height=3D"40" border=3D"0" bgcolor=3D"#0=
+0a1e1">=0D=0A=
+=09=09      <tr>=0D=0A=
+=09=09        <td align=3D"right" width=3D"40"><img src=3D"https://app2=
+=2Edopplerfiles=2Ecom/Users/14256/Campaigns/10330765/tw=2Epng" width=3D"4=
+0" height=3D"40" alt=3D"twitter"></td>=0D=0A=
+=09=09        <td width=3D"110"><a href=3D"https://lt=2Emydplr=2Ecom/764a=
+a9a58aae65f88b1d57a7ee6f5023-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" target=3D"_blank" style=3D"color: #ffffff; font-family: Verdana, Arial,=
+ Helvetica, sans-serif; font-size: 14px;">@Editorial<br>Themis</a></td>=
+=0D=0A=
+=09          </tr>=0D=0A=
+=09        </table>            =0D=0A=
+=09=09=09</td>=0D=0A=
+=09=09    <td>=0D=0A=
+            <table width=3D"130" height=3D"40" border=3D"0" bgcolor=3D"#c=
+10a07">=0D=0A=
+=09=09      <tr>=0D=0A=
+=09=09        <td align=3D"right" width=3D"40"><img src=3D"https://app2=
+=2Edopplerfiles=2Ecom/Users/14256/Campaigns/10330765/gp=2Epng" width=3D"4=
+0" height=3D"40" alt=3D"gplus"></td>=0D=0A=
+=09=09        <td width=3D"110"><a href=3D"https://lt=2Emydplr=2Ecom/4496=
+11c4d6a113054855ec813a8f24a4-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" target=3D"_blank" style=3D"color: #ffffff; font-family: Verdana, Arial,=
+ Helvetica, sans-serif; font-size: 14px;">ThemisMx</a></td>=0D=0A=
+=09          </tr>=0D=0A=
+=09        </table>            =0D=0A=
+=09=09=09</td>=0D=0A=
+=09=09    =0D=0A=
+    </tr></table>=0D=0A=
+=09=09<table cellspacing=3D"5" align=3D"center" width=3D"700" border=3D"0=
+">=0D=0A=
+=09=09=09<tr>=0D=0A=
+=09=09=09=09<td colspan=3D"7" style=3D"text-align: justify; color: #cfcfc=
+f; font-family: Arial, Helvetica, sans-serif, Verdana; font-size: 10px;">=
+Este mensaje contiene informaci=C3=B3n propiedad de Editorial THEMIS S=2E=
+A=2E de C=2EV=2E, la cual puede ser privada y confidencial=2E El mensaje =
+y su contenido est=C3=A1 destinado para uso exclusivo del individuo y/o d=
+e la entidad al cual est=C3=A1 dirigido=2E Si el lector de este mensaje n=
+o es el destinatario, se le informa que est=C3=A1 estrictamente prohibido=
+ utilizar, difundir, hacer p=C3=BAblica o copiar esta comunicaci=C3=B3n a=
+s=C3=AD como sus documentos anexos=2E Si usted recibe esta comunicaci=C3=
+=B3n por error, favor de informarnos de inmediato al tel=C3=A9fono 0155 5=
+482 2770 o al correo electr=C3=B3nico remitente, Gracias=2E</td>=0D=0A=
+=09=09  </tr>=0D=0A=
+=09</table> =0D=0A=
+</center>=09=0D=0A=
+</td></tr><tr><td bgcolor=3D"#ffffff" align=3D"center" style=3D"padding: =
+0 10px 0 10px;"><table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%"=
+ border=3D"0" ><tbody><tr><td><table cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"100%" border=3D"0"><tbody><tr><td bgcolor=3D"#ffffff" align=3D"c=
+enter" style=3D"padding: 10px 10px 0 10px;"><table cellspacing=3D"0" cell=
+padding=3D"0" width=3D"70%" border=3D"0" ><tbody><tr><td><table cellspaci=
+ng=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0"><tbody><tr><td><ta=
+ble cellspacing=3D"0" cellpadding=3D"10" width=3D"100%" border=3D"0"><tbo=
+dy><tr><td align=3D"center" style=3D"padding: 0 0 0 0; text-align: center=
+ !important; font-size: 13px; font-family: Helvetica,  Arial, sans-serif;=
+ color: #999999; height: 30px; line-height: 1=2E4;">=C2=BFDesea dejar de =
+recibir estos emails? Click <a href=3D"https://un=2Emydplr=2Ecom/15ec919f=
+be065a8678a345b6ff10387b-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+-842b1979187904f5" style=3D"font-size: 13px; font-family: Helvetica,  Ari=
+al, sans-serif; color: #2A5DB0 !important; text-decoration: underline !im=
+portant; ">aqu=C3=AD</a> y env=C3=ADe un correo a privacidad@themis=2Ecom=
+=2Emx</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbod=
+y></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><=
+tr><td bgcolor=3D"#ffffff" align=3D"center" style=3D"padding: 0 10px 0 10=
+px;"><table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"=
+0" ><tbody><tr><td><table cellspacing=3D"0" cellpadding=3D"0" width=3D"10=
+0%" border=3D"0"><tbody><tr><td bgcolor=3D"#ffffff" align=3D"center" styl=
+e=3D"padding: 10px 10px 0 10px;"><table cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"70%" border=3D"0" ><tbody><tr><td><table cellspacing=3D"0" ce=
+llpadding=3D"0" width=3D"100%" border=3D"0"><tbody><tr><td><table cellspa=
+cing=3D"0" cellpadding=3D"10" width=3D"100%" border=3D"0"><tbody><tr><td =
+align=3D"center" style=3D"padding: 0 0 0 0; line-height: 1=2E4; height: 3=
+0px; text-align: center !important; font-size: 13px; font-family: Helveti=
+ca,  Arial, sans-serif; color: #999999;">Editorial Themis | Patriotismo 8=
+89 Piso 4  | M=C3=A9xico DF | 03910</td></tr></tbody></table></td></tr></=
+tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></=
+tr></tbody></table></td></tr>=
+</body></html>
+
+----Boundary.636893716714234078.231802579----
+

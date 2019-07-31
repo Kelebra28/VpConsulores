@@ -1,0 +1,582 @@
+Return-Path: <mcarrillo@colegiocpmexico.org.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id sDAkD2D4flw5XDEAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Tue, 05 Mar 2019 15:29:52 -0700
+Return-path: <mcarrillo@colegiocpmexico.org.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Tue, 05 Mar 2019 15:29:52 -0700
+Received: from mail-eopbgr790080.outbound.protection.outlook.com ([40.107.79.80]:41136 helo=NAM03-CO1-obe.outbound.protection.outlook.com)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <mcarrillo@colegiocpmexico.org.mx>)
+	id 1h1IZL-00Dpoy-4K
+	for raymundo@vpconsultores.com.mx; Tue, 05 Mar 2019 15:29:52 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=colegiocpmexico.onmicrosoft.com; s=selector1-colegiocpmexico-org-mx;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=wSlU5UtwDyyFGweT0tcAyxzYu5RzEV3+PKXJCU9XGyE=;
+ b=KydkaQaQ++IaE6wdTBLBFjj1sj8jAeXZdGkl2WolWD7bZIeXbnjOWgygz7DGVDt7L7Ba7kSeO/VNyBx4o41hn9gCJAl4JrDsTDf4s8bqVNGEX+dKote7YYBY4EM063jDbzP7ZFTPf6kAVpzlN+J/nrh8KGYPspo6XlLPnoVJdgo=
+Received: from SN6PR17MB2352.namprd17.prod.outlook.com (52.135.79.154) by
+ SN6PR17MB2128.namprd17.prod.outlook.com (52.135.87.15) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.1665.15; Tue, 5 Mar 2019 22:29:08 +0000
+Received: from SN6PR17MB2352.namprd17.prod.outlook.com
+ ([fe80::51f1:766a:9036:9095]) by SN6PR17MB2352.namprd17.prod.outlook.com
+ ([fe80::51f1:766a:9036:9095%7]) with mapi id 15.20.1686.016; Tue, 5 Mar 2019
+ 22:29:08 +0000
+From: Marcos Augusto Carrillo Vargas <mcarrillo@colegiocpmexico.org.mx>
+To: "raymundo@vpconsultores.com.mx" <raymundo@vpconsultores.com.mx>
+Subject: MATERIALES EN LINEA
+Thread-Topic: MATERIALES EN LINEA
+Thread-Index: AdTTos7Q62pkQ6M7StKD3n3ybWZJdQ==
+Date: Tue, 5 Mar 2019 22:29:08 +0000
+Message-ID:
+ <SN6PR17MB2352723031DC958F59CF37209E720@SN6PR17MB2352.namprd17.prod.outlook.com>
+Accept-Language: es-MX, en-US
+Content-Language: es-ES
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=mcarrillo@colegiocpmexico.org.mx; 
+x-originating-ip: [200.53.126.182]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: ed791066-fa59-4dfd-a29b-08d6a1b9fbf5
+x-microsoft-antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(8989299)(4534185)(4627221)(201703031133081)(201702281549075)(8990200)(5600127)(711020)(4605104)(2017052603328)(7153060)(49563074)(7193020);SRVR:SN6PR17MB2128;
+x-ms-traffictypediagnostic: SN6PR17MB2128:
+x-ms-exchange-purlcount: 3
+x-microsoft-exchange-diagnostics:
+ =?iso-8859-1?Q?1;SN6PR17MB2128;23:QseBQ83/IypLCx9QNtMqQyHbrXHQwodPddKyiRq?=
+ =?iso-8859-1?Q?PG732/bgMVeqim8su857MBe1c9qECPjx8AHsVpvkQtEqr94FmPyBXnuSKJ?=
+ =?iso-8859-1?Q?Keb88etOUv3N/NrECBq+oEkNUEI2mjQahoBHgbgqXAKoGZxymOtlFuWpOL?=
+ =?iso-8859-1?Q?NNdOsWRVUOH6EXEk5ViazPH7ax0vRv1k7fxNrR4gpy6mwExbMKZblanx7e?=
+ =?iso-8859-1?Q?1lzVLJCglvdLzYju024UXUCH2X4FRwAuehUn5pLAZUdWA6NAqIxMnXKAn5?=
+ =?iso-8859-1?Q?qTz4/zd+ghXONogQdK6omcHI7+i8HFibdFTwVN0KGBsfVP9G+jhF8FdnD1?=
+ =?iso-8859-1?Q?KHT8unXAY0v9F54Du7j0bof4e19HcUzT2GArY830tiJSRejdKmoOghvum2?=
+ =?iso-8859-1?Q?9Gs+KiYAiuSNKSk0LKCqRA4Di6S7yV7GZJrliXuzhUVtCaK2dbeTKgFk21?=
+ =?iso-8859-1?Q?AEcpKtT37W1ye9N824ky6Gwxrx/8A/CAfF2gvWYQ5mVj9qff4Yj6qRDC3N?=
+ =?iso-8859-1?Q?GxwfxjM3QVm386PIVGIjg4+b3DdTWa9+ARk/SKeKsnt2+lXJAKp8KU5lSI?=
+ =?iso-8859-1?Q?4mj5NknCzUSRowqbIRJWvwmUz0NC+a7QMXAguAxjHjXXDKCw6s9DKmnBHc?=
+ =?iso-8859-1?Q?pO01KJwTwAOS/KAREVdJU/vTh6Q74FQ52NVsDNdj97fNmH29nQGbWGFeQ6?=
+ =?iso-8859-1?Q?imfqKOg6DzCwUN59SulCVHBk7Z5mllqZHkRA4Lj4FkzKTJiGtl4WBvzsMn?=
+ =?iso-8859-1?Q?GrlmqLQy7FxNtDo2gp1HB19E3leICaIeCN/Af6iQIPApZq98MF65tK1Eh/?=
+ =?iso-8859-1?Q?rh22GOAtMICksA/aZF2SwMokybINaHlqQjrdPo9xfttv+h4ylEEVm8/KrD?=
+ =?iso-8859-1?Q?0cm8JQJsKQN+JnVQcjwlTn1rtE8Qc82GqbZ4/xQyS6WfDHihTSvhapvlw2?=
+ =?iso-8859-1?Q?3F7dtebWhss0KlhFKioWvuzzNO0FJ8GE9rRnOpyDs4QrUrD0lDRrkMv2kW?=
+ =?iso-8859-1?Q?aACtt52/KLmQvum8Il6he8HpTT5RxHQ0aecg4NGlfZ0gOAZjqb+1v8q/Ul?=
+ =?iso-8859-1?Q?w7NJlSEKWIEj6jxyGGOar73Tc3YtIOnxuoAV69kx53PtVSt85lFQu7fjib?=
+ =?iso-8859-1?Q?anXbkmOOj1CGlTYcoTyHISMFwxr5zmAbtlKyBSTe+wRatL3y3vJbh7R9Lx?=
+ =?iso-8859-1?Q?ppD1/GDZufEDyk5srn46k7rtcD2dZWxpFtBHMxPPlZ0w/LuyK6cD9ihfpT?=
+ =?iso-8859-1?Q?POkeps1v2bFiXb9tFUaY9zeTTKMVFLtIgufdYqUazwlS/78kuQ5pg4OIhX?=
+ =?iso-8859-1?Q?1q5JbXj6cFwXFYqpUjlauiXEABAOKa/9UTtTYGwuT9hJEs7ndbLUusWZeU?=
+ =?iso-8859-1?Q?HhrXUFMPaNiej5LHnwfhOf/dyGarxSpKEaMGZAKaqjEkf6Gk4OkwV/v/6/?=
+ =?iso-8859-1?Q?wY00ECoqBubRRasatLzcurhm2ogCwDyEkquy43bDmusZEOD3uo0cUbykXL?=
+ =?iso-8859-1?Q?st/ardDign88CO2KaP1/Ywpjy92+2O5qks0i2jN20QvWqHd9133VVbJ02H?=
+ =?iso-8859-1?Q?7NVc+RhzRDD1aP2JRE87jnwDvlic83t6lWjrb/uSq0bwn3Z?=
+x-microsoft-antispam-prvs:
+ <SN6PR17MB212803CDA827286520169DC39E720@SN6PR17MB2128.namprd17.prod.outlook.com>
+x-forefront-prvs: 0967749BC1
+x-forefront-antispam-report:
+ SFV:NSPM;SFS:(10009020)(39840400004)(136003)(396003)(366004)(376002)(346002)(189003)(199004)(71190400001)(486006)(71200400001)(21615005)(236005)(25786009)(7736002)(861006)(733005)(476003)(2501003)(5640700003)(106356001)(53936002)(19627235002)(9686003)(81156014)(54556002)(105586002)(6306002)(54896002)(99936001)(2906002)(74316002)(14454004)(1730700003)(81166006)(55016002)(8676002)(52536013)(6436002)(2351001)(3480700005)(5660300002)(186003)(66066001)(33656002)(26005)(786003)(6116002)(478600001)(316002)(74482002)(3846002)(97736004)(7116003)(6506007)(16799955002)(256004)(966005)(68736007)(7696005)(790700001)(86362001)(8936002)(347745004)(6916009)(606006)(99286004)(102836004)(215093002);DIR:OUT;SFP:1101;SCL:1;SRVR:SN6PR17MB2128;H:SN6PR17MB2352.namprd17.prod.outlook.com;FPR:;SPF:None;LANG:es;PTR:InfoNoRecords;MX:1;A:1;
+received-spf: None (protection.outlook.com: colegiocpmexico.org.mx does not
+ designate permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam-message-info:
+ yzVUvgzDD9ZyhPP21ZCYeoUnqkepPlpApAyqBnmQAA8F+nF3ek5GIg7uqdcW3yVjA/QAXuhMXMAvXB2SAOvbZ4tHexxV0PzB025N+WileDDYZSmSnt0wNbM9K3NzHkitf3s14lHRZtEigDDPXzYBCF//arFDy6n2s6Ehk++MRi5oF2coxFnke96Wdmk24EGhMQDNvx4K/yIry/VDsDbQAQ8muQpGNtQOGGvlxd8++pwGBueJvZxV30t0whGveyegTsqovFl1kM4HD2IbpomsHphAQFCHv0WUkL9P9IotS+W/pL3Ju43PjcHRmEx+N+2olen6VgSkJZtH3P7krOuFzmcpLb5GoS4tGuM0NC4CC1o3xE0i4ndYuvay7pXOr88Q6G6kJnbDSjA84ubsMC3KnJ5GK3qe9v51YgY1AI8TDnA=
+Content-Type: multipart/related;
+	boundary="_006_SN6PR17MB2352723031DC958F59CF37209E720SN6PR17MB2352namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: colegiocpmexico.org.mx
+X-MS-Exchange-CrossTenant-Network-Message-Id: ed791066-fa59-4dfd-a29b-08d6a1b9fbf5
+X-MS-Exchange-CrossTenant-originalarrivaltime: 05 Mar 2019 22:29:08.5663
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: bc0ae707-6cf7-463b-8c3c-8c0594f6933b
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SN6PR17MB2128
+X-Spam-Status: No, score=1.6
+X-Spam-Score: 16
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  https://www.ccpm.org.mx/materiales/index.php [/Users/comunicacion/Library/Containers/com.microsoft.Outlook/Data/Library/Caches/Signatures/signature_267008262]
+    Marcos Augusto Carrillo Vargas Asesor de 
+ 
+ Content analysis details:   (1.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: ccpm.org.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: ccpm.org.mx]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.6 SUBJ_ALL_CAPS          Subject is all capitals
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+--_006_SN6PR17MB2352723031DC958F59CF37209E720SN6PR17MB2352namp_
+Content-Type: multipart/alternative;
+	boundary="_000_SN6PR17MB2352723031DC958F59CF37209E720SN6PR17MB2352namp_"
+
+--_000_SN6PR17MB2352723031DC958F59CF37209E720SN6PR17MB2352namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+https://www.ccpm.org.mx/materiales/index.php
+
+
+[/Users/comunicacion/Library/Containers/com.microsoft.Outlook/Data/Library/=
+Caches/Signatures/signature_267008262]
+
+
+Marcos Augusto Carrillo Vargas
+Asesor de Atenci=F3n a Socios
+
+
+mcarrillo@colegiocpmexico.org.mx
+Tel. +52 55 1105 19<tel:11051961>61
+www.ccpm.org.mx<http://www.ccpm.org.mx/>
+
+Bosque de Tabachines 44, Fracc. Bosques de las Lomas, Del. Miguel Hidalgo, =
+C.P. 11700, Ciudad de M=E9xico
+
+
+
+
+
+TODA CANCELACI=D3N, CAMBIO DE PARTICIPANTE, SEDE, CURSO O RAZ=D3N SOCIAL DE=
+BER=C1 DE SER SOLICITADA POR ESCRITO AL CORREO cursos@colegiocpmexico.org.m=
+x<mailto:cursos@colegiocpmexico.org.mx> DOS D=CDAS H=C1BILES PREVIOS A LA R=
+EALIZACI=D3N DEL EVENTO Y GENERAR=C1 UN COSTO DE $150.00 + IVA. NO SE REALI=
+ZAN DEVOLUCIONES DE EFECTIVO.
+
+Aviso Medio de Privacidad General
+
+El Colegio de Contadores P=FAblicos de M=E9xico, A.C., aprovecha para infor=
+marle que de conformidad con la Ley Federal de Protecci=F3n de Datos Person=
+ales en Posesi=F3n de Particulares, se entender=E1 que usted est=E1 de acue=
+rdo con la recopilaci=F3n, uso y almacenamiento de los datos personales y p=
+atrimoniales que nos sean proporcionados por este medio. Para mayor informa=
+ci=F3n respecto de nuestras pol=EDticas de privacidad, por favor consulte l=
+a p=E1gina www.ccpm.org.mx<http://www.ccpm.org.mx/>
+
+
+[cid:56A917BA-F8A8-4EB0-A398-9EF27ABD9144]   Antes de imprimir este correo,=
+ piensa bien si es necesario.<http://www.ccpm.org.mx/capacitacion/piezas/20=
+15/portal/3A/inicio-3a.html>
+
+
+
+--_000_SN6PR17MB2352723031DC958F59CF37209E720SN6PR17MB2352namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Titillium Web";
+	panose-1:0 0 5 0 0 0 0 0 0 0;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EstiloCorreo17
+	{mso-style-type:personal-compose;
+	font-family:"Titillium Web";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"ES-MX" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Titillium Web&quot;=
+"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Titillium Web&quot;=
+"><a href=3D"https://www.ccpm.org.mx/materiales/index.php">https://www.ccpm=
+.org.mx/materiales/index.php</a><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Titillium Web&quot;=
+"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:ES-MX"><o:p>&nbs=
+p;</o:p></span></p>
+<table class=3D"MsoTableGrid" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0" style=3D"border-collapse:collapse;border:none">
+<tbody>
+<tr style=3D"height:23.6pt">
+<td width=3D"438" valign=3D"top" style=3D"width:322.25pt;padding:0cm 5.4pt =
+0cm 5.4pt;height:23.6pt">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ti=
+tillium Web&quot;;color:#333333;mso-fareast-language:ES-MX"><img border=3D"=
+0" width=3D"417" height=3D"85" style=3D"width:4.3437in;height:.8854in" id=
+=3D"Imagen_x0020_1" src=3D"cid:image001.jpg@01D4D370.933D6820" alt=3D"/User=
+s/comunicacion/Library/Containers/com.microsoft.Outlook/Data/Library/Caches=
+/Signatures/signature_267008262"></span><span lang=3D"ES-TRAD" style=3D"fon=
+t-size:12.0pt;font-family:&quot;Titillium Web&quot;"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr style=3D"height:23.6pt">
+<td width=3D"438" valign=3D"top" style=3D"width:322.25pt;padding:0cm 5.4pt =
+0cm 5.4pt;height:23.6pt">
+<p class=3D"MsoNormal" style=3D"line-height:15.0pt;mso-line-height-rule:exa=
+ctly"><span lang=3D"ES-TRAD" style=3D"font-size:18.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:#1B1B1B"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:12.0pt;mso-line-height-rule:exa=
+ctly"><b><span lang=3D"ES" style=3D"font-size:13.0pt;font-family:&quot;Aria=
+l&quot;,sans-serif;color:#1B1B1B">Marcos Augusto Carrillo Vargas
+<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:12.0pt;mso-line-height-rule:exa=
+ctly"><span lang=3D"ES" style=3D"font-size:11.5pt;font-family:&quot;Arial&q=
+uot;,sans-serif;color:#7D868E">Asesor de Atenci=F3n a Socios</span><b><span=
+ lang=3D"ES-TRAD" style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,s=
+ans-serif;color:#7D868E"><o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:12.0pt;mso-line-height-rule:exa=
+ctly"><b><span lang=3D"ES-TRAD" style=3D"font-size:14.0pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:#7D868D"><o:p>&nbsp;</o:p></span></b></p>
+</td>
+</tr>
+<tr style=3D"height:24.7pt">
+<td width=3D"438" valign=3D"top" style=3D"width:322.25pt;padding:0cm 5.4pt =
+0cm 5.4pt;height:24.7pt">
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt;mso-line-height-rule:exa=
+ctly"><span lang=3D"ES" style=3D"font-size:11.5pt;font-family:&quot;Arial&q=
+uot;,sans-serif;color:black">mcarrillo</span><span lang=3D"ES-TRAD" style=
+=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black">=
+@colegiocpmexico.org.mx<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt;mso-line-height-rule:exa=
+ctly"><span lang=3D"ES-TRAD" style=3D"font-size:11.5pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:black">Tel.&nbsp;&#43;52 55
+</span><span lang=3D"ES-TRAD" style=3D"font-size:12.0pt"><a href=3D"tel:110=
+51961"><span style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,sans-s=
+erif;color:black;text-decoration:none">1105 19</span></a>61</span><span lan=
+g=3D"ES-TRAD" style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,sans-=
+serif;color:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt;mso-line-height-rule:exa=
+ctly"><span lang=3D"ES-TRAD" style=3D"font-size:12.0pt"><a href=3D"http://w=
+ww.ccpm.org.mx/"><b><span style=3D"font-size:11.5pt;font-family:&quot;Arial=
+&quot;,sans-serif;color:#EA0029;text-decoration:none">www.ccpm.org.mx</span=
+></b></a><b><span style=3D"color:#EA0029"><o:p></o:p></span></b></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt;mso-line-height-rule:exa=
+ctly"><b><span lang=3D"ES-TRAD" style=3D"font-size:11.5pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:#EA0029"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt;mso-line-height-rule:exa=
+ctly"><span lang=3D"ES-TRAD" style=3D"font-size:11.5pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:#7D868D">Bosque de Tabachines 44, Fracc. Bosques=
+ de las Lomas, Del. Miguel Hidalgo, C.P. 11700, Ciudad
+ de M=E9xico</span><span lang=3D"ES-TRAD" style=3D"font-size:12.0pt;color:#=
+7D868D"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr style=3D"height:23.6pt">
+<td width=3D"438" valign=3D"top" style=3D"width:322.25pt;padding:0cm 5.4pt =
+0cm 5.4pt;height:23.6pt">
+<p class=3D"MsoNormal" style=3D"line-height:16.0pt;mso-line-height-rule:exa=
+ctly"><span style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,sans-se=
+rif;mso-fareast-language:ES-MX"><img border=3D"0" width=3D"424" height=3D"6=
+" style=3D"width:4.4166in;height:.0625in" id=3D"Imagen_x0020_18" src=3D"cid=
+:image002.png@01D4D370.933D6820"></span><span lang=3D"ES-TRAD" style=3D"fon=
+t-size:11.5pt;font-family:&quot;Arial&quot;,sans-serif"><o:p></o:p></span><=
+/p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:ES-MX"><o:p>&nbs=
+p;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:ES-MX"><o:p>&nbs=
+p;</o:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:7.0pt;font-family:&quot;=
+Calibri Light&quot;,sans-serif;mso-fareast-language:ES-MX">TODA CANCELACI=
+=D3N, CAMBIO DE PARTICIPANTE, SEDE, CURSO O RAZ=D3N SOCIAL DEBER=C1 DE SER =
+SOLICITADA POR ESCRITO AL CORREO
+<a href=3D"mailto:cursos@colegiocpmexico.org.mx"><span style=3D"color:blue"=
+>cursos@colegiocpmexico.org.mx</span></a> DOS D=CDAS H=C1BILES PREVIOS A LA=
+ REALIZACI=D3N DEL EVENTO Y GENERAR=C1 UN COSTO DE $150.00 &#43; IVA. NO SE=
+ REALIZAN DEVOLUCIONES DE EFECTIVO.<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:7.0pt;font-family:&quot;=
+Calibri Light&quot;,sans-serif;mso-fareast-language:ES-MX"><o:p>&nbsp;</o:p=
+></span></b></p>
+<p class=3D"MsoNormal" style=3D"text-autospace:none"><b><span style=3D"font=
+-size:9.0pt;color:red;mso-fareast-language:ES-MX">Aviso Medio de Privacidad=
+ General
+</span></b><span style=3D"font-size:9.0pt;color:red;mso-fareast-language:ES=
+-MX"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;mso-fareast-language:=
+ES-MX"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;mso-fareast-language:=
+ES-MX">El Colegio de Contadores P=FAblicos de M=E9xico, A.C., aprovecha par=
+a informarle que de conformidad con la Ley Federal de Protecci=F3n de Datos=
+ Personales en Posesi=F3n de Particulares, se
+ entender=E1 que usted est=E1 de acuerdo con la recopilaci=F3n, uso y almac=
+enamiento de los datos personales y patrimoniales que nos sean proporcionad=
+os por este medio. Para mayor informaci=F3n respecto de nuestras pol=EDtica=
+s de privacidad, por favor consulte la p=E1gina
+<a href=3D"http://www.ccpm.org.mx/"><span style=3D"color:blue">www.ccpm.org=
+.mx</span></a><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-siz=
+e:9.0pt;mso-fareast-language:ES-MX"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;mso-fareast-language:=
+ES-MX"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.5pt;color:black;mso-fare=
+ast-language:ES-MX"><img border=3D"0" width=3D"60" height=3D"35" style=3D"w=
+idth:.625in;height:.3645in" id=3D"Imagen_x0020_2" src=3D"cid:image003.png@0=
+1D4D370.933D6820" alt=3D"cid:56A917BA-F8A8-4EB0-A398-9EF27ABD9144"></span><=
+span style=3D"font-size:9.0pt;color:black;mso-fareast-language:ES-MX">&nbsp=
+;&nbsp;&nbsp;</span><span style=3D"font-size:9.0pt;color:#365F91;mso-fareas=
+t-language:ES-MX"><a href=3D"http://www.ccpm.org.mx/capacitacion/piezas/201=
+5/portal/3A/inicio-3a.html"><span style=3D"color:blue">Antes
+ de imprimir este correo, piensa bien si es necesario.</span></a></span><sp=
+an style=3D"font-size:10.5pt;color:black;mso-fareast-language:ES-MX"><o:p><=
+/o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;color:#365F91;mso-far=
+east-language:ES-MX"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_SN6PR17MB2352723031DC958F59CF37209E720SN6PR17MB2352namp_--
+
+--_006_SN6PR17MB2352723031DC958F59CF37209E720SN6PR17MB2352namp_
+Content-Type: image/jpeg; name="image001.jpg"
+Content-Description: image001.jpg
+Content-Disposition: inline; filename="image001.jpg"; size=6019;
+	creation-date="Tue, 05 Mar 2019 22:29:07 GMT";
+	modification-date="Tue, 05 Mar 2019 22:29:07 GMT"
+Content-ID: <image001.jpg@01D4D370.933D6820>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7
+Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCABVAaEDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2aiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKazq
+ilnYKo6knAFKrK6hlYMD0IOc0ALRWPF4gVtYksJbSSOMTeQlxuBVn27tpHUcdK2KSdy505QtzLcK
+KKKZAUUUUAFFFFABRRRQAUUVR1fVIdI097uY9PlQf3mPQUAXqK87t/iDqLtsNvA/P3sEfpXR6Zrt
+3fY3xIo9qbTW4k77HQ0Vi6nrZ063aViDtGea4zTPiff6nr66YtnEkcrFUlXJKkAnkfhT5Xa4XPTa
+Ky4Li4aHdJMd3rgfyqG48RW9gc3ZwndgOlK1wubVRmaJZVhaRBIwyqFhkj6U21u7e9t0uLWZZYnG
+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
+QUUUUhhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAENzbrcxFG+VsHY4A3IcYyM9646/wBNfRCX
+jklA89RZwNLlZJdvMjk9O/FdvUVxbw3UDQXESyxuMMrDINNMTRzdjqup6ekdvNDc6jI6eYIygWaJ
+QcHcc4PPT1rbh1iylZUMvlu7+WEkG07sA7frzUI0ma21SO6sp1jh8tYpIXTOVXONrdRWJd6RqMYt
+pVtjNcQb7olGG0zGQHGTjtRoGqOp+12+WHnx5U7SN44OM4/KqE3ibSIYmk+1rIqsFYxjdtz0zWLZ
+aXcW7jzIJWZtRXzG2HkGM7m/3csRnpSadpmoS6fcafNbXCgfNDJNsEaMp+UADkg+pp2Qrss3+rX8
+++eJhBYW04ScxNmUjP3h224IP0NJHpV+s1vbxQQvDDN5sF8HwyoTkggdT29D1q/pOgjTpbpml3wX
+KgG2IyqccjPcckfSteONIo1jjUIiDCqBgAUrjsOooopDCiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2Q==
+
+--_006_SN6PR17MB2352723031DC958F59CF37209E720SN6PR17MB2352namp_
+Content-Type: image/png; name="image002.png"
+Content-Description: image002.png
+Content-Disposition: inline; filename="image002.png"; size=573;
+	creation-date="Tue, 05 Mar 2019 22:29:07 GMT";
+	modification-date="Tue, 05 Mar 2019 22:29:07 GMT"
+Content-ID: <image002.png@01D4D370.933D6820>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAagAAAAGCAYAAACW0wrqAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAO
+xAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUATWljcm9zb2Z0IE9mZmljZX/tNXEAAAG9SURBVGhD
+7Zq9S8NAGMafu1ybxNRaJxf/AVFc3F1KQVwcHZwdBMFFHQrSRXARHPoX6CLuzuIkuAu6io620KZJ
+SJvkfKOLixBoST943ywZ7iP3e3N57u6JOju/PJKFwlISxxocIyEgNIWAQ0AdCSQjaZQbmXoCWggB
+rbtCI/y558iRQALTtFUYhJ8qdpvVxu12GeamBx3n+BDcVUYCNoThQz8pSBw7ztxyFEUZq3KxTARI
+nTRdHEzgLwEB0iWWpnxfCpqG0jBgSIlWuVjd279akVi8tyGF4jmaby4y9laGgQ/0rxXNlk7g+yxQ
+GcFxMSbABKaPgFMqoe1365WW+5Cg8mKROH0h4rXChKYyXdrTcYNHAsXBBJgAE5hRAlrDdhz0fP/R
+Ct2LrcZdswJztc3iNBUJpx2uLirFOjVstsh1IpR8pDcsx1mrn1pNbDeNL6tKFdAP+533jbXd09rB
+joX5Q49s4SLvncaXlAw9/+ZHkDIJ8RoNBlHEP0lkwPZvkVSZLGK6wMbTMBhnqy4tWSTJk0tTrZfa
+ILM1uskfTfqJM8h78ix1clOrdZ+xXo8RvwXQCduAk52/AIlBLv7nN+NkgmH+ij+tAAAAAElFTkSu
+QmCC
+
+--_006_SN6PR17MB2352723031DC958F59CF37209E720SN6PR17MB2352namp_
+Content-Type: image/png; name="image003.png"
+Content-Description: image003.png
+Content-Disposition: inline; filename="image003.png"; size=1982;
+	creation-date="Tue, 05 Mar 2019 22:29:07 GMT";
+	modification-date="Tue, 05 Mar 2019 22:29:07 GMT"
+Content-ID: <image003.png@01D4D370.933D6820>
+Content-Transfer-Encoding: base64
+
+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
+
+--_006_SN6PR17MB2352723031DC958F59CF37209E720SN6PR17MB2352namp_--

@@ -1,0 +1,658 @@
+Return-Path: <010001691165c39c-48d2b916-f12e-4245-8b9c-a3b6335efd0f-000000@amazonses.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id qC+DMU7zblxI8CoAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Thu, 21 Feb 2019 11:51:58 -0700
+Return-path: <010001691165c39c-48d2b916-f12e-4245-8b9c-a3b6335efd0f-000000@amazonses.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Thu, 21 Feb 2019 11:51:58 -0700
+Received: from a9-115.smtp-out.amazonses.com ([54.240.9.115]:35592)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <010001691165c39c-48d2b916-f12e-4245-8b9c-a3b6335efd0f-000000@amazonses.com>)
+	id 1gwtRt-00CAH0-4d
+	for raymundo@vpconsultores.com.mx; Thu, 21 Feb 2019 11:51:58 -0700
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=binub6sxon73j6ofsgmrjwg3hztlaudz; d=elconta.mx; t=1550775076;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=5hN3iBWGTCqHsYArgaLZN2aCBBZB1zDsUcNqHGQQLcU=;
+	b=LpBj2mD2xllCweMuCEGwJvwPAV6KHa6rHStXe/V4Mrj0z2z/Erz9GsbKjlWcORfW
+	EKNYhuhy9hH9HVx9VzAV1p2yjhj5AxuLvC7kIRH1q04pMOIe8MNzMEgz36zf4Q3PsJM
+	3mQ4PZs0WOb9ViprsPqZd9w3tJjDouRs4I/dJYQk=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1550775076;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=5hN3iBWGTCqHsYArgaLZN2aCBBZB1zDsUcNqHGQQLcU=;
+	b=Gl/kqSBY/tO5D+/m5w9itfm6tjukkVocjtkXNkbOwmndwUM0Fjn0FCNBAL3rmnsM
+	Pinmom9oUJTK3ZAvl4TLHyLHg/eQOu4KCW9p9yzoLhhNAtLV3C4falfDb0fnw0RyABz
+	UvJo6d+Ulh05bj9T2TRZke8nFZfHdF7ksnq1XXwg=
+Date: Thu, 21 Feb 2019 18:51:15 +0000
+To: raymundo@vpconsultores.com.mx
+From: =?UTF-8?Q?Bolet=C3=ADn_de_ElConta=2ECom?= <info@elconta.mx>
+Reply-To: =?UTF-8?Q?Bolet=C3=ADn_de_ElConta=2ECom?= <ventas@elconta.com>
+Subject: =?UTF-8?Q?=E2=9C=89_2019-02-21_Visor_CFDI_N=C3=B3minas_-_Materialidad_-_D?=
+ =?UTF-8?Q?ecl._Anual_-_SBC_y_UMA_-_Res._Misc._=E2=9C=89?=
+Message-ID: <010001691165c39c-48d2b916-f12e-4245-8b9c-a3b6335efd0f-000000@email.amazonses.com>
+X-Mailer: Sendy (https://sendy.co)
+List-Unsubscribe: <http://correos.elconta.mx/unsubscribe/JvAVxDP8bgN87630pS4P2P1GcsK2cgggVapROUcs4Tyng/4WpzJmr9HE7VYre92qukxw/4892WU763AjA0qi5PpOGYuk46Q>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-SES-Outgoing: 2019.02.21-54.240.9.115
+Feedback-ID: 1.us-east-1.DkWvtcCI6J0G1/6vBjuXDrPZcjXUlyjqaIVBQ/xHQGw=:AmazonSES
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  El mejor blog contable colaborativo - México - Ver esto
+   en el navegador de internet Hola de nuevo: Te compartimos nuestros artículos
+    mas recientes para el día de hoy. Agrega info@elconta.mx a tu l
+ 
+ Content analysis details:   (1.3 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: amazonses.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: amazonses.com]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [54.240.9.115 listed in wl.mailspike.net]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or identical to
+                             background
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+<html>
+<head>
+	<title></title>
+</head>
+<body><!-- BEGIN TEMPLATE // -->
+<table border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border: 2px outset #007fff;" width="600">
+	<tbody>
+		<tr>
+			<td align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><!-- BEGIN PREHEADER // -->
+			<table border="0" cellpadding="0" cellspacing="0" id="templatePreheader" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;min-width: 100%;background-color: #FFFFFF;border-top: 0;border-bottom: 0;" width="600">
+				<tbody>
+					<tr>
+						<td class="preheaderContainer" style="padding-top: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+							<tbody class="mcnTextBlockOuter">
+								<tr>
+									<td class="mcnTextBlockInner" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+									<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="366">
+										<tbody>
+											<tr>
+												<td class="mcnTextContent" style="padding-top: 9px;padding-left: 18px;padding-bottom: 9px;padding-right: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 11px;line-height: 125%;text-align: left;" valign="top"><span style="color:#0000ff"><strong>El mejor blog contable colaborativo - M&eacute;xico -</strong></span></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="197">
+										<tbody>
+											<tr>
+												<td class="mcnTextContent" style="padding: 9px 18px 9px 0px; text-size-adjust: 100%; color: rgb(96, 96, 96); font-family: Helvetica; font-size: 11px; line-height: 125%; text-align: center;" valign="top"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/892Dd892dG9I4cjXPBKCybkG2Q/4892WU763AjA0qi5PpOGYuk46Q" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;" target="_blank">Ver esto en el navegador de internet</a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- // END PREHEADER --></td>
+		</tr>
+		<tr>
+			<td align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><!-- BEGIN HEADER // -->
+			<table border="0" cellpadding="0" cellspacing="0" id="templateHeader" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;min-width: 100%;background-color: #FFFFFF;border-top: 0;border-bottom: 0;" width="600">
+				<tbody>
+					<tr>
+						<td class="headerContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnImageBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+							<tbody class="mcnImageBlockOuter">
+								<tr>
+									<td class="mcnImageBlockInner" style="padding: 0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+									<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+										<tbody>
+											<tr>
+												<td class="mcnImageContent" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/mPe0KcmfFCw8QCW0rT7635Zw/4892WU763AjA0qi5PpOGYuk46Q" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank" title=""><img align="center" alt="" class="mcnImage" src="https://gallery.mailchimp.com/c34e1670401e8251e0051354a/images/c5e55541-bd51-4913-a544-e37ff964ad1d.png" style="max-width: 800px; padding-bottom: 0px; vertical-align: bottom; border: 0px; outline: none; text-decoration: none; display: inline !important; width: 600px;" /> </a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						&nbsp;
+
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+							<tbody class="mcnDividerBlockOuter">
+								<tr>
+									<td class="mcnDividerBlockInner" style="padding: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerContent" style="border-top-width: 1px;border-top-style: solid;border-top-color: #999999;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+										<tbody>
+											<tr>
+												<td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/dZrZtHRkI8Kdv0mWXpYFjg/4892WU763AjA0qi5PpOGYuk46Q"><img alt="" src="https://tienda.elconta.net/wp-content/uploads/2018/03/cfdi_capdigi_2018.gif" style="width: 600px; height: 72px;" /></a></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- // END HEADER --></td>
+		</tr>
+		<tr>
+			<td align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><!-- BEGIN BODY // -->
+			<table border="0" cellpadding="0" cellspacing="0" id="templateBody" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;min-width: 100%;background-color: #FFFFFF;border-top: 0;border-bottom: 0;" width="600">
+				<tbody>
+					<tr>
+						<td align="left" class="sectionContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top" width="390">
+						<table border="0" cellpadding="0" cellspacing="0" id="templateBodyInner" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;min-width: 100%;" width="100%">
+							<tbody>
+								<tr>
+									<td class="bodyContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+										<tbody class="mcnTextBlockOuter">
+											<tr>
+												<td class="mcnTextBlockInner" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+												<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+													<tbody>
+														<tr>
+															<td class="mcnTextContent" style="padding: 9px 18px;color: #122450;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Helvetica;font-size: 10px;line-height: 150%;text-align: left;" valign="top">
+															<h3 class="null" style="text-align: left;margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.5px;color: #606060 !important;"><span style="font-size:14px"><strong><span style="color:#0000FF">Hola de nuevo:</span></strong></span></h3>
+
+															<h2 class="null" style="text-align: left;margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 20px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;color: #404040 !important;"><span style="font-size:14px">Te compartimos nuestros art&iacute;culos mas recientes para el d&iacute;a de hoy.</span></h2>
+
+															<div style="text-align: center;"><span style="font-size:11px"><span style="color:#FF0000"><span style="background-color:#FFFF00;">Agrega</span><strong><span style="background-color:#FFFF00;">&nbsp;</span></strong></span><strong><span style="color:#0000FF"><span style="background-color:#FFFF00;">info@elconta.mx&nbsp;</span></span></strong><span style="color:#FF0000"><span style="background-color:#FFFF00;">a tu lista de correos seguros</span></span></span></div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+										<tbody class="mcnTextBlockOuter">
+											<tr>
+												<td class="mcnTextBlockInner" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+												<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+													<tbody>
+														<tr>
+															<td class="mcnTextContent" style="padding: 9px 18px;color: #000000;font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;font-size: 13px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;line-height: 150%;text-align: left;" valign="top">
+															<h2 style="text-align: center;"><span style="background-color:#00FF00;">Cursos grabados a tu disposici&oacute;n:</span></h2>
+
+															<p>&nbsp;</p>
+
+															<p style="text-align: center;"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/1m2ll9KUzQaTXtz892Zljvlg/4892WU763AjA0qi5PpOGYuk46Q"><img alt="Ajuste Anual ISR de Sueldos y Salarios 2018." src="https://cursos.elconta.com/wp-content/uploads/2018/12/2018-12-17_isr_saalrios-1.jpg" /></a></p>
+
+															<p>&nbsp;</p>
+
+															<p style="text-align: center;"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/L4CUSVdLKfcZYl15ZAwojg/4892WU763AjA0qi5PpOGYuk46Q"><img alt="Régimen de Incorporación Fiscal (RIF) para 2019." src="https://cursos.elconta.com/wp-content/uploads/2019/01/RIF-1.jpg" /></a></p>
+
+															<hr />
+															<header>
+															<h2><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/Z763G892lS3YuHK892GOn7ov3ocA/4892WU763AjA0qi5PpOGYuk46Q" rel="bookmark" title="Enlaces permanentes a Determinación del Salario Base de Cotización y el efecto  de la UMA para 2019">Determinaci&oacute;n del Salario Base de Cotizaci&oacute;n y el efecto de la UMA para 2019</a></h2>
+
+															<p>&nbsp;POR&nbsp;<a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/R7aay2W8ygrrfD763bkv0vRg/4892WU763AjA0qi5PpOGYuk46Q" rel="author" title="Lee todas las entradas de Mtro. y E.F. Juan Carlos Victorio Domínguez">MTRO. Y E.F. JUAN CARLOS VICTORIO DOM&Iacute;NGUEZ</a></p>
+															</header>
+
+															<p>En este art&iacute;culo se realiz&oacute; un an&aacute;lisis de la determinaci&oacute;n del SBC y los conceptos que no integran considerando el efecto de la UMA para 2019.<a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/Z763G892lS3YuHK892GOn7ov3ocA/4892WU763AjA0qi5PpOGYuk46Q">CONTINUAR LEYENDO:</a></p>
+
+															<header>
+															<h2><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/aRZPBTYIcFg9vMzLEr6p892A/4892WU763AjA0qi5PpOGYuk46Q" rel="bookmark" title="Enlaces permanentes a 7ma y 8va RdM a la RMF 2018.">7ma y 8va RdM a la RMF 2018.</a></h2>
+															</header>
+
+															<p>Se publica en la p&aacute;gina oficial del SAT la:<a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/aRZPBTYIcFg9vMzLEr6p892A/4892WU763AjA0qi5PpOGYuk46Q">CONTINUAR LEYENDO:</a></p>
+
+															<header>
+															<h2><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/mTtE4yYzT763rP0Bplf6tbNg/4892WU763AjA0qi5PpOGYuk46Q" rel="bookmark" title="Enlaces permanentes a Declaración Anual 2018. Los NO deducibles por ingresos exentos de trabajadores.">Declaraci&oacute;n Anual 2018. Los NO deducibles por ingresos exentos de trabajadores.</a></h2>
+
+															<p>&nbsp;POR&nbsp;<a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/lNwpVColtVaK8MXTnRDhjA/4892WU763AjA0qi5PpOGYuk46Q" rel="author" title="Lee todas las entradas de CPC Francisco Gamez Ponce">CPC FRANCISCO GAMEZ PONCE</a></p>
+															</header>
+
+															<p>Un tema de an&aacute;lisis a definir en las empresas, por la falta de claridad en la normatividad fiscal, es en realidad para efectos de este calculo &iquest;que son prestaciones y que remuneraciones?<a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/mTtE4yYzT763rP0Bplf6tbNg/4892WU763AjA0qi5PpOGYuk46Q">CONTINUAR LEYENDO:</a></p>
+
+															<header>
+															<h2><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/bt892xUmBJeTZawMYLcuoPSA/4892WU763AjA0qi5PpOGYuk46Q" rel="bookmark" title="Enlaces permanentes a Revisando los CFDI Nomina con el nuevo visor para patrones del SAT.">Revisando los CFDI Nomina con el nuevo visor para patrones del SAT.</a></h2>
+
+															<p>&nbsp;POR&nbsp;<a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/fQTkLy0GA6svJpKdPhPptQ/4892WU763AjA0qi5PpOGYuk46Q" rel="author" title="Lee todas las entradas de CPC Gonzalo Cabanillas Cedano">CPC GONZALO CABANILLAS CEDANO</a></p>
+															</header>
+
+															<p>En este video analizaremos c&oacute;mo verificar la informaci&oacute;n de CFDI de nomina emitidos por un patr&oacute;n.<a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/bt892xUmBJeTZawMYLcuoPSA/4892WU763AjA0qi5PpOGYuk46Q">CONTINUAR LEYENDO:</a></p>
+
+															<header>
+															<h2><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/zLbVYyEnQ8bPHovBI72VKA/4892WU763AjA0qi5PpOGYuk46Q" rel="bookmark" title="Enlaces permanentes a Materialidad. ¿Presunción de inexistencia o facilidad para negar devoluciones y eliminar deducciones?">Materialidad. &iquest;Presunci&oacute;n de inexistencia o facilidad para negar devoluciones y eliminar deducciones?</a></h2>
+
+															<p>&nbsp;POR&nbsp;<a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/X763fBVbSIOk1VfhcfqmfbaQ/4892WU763AjA0qi5PpOGYuk46Q" rel="author" title="Lee todas las entradas de Benito Márquez Vázquez">BENITO M&Aacute;RQUEZ V&Aacute;ZQUEZ</a></p>
+															</header>
+
+															<p>Se refiere a un concepto de materialidad que aun no esta regulado legalmente y con base en &eacute;ste se le han estado dando m&aacute;s facultades y posibilidades de ganar en todos los juicios a la Autoridad Fiscal cuando arbitrariamente niega devoluciones o rechaza deducciones y acreditamientos en el ejercicio de una facultad de comprobaci&oacute;n.<a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/zLbVYyEnQ8bPHovBI72VKA/4892WU763AjA0qi5PpOGYuk46Q">CONTINUAR LEYENDO:</a></p>
+
+															<header>
+															<h2><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/kqH3nHQFOICK8FWeHcu4aQ/4892WU763AjA0qi5PpOGYuk46Q" rel="bookmark" title="Enlaces permanentes a Facilidades Administrativas 2019. Atención Sector primario y autotransporte.">Facilidades Administrativas 2019. Atenci&oacute;n Sector primario y autotransporte.</a></h2>
+															</header>
+
+															<p>Resoluci&oacute;n de Facilidades Administrativas para los Sectores de Contribuyentes que en la misma se se&ntilde;alan para 2019<a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/kqH3nHQFOICK8FWeHcu4aQ/4892WU763AjA0qi5PpOGYuk46Q">CONTINUAR LEYENDO:</a></p>
+															&nbsp;
+
+															<h3 class="h3" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.5px;text-align: left;color: #606060 !important;"><span style="color:#800080;">Otros art&iacute;culos recientes:</span></h3>
+
+															<ul>
+																<li>
+																<h3><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/AUBgDLdVy7gMHfIXbywYQg/4892WU763AjA0qi5PpOGYuk46Q" rel="bookmark" title="Enlaces permanentes a AVISO: 28 Feb. Fecha límite: Declaración de Ajuste Anual de ISR por Salarios 2018."><span style="color:#0000CD;">AVISO: 28 Feb. Fecha l&iacute;mite: Declaraci&oacute;n de Ajuste Anual de ISR por Salarios 2018.</span></a></h3>
+																</li>
+																<li>
+																<h3><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/ge302892yZh53Z3k4SdcXIpg/4892WU763AjA0qi5PpOGYuk46Q" rel="bookmark" title="Enlaces permanentes a DIOT 2019 SAT. Declaración de Informativa para Operaciones con Terceros V.1.2.0"><span style="color:#0000CD;">DIOT 2019 SAT. Declaraci&oacute;n de Informativa para Operaciones con Terceros V.1.2.0</span></a></h3>
+																</li>
+																<li>
+																<h3><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/892cC0wTjfw1f4gKGWGSDrPw/4892WU763AjA0qi5PpOGYuk46Q" rel="bookmark" title="Enlaces permanentes a IMSS Actualiza SUA a versión 3.5.6"><span style="color:#0000CD;">IMSS Actualiza SUA a versi&oacute;n 3.5.6</span></a></h3>
+																</li>
+																<li>
+																<h3><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/cMVABbwlragqpNkHvLogDg/4892WU763AjA0qi5PpOGYuk46Q" rel="bookmark" title="Enlaces permanentes a ¿Sin acuse de recepción por aviso de compensación de impuestos? Soluciónalo así:"><span style="color:#0000CD;">&iquest;Sin acuse de recepci&oacute;n por aviso de compensaci&oacute;n de impuestos? Soluci&oacute;nalo as&iacute;:</span></a></h3>
+																</li>
+																<li>
+																<h3><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/kAgfwkrHrqsB6NdTcZ37bg/4892WU763AjA0qi5PpOGYuk46Q" rel="bookmark" title="Enlaces permanentes a Declaración Anual 2018. Los porcentajes de deducción inmediata."><span style="color:#0000CD;">Declaraci&oacute;n Anual 2018. Los porcentajes de deducci&oacute;n inmediata.</span></a></h3>
+																</li>
+															</ul>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td align="left" class="sectionContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top" width="200">
+						<table border="0" cellpadding="0" cellspacing="0" id="templateSidebar" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;min-width: 100%;border-left: 0;background-color: #FFFFFF;" width="100%">
+							<tbody>
+								<tr>
+									<td align="right" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+									<table border="0" cellpadding="0" cellspacing="0" id="templateSidebarInner" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;min-width: 100%;border-left: 0;" width="100%">
+										<tbody>
+											<tr>
+												<td class="sidebarContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+												<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+													<tbody class="mcnImageCardBlockOuter">
+														<tr>
+															<td class="mcnImageCardBlockInner" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+															<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBottomContent" style="border: 1px solid #999999;background-color: #EBEBEB;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+																<tbody>
+																	<tr>
+																		<td align="center" class="mcnImageCardBottomImageContent" style="padding-top: 18px;padding-right: 18px;padding-bottom: 0;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/AQJZXanyiuSGM0t2sbR6892Q/4892WU763AjA0qi5PpOGYuk46Q" target="_blank"><img alt="" src="https://elconta.com/wp-content/uploads/2017/10/descarga_masiva_2.png" style="width: 200px; height: 173px;" /></a></td>
+																	</tr>
+																	<tr>
+																		<td class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 13px;line-height: 125%;text-align: left;" valign="top" width="132">
+																		<div style="text-align: center;"><span style="color:#FF0000"><strong>&iquest;A&uacute;n con dudas? &Uacute;salo GRATIS por 60 d&iacute;as ;)</strong></span></div>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+													<tbody class="mcnImageCardBlockOuter">
+														<tr>
+															<td class="mcnImageCardBlockInner" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+															<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBottomContent" style="background-color: #AAE909;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+																<tbody>
+																	<tr>
+																		<td align="center" class="mcnImageCardBottomImageContent" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0;padding-left: 0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/IQqsDT2nxV8924892y5pDFE3WA/4892WU763AjA0qi5PpOGYuk46Q" target="_blank"><img alt="" src="https://correos.elconta.mx/uploads/1525819705.jpg" style="width: 200px; height: 200px;" /></a></td>
+																	</tr>
+																	<tr>
+																		<td class="mcnTextContent" style="padding: 9px 18px;color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;line-height: 18px;text-align: center;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top" width="150"><strong><span style="font-size:18px"><span style="color:#FF0000">&iquest;Ya timbras con nosotros?</span></span><br />
+																		<span style="color:#0000FF"><span style="font-size:12px">Aqu&iacute; puedes adquirir mas timbres.</span></span></strong></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+													<tbody class="mcnImageCardBlockOuter">
+														<tr>
+															<td class="mcnImageCardBlockInner" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+															<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBottomContent" style="background-color: #404040;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+																<tbody>
+																	<tr>
+																		<td align="center" class="mcnImageCardBottomImageContent" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0;padding-left: 0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/AaI3FLGmFB9pOuWDC1U3Sw/4892WU763AjA0qi5PpOGYuk46Q" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank" title=""><img alt="" class="mcnImage" src="https://gallery.mailchimp.com/c34e1670401e8251e0051354a/images/4a75ea27-825d-4e14-93f6-3bc89ab50129.png" style="max-width: 300px; border: 0px; outline: none; text-decoration: none; vertical-align: bottom; width: 200px; height: 200px;" /> </a></td>
+																	</tr>
+																	<tr>
+																		<td class="mcnTextContent" style="padding: 9px 18px;color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;line-height: 125%;" valign="top" width="150">
+																		<div style="text-align: center;">Para controlar&nbsp;todos tus archivos XML y PDF emitidos&nbsp;<strong>exclusivamente de n&oacute;mina</strong>.</div>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+													<tbody class="mcnImageCardBlockOuter">
+														<tr>
+															<td class="mcnImageCardBlockInner" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+															<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBottomContent" style="background-color: #AAE909;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+																<tbody>
+																	<tr>
+																		<td align="center" class="mcnImageCardBottomImageContent" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0;padding-left: 0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/fq4ozsmLYD7rGZfA1IUPaA/4892WU763AjA0qi5PpOGYuk46Q" target="_blank"><img alt="" src="https://correos.elconta.mx/uploads/1525832531.png" style="width: 200px; height: 200px;" /></a></td>
+																	</tr>
+																	<tr>
+																		<td class="mcnTextContent" style="padding: 9px 18px;color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;line-height: 18px;text-align: center;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top" width="150"><strong><span style="font-size:18px"><span style="color:#FF0000">cursos.elconta.com</span></span><br />
+																		<span style="color:#0000FF"><span style="font-size:12px">Cursos en vivo y grabados.</span></span></strong></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+													<tbody class="mcnImageCardBlockOuter">
+														<tr>
+															<td class="mcnImageCardBlockInner" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+															<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBottomContent" style="background-color: #EBEBEB;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+																<tbody>
+																	<tr>
+																		<td align="center" class="mcnImageCardBottomImageContent" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0;padding-left: 0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/3SX1ru8X2sH763wrInRRf57g/4892WU763AjA0qi5PpOGYuk46Q" target="_blank"><img alt="" src="https://correos.elconta.mx/uploads/1525819780.jpg" style="width: 200px; height: 200px;" /></a></td>
+																	</tr>
+																	<tr>
+																		<td class="mcnTextContent" style="padding: 9px 18px;color: #EBEBEB;font-family: Helvetica;font-size: 14px;font-weight: normal;line-height: 18px;text-align: center;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top" width="150"><strong><span style="font-size:18px"><span style="color:#FF0000">Consulta el extenso cat&aacute;logo de libros editados por el IMCP</span></span></strong></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+													<tbody class="mcnImageCardBlockOuter">
+														<tr>
+															<td class="mcnImageCardBlockInner" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+															<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBottomContent" style="background-color: #404040;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+																<tbody>
+																	<tr>
+																		<td align="center" class="mcnImageCardBottomImageContent" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0;padding-left: 0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/PF8W38jgeYoEd9QwaJPBPw/4892WU763AjA0qi5PpOGYuk46Q" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank" title=""><img alt="" class="mcnImage" src="https://gallery.mailchimp.com/c34e1670401e8251e0051354a/images/482e6127-0ae2-4325-bbd7-2ecb4324136d.png" style="max-width: 448px; border: 0px; outline: none; text-decoration: none; vertical-align: bottom; width: 200px; height: 117px;" /> </a></td>
+																	</tr>
+																	<tr>
+																		<td class="mcnTextContent" style="padding: 9px 18px;color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;line-height: 125%;" valign="top" width="149">
+																		<p style="text-align: center;color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;line-height: 125%;"><span style="color:#FFFF00"><strong>&iquest;Cansado de contabilizar esos tediosos reembolsos?</strong></span><br />
+																		Contabiliza con nuestro potente software&nbsp;<strong>P&oacute;lizas Masivas desde el XML a CONTPAQi</strong></p>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- // END BODY --></td>
+		</tr>
+		<tr>
+			<td align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><!-- BEGIN FOOTER // -->
+			<table border="0" cellpadding="0" cellspacing="0" id="templateFooter" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;min-width: 100%;background-color: #FFFFFF;border-top: 0;border-bottom: 0;" width="600">
+				<tbody>
+					<tr>
+						<td class="footerContainer" style="padding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+						<p style="text-align: center;"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/CCWwcGumdWdlUdcZddQ9EA/4892WU763AjA0qi5PpOGYuk46Q" target="_blank"><img alt="" src="http://correos.elconta.mx/uploads/1550768254.jpg" style="width: 400px; height: 335px;" /></a></p>
+
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+							<tbody class="mcnTextBlockOuter">
+								<tr>
+									<td class="mcnTextBlockInner" style="padding-top: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]--><!--[if mso]>
+				<td valign="top" width="599" style="width:599px;">
+				<![endif]-->
+									<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+										<tbody>
+											<tr>
+												<td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 11px;line-height: 125%;text-align: left;" valign="top">
+												<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+													<tbody>
+														<tr>
+															<td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+															<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+																<tbody>
+																	<tr>
+																		<td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+																		<h3 class="null" style="margin: 0px; padding: 0px; display: block; font-family: Helvetica; font-size: 18px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: -0.5px; color: rgb(96, 96, 96) !important; text-align: center;">&nbsp;</h3>
+
+																		<h3 class="null" style="margin: 0px; padding: 0px; display: block; font-family: Helvetica; font-size: 18px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: -0.5px; color: rgb(96, 96, 96) !important; text-align: center;"><span style="color:#008000"><strong>En&nbsp;</strong></span><strong>ElConta.Com</strong><span style="color:#008000"><strong> nos encargamos de traerte el mejor contenido en materia fiscal, laboral y de seguridad social, que en verdad te ayudar&aacute;n a tomar las mejores&nbsp;decisiones en tu empresa o negocio.<br />
+																		<br />
+																		A continuaci&oacute;n te comparto&nbsp;las publicaciones 2019, las que seguramente te&nbsp;proporcionaran mayor&nbsp;conocimiento de las diferentes &aacute;reas de tu&nbsp;inter&eacute;s.</strong></span></h3>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+												<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+													<tbody>
+														<tr>
+															<td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+															<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+																<tbody>
+																	<tr>
+																		<td style="text-align: center;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+																		<h2 class="null" style="text-align: center;margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 20px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;color: #404040 !important;"><br />
+																		<a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/snXCNLU7636zi7VnUdYl29fw/4892WU763AjA0qi5PpOGYuk46Q" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;" target="_blank"><span style="color:#0000FF"><strong>Clic aqu&iacute; para consultar&nbsp;el cat&aacute;logo completo de nuestra librer&iacute;a.</strong></span></a></h2>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!--[if mso]>
+				</td>
+				<![endif]--><!--[if mso]>
+				</tr>
+				</table>
+				<![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+							<tbody class="mcnDividerBlockOuter">
+								<tr>
+									<td class="mcnDividerBlockInner" style="min-width: 100%;padding: 10px 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerContent" style="min-width: 100%;border-top-width: 2px;border-top-style: solid;border-top-color: #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+										<tbody>
+											<tr>
+												<td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									<!--            
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+--></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+							<tbody class="mcnFollowBlockOuter">
+								<tr>
+									<td align="center" class="mcnFollowBlockInner" style="padding: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+										<tbody>
+											<tr>
+												<td align="center" style="padding-left: 9px;padding-right: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+												<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContent" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" style="padding-top: 9px;padding-right: 9px;padding-left: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+															<table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+																<tbody>
+																	<tr>
+																		<td align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><!--[if mso]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                    <![endif]--><!--[if mso]>
+                                        <td align="center" valign="top">
+                                        <![endif]-->
+																		<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnFollowStacked" style="display: inline;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+																			<tbody>
+																				<tr>
+																					<td align="center" class="mcnFollowIconContent" style="padding-right: 10px;padding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/Hjf892CuwMxsDmH6i6YTkHVA/4892WU763AjA0qi5PpOGYuk46Q" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img alt="Facebook" class="mcnFollowBlockIcon" src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-96.png" style="width: 48px;max-width: 48px;display: block;border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="48" /></a></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		<!--[if mso]>
+                                        </td>
+                                        <![endif]--><!--[if mso]>
+                                        <td align="center" valign="top">
+                                        <![endif]-->
+
+																		<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnFollowStacked" style="display: inline;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+																			<tbody>
+																				<tr>
+																					<td align="center" class="mcnFollowIconContent" style="padding-right: 10px;padding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/sy5sWtukPAgCZpySViGHLA/4892WU763AjA0qi5PpOGYuk46Q" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img alt="Twitter" class="mcnFollowBlockIcon" src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-96.png" style="width: 48px;max-width: 48px;display: block;border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="48" /></a></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		<!--[if mso]>
+                                        </td>
+                                        <![endif]--><!--[if mso]>
+                                        <td align="center" valign="top">
+                                        <![endif]-->
+
+																		<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnFollowStacked" style="display: inline;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+																			<tbody>
+																				<tr>
+																					<td align="center" class="mcnFollowIconContent" style="padding-right: 0;padding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top"><a href="http://correos.elconta.mx/l/763P892IocyIaZ5zVBW3kFZl763Q/B0PAnYVyaDhLaw3pDPoKwA/4892WU763AjA0qi5PpOGYuk46Q" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img alt="Website" class="mcnFollowBlockIcon" src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-96.png" style="width: 48px;max-width: 48px;display: block;border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="48" /></a></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		<!--[if mso]>
+                                        </td>
+                                        <![endif]--><!--[if mso]>
+                                    </tr>
+                                    </table>
+                                    <![endif]--></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+							<tbody class="mcnTextBlockOuter">
+								<tr>
+									<td class="mcnTextBlockInner" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">&iquest;Ya no deseas leernos? Puedes darte de baja <a href="http://correos.elconta.mx/unsubscribe/JvAVxDP8bgN87630pS4P2P1GcsK2cgggVapROUcs4Tyng/4WpzJmr9HE7VYre92qukxw/4892WU763AjA0qi5PpOGYuk46Q" >aqu&iacute;</a>
+
+									<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+										<tbody>
+											<tr>
+												<td class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 11px;line-height: 125%;text-align: left;" valign="top">
+												<p style="text-align: center;"><em>Copyright &copy; 2018&nbsp;El Conta punto com, Todos los derechos reservados.</em><br />
+												Est&aacute;s recibiendo este bolet&iacute;n informativo porque as&iacute; lo solicitaste en nuestra p&aacute;gina ElConta.Com<br />
+												<br />
+												<strong>Nuestra direcci&oacute;n postal es:</strong></p>
+
+												<div class="vcard"><span class="org fn">El Conta punto com</span>
+
+												<div class="adr">
+												<div class="street-address">Marsella 570 Int. 305 CP 44190</div>
+												<span class="locality">Guadalajara</span>, <span class="region">Jalisco</span> Mexico
+
+												<div class="country-name">GDL (33) 3333-9715&nbsp;Y 33-3683-9343</div>
+												</div>
+												</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<center><span style="font-size:12px;">Ya no deseas recibir este bolet&iacute;n?. Puedes darte de baja </span><a href="http://correos.elconta.mx/unsubscribe/JvAVxDP8bgN87630pS4P2P1GcsK2cgggVapROUcs4Tyng/4WpzJmr9HE7VYre92qukxw/4892WU763AjA0qi5PpOGYuk46Q" ><span style="font-size:12px;">aqu&iacute;</span></a></center>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- // END FOOTER --></td>
+		</tr>
+	</tbody>
+</table>
+<!-- // END TEMPLATE --></body>
+</html>
+<img src="http://correos.elconta.mx/t/4892WU763AjA0qi5PpOGYuk46Q/763P892IocyIaZ5zVBW3kFZl763Q" alt="" style="width:1px;height:1px;"/>

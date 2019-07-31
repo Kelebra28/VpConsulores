@@ -1,0 +1,173 @@
+Return-Path: <asistente@salesboyoli.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id 0ErOAjyWZVxUTCoAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Thu, 14 Feb 2019 09:24:28 -0700
+Return-path: <asistente@salesboyoli.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Thu, 14 Feb 2019 09:24:28 -0700
+Received: from mail-ot1-f46.google.com ([209.85.210.46]:36871)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <asistente@salesboyoli.com>)
+	id 1guJoJ-00Bil4-CA
+	for raymundo@vpconsultores.com.mx; Thu, 14 Feb 2019 09:24:28 -0700
+Received: by mail-ot1-f46.google.com with SMTP id b3so11454600otp.4
+        for <raymundo@vpconsultores.com.mx>; Thu, 14 Feb 2019 08:24:07 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=salesboyoli.com; s=google;
+        h=from:to:subject:date:message-id:mime-version
+         :content-transfer-encoding:thread-index:content-language;
+        bh=Tg/0xJCX4r5fK6xvBb/Q4leG5ZctLKLx1+c3k/F5wGg=;
+        b=DZHZfxmwgN8MOpSbUwXWsPIpT444DJRwE8xajM6Ve9AzTR/9P9dhX4iH8mLET8QJEU
+         okOBUF0VqHhoIPzRDXP8LNaYO20O39i5/hmSaPIbJWD+CX0HnsvU8FgYOhfP5zLtU3hr
+         Odfc+soypRCBICe81C0pNSRYZkQB9FEs1V7Vw=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:subject:date:message-id:mime-version
+         :content-transfer-encoding:thread-index:content-language;
+        bh=Tg/0xJCX4r5fK6xvBb/Q4leG5ZctLKLx1+c3k/F5wGg=;
+        b=rE3GN/KjID7T0ALnKSm4VT4RW0UF5cJ9GF7EUB07l1VbWQCIroAfUKH/fe6ZyUuzGo
+         wTSTk0PWY1Z+f203e7FtFEM2+n/DAFsMZAd8zdkuwLemFh04wnyJ7O6i312mTDcyRxKA
+         CZgr1bxLWA67ahbszMlCMhhou0GHocP1YthFHOb32bIWTxHWHp8iO2t8n7zg8QLPEY/Z
+         6IJ0NboKbZRjOzrxesJYOXAayH9ZwilYyTy2SPiLqDZ0pSaxpFOk5AikHx2P+SuWtkOZ
+         fpKMXty3y3lapxvE9DLRUNTJUiKDOpEDVyi3q6vRwUCmEW+TQFGsCzK+T7no5meGz1ZX
+         JgNQ==
+X-Gm-Message-State: AHQUAuZtCmc1fxgxct3+M6ZOCN3RmR6PRcyC3NaLDwvky9S6SwBgmXYE
+	EcS1IsaXuFnMDy97qMq57DAvGlDL/2ow8g==
+X-Google-Smtp-Source: AHgI3IY7E9I5dK+1BYvRGmB3ot3aYax1KgO+WeCFPkpxLHnzWA5fX7G8L9QnFzeJoWpT0gv95Ze/Gg==
+X-Received: by 2002:a54:4f84:: with SMTP id g4mr2918345oiy.93.1550161425735;
+        Thu, 14 Feb 2019 08:23:45 -0800 (PST)
+Received: from BSBPC ([148.243.86.246])
+        by smtp.gmail.com with ESMTPSA id b4sm1414746oti.71.2019.02.14.08.23.44
+        for <raymundo@vpconsultores.com.mx>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 14 Feb 2019 08:23:44 -0800 (PST)
+From: "Carla Mass" <asistente@salesboyoli.com>
+To: "'Raymundo Vazquez'" <raymundo@vpconsultores.com.mx>
+Subject: COMIDA CON LIC. JORGE SALES
+Date: Thu, 14 Feb 2019 10:23:10 -0600
+Message-ID: <003c01d4c481$9414e690$bc3eb3b0$@salesboyoli.com>
+MIME-Version: 1.0
+Content-Type: text/calendar; method=REQUEST;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdTEgYpMfuRWu/kVQ72zpzFhDbBkrAAAAj8g
+Content-Language: es-mx
+X-Spam-Status: No, score=1.5
+X-Spam-Score: 15
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  [...] 
+ 
+ Content analysis details:   (1.5 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: salesboyoli.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: salesboyoli.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.6 SUBJ_ALL_CAPS          Subject is all capitals
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [209.85.210.46 listed in wl.mailspike.net]
+ -0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+X-Spam-Flag: NO
+
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Central Standard Time (Mexico)
+BEGIN:STANDARD
+DTSTART:16011028T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010401T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=4
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Raymundo Vazquez";RSVP=TRUE:mailto:raymundo@vpconsultores.com.
+	mx
+CLASS:PUBLIC
+CREATED:20190214T162310Z
+DESCRIPTION: \n\n
+DTEND;TZID="Central Standard Time (Mexico)":20190221T143000
+DTSTAMP:20190214T162310Z
+DTSTART;TZID="Central Standard Time (Mexico)":20190221T140000
+LAST-MODIFIED:20190214T162310Z
+LOCATION:RINCON ARGENTINO
+ORGANIZER;CN="Carla Mass":mailto:asistente@salesboyoli.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=es-mx:COMIDA CON LIC. JORGE SALES
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B021B0484FC4D401000000000000000
+	010000000E738604423A8504FBF6BA58C407F9394
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv=Co
+	ntent-Type content="text/html\; charset=us-ascii"><meta name=Generator con
+	tent="Microsoft Word 15 (filtered medium)"><style><!--\n/* Font Definition
+	s */\n@font-face\n	{font-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 
+	3 2 4\;}\n@font-face\n	{font-family:Calibri\;\n	panose-1:2 15 5 2 2 2 4 3 
+	2 4\;}\n/* Style Definitions */\np.MsoNormal\, li.MsoNormal\, div.MsoNorma
+	l\n	{margin:0cm\;\n	margin-bottom:.0001pt\;\n	font-size:11.0pt\;\n	font-fa
+	mily:"Calibri"\,sans-serif\;\n	mso-fareast-language:EN-US\;}\na:link\, spa
+	n.MsoHyperlink\n	{mso-style-priority:99\;\n	color:#0563C1\;\n	text-decorat
+	ion:underline\;}\na:visited\, span.MsoHyperlinkFollowed\n	{mso-style-prior
+	ity:99\;\n	color:#954F72\;\n	text-decoration:underline\;}\np.msonormal0\, 
+	li.msonormal0\, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-margin-
+	top-alt:auto\;\n	margin-right:0cm\;\n	mso-margin-bottom-alt:auto\;\n	margi
+	n-left:0cm\;\n	font-size:12.0pt\;\n	font-family:"Times New Roman"\,serif\;
+	}\nspan.EstiloCorreo18\n	{mso-style-type:personal-compose\;\n	font-family:
+	"Calibri"\,sans-serif\;\n	color:windowtext\;}\n.MsoChpDefault\n	{mso-style
+	-type:export-only\;\n	font-size:10.0pt\;\n	font-family:"Calibri"\,sans-ser
+	if\;\n	mso-fareast-language:EN-US\;}\n@page WordSection1\n	{size:612.0pt 7
+	92.0pt\;\n	margin:70.85pt 3.0cm 70.85pt 3.0cm\;}\ndiv.WordSection1\n	{page
+	:WordSection1\;}\n--></style><!--[if gte mso 9]><xml>\n<o:shapedefaults v:
+	ext="edit" spidmax="1026" />\n</xml><![endif]--><!--[if gte mso 9]><xml>\n
+	<o:shapelayout v:ext="edit">\n<o:idmap v:ext="edit" data="1" />\n</o:shape
+	layout></xml><![endif]--></head><body lang=ES-MX link="#0563C1" vlink="#95
+	4F72"><div class=WordSection1><p class=MsoNormal><o:p>&nbsp\;</o:p></p></d
+	iv></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOSTARTCHECK:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+

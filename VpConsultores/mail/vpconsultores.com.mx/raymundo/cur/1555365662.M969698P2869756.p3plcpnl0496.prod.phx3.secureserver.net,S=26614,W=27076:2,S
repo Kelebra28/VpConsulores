@@ -1,0 +1,462 @@
+Return-Path: <margarita.ortiz@cofide.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id wNmzOR7/tFz8ySsAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Mon, 15 Apr 2019 15:01:02 -0700
+Return-path: <margarita.ortiz@cofide.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Mon, 15 Apr 2019 15:01:02 -0700
+Received: from mail-it1-f174.google.com ([209.85.166.174]:38509)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <margarita.ortiz@cofide.mx>)
+	id 1hG9ev-00CG6y-MD
+	for raymundo@vpconsultores.com.mx; Mon, 15 Apr 2019 15:01:02 -0700
+Received: by mail-it1-f174.google.com with SMTP id f22so29401009ita.3
+        for <raymundo@vpconsultores.com.mx>; Mon, 15 Apr 2019 15:00:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cofide-mx.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=aAujS0yccrQOEMO47Fd9vJ0FtTmp/5e6VawdEMnWIY0=;
+        b=fPSv9LOpLmgFDnNwi4W6T2NSoZOJRQRcGkjreD02bIYGRHHUNwUNquUc4Q4giB37RZ
+         7UfUxHScreGWrRK9lJCBjxGwKl+sTbYqY3wl9pzuMrW3m5ERtsaW7+zbXgSY+86yb4+K
+         sHcpPMZ9/wtwsgjUJesYAyCsfhjuENM9ofNWgBK7iSn/QeFLsAgrIJqdHDvVXGqR4Bh4
+         xYAhFwUhQytrQLieLWlmMQV3ahYFPn5teBTjBFKNJjtL1f/bft3gQGrXcZevI4zvkBJX
+         fq4+BLXT3/xL1HrbMc1XBWekv1JZqI+6J1TqaFVhBR6W8WNAhh15LdaZuMD9xSg3UgxP
+         SVgQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=aAujS0yccrQOEMO47Fd9vJ0FtTmp/5e6VawdEMnWIY0=;
+        b=nLYcqJgsPe0+8ErnV8lkCEhySgmdZVeDAztMEFMNE4O7dG57db6MmzH+tul87ICVnq
+         mdr9mzk9cppIzUhOaqP+6f0G4OS9o9kURmlBtQDlwFR7+vzi+bSVj0LfkRw+oeQnWpnt
+         KfEN655x/3JBc5t6YGUG7zPlwdsxsTbjoZC2VD4hL8PycYTgFQaV7OlI3r+xeFh6OhIR
+         pfKxed1iNBrMpok3wbOdm5T9xOKjD+yqb/W65whM5AOCoX4Bm415/1KI9T2nv3pZdrRy
+         8nsQPdbywRqqofRNTzpHq+uZmjSJ8k8OIS1hTvEyGoF5iXOXVUmKMzXuh5qIX3hagVjU
+         PKYg==
+X-Gm-Message-State: APjAAAW1YZmKaZt1iUHcHskrGn37o45baUohhL3F7OOPOOKyWbOwW62h
+	OdF7fl4V+L96s82Spfkne6kIPMF6Fxfs4Zr+iMDTGH626eQ=
+X-Google-Smtp-Source: APXvYqyG5moPWQ+tyldt1+Qn4V8OkSRSytVAdYLc0/K9NEFP5qVcEd0LMnrs2D+UPFIw1tduXT4ZljDrMAY/oYQ6SmI=
+X-Received: by 2002:a24:2502:: with SMTP id g2mr25328964itg.106.1555365619409;
+ Mon, 15 Apr 2019 15:00:19 -0700 (PDT)
+MIME-Version: 1.0
+From: Margarita Ortiz <margarita.ortiz@cofide.mx>
+Date: Mon, 15 Apr 2019 17:00:10 -0500
+Message-ID: <CAHj+nwkLA4hoA5d7Ltucz34_jiG=THRyoZUksAf6=2xAZe4sqw@mail.gmail.com>
+Subject: =?UTF-8?Q?Saldos_a_Favor_de_IVA=2C_Determinaci=C3=B3n=2C_Compensacione?=
+	=?UTF-8?Q?s_y_Devoluciones?=
+To: raymundo@vpconsultores.com.mx
+Content-Type: multipart/alternative; boundary="0000000000003dc470058698c783"
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Saldos a Favor de IVA, Determinación, Compensaciones y Devoluciones
+    (Con Flujo de CFDI´S) - En línea$1,416Comprar en línea - Presencial$2,233Comprar
+    presencial Precios con IVA [...] 
+ 
+ Content analysis details:   (0.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: googleusercontent.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: googleusercontent.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+X-Spam-Flag: NO
+
+--0000000000003dc470058698c783
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Saldos a Favor de IVA, Determinaci=C3=B3n, Compensaciones y Devoluciones (C=
+on
+Flujo de CFDI=C2=B4S)
+
+   - En l=C3=ADnea$1,416Comprar en l=C3=ADnea
+   - Presencial$2,233Comprar presencial
+
+Precios con IVA
+
+   -  *Empieza*
+
+   24 de may, 2019 15:00 PM
+
+   -  *Termina*
+
+   24 de may, 2019 20:00 PM
+
+Incluye
+
+   - Alimento seg=C3=BAn horario
+   - Material digital o impreso
+   - Diploma con valor curricular
+   - Coffee break
+   - Estacionamiento (Sujeto a disponibilidad)
+
+Detalles del curso
+
+*Objetivo*
+
+Analizar la determinaci=C3=B3n del IVA por pagar o saldos a favor, conforme=
+ a
+los elementos de dicha contribuci=C3=B3n (sujeto, objeto, base, tasa y pago=
+),
+pero enfatizando el c=C3=A1lculo y determinaci=C3=B3n del IVA acreditable y=
+ el IVA
+retenido. Analizar detalladamente el llenado de formatos oficiales con la
+informaci=C3=B3n requerida. Finalmente haciendo una conciliaci=C3=B3n entre=
+ los
+Comprobantes del SAT emitidos y recibidos.
+
+*Dirigido*
+
+Contadores, administradores, auxiliares contables y administrativos y dem=
+=C3=A1s
+personal encargado de la captura de los formatos electr=C3=B3nicos.
+Expandir contenido
+
+   -  *Sede*
+
+   Avenida Coyoac=C3=A1n 1878, int 1203, Benito Ju=C3=A1rez, Del Valle, 031=
+00 Ciudad
+   de M=C3=A9xico, CDMX (Entre Amores y Av. Universidad)
+   Ver mapa
+   <https://www.google.com/maps/place/Corporativo+Fiscal+D%C3%A9cada/@19.36=
+17457,-99.1741633,17z/data=3D!3m1!4b1!4m5!3m4!1s0x85d1ff94b89401cd:0x9d748e=
+46a0c599d0!8m2!3d19.3617457!4d-99.1719746>
+   -
+
+   *Duraci=C3=B3n*
+
+   5 hrs
+
+   -
+
+   *Lunch*
+
+   14:00 a 15:00 hrs
+
+=C2=BFQui=C3=A9n imparte el curso?
+
+L.C. Emmanuel Guerrero Romero
+
+   - Licenciado en Contadur=C3=ADa P=C3=BAblica, Egresado de la Facultad de
+   Contadur=C3=ADa y Administraci=C3=B3n, en Ciudad Universitaria (UNAM), C=
+iudad de
+   M=C3=A9xico.
+   - Cuenta con un diplomado en =E2=80=9CAuditor=C3=ADa ... Ver m=C3=A1s
+   <https://www.cofide.mx/ponentes/lc-emmanuel-guerrero-romero?hsLang=3Des-=
+mx>
+
+Temario
+
+1. El IVA en los documentos electr=C3=B3nicos y su registro contable
+
+2. An=C3=A1lisis de situaciones generadoras de saldos a favor:
+
+   - El acreditamiento como medio de extinci=C3=B3n de obligaciones de pago=
+ de
+   cr=C3=A9ditos fiscales
+   - El IVA acreditable
+   - Requisitos para acreditar el IVA acreditable
+   - Proporci=C3=B3n de acreditamiento al realizar actos gravados y exentos
+   - Factor anual de prorrateo
+   - Elementos de la proporci=C3=B3n que se incluyen y excluyen
+   - Ajuste mensual del IVA acreditable de inversiones
+
+3. An=C3=A1lisis de la determinaci=C3=B3n del IVA por pagar y/o saldos a fa=
+vor
+mensuales del IVA
+
+   - Reglas del acreditamiento de saldos a favor en meses siguientes
+   - Reglas de la compensaci=C3=B3n de saldos a favor
+   - Reglas sobre solicitud de devoluci=C3=B3n de saldos a favor
+   - Reglas sobre compensaci=C3=B3n y devoluci=C3=B3n de un mismo saldo a f=
+avor
+   - Reglas sobre compensaci=C3=B3n y acreditamiento de un mismo saldo a fa=
+vor
+   - Prescripci=C3=B3n del derecho a la devoluci=C3=B3n y compensaci=C3=B3n=
+ pero no del
+   derecho al acreditamiento
+
+4. An=C3=A1lisis y llenado de los siguientes formatos
+
+   - Declaraci=C3=B3n Informativa de Operaciones con Terceros (DIOT)
+   - Sistema FED para tramitar la devoluci=C3=B3n (Anexos 7, 7A y 7B ) para
+   solicitud devoluci=C3=B3n y avisos de compensaci=C3=B3n
+   - Plataforma del SAT (Formato de IVA en el pago referenciado)
+   - FICHAS T=C3=89CNICAS DEL ANEXO 1.A
+
+5. Conciliaci=C3=B3n entre los Comprobantes emitidos y recibidos (CFDI)
+
+   - Comprobantes de Ingreso
+   - Comprobantes de Egreso
+   - Comprobantes de Pago
+
+
+
+
+
+
+
+
+--
+
+--0000000000003dc470058698c783
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><br></div><div><div class=3D"gmail-row-fluid-wrapper"=
+ style=3D"box-sizing:border-box;color:rgb(0,0,0);font-family:&quot;Open San=
+s&quot;,sans-serif;font-size:medium"><div class=3D"gmail-row-fluid" style=
+=3D"box-sizing:border-box;width:1090px"><div class=3D"gmail-span4 gmail-wid=
+get-span gmail-widget-type-custom_widget gmail-banner-curso" style=3D"box-s=
+izing:border-box;float:left;width:344.688px;min-height:28px;margin-left:0px=
+"><div class=3D"gmail-left-banner" style=3D"box-sizing:border-box;padding:2=
+0px;border:1px solid rgb(183,182,182);border-radius:8px"><div class=3D"gmai=
+l-title-banner" style=3D"box-sizing:border-box"><h1 style=3D"box-sizing:bor=
+der-box;font-size:22px;color:rgb(96,96,96);text-align:center;line-height:26=
+.4px">Saldos a Favor de IVA, Determinaci=C3=B3n, Compensaciones y Devolucio=
+nes (Con Flujo de CFDI=C2=B4S)</h1><ul class=3D"gmail-botones" style=3D"box=
+-sizing:border-box;list-style:none;margin:30px 0px 0px;text-align:center;pa=
+dding-left:0px"><li style=3D"box-sizing:border-box;color:rgb(96,96,96);line=
+-height:28.8px;display:inline-block;width:145.281px"><span style=3D"box-siz=
+ing:border-box;display:block;margin:0px;color:rgb(153,191,27);font-weight:6=
+00">En l=C3=ADnea</span><small class=3D"gmail-format" style=3D"box-sizing:b=
+order-box;display:block;margin:10px 0px 0px;font-weight:700;font-size:22px;=
+color:rgb(153,191,27)">$1,416</small><button class=3D"gmail-linea-btn" styl=
+e=3D"max-width:120px;width:120px;padding:10px;margin:15px 0px 0px;color:rgb=
+(96,96,96);border-width:1px;border-style:solid;border-color:rgb(153,191,27)=
+;border-radius:10px;font-weight:700;font-size:14px;outline:none">Comprar en=
+ l=C3=ADnea</button></li>=C2=A0<li style=3D"box-sizing:border-box;color:rgb=
+(96,96,96);line-height:28.8px;display:inline-block;width:145.281px;border-l=
+eft:1px dotted rgb(202,202,202)"><span style=3D"box-sizing:border-box;displ=
+ay:block;margin:0px;color:rgb(153,191,27);font-weight:600">Presencial</span=
+><small class=3D"gmail-format" style=3D"box-sizing:border-box;display:block=
+;margin:10px 0px 0px;font-weight:700;font-size:22px;color:rgb(153,191,27)">=
+$2,233</small><button class=3D"gmail-comprar-presencial" style=3D"max-width=
+:120px;width:120px;padding:10px;margin:15px 0px 0px;color:rgb(96,96,96);bor=
+der-width:1px;border-style:solid;border-color:rgb(153,191,27);border-radius=
+:10px;font-weight:700;font-size:14px;outline:none">Comprar presencial</butt=
+on></li></ul><span class=3D"gmail-text-info" style=3D"box-sizing:border-box=
+;text-align:center;display:block;font-size:14px;color:rgb(96,96,96);font-we=
+ight:700">Precios con IVA</span><div class=3D"gmail-detalles" style=3D"box-=
+sizing:border-box"><ul class=3D"gmail-icons" style=3D"box-sizing:border-box=
+;list-style:none;margin:30px 0px 0px;padding:0px;text-align:center"><li sty=
+le=3D"box-sizing:border-box;font-weight:700;color:rgb(96,96,96);line-height=
+:30.6px;display:inline-block;min-width:25%;font-size:17px;width:145.281px;t=
+ext-align:center;margin-bottom:0px;max-width:85%"><span style=3D"box-sizing=
+:border-box;width:25px;height:25px;display:inline-block;vertical-align:midd=
+le"></span>=C2=A0<strong style=3D"box-sizing:border-box">Empieza</strong><p=
+ style=3D"box-sizing:border-box;font-weight:400;line-height:22.5px;font-siz=
+e:15px;margin-top:5px;margin-bottom:20px">24 de may, 2019 15:00 PM</p></li>=
+=C2=A0<li style=3D"box-sizing:border-box;font-weight:700;color:rgb(96,96,96=
+);line-height:30.6px;display:inline-block;min-width:25%;font-size:17px;widt=
+h:145.281px;text-align:center;margin-bottom:0px"><span style=3D"box-sizing:=
+border-box;width:25px;height:25px;display:inline-block;vertical-align:middl=
+e"></span>=C2=A0<strong style=3D"box-sizing:border-box">Termina</strong><p =
+style=3D"box-sizing:border-box;font-weight:400;line-height:22.5px;font-size=
+:15px;margin-top:5px;margin-bottom:20px">24 de may, 2019 20:00 PM</p></li><=
+/ul></div><div class=3D"gmail-incluye" style=3D"box-sizing:border-box;margi=
+n:25px 0px 0px;padding:0px 30px"><h3 style=3D"box-sizing:border-box;font-si=
+ze:15px">Incluye</h3><ul style=3D"box-sizing:border-box;list-style:none;pad=
+ding-left:0px"><li style=3D"box-sizing:border-box;color:rgb(96,96,96);line-=
+height:14px;padding:0px 0px 4px;list-style:disc;margin-left:20px;font-size:=
+14px">Alimento seg=C3=BAn horario</li><li style=3D"box-sizing:border-box;co=
+lor:rgb(96,96,96);line-height:14px;padding:0px 0px 4px;list-style:disc;marg=
+in-left:20px;font-size:14px">Material digital o impreso</li><li style=3D"bo=
+x-sizing:border-box;color:rgb(96,96,96);line-height:14px;padding:0px 0px 4p=
+x;list-style:disc;margin-left:20px;font-size:14px">Diploma con valor curric=
+ular</li><li style=3D"box-sizing:border-box;color:rgb(96,96,96);line-height=
+:14px;padding:0px 0px 4px;list-style:disc;margin-left:20px;font-size:14px">=
+Coffee break</li><li style=3D"box-sizing:border-box;color:rgb(96,96,96);lin=
+e-height:14px;padding:0px 0px 4px;list-style:disc;margin-left:20px;font-siz=
+e:14px">Estacionamiento (Sujeto a disponibilidad)</li></ul></div></div></di=
+v></div><div class=3D"gmail-span8 gmail-widget-span gmail-widget-type-cell =
+gmail-row-persona" style=3D"box-sizing:border-box;float:left;width:717.344p=
+x;min-height:28px;margin-left:27.9375px"><div class=3D"gmail-content-person=
+a" style=3D"box-sizing:border-box;padding-left:25px"><div class=3D"gmail-in=
+fo-curso" style=3D"box-sizing:border-box"><h2 style=3D"box-sizing:border-bo=
+x;border-bottom:3px solid rgb(153,191,27);padding:0px 0px 20px;color:rgb(96=
+,96,96);font-size:22px;margin-bottom:5px">Detalles del curso</h2><div class=
+=3D"gmail-info" style=3D"box-sizing:border-box;color:rgb(96,96,96);height:1=
+20px;overflow:hidden"><p style=3D"box-sizing:border-box;display:inline-bloc=
+k;line-height:24px"><strong style=3D"box-sizing:border-box">Objetivo</stron=
+g></p><p style=3D"box-sizing:border-box;display:inline-block;line-height:24=
+px">Analizar la determinaci=C3=B3n del IVA por pagar o saldos a favor, conf=
+orme a los elementos de dicha contribuci=C3=B3n (sujeto, objeto, base, tasa=
+ y pago), pero enfatizando el c=C3=A1lculo y determinaci=C3=B3n del IVA acr=
+editable y el IVA retenido. Analizar detalladamente el llenado de formatos =
+oficiales con la informaci=C3=B3n requerida. Finalmente haciendo una concil=
+iaci=C3=B3n entre los Comprobantes del SAT emitidos y recibidos.</p><p styl=
+e=3D"box-sizing:border-box;display:inline-block;line-height:24px"><strong s=
+tyle=3D"box-sizing:border-box">Dirigido</strong></p><p style=3D"box-sizing:=
+border-box;display:inline-block;line-height:24px">Contadores, administrador=
+es, auxiliares contables y administrativos y dem=C3=A1s personal encargado =
+de la captura de los formatos electr=C3=B3nicos.</p></div><div class=3D"gma=
+il-btn gmail-mas" style=3D"box-sizing:border-box;text-align:center;margin:0=
+px 0px 30px"><strong style=3D"box-sizing:border-box;display:inline-block;wi=
+dth:20px"></strong><span style=3D"box-sizing:border-box;display:inline-bloc=
+k;font-size:14px;color:rgb(123,123,123);max-width:180px">Expandir contenido=
+</span></div><div class=3D"gmail-detalles" style=3D"box-sizing:border-box">=
+<ul class=3D"gmail-icons" style=3D"box-sizing:border-box;list-style:inherit=
+;margin:0px;padding:0px"><li style=3D"box-sizing:border-box;font-weight:700=
+;color:rgb(96,96,96);line-height:30.6px;display:block;min-width:25%;font-si=
+ze:17px;max-width:85%;margin-bottom:30px"><span style=3D"box-sizing:border-=
+box;width:25px;height:25px;display:inline-block;vertical-align:middle;text-=
+align:center"></span>=C2=A0<strong style=3D"box-sizing:border-box">Sede</st=
+rong><p style=3D"box-sizing:border-box;font-weight:400;line-height:22.5px;f=
+ont-size:15px;margin-top:5px;margin-bottom:20px">Avenida Coyoac=C3=A1n 1878=
+, int 1203, Benito Ju=C3=A1rez, Del Valle, 03100 Ciudad de M=C3=A9xico, CDM=
+X (Entre Amores y Av. Universidad)=C2=A0<br style=3D"box-sizing:border-box"=
+><a target=3D"_blank" href=3D"https://www.google.com/maps/place/Corporativo=
++Fiscal+D%C3%A9cada/@19.3617457,-99.1741633,17z/data=3D!3m1!4b1!4m5!3m4!1s0=
+x85d1ff94b89401cd:0x9d748e46a0c599d0!8m2!3d19.3617457!4d-99.1719746" style=
+=3D"box-sizing:border-box;text-decoration-line:none;color:rgb(144,193,0);fo=
+nt-size:16px;display:inline-block;padding:5px 0px;font-weight:700">Ver mapa=
+</a></p></li><li style=3D"box-sizing:border-box;font-weight:700;color:rgb(9=
+6,96,96);line-height:30.6px;display:inline-block;min-width:25%;font-size:17=
+px"><span style=3D"box-sizing:border-box;width:25px;height:25px;display:inl=
+ine-block;vertical-align:middle;text-align:center"></span>=C2=A0<p style=3D=
+"box-sizing:border-box;font-weight:400;display:inline-block;line-height:22.=
+5px;font-size:15px;margin:0px"><strong style=3D"box-sizing:border-box">Dura=
+ci=C3=B3n</strong></p><p style=3D"box-sizing:border-box;font-weight:400;lin=
+e-height:22.5px;font-size:15px;margin-top:5px;margin-bottom:20px">5 hrs</p>=
+</li>=C2=A0<li style=3D"box-sizing:border-box;font-weight:700;color:rgb(96,=
+96,96);line-height:30.6px;display:inline-block;min-width:25%;font-size:17px=
+"><span style=3D"box-sizing:border-box;width:25px;height:25px;display:inlin=
+e-block;vertical-align:middle;text-align:center"></span>=C2=A0<p style=3D"b=
+ox-sizing:border-box;font-weight:400;display:inline-block;line-height:22.5p=
+x;font-size:15px;margin:0px"><strong style=3D"box-sizing:border-box">Lunch<=
+/strong></p><p style=3D"box-sizing:border-box;font-weight:400;line-height:2=
+2.5px;font-size:15px;margin-top:5px;margin-bottom:20px">14:00 a 15:00 hrs</=
+p></li></ul><div style=3D"box-sizing:border-box"><div class=3D"expositor" s=
+tyle=3D"box-sizing:border-box"><h2 style=3D"box-sizing:border-box;border-bo=
+ttom:3px solid rgb(153,191,27);padding:0px 0px 20px;color:rgb(96,96,96);fon=
+t-size:22px;margin-bottom:5px">=C2=BFQui=C3=A9n imparte el curso?</h2><div =
+class=3D"gmail-persona-gp" style=3D"box-sizing:border-box"><div class=3D"gm=
+ail-img-persona" style=3D"box-sizing:border-box;display:inline-block;width:=
+150px;height:150px;border-radius:50%;background-repeat:no-repeat;background=
+-size:cover;background-position:50% 50%;background-image:url(&quot;https://=
+cdn2.hubspot.net/hubfs/4362409/expo_emmanuell_004.png&quot;)"></div>=C2=A0<=
+div class=3D"gmail-txt-persona" style=3D"box-sizing:border-box;padding:0px;=
+display:inline-block;width:519.25px;margin:15px 0px 20px 15px"><h4 style=3D=
+"box-sizing:border-box;margin:0px 0px 10px">L.C. Emmanuel Guerrero Romero</=
+h4><ul style=3D"box-sizing:border-box;list-style:none;padding-left:0px"><li=
+ style=3D"box-sizing:border-box;color:rgb(96,96,96);line-height:20.8px;padd=
+ing:0px 0px 0px 2px;margin:0px 0px 10px 30px">Licenciado en Contadur=C3=ADa=
+ P=C3=BAblica, Egresado de la Facultad de Contadur=C3=ADa y Administraci=C3=
+=B3n, en Ciudad Universitaria (UNAM), Ciudad de M=C3=A9xico.</li><li style=
+=3D"box-sizing:border-box;color:rgb(96,96,96);line-height:20.8px;padding:0p=
+x 0px 0px 2px;margin:0px 0px 10px 30px">Cuenta con un diplomado en =E2=80=
+=9CAuditor=C3=ADa ...=C2=A0<a href=3D"https://www.cofide.mx/ponentes/lc-emm=
+anuel-guerrero-romero?hsLang=3Des-mx" style=3D"box-sizing:border-box;text-d=
+ecoration-line:none;color:rgb(144,193,0);font-size:16px;display:inline-bloc=
+k;padding:5px 0px;font-weight:700">Ver m=C3=A1s</a></li></ul></div></div></=
+div><div class=3D"gmail-info-temario" style=3D"box-sizing:border-box"><h2 s=
+tyle=3D"box-sizing:border-box;border-bottom:3px solid rgb(153,191,27);paddi=
+ng:0px 0px 20px;color:rgb(96,96,96);font-size:22px;margin-bottom:25px">Tema=
+rio</h2><div class=3D"gmail-contenido" style=3D"box-sizing:border-box"><p s=
+tyle=3D"box-sizing:border-box;color:rgb(96,96,96);line-height:24px;margin-t=
+op:5px;margin-bottom:0px">1. El IVA en los documentos electr=C3=B3nicos y s=
+u registro contable</p><p style=3D"box-sizing:border-box;color:rgb(96,96,96=
+);line-height:24px;margin-top:5px;margin-bottom:0px">2. An=C3=A1lisis de si=
+tuaciones generadoras de saldos a favor:</p><ul style=3D"box-sizing:border-=
+box;list-style:inherit;margin-top:0px"><li style=3D"box-sizing:border-box;c=
+olor:rgb(96,96,96);line-height:28.8px">El acreditamiento como medio de exti=
+nci=C3=B3n de obligaciones de pago de cr=C3=A9ditos fiscales</li><li style=
+=3D"box-sizing:border-box;color:rgb(96,96,96);line-height:28.8px">El IVA ac=
+reditable</li><li style=3D"box-sizing:border-box;color:rgb(96,96,96);line-h=
+eight:28.8px">Requisitos para acreditar el IVA acreditable</li><li style=3D=
+"box-sizing:border-box;color:rgb(96,96,96);line-height:28.8px">Proporci=C3=
+=B3n de acreditamiento al realizar actos gravados y exentos</li><li style=
+=3D"box-sizing:border-box;color:rgb(96,96,96);line-height:28.8px">Factor an=
+ual de prorrateo</li><li style=3D"box-sizing:border-box;color:rgb(96,96,96)=
+;line-height:28.8px">Elementos de la proporci=C3=B3n que se incluyen y excl=
+uyen</li><li style=3D"box-sizing:border-box;color:rgb(96,96,96);line-height=
+:28.8px">Ajuste mensual del IVA acreditable de inversiones</li></ul><p styl=
+e=3D"box-sizing:border-box;color:rgb(96,96,96);line-height:24px">3. An=C3=
+=A1lisis de la determinaci=C3=B3n del IVA por pagar y/o saldos a favor mens=
+uales del IVA</p><ul style=3D"box-sizing:border-box;list-style:inherit;marg=
+in-top:0px"><li style=3D"box-sizing:border-box;color:rgb(96,96,96);line-hei=
+ght:28.8px">Reglas del acreditamiento de saldos a favor en meses siguientes=
+</li><li style=3D"box-sizing:border-box;color:rgb(96,96,96);line-height:28.=
+8px">Reglas de la compensaci=C3=B3n de saldos a favor</li><li style=3D"box-=
+sizing:border-box;color:rgb(96,96,96);line-height:28.8px">Reglas sobre soli=
+citud de devoluci=C3=B3n de saldos a favor</li><li style=3D"box-sizing:bord=
+er-box;color:rgb(96,96,96);line-height:28.8px">Reglas sobre compensaci=C3=
+=B3n y devoluci=C3=B3n de un mismo saldo a favor</li><li style=3D"box-sizin=
+g:border-box;color:rgb(96,96,96);line-height:28.8px">Reglas sobre compensac=
+i=C3=B3n y acreditamiento de un mismo saldo a favor</li><li style=3D"box-si=
+zing:border-box;color:rgb(96,96,96);line-height:28.8px">Prescripci=C3=B3n d=
+el derecho a la devoluci=C3=B3n y compensaci=C3=B3n pero no del derecho al =
+acreditamiento</li></ul><p style=3D"box-sizing:border-box;color:rgb(96,96,9=
+6);line-height:24px">4. An=C3=A1lisis y llenado de los siguientes formatos<=
+/p><ul style=3D"box-sizing:border-box;list-style:inherit;margin-top:0px"><l=
+i style=3D"box-sizing:border-box;color:rgb(96,96,96);line-height:28.8px">De=
+claraci=C3=B3n Informativa de Operaciones con Terceros (DIOT)</li><li style=
+=3D"box-sizing:border-box;color:rgb(96,96,96);line-height:28.8px">Sistema F=
+ED para tramitar la devoluci=C3=B3n (Anexos 7, 7A y 7B ) para solicitud dev=
+oluci=C3=B3n y avisos de compensaci=C3=B3n</li><li style=3D"box-sizing:bord=
+er-box;color:rgb(96,96,96);line-height:28.8px">Plataforma del SAT (Formato =
+de IVA en el pago referenciado)</li><li style=3D"box-sizing:border-box;colo=
+r:rgb(96,96,96);line-height:28.8px">FICHAS T=C3=89CNICAS DEL ANEXO 1.A</li>=
+</ul><p style=3D"box-sizing:border-box;color:rgb(96,96,96);line-height:24px=
+">5. Conciliaci=C3=B3n entre los Comprobantes emitidos y recibidos (CFDI)</=
+p><ul style=3D"box-sizing:border-box;list-style:inherit;margin-top:0px"><li=
+ style=3D"box-sizing:border-box;color:rgb(96,96,96);line-height:28.8px">Com=
+probantes de Ingreso</li><li style=3D"box-sizing:border-box;color:rgb(96,96=
+,96);line-height:28.8px">Comprobantes de Egreso</li><li style=3D"box-sizing=
+:border-box;color:rgb(96,96,96);line-height:28.8px">Comprobantes de Pago</l=
+i></ul></div></div></div></div></div></div></div></div></div><div class=3D"=
+gmail-row-fluid-wrapper" style=3D"box-sizing:border-box;color:rgb(0,0,0);fo=
+nt-family:&quot;Open Sans&quot;,sans-serif;font-size:medium"><div class=3D"=
+gmail-row-fluid" style=3D"box-sizing:border-box;width:1090px"><div class=3D=
+"gmail-row-cursos" style=3D"box-sizing:border-box;padding:50px 0px 0px"><di=
+v class=3D"gmail-banner-catalogo gmail-start" style=3D"box-sizing:border-bo=
+x;padding:0px;margin:0px 0px 30px;background-repeat:no-repeat;background-si=
+ze:cover;background-position:50% 50%;opacity:1;background-image:none"><div =
+class=3D"gmail-page-center" style=3D"box-sizing:border-box;max-width:1120px=
+;width:1090px;margin:auto;padding:0px 15px;float:none"><br class=3D"gmail-A=
+pple-interchange-newline"></div></div></div></div></div></div><div><br></di=
+v><div><br></div><div><br></div><div><br></div><br clear=3D"all"><div><br><=
+/div>-- <br><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gm=
+ail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><p dir=3D"ltr" s=
+tyle=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"f=
+ont-size:11pt;font-family:Arial;color:rgb(0,0,0);background-color:transpare=
+nt;font-weight:400;font-style:normal;font-variant:normal;text-decoration:no=
+ne;vertical-align:baseline;white-space:pre-wrap"><img src=3D"https://lh3.go=
+ogleusercontent.com/XwOsBd_6INsGYDHqOS2oxvQLRnoaPSqOcuFtZv-hW4aYmqxF7_FfPRq=
+J7Zm2QTfCwYAjv8duF8mcvD18fa8gr_WsgUmsyxrDIQDDn5EH-zjI4SOSIfriDkrcBEyoJXs-ag=
+2hvzb0" style=3D"border:medium none" width=3D"358" height=3D"146"></span></=
+p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt=
+"><span style=3D"font-size:11pt;font-family:Arial;color:rgb(0,0,0);backgrou=
+nd-color:transparent;font-weight:400;font-style:normal;font-variant:normal;=
+text-decoration:none;vertical-align:baseline;white-space:pre-wrap"><img src=
+=3D"https://lh5.googleusercontent.com/oQQCUTrqkPglAKXt6bhFv3d6K8OebeqSFTW6Q=
+qlHyT7AXONgA7BdMbNZ59CP8-fOUW0xr9hjNdyxBPKPfjdxVzd7YRhAXA9wtm82aQFOGBFjJjno=
+VauTI2FZM2_zIRn4pLWnHSgR" style=3D"border:medium none" width=3D"602" height=
+=3D"201"></span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt=
+;margin-bottom:0pt"><span style=3D"font-size:11pt;font-family:Arial;color:r=
+gb(0,0,0);background-color:transparent;font-weight:400;font-style:normal;fo=
+nt-variant:normal;text-decoration:none;vertical-align:baseline;white-space:=
+pre-wrap"><br></span></p></div><div><br></div><br></div></div></div></div><=
+/div>
+
+--0000000000003dc470058698c783--

@@ -1,0 +1,380 @@
+Return-Path: <ignacio.espino@357proyectos.com>
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id mCBXDhxhEl2oiAoAFq4nlA
+	(envelope-from <ignacio.espino@357proyectos.com>); Tue, 25 Jun 2019 10:59:56 -0700
+Return-path: <ignacio.espino@357proyectos.com>
+Envelope-to: patricia@vpconsultores.com.mx,
+ raymundo@vpconsultores.com.mx
+Delivery-date: Tue, 25 Jun 2019 10:59:56 -0700
+Received: from floki.hosting-mexico.net ([68.70.164.3]:41018)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <ignacio.espino@357proyectos.com>)
+	id 1hfpjS-0035Sv-VB; Tue, 25 Jun 2019 10:59:56 -0700
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=357proyectos.com; s=default; h=Content-Type:MIME-Version:Message-ID:Date:
+	Subject:Cc:To:From:Sender:Reply-To:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=cbi0b1SIg8hqIiaEl7+ZduRx+b851ZtTFn6bmItlXTk=; b=T9I5EHKS/7BkVlJaP2WydOtJXW
+	CYm2kFyfTL5B7kSAezWqnWhg+XzgAxKdAUjt0bp6P52+Qf1abpq4HX/Kh9VGABpQZ5OHSzOk1kwbe
+	Vo9K1Nu6V9WPBGAtzume/RekFvEDuSet/e0U4VTLViDkI6dsquqwLX6WZeXGcE3rwaHkDBHtxJMdT
+	VPDaNDgcKhGCwQ19lG+8l9K1mLucyy4MeQUFGul4wPag1lhmVrEIkE5LA+9gRZBazwtHyqsyd9e87
+	0xWGxRunV8Ttf24w0MHCwczIUuEWwqUV/9SU8lZggYDeoblvDW3alPQuYjKjBhPr1CCiv/g2vggm7
+	nm2+aZWg==;
+Received: from [189.217.25.63] (port=2470 helo=LAPTOPKFS0OD0R)
+	by floki.hosting-mexico.net with esmtpa (Exim 4.92)
+	(envelope-from <ignacio.espino@357proyectos.com>)
+	id 1hfpiN-0001DA-5X; Tue, 25 Jun 2019 12:58:43 -0500
+From: "Ignacio Espino" <ignacio.espino@357proyectos.com>
+To: "'Patricia Perez'" <patricia@vpconsultores.com.mx>
+Cc: <raymundo@vpconsultores.com.mx>
+Subject: SISTEMA DE SEGURIDAD PERIMETRAL, CCTV Y ALARMA
+Date: Tue, 25 Jun 2019 12:58:52 -0500
+Message-ID: <003401d52b7f$a6cad7d0$f4608770$@357proyectos.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0035_01D52B55.BDF8A060"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdUrf6XUqpvK/il2QwqSy8Rlrvu4AQ==
+Content-Language: es-mx
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - floki.hosting-mexico.net
+X-AntiAbuse: Original Domain - vpconsultores.com.mx
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - 357proyectos.com
+X-Get-Message-Sender-Via: floki.hosting-mexico.net: authenticated_id: ignacio.espino@357proyectos.com
+X-Authenticated-Sender: floki.hosting-mexico.net: ignacio.espino@357proyectos.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: No, score=2.2
+X-Spam-Score: 22
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Hello Paty buena tarde, gracias a Dios realizamos nuestro
+   primer proyectito, un sistema como el que describo abajo, es pequeño, pero
+    rompimos el cero…!!!! Para que por favor podamos mandar la factura, [...]
+    
+ 
+ Content analysis details:   (2.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: 357proyectos.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: 357proyectos.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.6 SUBJ_ALL_CAPS          Subject is all capitals
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of
+                             empty lines
+X-Spam-Flag: NO
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0035_01D52B55.BDF8A060
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Hello Paty buena tarde, gracias a Dios realizamos nuestro primer =
+proyectito,
+un sistema como el que describo abajo, es peque=F1o, pero rompimos el
+cero=85!!!! Para que por favor podamos mandar la factura, a los datos =
+que te
+anexo.
+
+=20
+
+Las facturas de los equipos que se compraron te las mando en breve
+
+=20
+
+=20
+
+Saludos=85
+
+=20
+
+=20
+
+Sistema de seguridad perimetral, CCTV y Alarma
+
+=09
+				=09
+=09
+Precio=20
+
+iva
+
+	=09
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=09
+24950
+
+3992
+
+28,942.00
+
+=09
+
+Primer pago
+
+		20,259.4
+
+Factura 01
+
+
+Saldo
+
+		8,682.6
+
+Factura 02
+
+=20
+
+=20
+
+Datos de facturaci=F3n
+
+=20
+
+CORRUFACIL SA DE CV
+
+CLLE 3RA SUR #6
+
+COL. INDEPENDENCIA
+
+TULTITLAN, EDO DE MEX
+
+C.P. 54914
+
+=20
+
+RFC COR 970513PV1
+
+
+------=_NextPart_000_0035_01D52B55.BDF8A060
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Diso-8859-1">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta name=3DGenerator =
+content=3D"Microsoft Word 15 (filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EstiloCorreo17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DES-MX =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><table =
+class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D0 style=3D'width:300.05pt;border-collapse:collapse'><tr =
+style=3D'height:15.0pt'><td width=3D320 nowrap colspan=3D4 =
+valign=3Dbottom style=3D'width:240.05pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:15.0pt'><p class=3DMsoNormal><b><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>Hello Paty buena tarde, =
+gracias a Dios realizamos nuestro primer proyectito, un sistema como el =
+que describo abajo, es peque&ntilde;o, pero rompimos el cero&#8230;!!!! =
+Para que por favor podamos mandar la factura, a los datos que te =
+anexo.<o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'color:black;mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span>=
+</b></p><p class=3DMsoNormal><b><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>Las facturas de los =
+equipos que se compraron te las mando en =
+breve<o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'color:black;mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span>=
+</b></p><p class=3DMsoNormal><b><span =
+style=3D'color:black;mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span>=
+</b></p><p class=3DMsoNormal><b><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>Saludos&#8230;<o:p></o:p=
+></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'color:black;mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span>=
+</b></p><p class=3DMsoNormal><b><span =
+style=3D'color:black;mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span>=
+</b></p><p class=3DMsoNormal><b><span =
+style=3D'font-size:14.0pt;color:black;mso-fareast-language:ES-MX'>Sistema=
+ de seguridad perimetral, CCTV y =
+Alarma<o:p></o:p></span></b></p></td><td width=3D80 nowrap =
+valign=3Dbottom style=3D'width:60.0pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:15.0pt'></td></tr><tr style=3D'height:16.5pt'><td =
+width=3D122 nowrap valign=3Dbottom style=3D'width:91.65pt;padding:0cm =
+3.5pt 0cm 3.5pt;height:16.5pt'></td><td width=3D64 nowrap =
+valign=3Dbottom style=3D'width:47.95pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:16.5pt'></td><td width=3D52 nowrap valign=3Dbottom =
+style=3D'width:38.9pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:16.5pt'></td><td width=3D82 nowrap valign=3Dbottom =
+style=3D'width:61.55pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:16.5pt'></td><td width=3D80 nowrap valign=3Dbottom =
+style=3D'width:60.0pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:16.5pt'></td></tr><tr style=3D'height:15.0pt'><td =
+width=3D122 nowrap valign=3Dbottom style=3D'width:91.65pt;padding:0cm =
+3.5pt 0cm 3.5pt;height:15.0pt'></td><td width=3D64 nowrap =
+valign=3Dbottom style=3D'width:47.95pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:15.0pt'><p class=3DMsoNormal><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>Precio =
+<o:p></o:p></span></p></td><td width=3D52 nowrap valign=3Dbottom =
+style=3D'width:38.9pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt'><p =
+class=3DMsoNormal><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>iva<o:p></o:p></span></p=
+></td><td width=3D82 nowrap valign=3Dbottom =
+style=3D'width:61.55pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:15.0pt'></td><td width=3D80 nowrap valign=3Dbottom =
+style=3D'width:60.0pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:15.0pt'></td></tr><tr style=3D'height:15.0pt'><td =
+width=3D122 nowrap valign=3Dbottom style=3D'width:91.65pt;padding:0cm =
+3.5pt 0cm 3.5pt;height:15.0pt'><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Times New =
+Roman",serif;mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p></td=
+><td width=3D64 nowrap valign=3Dbottom =
+style=3D'width:47.95pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt'><p =
+class=3DMsoNormal><span =
+style=3D'color:black;mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span>=
+</p></td><td width=3D52 nowrap valign=3Dbottom =
+style=3D'width:38.9pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt'><p =
+class=3DMsoNormal><span =
+style=3D'color:black;mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span>=
+</p></td><td width=3D82 nowrap valign=3Dbottom =
+style=3D'width:61.55pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt'><p =
+class=3DMsoNormal><span =
+style=3D'color:black;mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span>=
+</p></td><td width=3D80 nowrap valign=3Dbottom =
+style=3D'width:60.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt'><p =
+class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Times New =
+Roman",serif;mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p></td=
+></tr><tr style=3D'height:15.0pt'><td width=3D122 nowrap valign=3Dbottom =
+style=3D'width:91.65pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:15.0pt'></td><td width=3D64 nowrap valign=3Dbottom =
+style=3D'width:47.95pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt'><p =
+class=3DMsoNormal align=3Dright style=3D'text-align:right'><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>24950<o:p></o:p></span><=
+/p></td><td width=3D52 nowrap valign=3Dbottom =
+style=3D'width:38.9pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt'><p =
+class=3DMsoNormal align=3Dright style=3D'text-align:right'><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>3992<o:p></o:p></span></=
+p></td><td width=3D82 nowrap valign=3Dbottom =
+style=3D'width:61.55pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt'><p =
+class=3DMsoNormal align=3Dright style=3D'text-align:right'><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>28,942.00<o:p></o:p></sp=
+an></p></td><td width=3D80 nowrap valign=3Dbottom =
+style=3D'width:60.0pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:15.0pt'></td></tr><tr style=3D'height:15.0pt'><td =
+width=3D122 nowrap valign=3Dbottom style=3D'width:91.65pt;padding:0cm =
+3.5pt 0cm 3.5pt;height:15.0pt'><p class=3DMsoNormal><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>Primer =
+pago<o:p></o:p></span></p></td><td width=3D64 nowrap valign=3Dbottom =
+style=3D'width:47.95pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:15.0pt'></td><td width=3D52 nowrap valign=3Dbottom =
+style=3D'width:38.9pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:15.0pt'></td><td width=3D82 nowrap valign=3Dbottom =
+style=3D'width:61.55pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt'><p =
+class=3DMsoNormal align=3Dright style=3D'text-align:right'><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>20,259.4<o:p></o:p></spa=
+n></p></td><td width=3D80 nowrap valign=3Dbottom =
+style=3D'width:60.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt'><p =
+class=3DMsoNormal><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>Factura =
+01<o:p></o:p></span></p></td></tr><tr style=3D'height:15.0pt'><td =
+width=3D122 nowrap valign=3Dbottom style=3D'width:91.65pt;padding:0cm =
+3.5pt 0cm 3.5pt;height:15.0pt'><p class=3DMsoNormal><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>Saldo<o:p></o:p></span><=
+/p></td><td width=3D64 nowrap valign=3Dbottom =
+style=3D'width:47.95pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:15.0pt'></td><td width=3D52 nowrap valign=3Dbottom =
+style=3D'width:38.9pt;padding:0cm 3.5pt 0cm =
+3.5pt;height:15.0pt'></td><td width=3D82 nowrap valign=3Dbottom =
+style=3D'width:61.55pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt'><p =
+class=3DMsoNormal align=3Dright style=3D'text-align:right'><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>8,682.6<o:p></o:p></span=
+></p></td><td width=3D80 nowrap valign=3Dbottom =
+style=3D'width:60.0pt;padding:0cm 3.5pt 0cm 3.5pt;height:15.0pt'><p =
+class=3DMsoNormal><span =
+style=3D'color:black;mso-fareast-language:ES-MX'>Factura =
+02<o:p></o:p></span></p></td></tr></table><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Datos de =
+facturaci&oacute;n<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>CORRUFACIL =
+SA DE CV<o:p></o:p></p><p class=3DMsoNormal>CLLE 3RA SUR =
+#6<o:p></o:p></p><p class=3DMsoNormal>COL. =
+INDEPENDENCIA<o:p></o:p></p><p class=3DMsoNormal>TULTITLAN, EDO DE =
+MEX<o:p></o:p></p><p class=3DMsoNormal>C.P. 54914<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>RFC COR =
+970513PV1<o:p></o:p></p></div></body></html>
+------=_NextPart_000_0035_01D52B55.BDF8A060--
+

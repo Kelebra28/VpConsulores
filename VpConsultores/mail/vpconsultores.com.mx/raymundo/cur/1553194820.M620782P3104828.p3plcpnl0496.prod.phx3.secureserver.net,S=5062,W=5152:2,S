@@ -1,0 +1,90 @@
+Return-Path: <info@guiash2018.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id YDzIIkTfk1w8YC8AFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Thu, 21 Mar 2019 12:00:20 -0700
+Return-path: <info@guiash2018.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Thu, 21 Mar 2019 12:00:20 -0700
+Received: from guiash2018.com ([81.7.18.182]:37029)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtp (Exim 4.91)
+	(envelope-from <info@guiash2018.com>)
+	id 1h72vL-00D6T7-MA
+	for raymundo@vpconsultores.com.mx; Thu, 21 Mar 2019 12:00:20 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=key1; d=guiash2018.com;
+ h=Message-ID:From:To:Subject:Date:MIME-Version:Content-Type:Content-Transfer-Encoding; i=info@guiash2018.com;
+ bh=hzQ8QZT910EkU96BIdcaLWqGGYw=;
+ b=FTTQ6dD3GpGn7zvjBV1r0bCUMAQvn3uWneqnu8X+HtZTDHYWkSkE9qVRLFUhqvaE6mHTtwiJw/Km
+   hoOAeilTjV2VPA7vkBJ5g2tOciXIkiPIUPEaggZTDQuVZmyjfYTjENqQM3aR6yo/SsKnfSwydyD3
+   ZB630hPZMelMA7GJBMU=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=key1; d=guiash2018.com;
+ b=c5mb+/Rmnd7gGfEWVB1HliHxB8PYW0uAMz/vJnUjvZlP0ihGRRp1tmdouQlHZmPrNZjDqNAEfdgz
+   H/h4s3eSq2IWdy8LMrfA52kyfIUKVwNWK3bTv/rDQMOxV7s3qEwZvF4s/c16LKHAZg6eN+4AmgbO
+   M6W0DLJ7+xYMz7qX9qE=;
+Received: from 81-7-18-182 (81.7.18.182) by guiash2018.com id hiffke0our04 for <raymundo@vpconsultores.com.mx>; Thu, 21 Mar 2019 12:59:41 -0600 (envelope-from <info@guiash2018.com>)
+nuc: 56035783
+Message-ID: <82bcc48fae596da24c079a460015f5e9@guiash2018.com>
+From: "Transicion a Supervisor" <info@guiash2018.com>
+To: <raymundo@vpconsultores.com.mx>
+Subject: =?utf-8?Q?C=C3=93MO_SUPERVISAR_A_LAS_PERSONAS?=
+Date: Thu, 21 Mar 2019 12:59:41 -0600
+X-Priority: 1
+X-Mailer: SMTP COMPONENT
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Spam-Status: No, score=1.7
+X-Spam-Score: 17
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Seminario Presencial CÓMO SUPERVISAR A LAS PERSONAS CD. DE
+    MEXICO 27 de marzo, 2019 USTED APRENDERÁ: • Deseo de su equipo de tomar
+    la iniciativa. • La transición a Supervisor - Aprenda a tomar 
+ 
+ Content analysis details:   (1.7 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vpconsultores.com.mx]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vpconsultores.com.mx]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.6 SUBJ_ALL_CAPS          Subject is all capitals
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 T_DKIM_INVALID         DKIM-Signature header exists but is not valid
+X-Spam-Flag: NO
+
+U2VtaW5hcmlvIFByZXNlbmNpYWwNCkPDk01PIFNVUEVSVklTQVIgQSBMQVMgUEVSU09OQVMNCkNE
+LiBERSBNRVhJQ08gMjcgZGUgbWFyem8sIDIwMTkNCg0KDQpVU1RFRCBBUFJFTkRFUsOBOiAgDQri
+gKIgRGVzZW8gZGUgc3UgZXF1aXBvIGRlIHRvbWFyIGxhIGluaWNpYXRpdmEuDQrigKIgTGEgdHJh
+bnNpY2nDs24gYSBTdXBlcnZpc29yIC0gQXByZW5kYSBhIHRvbWFyIGVsIGNvbnRyb2wgZGUgc3Ug
+dHJhYmFqbw0K4oCiIEPDs21vIGdlbmVyYXIgbGFzIGlkZWFzIHBhcmEgdW4g4oCcUGxhbiBkZSBh
+Y2Npw7Nu4oCdIOKAkyBMYXMgw6FyZWFzIGVuIGxhcyBxdWUgbmVjZXNpdGEgbWVqb3JhciBlbiBz
+dSB0cmFiYWpvIHkgZW4gc3VzIGhhYmlsaWRhZGVzIGNvbW8gU3VwZXJ2aXNvci4NCuKAoiBZIG11
+Y2hvIG3DoXMgDQoNCk9GRVJUQSBFWENMVVNJVkENCk5vIHNlIHF1ZWRlIGZ1ZXJhIGRlIGVzdGEg
+ZXhjZWxlbnRlIGNhcGFjaXRhY2nDs24uDQoNCkFkcXVpZXJhIGxhIGluZm9ybWFjacOzbiBjb21w
+bGV0YSByZXNwb25kaWVuZG8gZXN0ZSBtZW5zYWplIGNvbiBlbCBhc3VudG8gDQoiSU5GTy1TVVBF
+UlZJU0FSIiwgeSBzdSB0ZWzDqWZvbm8uDQoNCkxMw4FNRU5PUzogMDEtODAwLTIxMi0wNjYwIA0K
+DQoNCg0KDQpBdGVudGFtZW50ZSwNCg0KTGljLiBFbW1hbnVlbCBQZXJleg0KRWplY3V0aXZvIGRl
+IFZlbnRhcw0KV2hhdHNBcHAgNTUzMTE4OTYyOA0KDQoNCg0KwqFFU1BFUkUhIMKhTk8gRVMgTkVD
+RVNBUklPIERBUlNFIERFIEJBSkEhIFPDs2xvIHJlc3BvbmRhIOKAnENBTEVOREFSSU/igJ0geSBu
+b3MgYXNlZ3VyYXJlbW9zIHF1ZSByZWNpYmEgVU4gQ09SUkVPIGRlbCDDoXJlYSBkZSBzdSBpbnRl
+csOpcyBhIGxhIHNlbWFuYS4NCg0KDQpFc3RlIGNvcnJlbyBoYSBzaWRvIGVudmlhZG8gYTogcmF5
+bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXgsIHBhcmEgbm8gcmVjaWJpciBtYXMgY29ycmVvcywg
+cmVzcG9uZGUgY29uIGxhIHBhbGFicmEgKEVYQ0xVSVIpIMOzIHNpIHByZWZpZXJlIFVuc3Vic2Ny
+aWJl
+

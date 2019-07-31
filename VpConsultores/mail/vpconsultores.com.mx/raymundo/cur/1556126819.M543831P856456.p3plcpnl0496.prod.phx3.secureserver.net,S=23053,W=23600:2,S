@@ -1,0 +1,547 @@
+Return-Path: <s.marquez@notaria29df.com.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id eANLIGOcwFyIEQ0AFq4nlA
+	(envelope-from <s.marquez@notaria29df.com.mx>)
+	for <raymundo@vpconsultores.com.mx>; Wed, 24 Apr 2019 10:26:59 -0700
+Return-path: <s.marquez@notaria29df.com.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Wed, 24 Apr 2019 10:26:59 -0700
+Received: from mail-ot1-f68.google.com ([209.85.210.68]:38127)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <s.marquez@notaria29df.com.mx>)
+	id 1hJLfa-003cSq-Cw
+	for raymundo@vpconsultores.com.mx; Wed, 24 Apr 2019 10:26:59 -0700
+Received: by mail-ot1-f68.google.com with SMTP id t20so7433195otl.5
+        for <raymundo@vpconsultores.com.mx>; Wed, 24 Apr 2019 10:26:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=notaria29df-com-mx.20150623.gappssmtp.com; s=20150623;
+        h=from:to:cc:references:in-reply-to:subject:date:message-id
+         :mime-version:thread-index:content-language;
+        bh=ACR3wWd1+3VhQJzctv0CoxA8oFcAVOFyUsI6mnIIILM=;
+        b=EygFGdVzVSRqDcevjuQeJMUxvsSHplM8sT89i81i8YeCaeRTIpcNqRVrwo/tbd6XaC
+         3atlgd7OcUgl61BKCmJHHZIUkcIUoaGXB5KaDHv+OPbFVTDQgLNG9qiOqSOVjuj5oM3U
+         LXjQtCbQ56q42H2rARAY8BSCAmd4bqyYWinxyCbPjSjAM6E7BLd1l0791LRwNPZECrtW
+         eUMjDc9wnLYp17FuoztAXPw8ziwLEMLDFtq+a7IgZlK5X1IbkFd6ioO3MeEsKLdMd2O9
+         +cIiZhtL8uWim0PavbYIle+kdI/Qfp+SMQYthOxFC/G3dGhDLWpf1a+pakaxNulAATNa
+         cUwQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:cc:references:in-reply-to:subject:date
+         :message-id:mime-version:thread-index:content-language;
+        bh=ACR3wWd1+3VhQJzctv0CoxA8oFcAVOFyUsI6mnIIILM=;
+        b=m0idZW9IdpVhBPrMyDJItcmhJ3aZ1KugNQclITKlJ1O8ZkzFnrUzR2Eq4uGN23wJj+
+         UCx74bowSPKqU5FzVS3M047nOTICFIw9EoKFADH59iJIzDmu5QAEb4C58y6zUm8Z4Upl
+         3oC8Z16/MGpNeRMfMgCGD235AHvxJrzmHkMdc+eHOgT6eworg/jHrIEY5dKthV7+YKH1
+         gHkJSXKZHSF37XCHw3DSkE3gc1skGEjFV3+5OWD2Y+81IktvtpwNg0CppBFvAM1tn68M
+         kNq9KUB0xqQqqRyH8+6c9jZAncQMnq0SpY8p+JWGLLEc6/gJgv9Ou149R7OM4RYA2/KT
+         VbcQ==
+X-Gm-Message-State: APjAAAWcJlDT9wicShhpUEZWyhj7M8Lo0Wle4Ui1i2CGDaOIZQVvPW39
+	Hw0ov/aDDQ9ZvtfTXcp3jB/o9g==
+X-Google-Smtp-Source: APXvYqxjqj7JHtH2eujqkszohWNdNsLMo0LO9yo2+LssiEQ4FKANmJOmn5ozCedCNW46V+7xcEsoRw==
+X-Received: by 2002:a9d:71c1:: with SMTP id z1mr3022084otj.344.1556126398923;
+        Wed, 24 Apr 2019 10:19:58 -0700 (PDT)
+Received: from USUARIOPC ([2806:107e:13:701a:5589:fc28:9a53:f438])
+        by smtp.gmail.com with ESMTPSA id p132sm8511763oig.37.2019.04.24.10.19.57
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Wed, 24 Apr 2019 10:19:58 -0700 (PDT)
+From: =?utf-8?Q?Soledad_M=C3=A1rquez_?= <s.marquez@notaria29df.com.mx>
+To: "'Patricia Perez'" <patricia@vpconsultores.com.mx>
+Cc: =?utf-8?Q?'Agust=C3=ADn'?= <a.montesdeoca@notaria29df.com.mx>,
+	"'Luis Antonio Montes De Oca Mayagoitia'" <l.montesdeoca@notaria29df.com.mx>,
+	"'Raymundo Contador'" <raymundo@vpconsultores.com.mx>
+References: <BYAPR17MB21185DBD84110F0F4975581EDE250@BYAPR17MB2118.namprd17.prod.outlook.com> <560A1FA8-4A05-4E12-ADCA-5C86DC9A21A3@notaria29df.com.mx> <003c01d4fabd$cbdd2de0$639789a0$@vpconsultores.com.mx>
+In-Reply-To: <003c01d4fabd$cbdd2de0$639789a0$@vpconsultores.com.mx>
+Subject: RE: Facturas de GMM (Hijos)
+Date: Wed, 24 Apr 2019 12:19:53 -0500
+Message-ID: <000f01d4fac1$efa4e3e0$ceeeaba0$@notaria29df.com.mx>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0010_01D4FA98.06D396D0"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQJo3LFe8hFRLdvEDXKRAnmQ3IHf2AMwHi/yAY03hkWk/d9zgA==
+Content-Language: es
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Muchas gracias Paty, confirmo cita el lunes 29 de abril a
+   las 10:00 am Saludos, De: Patricia Perez [mailto:patricia@vpconsultores.com.mx]
+    Enviado el: miércoles, 24 de abril de 2019 11:50 Para: 'Soledad Márquez'
+    CC: 'Agustín'; 'Luis Antonio Montes De Oca Mayagoitia'; 'Raymundo [...] 
+ 
+ Content analysis details:   (0.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: notaria29df.com.mx]
+  0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [209.85.210.68 listed in wl.mailspike.net]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: notaria29df.com.mx]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+X-Spam-Flag: NO
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0010_01D4FA98.06D396D0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Muchas gracias Paty, confirmo cita el lunes 29 de abril a las 10:00 am
+
+=20
+
+Saludos,
+
+=20
+
+De: Patricia Perez [mailto:patricia@vpconsultores.com.mx]=20
+Enviado el: mi=C3=A9rcoles, 24 de abril de 2019 11:50
+Para: 'Soledad M=C3=A1rquez'
+CC: 'Agust=C3=ADn'; 'Luis Antonio Montes De Oca Mayagoitia'; 'Raymundo =
+Contador'
+Asunto: RE: Facturas de GMM (Hijos)
+
+=20
+
+Buen d=C3=ADa:
+
+=20
+
+=20
+
+Claro, con mucho gusto! Esta semana realizamos los c=C3=A1lculos y los =
+podemos revisar el d=C3=ADa lunes a las 10:00 am.
+
+=20
+
+=20
+
+=20
+
+Saludos
+
+=20
+
+=20
+
+Patricia P=C3=A9rez
+
+=20
+
+De: Soledad M=C3=A1rquez [mailto:s.marquez@notaria29df.com.mx]=20
+Enviado el: martes, 23 de abril de 2019 10:12 p.m.
+Para: Patricia Perez
+CC: Agust=C3=ADn; Luis Antonio Montes De Oca Mayagoitia
+Asunto: Fwd: Facturas de GMM (Hijos)
+
+=20
+
+
+Buenas noches Paty,
+
+=20
+
+Espero que se encuentre bien. Quisiera por favor una cita para revisar =
+las declaraciones anuales de los socios de Monmar, considerando la =
+deducci=C3=B3n del seguro de gastos m=C3=A9dicos de cada uno de mis =
+hijos que estoy anexando.
+
+=20
+
+Quedo en espera de sus instrucciones.
+
+=20
+
+Saludos,
+
+
+Inicio del mensaje reenviado:
+
+De: SOCORRO VARA CHAIREZ <socovara41@hotmail.com>
+Fecha: 17 de abril de 2019, 5:18:34 p. m. CDT
+Para: Soledad M=C3=A1rquez <s.marquez@notaria29df.com.mx>
+Asunto: Facturas de GMM (Hijos)
+
+Se=C3=B1ora Sol:
+
+=20
+
+Le mando las facturas de las p=C3=B3lizas de sus hijos, que vienen en el =
+orden siguiente:
+
+=20
+
+11312 30021146   ANTONIO MONTES DE OCA M=C3=81RQUEZ
+
+11312 30021155   MAR=C3=8DA SOLEDAD MONTES DE OCA M=C3=81RQUEZ
+
+11312 30021164   SOF=C3=8DA MONTES DE OCA M=C3=81RQUEZ
+
+11312 30021173   ALONSO MONTES DE OCA M=C3=81RQUEZ
+
+11312 30021182   AGUSTIN MONTES DE OCA M=C3=81RQUEZ
+
+11312 30021208   LUC=C3=8DA MONTES DE OCA M=C3=81RQUEZ
+
+=20
+
+Quedo a sus =C3=B3rdenes en caso de cualquier duda.
+
+=20
+
+Atte.
+
+=20
+Ernestina Socorro Vara Ch.
+
+Asesor Profesional de Seguros y Fianzas
+
+CYC Agencia de Seguros
+
+Tel of. 4168 0027
+Celular: 04455 4090 1595=20
+
+=20
+
+AVISO DE PRIVACIDAD
+
+Ernestina Socorro Vara Chairez, con domicilio en calle San Lorenzo -712 =
+EDIF A-1 PISO 2, colonia DEL VALLE,
+
+ciudad MEXICO, municipio o delegaci??n BENITO JUAREZ, c.p. 03100, en la =
+entidad de DISTRITO FEDERAL, pa??s
+
+M??xico, utilizar?? sus datos personales recabados para:
+
+l comercializar productos relacionados a los seguros y fianzas
+
+l proveer los servicios y productos contratados, relacionados a seguros =
+y fianzas
+
+l responder a sus requerimientos de informacion , atencion, y servicio
+
+l realizacion de gestion financiera, facturacion y cobro
+
+l Mercadotecnia o publicitaria
+
+l Prospecci??n comercial
+
+Para mayor informaci??n acerca del tratamiento y de los derechos que =
+puede hacer valer, usted puede acceder al
+
+aviso de privacidad integral a trav??s de: atravez del correo =
+electronica. socovara41@hotmail.com
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+
+------=_NextPart_000_0010_01D4FA98.06D396D0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 14 (filtered =
+medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Texto de globo Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.xmsonormal, li.xmsonormal, div.xmsonormal
+	{mso-style-name:xmsonormal;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.EstiloCorreo19
+	{mso-style-type:personal;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+span.EstiloCorreo20
+	{mso-style-type:personal-reply;
+	font-family:"Arial","sans-serif";
+	color:black;
+	font-weight:normal;
+	font-style:normal;}
+span.TextodegloboCar
+	{mso-style-name:"Texto de globo Car";
+	mso-style-priority:99;
+	mso-style-link:"Texto de globo";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DES link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Arial","sans-serif";color:black'>M=
+uchas gracias Paty, confirmo cita el lunes 29 de abril a las 10:00 =
+am<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Arial","sans-serif";color:black'><=
+o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Arial","sans-serif";color:black'>S=
+aludos,<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Arial","sans-serif";color:black'><=
+o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>De:</span></=
+b><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+Patricia Perez [mailto:patricia@vpconsultores.com.mx] <br><b>Enviado =
+el:</b> mi=C3=A9rcoles, 24 de abril de 2019 11:50<br><b>Para:</b> =
+'Soledad M=C3=A1rquez'<br><b>CC:</b> 'Agust=C3=ADn'; 'Luis Antonio =
+Montes De Oca Mayagoitia'; 'Raymundo Contador'<br><b>Asunto:</b> RE: =
+Facturas de GMM (Hijos)<o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><span =
+lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Buen d=C3=ADa:<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Claro, con mucho gusto! Esta semana realizamos los c=C3=A1lculos y =
+los podemos revisar el d=C3=ADa lunes a las 10:00 =
+am.<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Saludos<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'>Patricia P=C3=A9rez<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:#1F497=
+D'><o:p>&nbsp;</o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span =
+style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'>De:</span></=
+b><span style=3D'font-size:10.0pt;font-family:"Tahoma","sans-serif"'> =
+Soledad M=C3=A1rquez [mailto:s.marquez@notaria29df.com.mx] =
+<br><b>Enviado el:</b> martes, 23 de abril de 2019 10:12 =
+p.m.<br><b>Para:</b> Patricia Perez<br><b>CC:</b> Agust=C3=ADn; Luis =
+Antonio Montes De Oca Mayagoitia<br><b>Asunto:</b> Fwd: Facturas de GMM =
+(Hijos)<o:p></o:p></span></p></div></div><p class=3DMsoNormal><span =
+lang=3DES-MX><o:p>&nbsp;</o:p></span></p><div><p class=3DMsoNormal><span =
+lang=3DES-MX><br>Buenas noches Paty,<o:p></o:p></span></p></div><div><p =
+class=3DMsoNormal><span =
+lang=3DES-MX><o:p>&nbsp;</o:p></span></p></div><div><p =
+class=3DMsoNormal><span lang=3DES-MX>Espero que se encuentre bien. =
+Quisiera por favor una cita para revisar las declaraciones anuales de =
+los socios de Monmar, considerando la deducci=C3=B3n del seguro de =
+gastos m=C3=A9dicos de cada uno de mis hijos que estoy =
+anexando.<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span =
+lang=3DES-MX><o:p>&nbsp;</o:p></span></p></div><div><p =
+class=3DMsoNormal><span lang=3DES-MX>Quedo en espera de sus =
+instrucciones.<o:p></o:p></span></p></div><div><p =
+class=3DMsoNormal><span =
+lang=3DES-MX><o:p>&nbsp;</o:p></span></p></div><div><p =
+class=3DMsoNormal><span =
+lang=3DES-MX>Saludos,<o:p></o:p></span></p></div><div><p =
+class=3DMsoNormal style=3D'margin-bottom:12.0pt'><span =
+lang=3DES-MX><br>Inicio del mensaje =
+reenviado:<o:p></o:p></span></p></div><blockquote =
+style=3D'margin-top:5.0pt;margin-bottom:5.0pt'><div><p class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt'><b><span lang=3DES-MX>De:</span></b><span =
+lang=3DES-MX> SOCORRO VARA CHAIREZ &lt;<a =
+href=3D"mailto:socovara41@hotmail.com">socovara41@hotmail.com</a>&gt;<br>=
+<b>Fecha:</b> 17 de abril de 2019, 5:18:34 p. m. CDT<br><b>Para:</b> =
+Soledad M=C3=A1rquez &lt;<a =
+href=3D"mailto:s.marquez@notaria29df.com.mx">s.marquez@notaria29df.com.mx=
+</a>&gt;<br><b>Asunto:</b> <b>Facturas de GMM =
+(Hijos)</b><o:p></o:p></span></p></div></blockquote><blockquote =
+style=3D'margin-top:5.0pt;margin-bottom:5.0pt'><div><div><p =
+class=3DMsoNormal><span lang=3DES-MX =
+style=3D'font-family:"Calibri","sans-serif";color:black'>Se=C3=B1ora =
+Sol:<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span =
+lang=3DES-MX =
+style=3D'font-family:"Calibri","sans-serif";color:black'><o:p>&nbsp;</o:p=
+></span></p></div><div><p class=3DMsoNormal><span lang=3DES-MX =
+style=3D'font-family:"Calibri","sans-serif";color:black'>Le mando las =
+facturas de las p=C3=B3lizas de sus hijos, que vienen en el orden =
+siguiente:<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span =
+lang=3DES-MX =
+style=3D'font-family:"Calibri","sans-serif";color:black'><o:p>&nbsp;</o:p=
+></span></p></div><div><div><p =
+style=3D'margin:0cm;margin-bottom:.0001pt;background:white'><span =
+lang=3DES-MX =
+style=3D'font-family:"Calibri","sans-serif";color:black'>11312 =
+30021146&nbsp; &nbsp;ANTONIO MONTES DE OCA M=C3=81RQUEZ</span><span =
+lang=3DES-MX =
+style=3D'color:#333333'><o:p></o:p></span></p></div><div><div><p =
+style=3D'margin:0cm;margin-bottom:.0001pt;background:white'><span =
+lang=3DES-MX =
+style=3D'font-family:"Calibri","sans-serif";color:black;background:white'=
+>11312 30021155&nbsp; &nbsp;MAR=C3=8DA SOLEDAD MONTES DE OCA =
+M=C3=81RQUEZ</span><span lang=3DES-MX =
+style=3D'color:#333333'><o:p></o:p></span></p></div><div><p =
+style=3D'margin:0cm;margin-bottom:.0001pt;background:white'><span =
+lang=3DES-MX =
+style=3D'font-family:"Calibri","sans-serif";color:black;background:white'=
+>11312 30021164&nbsp; &nbsp;SOF=C3=8DA MONTES DE OCA =
+M=C3=81RQUEZ</span><span lang=3DES-MX =
+style=3D'color:#333333'><o:p></o:p></span></p></div><div><p =
+style=3D'margin:0cm;margin-bottom:.0001pt;background:white'><span =
+lang=3DES-MX =
+style=3D'font-family:"Calibri","sans-serif";color:black;background:white'=
+>11312 30021173&nbsp; &nbsp;ALONSO MONTES DE OCA =
+M=C3=81RQUEZ</span><span lang=3DES-MX =
+style=3D'color:#333333'><o:p></o:p></span></p></div><p =
+style=3D'margin:0cm;margin-bottom:.0001pt;background:white'><span =
+lang=3DES-MX =
+style=3D'font-family:"Calibri","sans-serif";color:black;background:white'=
+>11312 30021182&nbsp; &nbsp;AGUSTIN MONTES DE OCA =
+M=C3=81RQUEZ</span><span lang=3DES-MX =
+style=3D'color:#333333'><o:p></o:p></span></p></div><div><p =
+style=3D'margin:0cm;margin-bottom:.0001pt;background:white'><span =
+lang=3DES-MX =
+style=3D'font-family:"Calibri","sans-serif";color:black;background:white'=
+>11312 30021208&nbsp; &nbsp;LUC=C3=8DA MONTES DE OCA =
+M=C3=81RQUEZ</span><span lang=3DES-MX =
+style=3D'color:#333333'><o:p></o:p></span></p><p =
+style=3D'margin:0cm;margin-bottom:.0001pt;background:white'><span =
+lang=3DES-MX =
+style=3D'color:#333333'><o:p>&nbsp;</o:p></span></p></div><p =
+class=3DMsoNormal><span lang=3DES-MX =
+style=3D'font-family:"Calibri","sans-serif";color:black'>Quedo a sus =
+=C3=B3rdenes en caso de cualquier =
+duda.<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span =
+lang=3DES-MX =
+style=3D'font-family:"Calibri","sans-serif";color:black'><o:p>&nbsp;</o:p=
+></span></p></div><div><p class=3DMsoNormal><span lang=3DES-MX =
+style=3D'font-family:"Calibri","sans-serif";color:black'>Atte.<o:p></o:p>=
+</span></p></div><div id=3DSignature><p class=3DMsoNormal><span =
+lang=3DES-MX>&nbsp;<br>Ernestina Socorro Vara =
+Ch.<o:p></o:p></span></p><div><p class=3DMsoNormal><span =
+lang=3DES-MX>Asesor Profesional de Seguros y =
+Fianzas<o:p></o:p></span></p></div><div><p class=3DMsoNormal><span =
+lang=3DES-MX>CYC Agencia de Seguros<o:p></o:p></span></p></div><p =
+class=3DMsoNormal><span lang=3DES-MX>Tel of. 4168 0027<br>Celular: 04455 =
+4090 1595 <o:p></o:p></span></p><div><p class=3DMsoNormal><span =
+lang=3DES-MX><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES-MX>AVISO DE PRIVACIDAD<o:p></o:p></span></p><div><p =
+class=3DMsoNormal><span lang=3DES-MX>Ernestina Socorro Vara Chairez, con =
+domicilio en calle San Lorenzo -712 EDIF A-1 PISO 2, colonia DEL =
+VALLE,<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES-MX>ciudad MEXICO, municipio o delegaci??n BENITO JUAREZ, c.p. =
+03100, en la entidad de DISTRITO FEDERAL, pa??s<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DES-MX>M??xico, utilizar?? sus datos =
+personales recabados para:<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DES-MX>l comercializar productos =
+relacionados a los seguros y fianzas<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DES-MX>l proveer los servicios y productos =
+contratados, relacionados a seguros y fianzas<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DES-MX>l responder a sus requerimientos de =
+informacion , atencion, y servicio<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DES-MX>l realizacion de gestion =
+financiera, facturacion y cobro<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DES-MX>l Mercadotecnia o =
+publicitaria<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES-MX>l Prospecci??n comercial<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DES-MX>Para mayor informaci??n acerca del =
+tratamiento y de los derechos que puede hacer valer, usted puede acceder =
+al<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DES-MX>aviso de =
+privacidad integral a trav??s de: atravez del correo electronica. <a =
+href=3D"mailto:socovara41@hotmail.com">socovara41@hotmail.com</a><o:p></o=
+:p></span></p><p class=3DMsoNormal><span =
+lang=3DES-MX><o:p>&nbsp;</o:p></span></p></div></div><div><div><div><p =
+class=3DMsoNormal><span lang=3DES-MX>&nbsp;<o:p></o:p></span></p><div =
+id=3DSignature><p class=3DMsoNormal><span =
+lang=3DES-MX>&nbsp;<o:p></o:p></span></p></div><div =
+id=3DSignature><div><div><p class=3DMsoNormal><span =
+lang=3DES-MX>&nbsp;<o:p></o:p></span></p></div></div><div><div><div><p =
+class=3Dxmsonormal style=3D'margin:0cm;margin-bottom:.0001pt'><span =
+lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>&nbsp;</spa=
+n><span =
+lang=3DES-MX><o:p></o:p></span></p></div></div></div></div></div></div></=
+div></div></div></blockquote></div></body></html>
+------=_NextPart_000_0010_01D4FA98.06D396D0--
+

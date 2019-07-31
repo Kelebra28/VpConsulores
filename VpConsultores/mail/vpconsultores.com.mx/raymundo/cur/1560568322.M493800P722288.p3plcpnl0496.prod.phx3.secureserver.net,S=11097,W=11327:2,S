@@ -1,0 +1,230 @@
+Return-Path: <bounce-10448332.241647864@s41.dptagent.biz>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id 8Mg2GgJiBF1wBQsAFq4nlA
+	(envelope-from <bounce-10448332.241647864@s41.dptagent.biz>)
+	for <raymundo@vpconsultores.com.mx>; Fri, 14 Jun 2019 20:12:02 -0700
+Return-path: <bounce-10448332.241647864@s41.dptagent.biz>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Fri, 14 Jun 2019 20:12:02 -0700
+Received: from server7z.dptagent.biz ([216.157.68.29]:57720)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <bounce-10448332.241647864@s41.dptagent.biz>)
+	id 1hbz6j-003A2X-PY
+	for raymundo@vpconsultores.com.mx; Fri, 14 Jun 2019 20:12:02 -0700
+Content-type: multipart/alternative;
+	boundary="--Boundary.636961339672159202.693202025--"
+DKIM-Signature: v=1; a=rsa-sha256; d=s41.dptagent.biz; s=doppler;
+	c=relaxed/simple; t=1560568271; h=from:to:date:subject;
+	bh=FIep8xRVIOJ3gYj6dR4HvAhr5TVYPhzTuV6kTbOMDm8=;
+	b=h3+XZa0b20G0Mda8pPLsV2bfif6FN3nNxkiSNItYcHlEtLTPQV0GV/dslKzlvaN13yEao7LoF4U
+	I/EGylplMxMQA7w4gb+ovkmSz+i1D0w+d3yrO8Q1bhgqa00cirb7hhq3G6mLpXum+/YUhVFy4yRmL
+	ULPKuJCKFX2mvnelYAI=
+Received: by server7z.dptagent.biz (Doppler Mail) with ESMTP id md5636961339672159202
+	for <raymundo@vpconsultores.com.mx>; Fri, 14 Jun 2019 18:32:47 -0500 (envelope-from <bounce-10448332.606ca4e1e04e9332dfb502ba84f60a75@s41.dptagent.biz>)
+From: =?UTF-8?Q?BIOMEDICA?= <servicioalcliente@bioderef.com>
+Reply-To: servicioalcliente@bioderef.com
+To: =?UTF-8?Q?Horlet_Raymundo_Vazquez_Madrigal?= <raymundo@vpconsultores.com.mx>
+Date: Fri, 14 Jun 2019 18:32:47 -0500
+Message-ID: <606ca4e1e04e9332dfb502ba84f60a7514233247@s41.dptagent.biz>
+List-Unsubscribe: <https://un.mydplr.com/b51b4e648b3e0edb9107242ffcc12bfc-606ca4e1e04e9332dfb502ba84f60a75-45a2d8fd7242a171>, <mailto:msncomplaints@makingsense.com?subject=unsubscribe-10448332-606ca4e1e04e9332dfb502ba84f60a75>
+X-Mailer: Doppler Mail (ID: 54)
+X-Report-Abuse: Please report abuse for this campaign here: http://mydplr.com/AbuseForm?id=10448332
+Feedback-ID: 10448332:606ca4e1e04e9332dfb502ba84f60a75:news:proddplr
+MIME-Version: 1.0
+X-Spam-Status: Yes, score=5.4
+X-Spam-Score: 54
+X-Spam-Bar: +++++
+X-Spam-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  View Online<https://vo.mydplr.com/b51b4e648b3e0edb9107242ffcc12bfc-606ca4e1e04e9332dfb502ba84f60a75>
+    Aviso de privacidad<https://lt.mydplr.com/71cd1ed1aaa9c301f7a64f4cd64f2e18-606ca4e1e04e9332dfb502ba84f60a75>
+    
+ 
+ Content analysis details:   (5.4 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mydplr.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mydplr.com]
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [216.157.68.29 listed in psbl.surriel.com]
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  1.1 DATE_IN_PAST_03_06     Date: is 3 to 6 hours before Received: date
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.8 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 T_KAM_HTML_FONT_INVALID BODY: Test for Invalidly Named or
+                             Formatted Colors in HTML
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of
+                             empty lines
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?UTF-8?Q?Cuida_Tu_Tiroides_?=
+
+This is a multi-part message in MIME format.
+
+----Boundary.636961339672159202.693202025--
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+View Online<https://vo=2Emydplr=2Ecom/b51b4e648b3e0edb9107242ffcc12bfc-=
+606ca4e1e04e9332dfb502ba84f60a75=
+>=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+Aviso de privacidad<https://lt=2Emydplr=2Ecom/71cd1ed1aaa9c301f7a64f4cd64=
+f2e18-=
+606ca4e1e04e9332dfb502ba84f60a75=
+>=0D=0A=
+=0D=0A=
+=0D=0A=
+
+
+----Boundary.636961339672159202.693202025--
+Content-type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1=2E0 Strict//EN" "http://www=2E=
+w3=2Eorg/TR/xhtml1/DTD/xhtml1-strict=2Edtd"><html  xmlns=3D"http://www=2E=
+w3=2Eorg/1999/xhtml"><head>=0D=0A=
+<meta name=3D"viewport" content=3D"width=3Ddevice-width"/>=0D=0A=
+=0D=0A=
+<style> @media only screen and (min-width: 480px) { .dplr-mobile-only{display:none !important;}}</style></head><body>
+<img alt=3D'' src=3D"https://op=2Emydplr=2Ecom/b51b4e648b3e0edb9107242ffc=
+c12bfc-=
+606ca4e1e04e9332dfb502ba84f60a75=
+"/><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"center"><tr><td width=3D"100%" align=3D"center"><div><br></div>=
+<div><br></div><div><img style=3D"display: block; margin-left: auto; marg=
+in-right: auto;" src=3D"https://app2=2Edopplerfiles=2Ecom/Users/77032/Cam=
+paigns/10448332/Logo_NUEVO=2Ejpg" alt=3D" " width=3D"250" height=3D"92" d=
+ata-mce-src=3D"https://app2=2Edopplerfiles=2Ecom/Users/77032/Campaigns/10=
+448332/Logo_NUEVO=2Ejpg" data-mce-style=3D"display: block; margin-left: a=
+uto; margin-right: auto;"></div><div><br></div><div><br></div><div><table=
+ width=3D"650" border=3D"0"><tbody><tr><td style=3D"text-align: left;" da=
+ta-mce-style=3D"text-align: left;"><div><br></div><div><br></div></td><td=
+ style=3D"text-align: center;" data-mce-style=3D"text-align: center;"><di=
+v><br></div><div><br></div></td><td style=3D"text-align: left;" data-mce-=
+style=3D"text-align: left;"><img style=3D"" src=3D"https://app2=2Edoppler=
+files=2Ecom/Users/77032/Campaigns/10448332/TIROIDES_2019_Mailing_1024x768=
+=2Ejpg" alt=3D" " width=3D"980" height=3D"735" data-mce-src=3D"https://ap=
+p2=2Edopplerfiles=2Ecom/Users/77032/Campaigns/10448332/TIROIDES_2019_Mail=
+ing_1024x768=2Ejpg" data-mce-style=3D""></td></tr></tbody></table></div><=
+div style=3D"text-align: center;" data-mce-style=3D"text-align: center;">=
+<span style=3D"font-size: x-small;" data-mce-style=3D"font-size: x-small;=
+"><br></span></div><div style=3D"text-align: center;" data-mce-style=3D"t=
+ext-align: center;"><span style=3D"font-size: x-small;" data-mce-style=3D=
+"font-size: x-small;"><img style=3D"" src=3D"https://app2=2Edopplerfiles=
+=2Ecom/Users/77032/Campaigns/10448332/Anticuerposantitiroideos_2019_Maili=
+ng=2Ejpg" alt=3D" " width=3D"980" height=3D"735" data-mce-src=3D"https://=
+app2=2Edopplerfiles=2Ecom/Users/77032/Campaigns/10448332/Anticuerposantit=
+iroideos_2019_Mailing=2Ejpg" data-mce-style=3D""><br><br></span></div><di=
+v style=3D"text-align: center;" data-mce-style=3D"text-align: center;"><b=
+r></div><div style=3D"text-align: center;" data-mce-style=3D"text-align: =
+center;"><span style=3D"font-size: x-small;" data-mce-style=3D"font-size:=
+ x-small;"><a href=3D"https://lt=2Emydplr=2Ecom/71cd1ed1aaa9c301f7a64f4cd=
+64f2e18-=
+606ca4e1e04e9332dfb502ba84f60a75=
+" data-mce-href=3D"https://lt=2Emydplr=2Ecom/71cd1ed1aaa9c301f7a64f4cd64f=
+2e18-=
+606ca4e1e04e9332dfb502ba84f60a75=
+">Aviso de privacidad</a></span><br></div></td></tr><tr><td bgcolor=3D"#f=
+fffff" align=3D"center" style=3D"padding: 0 10px 0 10px;"><table cellspac=
+ing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0" ><tbody><tr><td><=
+table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0"><tb=
+ody><tr><td bgcolor=3D"#ffffff" align=3D"center" style=3D"padding: 10px 1=
+0px 0 10px;"><table cellspacing=3D"0" cellpadding=3D"0" width=3D"70%" bor=
+der=3D"0" ><tbody><tr><td><table cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"100%" border=3D"0"><tbody><tr><td><table cellspacing=3D"0" cellpaddi=
+ng=3D"10" width=3D"100%" border=3D"0"><tbody><tr><td align=3D"center" sty=
+le=3D"padding: 0 0 0 0; text-align: center !important; font-size: 13px; f=
+ont-family: Helvetica,  Arial, sans-serif; color: #999999; height: 30px; =
+line-height: 1=2E4;">=C2=BFDeseas dejar de recibir estos emails? Click <a=
+ href=3D"https://un=2Emydplr=2Ecom/b51b4e648b3e0edb9107242ffcc12bfc-=
+606ca4e1e04e9332dfb502ba84f60a75=
+-842b1979187904f5" style=3D"font-size: 13px; font-family: Helvetica,  Ari=
+al, sans-serif; color: #2A5DB0 !important; text-decoration: underline !im=
+portant; ">aqu=C3=AD</a></td></tr></tbody></table></td></tr></tbody></tab=
+le></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody>=
+</table></td></tr><tr><td bgcolor=3D"#ffffff" align=3D"center" style=3D"p=
+adding: 0 10px 0 10px;"><table cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" border=3D"0" ><tbody><tr><td><table cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" border=3D"0"><tbody><tr><td bgcolor=3D"#ffffff" a=
+lign=3D"center" style=3D"padding: 10px 10px 0 10px;"><table cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"70%" border=3D"0" ><tbody><tr><td><tabl=
+e cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0"><tbody>=
+<tr><td><table cellspacing=3D"0" cellpadding=3D"10" width=3D"100%" border=
+=3D"0"><tbody><tr><td align=3D"center" style=3D"padding: 0 0 0 0; line-he=
+ight: 1=2E4; height: 30px; text-align: center !important; font-size: 13px=
+; font-family: Helvetica,  Arial, sans-serif; color: #999999;">Biom=C3=A9=
+dica de Referencia, S=2EA=2EP=2EI=2E de C=2EV=2E | Montes Urales 780 | Ci=
+udad de M=C3=A9xico | 11000</td></tr></tbody></table></td></tr></tbody></=
+table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbo=
+dy></table></td></tr>=
+</body></html>
+
+----Boundary.636961339672159202.693202025----
+

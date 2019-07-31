@@ -1,0 +1,431 @@
+Return-Path: <nieves.lamata@grupoclh.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id wJcrE8Fjk1xoDzQAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Thu, 21 Mar 2019 03:13:21 -0700
+Return-path: <nieves.lamata@grupoclh.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Thu, 21 Mar 2019 03:13:21 -0700
+Received: from mail-eopbgr70098.outbound.protection.outlook.com ([40.107.7.98]:62880 helo=EUR04-HE1-obe.outbound.protection.outlook.com)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <nieves.lamata@grupoclh.com>)
+	id 1h6uhK-00F9zT-QL
+	for raymundo@vpconsultores.com.mx; Thu, 21 Mar 2019 03:13:21 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=grupoclh.onmicrosoft.com; s=selector1-grupoclh-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=jkl32tqC+lQ8UiVMDJ2MabGgJM6I+HSqWWI3JfBXG0I=;
+ b=nZnN3HEVtQsr0IWEM9/V4/qmnQt/VjuPzlaWBE85/A4wpptxzim8L7YBVaCD//tJp7iQbQ4LJslp3YvJPGkPv19Zls0YbG5cXDhBHfP5TSZDgaSIWVXQ90C68KACyXR4R9tkiAW18nXirNHRJcO8b9mH83EqUbjrfP0zHDg9ZuE=
+Received: from VI1PR08MB3326.eurprd08.prod.outlook.com (52.134.31.19) by
+ VI1PR08MB3517.eurprd08.prod.outlook.com (20.177.61.12) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.1709.14; Thu, 21 Mar 2019 10:12:35 +0000
+Received: from VI1PR08MB3326.eurprd08.prod.outlook.com
+ ([fe80::e89a:e90e:2cf2:7889]) by VI1PR08MB3326.eurprd08.prod.outlook.com
+ ([fe80::e89a:e90e:2cf2:7889%4]) with mapi id 15.20.1709.015; Thu, 21 Mar 2019
+ 10:12:35 +0000
+From: =?iso-8859-1?Q?Lamata_Bayo=2C_Mar=EDa_de_las_Nieves?=
+	<nieves.lamata@grupoclh.com>
+To: =?iso-8859-1?Q?Paola_L=F3pez?= <plopez@salesboyoli.com>, 'Gabriela
+ Peregrina Espino' <gperegrina@salesboyoli.com>,
+	"raymundo@vpconsultores.com.mx" <raymundo@vpconsultores.com.mx>
+CC: 'Jorge Sales Boyoli' <jsales@salesboyoli.com>
+Subject: =?iso-8859-1?Q?reuni=F3n_telef=F3nica_18:30_hora_espa=F1a?=
+Thread-Topic: =?iso-8859-1?Q?reuni=F3n_telef=F3nica_18:30_hora_espa=F1a?=
+Thread-Index: AdTfzkRU/+0/bDZ+SiekRDIUfS4e0A==
+Date: Thu, 21 Mar 2019 10:12:35 +0000
+Message-ID:
+ <VI1PR08MB33266D0C188BD92839DAE75A95420@VI1PR08MB3326.eurprd08.prod.outlook.com>
+Accept-Language: es-ES, en-US
+Content-Language: es-ES
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=nieves.lamata@grupoclh.com; 
+x-originating-ip: [185.180.48.113]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 0e747fd6-4d37-4497-e581-08d6ade5bd8e
+x-microsoft-antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(8989299)(4534185)(4627221)(201703031133081)(201702281549075)(8990200)(5600127)(711020)(4605104)(2017052603328)(7153060)(49563074)(7193020);SRVR:VI1PR08MB3517;
+x-ms-traffictypediagnostic: VI1PR08MB3517:
+x-ms-exchange-purlcount: 1
+x-microsoft-antispam-prvs:
+ <VI1PR08MB3517629B217D72809435FDE995420@VI1PR08MB3517.eurprd08.prod.outlook.com>
+x-forefront-prvs: 0983EAD6B2
+x-forefront-antispam-report:
+ SFV:NSPM;SFS:(10019020)(346002)(39850400004)(396003)(376002)(366004)(136003)(189003)(199004)(71190400001)(6436002)(81156014)(861006)(26005)(606006)(106356001)(99936001)(476003)(8936002)(6506007)(74316002)(33656002)(186003)(7736002)(2906002)(7696005)(105586002)(99286004)(110136005)(25786009)(6116002)(102836004)(2501003)(790700001)(316002)(3846002)(68736007)(53936002)(97736004)(66066001)(6306002)(52536014)(9686003)(81166006)(224303003)(5660300002)(55016002)(54896002)(733005)(86362001)(14444005)(486006)(4326008)(66574012)(14454004)(478600001)(256004)(54556002)(19627235002)(71200400001)(236005);DIR:OUT;SFP:1102;SCL:1;SRVR:VI1PR08MB3517;H:VI1PR08MB3326.eurprd08.prod.outlook.com;FPR:;SPF:None;LANG:es;PTR:InfoNoRecords;MX:1;A:1;
+received-spf: None (protection.outlook.com: grupoclh.com does not designate
+ permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam-message-info:
+ pzIKQ6jtonlQWsAc/sl6YuCRp9dJ2xH0uDdWDcouc4+7mMDhZfEniaTdgQMj6B+bGaeqxE1kGJR5Rc30k+/dBpIH6alKpi06w/SJbEgymp9fRZkaaJIqlLM87ikv7vourvyb6sSVWCH9E/cm6lRnV908QvJ1EJbnf42/Tjqdl2XeV8SGehHlc34nHblPTVl8tuNjoGpDRxYryyfFWIjJ3xtKVjI+69HNKTMpfqZpaIKUjYs67wDQEisbaj8fDgHQgRhUv/LJGG3VR6eynILpba8CunUSKM5KEnPLM1LCRnrocUoXXfkDCtdjA1samk+R2tT8vheO6gInAlHpCQ2E5X91AlR/ONJYxNM7ZghGrLVYuxyA7UzjYqGL2HwP3lm/5XnMIY6CBFuaUJ5g4frjE0zLobMab3Sv8NLNkD4zYbs=
+Content-Type: multipart/related;
+	boundary="_004_VI1PR08MB33266D0C188BD92839DAE75A95420VI1PR08MB3326eurp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: grupoclh.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0e747fd6-4d37-4497-e581-08d6ade5bd8e
+X-MS-Exchange-CrossTenant-originalarrivaltime: 21 Mar 2019 10:12:35.8027
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: f2cd9782-65e5-4539-8f18-4ecdfbe6a6f8
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR08MB3517
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Buenos días, ¿sería posible tener una llamada esta tarde?
+   A principios de mes ya se irá expatriado Javier para Méjico y me gustaría
+   me ayudarais a definir si es necesario hacerle contrato, temas de fi
+ 
+ Content analysis details:   (0.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: grupoclh.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: grupoclh.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+X-Spam-Flag: NO
+
+--_004_VI1PR08MB33266D0C188BD92839DAE75A95420VI1PR08MB3326eurp_
+Content-Type: multipart/alternative;
+	boundary="_000_VI1PR08MB33266D0C188BD92839DAE75A95420VI1PR08MB3326eurp_"
+
+--_000_VI1PR08MB33266D0C188BD92839DAE75A95420VI1PR08MB3326eurp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Buenos d=EDas,
+=BFser=EDa posible tener una llamada esta tarde?
+A principios de mes ya se ir=E1 expatriado Javier para M=E9jico y me gustar=
+=EDa me ayudarais a definir si es necesario hacerle contrato, temas de fisc=
+alidad, n=F3mina... todo ello relacionado con el tipo de visado que tiene a=
+ctualmente o el que gestionaremos con posterioridad...
+C=F3mo haremos la ecualizaci=F3n fiscal, etc..
+
+Gracias.
+
+Nieves Lamata Bayo
+Tec. Relaciones Laborales y Asignaciones Internacionales - Direcci=F3n Corp=
+orativa Recursos Humanos
+
+
+[FCCLH.png]
+
+
+Calle Tit=E1n, 13 - Planta 2
+28045 Madrid
+tel.: +34 917746066
+mvl.: +34 681295483
+e-mail: nieves.lamata@grupoclh.com
+
+www.clh.es<http://www.clh.es/>
+
+
+
+
+Mi nueva direcci=F3n email es: nieves.lamata@grupoclh.com
+My new email address is: nieves.lamata@grupoclh.com
+
+Este mensaje se dirige exclusivamente a su destinatario y puede contener in=
+formaci=F3n privilegiada o confidencial. Si no es Vd. el destinatario indic=
+ado, queda advertido de que la lectura, utilizaci=F3n, divulgaci=F3n y/o co=
+pia sin autorizaci=F3n est=E1 prohibida en virtud de la legislaci=F3n vigen=
+te. Si ha recibido este mensaje por error, le rogamos que nos lo comunique =
+inmediatamente por esta misma v=EDa y proceda a su destrucci=F3n. El correo=
+ electr=F3nico v=EDa Internet no permite asegurar la confidencialidad de lo=
+s mensajes que se transmiten ni su integridad o correcta recepci=F3n. CLH n=
+o asume ninguna responsabilidad por estas circunstancias.
+
+This message is intended exclusively for its addressee and may contain info=
+rmation that is confidential and protected by a professional privilege or w=
+hose disclosure is prohibited by law. If you are not the intended recipient=
+ you are hereby notified that any read, dissemination, copy or disclosure o=
+f this communication is strictly prohibited by law. If this message has bee=
+n received in error, please immediately notify us via e-mail and delete it.=
+ Internet e-mail neither guarantees the confidentiality nor the integrity o=
+r proper receipt of the messages sent. CLH does not assume any liability fo=
+r those circumstances.
+
+--_000_VI1PR08MB33266D0C188BD92839DAE75A95420VI1PR08MB3326eurp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EstiloCorreo17
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"ES" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Buenos d=EDas,<o:p></o:p></p>
+<p class=3D"MsoNormal">=BFser=EDa posible tener una llamada esta tarde?<o:p=
+></o:p></p>
+<p class=3D"MsoNormal">A principios de mes ya se ir=E1 expatriado Javier pa=
+ra M=E9jico y me gustar=EDa me ayudarais a definir si es necesario hacerle =
+contrato, temas de fiscalidad, n=F3mina&#8230; todo ello relacionado con el=
+ tipo de visado que tiene actualmente o el que gestionaremos
+ con posterioridad&#8230;<o:p></o:p></p>
+<p class=3D"MsoNormal">C=F3mo haremos la ecualizaci=F3n fiscal, etc..<o:p><=
+/o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Gracias.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"width:100.0%">
+<tbody>
+<tr>
+<td width=3D"798" valign=3D"top" style=3D"width:598.5pt;padding:.75pt .75pt=
+ .75pt .75pt">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:9.5pt;color:#1F497D;mso-=
+fareast-language:ES">Nieves Lamata Bayo</span></b><span style=3D"mso-fareas=
+t-language:ES"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.5pt;color:#1F497D;mso-far=
+east-language:ES">Tec. Relaciones Laborales y Asignaciones Internacionales =
+- Direcci=F3n Corporativa Recursos Humanos</span><span style=3D"mso-fareast=
+-language:ES"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:7.5pt;color:#1F497D;mso-far=
+east-language:ES">&nbsp;</span><span style=3D"mso-fareast-language:ES"><o:p=
+></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"20" valign=3D"top" style=3D"width:15.0pt;padding:.75pt .75pt .=
+75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:ES"><img width=
+=3D"71" height=3D"60" style=3D"width:.7416in;height:.625in" id=3D"Imagen_x0=
+020_1" src=3D"cid:image001.png@01D4DFD6.FB654360" alt=3D"FCCLH.png"><o:p></=
+o:p></span></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:.75pt .75pt .75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-size:7.5pt;color:#1F497D;mso-far=
+east-language:ES">&nbsp;</span><span style=3D"mso-fareast-language:ES"><o:p=
+></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;color:black;mso-farea=
+st-language:ES">Calle Tit=E1n, 13 - Planta 2</span><span style=3D"mso-farea=
+st-language:ES"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;color:black;mso-farea=
+st-language:ES">28045 Madrid</span><span style=3D"mso-fareast-language:ES">=
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;color:#1F497D;mso-far=
+east-language:ES">tel.:
+</span><span style=3D"font-size:9.0pt;color:black;mso-fareast-language:ES">=
+&#43;34 917746066<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;color:#1F497D;mso-far=
+east-language:ES">mvl.:</span><span style=3D"mso-fareast-language:ES">
+</span><span style=3D"font-size:9.0pt;mso-fareast-language:ES">&#43;34 6812=
+95483</span><span style=3D"mso-fareast-language:ES"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;color:#1F497D;mso-far=
+east-language:ES">e-mail:
+</span><span style=3D"font-size:9.0pt;color:black;mso-fareast-language:ES">=
+nieves.lamata@grupoclh.com</span><span style=3D"mso-fareast-language:ES"><o=
+:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"20" valign=3D"top" style=3D"width:15.0pt;padding:.75pt .75pt .=
+75pt .75pt">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;color:#1F497D;mso-far=
+east-language:ES"><a href=3D"http://www.clh.es/"><span style=3D"color:blue"=
+>www.clh.es</span></a></span><span style=3D"mso-fareast-language:ES"><o:p><=
+/o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:ES"><o:p>&nbsp;<=
+/o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<br>
+<div style=3D"font-size:10pt;font-family:'Calibri',sans-serif;">Mi nueva di=
+recci=F3n email es: nieves.lamata@grupoclh.com<br>
+My new email address is: nieves.lamata@grupoclh.com</div>
+<br>
+<div style=3D"font-size:8pt; font-family: 'Calibri',sans-serif;">Este mensa=
+je se dirige exclusivamente a su destinatario y puede contener informaci=F3=
+n privilegiada o confidencial. Si no es Vd. el destinatario indicado, queda=
+ advertido de que la lectura, utilizaci=F3n,
+ divulgaci=F3n y/o copia sin autorizaci=F3n est=E1 prohibida en virtud de l=
+a legislaci=F3n vigente. Si ha recibido este mensaje por error, le rogamos =
+que nos lo comunique inmediatamente por esta misma v=EDa y proceda a su des=
+trucci=F3n. El correo electr=F3nico v=EDa Internet
+ no permite asegurar la confidencialidad de los mensajes que se transmiten =
+ni su integridad o correcta recepci=F3n. CLH no asume ninguna responsabilid=
+ad por estas circunstancias.<br>
+<br>
+This message is intended exclusively for its addressee and may contain info=
+rmation that is confidential and protected by a professional privilege or w=
+hose disclosure is prohibited by law. If you are not the intended recipient=
+ you are hereby notified that any
+ read, dissemination, copy or disclosure of this communication is strictly =
+prohibited by law. If this message has been received in error, please immed=
+iately notify us via e-mail and delete it. Internet e-mail neither guarante=
+es the confidentiality nor the integrity
+ or proper receipt of the messages sent. CLH does not assume any liability =
+for those circumstances.</div>
+</body>
+</html>
+
+--_000_VI1PR08MB33266D0C188BD92839DAE75A95420VI1PR08MB3326eurp_--
+
+--_004_VI1PR08MB33266D0C188BD92839DAE75A95420VI1PR08MB3326eurp_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=4431;
+	creation-date="Thu, 21 Mar 2019 10:12:35 GMT";
+	modification-date="Thu, 21 Mar 2019 10:12:35 GMT"
+Content-ID: <image001.png@01D4DFD6.FB654360>
+Content-Transfer-Encoding: base64
+
+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
+
+--_004_VI1PR08MB33266D0C188BD92839DAE75A95420VI1PR08MB3326eurp_--

@@ -1,0 +1,108 @@
+Return-Path: <info@guiash2018.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id YCQIGcXV0VzxUgUAFq4nlA
+	(envelope-from <info@guiash2018.com>)
+	for <raymundo@vpconsultores.com.mx>; Tue, 07 May 2019 12:00:21 -0700
+Return-path: <info@guiash2018.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Tue, 07 May 2019 12:00:21 -0700
+Received: from guiash2018.com ([81.7.18.69]:14143)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtp (Exim 4.91)
+	(envelope-from <info@guiash2018.com>)
+	id 1hO5K5-001S28-1x
+	for raymundo@vpconsultores.com.mx; Tue, 07 May 2019 12:00:21 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=key1; d=guiash2018.com;
+ h=Message-ID:From:To:Subject:Date:MIME-Version:Content-Type:Content-Transfer-Encoding; i=info@guiash2018.com;
+ bh=omOpXDJ1KkUWl0b3ELOxwBZVWMY=;
+ b=o5V/h7XjQn4V3dBMo0UIUQFPQVEIA6Ids1eLpakilmb3FpzVdc5K/PFQiAiIq4icKypyJKBEk1Tx
+   foWrbLUyE4g2qw2dPxIH3oYCKLRlgYxli/vIBVbnpbWdIW61Dq+Gl71X+rUzcrKPTvZpUYoajkhB
+   CQkPxa0DrqJbwrRffxU=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=key1; d=guiash2018.com;
+ b=q6teFGld/mVLHowPzd3oAtl9GL2xbmC6wH4MKgkl4BFZW/Io7dd2zAUTzi7zNbyziURMWXbEFBZ3
+   JpYCNKfQVeLTOtOZcSO/MZ/c/JZ5gXN8/iSAvQX9oHLHLKzpmvW43+4+sl9eDenpgLKxrOLVYutR
+   D7nHhQjQhcujEqGd7Lk=;
+Received: from 81-7-18-182 (81.7.18.182) by guiash2018.com id hq7as60our01 for <raymundo@vpconsultores.com.mx>; Tue, 7 May 2019 11:28:10 -0500 (envelope-from <info@guiash2018.com>)
+nuc: 56035783
+Message-ID: <a1a273bd391521b0f321a7a20015d93e@guiash2018.com>
+From: "Lo que se mide se puede mejorar" <info@guiash2018.com>
+To: <raymundo@vpconsultores.com.mx>
+Subject: Indicadores de Recursos Humanos
+Date: Tue, 7 May 2019 11:28:10 -0500
+X-Priority: 1
+X-Mailer: SMTP COMPONENT
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Spam-Status: No, score=4.9
+X-Spam-Score: 49
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  INDISPENSABLE Indicadores de Recursos Humanos Guadalajara
+   23 de mayo Si desea recibir un folleto con la información completa de este
+    programa, solo responda este correo con la frase "Indicadoresrh” 
+ 
+ Content analysis details:   (4.9 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: guiash2018.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: promogdl.wixsite.com]
+  0.1 URIBL_SBL_A            Contains URL's A record listed in the Spamhaus SBL
+                             blocklist
+                             [URIs: promogdl.wixsite.com]
+  0.6 URIBL_SBL              Contains an URL's NS IP listed in the Spamhaus SBL
+                             blocklist
+                             [URIs: promogdl.wixsite.com]
+  1.5 SPF_HELO_SOFTFAIL      SPF: HELO does not match SPF record (softfail)
+  1.5 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9XM0MvL0RURCBIVE1MIDQuMCBUcmFuc2l0aW9uYWwv
+L0VOIj4NCjxodG1sPg0KPGhlYWQ+DQo8bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNv
+bnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD11dGYtOCI+DQo8L2hlYWQ+DQo8Ym9keSBzdHlsZT0i
+Rk9OVC1GQU1JTFk6IFZlcmRhbmEiPg0KPHAgYWxpZ249Y2VudGVyPklORElTUEVOU0FCTEUmbmJz
+cDs8YnI+PGZvbnQgY29sb3I9IzAwODBjMCBzaXplPTU+PHN0cm9uZz48Zm9udCANCmNvbG9yPSMw
+MDQwODA+SW5kaWNhZG9yZXMgZGUgUmVjdXJzb3MgSHVtYW5vczwvZm9udD4gPGJyPjwvc3Ryb25n
+PjwvZm9udD48Zm9udCANCmNvbG9yPSMwMDgwYzAgc2l6ZT01Pjxmb250IGNvbG9yPSMwMDAwMDAg
+c2l6ZT0zPkd1YWRhbGFqYXJhIDIzIGRlIA0KbWF5bzxicj48L2ZvbnQ+PC9mb250PjwvcD4NCjxw
+IGFsaWduPWNlbnRlcj5TaSBkZXNlYSByZWNpYmlyIHVuIGZvbGxldG8gY29uIGxhIGluZm9ybWFj
+acOzbiBjb21wbGV0YSBkZSBlc3RlIA0KcHJvZ3JhbWEsPGJyPnNvbG8gcmVzcG9uZGEgZXN0ZSBj
+b3JyZW8gY29uIGxhJm5ic3A7ZnJhc2UgDQoiPHN0cm9uZz5JbmRpY2Fkb3Jlc3JoPC9zdHJvbmc+
+4oCdPGJyPjxicj48c3Ryb25nPjxmb250IHNpemU9ND48Zm9udCANCmNvbG9yPSMwMDgwMDA+TnVl
+c3RyYSBMw61uZWEgZGUgV2hhdHNBcHA6IDwvZm9udD48Zm9udCBjb2xvcj0jMDA4MGMwPjU1MzEx
+ODk2MjggDQo8L2ZvbnQ+PC9mb250Pjwvc3Ryb25nPjwvcD4NCjxwIGFsaWduPWNlbnRlcj48c3Ry
+b25nPkxpYy4gTWVsaXNzYSBBZ3VpbGFyPGJyPjwvc3Ryb25nPkVqZWN1dGl2YSBkZSBWZW50YXMg
+DQo8YnI+VGVsw6lmb25vOiAwMSA4MDAgMjEyIDA2NjA8L3A+DQo8cCBhbGlnbj1jZW50ZXI+Jm5i
+c3A7T3Ryb3MgdGVtYXMgUmVsYWNpb25hZG9zIEFxdcOtPGJyPjxhIHN0eWxlPSJDT0xPUjogYmx1
+ZTsgVEVYVC1ERUNPUkFUSU9OOiB1bmRlcmxpbmUiIGhyZWY9Imh0dHBzOi8vcHJvbW9nZGwud2l4
+c2l0ZS5jb20vbWF5byIgdGFyZ2V0PV9zZWxmPjxmb250IHNpemU9ND5Nw6FzIEluZm9ybWFjacOz
+biANCmFxdcOtPC9mb250PjwvYT48L3A+DQo8cD4mbmJzcDs8L3A+DQo8cCBhbGlnbj1jZW50ZXI+
+RVNQRVJFISDCoU5PIEVTIE5FQ0VTQVJJTyBEQVJTRSBERSBCQUpBISBTw7NsbyByZXNwb25kYSAN
+CuKAnENBTEVOREFSSU/igJ0geSBub3MgYXNlZ3VyYXJlbW9zIDxicj5xdWUgcmVjaWJhIFVOIENP
+UlJFTyBkZWwgw6FyZWEgZGUgc3UgaW50ZXLDqXMgDQphIGxhIHNlbWFuYS48YnI+UGFyYSBubyBy
+ZWNpYmlyIG1hcyBjb3JyZW9zLCByZXNwb25kZSBjb24gbGEgcGFsYWJyYSAoRVhDTFVJUikgw7Mg
+DQpzaSBwcmVmaWVyZSBVbnN1YnNjcmliZTxicj5UaGlzIGVtYWlsIHdhcyBzZW50IHRvIHJheW11
+bmRvQHZwY29uc3VsdG9yZXMuY29tLm14IGJ5IDxhIHN0eWxlPSJDT0xPUjogYmx1ZTsgVEVYVC1E
+RUNPUkFUSU9OOiB1bmRlcmxpbmUiIGhyZWY9Im1haWx0bzppbmZvQGd1aWFzaDIwMTguY29tIiB0
+YXJnZXQ9X3NlbGY+aW5mb0BndWlhc2gyMDE4LmNvbTwvYT48L3A+DQo8L2JvZHk+DQo8L2h0bWw+
+

@@ -1,0 +1,179 @@
+Return-Path: <return-b932121b-4774-47c8-8fc0-3c511cf1af0c@mex.emaildelivery.citi.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id 4MtxD16d1FxWlT4AFq4nlA
+	(envelope-from <return-b932121b-4774-47c8-8fc0-3c511cf1af0c@mex.emaildelivery.citi.com>)
+	for <raymundo@vpconsultores.com.mx>; Thu, 09 May 2019 14:36:30 -0700
+Return-path: <return-b932121b-4774-47c8-8fc0-3c511cf1af0c@mex.emaildelivery.citi.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Thu, 09 May 2019 14:36:30 -0700
+Received: from app-mx-a.mail.citi.com ([67.231.145.226]:48312)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <return-b932121b-4774-47c8-8fc0-3c511cf1af0c@mex.emaildelivery.citi.com>)
+	id 1hOqiH-00HDpj-9T
+	for raymundo@vpconsultores.com.mx; Thu, 09 May 2019 14:36:30 -0700
+Received: from pps.filterd (m0120832.ppops.net [127.0.0.1])
+	by mx0a-00123c010.pphosted.com (8.16.0.27/8.16.0.27) with SMTP id x49LMbar086232
+	for <raymundo@vpconsultores.com.mx>; Thu, 9 May 2019 21:35:44 GMT
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=citibanamex.com; h=mime-version :
+ message-id : date : from : to : subject : content-type; s=maila;
+ bh=KoDkx3mIpwrPdcPJhDKSia1gFiWRthbH3/LCSOCBERU=;
+ b=pQEsJPyzURPk+uuHl8DUJBY1NAur07OEHGPBlVGOL0mTUetH6cnOU+JBwM8PicdoIZUh
+ dSUP9VcNuCNhlnpWzxXLXvLwkhO8zptjdgjax9aj1lJ4abmKq9uR983P2tiq3gTUhuCw
+ n2mF6+xybV3zJV2ympoTo2Mf51/GcYjctqUJbzrvW7S04n59Pmxdj9vIe0rqwIfw4Lfw
+ 9RIJ7FRITwxVol0xEwygfYJZFyM++IDiKRUQCohL0E9XCHC9yU8ZWp+kyxBg0hpH0+vz
+ YmhFhktQQGx7q71TUx00mtgs7G31fYYIaYy/mBsB37M2eTSr0SUxeiVH+NlRV29N39jQ uw== 
+Received: from edeliveryoutbound.citi.com (edeliveryoutbound.citi.com [192.193.158.87])
+	by mx0a-00123c010.pphosted.com with ESMTP id 2sc9vba3je-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <raymundo@vpconsultores.com.mx>; Thu, 09 May 2019 21:35:44 +0000
+Received: from imbhubedel-sw06.nam.nsroot.net (imbhubedel-sw06.nam.nsroot.net [169.185.198.60])
+	by edeliveryoutbound.citi.com (Sentrion-MTA-4.4.0/Sentrion-MTA-4.4.0) with ESMTPS id x49LZgC6159619
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=OK)
+	for <raymundo@vpconsultores.com.mx>; Thu, 9 May 2019 21:35:42 GMT
+Received: from edelivery (mwedl-appla07c.nam.nsroot.net [159.17.247.146])
+	by imbhubedel-sw06.nam.nsroot.net (Sentrion-MTA-4.4.0/Sentrion-MTA-4.4.0) with ESMTP id x49LZgnD192925
+	for <raymundo@vpconsultores.com.mx>; Thu, 9 May 2019 21:35:42 GMT
+MIME-Version: 1.0
+Message-ID: 
+ <Edel.3d9939.b12794e401074d15.16a9e85f55d@mwedl-appla07c.nam.nsroot.net>
+Date: Thu, 9 May 2019 17:35:40 -0400
+X-Mailer: Edel [version 1.00]
+From: Notificaciones <notificaciones@citibanamex.com>
+To: raymundo@vpconsultores.com.mx
+Subject: Ahora puedes recibir notificaciones de tus tarjetas adicionales.
+Content-Type: text/html; charset=UTF-8
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:,, definitions=2019-05-09_02:,,
+ signatures=0
+X-Spam-Status: No, score=-6.5
+X-Spam-Score: -64
+X-Spam-Bar: ------
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  ¡Hola, Horlet Raymundo! A partir de ahora podrás recibir
+    notificaciones de los movimientos de tus tarjetas adicionales. Actívalas
+    en BancaNet en la opción de Notificaciones e ingresa con tu Netkey (1) 
+ 
+ Content analysis details:   (-6.5 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: citibanamex.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: citibanamex.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_IMAGE_ONLY_32     BODY: HTML: images with 2800-3200 bytes of
+                             words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<table bgcolor="#fafafa" cellspacing="0" cellpadding="0" border="0" width="650" height="558">
+<tr>
+<td><img src="http://www.citibanamex.com/citialert/bankicon/notificaciones/adicionales/banner.jpg" width="650" heigth="250"></td>
+</tr>
+<tr height="10">
+<td></td>
+</tr>
+<tr>
+<td>
+<table bgcolor="#fafafa" cellspacing="0" cellpadding="0" border="0" width="650">
+<tr height="20">
+<td></td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" border="0">
+<td style="font:ArialMT; font-family:Arial; font-size:18px; line-height:1.13; text-align:center; color:#4d4d4d;" width="650"><b>
+													&iexcl;Hola, 
+													Horlet Raymundo!
+													</b></td>
+<tr>
+<td style="font:ArialMT; font-family:Arial; font-size:14px; line-height:1.13; text-align:center; color:#4d4d4d;" width="650">
+<br>
+													A partir de ahora podr&aacute;s recibir notificaciones de los movimientos<br> de tus tarjetas adicionales.<br>
+<br>Act&iacute;valas en BancaNet en la opci&oacute;n de Notificaciones<br>e ingresa con tu Netkey <sup>(1)</sup>
+<br>
+<br>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<td></td>
+<tr height="24">
+<td style="font:ArialMT; font-family:Arial; font-size:14px; line-height:1.71; text-align:center; color:#4d4d4d;"><a href="https://bancanet.banamex.com/MXGCB/JPS/portal/LocaleSwitch.do?locale=es_MX" title="Ir a BancaNet"><img alt="Bancanet Personal" src="http://www.citibanamex.com/citialert/bankicon/notificaciones/adicionales/boton.png" width="175" heigth="39"></a></td>
+</tr>
+<td>
+<tr height="10">
+<td></td>
+</tr>
+</td><td>
+<tr height="24">
+<td style="font:ArialMT; font-family:Arial; font-size:14px; line-height:1.71; text-align:center; color:#4d4d4d;" width="377">
+													O en cualquier sucursal con una identificaci&oacute;n oficial vigente
+													<br>
+<br>Lleva todo el control de tus tarjetas con Citibanamex M&oacute;vil.<br>
+<br>
+</td>
+</tr>
+<tr height="12"></tr>
+</td>
+<tr height="20">
+<td style="font:ArialMT;font-family:Arial;text-align:center;font-size:18px;color:#8d8d8d;">
+<hr color="#e1e1e1" width="100%" size=".75" noshade align="center">
+<b>El Banco Nacional de M&eacute;xico</b><sup>&reg;</sup>
+<hr color="#e1e1e1" width="100%" size=".75" noshade align="center">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr bgcolor="#fafafa" height="15">
+<td colspan="1"></td>
+</tr>
+<tr>
+<td style="text-align:center;font-size:16px;" colspan="3"><img src="http://www.citibanamex.com/citialert/bankicon/notificaciones/adicionales/redes.png" height="40" width="253"></td>
+</tr>
+<tr bgcolor="#fafafa">
+<td colspan="3">
+<table cellspacing="0" cellpadding="0" border="0">
+<tr height="15"></tr>
+<tr height="80">
+<td width="47"></td><td style="font:ArialMT; font-family:Arial; font-size:14px; line-height:1.14; text-align:center; color:#4d4d4d;" width="557"><img src="http://www.citibanamex.com/citialert/bankicon/notificaciones/adicionales/legales.png"></td><td width="46"></td>
+</tr>
+<tr height="16"></tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

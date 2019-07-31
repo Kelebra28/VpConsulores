@@ -1,0 +1,435 @@
+Return-Path: <ccantu@credijusto.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id kADGCKvU2VyVQxMAFq4nlA
+	(envelope-from <ccantu@credijusto.com>)
+	for <raymundo@vpconsultores.com.mx>; Mon, 13 May 2019 13:33:47 -0700
+Return-path: <ccantu@credijusto.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Mon, 13 May 2019 13:33:47 -0700
+Received: from mail-lf1-f67.google.com ([209.85.167.67]:45407)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <ccantu@credijusto.com>)
+	id 1hQHdl-005Lm5-O1
+	for raymundo@vpconsultores.com.mx; Mon, 13 May 2019 13:33:47 -0700
+Received: by mail-lf1-f67.google.com with SMTP id n22so10035061lfe.12
+        for <raymundo@vpconsultores.com.mx>; Mon, 13 May 2019 13:33:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=credijusto-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=riQtIX5bIJPYqVxHBVyIe1o2JvS7OgDB+Z6ENoOyTZA=;
+        b=jhb6iZmibZeBIpeZzHh9B9G5xSeGK7qozPqzD7IWou+8YEJYLK2B4K4OyQLJFk1+Ng
+         jHlxEP8GDK0ZT9+6b8s1K/XXiQX1qCcAVmr4H1Ybs0JtvRVuJP7zLIcQZf6qT06ty9Hy
+         9nFg+ltvI+Tc4juyoZ9xy2asMhMgCAOFGkXxGm2qrYyyZdxziq7rt1ntlQhadXArxf/a
+         7W8ia6aFbUlk/K/sdrLAkH++jXTdz5KJqBbqnuNqCGSp8WriUbaVH6sFFr2YI9BZEW9A
+         YTWw0IgpxQHoWdHxcrb79Ma7lcs2t5v00fwMTqWnEBc0WY+PUC+Ve1qO4bH0FviKHDBq
+         E24g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=riQtIX5bIJPYqVxHBVyIe1o2JvS7OgDB+Z6ENoOyTZA=;
+        b=ee9CeyiAR/ssAkDy3Sj/weEogSIHQlj7F1BS0Y5Ty2cs103RM0hMSBfHN3jRpeYKQa
+         SI6fEIPC+m4FeiHK+VIQPLxLeS8JVVyCZT+7ufPjfTTpDc78/PePN/nD+94L70SWRddj
+         9PqwxEe3lmRuGiBWf2NoCmV1GGRBMW6xb8ugpw6L/fe8KqzIScWQUcEmPkkKwzUAVwlT
+         wP8sYmQvmRRLzgWZwf6u0d47jpHEs1WpC8qNNrkYh9+hj121MUgDJ2IgNnawYbmBtjAM
+         kp/7nN6FKY5/S28jGCc1VABZPOI98hir5vfGM9ryxLLr8saJHOLwcQO1X8E7L12zMSCk
+         KtEg==
+X-Gm-Message-State: APjAAAX3MmZm7jvdk+vrXBcUbvOOuxCmk7McASqs8Yii5a4u6XcLRM8+
+	865pRFCoasNMk4FI8VaK3lMtYJ1kCNxdJODQ4WXIhysJs8pwAbFk2Rd2t0FAPDMthDKTc8pC6VX
+	oB1vW2Kj2ZCuU3KdnrxFsurYecavuz+/6YxEIWRldK/Sy1g==
+X-Google-Smtp-Source: APXvYqyoGLWdOB4rEYbDvLw7pH7gmwQq2B4aEigxFP+GkoUHe7vlqWsOkd3MNOfJJePQkklSQEKJvd6ak8RoHt5icuw=
+X-Received: by 2002:ac2:5222:: with SMTP id i2mr7896998lfl.80.1557779578442;
+ Mon, 13 May 2019 13:32:58 -0700 (PDT)
+MIME-Version: 1.0
+From: =?UTF-8?Q?Carlos_Alberto_Cant=C3=BA_Canobbio?= <ccantu@credijusto.com>
+Date: Mon, 13 May 2019 15:32:47 -0500
+Message-ID: <CABYy5grFfrb1fMoQKH5rbUnGYkU5si1nMXBgyf-uKm6XeNGwLw@mail.gmail.com>
+Subject: Nos interesa aliarnos contigo
+To: raymundo@vpconsultores.com.mx
+Content-Type: multipart/alternative; boundary="0000000000006967050588cad251"
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  [image: Credijusto] *"Alianza Estratégica de Contadores con
+    Credijusto"* Hola, en nombre del equipo de Desarrollo de Negocio de Credijusto,
+    quiero hacerte una invitación a formar parte del nuevo programa destinado
+    a* contadores y despachos contables estratégicos* con C < [...] 
+ 
+ Content analysis details:   (-0.1 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: bit.ly]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: bit.ly]
+ -0.2 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.167.67 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 T_KAM_HTML_FONT_INVALID BODY: Test for Invalidly Named or
+                             Formatted Colors in HTML
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--0000000000006967050588cad251
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+[image: Credijusto]
+
+
+
+
+*"Alianza Estrat=C3=A9gica de Contadores con Credijusto"*
+
+Hola, en nombre del equipo de Desarrollo de Negocio de Credijusto, quiero
+hacerte una invitaci=C3=B3n a formar parte del nuevo programa destinado a*
+contadores
+y despachos contables estrat=C3=A9gicos* con C <http://credijusto.com/>
+redijusto.com <http://credijusto.com/>, la Fintech con mayor crecimiento en
+Latinoam=C3=A9rica.
+
+Nos gustar=C3=ADa saber si est=C3=A1s interesado en conocer m=C3=A1s sobre =
+este programa
+colaborativo y nuestro esquema de *atractivas comisiones e incentivos*. Me
+encantar=C3=ADa platicar de c=C3=B3mo podemos crecer juntos.
+
+Me puedes contactar dando click en el bot=C3=B3n de whatsapp
+<http://bit.ly/ContadoresCredijusto> o registrandote en el bot=C3=B3n "tus =
+datos
+aqu=C3=AD" <http://bit.ly/datoscontador>. y yo te contactar=C3=A9 cuando me=
+ lo
+indiques.
+
+<http://bit.ly/ContadoresCredijusto>
+
+Tus datos aqu=C3=AD <http://bit.ly/datoscontador>
+
+
+--=20
+
+
+   [image: credijusto-com-200.png] <https://www.credijusto.com/>
+
+*Carlos Cant=C3=BA*
+
+ Business Development Associate
+
+     Cel: +52 1 (55) 4636 7649
+
+ Tel: +52 (55) 1168 9757
+
+Ext: 227
+
+--=20
+***Por favor referirse a nuestra=C2=A0p=C3=A1gina web=20
+<https://www.credijusto.com/aviso-de-privacidad/>=C2=A0para m=C3=A1s inform=
+aci=C3=B3n=20
+acerca de nuestras pol=C3=ADticas de privacidad.*
+*
+*
+
+
+--0000000000006967050588cad251
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br class=3D"gmail-Apple-interchange-newline"><table borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"gmail-m=
+_-108306533807998162m_-5742325015345186066gmail-m_-8269100335119151362gmail=
+-m_7644957182147519739gmail-m_6731797230917491463gmail-m_-88495682805429090=
+5gmail-m_-6019906805478371544gmail-templateContainer" style=3D"border-colla=
+pse:collapse;border-spacing:0px;width:590px;color:rgb(0,0,0);font-family:&q=
+uot;Times New Roman&quot;;font-size:medium;background-color:rgb(249,250,252=
+);max-width:590px"><tbody><tr style=3D"border-collapse:collapse"><td align=
+=3D"center" valign=3D"top" style=3D"border-collapse:collapse"><div><table c=
+lass=3D"gmail-m_-108306533807998162m_-5742325015345186066gmail-m_-826910033=
+5119151362gmail-m_7644957182147519739gmail-m_6731797230917491463gmail-m_-88=
+4956828054290905gmail-m_-6019906805478371544gmail-rnb-del-min-width" width=
+=3D"100%" cellpadding=3D"0" border=3D"0" cellspacing=3D"0" name=3D"Layout_1=
+" id=3D"gmail-m_-108306533807998162m_-5742325015345186066gmail-m_-826910033=
+5119151362gmail-m_7644957182147519739gmail-m_6731797230917491463gmail-m_-88=
+4956828054290905gmail-m_-6019906805478371544gmail-Layout_1" style=3D"border=
+-collapse:collapse;border-spacing:0px;min-width:590px"><tbody><tr style=3D"=
+border-collapse:collapse"><td class=3D"gmail-m_-108306533807998162m_-574232=
+5015345186066gmail-m_-8269100335119151362gmail-m_7644957182147519739gmail-m=
+_6731797230917491463gmail-m_-884956828054290905gmail-m_-6019906805478371544=
+gmail-rnb-del-min-width" align=3D"center" valign=3D"top" style=3D"border-co=
+llapse:collapse;min-width:590px"><table width=3D"100%" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" class=3D"gmail-m_-108306533807998162m_-5742325=
+015345186066gmail-m_-8269100335119151362gmail-m_7644957182147519739gmail-m_=
+6731797230917491463gmail-m_-884956828054290905gmail-m_-6019906805478371544g=
+mail-rnb-container" bgcolor=3D"#ffffff" style=3D"border-spacing:0px;backgro=
+und-color:rgb(255,255,255);border-radius:0px;padding-left:20px;padding-righ=
+t:20px"><tbody><tr style=3D"border-collapse:collapse"><td valign=3D"top" cl=
+ass=3D"gmail-m_-108306533807998162m_-5742325015345186066gmail-m_-8269100335=
+119151362gmail-m_7644957182147519739gmail-m_6731797230917491463gmail-m_-884=
+956828054290905gmail-m_-6019906805478371544gmail-rnb-container-padding" ali=
+gn=3D"left" style=3D"border-collapse:collapse"><table width=3D"100%" cellpa=
+dding=3D"0" border=3D"0" align=3D"center" cellspacing=3D"0" style=3D"border=
+-collapse:collapse;border-spacing:0px"><tbody><tr style=3D"border-collapse:=
+collapse"><td valign=3D"top" align=3D"center" style=3D"border-collapse:coll=
+apse"><table cellpadding=3D"0" border=3D"0" align=3D"center" cellspacing=3D=
+"0" class=3D"gmail-m_-108306533807998162m_-5742325015345186066gmail-m_-8269=
+100335119151362gmail-m_7644957182147519739gmail-m_6731797230917491463gmail-=
+m_-884956828054290905gmail-m_-6019906805478371544gmail-logo-img-center" sty=
+le=3D"border-collapse:collapse;border-spacing:0px"><tbody><tr style=3D"bord=
+er-collapse:collapse"><td valign=3D"middle" align=3D"center" style=3D"borde=
+r-collapse:collapse;line-height:0px"><div cellspacing=3D"0" cellpadding=3D"=
+0" border=3D"0" style=3D"border-width:0px;border-style:none;border-color:rg=
+b(0,0,0);display:inline-block"><div><img width=3D"550" vspace=3D"0" hspace=
+=3D"0" border=3D"0" alt=3D"Credijusto" class=3D"gmail-m_-108306533807998162=
+m_-5742325015345186066gmail-m_-8269100335119151362gmail-m_76449571821475197=
+39gmail-m_6731797230917491463gmail-m_-884956828054290905gmail-m_-6019906805=
+478371544gmail-rnb-logo-img gmail-m_-108306533807998162m_-57423250153451860=
+66gmail-m_-8269100335119151362gmail-m_7644957182147519739gmail-m_6731797230=
+917491463gmail-m_-884956828054290905gmail-CToWUd gmail-m_-10830653380799816=
+2m_-5742325015345186066gmail-m_-8269100335119151362gmail-m_7644957182147519=
+739gmail-m_6731797230917491463gmail-m_-884956828054290905gmail-a6T gmail-m_=
+-108306533807998162m_-5742325015345186066gmail-m_-8269100335119151362gmail-=
+m_7644957182147519739gmail-m_6731797230917491463gmail-CToWUd gmail-m_-10830=
+6533807998162m_-5742325015345186066gmail-m_-8269100335119151362gmail-m_7644=
+957182147519739gmail-m_6731797230917491463gmail-a6T gmail-m_-10830653380799=
+8162m_-5742325015345186066gmail-m_-8269100335119151362gmail-m_7644957182147=
+519739gmail-CToWUd gmail-m_-108306533807998162m_-5742325015345186066gmail-m=
+_-8269100335119151362gmail-m_7644957182147519739gmail-a6T gmail-m_-10830653=
+3807998162m_-5742325015345186066gmail-m_-8269100335119151362gmail-CToWUd gm=
+ail-m_-108306533807998162m_-5742325015345186066gmail-m_-8269100335119151362=
+gmail-a6T gmail-m_-108306533807998162m_-5742325015345186066gmail-CToWUd gma=
+il-m_-108306533807998162m_-5742325015345186066gmail-a6T gmail-CToWUd gmail-=
+a6T" src=3D"http://img.mailinblue.com/2317101/images/rnb/original/5cd356c20=
+45b8b30a13e692f.png" tabindex=3D"0" style=3D"cursor: pointer; outline: 0px;=
+ float: left; max-width: 550px; display: block;"></div></div></td></tr></tb=
+ody></table></td></tr></tbody></table></td></tr><tr style=3D"border-collaps=
+e:collapse"><td height=3D"20" style=3D"border-collapse:collapse;font-size:1=
+px;line-height:0px">=C2=A0</td></tr></tbody></table></td></tr></tbody></tab=
+le></div></td></tr><tr style=3D"border-collapse:collapse"><td align=3D"cent=
+er" valign=3D"top" style=3D"border-collapse:collapse"><div><table class=3D"=
+gmail-m_-108306533807998162m_-5742325015345186066gmail-m_-82691003351191513=
+62gmail-m_7644957182147519739gmail-m_6731797230917491463gmail-m_-8849568280=
+54290905gmail-m_-6019906805478371544gmail-rnb-del-min-width" width=3D"100%"=
+ cellpadding=3D"0" border=3D"0" cellspacing=3D"0" name=3D"Layout_5" style=
+=3D"border-collapse:collapse;border-spacing:0px;min-width:0px"><tbody><tr s=
+tyle=3D"border-collapse:collapse"><td class=3D"gmail-m_-108306533807998162m=
+_-5742325015345186066gmail-m_-8269100335119151362gmail-m_764495718214751973=
+9gmail-m_6731797230917491463gmail-m_-884956828054290905gmail-m_-60199068054=
+78371544gmail-rnb-del-min-width" align=3D"center" valign=3D"top" style=3D"b=
+order-collapse:collapse;min-width:0px"><table width=3D"100%" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" class=3D"gmail-m_-108306533807998162m_-5=
+742325015345186066gmail-m_-8269100335119151362gmail-m_7644957182147519739gm=
+ail-m_6731797230917491463gmail-m_-884956828054290905gmail-m_-60199068054783=
+71544gmail-rnb-container" bgcolor=3D"#ffffff" style=3D"border-spacing:0px;b=
+ackground-color:rgb(255,255,255);padding-left:20px;padding-right:20px;borde=
+r-radius:0px;border-bottom:0px none rgb(200,200,200)"><tbody><tr style=3D"b=
+order-collapse:collapse"><td height=3D"20" style=3D"border-collapse:collaps=
+e;font-size:1px;line-height:0px">=C2=A0</td></tr><tr style=3D"border-collap=
+se:collapse"><td valign=3D"top" class=3D"gmail-m_-108306533807998162m_-5742=
+325015345186066gmail-m_-8269100335119151362gmail-m_7644957182147519739gmail=
+-m_6731797230917491463gmail-m_-884956828054290905gmail-m_-60199068054783715=
+44gmail-rnb-container-padding" align=3D"left" style=3D"border-collapse:coll=
+apse"><table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"gmail-m_-108306533807998162m_-5742325015345186066gmail-m_-826910=
+0335119151362gmail-m_7644957182147519739gmail-m_6731797230917491463gmail-m_=
+-884956828054290905gmail-m_-6019906805478371544gmail-rnb-columns-container"=
+ style=3D"border-collapse:collapse;border-spacing:0px"><tbody><tr style=3D"=
+border-collapse:collapse"><td class=3D"gmail-m_-108306533807998162m_-574232=
+5015345186066gmail-m_-8269100335119151362gmail-m_7644957182147519739gmail-m=
+_6731797230917491463gmail-m_-884956828054290905gmail-m_-6019906805478371544=
+gmail-rnb-force-col" valign=3D"top" style=3D"border-collapse:collapse;paddi=
+ng-right:0px"><table border=3D"0" valign=3D"top" cellspacing=3D"0" cellpadd=
+ing=3D"0" width=3D"100%" align=3D"left" class=3D"gmail-m_-10830653380799816=
+2m_-5742325015345186066gmail-m_-8269100335119151362gmail-m_7644957182147519=
+739gmail-m_6731797230917491463gmail-m_-884956828054290905gmail-m_-601990680=
+5478371544gmail-rnb-col-1" style=3D"border-collapse:collapse;border-spacing=
+:0px"><tbody><tr style=3D"border-collapse:collapse"><td style=3D"font-famil=
+y:Arial,Helvetica,sans-serif,sans-serif;border-collapse:collapse;font-size:=
+14px;color:rgb(60,72,88);line-height:21px"><div style=3D"text-align:center"=
+><br><span style=3D"font-size:18px"><strong>&quot;Alianza Estrat=C3=A9gica =
+de Contadores con Credijusto&quot;</strong></span></div><div><br>Hola, en n=
+ombre del equipo de Desarrollo de Negocio de Credijusto, quiero hacerte una=
+ invitaci=C3=B3n a formar parte del nuevo programa destinado a<strong>=C2=
+=A0contadores y despachos contables estrat=C3=A9gicos</strong>=C2=A0con=C2=
+=A0<a href=3D"http://credijusto.com/" target=3D"_blank" style=3D"color:rgb(=
+52,153,219)">C</a><a href=3D"http://credijusto.com/" target=3D"_blank" styl=
+e=3D"color:rgb(52,153,219)">redijusto.com</a><span style=3D"background-colo=
+r:transparent">, la Fintech con mayor crecimiento en Latinoam=C3=A9rica.</s=
+pan></div><div><br>Nos gustar=C3=ADa saber si est=C3=A1s interesado en cono=
+cer m=C3=A1s sobre este programa colaborativo y nuestro esquema de=C2=A0<st=
+rong>atractivas comisiones e incentivos</strong>. Me encantar=C3=ADa platic=
+ar de c=C3=B3mo podemos crecer juntos.<br><br>Me puedes contactar dando cli=
+ck en el bot=C3=B3n de<a href=3D"http://bit.ly/ContadoresCredijusto" target=
+=3D"_blank" style=3D"color:rgb(52,153,219)">=C2=A0whatsapp</a>=C2=A0o regis=
+trandote en el bot=C3=B3n=C2=A0<a href=3D"http://bit.ly/datoscontador" targ=
+et=3D"_blank" style=3D"color:rgb(52,153,219)">&quot;tus datos aqu=C3=AD&quo=
+t;</a>. y yo te contactar=C3=A9 cuando me lo indiques.</div></td></tr></tbo=
+dy></table></td></tr></tbody></table></td></tr><tr style=3D"border-collapse=
+:collapse"><td height=3D"20" style=3D"border-collapse:collapse;font-size:1p=
+x;line-height:0px">=C2=A0</td></tr></tbody></table></td></tr></tbody></tabl=
+e></div></td></tr><tr style=3D"border-collapse:collapse"><td align=3D"cente=
+r" valign=3D"top" style=3D"border-collapse:collapse"><div><table class=3D"g=
+mail-m_-108306533807998162m_-5742325015345186066gmail-m_-826910033511915136=
+2gmail-m_7644957182147519739gmail-m_6731797230917491463gmail-m_-88495682805=
+4290905gmail-m_-6019906805478371544gmail-rnb-del-min-width" width=3D"100%" =
+cellpadding=3D"0" border=3D"0" cellspacing=3D"0" name=3D"Layout_12" id=3D"g=
+mail-m_-108306533807998162m_-5742325015345186066gmail-m_-826910033511915136=
+2gmail-m_7644957182147519739gmail-m_6731797230917491463gmail-m_-88495682805=
+4290905gmail-m_-6019906805478371544gmail-Layout_12" style=3D"border-collaps=
+e:collapse;border-spacing:0px;min-width:0px;line-height:10px"><tbody><tr st=
+yle=3D"border-collapse:collapse"><td class=3D"gmail-m_-108306533807998162m_=
+-5742325015345186066gmail-m_-8269100335119151362gmail-m_7644957182147519739=
+gmail-m_6731797230917491463gmail-m_-884956828054290905gmail-m_-601990680547=
+8371544gmail-rnb-del-min-width" valign=3D"top" align=3D"center" style=3D"bo=
+rder-collapse:collapse;min-width:590px"><table width=3D"100%" class=3D"gmai=
+l-m_-108306533807998162m_-5742325015345186066gmail-m_-8269100335119151362gm=
+ail-m_7644957182147519739gmail-m_6731797230917491463gmail-m_-88495682805429=
+0905gmail-m_-6019906805478371544gmail-rnb-container" cellpadding=3D"0" bord=
+er=3D"0" bgcolor=3D"#ffffff" align=3D"center" cellspacing=3D"0" style=3D"bo=
+rder-collapse:collapse;border-spacing:0px;background-color:rgb(255,255,255)=
+"><tbody><tr style=3D"border-collapse:collapse"><td valign=3D"top" align=3D=
+"center" style=3D"border-collapse:collapse"><table cellspacing=3D"0" cellpa=
+dding=3D"0" border=3D"0" style=3D"border-collapse:collapse;border-spacing:0=
+px"><tbody><tr style=3D"border-collapse:collapse"><td style=3D"border-colla=
+pse:collapse"><div style=3D"border-width:0px;border-style:none;border-color=
+:rgb(156,156,156);border-collapse:separate;border-radius:0px;max-width:82px=
+"><div><a href=3D"http://bit.ly/ContadoresCredijusto" target=3D"_blank" sty=
+le=3D"text-decoration-line:none"><img border=3D"0" hspace=3D"0" vspace=3D"0=
+" width=3D"82" class=3D"gmail-m_-108306533807998162m_-5742325015345186066gm=
+ail-m_-8269100335119151362gmail-m_7644957182147519739gmail-m_67317972309174=
+91463gmail-m_-884956828054290905gmail-m_-6019906805478371544gmail-rnb-heade=
+r-img gmail-m_-108306533807998162m_-5742325015345186066gmail-m_-82691003351=
+19151362gmail-m_7644957182147519739gmail-m_6731797230917491463gmail-m_-8849=
+56828054290905gmail-CToWUd gmail-m_-108306533807998162m_-574232501534518606=
+6gmail-m_-8269100335119151362gmail-m_7644957182147519739gmail-m_67317972309=
+17491463gmail-CToWUd gmail-m_-108306533807998162m_-5742325015345186066gmail=
+-m_-8269100335119151362gmail-m_7644957182147519739gmail-CToWUd gmail-m_-108=
+306533807998162m_-5742325015345186066gmail-m_-8269100335119151362gmail-CToW=
+Ud gmail-m_-108306533807998162m_-5742325015345186066gmail-CToWUd gmail-CToW=
+Ud" alt=3D"" src=3D"http://img.mailinblue.com/2317101/images/rnb/original/5=
+cd5b0eec5bae36d856ac627.png" style=3D"max-width: 590px; display: block; flo=
+at: left; border-radius: 0px;"></a></div><div style=3D"clear:both"></div></=
+div></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody><=
+/table></div></td></tr><tr style=3D"border-collapse:collapse"><td align=3D"=
+center" valign=3D"top" style=3D"border-collapse:collapse"><div><table class=
+=3D"gmail-m_-108306533807998162m_-5742325015345186066gmail-m_-8269100335119=
+151362gmail-m_7644957182147519739gmail-m_6731797230917491463gmail-m_-884956=
+828054290905gmail-m_-6019906805478371544gmail-rnb-del-min-width" width=3D"1=
+00%" cellpadding=3D"0" border=3D"0" cellspacing=3D"0" name=3D"Layout_6" id=
+=3D"gmail-m_-108306533807998162m_-5742325015345186066gmail-m_-8269100335119=
+151362gmail-m_7644957182147519739gmail-m_6731797230917491463gmail-m_-884956=
+828054290905gmail-m_-6019906805478371544gmail-Layout_6" style=3D"border-col=
+lapse:collapse;border-spacing:0px;min-width:590px"><tbody><tr style=3D"bord=
+er-collapse:collapse"><td class=3D"gmail-m_-108306533807998162m_-5742325015=
+345186066gmail-m_-8269100335119151362gmail-m_7644957182147519739gmail-m_673=
+1797230917491463gmail-m_-884956828054290905gmail-m_-6019906805478371544gmai=
+l-rnb-del-min-width" align=3D"center" valign=3D"top" style=3D"border-collap=
+se:collapse;min-width:590px"><table width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"gmail-m_-108306533807998162m_-57423250153=
+45186066gmail-m_-8269100335119151362gmail-m_7644957182147519739gmail-m_6731=
+797230917491463gmail-m_-884956828054290905gmail-m_-6019906805478371544gmail=
+-mso-button-block gmail-m_-108306533807998162m_-5742325015345186066gmail-m_=
+-8269100335119151362gmail-m_7644957182147519739gmail-m_6731797230917491463g=
+mail-m_-884956828054290905gmail-m_-6019906805478371544gmail-rnb-container" =
+style=3D"border-spacing:0px;background-color:rgb(255,255,255);border-radius=
+:0px;padding-left:20px;padding-right:20px"><tbody><tr style=3D"border-colla=
+pse:collapse"><td height=3D"20" style=3D"border-collapse:collapse;font-size=
+:1px;line-height:0px">=C2=A0</td></tr><tr style=3D"border-collapse:collapse=
+"><td valign=3D"top" class=3D"gmail-m_-108306533807998162m_-574232501534518=
+6066gmail-m_-8269100335119151362gmail-m_7644957182147519739gmail-m_67317972=
+30917491463gmail-m_-884956828054290905gmail-m_-6019906805478371544gmail-rnb=
+-container-padding" align=3D"left" style=3D"border-collapse:collapse"><tabl=
+e width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+gmail-m_-108306533807998162m_-5742325015345186066gmail-m_-82691003351191513=
+62gmail-m_7644957182147519739gmail-m_6731797230917491463gmail-m_-8849568280=
+54290905gmail-m_-6019906805478371544gmail-rnb-columns-container" style=3D"b=
+order-collapse:collapse;border-spacing:0px"><tbody><tr style=3D"border-coll=
+apse:collapse"><td class=3D"gmail-m_-108306533807998162m_-57423250153451860=
+66gmail-m_-8269100335119151362gmail-m_7644957182147519739gmail-m_6731797230=
+917491463gmail-m_-884956828054290905gmail-m_-6019906805478371544gmail-rnb-f=
+orce-col" valign=3D"top" style=3D"border-collapse:collapse"><table border=
+=3D"0" valign=3D"top" cellspacing=3D"0" cellpadding=3D"0" width=3D"550" ali=
+gn=3D"center" class=3D"gmail-m_-108306533807998162m_-5742325015345186066gma=
+il-m_-8269100335119151362gmail-m_7644957182147519739gmail-m_673179723091749=
+1463gmail-m_-884956828054290905gmail-m_-6019906805478371544gmail-rnb-col-1"=
+ style=3D"border-collapse:collapse;border-spacing:0px"><tbody><tr style=3D"=
+border-collapse:collapse"><td valign=3D"top" style=3D"border-collapse:colla=
+pse"><table cellpadding=3D"0" border=3D"0" align=3D"center" cellspacing=3D"=
+0" class=3D"gmail-m_-108306533807998162m_-5742325015345186066gmail-m_-82691=
+00335119151362gmail-m_7644957182147519739gmail-m_6731797230917491463gmail-m=
+_-884956828054290905gmail-m_-6019906805478371544gmail-rnb-btn-col-content" =
+style=3D"border-spacing:0px;margin:auto"><tbody><tr style=3D"border-collaps=
+e:collapse"><td width=3D"auto" valign=3D"middle" bgcolor=3D"#04b669" align=
+=3D"center" height=3D"44" style=3D"font-family:Arial,Helvetica,sans-serif;b=
+order-collapse:collapse;font-size:18px;color:rgb(255,255,255);padding-left:=
+20px;padding-right:20px;vertical-align:middle;background-color:rgb(4,182,10=
+5);border-radius:15px;border-width:0px;border-style:none;border-color:rgb(0=
+,0,0)"><a href=3D"http://bit.ly/datoscontador" target=3D"_blank" style=3D"c=
+olor:rgb(255,255,255);text-decoration-line:none">Tus datos aqu=C3=AD</a></t=
+d></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>=
+</td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody=
+></table><br class=3D"gmail-Apple-interchange-newline"><div><br></div>-- <b=
+r><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gmail_signat=
+ure"><div dir=3D"ltr"><div><div dir=3D"ltr"><span><br><div dir=3D"ltr" styl=
+e=3D"margin-left:0pt"><table style=3D"border:none;border-collapse:collapse"=
+><colgroup><col width=3D"221"></colgroup><tbody><tr style=3D"height:0pt"><t=
+d style=3D"border-width:1pt;border-style:solid;border-color:rgb(255,255,255=
+);vertical-align:top;padding:5pt"><br><p dir=3D"ltr" style=3D"line-height:1=
+.2;margin-top:0pt;margin-bottom:0pt;text-align:right"><span style=3D"font-s=
+ize:10pt;font-family:Arial;color:rgb(127,127,127);font-weight:700;vertical-=
+align:baseline;white-space:pre-wrap"> =C2=A0=C2=A0=C2=A0</span><a href=3D"h=
+ttps://www.credijusto.com/" target=3D"_blank"><span style=3D"font-size:10pt=
+;font-family:&quot;Times New Roman&quot;;color:rgb(17,85,204);background-co=
+lor:transparent;vertical-align:baseline;white-space:pre-wrap"><img alt=3D"c=
+redijusto-com-200.png" src=3D"https://lh5.googleusercontent.com/WUg5mqLUNRt=
+f8qUNisHeYf_8TXqh_XnQIYb2BB-H-PwsRt3woy-vJeOzlDSjDccujqW-jeQc5vvcyK0IauHr6C=
+MhuOgXtOfox3bcjkCfUmpHBCXpWVnx-9kvrYxf8fI4rNxo4wYM" width=3D"200" height=3D=
+"41" style=3D"border:none"></span></a></p><p dir=3D"ltr" style=3D"line-heig=
+ht:1.2;margin-top:0pt;margin-bottom:0pt;text-align:right"><font color=3D"#7=
+f7f7f" face=3D"Arial"><span style=3D"font-size:16px;white-space:pre-wrap"><=
+b>Carlos Cant=C3=BA</b></span></font></p><p dir=3D"ltr" style=3D"line-heigh=
+t:2.4;margin-top:0pt;margin-bottom:0pt;text-align:right"><span style=3D"fon=
+t-size:10pt;font-family:Arial;color:rgb(127,127,127);vertical-align:baselin=
+e;white-space:pre-wrap"> =C2=A0Business Development Associate</span></p><p =
+dir=3D"ltr" style=3D"line-height:1.2;margin-top:0pt;margin-bottom:0pt;text-=
+align:right"><span style=3D"font-size:9pt;font-family:Arial;color:rgb(127,1=
+27,127);vertical-align:baseline;white-space:pre-wrap"> =C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0</span><span style=3D"font-size:10pt;font-family:Arial;color:rg=
+b(127,127,127);vertical-align:baseline;white-space:pre-wrap">Cel: +52 1 (55=
+) 4636 7649 </span></p><p dir=3D"ltr" style=3D"line-height:1.2;margin-top:0=
+pt;margin-bottom:0pt;text-align:right"><span style=3D"font-size:10pt;font-f=
+amily:Arial;color:rgb(127,127,127);vertical-align:baseline;white-space:pre-=
+wrap"> =C2=A0Tel: +52 (55) 1168 9757</span></p><p dir=3D"ltr" style=3D"line=
+-height:1.2;margin-top:0pt;margin-bottom:0pt;text-align:right"><span style=
+=3D"font-size:10pt;font-family:Arial;color:rgb(127,127,127);vertical-align:=
+baseline;white-space:pre-wrap">Ext: 227</span></p><br></td></tr></tbody></t=
+able></div></span></div></div></div></div></div>
+
+<br>
+<div style=3D"font-family:Times;font-size:10px"><b style=3D"color:rgb(34,34=
+,34);font-family:Calibri,sans-serif;font-size:11pt"><span lang=3D"UZ-CYR" s=
+tyle=3D"font-size:9pt;font-family:Arial,sans-serif;color:rgb(127,127,127)">=
+**Por favor referirse a nuestra=C2=A0<a href=3D"https://www.credijusto.com/=
+aviso-de-privacidad/" target=3D"_blank">p=C3=A1gina web</a>=C2=A0para m=C3=
+=A1s informaci=C3=B3n acerca de nuestras pol=C3=ADticas de privacidad.</spa=
+n></b></div><div style=3D"font-family:Times;font-size:10px"><div><b><span l=
+ang=3D"UZ-CYR" style=3D"font-size:9pt;font-family:Arial,sans-serif;color:rg=
+b(127,127,127)"><br></span></b></div></div>
+--0000000000006967050588cad251--

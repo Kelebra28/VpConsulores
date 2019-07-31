@@ -1,0 +1,425 @@
+Return-Path: <admonajusco@outlook.com>
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id cmXtHbcc+FyGsj8AFq4nlA
+	(envelope-from <admonajusco@outlook.com>); Wed, 05 Jun 2019 12:49:11 -0700
+Return-path: <admonajusco@outlook.com>
+Envelope-to: raymundo@vpconsultores.com.mx,
+ patricia@vpconsultores.com.mx
+Delivery-date: Wed, 05 Jun 2019 12:49:11 -0700
+Received: from mail-oln040092012098.outbound.protection.outlook.com ([40.92.12.98]:17040 helo=NAM05-BY2-obe.outbound.protection.outlook.com)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <admonajusco@outlook.com>)
+	id 1hYbuE-00HUfX-Gh; Wed, 05 Jun 2019 12:49:11 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=WN9nw1XWpieI1ilIZcociYaUKJ2Va0UG3Zik8veQVDg=;
+ b=gMaIYFdCIa7y7mnZQyvZx1bmE6A9JGKqBaT6asWIFyWtGUlvq+FOXM84yaCHQ73j+FxScc8QLwNfSKChT56fEToiShJKqaEJAAQZXSouvKeitSRZmDYnsSGv8fHOt5CxcCKBe0bZd8NK1Mk3M2GrPu8HKcm+jX7TT3UR229Ntc/E0ePfkULMcc5pZwPwXsv+xQ4ZaD+Lw6cwxmxOVl5muDjR3XWM37nwQ0vuwFGKipFhtgelvjrraxeUZDtE8bqd2PTmfUTW/ew8ZwfO/Px6PC9h2SmgjKAi2L77SKe/114Y7Zu5zc2GpeW9fCgyTarM6PFTF+2l2sHmGES0YIrTZg==
+Received: from DM3NAM05FT032.eop-nam05.prod.protection.outlook.com
+ (10.152.98.51) by DM3NAM05HT215.eop-nam05.prod.protection.outlook.com
+ (10.152.99.145) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1965.10; Wed, 5 Jun
+ 2019 19:48:01 +0000
+Received: from MN2PR14MB2605.namprd14.prod.outlook.com (10.152.98.59) by
+ DM3NAM05FT032.mail.protection.outlook.com (10.152.98.144) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.1965.10 via Frontend Transport; Wed, 5 Jun 2019 19:48:01 +0000
+Received: from MN2PR14MB2605.namprd14.prod.outlook.com
+ ([fe80::6d73:252e:fa70:785e]) by MN2PR14MB2605.namprd14.prod.outlook.com
+ ([fe80::6d73:252e:fa70:785e%7]) with mapi id 15.20.1943.018; Wed, 5 Jun 2019
+ 19:48:01 +0000
+From: Administradora Ajusco <admonajusco@outlook.com>
+To: "raymundo@vpconsultores.com.mx" <raymundo@vpconsultores.com.mx>,
+	=?iso-8859-1?Q?Patricia_P=E9rez?= <patricia@vpconsultores.com.mx>
+CC: "georginacisneros8@hotmail.com" <georginacisneros8@hotmail.com>
+Subject: =?iso-8859-1?Q?Te_invitamos_a_revisar_tu_situaci=F3n_fiscal.?=
+Thread-Topic: =?iso-8859-1?Q?Te_invitamos_a_revisar_tu_situaci=F3n_fiscal.?=
+Thread-Index: AQHVFjK7p63EchUZIUOfz3nqLYEptaaCRJAwgAs9Mr0=
+Date: Wed, 5 Jun 2019 19:48:01 +0000
+Message-ID: <MN2PR14MB2605C5BA8CCF2EE3E7FA5127B4160@MN2PR14MB2605.namprd14.prod.outlook.com>
+References: <20190529152520.3EA22B8CC3@mx2.sat.gob.mx>,<MN2PR14MB26059CAA138B358C6C1D4232B41F0@MN2PR14MB2605.namprd14.prod.outlook.com>
+In-Reply-To: <MN2PR14MB26059CAA138B358C6C1D4232B41F0@MN2PR14MB2605.namprd14.prod.outlook.com>
+Accept-Language: es-MX, en-US
+Content-Language: es-MX
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-incomingtopheadermarker: OriginalChecksum:37105A7E66919729B0A62CF3B3B56EE31963B516BBD1734AC89A3D8B3C2EE8AC;UpperCasedChecksum:51A314EC5092AC98B1097B18E2ED4D4ADDFD08487B629B1DA2FD89F96A784F91;SizeAsReceived:7165;Count:44
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [CKXEAyk5gq7zPdvbgNLgfiUlV+fnLN+8kjQ4DOo4i/brCucdvUrANlk3mt1OAPPP]
+x-ms-publictraffictype: Email
+x-incomingheadercount: 44
+x-eopattributedmessage: 0
+x-ms-exchange-slblob-mailprops: mBRmoEB1kyKjZfw9UUU+79RgKZzNFgAtjmyuFgoHEhTnoXiL5Cn6/mwsCbMdo9TPqN1MdtmlAyA7Dy5x9fxYFcFB9P/6PwsJdZHCD3QCUafvg95dPzV0xI9Vn5RlTY6WdQ6G+noRw0oiYFS/eubGvT1jPWRc7Hbv/N5OOLq55Nw2ysx0fMykQ4ZPb1hXPPxScQhnScTUXnNYs2Rs1E3dR+eZPRMvXN9QEBETCKOG+tuvpMem1KqZnA1ediInp5rkI4L566KR+ZiI37pHqFfvBtpMOXBPJgy2rcHNhKIWsOzGzww0889B/+xZZp8rBehC+DO77cGaFnMJsQAQUKKOMb67YmwVByifgU6CBpCMJ1E0UR55ygM14HTq+7zWjn69ocGUWI7/Ro6YG0q7qhDdvvEpFrPidT/V0dfPvO4NEYaz2KCCxSg2H8pPWm9a3ap2qamTq9zsyQdKFn6WFMTy2PjgFSjYv7WZF/3I6xUKeSUc7NDTFfmNanZKtmgafunHrUl80bBH2ZDrYu3I0qRMny476WLmHQhVwwDHMGWC9+7xJ3IkV8mmrzPsj1sTpBdgKTxjasw+EBMxuAaBteNTb/F49x5bskXzevkR27O7epwGZzPD8RChZzqthXdoCdaf1ZJgypxgCLY/q+QH9Cxv4jf4m94lDeh8i5cmzIqcjrhnO3c5TSCF6mHia0O1kdQ7iTdaBVRZjO8MtaUUdyNzppO8ls4V3oBO9EdrFqhTL1d+VyIcJAAmO/XkwFYq5hqJ9fQkEMp13Ig=
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(2390118)(5050001)(7020095)(20181119110)(201702061078)(5061506573)(5061507331)(1603103135)(2017031320274)(201702181274)(2017031322404)(2017031323274)(2017031324274)(1601125500)(1603101475)(1701031045);SRVR:DM3NAM05HT215;
+x-ms-traffictypediagnostic: DM3NAM05HT215:
+x-microsoft-antispam-message-info: Jyqaeyo9D+DpGEWrAaUX3ywSieZgOC4Jx1VgKXViUEfqx/Wxl5xWyU16vTbTa0JeRdxe7VgQHKpftM4WMrOe/Zu0YrUgqm7qTB78orRQ6/BAxLBhxgXRpnK8EjmYVTVmwNtr2MRA25Bq7fVYO1KgLcXgau1EIeGyVgrzTAVX+6qRhOdRT5Rx61Crj6UHrQfT
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR14MB2605C5BA8CCF2EE3E7FA5127B4160MN2PR14MB2605namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: a075f828-dde3-41dd-f7e2-08d6e9eeb7bf
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-originalarrivaltime: 05 Jun 2019 19:48:01.2904
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM3NAM05HT215
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Buenas tardes Contadora Paty / Contador Raymundo Viendo pendientes
+    con la la Sra. Day me pregunta si tenemos alguna respuesta a este correo.
+    Podrían apoyarme en saber el estatus del mismo 
+ 
+ Content analysis details:   (-0.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: sat.gob.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: sat.gob.mx]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider (admonajusco[at]outlook.com)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+X-Spam-Flag: NO
+
+--_000_MN2PR14MB2605C5BA8CCF2EE3E7FA5127B4160MN2PR14MB2605namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Buenas tardes Contadora Paty /  Contador Raymundo
+
+Viendo pendientes con la la Sra. Day me pregunta si tenemos alguna respuest=
+a a este correo.
+
+Podr=EDan apoyarme en saber el estatus del mismo
+
+Gracias
+
+Lucero Gonzalez
+
+________________________________
+De: Administradora Ajusco
+Enviado: mi=E9rcoles, 29 de mayo de 2019 11:07 a. m.
+Para: raymundo@vpconsultores.com.mx; Patricia P=E9rez
+Asunto: Te invitamos a revisar tu situaci=F3n fiscal.
+
+Buenos d=EDas Contador Raymundo / Contadora Paty
+
+Me llego este correo?
+
+En espera de sus comentarios.
+
+saludos
+
+
+Lucero
+
+________________________________
+De: Obligaciones Fiscales <obligaciones.fiscales@sat.gob.mx>
+Enviado: mi=E9rcoles, 29 de mayo de 2019 10:10 a. m.
+Para: admonajusco@outlook.com
+Asunto: Te invitamos a revisar tu situaci=F3n fiscal.
+
+[encabezado]
+
+
+
+Nombre, denominaci=F3n o raz=F3n social: ADMINISTRADORA AJUSCO SA
+RFC: AAJ710428PF9
+Folio: CE1905291310700006297
+Remitente: Servicio de Administraci=F3n Tributaria.
+
+Apreciable representante legal de ADMINISTRADORA AJUSCO SA
+
+Identificamos que tu representada en su autodeterminaci=F3n fiscal ha dismi=
+nuido los impuestos de los periodos que se se=F1alan a continuaci=F3n, por =
+lo que te invitamos a revisar su situaci=F3n fiscal y, en su caso, presenta=
+r las declaraciones complementarias y pagos que correspondan:
+
+PER=CDODO
+IMPUESTO
+
+Marzo , abril , mayo y junio, 2018
+
+Impuesto Sobre la Renta
+
+
+En MarcaSAT, elige la opci=F3n 9, seguida de la opci=F3n 2, de lunes a s=E1=
+bado de 8:00 a 21:00 horas.
+
+[pie]
+
+--_000_MN2PR14MB2605C5BA8CCF2EE3E7FA5127B4160MN2PR14MB2605namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Buenas tardes Contadora Paty /&nbsp; Contador Raymundo&nbsp;</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Viendo pendientes con la la Sra. Day me pregunta si tenemos alguna respuest=
+a a este correo.</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Podr=EDan apoyarme en saber el estatus del mismo&nbsp;</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Gracias&nbsp;</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Lucero Gonzalez&nbsp;&nbsp;</div>
+<div>
+<div id=3D"appendonsend"></div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" co=
+lor=3D"#000000" style=3D"font-size:11pt"><b>De:</b> Administradora Ajusco<b=
+r>
+<b>Enviado:</b> mi=E9rcoles, 29 de mayo de 2019 11:07 a. m.<br>
+<b>Para:</b> raymundo@vpconsultores.com.mx; Patricia P=E9rez<br>
+<b>Asunto:</b> Te invitamos a revisar tu situaci=F3n fiscal.</font>
+<div>&nbsp;</div>
+</div>
+<div dir=3D"ltr">
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Buenos d=EDas Contador Raymundo / Contadora Paty&nbsp;</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Me llego este correo?</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+En espera de sus comentarios.</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+saludos&nbsp;</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+Lucero&nbsp;</div>
+<div>
+<div style=3D"font-family:Calibri,Helvetica,sans-serif; font-size:12pt; col=
+or:rgb(0,0,0)">
+<br>
+</div>
+<div id=3D"x_appendonsend"></div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"x_divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" =
+color=3D"#000000" style=3D"font-size:11pt"><b>De:</b> Obligaciones Fiscales=
+ &lt;obligaciones.fiscales@sat.gob.mx&gt;<br>
+<b>Enviado:</b> mi=E9rcoles, 29 de mayo de 2019 10:10 a. m.<br>
+<b>Para:</b> admonajusco@outlook.com<br>
+<b>Asunto:</b> Te invitamos a revisar tu situaci=F3n fiscal.</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<table width=3D"800" border=3D"0">
+<tbody>
+<tr>
+<td colspan=3D"5" style=3D"width:7px"><img alt=3D"encabezado" title=3D"enca=
+bezado" style=3D"width:995px; height:175px" src=3D"http://omawww.sat.gob.mx=
+/PublishingImages/header_logos_shcp_sat2.jpg"></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td bgcolor=3D"#FFFFFF"><span style=3D"font-size:12px; font-family:Montserr=
+at"><strong>Nombre, denominaci=F3n o raz=F3n social:</strong></span><span s=
+tyle=3D"font-size:12px; font-family:Montserrat"> ADMINISTRADORA AJUSCO SA</=
+span></td>
+</tr>
+<tr>
+<td bgcolor=3D"#FFFFFF"><span style=3D"font-size:12px; font-family:Montserr=
+at"><strong>RFC:</strong></span>
+<span style=3D"font-size:12px; font-family:Montserrat">AAJ710428PF9</span><=
+/td>
+</tr>
+<tr>
+<td bgcolor=3D"#FFFFFF"><span style=3D"font-size:12px; font-family:Montserr=
+at"><strong>Folio:</strong></span>
+<span style=3D"font-size:12px; font-family:Montserrat">CE190529131070000629=
+7</span></td>
+</tr>
+<tr>
+<td bgcolor=3D"#FFFFFF"><span style=3D"font-size:12px; font-family:Montserr=
+at"><strong>Remitente:</strong></span>
+<span style=3D"font-size:12px; font-family:Montserrat">Servicio de Administ=
+raci=F3n Tributaria.</span></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"justify">
+<div align=3D"justify"><span style=3D"font-size:13px; font-family:Montserra=
+t">Apreciable representante legal de ADMINISTRADORA AJUSCO SA
+</span></div>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"justify">
+<div align=3D"justify"><span style=3D"font-size:13px; font-family:Montserra=
+t">Identificamos que tu representada en su autodeterminaci=F3n fiscal ha di=
+sminuido los impuestos de los periodos que se se=F1alan a continuaci=F3n, p=
+or lo que te invitamos a revisar su situaci=F3n
+ fiscal y, en su caso, presentar las declaraciones complementarias y pagos =
+que correspondan:</span></div>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<table align=3D"center" class=3D"x_MsoNormalTable" cellspacing=3D"0" cellpa=
+dding=3D"0" width=3D"680px" bgcolor=3D"#FFFFFF" style=3D"border-style:solid=
+; border-color:#000000; border-width:thin">
+<tbody>
+<tr>
+<td width=3D"50%" valign=3D"top" style=3D"border-top:solid thin; border-bot=
+tom:solid thin; border-left:solid thin">
+<center><span style=3D"font-size:13px; font-family:Montserrat"><strong>PER=
+=CDODO</strong></span>
+</center>
+</td>
+<td width=3D"50%" valign=3D"top" style=3D"border-top:solid thin; border-bot=
+tom:solid thin; border-left:solid thin">
+<center><span style=3D"font-size:13px; font-family:Montserrat"><strong>IMPU=
+ESTO</strong>
+</span></center>
+</td>
+</tr>
+<tr style=3D"">
+<td align=3D"center" class=3D"x_MsoNormalTable" cellspacing=3D"0" cellpaddi=
+ng=3D"0" style=3D"border-style:solid; border-color:#000000; border-width:th=
+in">
+<p class=3D"x_MsoNormal" style=3D"margin-top: 0px; margin-bottom: 0px;margi=
+n-top:0px; margin-bottom:0px">
+<span style=3D"font-size:13.0px; font-family:Montserrat">Marzo , abril , ma=
+yo y junio, 2018</span></p>
+</td>
+<td align=3D"center" class=3D"x_MsoNormalTable" cellspacing=3D"0" cellpaddi=
+ng=3D"0" style=3D"border-style:solid; border-color:#000000; border-width:th=
+in">
+<p class=3D"x_MsoNormal" style=3D"margin-top: 0px; margin-bottom: 0px;margi=
+n-top:0px; margin-bottom:0px">
+<span style=3D"font-size:13.0px; font-family:Montserrat">Impuesto Sobre la =
+Renta</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"justify">
+<div align=3D"justify"><font color=3D"#7B7B7B"><span style=3D"font-size:13p=
+x; font-family:Montserrat">En
+<strong>MarcaSAT</strong>, elige la opci=F3n 9, seguida de la opci=F3n 2, d=
+e lunes a s=E1bado de 8:00 a 21:00 horas.</span></font></div>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><img alt=3D"pie" title=3D"pie" style=3D"width:995px; height:175px" src=
+=3D"http://omawww.sat.gob.mx/PublishingImages/footer_Promocion_SP.jpg"></td=
+>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_MN2PR14MB2605C5BA8CCF2EE3E7FA5127B4160MN2PR14MB2605namp_--

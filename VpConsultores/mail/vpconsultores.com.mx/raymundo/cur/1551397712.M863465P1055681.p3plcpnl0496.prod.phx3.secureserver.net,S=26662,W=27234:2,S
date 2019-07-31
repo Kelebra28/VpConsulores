@@ -1,0 +1,572 @@
+Return-Path: <noreply@iem.contactpromo.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id ICNhM1BzeFzBGxAAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Thu, 28 Feb 2019 16:48:32 -0700
+Return-path: <noreply@iem.contactpromo.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Thu, 28 Feb 2019 16:48:32 -0700
+Received: from tbjjbihbhdbdg.turbo-smtp.net ([199.187.173.136]:54399)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <noreply@iem.contactpromo.mx>)
+	id 1gzVPj-004WXb-Fh
+	for raymundo@vpconsultores.com.mx; Thu, 28 Feb 2019 16:48:32 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=mktburodecredito.com.mx; s=turbo-smtp; x=1552002511; h=DomainKey-Signature:
+	Received:Received:To:Subject:Message-ID:Date:From:Reply-To:
+	MIME-Version:List-Unsubscribe:Content-Type:
+	Content-Transfer-Encoding; bh=CY6b/3NTW9A2HZCIOUQ8Mhz+vW5mhPpoWF
+	saiEMuLzI=; b=Cszm5NY935w/f/wsbvb/lghsQ/lSleBVgKlGu36Bd/1V6HSjF5
+	ENdgZB1GZqOmSQAebXfSK/MK24CwD6fQENxy7xKuROsiOCPd7Yqqbt7dzeGdkIJO
+	UjMvG79VMxlXk+2Ys/FEEY7lWT1rtCuRrXf/WiYG0UUWXLNstTDqZnBc4=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+	s=turbo-smtp; d=mktburodecredito.com.mx;
+	h=Received:Received:X-TurboSMTP-Tracking:To:Subject:Message-ID:Return-Path:Date:From:Reply-To:MIME-Version:X-Mailer-Lid:List-Unsubscribe:X-Mailer-Recptid:X-Mailer-Sid:X-Mailer-Sent-By:Content-Type:Content-Transfer-Encoding;
+	b=Rq5IRX7p0X4FIBe9cLMB5U5SKhGCZH500LuEg/E/UtLtxgaAQP7f4vTNl4iRLe
+	qR5G9kyM4mcFzJFFB373uwvihHN9iXxKTlUPXAISxiNK0+wLFpUqMa/HCPzvpr1v
+	6m+nyuKAroLc1aySQ7MyBG9yA3bmHCuDvqgcWIARXm8cc=;
+Received: (qmail 16108 invoked from network); 28 Feb 2019 23:47:50 -0000
+Received: from ?UNAVAILABLE? (HELO iem.contactpromo.mx) (authenticated@104.200.137.64)  by turbo-smtp.com with SMTP; 28 Feb 2019 23:47:50 -0000
+X-TurboSMTP-Tracking: 4880969352
+To: raymundo@vpconsultores.com.mx
+Message-ID: <869ef90fc960f63e6367eb8bee98ee14@iem.contactpromo.mx>
+Date: Thu, 28 Feb 2019 21:35:06 +0000
+From: "Buro de Credito" <editorialburo@mktburodecredito.com.mx>
+Reply-To: editorialburo@mktburodecredito.com.mx
+MIME-Version: 1.0
+X-Mailer-Lid: 20
+List-Unsubscribe: <http://iem.contactpromo.mx/unsubscribe.php?M=824990&C=f265038c7f743651d4fe936cce737936&L=20&N=45>
+X-Mailer-Recptid: 824990
+X-Mailer-Sid: 45
+X-Mailer-Sent-By: 2
+Content-Type: multipart/alternative; charset="UTF-8"; boundary="b1_2199e69a4caaddbcdb309dcbdbb6949e"
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: Yes, score=11.2
+X-Spam-Score: 112
+X-Spam-Bar: +++++++++++
+X-Spam-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Buró de Crédito Carta de Noticias No. 98 / Febrero 2019
+   ECONOMÍA Programa de Impulso al Sector Financiero En los primeros días del
+    pasado mes de enero, de manera conjunta, la Secretaría de Hacien
+ 
+ Content analysis details:   (11.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mktburodecredito.com.mx]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mktburodecredito.com.mx]
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: mktburodecredito.com.mx]
+  3.6 RCVD_IN_SBL_CSS        RBL: Received via a relay in Spamhaus SBL-CSS
+                             [104.200.137.64 listed in zen.spamhaus.org]
+  0.1 URIBL_SBL_A            Contains URL's A record listed in the Spamhaus SBL
+                             blocklist
+                             [URIs: mktburodecredito.com.mx]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+  1.5 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+  0.6 HTML_IMAGE_RATIO_04    BODY: HTML has a low ratio of text to image area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of .info|.us|.me|.me.uk|.biz domains in
+                              spam/malware
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Programa de Impulso al Sector Financiero
+
+This is a MIME-formatted message.  If you see this text it means that your
+E-mail software does not support MIME-formatted messages.
+
+--b1_2199e69a4caaddbcdb309dcbdbb6949e
+Content-Type: text/plain; format=flowed; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+Buró de Crédito
+Carta de Noticias
+No. 98 / Febrero 2019
+
+
+ECONOMÍA
+
+Programa de Impulso al Sector Financiero
+En los primeros días del pasado mes de enero, de manera conjunta, la
+Secretaría de Hacienda y Crédito Público (SHCP), el Banco de México y
+la Asociación de Bancos de México (ABM) presentaron el Programa de
+Impulso al Sector Financiero.
+Ir al artículo completo
+
+CULTURA FINANCIERA
+
+Conceptos básicos sobre el crédito
+En Buró de Crédito tenemos un compromiso de servicio contigo, es por eso
+que en esta sección ponemos a tu disposición datos, información y
+conceptos con la intención de que tengas más y mejores elementos para
+manejar adecuadamente tus finanzas.
+Leer nota completa
+
+LOS EXPERTOS OPINAN
+
+Aprovecha las ganancias de tu Afore
+Uno de los cambios positivos generados por el sistema financiero de nuestro
+país en los últimos años han sido los rendimientos que ofrecen las
+Administradoras de Fondos para el Retiro (Afore) a los ahorradores.
+Leer nota completa
+
+Si no puedes ver este correo correctamente haz clic aquí para ver nuestra
+versión en línea.
+Haga clic en este enlace para darse de baja:
+http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRlA0N
+
+--b1_2199e69a4caaddbcdb309dcbdbb6949e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<html><head></head><body><title>Bur&oacute; de Cr&eacute;dito : Carta de
+Noticias</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<table width="102%" border="0" cellspacing="0" cellpadding="0"
+bgcolor="#e0e0e0">
+<tbody>
+<tr>
+<td align="center">
+<table width="640" border="0" cellspacing="0" cellpadding="0"
+align="center" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td height="92" colspan="2" align="center">
+<table width="85%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="120" rowspan="2"><img
+src="http://mktburodecredito.com.mx/email/num98/Buro-Credito.png"
+width="92" height="92" alt="Bur&oacute; de Cr&eacute;dito" /></td>
+<td height="55" valign="bottom"><img
+src="http://mktburodecredito.com.mx/email/num98/carta-noticias.png"
+width="286" height="26" alt="Carta de Noticias" /></td>
+</tr>
+<tr>
+<td>
+<p style="color: #455867; font-family: Arial, Helvetica, sans-serif;
+font-size: 13px; font-weight: normal; margin-top: 4px; text-align: left;"
+align="left">No. 98 / Febrero 2019</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td width="100%" height="280" colspan="2" bgcolor="#f5f5f5"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRlBRV"
+target="_blank"><img
+src="http://mktburodecredito.com.mx/email/num98/mail1-n75.jpg" width="650"
+height="280" /></a></td>
+</tr>
+<tr>
+<td colspan="2" align="center" bgcolor="#ffffff">
+<table width="88%" border="0" cellspacing="0" cellpadding="0"
+bgcolor="#ffffff">
+<tbody>
+<tr>
+<td height="60" valign="middle" style="padding-top: 12px; padding-bottom:
+14px;">
+<p style="font-family: Arial, Helvetica, sans-serif; text-transform:
+uppercase; font-size: .78em; color: #aaaaaa; line-height: 2px; text-align:
+center;" align="center">Econom&iacute;a</p>
+<p style="text-align: center; color: #2392fd; font-family: Arial,
+Helvetica, sans-serif; font-size: 27px; font-weight: bold; line-height:
+30px; margin-top: 0px;" align="center">Programa de Impulso al Sector
+Financiero</p>
+<p style="color: #455867; font-family: Arial, Helvetica, sans-serif;
+font-size: 14px; text-align: center;" align="center">En los primeros
+d&iacute;as del pasado mes de enero, de manera conjunta, la
+Secretar&iacute;a de Hacienda y Cr&eacute;dito P&uacute;blico (SHCP), el
+Banco de M&eacute;xico y la Asociaci&oacute;n de Bancos de M&eacute;xico
+(ABM) presentaron el Programa de Impulso al Sector Financiero.</p>
+<p style="color: #455867; font-family: Arial, Helvetica, sans-serif;
+font-size: 14px; text-align: center; margin-bottom: 20px;"
+align="center"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRlBRV"
+target="_blank"><img
+src="http://mktburodecredito.com.mx/email/num98/btn-leer.png" width="169"
+height="40" alt="Ir al art&iacute;culo completo" /></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center" bgcolor="#f0f4f7">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="325" valign="top"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRlBHR"
+target="_blank"><img
+src="http://mktburodecredito.com.mx/email/num98/mail2-n75.jpg" width="325"
+height="300" /></a></td>
+<td width="325" align="left" valign="top">
+<table width="92%" border="0" cellspacing="15" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<p style="font-family: Arial, Helvetica, sans-serif; text-transform:
+uppercase; font-size: .78em; color: #aaaaaa; line-height: 6px;">cultura
+financiera</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="border-left-color: #288ff6; border-left-style: solid;
+border-left-width: 3px; text-align: left; color: #0054a5; font-family:
+Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold;
+padding-left: 16px;">Conceptos b&aacute;sicos sobre el cr&eacute;dito</td>
+</tr>
+</tbody>
+</table>
+<p style="color: #455867; font-family: Arial, Helvetica, sans-serif;
+font-size: 14px; text-align: left;" align="left">En Bur&oacute; de
+Cr&eacute;dito tenemos un compromiso de servicio contigo, es por eso que en
+esta secci&oacute;n ponemos a tu disposici&oacute;n datos,
+informaci&oacute;n y conceptos con la intenci&oacute;n de que tengas
+m&aacute;s y mejores elementos para manejar adecuadamente tus finanzas.<br
+/> <br /> <span style="color: #455867; font-family: Arial, Helvetica,
+sans-serif; font-size: 13px; font-weight: normal; text-align: left;
+line-height: 22px;"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRlBHR"
+target="_blank" style="font-family: Arial, Helvetica, sans-serif;
+font-size: 13px; color: #2392fd; text-align: left; text-decoration:
+underline; line-height: 22px;"><span style="color: #2392fd;">Leer nota
+completa</span></a></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center" bgcolor="#ffffff">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="325" align="right" valign="top">
+<table width="92%" border="0" cellspacing="12" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<p style="font-family: Arial, Helvetica, sans-serif; text-transform:
+uppercase; font-size: .78em; color: #aaaaaa; line-height: 6px;">los
+expertos opinan</p>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="border-left-color: #288ff6; border-left-style: solid;
+border-left-width: 3px; text-align: left; color: #0054a5; font-family:
+Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold;
+padding-left: 16px;">Aprovecha las ganancias de tu Afore</td>
+</tr>
+</tbody>
+</table>
+<p style="color: #455867; font-family: Arial, Helvetica, sans-serif;
+font-size: 14px; text-align: left;" align="left">Uno de los cambios
+positivos generados por el sistema financiero de nuestro pa&iacute;s en los
+&uacute;ltimos a&ntilde;os han sido los rendimientos que ofrecen las
+Administradoras de Fondos para el Retiro (Afore) a los ahorradores.<br />
+<br /> <span style="color: #455867; font-family: Arial, Helvetica,
+sans-serif; font-size: 13px; font-weight: normal; text-align: left;
+line-height: 22px;"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRmZSZ"
+target="_blank" style="font-family: Arial, Helvetica, sans-serif;
+font-size: 13px; color: #2392fd; text-align: left; text-decoration:
+underline; line-height: 22px;"><span style="color: #2392fd;">Leer nota
+completa</span></a></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align="right" valign="top"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRmZSZ"
+target="_blank"><img
+src="http://mktburodecredito.com.mx/email/num98/mail3-n75.jpg" width="325"
+height="300" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height="126" colspan="2" align="center" bgcolor="#2392fd">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><img src="http://mktburodecredito.com.mx/email/num98/section-title.png"
+width="341" height="33" alt="Secciones" /></td>
+<td><a href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRmZSZ"
+target="_blank"><img
+src="http://mktburodecredito.com.mx/email/num98/section-4.png" width="309"
+height="33" alt="Ir a secci&oacute;n Los expertos opinan" /></a></td>
+</tr>
+<tr>
+<td><a href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRlBRV"
+target="_blank"><img
+src="http://mktburodecredito.com.mx/email/num98/section-1.png" width="341"
+height="33" alt="Ir a secci&oacute;n Econom&iacute;a" /></a></td>
+<td><a href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRmZID"
+target="_blank"><img
+src="http://mktburodecredito.com.mx/email/num98/section-5.png" width="309"
+height="33" alt="Ir a secci&oacute;n El an&aacute;lisis" /></a></td>
+</tr>
+<tr>
+<td><a href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRlBHR"
+target="_blank"><img
+src="http://mktburodecredito.com.mx/email/num98/section-2.png" width="341"
+height="33" alt="Ir a secci&oacute;n Cultura financiera" /></a></td>
+<td><a href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRmZyR"
+target="_blank"><img
+src="http://mktburodecredito.com.mx/email/num98/section-6.png" width="309"
+height="33" alt="Ir a secci&oacute;n 5 cosas" /></a></td>
+</tr>
+<tr>
+<td><a href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRmZ1V"
+target="_blank"><img
+src="http://mktburodecredito.com.mx/email/num98/section-3.png" width="341"
+height="33" alt="Ir a secci&oacute;n Apps" /></a></td>
+<td><a href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRmAR8"
+target="_blank"><img
+src="http://mktburodecredito.com.mx/email/num98/section-7.png" width="309"
+height="33" alt="Ir a secci&oacute;n Grandes" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="top" bgcolor="#e8e8e8">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" align="left" valign="top" bgcolor="#e8e8e8"
+height="28"><img
+src="http://mktburodecredito.com.mx/email/num98/icons-productsl.png"
+width="170" height="25" alt="Nuestros productos" style="padding-left:
+16px;" /></td>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="top" bgcolor="#e8e8e8">
+<table width="618" border="0" align="center" cellpadding="0"
+cellspacing="0" style="margin: 0 auto;">
+<tbody>
+<tr>
+<td style="line-height: 0;"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRmAIN"
+target="_blank"> <img
+src="http://mktburodecredito.com.mx/email/num98/iconos1_c.gif" width="103"
+height="122" border="0" alt="Reporte de Cr&eacute;dito Especial"
+title="Reporte de Cr&eacute;dito Especial" style="display: block;" />
+</a></td>
+<td style="line-height: 0;"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRmAxN"
+target="_blank"> <img
+src="http://mktburodecredito.com.mx/email/num98/iconos1_d.gif" width="103"
+height="122" border="0" alt="Mi Score" title="Mi Score" style="display:
+block;" /> </a></td>
+<td style="line-height: 0;"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRmA04"
+target="_blank"> <img
+src="http://mktburodecredito.com.mx/email/num98/iconos1_e.gif" width="103"
+height="122" border="0" alt="Alertas Bur&oacute;" title="Alertas
+Bur&oacute;" style="display: block;" /> </a></td>
+<td style="line-height: 0;"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRmBRR"
+target="_blank"> <img
+src="http://mktburodecredito.com.mx/email/num98/iconos1_f.gif" width="103"
+height="122" border="0" alt="Bloqueo" title="Bloqueo" style="display:
+block;" /> </a></td>
+<td style="line-height: 0;"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmRmBHV"
+target="_blank"> <img
+src="http://mktburodecredito.com.mx/email/num98/iconos1_g.gif" width="103"
+height="122" border="0" alt="Acredita-T" title="Acredita-T" style="display:
+block;" /> </a></td>
+<td style="line-height: 0;"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmR0ZR4"
+target="_blank"> <img
+src="http://mktburodecredito.com.mx/email/num98/iconos1_h.gif" width="103"
+height="122" border="0" alt="Al&eacute;rtame" title="Al&eacute;rtame"
+style="display: block;" /> </a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="top" bgcolor="#e8e8e8">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="top" bgcolor="#e8e8e8">
+<table width="100%" border="0" align="center" cellpadding="0"
+cellspacing="0" style="margin: 0 auto;">
+<tbody>
+<tr>
+<!--GRIS 2-->
+<td width="20" height="40" bgcolor="#e8e8e8" style="line-height: 0; margin:
+0 auto; background-color: #e8e8e8;"></td>
+<!--GRIS 2-->
+<td width="70" height="40" bgcolor="#d9d9d9" style="line-height: 13px;
+margin: 0 auto; background-color: #e8e8e8; font-family: Tahoma, Geneva,
+sans-serif; font-size: 11px; color: #455f73; font-style: normal;
+text-align: left;">
+<p>S&iacute;guenos en:</p>
+</td>
+<!--FACEBOOK-->
+<td width="25" height="40" style="line-height: 0;"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmR0ZHN"
+target="_blank"> <img
+src="http://mktburodecredito.com.mx/email/num98/iconos2_s_f.gif" width="25"
+height="34" border="0" alt="Facebook" title="Facebook" style="display:
+block;" /> </a></td>
+<td width="10" height="40" bgcolor="#e8e8e8" style="line-height: 0; margin:
+0 auto; background-color: #e8e8e8;"></td>
+<!--TWITTER-->
+<td width="25" height="40" style="line-height: 0;"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmR0ZyN"
+target="_blank"> <img
+src="http://mktburodecredito.com.mx/email/num98/iconos2_s_t.gif" width="25"
+height="34" border="0" alt="Twitter" title="Twitter" style="display:
+block;" /> </a></td>
+<td width="10" height="40" bgcolor="#e8e8e8" style="line-height: 0; margin:
+0 auto; background-color: #e8e8e8;"></td>
+<!--LINKEDIN-->
+<td width="25" height="40" style="line-height: 0;"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmR0Z08"
+target="_blank"> <img
+src="http://mktburodecredito.com.mx/email/num98/iconos2_s_l.gif" width="25"
+height="34" border="0" alt="LinkedIn" title="LinkedIn" style="display:
+block;" /> </a></td>
+<td width="10" height="40" bgcolor="#e8e8e8" style="line-height: 0; margin:
+0 auto; background-color: #e8e8e8;"></td>
+<!--YOUTUBE-->
+<td width="25" height="40" style="line-height: 0;"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmR0ASV"
+target="_blank"> <img
+src="http://mktburodecredito.com.mx/email/num98/iconos2_s_y.gif" width="25"
+height="34" border="0" alt="YouTube" title="YouTube" style="display:
+block;" /> </a></td>
+<td width="262" height="40" bgcolor="#e8e8e8" style="line-height: 0;
+margin: 0 auto; background-color: #e8e8e8;"></td>
+<!--SEPARADOR--> <!--APPS--> <!--SEPARADOR-->
+<td width="138" height="40" bgcolor="#e8e8e8"><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmR0AIR"><img
+src="http://mktburodecredito.com.mx/email/num98/btn-suscribir.png"
+width="138" height="40" alt="Suscripci&oacute;n" /></a></td>
+<!--TEL&eacute;FONOS--> <!--GRIS 2-->
+<td width="20" height="40" bgcolor="#e8e8e8" style="line-height: 0; margin:
+0 auto; background-color: #e8e8e8;"></td>
+<!--GRIS 2-->
+</tr>
+<tr>
+<td height="30" style="line-height: 0; margin: 0 auto; background-color:
+#e8e8e8;" bgcolor="#e8e8e8"></td>
+<td height="30" style="line-height: 13px; margin: 0 auto; background-color:
+#e8e8e8; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; color:
+#455f73; font-style: normal; text-align: right; padding-right: 5px;"
+bgcolor="#d9d9d9">&nbsp;</td>
+<td height="30" style="line-height: 0;">&nbsp;</td>
+<td height="30" style="line-height: 0; margin: 0 auto; background-color:
+#e8e8e8;" bgcolor="#e8e8e8"></td>
+<td height="30" style="line-height: 0;">&nbsp;</td>
+<td height="30" style="line-height: 0; margin: 0 auto; background-color:
+#e8e8e8;" bgcolor="#e8e8e8"></td>
+<td height="30" style="line-height: 0;">&nbsp;</td>
+<td height="30" style="line-height: 0; margin: 0 auto; background-color:
+#e8e8e8;" bgcolor="#e8e8e8"></td>
+<td height="30" style="line-height: 0;">&nbsp;</td>
+<td height="30" style="line-height: 0; margin: 0 auto; background-color:
+#e8e8e8;" bgcolor="#e8e8e8"></td>
+<td height="30" bgcolor="#e8e8e8" align="right"><span style="font-size:
+11px; color: #40505d;">►</span> <a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmR0AyD"
+target="_blank" style="font-family: Arial, Helvetica, sans-serif;
+font-size: 12px; color: #40505d; text-align: left; text-decoration:
+underline; line-height: 22px;"><span style="color: #40505d;">N&uacute;meros
+anteriores</span></a></td>
+<td height="30" style="line-height: 0; margin: 0 auto; background-color:
+#e8e8e8;" bgcolor="#e8e8e8"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" height="20" align="center" valign="top"
+bgcolor="#e8e8e8">&nbsp;</td>
+</tr>
+<tr>
+<td height="48" colspan="2" align="center" valign="top" bgcolor="#ffffff">
+<p style="color: #455867; font-family: Arial, Helvetica, sans-serif;
+font-size: 12px; text-align: center; margin-top: 8px;" align="center">Si no
+puedes ver este correo correctamente haz clic <a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmR0A1Z"
+target="_blank" style="font-family: Arial, Helvetica, sans-serif;
+font-size: 13px; font-weight: bold; color: #2392fd; text-decoration:
+underline;"><span style="color: #2392fd;">aqu&iacute;</span></a> para ver
+nuestra versi&oacute;n en l&iacute;nea.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table><br/><td><div align="justify"><p style="font-family: Arial,
+color:#999999; font-size: 7px;">Para darse de baja automaticamente  de
+click en "unsuscribe" que se encuentra al inicio o pie de pagina de este
+correo. Direccion fisica/postal del anunciante: Av. Periferico Sur 4349,
+Plaza Imagen, Local 3, Fracc. Jardines de la Montana, Del. Tlalpan,
+CP.14210, Mexico, D.F. Tel. 01800 640 7920. El asunto de este mensajes es
+claro y relacionado con el contenido de este mensaje. Este mensaje fue
+enviado por un email valido. El dominio del servidor de envios fue dado de
+alta en SENDER ID. Se generaron registros SPF a los dominios que se usan
+para envios. Este correo es de caracter informativo, no es necesario que lo
+responda. El contenido de este email es responsabilidad unica del
+anunciante. Para prevenir que este y otros correos lleguen a su carpeta de
+correo no deseado, solo agregue este email a su lista de correo seguro.
+AVISO DE PRIVACIDAD: Conforme a la Ley Federal de Proteccion de Datos
+Personales en Posesion de los Particulares, aprobada el dia 13 de abril de
+2010 en los articulos 3, Fracciones II y VII, y 33, asi como la
+denominacion del capitulo II, del Titulo Segundo, de la Ley Federal de
+Transparencia y Acceso a la Informacion Publica Gubernamental, te
+solicitamos que en caso de optar por darte de baja de la lista de
+suscripcion des click en "unsuscribe" que se encuentra al pie de pagina de
+este correo; Se entendera que el titular consiente tacitamente el
+tratamiento de sus datos, cuando habiendose puesto a su disposicion el
+presente aviso de privacidad, no opte por darse de baja automaticamente
+conforme a las instrucciones anteriormente descritas.</div></td><img
+src="http://iem.contactpromo.mx/open.php?M=824990&L=20&N=45&F=H&image=.jpg"
+height="1" width="10"><br/><a
+href="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkWay2LKu2pG0kBQHmAGH2ZmR0BSL">Haga
+clic en este enlace para darse de baja</a></body></html>
+<img height="1" width="1" alt="" border="0" src="http://mtrack.me/tracking/raWzMz50paMkCGD4BQN5AwxmAGVzMKWjqzA2pzSaqaR9Zmp3ZwL5AGVkXN.gif">
+--b1_2199e69a4caaddbcdb309dcbdbb6949e--
+

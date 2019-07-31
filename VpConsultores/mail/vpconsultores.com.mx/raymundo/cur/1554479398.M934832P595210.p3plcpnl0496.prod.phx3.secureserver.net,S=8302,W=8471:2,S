@@ -1,0 +1,169 @@
+Return-Path: <asistente@salesboyoli.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id UPI6NyZ5p1wKFQkAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Fri, 05 Apr 2019 08:49:58 -0700
+Return-path: <asistente@salesboyoli.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Fri, 05 Apr 2019 08:49:58 -0700
+Received: from mail-oi1-f172.google.com ([209.85.167.172]:33504)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <asistente@salesboyoli.com>)
+	id 1hCR6M-003N5b-2L
+	for raymundo@vpconsultores.com.mx; Fri, 05 Apr 2019 08:49:58 -0700
+Received: by mail-oi1-f172.google.com with SMTP id e5so5278431oii.0
+        for <raymundo@vpconsultores.com.mx>; Fri, 05 Apr 2019 08:49:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=salesboyoli.com; s=google;
+        h=from:to:references:in-reply-to:subject:date:message-id:mime-version
+         :content-transfer-encoding:thread-index:content-language;
+        bh=Un2ahBpJWXTvWA3HzCWNhtaMAmMgU8kyF0kjUpRQFkw=;
+        b=gabQ/SowFI9x4bS7RBNTQuze5hEeO9Ke6CrRsajNMfRuqELUMn8Nun3YuVWoSd9FH/
+         cYZRU++1v2xjLSNFBnmfTUYkNx5+niavfXiEXHzPAk+ESG2fyQFUq1yvkFU8hwBR4cyE
+         99RyxPrtXobR5XMOOHSxCu25b6K7mamnFUoA0=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:references:in-reply-to:subject:date
+         :message-id:mime-version:content-transfer-encoding:thread-index
+         :content-language;
+        bh=Un2ahBpJWXTvWA3HzCWNhtaMAmMgU8kyF0kjUpRQFkw=;
+        b=EnTIwDNevuY+KeHEhxT77f7n/gYSfM6nhyYJd8U1YXnVEN8E/xRqLA5NlQEDlOJPwO
+         n3Ypkjl/yPDE9HowU96pYRyfnpTmuXyaHROX8E9Xq2AG8opmtXjayog1su1QIQ/N6l08
+         PKpO5iPDbuI/G2EssyZe4mSbU2Q46cGzhje29obaB+wfmV2tXb39W1NGr6wDktgJxUUF
+         QL5bMD1jBkWJ3qIFL/4OB98mCxKyb4Q/wYcuBlefClfXDOxFrVXMbtbivbKcUKqWcnr3
+         sdPVaqT+NyV+BNbg6f25qTvNU+7K3eqiFNWU3ii8R7mczsF6JZurEZFxfKBkZylH+bSs
+         73fQ==
+X-Gm-Message-State: APjAAAVQHnhvoDroI1O7jtW8g0BaEFDYNmkNQwige8C2LvEjxDKHPicy
+	XhXmFNIgZk1MTdryMbviIEyxOQ==
+X-Google-Smtp-Source: APXvYqxAH+vrZo4WHEnjWgJB1JB4W0eCfNkvWLXhLwe05n++VTK32XfNijeZfL3YmaJJMmq/1bKhGA==
+X-Received: by 2002:aca:31c3:: with SMTP id x186mr7178098oix.131.1554479357105;
+        Fri, 05 Apr 2019 08:49:17 -0700 (PDT)
+Received: from BSBPC ([148.243.86.246])
+        by smtp.gmail.com with ESMTPSA id s124sm8673742oia.24.2019.04.05.08.49.13
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 05 Apr 2019 08:49:14 -0700 (PDT)
+From: "Carla Mass" <asistente@salesboyoli.com>
+To: "'Mireille Estevez'" <mireillestevez@icloud.com>,
+	"'Jorge'" <jsales@salesboyoli.com>,
+	"'Raymundo Vazquez'" <raymundo@vpconsultores.com.mx>
+References: <6BFD21D6-D597-4A9A-80A4-94386A66155D@icloud.com>
+In-Reply-To: <6BFD21D6-D597-4A9A-80A4-94386A66155D@icloud.com>
+Subject: RE: Reinscripcion Santiago
+Date: Fri, 5 Apr 2019 09:48:45 -0600
+Message-ID: <003f01d4ebc7$0e63ae60$2b2b0b20$@salesboyoli.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQJhfKIfqA+JuKr+SpJQETbZGVyklaUUlBtg
+Content-Language: es-mx
+X-Spam-Status: No, score=0.7
+X-Spam-Score: 7
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Buenos días, Revisaré de nuevo el estado de cuenta de AMEX
+    de Jorge y te confirmo en breve si hay algún cargo con este monto o no.
+   La carta fue enviada con la firma. Hoy hablo al colegio y verifico
+ 
+ Content analysis details:   (0.7 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vpconsultores.com.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vpconsultores.com.mx]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.8 KAM_ASCII_DIVIDERS     Spam that uses ascii formatting tricks
+X-Spam-Flag: NO
+
+Buenos d=C3=ADas,
+
+Revisar=C3=A9 de nuevo el estado de cuenta de AMEX de Jorge y te =
+confirmo en breve si hay alg=C3=BAn cargo con este monto o no.  La carta =
+fue enviada con la firma.  Hoy hablo al colegio y verifico status.
+
+@CONTADOR RAYMUNDO:  =C2=BFSer=C3=ADa tan amable de indicarme como debo =
+de proceder con la inscripci=C3=B3n de Santiago por favor? =
+=C2=BFNecesita que gestione alg=C3=BAn cambio en la facturaci=C3=B3n y =
+pago de las colegiaturas que se est=C3=A1n pagando actualmente?  =
+Estar=C3=A9 al pendiente de su respuesta para coordinar lo necesario.
+
+Saludos y les deseo un excelente fin de semana,
+
+Atentamente
+_________________
+Carla Maass Poirier
+Asistente de Direcci=C3=B3n=20
+
+Email: asistente@salesboyoli.com
+Tel: +52 (55) 5292-7444  Ext. 205
+=20
+
+=20
+=EF=81=90 Please consider the environment before printing this email.
+_________________________________________________________________________=
+___________________________________
+AVISO DE CONFIDENCIALIDAD. La Informaci=C3=B3n contenida en este correo =
+y sus archivos anexos es Restringida, Confidencial y Privilegiada de =
+Sales Boyoli. El uso, distribuci=C3=B3n o copiado de este mensaje o =
+cualquier informaci=C3=B3n adjunta est=C3=A1 estrictamente prohibido, =
+tampoco podr=C3=A1 revelar su contenido a ninguna persona. Si recibe =
+este e-mail por error, favor de eliminarlo permanentemente y notificar a =
+Sales Boyoli inmediatamente al tel.: +(52) 55 5292-7444. El uso no =
+autorizado de este mensaje es considerado como un delito.
+CONFIDENTIALITY NOTICE. This e-mail and any attachments thereto are =
+intended only for use by the addressee(s) named herein and may contain =
+privileged and/or confidential information of Sales Boyoli. If you are =
+not the intended recipient of this e-mail, you are hereby notified any =
+dissemination, distribution or copying of this e-mail, and any =
+attachments thereto, is strictly prohibited. If you receive this e-mail =
+in error please immediately notify Sales Boyoli at +(52) 55 5292-7444 =
+and permanently delete the original copy and any copy of any e-mail, and =
+any printout thereof. Unauthorized interception of this email is a =
+violation of federal criminal law.
+_________________________________________________________________________=
+___________________________________
+
+-----Mensaje original-----
+De: Mireille Estevez [mailto:mireillestevez@icloud.com]=20
+Enviado el: jueves, 04 de abril de 2019 05:04 p.m.
+Para: asistente@salesboyoli.com; Jorge <jsales@salesboyoli.com>; =
+Raymundo Vazquez <raymundo@vpconsultores.com.mx>
+Asunto: Reinscripcion Santiago
+
+
+Carla :
+
+Buenas tardes, la colegiatura de Santiago se me facturaba a mi, abajo =
+pongo una de las =C3=BAltimas facturas del ciclo escolar pasado.
+
+La colegiatura de Pedro es de 7,277 pesos y si autorizaste el cargo con =
+una carta que se debe firmar, en la semana checo porque no lo han =
+cargado. Si no est=C3=A1 firmada esa carta no realizan el cargo.=20
+
+Enero y febrero lo pague yo con la AMEX as=C3=AD que el adeudo ser=C3=A1 =
+de marzo y abril pero checalo bien.
+
+Mil gracias y saludos
+
+Mireille=20
+
+

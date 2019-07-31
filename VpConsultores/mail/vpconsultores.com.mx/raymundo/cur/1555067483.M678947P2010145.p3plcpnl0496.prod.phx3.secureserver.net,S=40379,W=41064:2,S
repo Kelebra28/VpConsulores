@@ -1,0 +1,685 @@
+Return-Path: <mireillestevez@gmail.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id QKvVJVtysFwhrB4AFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Fri, 12 Apr 2019 04:11:23 -0700
+Return-path: <mireillestevez@gmail.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Fri, 12 Apr 2019 04:11:23 -0700
+Received: from mail-ot1-f43.google.com ([209.85.210.43]:34498)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <mireillestevez@gmail.com>)
+	id 1hEu5Z-008Qo0-Ck
+	for raymundo@vpconsultores.com.mx; Fri, 12 Apr 2019 04:11:23 -0700
+Received: by mail-ot1-f43.google.com with SMTP id k21so8046342otf.1
+        for <raymundo@vpconsultores.com.mx>; Fri, 12 Apr 2019 04:11:00 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:subject:from:in-reply-to:date:cc
+         :content-transfer-encoding:message-id:references:to;
+        bh=uNnSLsL2bNG21SlO4FUvQPGkmn2Os0V0KRyvr1fcWBw=;
+        b=h+aKePWSmeOqVpagJBB7c0//Bq90Qvb/muPqz4fIb/zymM/qTmyc7EWfQHzrLNz/tA
+         H2oYcEL63OTpSgEctJsikihkQEWvnz0J6u1TckqB6GWbXG+V1E4Djv//2S4gKDbkCMRX
+         Z5vjm/KLDnOtlrdf7Uv/jPTYzUg5PAgyof3EsK68kI8bhG9mzU55zifNN/c0h8TT6Z+8
+         hUWAP4mZ2syHAc41n9y6EdHGu142bfiXP8gLC+XN8bGGzBcq3zWcDW27WmvPfu/2WBmc
+         x464LqMzM3vpFrwShF09ICGWcX68o6+txooF4MckyZKzXOmd8gEuGP/HvM5CV/UxHUS9
+         TRow==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:subject:from:in-reply-to:date:cc
+         :content-transfer-encoding:message-id:references:to;
+        bh=uNnSLsL2bNG21SlO4FUvQPGkmn2Os0V0KRyvr1fcWBw=;
+        b=ECXFHzOnuIx1PDxF7U9FLKrtbM9YpGEcM+pJuQcE5bMi13pH3fC2uUUKZRtvr4teb2
+         SA7htxVUevsCqWCs7sGCwFHI/JBW0q1pZ+xPSkJRgaoejhLnT4V3gwSGFKgM063csm2u
+         VlSl/n7nRlB25o+eRW1rDBrrMJYRt5q63CyNVXChxqVOs77aXZ1QZcb4HR14PlnJhbLP
+         yG63aK2xNNJ3ID1HtRkVnzJx2VzADkaOwV5cudry0AeTfp26VryBhkFRGz0eRXvCx9tz
+         +fwjykBLI3rbdDVgaj24TW2cIHsrGUrY1VUlDr4h6z65OwTZCit9/HBqJtYLmrRqM1TA
+         43PA==
+X-Gm-Message-State: APjAAAWdQulwaAg+3gE0xRv0HJ1/NEsK2Zeg2lMrnNZ+tTLjT0eRYMFl
+	oMQhtDKsLu2GppY7KMnTe+Y=
+X-Google-Smtp-Source: APXvYqzgHotIDXZOf/Dmhg23ubZ03ocCcm/UEwJn6aIaENOVD1aGqhlanwCtfCu7g+7Y4t2hvd8caw==
+X-Received: by 2002:a9d:6d05:: with SMTP id o5mr3565295otp.175.1555067439658;
+        Fri, 12 Apr 2019 04:10:39 -0700 (PDT)
+Received: from [192.168.1.147] (fixed-189-203-150-239.totalplay.net. [189.203.150.239])
+        by smtp.gmail.com with ESMTPSA id q124sm10857788oia.13.2019.04.12.04.10.37
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 12 Apr 2019 04:10:38 -0700 (PDT)
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-A8E72A04-4EDB-4E50-9D45-1038759C2D6A
+Mime-Version: 1.0 (1.0)
+Subject: =?utf-8?Q?Re:_REVISION_FACTURACI=C3=93N/_Las_colegiaturas_cobrad?=
+ =?utf-8?Q?as_con_la_tarjeta_del_Lic._Jorge_deben_de_quedar_con_e?=
+ =?utf-8?Q?l_RFC_de_=C3=A9l/_Las_cobradas_con_la_tarjeta_de_la_Sr?=
+ =?utf-8?Q?a._Mireille_deben_de_quedar_a_nombre_de_ella_por_favor?=
+ =?utf-8?Q?.?=
+From: Mireille Estevez <mireillestevez@gmail.com>
+X-Mailer: iPhone Mail (16E227)
+In-Reply-To: <036e01d4f0a6$39cf95d0$ad6ec170$@salesboyoli.com>
+Date: Fri, 12 Apr 2019 06:10:36 -0500
+Cc: cobranzas Colegio Monteverde <cobranzas@colegiomonteverde.edu.mx>,
+ Jorge Sales Boyoli <jsales@salesboyoli.com>, raymundo@vpconsultores.com.mx
+Content-Transfer-Encoding: 7bit
+Message-Id: <A53E5DDE-A632-4264-B0E5-50208AC585F5@gmail.com>
+References: <449f101d4efeb$75df79c0$619e6d40$@salesboyoli.com> <CAO0NhD8G25ytE1n1jdObXK-cXs8p8TxotBt03JRoi_TuyRrwSQ@mail.gmail.com> <036e01d4f0a6$39cf95d0$ad6ec170$@salesboyoli.com>
+To: Carla Maass <asistente@salesboyoli.com>
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Gracias Carla, Creo que las inscripciones no se facturan (no
+    son deducibles) solo las colegiaturas. Saludos [...] 
+ 
+ Content analysis details:   (-0.1 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             (mireillestevez[at]gmail.com)
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: salesboyoli.com]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.210.43 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: colegiomonteverde.edu.mx]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 AC_DIV_BONANZA         RAW: Too many divs in a row... spammy template
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76 chars
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+X-Spam-Flag: NO
+
+
+--Apple-Mail-A8E72A04-4EDB-4E50-9D45-1038759C2D6A
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Gracias Carla,
+
+Creo que las inscripciones no se facturan (no son deducibles) solo las coleg=
+iaturas.
+
+Saludos
+
+Mireille
+Enviado desde mi iPhone
+
+El 11 abr 2019, a la(s) 15:36, Carla Maass <asistente@salesboyoli.com> escri=
+bi=C3=B3:
+
+> Hola,
+> =20
+> Como lo comentamos v=C3=ADa telef=C3=B3nica dejo por escrito como deben de=
+ quedar los cobros y facturaciones del colegio (colegiaturas e inscripciones=
+):
+> =20
+> TARJETA SRA. MIREILLE / PEDRO SALES ESTEVEZ
+> 376666534262013
+> ESTEVEZ MU=C3=91OZ MIREILLE
+> VASCO DE QUIROGA 1800 1-C, Colonia C SANTA FE
+> ALVARO OBREGON, CIUDAD DE MEXICO, CP. 01210
+> R.F.C. EEMM740225DE7
+> USO CFDI: D10 - Pagos por servicios educativos (colegiaturas)
+> =20
+> TARJETA LIC. JORGE / FATIMA, ISABEL Y MARIAJOSE SALES ESTEVEZ
+> 376666534265008
+> Los datos de facturaci=C3=B3n ya los tienes.
+> =20
+> =C2=BFMe confirmas de recibido por favor? Gracias
+> =20
+> Saludos y seguimos en contacto,
+> =20
+> Atentamente
+> _________________
+> Carla Maass Poirier
+> Asistente de Direcci=C3=B3n=20
+> =20
+> Email: asistente@salesboyoli.com
+> Tel: +52 (55) 5292-7444  Ext. 205
+> =20
+> <image001.png>
+> =20
+> P Please consider the environment before printing this email.
+> __________________________________________________________________________=
+__________________________________
+> AVISO DE CONFIDENCIALIDAD. La Informaci=C3=B3n contenida en este correo y s=
+us archivos anexos es Restringida, Confidencial y Privilegiada de Sales Boyo=
+li. El uso, distribuci=C3=B3n o copiado de este mensaje o cualquier informac=
+i=C3=B3n adjunta est=C3=A1 estrictamente prohibido, tampoco podr=C3=A1 revel=
+ar su contenido a ninguna persona. Si recibe este e-mail por error, favor de=
+ eliminarlo permanentemente y notificar a Sales Boyoli inmediatamente al tel=
+.: +(52) 55 5292-7444. El uso no autorizado de este mensaje es considerado c=
+omo un delito.
+>=20
+> CONFIDENTIALITY NOTICE. This e-mail and any attachments thereto are intend=
+ed only for use by the addressee(s) named herein and may contain privileged a=
+nd/or confidential information of Sales Boyoli. If you are not the intended r=
+ecipient of this e-mail, you are hereby notified any dissemination, distribu=
+tion or copying of this e-mail, and any attachments thereto, is strictly pro=
+hibited. If you receive this e-mail in error please immediately notify Sales=
+ Boyoli at +(52) 55 5292-7444 and permanently delete the original copy and a=
+ny copy of any e-mail, and any printout thereof. Unauthorized interception o=
+f this email is a violation of federal criminal law.
+> __________________________________________________________________________=
+__________________________________
+> =20
+> De: cobranzas Colegio Monteverde <cobranzas@colegiomonteverde.edu.mx>=20
+> Enviado el: jueves, 11 de abril de 2019 07:55 a. m.
+> Para: Carla Maass <asistente@salesboyoli.com>
+> Asunto: Re: REVISION FACTURACI=C3=93N/ Las colegiaturas cobradas con la ta=
+rjeta del Lic. Jorge deben de quedar con el RFC de =C3=A9l/ Las cobradas con=
+ la tarjeta de la Sra. Mireille deben de quedar a nombre de ella por favor.
+> =20
+> Estimada Carla:
+> =20
+> Te en los 4 hijos tenemos los datos de facturaci=C3=B3n del licenciado Jor=
+ge Sales. Te env=C3=ADo como a que tarjeta se esta generarndo cada cargo.
+> Por fa ind=C3=ADcame cual es de quien.
+> Por otrolado, tambi=C3=A9n te comento que no tengo los datos de facturaci=C3=
+=B3n de la Sra. Mireille.
+> =20
+> SALES ESTEVEZ FATIMA
+> =20
+> 376666534265008
+> SALES ESTEVEZ ISABEL
+> =20
+> 376666534262013
+> SALES ESTEVEZ MA JOSE
+> =20
+> 376666534262013
+> SALES ESTEVEZ PEDRO
+> =20
+> 376666534265008
+> Saludos Cordiales
+>=20
+>=20
+>=20
+>=20
+> =20
+> =20
+> El mi=C3=A9., 10 abr. 2019 a las 17:19, Carla Maass (<asistente@salesboyol=
+i.com>) escribi=C3=B3:
+> Hola,
+> =20
+> Muy buenas tardes.  Necesito nuevamente de tu apoyo.  Me indica el contado=
+r que necesitamos el cambio de las facturas emitidas este a=C3=B1o.  Las col=
+egiaturas que se cobran con la tarjeta de la Sra. Mireille deben de ser fact=
+uradas con su RFC.  Las colegiaturas que se cobran con la tarjeta del Lic. J=
+orge deben de ser facturadas con su RFC.  Actualmente cobras dos colegiatura=
+s con la tarjeta de Lic. Jorge y dos colegiaturas con las tarjeta de la Sra.=
+ Mireille.  Debido a que me cambiaron mi equipo no tengo forma de verificar c=
+omo se realizaron las facturas el a=C3=B1o pasado.  =C2=BFMe podr=C3=ADas ay=
+udar en revisarlo por favor?
+> =20
+> Quedo en espera de tus comentarios.
+> =20
+> Gracias y saludos,
+> =20
+> Atentamente
+> _________________
+> Carla Maass Poirier
+> Asistente de Direcci=C3=B3n=20
+> =20
+> Email: asistente@salesboyoli.com
+> Tel: +52 (55) 5292-7444  Ext. 205
+> =20
+> <image001.png>
+> =20
+> P Please consider the environment before printing this email.
+> __________________________________________________________________________=
+__________________________________
+> AVISO DE CONFIDENCIALIDAD. La Informaci=C3=B3n contenida en este correo y s=
+us archivos anexos es Restringida, Confidencial y Privilegiada de Sales Boyo=
+li. El uso, distribuci=C3=B3n o copiado de este mensaje o cualquier informac=
+i=C3=B3n adjunta est=C3=A1 estrictamente prohibido, tampoco podr=C3=A1 revel=
+ar su contenido a ninguna persona. Si recibe este e-mail por error, favor de=
+ eliminarlo permanentemente y notificar a Sales Boyoli inmediatamente al tel=
+.: +(52) 55 5292-7444. El uso no autorizado de este mensaje es considerado c=
+omo un delito.
+>=20
+> CONFIDENTIALITY NOTICE. This e-mail and any attachments thereto are intend=
+ed only for use by the addressee(s) named herein and may contain privileged a=
+nd/or confidential information of Sales Boyoli. If you are not the intended r=
+ecipient of this e-mail, you are hereby notified any dissemination, distribu=
+tion or copying of this e-mail, and any attachments thereto, is strictly pro=
+hibited. If you receive this e-mail in error please immediately notify Sales=
+ Boyoli at +(52) 55 5292-7444 and permanently delete the original copy and a=
+ny copy of any e-mail, and any printout thereof. Unauthorized interception o=
+f this email is a violation of federal criminal law.
+> __________________________________________________________________________=
+__________________________________
+> =20
+
+--Apple-Mail-A8E72A04-4EDB-4E50-9D45-1038759C2D6A
+Content-Type: multipart/related;
+	type="text/html";
+	boundary=Apple-Mail-821AB9EF-AC76-48B5-A55C-75DD3ABED06E
+Content-Transfer-Encoding: 7bit
+
+
+--Apple-Mail-821AB9EF-AC76-48B5-A55C-75DD3ABED06E
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">Gracias Carla,<div><br></div><div>Creo que l=
+as inscripciones no se facturan (no son deducibles) solo las colegiaturas.<b=
+r><br>Saludos</div><div><br></div><div>Mireille<br><div id=3D"AppleMailSigna=
+ture" dir=3D"ltr">Enviado desde mi iPhone</div><div dir=3D"ltr"><br>El 11 ab=
+r 2019, a la(s) 15:36, Carla Maass &lt;<a href=3D"mailto:asistente@salesboyo=
+li.com">asistente@salesboyoli.com</a>&gt; escribi=C3=B3:<br><br></div><block=
+quote type=3D"cite"><div dir=3D"ltr"><meta http-equiv=3D"Content-Type" conte=
+nt=3D"text/html; charset=3Dutf-8"><meta name=3D"Generator" content=3D"Micros=
+oft Word 15 (filtered medium)"><!--[if !mso]><style>v\:* {behavior:url(#defa=
+ult#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Webdings;
+	panose-1:5 3 1 2 1 5 9 6 7 3;}
+@font-face
+	{font-family:"Gill Sans MT";
+	panose-1:2 11 5 2 2 1 4 2 2 3;}
+@font-face
+	{font-family:"Arial\,Bold";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EstiloCorreo18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--><div class=3D"WordSection1"><p class=3D"Ms=
+oNormal"><span style=3D"mso-fareast-language:EN-US">Hola,<o:p></o:p></span><=
+/p><p class=3D"MsoNormal"><span style=3D"mso-fareast-language:EN-US"><o:p>&n=
+bsp;</o:p></span></p><p class=3D"MsoNormal"><span style=3D"mso-fareast-langu=
+age:EN-US">Como lo comentamos v=C3=ADa telef=C3=B3nica dejo por escrito como=
+ deben de quedar los cobros y facturaciones del colegio (colegiaturas e insc=
+ripciones):<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"mso-f=
+areast-language:EN-US"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><s=
+pan style=3D"mso-fareast-language:EN-US">TARJETA SRA. MIREILLE / PEDRO SALES=
+ ESTEVEZ<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-siz=
+e:9.0pt;color:black">376666534262013<o:p></o:p></span></p><p class=3D"MsoNor=
+mal" style=3D"text-autospace:none"><b><span style=3D"font-size:10.5pt;font-f=
+amily:&quot;Arial,Bold&quot;,sans-serif;mso-fareast-language:EN-US">ESTEVEZ M=
+U=C3=91OZ MIREILLE<o:p></o:p></span></b></p><p class=3D"MsoNormal" style=3D"=
+text-autospace:none"><span style=3D"font-size:9.0pt;font-family:&quot;Arial&=
+quot;,sans-serif;mso-fareast-language:EN-US">VASCO DE QUIROGA 1800 1-C, Colo=
+nia C SANTA FE<o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"text-aut=
+ospace:none"><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sa=
+ns-serif;mso-fareast-language:EN-US">ALVARO OBREGON, CIUDAD DE MEXICO, CP. 0=
+1210<o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"text-autospace:non=
+e"><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;m=
+so-fareast-language:EN-US">R.F.C. EEMM740225DE7<o:p></o:p></span></p><p clas=
+s=3D"MsoNormal"><span style=3D"font-size:7.5pt;font-family:&quot;Arial&quot;=
+,sans-serif;mso-fareast-language:EN-US">USO CFDI: D10 - Pagos por servicios e=
+ducativos (colegiaturas)</span><span style=3D"font-size:9.0pt;color:black"><=
+o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;c=
+olor:black"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><span style=3D=
+"mso-fareast-language:EN-US">TARJETA LIC. JORGE / FATIMA, ISABEL Y MARIAJOSE=
+ SALES ESTEVEZ<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"fo=
+nt-size:9.0pt;color:black;mso-fareast-language:EN-US">376666534265008<o:p></=
+o:p></span></p><p class=3D"MsoNormal"><span style=3D"mso-fareast-language:EN=
+-US">Los datos de facturaci=C3=B3n ya los tienes.<o:p></o:p></span></p><p cl=
+ass=3D"MsoNormal"><span style=3D"mso-fareast-language:EN-US"><o:p>&nbsp;</o:=
+p></span></p><p class=3D"MsoNormal"><span style=3D"mso-fareast-language:EN-U=
+S">=C2=BFMe confirmas de recibido por favor? Gracias</span><span style=3D"fo=
+nt-size:9.0pt;color:black"><o:p></o:p></span></p><p class=3D"MsoNormal"><spa=
+n style=3D"mso-fareast-language:EN-US"><o:p>&nbsp;</o:p></span></p><p class=3D=
+"MsoNormal"><span style=3D"mso-fareast-language:EN-US">Saludos y seguimos en=
+ contacto,<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"mso-fa=
+reast-language:EN-US"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal" sty=
+le=3D"background:white"><span style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#001F5F">Atentamente<br></span><span style=3D"f=
+ont-family:&quot;Verdana&quot;,sans-serif;color:#001F5F">_________________</=
+span><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;=
+,serif;color:#1F497D"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"=
+background:white"><b><span style=3D"font-family:&quot;Verdana&quot;,sans-ser=
+if;color:#001F5F">Carla Maass Poirier</span></b><span style=3D"color:#1F497D=
+"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"background:white"><s=
+pan style=3D"font-size:10.5pt;font-family:&quot;Verdana&quot;,sans-serif;col=
+or:#001F5F">Asistente de Direcci=C3=B3n&nbsp;</span><span style=3D"color:#1F4=
+97D"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"background:white"=
+><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,ser=
+if;color:#1F497D"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal" style=3D=
+"background:white"><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-famil=
+y:&quot;Verdana&quot;,sans-serif;color:#001F5F">Email:&nbsp;</span><a href=3D=
+"mailto:asistente@salesboyoli.com"><span lang=3D"EN-US" style=3D"font-size:1=
+0.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#0563C1;mso-fareast-l=
+anguage:EN-US">asistente@salesboyoli.com</span></a><span lang=3D"EN-US" styl=
+e=3D"color:#1F497D"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"ba=
+ckground:white"><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&=
+quot;Verdana&quot;,sans-serif;color:#001F5F">Tel: +52 (55) 5292-7444</span><=
+span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot=
+;,sans-serif;color:blue">&nbsp;&nbsp;</span><span lang=3D"EN-US" style=3D"fo=
+nt-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#001F5F">Ext=
+. 205</span><span lang=3D"EN-US" style=3D"color:#1F497D"><o:p></o:p></span><=
+/p><p class=3D"MsoNormal" style=3D"background:white"><span lang=3D"EN-US" st=
+yle=3D"color:#1F497D">&nbsp;</span><span lang=3D"EN-US" style=3D"font-size:1=
+2.0pt;font-family:&quot;Times New Roman&quot;,serif;color:#1F497D"><o:p></o:=
+p></span></p><p class=3D"MsoNormal" style=3D"background:white"><span style=3D=
+"color:#1F497D">&lt;image001.png&gt;</span><span style=3D"color:#1F497D"><o:=
+p></o:p></span></p><p class=3D"MsoNormal" style=3D"background:white"><span l=
+ang=3D"EN-US" style=3D"color:#1F497D">&nbsp;</span><span lang=3D"EN-US" styl=
+e=3D"color:#1F497D"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"ba=
+ckground:white"><span lang=3D"EN-GB" style=3D"font-size:14.0pt;font-family:W=
+ebdings;color:green">P</span><span lang=3D"EN-GB" style=3D"font-size:14.0pt;=
+font-family:&quot;Arial&quot;,sans-serif;color:navy">&nbsp;</span><span lang=
+=3D"EN-US" style=3D"font-size:10.0pt;color:green">Please consider the enviro=
+nment before printing this email.</span><span lang=3D"EN-US" style=3D"color:=
+#1F497D"><o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-si=
+ze:9.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#0563C1;background=
+:white">____________________________________________________________________=
+________________________________________</span><span style=3D"color:#1F497D"=
+><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt;=
+background:white"><b><span style=3D"font-size:8.0pt;font-family:&quot;Gill S=
+ans MT&quot;,sans-serif;color:#17365D">AVISO DE CONFIDENCIALIDAD.</span></b>=
+<span style=3D"font-size:8.0pt;font-family:&quot;Gill Sans MT&quot;,sans-ser=
+if;color:#17365D">&nbsp;La Informaci=C3=B3n contenida en este correo y sus a=
+rchivos anexos es Restringida,&nbsp;Confidencial y Privilegiada de<b>&nbsp;S=
+ales Boyoli.</b>&nbsp;El uso, distribuci=C3=B3n o copiado de este mensaje o c=
+ualquier informaci=C3=B3n adjunta est=C3=A1 estrictamente prohibido, tampoco=
+ podr=C3=A1 revelar su contenido a ninguna persona. Si recibe este e-mail&nb=
+sp;por error, favor de eliminarlo permanentemente y notificar a&nbsp;<b>Sale=
+s Boyoli&nbsp;</b>inmediatamente al&nbsp;tel.: +(52) 55 5292-7444.&nbsp;El u=
+so no autorizado de este mensaje es considerado como un delito.</span><span s=
+tyle=3D"color:#1F497D"><o:p></o:p></span></p><p class=3D"MsoNormal"><b><span=
+ lang=3D"EN-US" style=3D"font-size:7.5pt;font-family:&quot;Verdana&quot;,san=
+s-serif;color:#17365D">CONFIDENTIALITY NOTICE.</span></b><span lang=3D"EN-US=
+" style=3D"font-size:7.5pt;font-family:&quot;Verdana&quot;,sans-serif;color:=
+#222222">&nbsp;</span><span lang=3D"EN-US" style=3D"font-size:7.5pt;font-fam=
+ily:&quot;Verdana&quot;,sans-serif;color:#17365D">This e-mail and any attach=
+ments thereto are intended only for use by the addressee(s)&nbsp;named herei=
+n and may contain privileged and/or confidential information of&nbsp;<b>Sale=
+s Boyoli.</b>&nbsp;If you are not the intended recipient of this e-mail, you=
+ are hereby notified any dissemination, distribution or copying of this e-ma=
+il, and any attachments thereto,&nbsp;is strictly prohibited. If you receive=
+ this e-mail in error please immediately notify&nbsp;<b>Sales Boyoli&nbsp;</=
+b>at +(52) 55 5292-7444 and&nbsp;permanently delete the original copy and an=
+y copy of any e-mail, and any printout thereof. Unauthorized interception&nb=
+sp;of this email is a violation of federal criminal law.</span><span lang=3D=
+"EN-US" style=3D"color:#1F497D"><o:p></o:p></span></p><p class=3D"MsoNormal"=
+><span style=3D"font-size:9.0pt;font-family:&quot;Verdana&quot;,sans-serif;c=
+olor:#0563C1;background:white">_____________________________________________=
+_______________________________________________________________</span><span s=
+tyle=3D"color:#1F497D"><o:p></o:p></span></p><p class=3D"MsoNormal"><span st=
+yle=3D"mso-fareast-language:EN-US"><o:p>&nbsp;</o:p></span></p><p class=3D"M=
+soNormal"><b><span lang=3D"ES">De:</span></b><span lang=3D"ES"> cobranzas Co=
+legio Monteverde &lt;<a href=3D"mailto:cobranzas@colegiomonteverde.edu.mx">c=
+obranzas@colegiomonteverde.edu.mx</a>&gt; <br><b>Enviado el:</b> jueves, 11 d=
+e abril de 2019 07:55 a. m.<br><b>Para:</b> Carla Maass &lt;<a href=3D"mailt=
+o:asistente@salesboyoli.com">asistente@salesboyoli.com</a>&gt;<br><b>Asunto:=
+</b> Re: REVISION FACTURACI=C3=93N/ Las colegiaturas cobradas con la tarjeta=
+ del Lic. Jorge deben de quedar con el RFC de =C3=A9l/ Las cobradas con la t=
+arjeta de la Sra. Mireille deben de quedar a nombre de ella por favor.<o:p><=
+/o:p></span></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><div><div><p cla=
+ss=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Verdana&q=
+uot;,sans-serif">Estimada Carla:<o:p></o:p></span></p></div><div><p class=3D=
+"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Verdana&quot;,=
+sans-serif"><o:p>&nbsp;</o:p></span></p></div><div><p class=3D"MsoNormal"><s=
+pan style=3D"font-size:12.0pt;font-family:&quot;Verdana&quot;,sans-serif">Te=
+ en los 4 hijos tenemos los datos de facturaci=C3=B3n del licenciado Jorge S=
+ales. Te env=C3=ADo como a que tarjeta se esta generarndo cada cargo.<o:p></=
+o:p></span></p></div><div><p class=3D"MsoNormal"><span style=3D"font-size:12=
+.0pt;font-family:&quot;Verdana&quot;,sans-serif">Por fa ind=C3=ADcame cual e=
+s de quien.<o:p></o:p></span></p></div><div><p class=3D"MsoNormal"><span sty=
+le=3D"font-size:12.0pt;font-family:&quot;Verdana&quot;,sans-serif">Por otrol=
+ado, tambi=C3=A9n te comento que no tengo los datos de facturaci=C3=B3n de l=
+a Sra. Mireille.<o:p></o:p></span></p></div><div><p class=3D"MsoNormal"><spa=
+n style=3D"font-size:12.0pt;font-family:&quot;Verdana&quot;,sans-serif"><o:p=
+>&nbsp;</o:p></span></p></div><div><table class=3D"MsoNormalTable" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"399" style=3D"width:299.0pt=
+;border-collapse:collapse"><tbody><tr style=3D"height:15.6pt"><td width=3D"2=
+29" nowrap=3D"" valign=3D"bottom" style=3D"width:172.0pt;border:solid window=
+text 1.0pt;padding:.75pt .75pt 0cm .75pt;height:15.6pt"><p class=3D"MsoNorma=
+l"><span style=3D"font-size:9.0pt;color:black;mso-fareast-language:EN-US">SA=
+LES ESTEVEZ FATIMA<o:p></o:p></span></p></td><td width=3D"55" nowrap=3D"" va=
+lign=3D"bottom" style=3D"width:41.0pt;border:solid windowtext 1.0pt;border-l=
+eft:none;padding:.75pt .75pt 0cm .75pt;height:15.6pt"><p class=3D"MsoNormal"=
+><b><span style=3D"font-size:12.0pt;color:black;mso-fareast-language:EN-US">=
+&nbsp;<o:p></o:p></span></b></p></td><td width=3D"115" nowrap=3D"" valign=3D=
+"bottom" style=3D"width:86.0pt;border:solid windowtext 1.0pt;border-left:non=
+e;padding:.75pt .75pt 0cm .75pt;height:15.6pt"><p class=3D"MsoNormal" align=3D=
+"right" style=3D"text-align:right"><span style=3D"font-size:9.0pt;color:blac=
+k;mso-fareast-language:EN-US">376666534265008<o:p></o:p></span></p></td></tr=
+><tr style=3D"height:15.6pt"><td nowrap=3D"" valign=3D"bottom" style=3D"bord=
+er:solid windowtext 1.0pt;border-top:none;padding:.75pt .75pt 0cm .75pt;heig=
+ht:15.6pt"><p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;color:black=
+;mso-fareast-language:EN-US">SALES ESTEVEZ ISABEL<o:p></o:p></span></p></td>=
+<td nowrap=3D"" valign=3D"bottom" style=3D"border-top:none;border-left:none;=
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;pad=
+ding:.75pt .75pt 0cm .75pt;height:15.6pt"><p class=3D"MsoNormal"><b><span st=
+yle=3D"font-size:12.0pt;color:black;mso-fareast-language:EN-US">&nbsp;<o:p><=
+/o:p></span></b></p></td><td nowrap=3D"" valign=3D"bottom" style=3D"border-t=
+op:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:s=
+olid windowtext 1.0pt;padding:.75pt .75pt 0cm .75pt;height:15.6pt"><p class=3D=
+"MsoNormal" align=3D"right" style=3D"text-align:right"><span style=3D"font-s=
+ize:9.0pt;color:black;mso-fareast-language:EN-US">376666534262013<o:p></o:p>=
+</span></p></td></tr><tr style=3D"height:15.6pt"><td nowrap=3D"" valign=3D"b=
+ottom" style=3D"border:solid windowtext 1.0pt;border-top:none;padding:.75pt .=
+75pt 0cm .75pt;height:15.6pt"><p class=3D"MsoNormal"><span style=3D"font-siz=
+e:9.0pt;color:black;mso-fareast-language:EN-US">SALES ESTEVEZ MA JOSE<o:p></=
+o:p></span></p></td><td nowrap=3D"" valign=3D"bottom" style=3D"border-top:no=
+ne;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid w=
+indowtext 1.0pt;padding:.75pt .75pt 0cm .75pt;height:15.6pt"><p class=3D"Mso=
+Normal"><b><span style=3D"font-size:12.0pt;color:black;mso-fareast-language:=
+EN-US">&nbsp;<o:p></o:p></span></b></p></td><td nowrap=3D"" valign=3D"bottom=
+" style=3D"border-top:none;border-left:none;border-bottom:solid windowtext 1=
+.0pt;border-right:solid windowtext 1.0pt;padding:.75pt .75pt 0cm .75pt;heigh=
+t:15.6pt"><p class=3D"MsoNormal" align=3D"right" style=3D"text-align:right">=
+<span style=3D"font-size:9.0pt;color:black;mso-fareast-language:EN-US">37666=
+6534262013<o:p></o:p></span></p></td></tr><tr style=3D"height:15.6pt"><td no=
+wrap=3D"" valign=3D"bottom" style=3D"border:solid windowtext 1.0pt;border-to=
+p:none;padding:.75pt .75pt 0cm .75pt;height:15.6pt"><p class=3D"MsoNormal"><=
+span style=3D"font-size:9.0pt;mso-fareast-language:EN-US">SALES ESTEVEZ PEDR=
+O<o:p></o:p></span></p></td><td nowrap=3D"" valign=3D"bottom" style=3D"borde=
+r-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-righ=
+t:solid windowtext 1.0pt;padding:.75pt .75pt 0cm .75pt;height:15.6pt"><p cla=
+ss=3D"MsoNormal"><b><span style=3D"font-size:12.0pt;mso-fareast-language:EN-=
+US">&nbsp;<o:p></o:p></span></b></p></td><td nowrap=3D"" valign=3D"bottom" s=
+tyle=3D"border-top:none;border-left:none;border-bottom:solid windowtext 1.0p=
+t;border-right:solid windowtext 1.0pt;padding:.75pt .75pt 0cm .75pt;height:1=
+5.6pt"><p class=3D"MsoNormal" align=3D"right" style=3D"text-align:right"><sp=
+an style=3D"font-size:9.0pt;mso-fareast-language:EN-US">376666534265008<o:p>=
+</o:p></span></p></td></tr></tbody></table></div><div><div><div><div><div><d=
+iv><div><div><div><div><div><div><div><div><div><div><div><div><div><div><di=
+v><div><blockquote style=3D"border:none;border-left:solid #CCCCCC 1.0pt;padd=
+ing:0cm 0cm 0cm 6.0pt;margin-left:4.8pt;margin-top:5.0pt;margin-right:0cm;ma=
+rgin-bottom:5.0pt"><p style=3D"mso-margin-top-alt:0cm;margin-right:23.7pt;ma=
+rgin-bottom:10.0pt;margin-left:21.3pt;text-align:justify"><i>Saludos Cordial=
+es</i><o:p></o:p></p></blockquote><div><p class=3D"MsoNormal" style=3D"margi=
+n-bottom:12.0pt"><span style=3D"border:solid windowtext 1.0pt;padding:0cm"><=
+img border=3D"0" width=3D"200" height=3D"61" style=3D"width:2.0833in;height:=
+.6354in" id=3D"Imagen_x0020_2" src=3D"cid:image002.jpg@01D4F07C.4FE9CB80" al=
+t=3D"Imagen quitada por el remitente."></span><br><br><o:p></o:p></p></div><=
+/div></div></div></div></div></div></div></div></div></div></div></div></div=
+></div></div></div></div></div></div></div></div></div><p class=3D"MsoNormal=
+"><o:p>&nbsp;</o:p></p></div><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><di=
+v><div><p class=3D"MsoNormal">El mi=C3=A9., 10 abr. 2019 a las 17:19, Carla M=
+aass (&lt;<a href=3D"mailto:asistente@salesboyoli.com">asistente@salesboyoli=
+.com</a>&gt;) escribi=C3=B3:<o:p></o:p></p></div><blockquote style=3D"border=
+:none;border-left:solid #CCCCCC 1.0pt;padding:0cm 0cm 0cm 6.0pt;margin-left:=
+4.8pt;margin-top:5.0pt;margin-right:0cm;margin-bottom:5.0pt"><div><div><p cl=
+ass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:aut=
+o">Hola,<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:au=
+to;mso-margin-bottom-alt:auto">&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" s=
+tyle=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">Muy buenas tarde=
+s.&nbsp; Necesito nuevamente de tu apoyo.&nbsp; Me indica el contador que ne=
+cesitamos el cambio de las facturas emitidas este a=C3=B1o.&nbsp; Las colegi=
+aturas que se cobran con la tarjeta de la Sra. Mireille deben de ser factura=
+das con su RFC.&nbsp; Las colegiaturas que se cobran con la tarjeta del Lic.=
+ Jorge deben de ser facturadas con su RFC.&nbsp; Actualmente cobras dos cole=
+giaturas con la tarjeta de Lic. Jorge y dos colegiaturas con las tarjeta de l=
+a Sra. Mireille.&nbsp; Debido a que me cambiaron mi equipo no tengo forma de=
+ verificar como se realizaron las facturas el a=C3=B1o pasado.&nbsp; =C2=BFM=
+e podr=C3=ADas ayudar en revisarlo por favor?<o:p></o:p></p><p class=3D"MsoN=
+ormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&nbsp;<o=
+:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-mar=
+gin-bottom-alt:auto">Quedo en espera de tus comentarios.<o:p></o:p></p><p cl=
+ass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:aut=
+o">&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:a=
+uto;mso-margin-bottom-alt:auto">Gracias y saludos,<o:p></o:p></p><p class=3D=
+"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&nb=
+sp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;ms=
+o-margin-bottom-alt:auto;background:white"><span style=3D"font-size:10.0pt;f=
+ont-family:&quot;Verdana&quot;,sans-serif;color:#001F5F">Atentamente<br></sp=
+an><span style=3D"font-family:&quot;Verdana&quot;,sans-serif;color:#001F5F">=
+_________________</span><o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-m=
+argin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><b><span sty=
+le=3D"font-family:&quot;Verdana&quot;,sans-serif;color:#001F5F">Carla Maass P=
+oirier</span></b><o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-t=
+op-alt:auto;mso-margin-bottom-alt:auto;background:white"><span style=3D"font=
+-size:10.5pt;font-family:&quot;Verdana&quot;,sans-serif;color:#001F5F">Asist=
+ente de Direcci=C3=B3n&nbsp;</span><o:p></o:p></p><p class=3D"MsoNormal" sty=
+le=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><=
+span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif=
+;color:#1F497D">&nbsp;</span><o:p></o:p></p><p class=3D"MsoNormal" style=3D"=
+mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><span l=
+ang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans=
+-serif;color:#001F5F">Email:&nbsp;</span><a href=3D"mailto:asistente@salesbo=
+yoli.com" target=3D"_blank"><span lang=3D"EN-US" style=3D"font-size:10.0pt;f=
+ont-family:&quot;Verdana&quot;,sans-serif;color:#0563C1">asistente@salesboyo=
+li.com</span></a><o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-t=
+op-alt:auto;mso-margin-bottom-alt:auto;background:white"><span lang=3D"EN-US=
+" style=3D"font-size:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;color=
+:#001F5F">Tel: +52 (55) 5292-7444</span><span lang=3D"EN-US" style=3D"font-s=
+ize:10.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:blue">&nbsp;&nbs=
+p;</span><span lang=3D"EN-US" style=3D"font-size:10.0pt;font-family:&quot;Ve=
+rdana&quot;,sans-serif;color:#001F5F">Ext. 205</span><o:p></o:p></p><p class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;b=
+ackground:white"><span lang=3D"EN-US" style=3D"color:#1F497D">&nbsp;</span><=
+o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-ma=
+rgin-bottom-alt:auto;background:white"><span style=3D"color:#1F497D">&lt;ima=
+ge001.png&gt;</span><o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margi=
+n-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><span lang=3D"EN=
+-US" style=3D"color:#1F497D">&nbsp;</span><o:p></o:p></p><p class=3D"MsoNorm=
+al" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:w=
+hite"><span lang=3D"EN-GB" style=3D"font-size:14.0pt;font-family:Webdings;co=
+lor:green">P</span><span lang=3D"EN-GB" style=3D"font-size:14.0pt;font-famil=
+y:&quot;Arial&quot;,sans-serif;color:navy">&nbsp;</span><span lang=3D"EN-US"=
+ style=3D"font-size:10.0pt;color:green">Please consider the environment befo=
+re printing this email.</span><o:p></o:p></p><p class=3D"MsoNormal" style=3D=
+"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font-siz=
+e:9.0pt;font-family:&quot;Verdana&quot;,sans-serif;color:#0563C1;background:=
+white">_____________________________________________________________________=
+_______________________________________</span><o:p></o:p></p><p class=3D"Mso=
+Normal" style=3D"mso-margin-top-alt:auto;margin-bottom:12.0pt;background:whi=
+te"><b><span style=3D"font-size:8.0pt;font-family:&quot;Gill Sans MT&quot;,s=
+ans-serif;color:#17365D">AVISO DE CONFIDENCIALIDAD.</span></b><span style=3D=
+"font-size:8.0pt;font-family:&quot;Gill Sans MT&quot;,sans-serif;color:#1736=
+5D">&nbsp;La Informaci=C3=B3n contenida en este correo y sus archivos anexos=
+ es Restringida,&nbsp;Confidencial y Privilegiada de<b>&nbsp;Sales Boyoli.</=
+b>&nbsp;El uso, distribuci=C3=B3n o copiado de este mensaje o cualquier info=
+rmaci=C3=B3n adjunta est=C3=A1 estrictamente prohibido, tampoco podr=C3=A1 r=
+evelar su contenido a ninguna persona. Si recibe este e-mail&nbsp;por error,=
+ favor de eliminarlo permanentemente y notificar a&nbsp;<b>Sales Boyoli&nbsp=
+;</b>inmediatamente al&nbsp;tel.: +(52) 55 5292-7444.&nbsp;El uso no autoriz=
+ado de este mensaje es considerado como un delito.</span><o:p></o:p></p><p c=
+lass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:au=
+to"><b><span lang=3D"EN-US" style=3D"font-size:7.5pt;font-family:&quot;Verda=
+na&quot;,sans-serif;color:#17365D">CONFIDENTIALITY NOTICE.</span></b><span l=
+ang=3D"EN-US" style=3D"font-size:7.5pt;font-family:&quot;Verdana&quot;,sans-=
+serif;color:#222222">&nbsp;</span><span lang=3D"EN-US" style=3D"font-size:7.=
+5pt;font-family:&quot;Verdana&quot;,sans-serif;color:#17365D">This e-mail an=
+d any attachments thereto are intended only for use by the addressee(s)&nbsp=
+;named herein and may contain privileged and/or confidential information of&=
+nbsp;<b>Sales Boyoli.</b>&nbsp;If you are not the intended recipient of this=
+ e-mail, you are hereby notified any dissemination, distribution or copying o=
+f this e-mail, and any attachments thereto,&nbsp;is strictly prohibited. If y=
+ou receive this e-mail in error please immediately notify&nbsp;<b>Sales Boyo=
+li&nbsp;</b>at +(52) 55 5292-7444 and&nbsp;permanently delete the original c=
+opy and any copy of any e-mail, and any printout thereof. Unauthorized inter=
+ception&nbsp;of this email is a violation of federal criminal law.</span><o:=
+p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-marg=
+in-bottom-alt:auto"><span style=3D"font-size:9.0pt;font-family:&quot;Verdana=
+&quot;,sans-serif;color:#0563C1;background:white">__________________________=
+____________________________________________________________________________=
+______</span><o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-a=
+lt:auto;mso-margin-bottom-alt:auto">&nbsp;<o:p></o:p></p></div></div></block=
+quote></div></div></div></blockquote></div></body></html>=
+
+--Apple-Mail-821AB9EF-AC76-48B5-A55C-75DD3ABED06E
+Content-Type: image/jpeg;
+	name=image002.jpg;
+	x-apple-part-url="image002.jpg@01D4F07C.4FE9CB80"
+Content-Disposition: inline;
+	filename=image002.jpg
+Content-Transfer-Encoding: base64
+Content-Id: <image002.jpg@01D4F07C.4FE9CB80>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/wAALCAA9AMgBAREA/8QAHwAAAQUBAQEB
+AQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1Fh
+ByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZ
+WmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/9oACAEBAAA/APZqKKKKKKKKKKKKKKKK
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK//9k=
+
+--Apple-Mail-821AB9EF-AC76-48B5-A55C-75DD3ABED06E--
+
+--Apple-Mail-A8E72A04-4EDB-4E50-9D45-1038759C2D6A--

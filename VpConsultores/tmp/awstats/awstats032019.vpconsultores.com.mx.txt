@@ -1,0 +1,786 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201903 will be lost/reset.
+# Last config file used to build this data file was /home/m6ftpd01sqhe/tmp/awstats/awstats.vpconsultores.com.mx.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2021                
+POS_TIME 2698                
+POS_VISITOR 20296               
+POS_DAY 24451               
+POS_DOMAIN 3424                
+POS_LOGIN 3801                
+POS_ROBOT 3956                
+POS_WORMS 4576                
+POS_EMAILSENDER 4707                
+POS_EMAILRECEIVER 4850                
+POS_SESSION 25174               
+POS_SIDER 25353               
+POS_FILETYPES 4985                
+POS_DOWNLOADS 5191                
+POS_OS 5239                
+POS_BROWSER 5485                
+POS_SCREENSIZE 6234                
+POS_UNKNOWNREFERER 6308                
+POS_UNKNOWNREFERERBROWSER 6675                
+POS_ORIGIN 6791                
+POS_SEREFERRALS 6928                
+POS_PAGEREFS 7072                
+POS_SEARCHWORDS 7249                
+POS_KEYWORDS 7401                
+POS_MISC 2362                
+POS_ERRORS 7460                
+POS_CLUSTER 3657                
+POS_SIDER_404 7551                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190401012601 28 7741 8840600235845
+FirstTime 20190301002238
+LastTime 20190331235404
+LastUpdate 20190401052438 28 0 27 0 0
+TotalVisits 123                 
+TotalUnique 102                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 108                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 11 45173 3 4 14502
+1 23 23 90643 6 9 20333
+2 5 5 19705 6 14 56664
+3 10 10 39410 2 14 69080
+4 2 3 14499 6 10 36198
+5 7 7 25024 6 12 34771
+6 0 0 0 11 27 58622
+7 4 4 15764 4 19 59020
+8 7 35 699919 9 16 65752
+9 18 77 1577135 51 70 134674
+10 15 15 168719 19 27 44342
+11 1 1 3941 12 17 116774
+12 4 4 34069 16 28 95913
+13 2 2 12541 8 18 47345
+14 4 4 25468 124 264 237240
+15 1 1 3941 5 10 19491
+16 2 2 17586 9 27 114958
+17 12 68 1506047 15 19 48293
+18 16 26 213894 10 21 49737
+19 1 1 3941 14 27 85110
+20 3 3 17586 13 19 57005
+21 5 5 25468 23 35 87962
+22 6 6 23646 7 13 59071
+23 20 32 173857 9 17 34916
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 107 199 2435172
+ca 27 27 306207
+mx 17 91 1874234
+fr 7 7 3941
+cn 6 6 43054
+eu 6 6 21083
+ru 4 4 35172
+zz 1 1 3941
+la 1 1 13645
+ua 1 1 3941
+se 1 1 13645
+cl 1 1 3941
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+Googlebot/ 93 439014 20190331220526 0
+Baiduspider/ 30 118230 20190331234531 0
+YandexBot/ 24 94584 20190331150236 0
+Exabot/ 13 50744 20190329232931 0
+Uptimebot/ 13 0 20190323042404 0
+bingbot/ 12 31980 20190318075657 0
+BLEXBot/ 12 39318 20190304215335 0
+DotBot/ 10 118110 20190330164241 0
+MegaIndex\.ru/ 10 37946 20190326213613 0
+bot[\s_+:,\.\;\/\\-] 8 109160 20190326081408 0
+MJ12bot/ 4 54580 20190326203153 0
+Googlebot\-Image/ 1 84136 20190323114729 0
+AhrefsBot/ 1 3941 20190318054859 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+gif 4 172 0 0
+css 40 59575 0 0
+jpg 33 3126040 0 0
+Unknown 10 125412 0 0
+xml 2 11466 0 0
+png 27 90155 0 0
+html 167 950483 0 0
+js 62 394673 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+macosx11 2 2
+macosx12 18 18
+macosx9 3 3
+winlong 7 7
+Unknown 53 53
+win2000 6 6
+win8.1 2 2
+macosx10 3 3
+linuxandroid 3 3
+winxp 3 2
+linux 89 21
+ios_iphone 55 9
+win10 63 40
+win7 38 10
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 34
+firefox64.0 2 2
+firefox59.0 2 2
+chrome67.0.3396.62 1 1
+chrome36.0.1985.125 3 3
+chrome34.0.1847.116 6 6
+chrome49.0.2623.75 5 5
+chrome23.0.1271.95 1 0
+firefox55.0 1 1
+chrome71.0.3578.98 2 2
+chrome60.0.3112.50 17 5
+msie5.01 6 6
+msie6.0 1 1
+safari12.0 55 9
+chrome11.0.696.3 1 1
+chrome41.0.2228.0 1 1
+chrome61.0.3163.100 13 13
+chrome72.0.3626.121 24 1
+chrome70.0.3538.77 66 10
+chrome66.0.3359.117 3 3
+wap 1 1
+chrome60.0.3112.101 2 2
+chrome72.0.3626.105 1 1
+chrome55.0.2883.75 1 1
+Unknown 24 24
+chrome44.0.2403.89 1 1
+mozilla 28 28
+firefox47.0 2 2
+msie8.0 1 1
+chrome40.0.2214.93 1 1
+chrome67.0.3396.99 1 1
+chrome45.0.2454.94 2 2
+chrome58.0.3029.110 5 5
+chrome66.0.3359.181 30 30
+chrome72.0.3626.119 35 7
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_ips-agent) 20190319233139
+Mozilla/5.0_(compatible;_Wappalyzer) 20190329145531
+Mozilla/5.0_(compatible;_Dataprovider.com) 20190327185401
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20190301161449
+Go-http-client/1.1 20190331235404
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20190331235404
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 163 164
+From1 1 1
+From2 0 0
+From3 1 1
+From4 14 179
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://www.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 477 466030
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 326
+/fckeditor/editor/dtd/fck_dtd_test.html 1 -
+/CuteSoft_Client/CuteEditor/Images/log.gif 1 -
+/kindeditor-min.js 1 -
+/API/DW/Dwplugin/TemplateManage/login_site.htm 1 -
+/admin/login.php 2 -
+/common/common.js 1 -
+/FCK/fckeditor.js 1 -
+/phpmyadmin/docs.css 1 -
+/.well-known/acme-challenge/B4rzGleA39bum8qYlpXXLXRxZXUocKhV4598xotmbu4 1 -
+/pub/skins/pmwiki/pmwiki.css 1 -
+/m 1 -
+/.well-known/acme-challenge/k-C6JMUFnk7DgY1_PRp_u6mW3yDJ5fEMOig8W8j6Eus 1 -
+/public/js/ipb.js 1 -
+/template/home.htm 1 -
+/system/Login.aspx 1 -
+/phpmyadmin/ 1 -
+/admin/js/IdSUtil.js 1 -
+/changelog.txt 1 -
+/base/login/login.php 1 -
+/images/login9/login_33.jpg 1 -
+/Public/Admin/Images/login_main_bg.jpg 1 -
+/script/login.js 1 -
+/Images/login/lefttu.jpg 1 -
+/CuteSoft_Client/CuteEditor/Help/default.htm 1 -
+/Admin/Login.aspx 1 -
+/ks_inc/ajax.js 1 -
+/.well-known/acme-challenge/CY14Vjp4J3pHqg-KcIXygPS2uaZ6dy1fOcl0owNvHck 1 -
+/js/buttons.js 1 -
+/custom/SkinTemplate/skin/public/images/sys-logo-1caitong-180.jpg 1 -
+/app/images/login/toplogo.gif 1 -
+/cgi/index.cgi 1 -
+/admin/admin_login.php 1 -
+/rss.aspx 1 -
+/.well-known/acme-challenge/-0VJOW7YWGio6cW8WSeaz4jH7ighrohK9zYIqMGg2qI 1 -
+/asp.net/README.txt 1 -
+/API/DW/Dwplugin/TemplateManage/manage_site.htm 1 -
+/admin/ 1 -
+/adminsoft/templates/images/login_bg_top.jpg 1 -
+/.well-known/acme-challenge/Om1hM8dwnyFRehXJsb4fQ8ZI4vJxKj9WpaSnAYMi0QQ 1 -
+/plugins/filemanager/filemanager/js 1 -
+/.well-known/acme-challenge/MI54rxgU1aG6SrA5HReCv-r0tw8IAjTrdnpwrmpyCFY 1 -
+/common/help/images/helplogo.gif 1 -
+/include/dialog/config.php 1 -
+/.well-known/autoconfig/mail/config-v1.1.xml 1 -
+/images/login/logo.gif 1 -
+/.well-known/acme-challenge/6dnjFwt9NabeH041NwQYxiV_JosQbLv2A1BXgmEFhYI 1 -
+/.well-known/acme-challenge/1KTQhjBIZgP3dqjYhZaIHN5JBXdQ5sjhQ1OlM8mwAR4 1 -
+/images/branding/logo.gif 1 -
+/.well-known/acme-challenge/suO23WkJgBTv1_seoxQNeFZ36AKYdZfwE8oYgm4ggQc 1 -
+/ckfinder/ckfinder.html 1 -
+/bbs/ 1 -
+/forum.php 1 -
+/.well-known/acme-challenge/e9cxFvAN0Yt5KBk-M0CYKdDKCSf0HQpvlAU7E5kd98g 1 -
+/administrator/manifests/files/joomla.xml 1 -
+/phpmyadmin/themes/original/img/logo_right.png 1 -
+/index.cgi 1 -
+/readme.html 1 -
+/rss.php 1 -
+/templates/system/css/system.css 1 -
+/console/auth/reg_newuser.jsp 1 -
+/static/images/logo/webserver_small.gif 1 -
+/themes/default/default.css 1 -
+/.well-known/acme-challenge/AAvrmZGzACMMHjwOe5PXIPkCFKlTXU7orX_q-eXSS1Y 1 -
+/test_404_page/ 1 -
+/.well-known/acme-challenge/rvc6VUF-jbi7AUy35j62o-c6vsAT4CxsZ9ZStUAk0Mw 1 -
+/.well-known/acme-challenge/5ilEyOj-eyVAVbI-_hqVMepCDDfgk9TE3oryTYzyuPA 1 -
+/.well-known/acme-challenge/Y4vf0qpqOAnKZjvvPqFYp1mlv1FCaSXtcBV1WVqpRQ0 1 -
+/images/2_11.gif 1 -
+/.well-known/acme-challenge/imFUzUpbG4HGfMDFiw4uU-bszSsziBgzWbrqAR4vYSE 1 -
+/admin/SouthidcEditor/Dialog/dialog.js 1 -
+/.well-known/acme-challenge/mDsHJIgK6Y0V5WConwHfxLSe1YfpUN4LIWIbLiSla3M 1 -
+/list.php 1 -
+/examples/readonly.html 1 -
+/ids/admin/userhome/forgetPwd.jsp 1 -
+/includes/general.js 1 -
+/lang/en.js 1 -
+/wp-content 1 -
+/temp.php 1 -
+/img/pic/login/top-left.jpg 1 -
+/whir_system/login.aspx 1 -
+/advfile/ad12.js 1 -
+/auth/login 1 -
+/admin/inc/xml.xslt 1 -
+/wp/wp-content/themes/AdvanceImage5/functions.php 1 -
+/.well-known/acme-challenge/KQ0dtIZuM4skjSJgVpuyMiSSjcE1z33tr29M1d6EGIU 1 -
+/datacenter/downloadApp/showDownload.do 1 -
+/forums/list.page 1 -
+/CuteSoft_Client/CuteEditor/Style/IE.css 1 -
+/wp-admin/setup-config.php 1 -
+/Install/logo.gif 1 -
+/admin/SouthidcEditor/ewebeditor.asp 1 -
+/.well-known/acme-challenge/Ufnvd_uvz6pEmr9uMlTHj4y904eo6s2AMlgeWwG_JjU 1 -
+/.well-known/acme-challenge/sOTaPpwm_LhP-_vGIGbpaAICui15QNHSsf8uPJHqLIY 1 -
+/wcm/ 1 -
+/6801/ 1 -
+/console/include/not_login.htm 1 -
+/API/DW/Dwplugin/TemplateManage/save_template.htm 1 -
+/fckeditor/editor/js/fckeditorcode_ie.js 1 -
+/plugin.php 1 -
+/include/dedeajax2.js 1 -
+/nobody/mobile.htm 1 -
+/API/DW/Dwplugin/SystemLabel/SiteConfig.htm 1 -
+/app/images/login/logo.png 1 -
+/help/ch_gb/images/help-title.gif 1 -
+/404.jpg 1 -
+/.well-known/acme-challenge/l_EZudord3-Sos_OMZf6GXjjDQoXUGi8FOrxflY0eWM 1 -
+/.well-known/acme-challenge/O7wxHFCLWvRYCVOW5lXJzJ8bh1K4i8WNX8saB6nDdZM 1 -
+/feed.asp 1 -
+/member/space/company/info.txt 1 -
+/Admin/Images/LoginImages/admin_text.gif 1 -
+/.well-known/acme-challenge/u5nZUQynVTxNJr2NWNAsLQHfvwtdI_PGB1ZY4c57BT4 1 -
+/maintlogin.jsp 1 -
+/.well-known/acme-challenge/CwH438seYvrnT8uqSqCqmFUc7mu9DqqccGLBVOh4Rmg 1 -
+/media/com_hikashop/js/hikashop.js 1 -
+/old/wp-content/themes/AdvanceImage5/functions.php 1 -
+/bencandy.php 1 -
+/editor/fckeditor.js 1 -
+/Admin/Common/HelpLinks.xml 1 -
+/.well-known/acme-challenge/k5iO9BZDmTAZGoPYLS_fy0vs5_UjFYTmNCZu6pQlYOw 1 -
+/fckeditor/license.txt 1 -
+/tools/rss.aspx 1 -
+/inc/Templates/rss.xslt 1 -
+/.well-known/acme-challenge/j6zmZtfwmRlSsFjeGmyWSv8Sm-veXlNSB1P9AErHqpU 1 -
+/images/default/post_bt.gif 1 -
+/Search.html 1 -
+/max-templates/classic/styles/app.css 1 -
+/images/login/eyoumail.gif 1 -
+/admin/start/index.php 1 -
+/skin/frontend/default/modern/css/styles.css 1 -
+/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+/.well-known/acme-challenge/WH96vxWdPxWP5nT5yFHdUzRNuobzEC3df-mkPH9zO98 1 -
+/6801/6822.html 2 -
+/default/css/em_css.css 1 -
+/API/DW/Dwplugin/ThirdPartyTags/SiteFactory.xml 1 -
+/.well-known/acme-challenge/mhX8cxLbf96wjFiT61S6WSr7eB3pOzuwcOCQlsIedas 1 -
+/wp-admin/admin-ajax.php 1 -
+/editor/js/fckeditorcode_ie.js 1 -
+/include/install_ocx.aspx 1 -
+/Site/SystemThemes/7917A0869761B5458281E407AE0090F5/Images/ISBanner58px.jpg 1 -
+/fckeditor/fckeditor.js 1 -
+/webbuilder/script/locale/wb-lang-zh_CN.js 1 -
+/index.php 5 -
+/.well-known/acme-challenge/DTB--kxxtUnkwqi1iwxtNpDJAv4rtuNirxgQPkOUq7M 1 -
+/was/main.html 1 -
+/eams/static/scripts/grade/course/input.js 1 -
+/Wq_StranJF.js 1 -
+/Scripts/jquery/maticsoft.jquery.min.js 1 -
+/inc/playerKinds.xml 1 -
+/was5/web/index.jsp 1 -
+/siteserver/upgrade/default.aspx 1 -
+/.well-known/acme-challenge/1IvQkMU_rFslHR_AQLFuFxjIQfS9K0XM3HrO2MXLTLU 1 -
+/dialog/dialog.js 1 -
+/images/zh-CN/logo.ico 1 -
+/fckeditor.js 1 -
+/ckfinder/install.txt 1 -
+/.well-known/acme-challenge/W0N0ufj75LOEFsKSZAh1iAsG7HuTOFoj0aR1CrFXhg8 1 -
+/.well-known/acme-challenge/2WV1REg2Gg9QkrYi_N1cF-DZ3rYPvFLS9VmpVlln-sg 1 -
+/style/default/hdwiki.css 1 -
+/history.txt 1 -
+/addons/theme/stv2/_static/ts2/layout.css 1 -
+/plus/heightsearch.php 1 -
+/deptWebsiteAction.do 1 -
+/.well-known/acme-challenge/dbrYd_9FHsVMPLGg-vUQr5EDplm4KvSGA9n2giDTnxg 1 -
+/issmall/ 1 -
+/.well-known/acme-challenge/eSTCHb-htryGuRSeGg7hJ7XSA536826HuCMrVrQ7yA4 1 -
+/system/skins/default/system.login.htm 1 -
+/wp-cron.php 1 -
+/images/logo-white.png 1 -
+/themes/default/graphics/horde-power1.png 1 -
+/.well-known/acme-challenge/R4abLS7gJf5OaInMR6u20NmrE7qNacaxNxa6aw9Z5Jc 1 -
+/plugins/anchor/anchor.js 1 -
+/.well-known/acme-challenge/GqXpFTLSJksLsNNxv0wHht__mj3sNAKyV-WMjEpW_r4 1 -
+/public/about.html 1 -
+/1801.html 4 -
+/Help 1 -
+/app/Tpl/fanwe_1/js/DD_belatedPNG_0.0.8a-min.js 1 -
+/archive/archive.css 1 -
+/.well-known/acme-challenge/H3DOpXyxP35zhDCZTCBb241cwPhdA8hLaXbgHz23l1A 1 -
+/archiver/ 1 -
+/doku.php 1 -
+/console/js/CTRSRequestParam.js 1 -
+/6801/6843.html 3 -
+/.well-known/acme-challenge/esC-t427axQcmwLKr7Y7qlXcegKyA4quvZSDVFBRy3Q 1 -
+/admin/template/article_more/config.htm 1 -
+/api/api_user.xml 1 -
+/images/logo_product-cml.png 1 -
+/.well-known/acme-challenge/sCUKR_0CEFbsGb0Gl5PDsF54gwXmc-ynenuCgQ2I18M 1 -
+/.well-known/acme-challenge/6vD_UekG4Ji0l9nYxHNJgelGVuT9nyTCbzoajEfDYNY 1 -
+/jcms/index_jcms.jsp 1 -
+/.well-known/acme-challenge/S2a64so9iCJdGwNRvRXAjB1aGJ5vZAOZ23BDyTLYs8U 1 -
+/next/img/logo.gif 1 -
+/web2/login_template/1.files/Logo1.jpg 1 -
+/logo/logo_jw.png 1 -
+/Site/Pages/WebResources.ashx/PoweredByKodakImage 1 -
+/js/ajax_x.js 1 -
+/Admin/Images/LoginImages/admin_top.gif 1 -
+/.well-known/acme-challenge/8SOuUOWd2IUJhebcfjebI2a-CQzc1x_t-bsemO6nz3I 1 -
+/uc_server/control/admin/db.php 1 -
+/plug/publish 1 -
+/script/valid_formdata.js 1 -
+/CuteSoft_Client/CuteEditor/ImageEditor/listfiles.aspx 1 -
+/system/Update.aspx 1 -
+/.well-known/acme-challenge/ZsEYM1qSK5XjjX9N5NYpcDw8hbJzcSnNGmTOsoN-XDY 1 -
+/images/logo_88x31.gif 1 -
+/images/Default_bg_002.gif 1 -
+/examples/file-manager.html 1 -
+/README.txt 1 -
+/webmail.com 1 -
+/.well-known/acme-challenge/IlTtjdM_lg1BK7MoYZjNXdKEH9S_rnEIqSoemF9x9ro 1 -
+/plus/rssmap.html 1 -
+/plus/download.php 1 -
+/ckeditor/ckfinder/ckfinder.html 1 -
+/Images/login/mainlogo.gif 1 -
+/tpl/login/user/images/login_bg_1.jpg 1 -
+/wordpress/wp-content/themes/AdvanceImage5/functions.php 2 -
+/master/login.aspx 1 -
+/images/login/icon-up.gif 1 -
+/robots.txt 118 -
+/docs/ 1 -
+/.well-known/acme-challenge/d3wa3jVocOdEepM7awW_vKO_wQTWfTYg-J7hJhshh30 1 -
+/.well-known/acme-challenge/KvWPK21ZLICS6evecQCmmk2rDhjfZxRiAqmvLNthfLc 1 -
+/archiver 1 -
+/app/home/skins/default/style.css 1 -
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/.well-known/acme-challenge/1iuTI0jo1CyiyGaAhGkSljxhYkYWILFomUJZoj1vPSA 1 -
+/Images/login/biaoti.jpg 1 -
+/License.txt 1 -
+/Editor.js 1 -
+/.well-known/security.txt 1 -
+/node/1 2 -
+/clientscript/vbulletin_ajax_htmlloader.js 1 -
+/back/scripts/jspxcms_choose.js 1 -
+/jcms/index.jsp 1 -
+/wp/wp-login.php 1 -
+/blog/ 1 -
+/was/help.jsp 1 -
+/.well-known/acme-challenge/9sFW1podnO_t3CTfmkQeykqhgXpwpVhDypmlsmXbgQw 1 -
+/Include/EcsServerApi.js 1 -
+/ids/admin/login.jsp 1 -
+/weblog/ 1 -
+/help/en/h_authenticate.html 1 -
+/siteserver/login.aspx 1 -
+/licence.txt 1 -
+/license.txt 1 -
+/addons/theme/stv1/_static/ts2/layout.css 1 -
+/forum/ 1 -
+/Ntalker/lawfirm.aspx 1 -
+/app/login.jsp 1 -
+/ckeditor/ckfinder/install.txt 1 -
+/ymail/images/index_r1_c4.jpg 1 -
+/docs.css 1 -
+/admin/index.php 1 -
+/e/master/login.aspx 1 -
+/.well-known/acme-challenge/m6RBK9EvOF0nMafNnEfOdtwvAW3wY-6dF_w9la_xaL4 1 -
+/.well-known/acme-challenge/nAEtNCm5HjiIWwtJ2QHl9Emi7qCRvJzpzkp1OHmR7JY 1 -
+/data/admin/ver.txt 1 -
+/pub/guiedit/guiedit.js 1 -
+/coremail/common/help/images/helplogo.gif 1 -
+/.well-known/acme-challenge/Z5XYnlKFMFokuvpGrp-cPeqeyjz_uDzJVwmss1_aClk 1 -
+/wp-login.php 3 -
+/business/images/index-gg1.jpg 1 -
+/images/login_Name.jpg 1 -
+/fckeditor/fckconfig.js 1 -
+/extman/default/images/logo.gif 1 -
+/ads.txt 3 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/extern.php 1 -
+/.well-known/acme-challenge/dUUy1NhUOBWrtvcxalwpIghGyzYcxVm2OwlKY3zdXbU 1 -
+/tpl/user/tpl1/css/skins/blue.css 1 -
+/Error.aspx 1 -
+/1852.html 2 -
+/template/1/bluewise/_files/jspxcms.css 1 -
+/User/Login.aspx 1 -
+/docs/DOCUMENTATION.txt 1 -
+/system/language/zh-cn.xml 1 -
+/imagesschool/style1/flash2.jpg 1 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 1 -
+/digg.php 1 -
+/help/user/index.html 1 -
+/default/images/logo.gif 1 -
+/.well-known/acme-challenge/09xD14IYglDgzjtOaXhyOYzSOeZ1oK6Hr93acDs7Y-E 1 -
+/new_gb/help/images/usage/3.3.gif 1 -
+/.well-known/acme-challenge/ZN4mPD-1CQ2Sde5YAJNAqa7yyHAw_-B1vSElF3fqxuM 1 -
+/admin 1 -
+/customdir/images/english_logo.jpg 1 -
+/admin.php 2 -
+/themes/graphics/horde-power1.png 1 -
+/examples/index.html 1 -
+/wordpress/wp-content/plugins/ubh/up.php 2 -
+/plus/sitemap.html 1 -
+/install 1 -
+/.well-known/acme-challenge/MFeRbUjKJvc9lNxC9Uy4lGpqpJcSCI7dRlUPcffCGeo 1 -
+/apps/admin/_static/image/login_box_bg.png 1 -
+/CHANGELOG.txt 1 -
+/admin/images/cal_date_over.gif 1 -
+/.well-known/acme-challenge/6-nqERv7kETgshFYP2tkuaB8rSbtyEhHYAMo3TmvSY8 1 -
+/Prompt/images/P_Wrong.gif 1 -
+/.well-known/acme-challenge/1YzrX8QgQ2o2Q6ZJ2LfUBrafOe-EpTZIM_IQKrbwUo0 1 -
+/admin/login.aspx 1 -
+/.well-known/acme-challenge/gDqKVH3xvIgxfsGgWAQ_phgbzAeNkewCwoM2-_kAk7E 1 -
+/.well-known/acme-challenge/F627IpaIxSapp_0DBr2wpM_sFmfSP-iyWT5aGuT5pHQ 1 -
+/console/js/CWCMDialogHead.js 1 -
+/null 8 http://vpconsultores.com.mx/
+/.well-known/acme-challenge/Yn3n8evoWQISKcP-vin7mLxA8faSycrmCDeYFnTUtAM 1 -
+/kindeditor.js 1 -
+/templates/jsn_glass_pro/ext/hikashop/jsn_ext_hikashop.css 1 -
+/login/Jeecms.do 1 -
+/data/images/wap_logo.gif 1 -
+/stylesheet.css 1 -
+/images/hwem.css 1 -
+/wp-content/themes/AdvanceImage5/functions.php 2 -
+/coremail/common/help/images/helplogo_zh.gif 1 -
+/app/js/source/wcmlib/WCMConstants.js 1 -
+/6801/index.html 7 -
+/admin/SouthidcEditor/ButtonImage/standard/componentmenu.gif 1 -
+/admin/login.asp 1 -
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/ckeditor/ckeditor.js 1 -
+/.well-known/acme-challenge/z5gz7yGg6Q4ORcRhzTDFF0ktP6EARxDl6iCW3HCRuiI 1 -
+/common/help/images/helplogo_zh.gif 1 -
+/.well-known/acme-challenge/ZC5RuGsqFH06fePjnkzOlG3b8eti6Yjpzv_-prlSnqo 1 -
+/admin/editor/ 1 -
+/inc/rsd.php 1 -
+/whir_system/module/security/login.aspx 1 -
+/static/hgicon.png 1 -
+/Template/Default/Skin/user/images/login_back.jpg 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 108
+167.114.209.38 13 13 151133 20190327185402
+52.53.201.78 13 13 51233 20190330214915
+158.69.27.211 13 13 151133 20190325104102
+104.192.74.197 10 66 1488461 20190311170441
+178.62.74.6 6 6 21083 20190329050314
+188.165.200.217 6 6 0 20190330204901
+18.222.121.19 5 17 70599 20190307230716
+200.68.129.121 5 31 810354 20190325095939
+69.58.178.59 3 3 36558 20190319233139
+187.167.182.100 3 3 37622 20190301091839
+125.64.94.208 3 3 11823 20190302140851
+189.208.19.11 3 31 648651 20190304083627
+187.237.14.237 3 13 293703 20190325095806
+66.102.7.139 2 2 25082 20190307085201
+96.44.178.68 2 2 27290 20190323000417
+60.191.38.77 2 2 27290 20190318204749
+66.102.7.137 2 2 25082 20190306085022
+34.213.68.56 1 1 3941 20190323015213
+34.221.40.122 1 1 3941 20190324232821
+173.252.127.40 1 4 9680 20190319094815
+34.221.149.152 1 1 3941 20190310233645
+187.221.62.1 1 11 58820 20190326181757
+216.145.11.94 1 1 3941 20190323090408
+54.191.69.239 1 1 3941 20190309234912
+198.143.158.82 1 1 3941 20190322222925
+173.252.127.12 0 2 3092 
+181.214.30.111 1 1 3941 20190314000504
+31.184.238.11 1 1 13645 20190302082635
+34.213.85.67 1 1 3941 20190313020639
+62.102.148.69 1 1 13645 20190329145531
+52.12.116.8 1 1 3941 20190304011006
+35.163.9.232 1 1 3941 20190306230224
+34.211.151.169 1 1 3941 20190330010526
+172.104.182.103 1 1 3941 20190329102820
+35.166.203.81 1 1 3941 20190316015806
+34.222.81.4 1 1 3941 20190301002238
+107.6.183.162 1 1 3941 20190310114158
+34.220.79.41 1 1 3941 20190317010007
+54.185.122.167 1 1 3941 20190303220119
+18.237.255.250 1 1 3941 20190301041742
+34.221.106.153 1 1 3941 20190331032929
+54.185.118.102 1 1 3941 20190306015822
+54.191.133.233 1 1 3941 20190305010330
+34.209.84.191 1 1 3941 20190319025504
+91.204.196.40 1 1 3941 20190303071831
+54.187.147.169 1 1 3941 20190331235404
+52.39.97.132 1 1 3941 20190311233549
+34.221.168.46 1 1 3941 20190321013533
+34.208.227.12 1 1 3941 20190329014013
+54.189.104.209 1 1 3941 20190305221402
+202.137.134.40 1 1 13645 20190331104837
+34.209.251.83 1 1 3941 20190312012513
+209.97.144.55 1 1 13645 20190301161449
+38.145.91.207 1 1 3941 20190328014431
+178.171.17.102 1 1 3941 20190306172850
+34.219.140.250 1 1 3941 20190309212454
+18.236.159.174 0 1 6617 
+54.187.179.155 1 1 3941 20190311013605
+52.13.50.39 1 1 3941 20190316001728
+52.33.154.225 1 1 3941 20190317012350
+54.203.0.218 1 1 3941 20190308013701
+34.215.88.156 1 1 3941 20190329231354
+178.171.41.115 1 1 3941 20190321033342
+34.217.119.239 1 1 3941 20190315034141
+54.202.248.67 1 1 3941 20190321233727
+173.252.127.23 0 2 15950 
+66.102.7.141 1 1 12542 20190308090523
+64.135.127.46 1 1 13645 20190326122206
+173.252.127.35 0 3 20603 
+187.237.25.12 1 1 12542 20190301092340
+54.218.59.233 1 1 3941 20190306200521
+54.71.76.180 1 1 3941 20190325013524
+34.219.37.13 1 1 3941 20190329030426
+54.213.29.78 1 1 3941 20190314034139
+54.218.71.147 1 1 3941 20190302010035
+173.252.127.8 0 4 25121 
+54.188.192.224 1 1 3941 20190313032911
+34.212.38.123 1 1 3941 20190323011804
+167.114.226.133 1 1 3941 20190320002511
+59.56.241.218 1 1 3941 20190303231329
+187.221.98.147 1 1 12542 20190301123027
+54.68.119.218 1 1 3941 20190325090010
+34.220.213.95 1 1 3941 20190307010845
+54.149.80.231 1 1 3941 20190318015207
+10.39.129.45 1 1 3941 20190311231437
+173.252.127.27 0 9 324103 
+54.187.122.236 1 1 3941 20190327010753
+34.219.19.170 1 1 3941 20190318003442
+34.219.202.215 1 1 3941 20190331004509
+18.237.107.237 1 1 3941 20190321030257
+91.79.10.121 1 1 13645 20190328235809
+52.89.60.118 1 1 3941 20190314023905
+18.231.162.139 1 1 3941 20190306073312
+34.220.254.157 1 1 3941 20190304222222
+54.68.253.93 1 1 3941 20190303012758
+34.219.237.245 1 1 3941 20190301020133
+34.214.184.85 1 1 3941 20190326021915
+54.149.60.185 1 1 3941 20190301225037
+94.23.208.210 1 1 3941 20190306212551
+66.240.236.119 1 1 13645 20190305235811
+34.221.205.39 1 1 3941 20190320012510
+35.166.31.27 1 1 3941 20190324031046
+35.163.213.129 1 1 3941 20190309011152
+216.145.14.142 1 1 3941 20190302071712
+54.224.25.232 1 1 3941 20190302045615
+52.10.204.70 1 1 3941 20190322001735
+138.197.152.92 1 1 0 20190331213627
+34.219.91.33 1 1 3941 20190326223943
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20190301 10 11 98732 8
+20190302 7 7 37291 5
+20190303 5 5 19705 5
+20190304 7 35 669074 5
+20190305 5 5 38009 5
+20190306 7 7 36187 7
+20190307 8 20 91022 4
+20190308 2 2 16483 2
+20190309 4 4 11823 4
+20190310 3 3 11823 3
+20190311 14 70 1513929 5
+20190312 2 2 7882 2
+20190313 2 2 7882 2
+20190314 4 4 15764 4
+20190315 2 2 3941 2
+20190316 2 2 7882 2
+20190317 3 3 11823 3
+20190318 3 3 21527 3
+20190319 6 29 442989 4
+20190320 4 4 21527 4
+20190321 5 5 19705 5
+20190322 2 2 7882 2
+20190323 4 4 25468 4
+20190324 3 3 11823 3
+20190325 24 60 1263072 6
+20190326 5 15 84288 5
+20190327 14 14 155074 2
+20190328 3 3 21527 3
+20190329 11 11 50492 6
+20190330 3 3 7882 3
+20190331 5 5 25468 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+2mn-5mn 1
+0s-30s 119
+30s-2mn 2
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/ 126 663059 113 107
+/webmail 10 125412 8 8
+/contacto.html 8 59102 1 4
+/areas.html 6 40179 0 2
+/equipo.html 6 33482 0 1
+/nuestrafirma.html 5 29208 1 0
+/oficinas.html 5 29814 0 0
+/inforaymundo.html 4 28024 0 1
+/infopaty.html 4 27482 0 0
+/aviso.html 3 40133 0 0
+/sitemap.xml 2 11466 0 0
+END_SIDER

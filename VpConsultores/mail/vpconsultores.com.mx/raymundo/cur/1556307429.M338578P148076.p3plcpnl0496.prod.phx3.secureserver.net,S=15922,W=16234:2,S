@@ -1,0 +1,312 @@
+Return-Path: <jose.granados@landtechs.net>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id cDQVFOVdw1xsQgIAFq4nlA
+	(envelope-from <jose.granados@landtechs.net>)
+	for <raymundo@vpconsultores.com.mx>; Fri, 26 Apr 2019 12:37:09 -0700
+Return-path: <jose.granados@landtechs.net>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Fri, 26 Apr 2019 12:37:09 -0700
+Received: from mail-oi1-f180.google.com ([209.85.167.180]:46595)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <jose.granados@landtechs.net>)
+	id 1hK6ee-000jw5-9y
+	for raymundo@vpconsultores.com.mx; Fri, 26 Apr 2019 12:37:09 -0700
+Received: by mail-oi1-f180.google.com with SMTP id l12so3804564oie.13
+        for <raymundo@vpconsultores.com.mx>; Fri, 26 Apr 2019 12:36:44 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=landtechs.net; s=google;
+        h=return-receipt-to:from:mime-version:thread-index
+         :disposition-notification-to:date:message-id:subject:to;
+        bh=tVkKxGDSv2T5kamJAdfub2EvhMSi0qrb4Q5vy95RasM=;
+        b=S/Cmsn3YSTnhjTgRbuPd5jar4Khy3AEmFBEWdoq1v9BfJ4Mtmbqt37XsWqL9maJdNi
+         NMscdQ19OW2RrNYhIxSZbQgQWJiLP5pMJBmMJkX7PHusc1EsRULdvTY++6N90+riCV9S
+         aLlMXjs5eu7rtKMzu9upeMfFtYPB5/Vdhgc9A=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:return-receipt-to:from:mime-version:thread-index
+         :disposition-notification-to:date:message-id:subject:to;
+        bh=tVkKxGDSv2T5kamJAdfub2EvhMSi0qrb4Q5vy95RasM=;
+        b=qHPv1R/cUQZb7/+Ra7J6keLSKTp8RKqRZJ2mNu3I90gfH0Ya0KDs4nUFGb3pAJfgOm
+         tLqf2NGzejSrfXvu9a7axst3tfGLdFyH61FugV74OyF+UyuWdm5Wkd6V7BIIrsSUd/yd
+         kme8bE4FFLYA9MaVRsFlvlyHUc8yZeezSV0DYng3OE9n3HzyeDaj7ixdY4OWp5FeQBwm
+         Y5gp5EsXpYt348WEU6jbyVVlEaDFIHT2D2U2Oq/nNGFr9toxNxqu2x+3mPH6BEI2Wd3H
+         aeGU0dOfWI0IDU3xjTnnP34AvN57WCGHoi92tWcOSSoyQpGqpDx2L7M2l766CJ3MPCo9
+         DaWQ==
+X-Gm-Message-State: APjAAAWqOFpb0AU0znyaqHZmIU8Awb8UIxZvC7ffuqr9zpCZrhlzuJ+t
+	d1aAjCQbj4DnzDb9fYSn+qk/yGAZ8ni8rP7XGY3iPA==
+X-Google-Smtp-Source: APXvYqyaoPjZ3IKUnznVxoKvinrlOTZwUJwtSjFEnC1N6iHi7UdWrSzKtytvH1mJBMTRmM7GmFu1wfq0zbf1FfUUQ7c=
+X-Received: by 2002:aca:b505:: with SMTP id e5mr2879060oif.136.1556307383161;
+ Fri, 26 Apr 2019 12:36:23 -0700 (PDT)
+Return-Receipt-To: "Jose Luis Granados" <jose.granados@landtechs.net>
+From: Jose Luis Granados <jose.granados@landtechs.net>
+MIME-Version: 1.0
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AdT8Zs0oEE+gWDe8RHCCCG6uLRsprA==
+Disposition-Notification-To: "Jose Luis Granados" <jose.granados@landtechs.net>
+Date: Fri, 26 Apr 2019 14:36:21 -0500
+Message-ID: <1f5be361ca5c6508a4f64c293e887a3b@mail.gmail.com>
+Subject: Transferencia Bancaria
+To: patricia@vpconsultores.com.mx, raymundo@vpconsultores.com.mx
+Content-Type: multipart/related; boundary="000000000000bc4e4c0587740cdd"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Hola Buenas Tardes, Acabo de realizer una transferencia de
+    150 mil pesos, para cubrir sus honorarios que les debo y tener un poco de
+    reservas para empezar las operaciones. Solo si me pueden confirmar cuando
+    vean la trans [...] 
+ 
+ Content analysis details:   (-0.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: landtechs.net]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: landtechs.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+--000000000000bc4e4c0587740cdd
+Content-Type: multipart/alternative; boundary="000000000000bc4e4a0587740cdc"
+
+--000000000000bc4e4a0587740cdc
+Content-Type: text/plain; charset="UTF-8"
+
+Hola Buenas Tardes,
+
+
+
+Acabo de realizer una transferencia de 150 mil pesos, para cubrir sus
+honorarios que les debo y tener un poco de reservas para empezar las
+operaciones. Solo si me pueden confirmar cuando vean la transferencia en la
+cuenta de LAND Mexico.
+
+
+
+Entre otras cosas, ya fue Gerardo a llevarle las cosas que le pedimos? Y la
+otra es Guillermo Ramos es quien va a ser nuestro nuevo socio en Mexico.
+
+
+
+Cualquier duda o pregunta me avisan por favor.
+
+
+
+Gracias,
+
+
+
+[image: cid:image001.jpg@01D300BA.758B0B00]
+
+*Jose Luis Granados*
+
+LAND
+
+8025 Excelsior Drive Suite 104
+
+Madison, WI 53717
+
+
+
+608.960.4620 office
+
+262.325.7360 mobile
+
+josegranados.landtechs skype
+
+
+
+http://www.landtechs.net
+
+
+
+CONFIDENTIAL NOTICE:
+
+*This email and any files transmitted with it are confidential and intended
+solely for the use of the individual or entity to whom they are addressed.
+If you have received this email in error please notify the system manager.
+This message contains confidential information and is intended only for the
+individual named. If you are not the named addressee you should not
+disseminate, distribute or copy this e-mail. Please notify the sender
+immediately by e-mail if you have received this e-mail by mistake and
+delete this e-mail from your system. If you are not the intended recipient
+you are notified that disclosing, copying, distributing or taking any
+action in reliance on the contents of this information is strictly
+prohibited.*
+
+--000000000000bc4e4a0587740cdc
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dus-ascii"><meta name=3D"Generator" content=3D"Microsoft Word 15 (filtere=
+d medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72"><=
+div class=3D"WordSection1"><p class=3D"MsoNormal">Hola Buenas Tardes,</p><p=
+ class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal">Acabo de realizer una=
+ transferencia de 150 mil pesos, para cubrir sus honorarios que les debo y =
+tener un poco de reservas para empezar las operaciones. Solo si me pueden c=
+onfirmar cuando vean la transferencia en la cuenta de LAND Mexico.</p><p cl=
+ass=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal">Entre otras cosas, ya fu=
+e Gerardo a llevarle las cosas que le pedimos? Y la otra es Guillermo Ramos=
+ es quien va a ser nuestro nuevo socio en Mexico.</p><p class=3D"MsoNormal"=
+>=C2=A0</p><p class=3D"MsoNormal">Cualquier duda o pregunta me avisan por f=
+avor.</p><p class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal">Gracias,</=
+p><p class=3D"MsoNormal">=C2=A0</p><p class=3D"MsoNormal" style=3D"margin-b=
+ottom:12.0pt"><img width=3D"175" height=3D"48" style=3D"width:1.824in;heigh=
+t:.5in" id=3D"Picture_x0020_1" src=3D"cid:image001.jpg@01D4FC3D.6B09B570" a=
+lt=3D"cid:image001.jpg@01D300BA.758B0B00"></p><p class=3D"MsoNormal"><b><sp=
+an style=3D"font-size:10.0pt;color:#666666">Jose Luis Granados</span></b></=
+p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#666666">LAN=
+D</span></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#6=
+66666">8025 Excelsior Drive Suite 104</span></p><p class=3D"MsoNormal"><spa=
+n style=3D"font-size:10.0pt;color:#666666">Madison, WI 53717</span></p><p c=
+lass=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#666666">=C2=A0</s=
+pan></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#1f386=
+4">608.960.4620 </span><span style=3D"font-size:10.0pt;color:#666666">offic=
+e</span></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;color:#1=
+f3864">262.325.7360</span><span style=3D"font-size:10.0pt;color:#666666"> m=
+obile</span></p><p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;colo=
+r:#1f3864">josegranados.landtechs </span><span style=3D"font-size:10.0pt;co=
+lor:#666666">skype</span></p><p class=3D"MsoNormal"><span style=3D"font-siz=
+e:10.0pt;color:#666666">=C2=A0</span></p><p class=3D"MsoNormal"><a href=3D"=
+http://www.landtechs.net"><span style=3D"font-size:10.0pt;color:#023160">ht=
+tp://www.landtechs.net</span></a></p><p class=3D"MsoNormal"><b><span style=
+=3D"color:#76a5af">=C2=A0</span></b></p><p class=3D"MsoNormal"><span style=
+=3D"font-size:8.0pt;color:#7f7f7f">CONFIDENTIAL NOTICE:</span></p><p class=
+=3D"MsoNormal"><b><span style=3D"font-size:8.0pt;color:#7f7f7f">This email =
+and any files transmitted with it are confidential and intended solely for =
+the use of the individual or entity to whom they are addressed. If you have=
+ received this email in error please notify the system manager. This messag=
+e contains confidential information and is intended only for the individual=
+ named. If you are not the named addressee you should not disseminate, dist=
+ribute or copy this e-mail. Please notify the sender immediately by e-mail =
+if you have received this e-mail by mistake and delete this e-mail from you=
+r system. If you are not the intended recipient you are notified that discl=
+osing, copying, distributing or taking any action in reliance on the conten=
+ts of this information is strictly prohibited.</span></b></p><p class=3D"Ms=
+oNormal">=C2=A0</p></div></body></html>
+
+--000000000000bc4e4a0587740cdc--
+--000000000000bc4e4c0587740cdd
+Content-Type: image/jpeg; name="image001.jpg"
+Content-Disposition: inline; filename="image001.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.jpg@01D4FC3D.6B09B570>
+X-Attachment-Id: bee45954c200dc95_0.1
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCAAwAK8DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2UkAE
+k4ArkdS+JugadefZllkumB2u8C7kT6t3/DNc18TvFs0t42gafIUiQD7W6nlyeQmfTHX649a5yz0S
+LTbWKfUAqTSruihdNxVezFO5PbdgD36V0QpK15GE6rvaJ6RF41vbqZVsdBmuEdd6/vgpdf7yEjYw
++jZ9q1tD8T2euArGktvOBzDMAG/AgkH868zF5HfWEltNBcXE8IMttLNcEFMcsqhMYyATgelZ2oNp
+99bJeLp7W11AQJ5baYq7Z6Scjrng+5HPNP2KYvaNHu1MlZ1iYxIHcD5VLbQfxrmPAXiI65pLRT3K
+3FxbYVpCNrsvYsvY9iRkHrn06queScXZm6d1dHCXvxMfT9bOkz6Ddfbd6osaTIdxb7uD75FdpZy3
+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
+--000000000000bc4e4c0587740cdd--

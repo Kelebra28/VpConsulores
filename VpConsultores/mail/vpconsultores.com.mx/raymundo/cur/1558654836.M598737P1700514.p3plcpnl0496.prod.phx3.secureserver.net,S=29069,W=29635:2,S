@@ -1,0 +1,566 @@
+Return-Path: <agomez@salesboyoli.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id 8LWVI3Qv51yi8hkAFq4nlA
+	(envelope-from <agomez@salesboyoli.com>)
+	for <raymundo@vpconsultores.com.mx>; Thu, 23 May 2019 16:40:36 -0700
+Return-path: <agomez@salesboyoli.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Thu, 23 May 2019 16:40:36 -0700
+Received: from mail-oi1-f194.google.com ([209.85.167.194]:34624)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <agomez@salesboyoli.com>)
+	id 1hTxK3-007E26-Fh
+	for raymundo@vpconsultores.com.mx; Thu, 23 May 2019 16:40:36 -0700
+Received: by mail-oi1-f194.google.com with SMTP id u64so5729243oib.1
+        for <raymundo@vpconsultores.com.mx>; Thu, 23 May 2019 16:40:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=salesboyoli.com; s=google;
+        h=from:to:cc:subject:date:message-id:mime-version:thread-index
+         :content-language;
+        bh=4RV3YuIGfv5fSgmHf2pdCgl+bq+1MKaigIjZPXlX5ok=;
+        b=IRUKmeDrPTt+5yj+xanYrku9RzhRflTiwOyvEDoKKwFXzcJH2+QXnG6nk5foaX2q8c
+         z4HqhqaW6j5z+LJRF/4j6LII2X8PqOgR3XtHwF5Z0N0W7T8vr7SjABWwknPKStTKSQym
+         5VV+OSFoHpeWrHCUFAAgKI4UU3n/iLgybYiTU=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:cc:subject:date:message-id:mime-version
+         :thread-index:content-language;
+        bh=4RV3YuIGfv5fSgmHf2pdCgl+bq+1MKaigIjZPXlX5ok=;
+        b=phKulUFgPPsXLgPqYFBeNnSenE5E+UpmRkDu/Ixp1VHOIHhTp5xcY+tjYf0TfGuyWc
+         miJGJX6kUWUMlNtUVykxYy1IrU05zuSb9dCyz5BUHiEQuZkLLoTOzp8b/7EZe6RhfA49
+         s7dhGz9jdQTBCW2TVBYRDBZL8MPaaLt2YZ/83uSsujREsJzWZJid+HCLTQjGhofpID/r
+         2JIBTwBEx8ehHgV5rKUxx2AUcUIH+oX245SBbUPkR0s7s+aokDX5S050eE3/cJwI9dA6
+         aTTGIirtR/az0XG8f66yWRujSBoCGll7D0bF29cftpl3CcqvLqg9H8Y3gT5CRv7PsG29
+         hcuA==
+X-Gm-Message-State: APjAAAXmK0tZ8JIF6GRxbQpaYrMr0flR7/y/D3SEAEntrzXNKclhL+w4
+	PK8qvgUacf0zaJVqUe8kyYkfEg==
+X-Google-Smtp-Source: APXvYqwLkLw0VwjT+VzFSI+aFZFHN8N2qkOrwyIoJEELoQUj+fFv9hXe7GoscRA2MS8X1kifVxZm/Q==
+X-Received: by 2002:a54:4f98:: with SMTP id g24mr4746526oiy.99.1558654788162;
+        Thu, 23 May 2019 16:39:48 -0700 (PDT)
+Received: from BSB7482 (fixed-187-189-240-171.totalplay.net. [187.189.240.171])
+        by smtp.gmail.com with ESMTPSA id w24sm231118otk.74.2019.05.23.16.39.45
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 23 May 2019 16:39:47 -0700 (PDT)
+From: =?iso-8859-1?Q?Alejandra_G=F3mez_Massud?= <agomez@salesboyoli.com>
+To: =?iso-8859-1?Q?'Jes=FAs_Segundo_Esc=E1rcega_Martinez'?= <jescarcega@salesboyoli.com>
+Cc: <ale_massud@hotmail.com>
+Subject: MENSAJE DESPEDIDA
+Date: Thu, 23 May 2019 18:39:43 -0500
+Message-ID: <004701d511c0$ce541e70$6afc5b50$@salesboyoli.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0048_01D51196.E57F7600"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdURvsBNK4O30VjaQ3KV0eEmTXUvuA==
+Content-Language: es-mx
+X-Spam-Status: No, score=1.4
+X-Spam-Score: 14
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Estimados clientes y amigos; El motivo del presente, es para
+    hacer de su conocimiento, que después de un periodo de crecimiento personal
+    y profesional, el día de mañana 24 de mayo concluye mi ciclo de trabajo en
+    Bufete Sales Boyo [...] 
+ 
+ Content analysis details:   (1.4 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: salesboyoli.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.6 SUBJ_ALL_CAPS          Subject is all capitals
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: salesboyoli.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+X-Spam-Flag: NO
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0048_01D51196.E57F7600
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0049_01D51196.E57F7600"
+
+
+------=_NextPart_001_0049_01D51196.E57F7600
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Estimados clientes y amigos;
+
+=20
+
+El motivo del presente, es para hacer de su conocimiento, que despu=E9s =
+de un
+periodo de crecimiento personal y profesional, el d=EDa de ma=F1ana 24 =
+de mayo
+concluye mi ciclo de trabajo en Bufete Sales Boyoli.=20
+
+=20
+
+Quisiera agradecerles por permitirme trabajar con ustedes, ha sido una =
+gran
+experiencia.
+
+=20
+
+Pido su apoyo para que en el futuro, cualquier asunto relacionado con =
+los
+temas que atend=EDa, sea dirigido al  Lic. Jes=FAs Esc=E1rcega, =
+encargado del =E1rea
+laboral del despacho, quien les podr=E1 asesor debidamente, en el correo
+jescarcega@salesboyoli.com <mailto:jescarcega@salesboyoli.com> =20
+
+=20
+
+En el futuro me podr=E1n contactar en mi tel=E9fono personal: 7224146354
+
+=20
+
+Agradezco sus atenci=F3n, gracias por todo!=20
+
+=20
+
+=20
+
+Atentamente
+_________________
+
+Alejandra Massud
+
+Abogada de Consultor=EDa
+
+Sales Boyoli, Asesores legales =20
+
+=20
+
+Email:  <mailto:agomez@salesboyoli.com> agomez@salesboyoli.com
+
+Tel: +52 (55) 5292-7444  Ext. 224
+
+Cel: +52 1 (55) 3035-2319
+
+
+
+
+
+
+
+=20
+
+P Please consider the environment before printing this email.
+
+_________________________________________________________________________=
+___
+________________________________
+
+AVISO DE CONFIDENCIALIDAD. La Informaci=F3n contenida en este correo y =
+sus
+archivos anexos es Restringida, Confidencial y Privilegiada de Sales =
+Boyoli.
+El uso, distribuci=F3n o copiado de este mensaje o cualquier =
+informaci=F3n
+adjunta est=E1 estrictamente prohibido, tampoco podr=E1 revelar su =
+contenido a
+ninguna persona. Si recibe este e-mail por error, favor de eliminarlo
+permanentemente y notificar a Sales Boyoli inmediatamente al tel.: +(52) =
+55
+5292-7444. El uso no autorizado de este mensaje es considerado como un
+delito.
+
+CONFIDENTIALITY NOTICE. This e-mail and any attachments thereto are =
+intended
+only for use by the addressee(s) named herein and may contain privileged
+and/or confidential information of Sales Boyoli. If you are not the =
+intended
+recipient of this e-mail, you are hereby notified any dissemination,
+distribution or copying of this e-mail, and any attachments thereto, is
+strictly prohibited. If you receive this e-mail in error please =
+immediately
+notify Sales Boyoli at +(52) 55 5292-7444 and permanently delete the
+original copy and any copy of any e-mail, and any printout thereof.
+Unauthorized interception of this email is a violation of federal =
+criminal
+law.
+
+_________________________________________________________________________=
+___
+___________________
+
+=20
+
+
+------=_NextPart_001_0049_01D51196.E57F7600
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1"><meta name=3DGenerator content=3D"Microsoft Word =
+15 (filtered medium)"><!--[if !mso]><style>v\:* =
+{behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Webdings;
+	panose-1:5 3 1 2 1 5 9 6 7 3;}
+@font-face
+	{font-family:"Gill Sans MT";
+	panose-1:2 11 5 2 2 1 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EstiloCorreo17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DES-MX =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Verdana",sans-serif'>Estimados clientes y =
+amigos;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Verdana",sans-serif'>&nbsp;<o:p></o:p></span></p><p=
+ class=3DMsoNormal><span style=3D'font-family:"Verdana",sans-serif'>El =
+motivo del presente, es para hacer de su conocimiento, que despu=E9s de =
+un periodo de crecimiento personal y profesional, el d=EDa de ma=F1ana =
+24 de mayo concluye mi ciclo de trabajo en Bufete Sales Boyoli. =
+<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Verdana",sans-serif'>&nbsp;<o:p></o:p></span></p><p=
+ class=3DMsoNormal><span =
+style=3D'font-family:"Verdana",sans-serif'>Quisiera agradecerles por =
+permitirme trabajar con ustedes, ha sido una gran =
+experiencia.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Verdana",sans-serif'>&nbsp;<o:p></o:p></span></p><p=
+ class=3DMsoNormal><span style=3D'font-family:"Verdana",sans-serif'>Pido =
+su apoyo para que en el futuro, cualquier asunto relacionado con los =
+temas que atend=EDa, sea dirigido al=A0 Lic. Jes=FAs Esc=E1rcega, =
+encargado del =E1rea laboral del despacho, quien les podr=E1 asesor =
+debidamente, en el correo <a =
+href=3D"mailto:jescarcega@salesboyoli.com">jescarcega@salesboyoli.com</a>=
+ <o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Verdana",sans-serif'>&nbsp;<o:p></o:p></span></p><p=
+ class=3DMsoNormal><span style=3D'font-family:"Verdana",sans-serif'>En =
+el futuro me podr=E1n contactar en mi tel=E9fono personal: =
+7224146354<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Verdana",sans-serif'><o:p>&nbsp;</o:p></span></p><p=
+ class=3DMsoNormal><span =
+style=3D'font-family:"Verdana",sans-serif'>Agradezco sus atenci=F3n, =
+gracias por todo! <o:p></o:p></span></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal =
+style=3D'background:white'><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif;color:#001F5F;=
+mso-fareast-language:ES-MX'>Atentamente<br></span><span =
+style=3D'font-family:"Verdana",sans-serif;color:#001F5F;mso-fareast-langu=
+age:ES-MX'>_________________</span><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;mso-fareast-language:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'background:white'><b><span =
+style=3D'font-family:"Verdana",sans-serif;color:#001F5F;mso-fareast-langu=
+age:ES-MX'>Alejandra Massud</span></b><span =
+style=3D'mso-fareast-language:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'background:white'><span =
+style=3D'font-size:10.5pt;font-family:"Verdana",sans-serif;color:#001F5F;=
+mso-fareast-language:ES-MX'>Abogada de Consultor=EDa</span><span =
+style=3D'mso-fareast-language:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'background:white'><b><span =
+style=3D'font-size:10.5pt;font-family:"Verdana",sans-serif;color:#001F5F;=
+mso-fareast-language:ES-MX'>Sales Boyoli, Asesores =
+legales</span></b><span =
+style=3D'font-size:10.5pt;font-family:"Verdana",sans-serif;color:#001F5F;=
+mso-fareast-language:ES-MX'>&nbsp;&nbsp;</span><span =
+style=3D'mso-fareast-language:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'background:white'><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal style=3D'background:white'><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif;color:#001F5F;=
+mso-fareast-language:ES-MX'>Email:&nbsp;</span><u><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif;color:#1155CC;=
+mso-fareast-language:ES-MX'><a =
+href=3D"mailto:agomez@salesboyoli.com"><span =
+style=3D'color:#0563C1'>agomez@salesboyoli.com</span></a></span></u><span=
+ style=3D'mso-fareast-language:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'background:white'><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif;color:#001F5F;=
+mso-fareast-language:ES-MX'>Tel: +52 (55) 5292-7444</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif;color:blue;mso=
+-fareast-language:ES-MX'>&nbsp;&nbsp;</span><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif;color:#001F5F;=
+mso-fareast-language:ES-MX'>Ext. 224</span><span =
+style=3D'mso-fareast-language:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'background:white'><span =
+style=3D'font-size:10.0pt;font-family:"Verdana",sans-serif;color:#001F5F;=
+mso-fareast-language:ES-MX'>Cel:&nbsp;+52 1 (55) 3035-2319</span><span =
+style=3D'mso-fareast-language:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'background:white'><span =
+style=3D'font-size:9.0pt;font-family:"Helvetica",sans-serif;mso-fareast-l=
+anguage:ES-MX'><br><br></span><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;mso-fareast-language:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'mso-fareast-language:ES-MX'><img =
+border=3D0 width=3D589 height=3D182 id=3D"Imagen_x0020_1" =
+src=3D"cid:image001.png@01D51196.E32DBDD0" alt=3D"firma =
+9-5-19"><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'background:white'><span =
+style=3D'mso-fareast-language:ES-MX'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal style=3D'background:white'><span lang=3DEN-GB =
+style=3D'font-size:14.0pt;font-family:Webdings;color:green;mso-fareast-la=
+nguage:ES-MX'>P</span><span lang=3DEN-GB =
+style=3D'font-size:14.0pt;font-family:"Arial",sans-serif;color:navy;mso-f=
+areast-language:ES-MX'>&nbsp;</span><span lang=3DEN-US =
+style=3D'font-size:10.0pt;color:green;mso-fareast-language:ES-MX'>Please =
+consider the environment before printing this email.</span><span =
+style=3D'mso-fareast-language:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:#0563C1;b=
+ackground:white;mso-fareast-language:ES-MX'>_____________________________=
+_________________________________________________________________________=
+______</span><span =
+style=3D'mso-fareast-language:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt;background:white'><b><span =
+style=3D'font-size:8.0pt;font-family:"Gill Sans =
+MT",sans-serif;color:#17365D;mso-fareast-language:ES-MX'>AVISO DE =
+CONFIDENCIALIDAD.</span></b><span =
+style=3D'font-size:8.0pt;font-family:"Gill Sans =
+MT",sans-serif;color:#17365D;mso-fareast-language:ES-MX'>&nbsp;La =
+Informaci=F3n contenida en este correo y sus archivos anexos es =
+Restringida,&nbsp;Confidencial y Privilegiada de<b>&nbsp;Sales =
+Boyoli.</b>&nbsp;El uso, distribuci=F3n o copiado de este mensaje o =
+cualquier informaci=F3n adjunta est=E1 estrictamente prohibido, tampoco =
+podr=E1 revelar su contenido a ninguna persona. Si recibe este =
+e-mail&nbsp;por error, favor de eliminarlo permanentemente y notificar =
+a&nbsp;<b>Sales Boyoli&nbsp;</b>inmediatamente al&nbsp;tel.: +(52) 55 =
+5292-7444.&nbsp;El uso no autorizado de este mensaje es considerado como =
+un delito.</span><span =
+style=3D'mso-fareast-language:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:7.5pt;font-family:"Verdana",sans-serif;color:#17365D;m=
+so-fareast-language:ES-MX'>CONFIDENTIALITY NOTICE.</span></b><span =
+lang=3DEN-US =
+style=3D'font-size:7.5pt;font-family:"Verdana",sans-serif;color:#222222;m=
+so-fareast-language:ES-MX'>&nbsp;</span><span lang=3DEN-US =
+style=3D'font-size:7.5pt;font-family:"Verdana",sans-serif;color:#17365D;m=
+so-fareast-language:ES-MX'>This e-mail and any attachments thereto are =
+intended only for use by the addressee(s)&nbsp;named herein and may =
+contain privileged and/or confidential information of&nbsp;<b>Sales =
+Boyoli.</b>&nbsp;If you are not the intended recipient of this e-mail, =
+you are hereby notified any dissemination, distribution or copying of =
+this e-mail, and any attachments thereto,&nbsp;is strictly prohibited. =
+If you receive this e-mail in error please immediately =
+notify&nbsp;<b>Sales Boyoli&nbsp;</b>at +(52) 55 5292-7444 =
+and&nbsp;permanently delete the original copy and any copy of any =
+e-mail, and any printout thereof. Unauthorized interception&nbsp;of this =
+email is a violation of federal criminal law.</span><span =
+style=3D'mso-fareast-language:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:9.0pt;font-family:"Verdana",sans-serif;color:#0563C1;b=
+ackground:white;mso-fareast-language:ES-MX'>_____________________________=
+__________________________________________________________________</span>=
+<span style=3D'mso-fareast-language:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_001_0049_01D51196.E57F7600--
+
+------=_NextPart_000_0048_01D51196.E57F7600
+Content-Type: image/png;
+	name="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.png@01D51196.E32DBDD0>
+
+iVBORw0KGgoAAAANSUhEUgAAAmMAAAC9CAMAAADIvYo5AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAEpUExURQlCahdIbh5KcSM3cy4/eC8/eCVNcj1Z
+ejNTdjFSdztXeS1QdDxIflhYWkBafkhff0pfglNZikdRhEhRhFRai1ZoiU5ihFJlg1triFtrjEtg
+gE1igV9jkXd4e21ucGJjZWh1lGVzjW97knd2n2psmGBjkWttmHh3oHmDmHaAnYSMnoCBhImLjpOV
+mJKZsZmfq4+WpISMppedtJuauYKBpo+NsIOCp5COsJyauZ2for2+v7G0uKSpsaGmvKeprLGztbG2
+yLe2zqmoxLi3z6qpxLy9wNrb3M/Pz8vMzNfX2MTFxcDCwsjJydLT08LF1MjH2snH2tzd3tHS1MfI
+ytTW4d/f4NfX5dnY5fX29uPk5O3t7fHx8vv7++nq8Ovr8uzs8ufn6PPz9P///6cwozAAABpESURB
+VHja7Z0Ne9q4soBdm27X91KfJcnxHu6tHbpJ08MaaDlJ07JbDCSl3U8SDDfZ7i6prf//I+6MJH8A
+JoHEbkMy87SAZWksS69nRrLsKIyEJF9RqAlIiDGSe8LYP5VbJv+kvrtrjH1z2xj7hvqOGCPGSIgx
+EmKMGCPGiDESYoyEGCPGiDFijIQYW17++Pj+w08oP7//k/p93RlrxNrzK7IaY3/9/MsPSfnw8W/q
++zVmzGArA3ONIqsw9udPP8zJr++JsvVlrLs6MNcosjxjf6UQJiij7l9Txky2MjDXKLI8Y+9/WCi/
+/UUArCVj3dWBuUaRZRn7e8qIvXj58uWPSVP2kQhYQ8YqbGVgrlFkWcb+/i3i6d/ffiWLPnr6Ikol
+f7mGjI0x93glYK5RZEnGIsR+fPpgqvSj70PIfiYG1o0xYZMqqwBzjSJLMhYh9v0Dbr5evoXfL//9
+LzRoj97KfeQu14wxdYKZJ8oKwFyjyLKMfZAYfQv5n75NxGHfP1KUBy/lBs3IrhdjVZ65aSaAqcrf
+4ymmgCpjYZGMGPu/GLGv384MKb8Dy/Zv8fMXmihbJ8YkP3oSGDWMtCpJphirLi6SDWN//Boh9u38
+vMWLB8qDFxSSrR9jgp+GMgVMOTRkatKMjS8rkgljv0u/mIoYh+wrOY9xG6bJmqbZJMauFl3kNWeA
+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
+0f1+AAAAAElFTkSuQmCC
+
+------=_NextPart_000_0048_01D51196.E57F7600--
+

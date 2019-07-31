@@ -1,0 +1,448 @@
+Return-Path: <bounces-raymundo=vpconsultores.com.mx@124075.returnpath.tstes.net>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id wMvPEvV2Al060isAFq4nlA
+	(envelope-from <bounces-raymundo=vpconsultores.com.mx@124075.returnpath.tstes.net>)
+	for <raymundo@vpconsultores.com.mx>; Thu, 13 Jun 2019 09:16:53 -0700
+Return-path: <bounces-raymundo=vpconsultores.com.mx@124075.returnpath.tstes.net>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Thu, 13 Jun 2019 09:16:53 -0700
+Received: from mta118.70.tstes.net ([200.58.118.70]:34266)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <bounces-raymundo=vpconsultores.com.mx@124075.returnpath.tstes.net>)
+	id 1hbSPA-00C4aN-1G
+	for raymundo@vpconsultores.com.mx; Thu, 13 Jun 2019 09:16:53 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=esdkim; d=neovale.mx;
+ h=From:Reply-To:List-ID:List-Unsubscribe:Subject:Content-Type:MIME-Version:To:Date:Message-ID; i=infoemail@neovale.mx;
+ bh=L0V6l3bt9F9O9MUbPNjyyuZFrikf7OHtpZLVdT+wcjQ=;
+ b=So43v+M/V30gzlpWN1xwTghRrwqbqrYpKSozk0fQ6kTGOD/QvUCrqMXEgYNd5vDyn7k8uzM2ZvEw
+   yOrGod3jhNUURLeiEJFrW+GfnHCAC8pi1oSSDyHuMCEzZRr5rrqRUolJSFe3U0Sc6stw2xb/k2V9
+   qhfCXafZTcttKAWbstc=
+Precedence: bulk
+X-DM-SENDER: MAILTX
+From: infoemail@neovale.mx
+Reply-To: daniela.peralta@neovale.mx
+X-DM-Tracking-Domain: 1
+X-DM-Priority: 8
+X-Report-Abuse: Please report abuse for this campaign here:            https://envialosimple.com/abuse/
+X-DM-AuthenticatedSender: 1
+X-Mailer-CSID: 1HBsoj-2577977
+List-ID: <124075:20>
+Feedback-ID: 124075c17:124075m33323:124075
+List-Unsubscribe: <mailto:unsubscribe@124075.returnpath.tstes.net?body=#s-1key#d8323bac5adadc7dfe076c4c1e30f7700348878a5424da248761b1dfcb7feb15a0ea927d109e2b774d61be93be7e99861ebb762209a7508d6a58c367894fa77b34eb67bb8d45a16311#e-1key#>,<http://124075.web.tstes.net/member/publicunsubscribe?mkt_hm=&AdministratorID=124075&MemberID=33323&StatisticID=13&CampaignID=17&isDemo=0&s=__SIGN__>
+Subject: =?utf-8?Q?=C2=BFTe=20interesa=20deducir=20hasta=20un=20100%=3F=20esto=20puede=20interesarte=F0=9F=91=87?=
+Content-Type: multipart/alternative;
+ boundary="=_38d6e8328ed2c9a29045c8ff672b1585"
+MIME-Version: 1.0
+To:  <raymundo@vpconsultores.com.mx>
+Date: Thu, 13 Jun 2019 13:15:59 -0300
+Message-ID: <0.0.B.82F.1D5220349C299D6.84D31@mta118.70.tstes.net>
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Somos una empresa 100% MEXICANA especializada en el suministro
+    y la mejor administración de monederos y vales electrónicos autorizados
+    por el SAT Nosotros estamos comprometidos con nuestros clientes y nos adaptamos
+    a las necesidades de cada uno. 
+ 
+ Content analysis details:   (1.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: tstes.net]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: tstes.net]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.3 URI_HEX                URI: URI hostname has long hexadecimal sequence
+  0.0 T_KAM_HTML_FONT_INVALID BODY: Test for Invalidly Named or
+                             Formatted Colors in HTML
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -1.0 MAILING_LIST_MULTI     Multiple indicators imply a widely-seen list
+                             manager
+X-Spam-Flag: NO
+
+--=_38d6e8328ed2c9a29045c8ff672b1585
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+--=_38d6e8328ed2c9a29045c8ff672b1585
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html "-//w3c//dtd xhtml 1.0 transitional //en" "http://www.w3.=
+org/tr/xhtml1/dtd/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head><!--[if gte mso 9]>=0A    <xml>=0A    <o:OfficeDo=
+cumentSettings>=0A    <o:AllowPNG/>=0A    <o:PixelsPerInch>96</o:PixelsP=
+erInch>=0A    </o:OfficeDocumentSettings>=0A    </xml>=0A<![=
+endif]=
+-->=
+=0A<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8">=0A<meta name=3D"viewport" content=3D"width=3Ddevice-width">=0A<meta=
+ http-equiv=3D"X-UA-Compatible" content=3D"IE=3D9; IE=3D8; IE=3D7; IE=3D=
+EDGE">=0A<!--[if !mso]><!- - --><link href=3D"https://fonts.googleapis.=
+com/css?family=3DDroid+Sans|Lato:400,700|Merriweather:400,700|Montserrat=
+:400,700|Raleway:400,700|Roboto:400,700|Source+Sans+Pro:300,400,700" rel=
+=3D"stylesheet">=0A<!--<![=
+endif]=
+--></head><body style=3D"width: 100% !i=
+mportant;min-width: 100%;-webkit-text-size-adjust: 100%;-ms-text-size-ad=
+just: 100% !important;margin: 0;padding: 0;background-color: #FFFFFF;"><=
+style id=3D"media-query">#outlook a {=0A  padding: 0;=0A}=0A=0A/* .Exter=
+nalClass (Outlook.com) */=0A.ExternalClass {=0A  width: 100%;=0A}=0A=0A.=
+ExternalClass,=0A.ExternalClass p,=0A.ExternalClass span,=0A.ExternalCla=
+ss font,=0A.ExternalClass td,=0A.ExternalClass div {=0A  line-height: 10=
+0%;=0A}=0A=0A#backgroundTable {=0A  margin: 0;=0A  padding: 0;=0A  width=
+: 100% !important;=0A  line-height: 100% !important;=0A}=0A=0A/* Buttons=
+ */=0A.button a {=0A  display: inline-block;=0A  text-decoration: none;=
+=0A  -webkit-text-size-adjust: none;=0A  text-align: center;=0A}=0A=0A.b=
+utton a div {=0A  text-align: center !important;=0A}=0A=0A/* Outlook Fir=
+st */=0Abody.outlook p {=0A  display: inline !important;=0A}=0A=0A/*  Me=
+dia Queries */=0A@media only screen and (max-width: 600px) {=0A  table[=
+class=3D"body"] img {=0A    height: auto !important;=0A    width: 100% !=
+important;=0A  }=0A=0A  table[class=3D"body"] img.fullwidth {=0A    max=
+-width: 100% !important;=0A  }=0A=0A  table[class=3D"body"] center {=0A=
+    min-width: 0 !important;=0A  }=0A=0A  table[class=3D"body"] .contai=
+ner {=0A    width: 95% !important;=0A  }=0A=0A  table[class=3D"body"] .=
+row {=0A    width: 100% !important;=0A    display: block !important;=0A=
+  }=0A=0A  table[class=3D"body"] .wrapper {=0A    display: block !impor=
+tant;=0A    padding-right: 0 !important;=0A  }=0A=0A  table[class=3D"bo=
+dy"] .columns, table[class=3D"body"] .column {=0A    table-layout: fixe=
+d !important;=0A    float: none !important;=0A    width: 100% !important=
+;=0A    padding-right: 0px !important;=0A    padding-left: 0px !importan=
+t;=0A    display: block !important;=0A  }=0A=0A  table[class=3D"body"]=
+ .wrapper.first .columns, table[class=3D"body"] .wrapper.first .column=
+ {=0A    display: table !important;=0A  }=0A=0A  table[class=3D"body"]=
+ table.columns td, table[class=3D"body"] table.column td, .col {=0A   =
+ width: 100% !important;=0A  }=0A=0A  table[class=3D"body"] table.colum=
+ns td.expander {=0A    width: 1px !important;=0A  }=0A=0A  table[class=
+=3D"body"] .right-text-pad, table[class=3D"body"] .text-pad-right {=0A=
+    padding-left: 10px !important;=0A  }=0A=0A  table[class=3D"body"] .=
+left-text-pad, table[class=3D"body"] .text-pad-left {=0A    padding-rig=
+ht: 10px !important;=0A  }=0A=0A  table[class=3D"body"] .hide-for-small=
+, table[class=3D"body"] .show-for-desktop {=0A    display: none !import=
+ant;=0A  }=0A=0A  table[class=3D"body"] .show-for-small, table[class=
+=3D"body"] .hide-for-desktop {=0A    display: inherit !important;=0A  }=
+=0A=0A  .mixed-two-up .col {=0A    width: 100% !important;=0A  }=0A}=0A=
+=0A@media screen and (max-width: 600px) {=0A  div[class=3D"col"] {=0A =
+   width: 100% !important;=0A  }=0A}=0A=0A@media screen and (min-width:=
+ 280px) and (max-width: 600px) {=0A=0A  .under600 {=0A    width: 100% !i=
+mportant;=0A  }=0A=0A}=0A=0A@media screen and (min-width: 601px) {=0A  t=
+able[class=3D"container"] {=0A    width: 600px !important;=0A  }=0A}</s=
+tyle><!--[if gte mso 12]>=0A<style type=3D"text/css">=0A/* Your Outlook=
+-specific CSS goes here. */=0A.hideMSO2007{=0A  display: none !important=
+;=0A}=0A</style>=0A<![=
+endif]=
+--><table style=3D"border-spacing: 0;border=
+-collapse: collapse;vertical-align: top;height: 100%;width: 100%;" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"100%" border=3D"0"><tr style=3D"=
+vertical-align: top"><td style=3D"word-break: break-word;border-collapse=
+: collapse !important;vertical-align: top;text-align: center;background-=
+color: #FFFFFF" align=3D"center" valign=3D"top" class=3D"center"><!-- ta=
+bla (5)--><table style=3D"border-spacing: 0;border-collapse: collapse;ve=
+rtical-align: top;background-color: #FFFFFF" width=3D"100%" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tbody><tr style=3D"vertical-align:=
+ top"><td style=3D"word-break: break-word;border-collapse: collapse !imp=
+ortant;vertical-align: top" width=3D"100%"><!--[if gte mso 9]>=0A  <tab=
+le id=3D"outlookholder" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ align=3D"center"><tr><td>=0A<![=
+endif]=
+-->=0A<!--[if (IE)]>=0A  <table=
+ width=3D"600" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0">=0A  <tr>=0A  <td>=0A<![=
+endif]=
+--><!-- tabla (4)--><table style=
+=3D"border-spacing: 0;border-collapse: collapse;vertical-align: top;max-=
+width: 600px;margin: 0 auto;text-align: inherit" cellpadding=3D"0" cells=
+pacing=3D"0" align=3D"center" width=3D"100%" border=3D"0" class=3D"conta=
+iner"><tbody><tr style=3D"vertical-align: top"><td style=3D"word-break:=
+ break-word;border-collapse: collapse !important;vertical-align: top" wi=
+dth=3D"100%"><table style=3D"border-spacing: 0;border-collapse: collapse=
+;vertical-align: top;width: 100%;max-width: 600px;color: #000000;backgro=
+und-color: transparent" cellpadding=3D"0" cellspacing=3D"0" width=3D"100=
+%" bgcolor=3D"transparent" class=3D"block-grid"><tbody><tr style=3D"vert=
+ical-align: top"><td style=3D"word-break: break-word;border-collapse: co=
+llapse !important;vertical-align: top;text-align: center;font-size: 0; b=
+ackground-color: #EAEFF2"><!--[if (gte mso 9)|(IE)]>=0A  <table width=
+=3D"100%" align=3D"center" bgcolor=3D"transparent" cellpadding=3D"0" cel=
+lspacing=3D"0" border=3D"0">=0A  <tr>=0A<![=
+endif]=
+-->=0A<!--[if (gte ms=
+o 9)|(IE)]>=0A  <td valign=3D"top" width=3D"400">=0A<![=
+endif]=
+--><div st=
+yle=3D"display: inline-block; vertical-align: top; text-align: center; w=
+idth: 400px" class=3D"col"><table style=3D"border-spacing: 0;border-coll=
+apse: collapse;vertical-align: top" cellpadding=3D"0" cellspacing=3D"0"=
+ align=3D"center" width=3D"100%" border=3D"0"><tbody><tr style=3D"vertic=
+al-align: top"><td style=3D"word-break: break-word;border-collapse: coll=
+apse !important;vertical-align: top;background-color: #EAEFF2;font-size:=
+ 12px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-le=
+ft: 0px;border-top: undefined;border-right: undefined;border-bottom: und=
+efined;border-left: undefined"><table style=3D"border-spacing: 0;border-=
+collapse: collapse;vertical-align: top" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" width=3D"100%"><tbody><tr><td style=3D"word-break: brea=
+k-word;border-collapse: collapse !important;vertical-align: top;width: 1=
+00%; padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-lef=
+t: 0px" align=3D"center"><div style=3D"font-size: 12px;font-style: norma=
+l;font-weight: 400;"><img style=3D"outline: none;text-decoration: none;-=
+ms-interpolation-mode: bicubic;clear: both;display: block;border: 0;heig=
+ht: auto;line-height: 100%;margin: undefined;float: none;width: 100%;max=
+-width: 600px;" src=3D"http://124075.asset.tstes.net/storage/picture/5cf=
+53eaafd4be7153c75aa2d/5d027632e51a73dbbdf37277/img/5cf942b6786e2c7157f7d=
+1d2.jpg" alt=3D"" border=3D"0" width=3D"100%" class=3D"center fullwidth=
+ under600"/></div></td></tr></tbody></table><table style=3D"border-spaci=
+ng: 0;border-collapse: collapse;vertical-align: top" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" width=3D"100%"><tbody><tr><td style=3D"wor=
+d-break: break-word;border-collapse: collapse !important;vertical-align:=
+ top;width: 100%; padding-top: 0;padding-right: 20px;padding-bottom: 0;p=
+adding-left: 20px" align=3D"left"><div style=3D"font-family: Arial, Helv=
+etica, sans-serif;padding: 2px;word-break: break-word;"><p style=3D"font=
+-family:Arial, Helvetica, sans-serif;font-size:14px;color:#333333;line-h=
+eight:1.5em;margin: 0 0 0.75em 0; font-weight: normal; letter-spacing: n=
+ullpx;">Somos una empresa 100% MEXICANA especializada en el suministro y=
+ la mejor administraci&oacute;n de monederos y vales electr&oacute;nicos=
+ autorizados por el SAT&nbsp;</p>=0A<p style=3D"font-family:Arial, Helve=
+tica, sans-serif;font-size:14px;color:#333333;line-height:1.5em;margin:=
+ 0 0 0.75em 0; font-weight: normal; letter-spacing: nullpx;">Nosotros es=
+tamos comprometidos con nuestros clientes y nos adaptamos a las necesida=
+des de cada uno.</p>=0A<p style=3D"font-family:Arial, Helvetica, sans-se=
+rif;font-size:14px;color:#333333;line-height:1.5em;margin: 0 0 0.75em 0;=
+ font-weight: normal; letter-spacing: nullpx;">Olv&iacute;date de Falta=
+ de control administrativo&nbsp;</p>=0A<p style=3D"font-family:Arial, He=
+lvetica, sans-serif;font-size:14px;color:#333333;line-height:1.5em;margi=
+n: 0 0 0.75em 0; font-weight: normal; letter-spacing: nullpx;">Olv&iacut=
+e;date de recolectar facturas</p>=0A<p style=3D"font-family:Arial, Helve=
+tica, sans-serif;font-size:14px;color:#333333;line-height:1.5em;margin:=
+ 0 0 0.75em 0; font-weight: normal; letter-spacing: nullpx;">Olv&iacute;=
+date de fuga de gastos&nbsp;</p>=0A<p style=3D"font-family:Arial, Helvet=
+ica, sans-serif;font-size:14px;color:#333333;line-height:1.5em;margin: 0=
+ 0 0.75em 0; font-weight: normal; letter-spacing: nullpx;">Olv&iacute;da=
+te de un descontrol de gasto</p>=0A<p style=3D"font-family:Arial, Helvet=
+ica, sans-serif;font-size:14px;color:#333333;line-height:1.5em;margin: 0=
+ 0 0.75em 0; font-weight: normal; letter-spacing: nullpx;">Nosotros nos=
+ encargamos</p>=0A<p style=3D"text-align: center;font-family:Arial, Helv=
+etica, sans-serif;font-size:14px;color:#333333;line-height:1.5em;margin:=
+ 0 0 0.75em 0; font-weight: normal; letter-spacing: nullpx;">NEOVALE ES=
+ LA MEJOR OPCI&Oacute;N PARA TI&nbsp;</p>=0A<p style=3D"text-align: cent=
+er;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#333333=
+;line-height:1.5em;margin: 0 0 0.75em 0; font-weight: normal; letter-spa=
+cing: nullpx;">Tenemos la mas amplia aceptaci&oacute;n en la Rep&uacute;=
+blica Mexicana.</p>=0A<p style=3D"text-align: center;font-family:Arial,=
+ Helvetica, sans-serif;font-size:14px;color:#333333;line-height:1.5em;ma=
+rgin: 0 0 0.75em 0; font-weight: normal; letter-spacing: nullpx;"><a hre=
+f=3D"http://124075.clicks.tstes.net/track/click?u=3D1897290&p=3D31323430=
+37353a31373a31333a303a303a30&s=3D=
+8883ce115a26398f47f80d3a1e9a4e82=
+&m=3D=
+33323=
+" style=3D"text-de=
+coration: none; color: #11b4ff!important" target=3D"_blank" style=3D"tex=
+t-decoration: none; color: #11b4ff!important" target=3D"_blank" style=3D=
+"text-decoration: none; color: #11b4ff!important" target=3D"_blank" styl=
+e=3D"text-decoration: none; color: #11b4ff!important" target=3D"_blank">=
+www.neovale.mx</a></p></div></td></tr></tbody></table><table style=3D"bo=
+rder-spacing: 0;border-collapse: collapse;vertical-align: top" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%"><tbody><tr><td st=
+yle=3D"word-break: break-word;border-collapse: collapse !important;verti=
+cal-align: top;width: 100%; padding-top: 0;padding-right: 20px;padding-b=
+ottom: 20px;padding-left: 20px" align=3D"right"><table width=3D"auto" al=
+ign=3D"right"><tr><td align=3D"left" width=3D"35"><a href=3D"http://1240=
+75.clicks.tstes.net/track/click?u=3D1897289&p=3D3132343037353a31373a3133=
+3a303a313a30&s=3D=
+8883ce115a26398f47f80d3a1e9a4e82=
+&m=3D=
+33323=
+" target=3D"_blank"><img alt=3D"li=
+nkedin" width=3D"35" src=3D"http://124075.asset.tstes.net/storage/social=
+-networks/original/linkedin-circle.png"/></a></td></tr></table></td></tr=
+></tbody></table></td></tr></tbody></table></div><!--[if (gte mso 9)|(I=
+E)]>=0A  <td valign=3D"top" width=3D"200">=0A<![=
+endif]=
+--><div style=3D"=
+display: inline-block; vertical-align: top; text-align: center; width: 2=
+00px" class=3D"col"><table style=3D"border-spacing: 0;border-collapse: c=
+ollapse;vertical-align: top" cellpadding=3D"0" cellspacing=3D"0" align=
+=3D"center" width=3D"100%" border=3D"0"><tbody><tr style=3D"vertical-ali=
+gn: top"><td style=3D"word-break: break-word;border-collapse: collapse !=
+important;vertical-align: top;background-color: #EAEFF2;font-size: 12px;=
+padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0p=
+x;border-top: undefined;border-right: undefined;border-bottom: undefined=
+;border-left: undefined"><table style=3D"border-spacing: 0;border-collap=
+se: collapse;vertical-align: top" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" width=3D"100%"><tbody><tr><td style=3D"word-break: break-word=
+;border-collapse: collapse !important;vertical-align: top;width: 100%; p=
+adding-top:20px;padding-right: 20px;padding-bottom: 0;padding-left: 20px=
+" align=3D"left"><table width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0"><tr><td style=3D"padding-right: 0; padding-left: 0; padd=
+ing-top:14.5px; padding-bottom:14.5px;"></td></tr></table></td></tr></tb=
+ody></table><table style=3D"border-spacing: 0;border-collapse: collapse;=
+vertical-align: top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" wi=
+dth=3D"100%"><tbody><tr><td style=3D"word-break: break-word;border-colla=
+pse: collapse !important;vertical-align: top;width: 100%; padding-top: 0=
+;padding-right: 20px;padding-bottom: 0;padding-left: 20px" align=3D"left=
+"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+><tr><td style=3D"padding-right: 0; padding-left: 0; padding-top:14.5px;=
+ padding-bottom:14.5px;"></td></tr></table></td></tr></tbody></table><ta=
+ble style=3D"border-spacing: 0;border-collapse: collapse;vertical-align:=
+ top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%"><t=
+body><tr><td style=3D"word-break: break-word;border-collapse: collapse !=
+important;vertical-align: top;width: 100%; padding-top: 0;padding-right:=
+ 20px;padding-bottom: 0;padding-left: 20px" align=3D"left"><table width=
+=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td style=
+=3D"padding-right: 0; padding-left: 0; padding-top:14.5px; padding-botto=
+m:14.5px;"></td></tr></table></td></tr></tbody></table><table style=3D"b=
+order-spacing: 0;border-collapse: collapse;vertical-align: top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%"><tbody><tr><td=
+ style=3D"word-break: break-word;border-collapse: collapse !important;ve=
+rtical-align: top;width: 100%; padding-top: 0;padding-right: 20px;paddin=
+g-bottom: 0;padding-left: 20px" align=3D"left"><table width=3D"100%" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tr><td style=3D"padding-r=
+ight: 0; padding-left: 0; padding-top:14.5px; padding-bottom:14.5px;"></=
+td></tr></table></td></tr></tbody></table><table style=3D"border-spacing=
+: 0;border-collapse: collapse;vertical-align: top" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" width=3D"100%"><tbody><tr><td style=3D"word-=
+break: break-word;border-collapse: collapse !important;vertical-align: t=
+op;width: 100%; padding-top: 0;padding-right: 20px;padding-bottom: 0;pad=
+ding-left: 20px" align=3D"center"><table data-table-button=3D"data-table=
+-button" align=3D"center" valign=3D"middle" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0"><tbody><tr><td width=3D"auto" align=3D"center" vali=
+gn=3D"middle" style=3D"background-color:#dfdfdf; border-top-left-radius:=
+4px; border-bottom-left-radius:4px;border-top-right-radius:4px; border-b=
+ottom-right-radius:4px; background-clip: padding-box;font-size:18px; fon=
+t-family: Courier New, courier, monospace; text-align:center; color:#333=
+333; padding-top:8px; padding-left:24px; padding-right:24px; padding-bot=
+tom:8px; border: 1px solid #dfdfdf;"><table width=3D"100%" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td valign=3D"middle"><a=
+ data-a-end-button=3D"data-a-end-button" href=3D"http://124075.clicks.ts=
+tes.net/track/click?u=3D1896184&p=3D3132343037353a31373a31333a303a323a30=
+&s=3D=
+8883ce115a26398f47f80d3a1e9a4e82=
+&m=3D=
+33323=
+" target=3D"_blank" style=3D"text-decoration:n=
+one; color:#333333; font-family:Courier New, courier, monospace; font-si=
+ze:18px;font-style:normal;font-weight: normal;letter-spacing: nullpx;">L=
+l=C3=A1manos</a></td></tr></tbody></table></td></tr></tbody></table></td=
+></tr></tbody></table><table style=3D"border-spacing: 0;border-collapse:=
+ collapse;vertical-align: top" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"100%"><tbody><tr><td style=3D"word-break: break-word;bo=
+rder-collapse: collapse !important;vertical-align: top;width: 100%; padd=
+ing-top: 0;padding-right: 20px;padding-bottom: 0;padding-left: 20px" ali=
+gn=3D"left"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0"><tr><td style=3D"padding-right: 0; padding-left: 0; padding-t=
+op:14.5px; padding-bottom:14.5px;"></td></tr></table></td></tr></tbody><=
+/table><table style=3D"border-spacing: 0;border-collapse: collapse;verti=
+cal-align: top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%"><tbody><tr><td style=3D"word-break: break-word;border-collapse=
+: collapse !important;vertical-align: top;width: 100%; padding-top: 0;pa=
+dding-right: 20px;padding-bottom: 20px;padding-left: 20px" align=3D"cent=
+er"><table data-table-button=3D"data-table-button" align=3D"center" vali=
+gn=3D"middle" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tbody><t=
+r><td width=3D"auto" align=3D"center" valign=3D"middle" style=3D"backgro=
+und-color:#dfdfdf; border-top-left-radius:4px; border-bottom-left-radius=
+:4px;border-top-right-radius:4px; border-bottom-right-radius:4px; backgr=
+ound-clip: padding-box;font-size:18px; font-family: Courier New, courier=
+, monospace; text-align:center; color:#333333; padding-top:8px; padding-=
+left:24px; padding-right:24px; padding-bottom:8px; border: 1px solid #df=
+dfdf;"><table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody><tr><td valign=3D"middle"><a data-a-end-button=3D"data-a-e=
+nd-button" href=3D"mailto:daniela.peralta@neovale.mx" target=3D"_blank"=
+ style=3D"text-decoration:none; color:#333333; font-family:Courier New,=
+ courier, monospace; font-size:18px;font-style:normal;font-weight: norma=
+l;letter-spacing: nullpx;">Escr=C3=ADbenos</a></td></tr></tbody></table>=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></=
+table></div>=0A<!--[if (gte mso 9)|(IE)]></td></tr></table><![=
+endif]=
+--=
+></td></tr></tbody></table></td></tr></tbody></table><!--[if mso]>=0A =
+   </td></tr></table>=0A<![=
+endif]=
+-->=0A<!--[if (IE)]>=0A    </td></tr>=
+</table>=0A<![=
+endif]=
+--><!-- fin tabla (4)--></td></tr></tbody><!-- fin=
+ tabla (5)--></table><!-- tabla (5)--><table style=3D"border-spacing: 0;=
+border-collapse: collapse;vertical-align: top;background-color: #FFFFFF"=
+ width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tbody>=
+<tr style=3D"vertical-align: top"><td style=3D"word-break: break-word;bo=
+rder-collapse: collapse !important;vertical-align: top" width=3D"100%"><=
+!--[if gte mso 9]>=0A  <table id=3D"outlookholder" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" align=3D"center"><tr><td>=0A<![=
+endif]=
+-->=
+=0A<!--[if (IE)]>=0A  <table width=3D"600" align=3D"center" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0">=0A  <tr>=0A  <td>=0A<![=
+endif]=
+-->=
+<!-- tabla (4)--><table style=3D"border-spacing: 0;border-collapse: coll=
+apse;vertical-align: top;max-width: 600px;margin: 0 auto;text-align: inh=
+erit" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" width=3D"100%=
+" border=3D"0" class=3D"container"><tbody><tr style=3D"vertical-align: t=
+op"><td style=3D"word-break: break-word;border-collapse: collapse !impor=
+tant;vertical-align: top" width=3D"100%"><table style=3D"border-spacing:=
+ 0;border-collapse: collapse;vertical-align: top;width: 100%;max-width:=
+ 600px;color: #000000;background-color: transparent" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"100%" bgcolor=3D"transparent" class=3D"block-g=
+rid"><tbody><tr style=3D"vertical-align: top"><td style=3D"word-break: b=
+reak-word;border-collapse: collapse !important;vertical-align: top;text-=
+align: center;font-size: 0"><!--[if (gte mso 9)|(IE)]>=0A  <table width=
+=3D"100%" align=3D"center" bgcolor=3D"transparent" cellpadding=3D"0" cel=
+lspacing=3D"0" border=3D"0">=0A  <tr>=0A<![=
+endif]=
+--><p style=3D"text-al=
+ign: center;margin:25px;color:#333333"><span style=3D"font-family: Arial=
+, Helvetica, sans-serif;font-size: 12px;">Recibes este email porque est=
+=C3=A1s suscripto a nuestra lista de correos.<br/><a href=3D"http://1240=
+75.web.tstes.net/member/publicunsubscribe?mkt_hm=3D4&AdministratorID=3D1=
+24075&MemberID=3D=
+33323=
+&StatisticID=3D13&CampaignID=3D17&isDemo=3D0&=
+s=3D=
+8883ce115a26398f47f80d3a1e9a4e82=
+" style=3D"color:#333333" target=3D"_blank">Para desuscribirte=
+ haz click aqu=C3=AD.</a></span></p><!--[if (gte mso 9)|(IE)]></td></tr=
+></table><![=
+endif]=
+--></td></tr></tbody></table></td></tr></tbody></tabl=
+e><!--[if mso]>=0A    </td></tr></table>=0A<![=
+endif]=
+-->=0A<!--[if (IE=
+)]>=0A    </td></tr></table>=0A<![=
+endif]=
+--><!-- fin tabla (4)--></td></=
+tr></tbody></table><!-- fin tabla (5)--></td></tr></table>=0A=0A<!-- tra=
+ckReads --><img src=3D"=
+http://124075.reads.tstes.net/1HBsoj-2577977/6/33323/0/13/17/124075/54242a0e20dda84bdf6c2b03dd8c2fbb.png=
+" width=3D"1" height=3D"1" alt=3D"=
+---"> <!-- END trackReads --></body></html>
+
+--=_38d6e8328ed2c9a29045c8ff672b1585--

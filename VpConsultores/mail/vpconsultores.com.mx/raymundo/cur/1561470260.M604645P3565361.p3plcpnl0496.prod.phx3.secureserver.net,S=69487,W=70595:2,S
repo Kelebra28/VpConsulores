@@ -1,0 +1,1108 @@
+Return-Path: <0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000@amazonses.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id 4C3SHzQlEl0xZzYAFq4nlA
+	(envelope-from <0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000@amazonses.com>)
+	for <raymundo@vpconsultores.com.mx>; Tue, 25 Jun 2019 06:44:20 -0700
+Return-path: <0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000@amazonses.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Tue, 25 Jun 2019 06:44:20 -0700
+Received: from a11-62.smtp-out.amazonses.com ([54.240.11.62]:42308)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000@amazonses.com>)
+	id 1hflk6-00F02o-Bp
+	for raymundo@vpconsultores.com.mx; Tue, 25 Jun 2019 06:44:20 -0700
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=sy4tlof62jofljbwsoj5kjux6avafc6e; d=elconta.mx; t=1561469626;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:List-Unsubscribe;
+	bh=NTXIpxo2d/7Cx7mXX8pFXPnQDAeDbGpg4j7h4YCjz5U=;
+	b=FxdlyNhjudYMYGC3AFMw2OPH6X6FxzdQ++la6Rer1RrV6x1HWF51/83RjF1KQ7PL
+	U8duIuYKucWnlaaimyr7iPOHi9dflFWapgqVc5Nx50Va3wbLmcISfk8UQJyA4BtXWf4
+	FNcp5+5uWHYis6zt+ZTUDkaU91TBD+MjKxKe/LT4=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1561469626;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:List-Unsubscribe:Feedback-ID;
+	bh=NTXIpxo2d/7Cx7mXX8pFXPnQDAeDbGpg4j7h4YCjz5U=;
+	b=BEI8PvoSpqGuoKbw35LmGkoOxXG0r72QtojzM40Ra3j+S+HGti52hyXtX4qFwmRS
+	cfyP2Gw23y3w5UQGvhSF0OQpXamFkCXzs/aNINojTrwLmMj5N56++M31gDMNTvjBOrY
+	nfslosBHRvm/NR6uFXqzphAIG74Ert+trbpcxEhI=
+Message-ID: <0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000@email.amazonses.com>
+Date: Tue, 25 Jun 2019 13:33:46 +0000
+Subject: =?utf-8?Q?=F0=9F=94=94?= 2019-06-25 Cambios CFDi -
+ =?utf-8?Q?Regularizaci=C3=B3n?= Lavado Dinero - Comisionistas - Alcoholismo
+ en los Negocios =?utf-8?Q?=F0=9F=93=A3?=
+From: =?utf-8?Q?Bolet=C3=ADn?= de =?utf-8?Q?ElConta=2ECom?=
+ <info@elconta.mx>
+To: raymundo@vpconsultores.com.mx
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1561469626_2a3ad4626959762f6fe1b2abe36d273e_=_"
+X-EmailOctopus-Version: 2
+X-EmailOctopus-Started-Preparing-At: 2019-06-25T13:30:02+00:00
+X-EmailOctopus-Ses-Configuration-Set-Name: emailoctopus-92ac08625b86fcb74e8dc6e633188d55
+X-EmailOctopus-Sent-At: 2019-06-25T13:33:46+00:00
+X-EmailOctopus-Parent-Type-Id: campaign
+X-EmailOctopus-Parent-Id: 202b51be-96ae-11e9-9307-06b4694bee2a
+X-EmailOctopus-List-Id: 02e588a8-3a25-11e9-a3c9-06b79b628af2
+X-EmailOctopus-List-Contact-Id: 636f2f62-3a25-11e9-a3c9-06b79b628af2
+List-Unsubscribe: <https://araneoides.eomail1.com/unsubscribe?l=02e588a8-3a25-11e9-a3c9-06b79b628af2&lc=636f2f62-3a25-11e9-a3c9-06b79b628af2&p=202b51be-96ae-11e9-9307-06b4694bee2a&pt=campaign&spa=1561469402&t=1561469626&s=d04614a7aec80f98c3408cfa5fec044848442572691236983e794b67b3d2170b&skipConfirmation=1>
+X-SES-Outgoing: 2019.06.25-54.240.11.62
+Feedback-ID: 1.us-east-1.DkWvtcCI6J0G1/6vBjuXDrPZcjXUlyjqaIVBQ/xHQGw=:AmazonSES
+X-Spam-Status: No, score=0.6
+X-Spam-Score: 6
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  El mejor blog contable colaborativo de México  EL MEJOR
+   BLOG CONTABLE COLABORATIVO - MÉXICO - Ver esto en el navegador de internet
+    [https://araneoides.eomail1.com/web-version?lc=636f2f62-3a25-11e9-a3c9-06b79b628af2&p=202b51be-96ae-11e9-9307-06b4694bee2a&pt=campaign&t=1561469626&s=9c42fcf4eb1c8
+    [...] 
+ 
+ Content analysis details:   (0.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: elconta.mx]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: elconta.mx]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of .info|.us|.me|.me.uk|.biz
+                             domains in spam/malware
+X-Spam-Flag: NO
+
+--_=_swift_1561469626_2a3ad4626959762f6fe1b2abe36d273e_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+El mejor blog contable colaborativo de M=C3=A9xico=C2=A0
+
+EL MEJOR BLOG CONTABLE COLABORATIVO - M=C3=89XICO -
+
+Ver esto en el navegador de internet
+[https://araneoides.eomail1.com/web-version?lc=3D636f2f62-3a25-11e9-a3c9-06=
+b79b628af2&p=3D202b51be-96ae-11e9-9307-06b4694bee2a&pt=3Dcampaign&t=3D15614=
+69626&s=3D9c42fcf4eb1c8eabcd18303f79444a2fef5dbe8227e0942169f25489dab12665]
+
+ [https://elconta.com/]
+
+ [https://tienda.elconta.com/shop/categoria-producto/programas-facturas/fac=
+tura-electronica-cfdi/?utm_source=3Dboletin_elconta.com]
+-------------------------
+
+HOLA DE NUEVO:=20
+
+TE COMPARTIMOS NUESTROS ART=C3=8DCULOS MAS RECIENTES PARA EL D=C3=8DA DE HO=
+Y.
+
+Agrega=C2=A0INFO@ELCONTA.MX=C2=A0a tu lista de correos seguros=20
+
+CURSO EN L=C3=8DNEA HOY:
+
+[Curso AGAPES 2019]
+[https://cursos.elconta.com/evento/agapes-regimen-fiscal-sector-agropecuari=
+o-puntos-relevantes/?utm_source=3Dtopbanner_elconta.com]
+
+PR=C3=93XIMO CURSO EN L=C3=8DNEA:
+
+[Curso AGAPES 2019]
+[https://cursos.elconta.com/evento/materialidad-69b-actos-juridicos-presunc=
+ion-operaciones-inexistentes/]
+
+
+ [https://cursos.elconta.com/evento/claves-exito-contexto-comercial-charla-=
+gratuita/]
+
+-------------------------
+
+LAVADO DE DINERO. PROGRAMA DE AUTO REGULARIZACI=C3=93N DE LOS PERIODOS
+2013-2018.
+[https://elconta.com/2019/06/24/lavado-de-dinero-programa-de-auto-regulariz=
+acion-2019/]
+
+Conoce los beneficios, requisitos y plazos para la condonaci=C3=B3n de
+multas a partir del 21 de junio de 2019.=C2=A0CONTINUAR LEYENDO:
+[https://elconta.com/2019/06/24/lavado-de-dinero-programa-de-auto-regulariz=
+acion-2019/]
+
+TRATAMIENTO FISCAL DE LOS COMISIONISTAS MERCANTILES. =C2=BFRIF, ASIMILADO,
+SUBORDINADO O INDEPENDIENTE? AC=C3=81 TE DECIMOS.
+[https://elconta.com/2019/06/19/tratamiento-fiscal-comisionistas-mercantile=
+s-rif-asimilado-subordinado-o-independiente/]
+
+Es importante visualizar que el comisionista puede tributar en 4
+diferentes formas: Asimilado a salarios, Asalariado, RIF (secci=C3=B3n
+II), o persona f=C3=ADsica de la secci=C3=B3n I (actividad
+empresarial).=C2=A0CONTINUAR LEYENDO:
+[https://elconta.com/2019/06/19/tratamiento-fiscal-comisionistas-mercantile=
+s-rif-asimilado-subordinado-o-independiente/]
+
+NEGOCIOS + ALCOHOL=3D MEZCLA FATAL PARA LOS L=C3=8DDERES EMPRESARIALES.
+[https://elconta.com/2019/06/24/alcoholismo-reunion-negocios-empresa-famila=
+ir/]
+
+=C2=A0Es un buen momento para que los l=C3=ADderes empresarios reflexionen
+sobre las costumbres que se promueven en la familia y en la empresa,
+pues lo que sucede en casa, se repetir=C3=A1 en la empresa.=C2=A0CONTINUAR
+LEYENDO:
+[https://elconta.com/2019/06/24/alcoholismo-reunion-negocios-empresa-famila=
+ir/]
+
+LA SIMULACI=C3=93N, EL OUTSOURCING Y LOS CONTRATOS DE PRESTACI=C3=93N DE
+SERVICIOS EN LA REFORMA LABORAL 2019
+[https://elconta.com/2019/06/18/outsourcing-contratos-prestacion-servicios-=
+reforma-laboral-2019/]
+
+Consideraciones sobre la simulaci=C3=B3n o encubrimiento de relaciones de
+trabajo contenida en la Reforma Laboral 2019.=C2=A0CONTINUAR LEYENDO:
+[https://elconta.com/2019/06/18/outsourcing-contratos-prestacion-servicios-=
+reforma-laboral-2019/]
+
+CFDI PUE SIN QUE TE LO HAYAN PAGADO. CAMBIO EN LA FACILIDAD PARA
+EMITIRLO 2.7.1.44
+[https://elconta.com/2019/06/18/cfdi-pue-sin-estar-pagado-2-7-1-44/]
+
+En este video platicaremos sobre el cambio en la facilidad para emitir
+un CFDI con m=C3=A9todo de pago PUE sin haber recibido la totalidad del
+pago que ampara el comprobante. Regla miscel=C3=A1nea 2.7.1.44 para
+2019.=C2=A0CONTINUAR LEYENDO:
+[https://elconta.com/2019/06/18/cfdi-pue-sin-estar-pagado-2-7-1-44/]
+
+OTROS ART=C3=8DCULOS RECIENTES:
+
+ =09*=20
+
+ [https://elconta.com/2019/04/02/responsabilidad-penal-empresas-compliance-=
+penal-tributario/]
+
+CONTRATOS CIVILES Y SU USO COMO SOPORTE DE OPERACIONES FISCALES.
+[https://elconta.com/2019/06/10/contratos-civiles-soporte-operaciones-fisca=
+les/]
+
+=09*=20
+
+SI A LA LIBERTAD DE EXPRESI=C3=93N EN REDES SOCIALES PERO SIN ABUSAR=E2=80=
+=A6
+NUEVA TESIS AISLADA.
+[https://elconta.com/2019/06/11/libertad-expresion-redes-sociales-abusos-of=
+ensas-amenazas/]
+
+=09*=20
+
+DEDUCCI=C3=93N DE LA ACTUALIZACI=C3=93N DEL COSTO DE LO VENDIDO. =C2=A1=C2=
+=A1ES
+POSIBLE Y MEDIANTE CORREDOR P=C3=9ABLICO=C2=A1=C2=A1
+[https://elconta.com/2019/06/11/actualizacion-costo-vendido-corredor-public=
+o/]
+
+=09*=20
+
+EL CONSEJO FAMILIAR ES SIMILAR AL CONSEJO DE ADMINISTRACI=C3=93N DE UNA
+EMPRESA, PERO=E2=80=A6
+[https://elconta.com/2019/06/10/diferencias-consejo-familiar-similar-al-del=
+-consejo-de-administracion/]
+
+ [https://tienda.elconta.com/producto/programas-varios-software/descarga-ma=
+siva-de-elconta-com/]
+
+=C2=BFA=C3=9AN CON DUDAS? =C3=9ASALO GRATIS POR 60 D=C3=8DAS ;)
+
+ [https://tienda.elconta.net/shop/etiqueta-producto/timbres-extra-cfdi/]
+
+=C2=BFYa timbras con nosotros?
+Aqu=C3=AD puedes adquirir mas timbres.
+
+ [https://tienda.elconta.com/shop/categoria-producto/programas-varios-softw=
+are/xml-administracion/]
+
+Para controlar=C2=A0todos tus archivos XML y PDF emitidos=C2=A0EXCLUSIVAMEN=
+TE
+DE N=C3=93MINA.
+
+ [https://cursos.elconta.com/course-category/cursos-grabados/]
+
+cursos.elconta.com
+Cursos en vivo y grabados.
+
+ [https://tienda.elconta.com/shop/categoria-producto/programas-varios-softw=
+are/xml-administracion/]
+
+CONCILAREP V1 =E2=80=93 CONCILIA XML REPS VS XML FACTURAS.
+
+ [https://tienda.elconta.com/shop/etiqueta-producto/libros-imcp/?orderby=3D=
+date]
+
+CONSULTA EL EXTENSO CAT=C3=81LOGO DE LIBROS EDITADOS POR EL IMCP
+
+ [https://tienda.elconta.com/shop/categoria-producto/programas-varios-softw=
+are/xml-administracion/]
+
+=C2=BFCANSADO DE CONTABILIZAR ESOS TEDIOSOS REEMBOLSOS?=20
+Contabiliza con nuestro potente software=C2=A0P=C3=93LIZAS MASIVAS DESDE EL
+XML A CONTPAQI
+
+ [http://elconta.mx/sispacppi]
+
+EN=C2=A0ELCONTA.COM=C2=A0NOS ENCARGAMOS DE TRAERTE EL MEJOR CONTENIDO EN
+MATERIA FISCAL, LABORAL Y DE SEGURIDAD SOCIAL, QUE EN VERDAD TE
+AYUDAR=C3=81N A TOMAR LAS MEJORES DECISIONES EN TU EMPRESA O NEGOCIO.
+
+A CONTINUACI=C3=93N TE COMPARTO LAS PUBLICACIONES 2019, LAS QUE
+SEGURAMENTE TE PROPORCIONARAN MAYOR CONOCIMIENTO DE LAS DIFERENTES
+=C3=81REAS DE TU INTER=C3=89S.
+
+CLIC AQU=C3=8D PARA CONSULTAR=C2=A0EL CAT=C3=81LOGO COMPLETO DE NUESTRA LIB=
+RER=C3=8DA.
+[https://tienda.elconta.com/shop/categoria-producto/libros-y-revistas/?orde=
+rby=3Ddate]
+
+=C2=A0
+
+ [Facebook] [http://www.facebook.com/elconta]
+
+ [Twitter] [https://twitter.com/elconta2r]
+
+ [Website] [http://elconta.com/]
+
+_Copyright =C2=A9 2019 El Conta punto com, Todos los derechos reservados._
+
+Est=C3=A1s recibiendo este bolet=C3=ADn informativo porque as=C3=AD lo soli=
+citaste
+en nuestra p=C3=A1gina ElConta.Com=20
+
+NUESTRA DIRECCI=C3=93N POSTAL ES:
+
+El Conta punto com=20
+
+Marsella 570 Int. 305 CP 44190 Guadalajara, Jalisco Mexico=20
+GDL (33) 3333-9715=C2=A0Y 33-3683-9343=20
+
+ Ya no deseas recibir este bolet=C3=ADn?.=C2=A0 Puedes darte de baja aqu=C3=
+=AD
+[https://araneoides.eomail1.com/unsubscribe?l=3D02e588a8-3a25-11e9-a3c9-06b=
+79b628af2&lc=3D636f2f62-3a25-11e9-a3c9-06b79b628af2&p=3D202b51be-96ae-11e9-=
+9307-06b4694bee2a&pt=3Dcampaign&spa=3D1561469402&t=3D1561469626&s=3Dd04614a=
+7aec80f98c3408cfa5fec044848442572691236983e794b67b3d2170b]
+
+--_=_swift_1561469626_2a3ad4626959762f6fe1b2abe36d273e_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html><head><title></title></head><body><div style=3D"displa=
+y:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opac=
+ity:0; overflow:hidden; visibility:hidden; mso-hide:all;">El mejor blog con=
+table colaborativo de M=C3=A9xico&nbsp;</div><!-- BEGIN TEMPLATE // --><p><=
+br></p><p></p><center>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"templateConta=
+iner" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rs=
+pace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border:=
+ 2px outset #007fff;" width=3D"600"><tbody><tr><td align=3D"center" style=
+=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;=
+-webkit-text-size-adjust: 100%;" valign=3D"top"><!-- BEGIN PREHEADER // -->=
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"templatePrehe=
+ader" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rs=
+pace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;min-wid=
+th: 100%;background-color: #FFFFFF;border-top: 0;border-bottom: 0;" width=
+=3D"600"><tbody><tr><td class=3D"preheaderContainer" style=3D"padding-top: =
+9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;=
+-webkit-text-size-adjust: 100%;" valign=3D"top"><table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" class=3D"mcnTextBlock" style=3D"border-collaps=
+e: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjus=
+t: 100%;-webkit-text-size-adjust: 100%;" width=3D"100%"><tbody class=3D"mcn=
+TextBlockOuter"><tr><td class=3D"mcnTextBlockInner" style=3D"mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;" valign=3D"top"><table align=3D"left" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" class=3D"mcnTextContentContainer" style=3D"border=
+-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-si=
+ze-adjust: 100%;-webkit-text-size-adjust: 100%;" width=3D"366"><tbody><tr><=
+td class=3D"mcnTextContent" style=3D"padding-top: 9px;padding-left: 18px;pa=
+dding-bottom: 9px;padding-right: 0;mso-table-lspace: 0pt;mso-table-rspace: =
+0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #60606=
+0;font-family: Helvetica;font-size: 11px;line-height: 125%;text-align: left=
+;" valign=3D"top"><div><span style=3D"color:#0000ff;"><strong>El mejor blog=
+ contable colaborativo - M=C3=A9xico -</strong></span></div></td></tr></tbo=
+dy></table><table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"mcnTextContentContainer" style=3D"border-collapse: collaps=
+e;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-w=
+ebkit-text-size-adjust: 100%;" width=3D"197"><tbody><tr><td class=3D"mcnTex=
+tContent" style=3D"padding: 9px 18px 9px 0px; text-size-adjust: 100%; color=
+: rgb(96, 96, 96); font-family: Helvetica; font-size: 11px; line-height: 12=
+5%; text-align: center;" valign=3D"top"><div><a href=3D"https://z7d0xy0l.r.=
+us-east-1.awstrack.me/L0/https:%2F%2Faraneoides.eomail1.com%2Fweb-version%3=
+Flc=3D636f2f62-3a25-11e9-a3c9-06b79b628af2%26p=3D202b51be-96ae-11e9-9307-06=
+b4694bee2a%26pt=3Dcampaign%26t=3D1561469626%26s=3D9c42fcf4eb1c8eabcd18303f7=
+9444a2fef5dbe8227e0942169f25489dab12665/1/0100016b8ed7a804-875bce77-a425-41=
+82-bef2-174c0ab06a5f-000000/O9fSntSJBDrh4PBKwTSGatirBi0=3D115" rel=3D"noope=
+ner noreferrer" target=3D"_blank">Ver esto en el navegador de internet</a><=
+/div></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody>=
+</table><!-- // END PREHEADER --></td></tr>
+<tr><td align=3D"center" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0=
+pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"to=
+p"><!-- BEGIN HEADER // --><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" id=3D"templateHeader" style=3D"border-collapse: collapse;mso-table-=
+lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-s=
+ize-adjust: 100%;min-width: 100%;background-color: #FFFFFF;border-top: 0;bo=
+rder-bottom: 0;" width=3D"600"><tbody><tr><td class=3D"headerContainer" sty=
+le=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;" valign=3D"top"><table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" class=3D"mcnImageBlock" style=3D"border-coll=
+apse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-ad=
+just: 100%;-webkit-text-size-adjust: 100%;" width=3D"100%"><tbody class=3D"=
+mcnImageBlockOuter"><tr><td class=3D"mcnImageBlockInner" style=3D"padding: =
+0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;=
+-webkit-text-size-adjust: 100%;" valign=3D"top"><table align=3D"left" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnImageContentContain=
+er" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspa=
+ce: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width=
+=3D"100%"><tbody><tr><td class=3D"mcnImageContent" style=3D"padding-right: =
+0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;m=
+so-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;" valign=3D"top"><div>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Felconta.=
+com%2F/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000/JnhaB=
+sxRahArp43yZxAQCtVRelg=3D115" style=3D"word-wrap: break-word;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_blank" title=3D"">=
+<img align=3D"center" alt=3D"" class=3D"mcnImage" src=3D"https://gallery.ma=
+ilchimp.com/c34e1670401e8251e0051354a/images/c5e55541-bd51-4913-a544-e37ff9=
+64ad1d.png" style=3D"max-width: calc(100% - 10px); padding-bottom: 0px; ver=
+tical-align: bottom; border: 0px; outline: none; text-decoration: none; wid=
+th: 750px; display: inline-block; margin-right: 5px; margin-left: 5px; text=
+-align: center;" height=3D"184.375" width=3D"590"> </a></div></td></tr></tb=
+ody></table></td></tr></tbody></table><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" class=3D"mcnDividerBlock" style=3D"border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;" width=3D"100%"><tbody class=3D"mcnDivider=
+BlockOuter"><tr><td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;m=
+so-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;"><table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"mcnDividerContent" style=3D"border-top-width: 1px;border-=
+top-style: solid;border-top-color: #999999;border-collapse: collapse;mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;" width=3D"100%"><tbody><tr><td style=3D"mso-table-lsp=
+ace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;"><div><a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0=
+/https:%2F%2Ftienda.elconta.com%2Fshop%2Fcategoria-producto%2Fprogramas-fac=
+turas%2Ffactura-electronica-cfdi%2F%3Futm_source=3Dboletin_elconta.com/1/01=
+00016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000/19x8e2TGLAqpkEfG=
+XMiGdInVLFg=3D115" rel=3D"noopener noreferrer" target=3D"_blank"><img src=
+=3D"https://gallery.eomail3.com/16452a69-3983-11e9-a3c9-06b79b628af2%2F1559=
+661122585-1559661161996.png" style=3D"width: 750px; display: block; vertica=
+l-align: top; margin: 5px auto; text-align: center;" height=3D"88.1875" wid=
+th=3D"735"></a></div><hr></td></tr></tbody></table></td></tr></tbody></tabl=
+e></td></tr></tbody></table><!-- // END HEADER --></td></tr>
+<tr><td align=3D"center" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0=
+pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"to=
+p"><!-- BEGIN BODY // --><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" id=3D"templateBody" style=3D"border-collapse: collapse;mso-table-lsp=
+ace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;min-width: 100%;background-color: #FFFFFF;border-top: 0;borde=
+r-bottom: 0;" width=3D"600"><tbody><tr><td align=3D"left" class=3D"sectionC=
+ontainer" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-siz=
+e-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top" width=3D"390=
+"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"templateBod=
+yInner" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-=
+rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;min-w=
+idth: 100%;" width=3D"100%"><tbody><tr><td class=3D"bodyContainer" style=3D=
+"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-we=
+bkit-text-size-adjust: 100%;" valign=3D"top"><table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" class=3D"mcnTextBlock" style=3D"min-width: 100%;b=
+order-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width=3D"100%"><tbody=
+ class=3D"mcnTextBlockOuter"><tr><td class=3D"mcnTextBlockInner" style=3D"m=
+so-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;" valign=3D"top"><table align=3D"left" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnTextContentContainer" st=
+yle=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;" width=3D"100%"><tbody><tr><td class=3D"mcnTextContent" style=3D"padding:=
+ 9px 18px;color: #122450;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Helvetica;=
+font-size: 10px;line-height: 150%;text-align: left;" valign=3D"top"><h3 cla=
+ss=3D"null" style=3D"text-align: left;margin: 0;padding: 0;display: block;f=
+ont-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;=
+line-height: 125%;letter-spacing: -.5px;color: #606060 !important;"><span s=
+tyle=3D"font-size: 18px;"><strong><span style=3D"color: rgb(0, 0, 255);">Ho=
+la de nuevo:</span></strong></span><span style=3D"font-size:14px;">
+</span>
+</h3><h2 class=3D"null" style=3D"text-align: left;margin: 0;padding: 0;disp=
+lay: block;font-family: Helvetica;font-size: 20px;font-style: normal;font-w=
+eight: bold;line-height: 125%;letter-spacing: -.75px;color: #404040 !import=
+ant;"><span style=3D"font-size:14px;">Te compartimos nuestros art=C3=ADculo=
+s mas recientes para el d=C3=ADa de hoy.</span></h2><div style=3D"text-alig=
+n: center;"><span style=3D"font-size:11px;"><span style=3D"color:#FF0000;">=
+<span style=3D"background-color:#FFFF00;">Agrega</span><strong><span style=
+=3D"background-color:#FFFF00;">&nbsp;</span></strong></span><strong><span s=
+tyle=3D"color:#0000FF;"><span style=3D"background-color:#FFFF00;">info@elco=
+nta.mx&nbsp;</span></span></strong><span style=3D"color:#FF0000;"><span sty=
+le=3D"background-color:#FFFF00;">a tu lista de correos seguros</span></span=
+>
+</span>
+</div></td></tr></tbody></table></td></tr></tbody></table><table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnTextBlock" style=3D"bord=
+er-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-=
+size-adjust: 100%;-webkit-text-size-adjust: 100%;" width=3D"100%"><tbody cl=
+ass=3D"mcnTextBlockOuter"><tr><td class=3D"mcnTextBlockInner" style=3D"mso-=
+table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;" valign=3D"top"><table align=3D"left" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnTextContentContainer" style=
+=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width=3D"100%"><=
+tbody><tr><td class=3D"mcnTextContent" style=3D"padding: 9px 18px;color: #0=
+00000;font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', =
+'Lucida Sans', Tahoma, sans-serif;font-size: 13px;mso-table-lspace: 0pt;mso=
+-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;line-height: 150%;text-align: left;" valign=3D"top"><h2 style=3D"text-ali=
+gn: center;"><span style=3D"color:#FFFFFF;"><strong><span style=3D"backgrou=
+nd-color:#FF0000;">Curso en l=C3=ADnea HOY:</span></strong></span></h2><hea=
+der><header style=3D"text-align: center;"><p><a href=3D"https://z7d0xy0l.r.=
+us-east-1.awstrack.me/L0/https:%2F%2Fcursos.elconta.com%2Fevento%2Fagapes-r=
+egimen-fiscal-sector-agropecuario-puntos-relevantes%2F%3Futm_source=3Dtopba=
+nner_elconta.com/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-00=
+0000/odsWSpiJNiG0hfdw9nORXP3Hkbw=3D115"><img alt=3D"Curso AGAPES 2019" src=
+=3D"https://gallery.eomail1.com/16452a69-3983-11e9-a3c9-06b79b628af2%2F1561=
+401765909-1561401813353.png" style=3D"width: 400px; display: inline-block; =
+vertical-align: bottom; margin-right: 5px; margin-left: 5px; max-width: cal=
+c(100% - 10px); text-align: center; height: 150px;" height=3D"150" width=3D=
+"312"></a>
+</p><h2><strong><span style=3D"color: rgb(0, 0, 0); background-color: rgb(2=
+51, 160, 38);">Pr=C3=B3ximo curso en l=C3=ADnea:</span></strong></h2><p><a =
+href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Fcursos.elco=
+nta.com%2Fevento%2Fmaterialidad-69b-actos-juridicos-presuncion-operaciones-=
+inexistentes%2F/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000=
+000/hU9KJWFRkN7UjWiNpgZ-Fthl4Do=3D115" rel=3D"noopener noreferrer" target=
+=3D"_blank"><img alt=3D"Curso AGAPES 2019" src=3D"https://gallery.eomail1.c=
+om/16452a69-3983-11e9-a3c9-06b79b628af2%2F1561401774282-1561401821515.png" =
+style=3D"width: 400px; height: 150px;" height=3D"150" width=3D"322"></a>
+
+<br></p></header></header><h2 style=3D"text-align: center;"><a href=3D"http=
+s://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Fcursos.elconta.com%2Fev=
+ento%2Fclaves-exito-contexto-comercial-charla-gratuita%2F/1/0100016b8ed7a80=
+4-875bce77-a425-4182-bef2-174c0ab06a5f-000000/CfcycO6IdIvEIToOBaeX2P_ptXs=
+=3D115" rel=3D"noopener noreferrer" target=3D"_blank"><span style=3D"color:=
+ rgb(15, 0, 255);"><strong><span style=3D"background-color: rgb(250, 197, 2=
+8);">
+</span></strong></span></a></h2><header><header><header><hr><header><header=
+><header><header><header><header><h2><a href=3D"https://z7d0xy0l.r.us-east-=
+1.awstrack.me/L0/https:%2F%2Felconta.com%2F2019%2F06%2F24%2Flavado-de-diner=
+o-programa-de-auto-regularizacion-2019%2F/1/0100016b8ed7a804-875bce77-a425-=
+4182-bef2-174c0ab06a5f-000000/FEdEuG8dnVibb2iv0GfGV3YGEWg=3D115" rel=3D"boo=
+kmark" title=3D"Enlaces permanentes a Lavado de Dinero. Programa de Auto Re=
+gularizaci=C3=B3n de los periodos 2013-2018.">Lavado de Dinero. Programa de=
+ Auto Regularizaci=C3=B3n de los periodos 2013-2018.</a></h2></header><p>Co=
+noce los beneficios, requisitos y plazos para la condonaci=C3=B3n de multas=
+ a partir del 21 de junio de 2019.&nbsp;<a href=3D"https://z7d0xy0l.r.us-ea=
+st-1.awstrack.me/L0/https:%2F%2Felconta.com%2F2019%2F06%2F24%2Flavado-de-di=
+nero-programa-de-auto-regularizacion-2019%2F/2/0100016b8ed7a804-875bce77-a4=
+25-4182-bef2-174c0ab06a5f-000000/CkAgYbMxtl4pHqI3FPOJcFZP7gg=3D115">CONTINU=
+AR LEYENDO:</a></p><header><h2><a href=3D"https://z7d0xy0l.r.us-east-1.awst=
+rack.me/L0/https:%2F%2Felconta.com%2F2019%2F06%2F19%2Ftratamiento-fiscal-co=
+misionistas-mercantiles-rif-asimilado-subordinado-o-independiente%2F/1/0100=
+016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000/t237V5mmbx0fo5NdpZ=
+6jfp_apCI=3D115" rel=3D"bookmark" title=3D"Enlaces permanentes a Tratamient=
+o fiscal de los comisionistas mercantiles. =C2=BFRIF, Asimilado, subordinad=
+o o Independiente? Ac=C3=A1 te decimos.">Tratamiento fiscal de los comision=
+istas mercantiles. =C2=BFRIF, Asimilado, subordinado o Independiente? Ac=C3=
+=A1 te decimos.</a></h2></header><p>Es importante visualizar que el comisio=
+nista puede tributar en 4 diferentes formas: Asimilado a salarios, Asalaria=
+do, RIF (secci=C3=B3n II), o persona f=C3=ADsica de la secci=C3=B3n I (acti=
+vidad empresarial).&nbsp;<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.m=
+e/L0/https:%2F%2Felconta.com%2F2019%2F06%2F19%2Ftratamiento-fiscal-comision=
+istas-mercantiles-rif-asimilado-subordinado-o-independiente%2F/2/0100016b8e=
+d7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000/LlR39dSDGDtnzXJgSpK6k2b-=
+8AU=3D115">CONTINUAR LEYENDO:</a></p><header><h2><a href=3D"https://z7d0xy0=
+l.r.us-east-1.awstrack.me/L0/https:%2F%2Felconta.com%2F2019%2F06%2F24%2Falc=
+oholismo-reunion-negocios-empresa-familair%2F/1/0100016b8ed7a804-875bce77-a=
+425-4182-bef2-174c0ab06a5f-000000/HZdc3uYqwFzsxPcwL4D-T6Y8M14=3D115" rel=3D=
+"bookmark" title=3D"Enlaces permanentes a Negocios + alcohol=3D Mezcla fata=
+l para los l=C3=ADderes empresariales.">Negocios + alcohol=3D Mezcla fatal =
+para los l=C3=ADderes empresariales.</a></h2>&nbsp;Es un buen momento para =
+que los l=C3=ADderes empresarios reflexionen sobre las costumbres que se pr=
+omueven en la familia y en la empresa, pues lo que sucede en casa, se repet=
+ir=C3=A1 en la empresa.&nbsp;<a href=3D"https://z7d0xy0l.r.us-east-1.awstra=
+ck.me/L0/https:%2F%2Felconta.com%2F2019%2F06%2F24%2Falcoholismo-reunion-neg=
+ocios-empresa-familair%2F/2/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0a=
+b06a5f-000000/fzSy-g0qMUbxY6UDgUso8qF_PvE=3D115">CONTINUAR LEYENDO:</a></he=
+ader><header><h2><a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/htt=
+ps:%2F%2Felconta.com%2F2019%2F06%2F18%2Foutsourcing-contratos-prestacion-se=
+rvicios-reforma-laboral-2019%2F/1/0100016b8ed7a804-875bce77-a425-4182-bef2-=
+174c0ab06a5f-000000/3dkvXO6mpaB_kNExnYjvB1U-Rc8=3D115" rel=3D"bookmark" tit=
+le=3D"Enlaces permanentes a La simulaci=C3=B3n, el outsourcing y los contra=
+tos de prestaci=C3=B3n de servicios en la Reforma Laboral 2019">La simulaci=
+=C3=B3n, el outsourcing y los contratos de prestaci=C3=B3n de servicios en =
+la Reforma Laboral 2019</a></h2></header><p>Consideraciones sobre la simula=
+ci=C3=B3n o encubrimiento de relaciones de trabajo contenida en la Reforma =
+Laboral 2019.&nbsp;<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/h=
+ttps:%2F%2Felconta.com%2F2019%2F06%2F18%2Foutsourcing-contratos-prestacion-=
+servicios-reforma-laboral-2019%2F/2/0100016b8ed7a804-875bce77-a425-4182-bef=
+2-174c0ab06a5f-000000/ywIrIptgWq1RGutnRKiePgXcVmM=3D115">CONTINUAR LEYENDO:=
+</a></p></header></header></header></header><header><h2><a href=3D"https://=
+z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Felconta.com%2F2019%2F06%2F1=
+8%2Fcfdi-pue-sin-estar-pagado-2-7-1-44%2F/1/0100016b8ed7a804-875bce77-a425-=
+4182-bef2-174c0ab06a5f-000000/-vfsaeFlYEW7swgPO78LzPpCLU0=3D115" rel=3D"boo=
+kmark" title=3D"Enlaces permanentes a CFDI PUE sin que te lo hayan pagado. =
+Cambio en la facilidad para emitirlo 2.7.1.44">CFDI PUE sin que te lo hayan=
+ pagado. Cambio en la facilidad para emitirlo 2.7.1.44</a></h2></header><p>=
+En este video platicaremos sobre el cambio en la facilidad para emitir un C=
+FDI con m=C3=A9todo de pago PUE sin haber recibido la totalidad del pago qu=
+e ampara el comprobante. Regla miscel=C3=A1nea 2.7.1.44 para 2019.&nbsp;<a =
+href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Felconta.com=
+%2F2019%2F06%2F18%2Fcfdi-pue-sin-estar-pagado-2-7-1-44%2F/2/0100016b8ed7a80=
+4-875bce77-a425-4182-bef2-174c0ab06a5f-000000/m6jU06nDcv-8wzfUFLpM3PX12KY=
+=3D115">CONTINUAR LEYENDO:</a></p></header><br>
+</header></header>
+</header><h3 class=3D"h3" style=3D"margin: 0;padding: 0;display: block;font=
+-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;lin=
+e-height: 125%;letter-spacing: -.5px;text-align: left;color: #606060 !impor=
+tant;"><span style=3D"color:#800080;">Otros art=C3=ADculos recientes:</span=
+></h3><ul>
+<li><h2><a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2F=
+elconta.com%2F2019%2F04%2F02%2Fresponsabilidad-penal-empresas-compliance-pe=
+nal-tributario%2F/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-0=
+00000/YmLYy2vm9vjVS-MJmoP-dFfdxlM=3D115" rel=3D"bookmark" title=3D"Enlaces =
+permanentes a La Responsabilidad Penal de las Empresas. Compliance Penal Tr=
+ibutario.">
+
+</a></h2><h2><a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%=
+2F%2Felconta.com%2F2019%2F06%2F10%2Fcontratos-civiles-soporte-operaciones-f=
+iscales%2F/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000/-=
+ROYQjLbcC6gsLM0Qk47J1S13Ec=3D115" rel=3D"bookmark" title=3D"Enlaces permane=
+ntes a Contratos civiles y su uso como soporte de operaciones fiscales.">Co=
+ntratos civiles y su uso como soporte de operaciones fiscales.</a></h2></li=
+><li><h2><a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2=
+Felconta.com%2F2019%2F06%2F11%2Flibertad-expresion-redes-sociales-abusos-of=
+ensas-amenazas%2F/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-0=
+00000/mEBDr61HWilDulrghYEMPIZ6gPM=3D115" rel=3D"bookmark" title=3D"Enlaces =
+permanentes a Si a la libertad de expresi=C3=B3n en Redes Sociales pero sin=
+ abusar=E2=80=A6 Nueva tesis aislada.">Si a la libertad de expresi=C3=B3n e=
+n Redes Sociales pero sin abusar=E2=80=A6 Nueva tesis aislada.</a></h2></li=
+><li><h2><a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2=
+Felconta.com%2F2019%2F06%2F11%2Factualizacion-costo-vendido-corredor-public=
+o%2F/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000/jgL5TjA=
+Z4U3BjE5UbKz-XsDf2C4=3D115" rel=3D"bookmark" title=3D"Enlaces permanentes a=
+ Deducci=C3=B3n de la Actualizaci=C3=B3n del Costo de lo Vendido. =C2=A1=C2=
+=A1Es posible y mediante corredor p=C3=BAblico=C2=A1=C2=A1">Deducci=C3=B3n =
+de la Actualizaci=C3=B3n del Costo de lo Vendido. =C2=A1=C2=A1Es posible y =
+mediante corredor p=C3=BAblico=C2=A1=C2=A1</a></h2></li><li><h2><a href=3D"=
+https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Felconta.com%2F2019%=
+2F06%2F10%2Fdiferencias-consejo-familiar-similar-al-del-consejo-de-administ=
+racion%2F/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000/jC=
+oUDwa4KXyr8DtYNJ0CXTiaIJg=3D115" rel=3D"bookmark" title=3D"Enlaces permanen=
+tes a El Consejo Familiar es similar al Consejo de Administraci=C3=B3n de u=
+na empresa, pero=E2=80=A6">El Consejo Familiar es similar al Consejo de Adm=
+inistraci=C3=B3n de una empresa, pero=E2=80=A6</a></h2></li></ul></td></tr>=
+</tbody></table></td></tr></tbody></table></td></tr></tbody></table></td>
+<td align=3D"left" class=3D"sectionContainer" style=3D"mso-table-lspace: 0p=
+t;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust=
+: 100%;" valign=3D"top" width=3D"200"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" id=3D"templateSidebar" style=3D"border-collapse: collaps=
+e;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-w=
+ebkit-text-size-adjust: 100%;min-width: 100%;border-left: 0;background-colo=
+r: #FFFFFF;" width=3D"100%"><tbody><tr><td align=3D"right" style=3D"mso-tab=
+le-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;" valign=3D"top"><table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" id=3D"templateSidebarInner" style=3D"border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;min-width: 100%;border-left: 0;" width=3D"=
+100%"><tbody><tr><td class=3D"sidebarContainer" style=3D"mso-table-lspace: =
+0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adju=
+st: 100%;" valign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"mcnImageCardBlock" style=3D"border-collapse: collapse;mso-t=
+able-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;" width=3D"100%"><tbody class=3D"mcnImageCardBlockOut=
+er"><tr><td class=3D"mcnImageCardBlockInner" style=3D"padding-top: 9px;padd=
+ing-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0p=
+t;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust=
+: 100%;" valign=3D"top"><table align=3D"right" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"mcnImageCardBottomContent" style=3D"border: 1=
+px solid #999999;background-color: #EBEBEB;border-collapse: collapse;mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;" width=3D"100%"><tbody><tr><td align=3D"center" class=
+=3D"mcnImageCardBottomImageContent" style=3D"padding-top: 18px;padding-righ=
+t: 18px;padding-bottom: 0;padding-left: 18px;mso-table-lspace: 0pt;mso-tabl=
+e-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" v=
+align=3D"top"><div>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Ftienda.e=
+lconta.com%2Fproducto%2Fprogramas-varios-software%2Fdescarga-masiva-de-elco=
+nta-com%2F/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000/S=
+1bDZIw0WzejcuitDVgkdnM3HPA=3D115" target=3D"_blank"><img alt=3D"" src=3D"ht=
+tps://elconta.com/wp-content/uploads/2017/10/descarga_masiva_2.png" style=
+=3D"width: 200px; height: 173px;"></a></div></td></tr>
+<tr><td class=3D"mcnTextContent" style=3D"padding-top: 9px;padding-right: 1=
+8px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-=
+rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color=
+: #606060;font-family: Helvetica;font-size: 13px;line-height: 125%;text-ali=
+gn: left;" valign=3D"top" width=3D"132"><div style=3D"text-align: center;">=
+<span style=3D"color:#FF0000;"><strong>=C2=BFA=C3=BAn con dudas? =C3=9Asalo=
+ GRATIS por 60 d=C3=ADas ;)</strong></span></div></td></tr></tbody></table>=
+</td></tr></tbody></table><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"mcnImageCardBlock" style=3D"border-collapse: collapse;mso-t=
+able-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;" width=3D"100%"><tbody class=3D"mcnImageCardBlockOut=
+er"><tr><td class=3D"mcnImageCardBlockInner" style=3D"padding-top: 9px;padd=
+ing-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0p=
+t;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust=
+: 100%;" valign=3D"top"><table align=3D"right" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" class=3D"mcnImageCardBottomContent" style=3D"backgroun=
+d-color: #AAE909;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-=
+rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" wid=
+th=3D"100%"><tbody><tr><td align=3D"center" class=3D"mcnImageCardBottomImag=
+eContent" style=3D"padding-top: 0px;padding-right: 0px;padding-bottom: 0;pa=
+dding-left: 0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-a=
+djust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top"><div>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Ftienda.e=
+lconta.net%2Fshop%2Fetiqueta-producto%2Ftimbres-extra-cfdi%2F/1/0100016b8ed=
+7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000/0qzAc54jo_d2lo2pCx375tg7j=
+GA=3D115" target=3D"_blank"><img alt=3D"" src=3D"https://correos.elconta.mx=
+/uploads/1525819705.jpg" style=3D"width: 200px; height: 200px;"></a></div><=
+/td></tr>
+<tr><td class=3D"mcnTextContent" style=3D"padding: 9px 18px;color: #F2F2F2;=
+font-family: Helvetica;font-size: 14px;font-weight: normal;line-height: 18p=
+x;text-align: center;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top" width=3D"1=
+50"><div><strong><span style=3D"font-size:18px;"><span style=3D"color:#FF00=
+00;">=C2=BFYa timbras con nosotros?</span></span><br>
+<span style=3D"color:#0000FF;"><span style=3D"font-size:12px;">Aqu=C3=AD pu=
+edes adquirir mas timbres.</span></span></strong></div></td></tr></tbody></=
+table></td></tr></tbody></table><table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"mcnImageCardBlock" style=3D"border-collapse: collapse=
+;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-we=
+bkit-text-size-adjust: 100%;" width=3D"100%"><tbody class=3D"mcnImageCardBl=
+ockOuter"><tr><td class=3D"mcnImageCardBlockInner" style=3D"padding-top: 9p=
+x;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspa=
+ce: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-=
+adjust: 100%;" valign=3D"top"><table align=3D"right" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" class=3D"mcnImageCardBottomContent" style=3D"bac=
+kground-color: #404040;border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;" width=3D"100%"><tbody><tr><td align=3D"center" class=3D"mcnImageCardBott=
+omImageContent" style=3D"padding-top: 0px;padding-right: 0px;padding-bottom=
+: 0;padding-left: 0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-=
+size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top"><div>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Ftienda.e=
+lconta.com%2Fshop%2Fcategoria-producto%2Fprogramas-varios-software%2Fxml-ad=
+ministracion%2F/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000=
+000/VhgBfW6ZL1Q24ULUCZK7X3mdX00=3D115" rel=3D"noopener noreferrer" style=3D=
+"word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;" target=3D"_blank" title=3D""><img alt=3D"" class=3D"mcnImage" src=
+=3D"https://gallery.mailchimp.com/c34e1670401e8251e0051354a/images/4a75ea27=
+-825d-4e14-93f6-3bc89ab50129.png" style=3D"max-width: 300px; border: 0px; o=
+utline: none; text-decoration: none; vertical-align: bottom; width: 200px; =
+height: 200px;"> </a></div></td></tr>
+<tr><td class=3D"mcnTextContent" style=3D"padding: 9px 18px;color: #F2F2F2;=
+font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: cent=
+er;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-=
+webkit-text-size-adjust: 100%;line-height: 125%;" valign=3D"top" width=3D"1=
+50"><div style=3D"text-align: center;">Para controlar&nbsp;todos tus archiv=
+os XML y PDF emitidos&nbsp;<strong>exclusivamente de n=C3=B3mina</strong>.<=
+/div></td></tr></tbody></table></td></tr></tbody></table><table border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnImageCardBlock" style=3D"=
+border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-t=
+ext-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width=3D"100%"><tbod=
+y class=3D"mcnImageCardBlockOuter"><tr><td class=3D"mcnImageCardBlockInner"=
+ style=3D"padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-=
+left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top"><table align=3D"righ=
+t" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnImageCardBo=
+ttomContent" style=3D"background-color: #AAE909;border-collapse: collapse;m=
+so-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;" width=3D"100%"><tbody><tr><td align=3D"center" =
+class=3D"mcnImageCardBottomImageContent" style=3D"padding-top: 0px;padding-=
+right: 0px;padding-bottom: 0;padding-left: 0px;mso-table-lspace: 0pt;mso-ta=
+ble-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"=
+ valign=3D"top"><div>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Fcursos.e=
+lconta.com%2Fcourse-category%2Fcursos-grabados%2F/1/0100016b8ed7a804-875bce=
+77-a425-4182-bef2-174c0ab06a5f-000000/r3Io45aPP9t_-HaSsalKa6RQ-c0=3D115" re=
+l=3D"noopener noreferrer" target=3D"_blank"><img alt=3D"" src=3D"https://co=
+rreos.elconta.mx/uploads/1525832531.png" style=3D"width: 226px; height: 226=
+px;" height=3D"226" width=3D"226"></a></div></td></tr>
+<tr><td class=3D"mcnTextContent" style=3D"padding: 9px 18px;color: #F2F2F2;=
+font-family: Helvetica;font-size: 14px;font-weight: normal;line-height: 18p=
+x;text-align: center;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top" width=3D"1=
+50"><div><strong><span style=3D"font-size:18px;"><span style=3D"color:#FF00=
+00;">cursos.elconta.com</span></span><br>
+<span style=3D"color:#0000FF;"><span style=3D"font-size:12px;">Cursos en vi=
+vo y grabados.</span></span></strong></div></td></tr></tbody></table></td><=
+/tr></tbody></table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ class=3D"mcnImageCardBlock" style=3D"border-collapse: collapse;mso-table-l=
+space: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-si=
+ze-adjust: 100%;" width=3D"100%"><tbody class=3D"mcnImageCardBlockOuter"><t=
+r><td class=3D"mcnImageCardBlockInner" style=3D"padding-top: 9px;padding-ri=
+ght: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;" valign=3D"top"><table align=3D"right" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" class=3D"mcnImageCardBottomContent" style=3D"background-colo=
+r: #EBEBEB;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace=
+: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width=3D"=
+100%"><tbody><tr><td align=3D"center" class=3D"mcnImageCardBottomImageConte=
+nt" style=3D"padding-top: 0px;padding-right: 0px;padding-bottom: 0;padding-=
+left: 0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;" valign=3D"top"><div>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Ftienda.e=
+lconta.com%2Fshop%2Fcategoria-producto%2Fprogramas-varios-software%2Fxml-ad=
+ministracion%2F/2/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000=
+000/Mp83Q0r6Lf0J0GbNHBM6aofPM8s=3D115" rel=3D"noopener noreferrer" target=
+=3D"_blank"><img src=3D"https://gallery.eomail3.com/16452a69-3983-11e9-a3c9=
+-06b79b628af2%2F1557766849849-1557766880456.png" style=3D"width: 238px; dis=
+play: block; vertical-align: top; margin: 5px auto; text-align: center; hei=
+ght: 234.796px;" width=3D"238" height=3D"234.781"></a></div></td></tr>
+<tr><td class=3D"mcnTextContent" style=3D"padding: 9px 18px;color: #EBEBEB;=
+font-family: Helvetica;font-size: 14px;font-weight: normal;line-height: 18p=
+x;text-align: center;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top" width=3D"1=
+50"><div><strong><span style=3D"font-size:18px;"><span style=3D"color:#FF00=
+00;">ConcilaREP v1 =E2=80=93 Concilia XML REPs vs XML Facturas.</span></spa=
+n></strong></div></td></tr></tbody></table></td></tr></tbody></table><table=
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnImageCardBloc=
+k" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspac=
+e: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width=3D=
+"100%"><tbody class=3D"mcnImageCardBlockOuter"><tr><td class=3D"mcnImageCar=
+dBlockInner" style=3D"padding-top: 9px;padding-right: 18px;padding-bottom: =
+9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text=
+-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top"><table a=
+lign=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mc=
+nImageCardBottomContent" style=3D"background-color: #EBEBEB;border-collapse=
+: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%;" width=3D"100%"><tbody><tr><td align=
+=3D"center" class=3D"mcnImageCardBottomImageContent" style=3D"padding-top: =
+0px;padding-right: 0px;padding-bottom: 0;padding-left: 0px;mso-table-lspace=
+: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;" valign=3D"top"><div>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Ftienda.e=
+lconta.com%2Fshop%2Fetiqueta-producto%2Flibros-imcp%2F%3Forderby=3Ddate/1/0=
+100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000/b04Ku_ZN-DWIFxT=
+o3LnzYaMq-zY=3D115" rel=3D"noopener noreferrer" target=3D"_blank"><img alt=
+=3D"" src=3D"https://correos.elconta.mx/uploads/1525819780.jpg" style=3D"wi=
+dth: 200px; height: 200px;"></a></div></td></tr>
+<tr><td class=3D"mcnTextContent" style=3D"padding: 9px 18px;color: #EBEBEB;=
+font-family: Helvetica;font-size: 14px;font-weight: normal;line-height: 18p=
+x;text-align: center;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top" width=3D"1=
+50"><div><strong><span style=3D"font-size:18px;"><span style=3D"color:#FF00=
+00;">Consulta el extenso cat=C3=A1logo de libros editados por el IMCP</span=
+></span></strong></div></td></tr></tbody></table></td></tr></tbody></table>=
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnImageCa=
+rdBlock" style=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table=
+-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" wi=
+dth=3D"100%"><tbody class=3D"mcnImageCardBlockOuter"><tr><td class=3D"mcnIm=
+ageCardBlockInner" style=3D"padding-top: 9px;padding-right: 18px;padding-bo=
+ttom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-m=
+s-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top"><t=
+able align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"mcnImageCardBottomContent" style=3D"background-color: #404040;border-co=
+llapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;" width=3D"100%"><tbody><tr><td=
+ align=3D"center" class=3D"mcnImageCardBottomImageContent" style=3D"padding=
+-top: 0px;padding-right: 0px;padding-bottom: 0;padding-left: 0px;mso-table-=
+lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-s=
+ize-adjust: 100%;" valign=3D"top"><div>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Ftienda.e=
+lconta.com%2Fshop%2Fcategoria-producto%2Fprogramas-varios-software%2Fxml-ad=
+ministracion%2F/3/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000=
+000/EiAsBG-7sQlEcsbMru9HSr4q20A=3D115" style=3D"word-wrap: break-word;-ms-t=
+ext-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_blank" ti=
+tle=3D""><img alt=3D"" class=3D"mcnImage" src=3D"https://gallery.mailchimp.=
+com/c34e1670401e8251e0051354a/images/482e6127-0ae2-4325-bbd7-2ecb4324136d.p=
+ng" style=3D"max-width: 448px; border: 0px; outline: none; text-decoration:=
+ none; vertical-align: bottom; width: 200px; height: 117px;"> </a></div></t=
+d></tr>
+<tr><td class=3D"mcnTextContent" style=3D"padding: 9px 18px;color: #F2F2F2;=
+font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: cent=
+er;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-=
+webkit-text-size-adjust: 100%;line-height: 125%;" valign=3D"top" width=3D"1=
+49"><p style=3D"text-align: center;color: #F2F2F2;font-family: Helvetica;fo=
+nt-size: 14px;font-weight: normal;margin: 1em 0;padding: 0;-ms-text-size-ad=
+just: 100%;-webkit-text-size-adjust: 100%;line-height: 125%;"><span style=
+=3D"color:#FFFF00;"><strong>=C2=BFCansado de contabilizar esos tediosos ree=
+mbolsos?</strong></span>
+<br> Contabiliza con nuestro potente software&nbsp;<strong>P=C3=B3lizas Mas=
+ivas desde el XML a CONTPAQi</strong></p></td></tr></tbody></table></td></t=
+r></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td>=
+</tr></tbody></table><!-- // END BODY --></td></tr>
+<tr><td align=3D"center" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0=
+pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"to=
+p"><!-- BEGIN FOOTER // --><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" id=3D"templateFooter" style=3D"border-collapse: collapse;mso-table-=
+lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-s=
+ize-adjust: 100%;min-width: 100%;background-color: #FFFFFF;border-top: 0;bo=
+rder-bottom: 0;" width=3D"600"><tbody><tr><td class=3D"footerContainer" sty=
+le=3D"padding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-t=
+ext-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top"><p st=
+yle=3D"text-align: center;">
+<a href=3D"http://z7d0xy0l.r.us-east-1.awstrack.me/L0/http:%2F%2Felconta.mx=
+%2Fsispacppi/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000=
+/DnBtSnJEG3LipFXhVcKDuaVuNAk=3D115" rel=3D"noopener noreferrer" target=3D"_=
+blank"><img src=3D"https://gallery.eomail3.com/16452a69-3983-11e9-a3c9-06b7=
+9b628af2%2F1557766507453-1557766538866.png" style=3D"width: 300px; display:=
+ block; vertical-align: top; margin: 5px auto; text-align: center;" height=
+=3D"255" width=3D"300"></a>
+</p><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnTex=
+tBlock" style=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace=
+: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;" width=3D"100%"><tbody class=3D"mcnTextBlockOuter"><tr><td clas=
+s=3D"mcnTextBlockInner" style=3D"padding-top: 9px;mso-table-lspace: 0pt;mso=
+-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;" valign=3D"top"><!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]--><!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"599" style=3D"width:599px;">
+=09=09=09=09<![endif]--><table align=3D"left" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" class=3D"mcnTextContentContainer" style=3D"max-width: 1=
+00%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-tab=
+le-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" =
+width=3D"100%"><tbody><tr><td class=3D"mcnTextContent" style=3D"padding-top=
+: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 11px;line-h=
+eight: 125%;text-align: left;" valign=3D"top"><table border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" style=3D"border-collapse: collapse;mso-table-lsp=
+ace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;" width=3D"100%"><tbody><tr><td style=3D"mso-table-lspace: 0p=
+t;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust=
+: 100%;" valign=3D"top"><table align=3D"left" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"border-collapse: collapse;mso-table-lspace: 0p=
+t;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust=
+: 100%;" width=3D"100%"><tbody><tr><td style=3D"mso-table-lspace: 0pt;mso-t=
+able-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+" valign=3D"top"><h3 class=3D"null" style=3D"margin: 0px; padding: 0px; dis=
+play: block; font-family: Helvetica; font-size: 18px; font-style: normal; f=
+ont-weight: bold; line-height: 125%; letter-spacing: -0.5px; color: rgb(96,=
+ 96, 96) !important; text-align: center;"><span style=3D"color:#008000;"><s=
+trong>En&nbsp;</strong></span><strong>ElConta.Com</strong><span style=3D"co=
+lor:#008000;"><strong>&nbsp;nos encargamos de traerte el mejor contenido en=
+ materia fiscal, laboral y de seguridad social, que en verdad te ayudar=C3=
+=A1n a tomar las mejores decisiones en tu empresa o negocio.<br>
+<br>
+A continuaci=C3=B3n te comparto las publicaciones 2019, las que seguramente=
+ te proporcionaran mayor conocimiento de las diferentes =C3=A1reas de tu in=
+ter=C3=A9s.</strong></span></h3></td></tr></tbody></table></td></tr></tbody=
+></table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"b=
+order-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width=3D"100%"><tbody=
+><tr><td style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size=
+-adjust: 100%;-webkit-text-size-adjust: 100%;"><table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"border-collapse: collapse;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;" width=3D"100%"><tbody><tr><td style=3D"text-align: center;=
+mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-web=
+kit-text-size-adjust: 100%;"><h2 class=3D"null" style=3D"text-align: center=
+;margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 20px=
+;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.7=
+5px;color: #404040 !important;">
+<br>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Ftienda.e=
+lconta.com%2Fshop%2Fcategoria-producto%2Flibros-y-revistas%2F%3Forderby=3Dd=
+ate/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000/IIfzDZK0=
+A24kYgeUM-b_JrTe2qs=3D115" rel=3D"noopener noreferrer" style=3D"word-wrap: =
+break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color:=
+ #606060;font-weight: normal;text-decoration: underline;" target=3D"_blank"=
+><span style=3D"color:#0000FF;"><strong>Clic aqu=C3=AD para consultar&nbsp;=
+el cat=C3=A1logo completo de nuestra librer=C3=ADa.</strong></span></a></h2=
+></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></ta=
+ble><!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]--><!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]--></td></tr></tbody></table><table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" class=3D"mcnDividerBlock" style=3D"min-width=
+: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0p=
+t;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width=3D"100%=
+"><tbody class=3D"mcnDividerBlockOuter"><tr><td class=3D"mcnDividerBlockInn=
+er" style=3D"min-width: 100%;padding: 10px 18px;mso-table-lspace: 0pt;mso-t=
+able-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnDivid=
+erContent" style=3D"min-width: 100%;border-top-width: 2px;border-top-style:=
+ solid;border-top-color: #EAEAEA;border-collapse: collapse;mso-table-lspace=
+: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;" width=3D"100%"><tbody><tr><td style=3D"mso-table-lspace: 0pt;m=
+so-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;"><div>&nbsp;</div></td></tr></tbody></table><!--           =20
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;"=
+>
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-colo=
+r:none; border-left-color:none; border-right-color:none; border-bottom-widt=
+h:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:=
+0; margin-bottom:0; margin-left:0;" />
+--></td></tr></tbody></table><table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"mcnFollowBlock" style=3D"min-width: 100%;border-collapse=
+: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%;" width=3D"100%"><tbody class=3D"mcnF=
+ollowBlockOuter"><tr><td align=3D"center" class=3D"mcnFollowBlockInner" sty=
+le=3D"padding: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-siz=
+e-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top"><table borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowContentContai=
+ner" style=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: 0=
+pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjus=
+t: 100%;" width=3D"100%"><tbody><tr><td align=3D"center" style=3D"padding-l=
+eft: 9px;padding-right: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms=
+-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><table border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowContent" style=3D"m=
+in-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rs=
+pace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width=
+=3D"100%"><tbody><tr><td align=3D"center" style=3D"padding-top: 9px;padding=
+-right: 9px;padding-left: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top"><=
+table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" sty=
+le=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><tbody><tr><td=
+ align=3D"center" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top"><!--=
+[if mso]>
+                                    <table align=3D"center" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0">
+                                    <tr>
+                                    <![endif]--><!--[if mso]>
+                                        <td align=3D"center" valign=3D"top"=
+>
+                                        <![endif]--><table align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowStacked" =
+style=3D"display: inline;border-collapse: collapse;mso-table-lspace: 0pt;ms=
+o-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 10=
+0%;"><tbody><tr><td align=3D"center" class=3D"mcnFollowIconContent" style=
+=3D"padding-right: 10px;padding-bottom: 9px;mso-table-lspace: 0pt;mso-table=
+-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" va=
+lign=3D"top"><div>
+<a href=3D"http://z7d0xy0l.r.us-east-1.awstrack.me/L0/http:%2F%2Fwww.facebo=
+ok.com%2Felconta/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-00=
+0000/auqp1eqOvwbB9Vsa6U5yaibDdZA=3D115" style=3D"word-wrap: break-word;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_blank"><=
+img alt=3D"Facebook" class=3D"mcnFollowBlockIcon" src=3D"https://cdn-images=
+.mailchimp.com/icons/social-block-v2/color-facebook-96.png" style=3D"width:=
+ 48px;max-width: 48px;display: block;border: 0;outline: none;text-decoratio=
+n: none;-ms-interpolation-mode: bicubic;" width=3D"48"></a></div></td></tr>=
+</tbody></table><!--[if mso]>
+                                        </td>
+                                        <![endif]--><!--[if mso]>
+                                        <td align=3D"center" valign=3D"top"=
+>
+                                        <![endif]--><table align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowStacked" =
+style=3D"display: inline;border-collapse: collapse;mso-table-lspace: 0pt;ms=
+o-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 10=
+0%;"><tbody><tr><td align=3D"center" class=3D"mcnFollowIconContent" style=
+=3D"padding-right: 10px;padding-bottom: 9px;mso-table-lspace: 0pt;mso-table=
+-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" va=
+lign=3D"top"><div>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Ftwitter.=
+com%2Felconta2r/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000=
+000/7cU4oAgoqEdAmJAj4zpY1TZgPbA=3D115" style=3D"word-wrap: break-word;-ms-t=
+ext-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_blank"><i=
+mg alt=3D"Twitter" class=3D"mcnFollowBlockIcon" src=3D"https://cdn-images.m=
+ailchimp.com/icons/social-block-v2/color-twitter-96.png" style=3D"width: 48=
+px;max-width: 48px;display: block;border: 0;outline: none;text-decoration: =
+none;-ms-interpolation-mode: bicubic;" width=3D"48"></a></div></td></tr></t=
+body></table><!--[if mso]>
+                                        </td>
+                                        <![endif]--><!--[if mso]>
+                                        <td align=3D"center" valign=3D"top"=
+>
+                                        <![endif]--><table align=3D"left" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowStacked" =
+style=3D"display: inline;border-collapse: collapse;mso-table-lspace: 0pt;ms=
+o-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 10=
+0%;"><tbody><tr><td align=3D"center" class=3D"mcnFollowIconContent" style=
+=3D"padding-right: 0;padding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rs=
+pace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valig=
+n=3D"top"><div>
+<a href=3D"http://z7d0xy0l.r.us-east-1.awstrack.me/L0/http:%2F%2Felconta.co=
+m%2F/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-000000/XbzWgwn=
+f9VkEAJ9sjayheiWyi-M=3D115" style=3D"word-wrap: break-word;-ms-text-size-ad=
+just: 100%;-webkit-text-size-adjust: 100%;" target=3D"_blank"><img alt=3D"W=
+ebsite" class=3D"mcnFollowBlockIcon" src=3D"https://cdn-images.mailchimp.co=
+m/icons/social-block-v2/color-link-96.png" style=3D"width: 48px;max-width: =
+48px;display: block;border: 0;outline: none;text-decoration: none;-ms-inter=
+polation-mode: bicubic;" width=3D"48"></a></div></td></tr></tbody></table><=
+!--[if mso]>
+                                        </td>
+                                        <![endif]--><!--[if mso]>
+                                    </tr>
+                                    </table>
+                                    <![endif]--></td></tr></tbody></table><=
+/td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tabl=
+e><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnTextB=
+lock" style=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: =
+0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adju=
+st: 100%;" width=3D"100%"><tbody class=3D"mcnTextBlockOuter"><tr><td class=
+=3D"mcnTextBlockInner" style=3D"mso-table-lspace: 0pt;mso-table-rspace: 0pt=
+;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign=3D"top"=
+><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"mcnTextContentContainer" style=3D"min-width: 100%;border-collapse: co=
+llapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%"><tbody><tr><td class=3D"=
+mcnTextContent" style=3D"padding-top: 9px;padding-right: 18px;padding-botto=
+m: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-t=
+ext-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-fa=
+mily: Helvetica;font-size: 11px;line-height: 125%;text-align: left;" valign=
+=3D"top"><p style=3D"text-align: center;"><em>Copyright =C2=A9 2019 El Cont=
+a punto com, Todos los derechos reservados.</em>
+<br> Est=C3=A1s recibiendo este bolet=C3=ADn informativo porque as=C3=AD lo=
+ solicitaste en nuestra p=C3=A1gina ElConta.Com
+<br>
+<br>
+<strong>Nuestra direcci=C3=B3n postal es:</strong></p><div class=3D"vcard">=
+<span class=3D"org fn">El Conta punto com</span>
+
+<div class=3D"adr">
+<div class=3D"street-address">Marsella 570 Int. 305 CP 44190</div>
+<span class=3D"locality">Guadalajara</span>, <span class=3D"region">Jalisco=
+</span> Mexico
+
+<div class=3D"country-name">GDL (33) 3333-9715&nbsp;Y 33-3683-9343</div>
+</div>
+</div></td></tr></tbody></table></td></tr></tbody></table><div>
+<center><span style=3D"font-size:12px;">Ya no deseas recibir este bolet=C3=
+=ADn?.&nbsp;</span>
+<unsubscribe><span style=3D"font-size:12px;"><a href=3D"https://z7d0xy0l.r.=
+us-east-1.awstrack.me/L0/https:%2F%2Faraneoides.eomail1.com%2Funsubscribe%3=
+Fl=3D02e588a8-3a25-11e9-a3c9-06b79b628af2%26lc=3D636f2f62-3a25-11e9-a3c9-06=
+b79b628af2%26p=3D202b51be-96ae-11e9-9307-06b4694bee2a%26pt=3Dcampaign%26spa=
+=3D1561469402%26t=3D1561469626%26s=3Dd04614a7aec80f98c3408cfa5fec0448484425=
+72691236983e794b67b3d2170b/1/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0=
+ab06a5f-000000/1Z7J8iYKsXZakcgipQrKc3oO_bg=3D115" rel=3D"noopener noreferre=
+r" target=3D"_blank">Puedes darte de baja aqu=C3=AD</a></span></unsubscribe=
+>
+</center>
+</div></td></tr></tbody></table><!-- // END FOOTER --></td></tr></tbody></t=
+able>
+</center><p></p><p><br></p><p><br></p><p><br></p><p><br></p><p>
+<br>
+</p><p>
+<br>
+</p><p>
+<br>
+</p><!-- // END TEMPLATE --><img alt=3D"" src=3D"http://z7d0xy0l.r.us-east-=
+1.awstrack.me/I0/0100016b8ed7a804-875bce77-a425-4182-bef2-174c0ab06a5f-0000=
+00/bdNTxIKNoMlju61niPH5oN4Ax0o=3D115" style=3D"display: none; width: 1px; h=
+eight: 1px;">
+</body></html>
+
+--_=_swift_1561469626_2a3ad4626959762f6fe1b2abe36d273e_=_--

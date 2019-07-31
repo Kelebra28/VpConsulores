@@ -1,0 +1,304 @@
+Return-Path: <juanvisoriano@mail.ucv.es>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id gDpBGOOGV1xNfAAAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Sun, 03 Feb 2019 17:27:15 -0700
+Return-path: <juanvisoriano@mail.ucv.es>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Sun, 03 Feb 2019 17:27:15 -0700
+Received: from mail-eopbgr80111.outbound.protection.outlook.com ([40.107.8.111]:6174 helo=EUR04-VI1-obe.outbound.protection.outlook.com)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <juanvisoriano@mail.ucv.es>)
+	id 1gqS6T-002cAq-MM
+	for raymundo@vpconsultores.com.mx; Sun, 03 Feb 2019 17:27:15 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=mailucv.onmicrosoft.com; s=selector1-mail-ucv-es;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=p/zZShEZSgkB5/QmuIBaoHcfJpfwPMgzPrGqqw+XXtc=;
+ b=klHFEJdb6pSkYS6wUJuXhSoOYCkxHeR1ZA8jEiSwbeFtWlD//dNO1vEY/sGQ3CGU6w5LRWqxCK84gSP+n2sDBR+P+0sU9fKi5PjtP4PrEboOCi1kJN/3k0sDCeuX93CgNACyzj4OXZVBGqpT7lEQOn8oa1BYljXNwVaSyhHtMvY=
+Received: from DB7PR03MB4491.eurprd03.prod.outlook.com (20.176.234.139) by
+ DB7PR03MB4937.eurprd03.prod.outlook.com (20.178.45.93) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.1580.22; Mon, 4 Feb 2019 00:26:30 +0000
+Received: from DB7PR03MB4491.eurprd03.prod.outlook.com
+ ([fe80::f0ca:b6ed:9512:9b0c]) by DB7PR03MB4491.eurprd03.prod.outlook.com
+ ([fe80::f0ca:b6ed:9512:9b0c%4]) with mapi id 15.20.1580.019; Mon, 4 Feb 2019
+ 00:26:30 +0000
+From: JUAN VICENTE SORIANO FERNANDEZ <juanvisoriano@mail.ucv.es>
+To: JUAN VICENTE SORIANO FERNANDEZ <juanvisoriano@mail.ucv.es>
+Subject: RE: PAGO
+Thread-Topic: PAGO
+Thread-Index: AdS8IEU/onkwTFoCBU2PKKRbM7ZJaA==
+Date: Mon, 4 Feb 2019 00:26:28 +0000
+Message-ID:
+ <DB7PR03MB44919432ADC5371CBA1ED342ED6D0@DB7PR03MB4491.eurprd03.prod.outlook.com>
+References:
+ <VI1PR03MB449351F0D1E40F28F4B2B147ED6D0@VI1PR03MB4493.eurprd03.prod.outlook.com>
+In-Reply-To:
+ <VI1PR03MB449351F0D1E40F28F4B2B147ED6D0@VI1PR03MB4493.eurprd03.prod.outlook.com>
+Accept-Language: es-ES, en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=juanvisoriano@mail.ucv.es; 
+x-originating-ip: [185.93.182.252]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics:
+ 1;DB7PR03MB4937;6:n7RuyL3KBaHrgt4fXeJOhM++OAyPBuI9wCtIZHm1/87bS+p8WxDpnxWlZKloxy8mNVa1sbuSuSxKDobprjapNtjj5mvIx/P8qe7dtro/aT8j8QafX8duk2v91jtDT0Wbpqe5Qywd/BLeSRZBTuEWdWerGAiM5rkxHHmopQLuwL8J9W+/wz4fpO50hVCZ0IuWzl6JAG0xrvUPPYxmxNw6Z4mP5N8ZfwYjyKqbG0RDEJ0pDYiLNhA9MLA0Gig4p5Os0zvq6uDbKiXiWqa4fAj+0TlEij2JaNzGEUJcnBzB7r87GdZWC1J/Q056MbgIorQxn1ABUs27c2FRM0hKUxOkQLN8wk+5GJOn8mz2Xh5/Lc6GjK+Bm7ZOsOmDaV/mYVJO+OAoyIBFWIb1DKXmP0Bj1b5AcNT5RiQ2WMpK9ffO3XeQSNB1OWf20TTvDeihfkoVsdDsRAq5BTcZmWOTycxkPA==;5:d7qUIygXuofO4YjV90nZcDRwXTBVB65gvgtt2O4dV1zfzpMHZ523/jv30w37+lv0h2sTd1M+ipkCzOo64Qy7auCPPZy9rkOrmuPcLR3ADk2t6Dp9Svkcm3VHHgTdK4mwBsaLn91uWrqOUEVM6/2z15gAw/o7hyu49V8Na23JNR5Ev218PIQRF+PPrY5aULaACbLcG6eOZWrIufn41ZE8PQ==;7:34w+KgE7flaTk7U03PxruqpT/FLC0CwAQ9qZR0BUz6lmetJgNZtRbyDta7T0Kc6LGr6S4vlvW4LScdA3u2cQYKEb0S5efl25EG2nbQ66GcGygJApXdgpPYKo7PymNykN9+EBpVAXmJYP8A8NziGWLw==
+x-ms-office365-filtering-correlation-id: 791e7820-811c-4bf5-968c-08d68a3768a9
+x-microsoft-antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(8989299)(4534185)(7168020)(4627221)(201703031133081)(201702281549075)(8990200)(5600110)(711020)(4605077)(2017052603328)(7167020)(7153060)(7193020);SRVR:DB7PR03MB4937;
+x-ms-traffictypediagnostic: DB7PR03MB4937:
+x-microsoft-antispam-prvs:
+ <DB7PR03MB49372DD204DCDD6B017C83B3ED6D0@DB7PR03MB4937.eurprd03.prod.outlook.com>
+x-forefront-prvs: 0938781D02
+x-forefront-antispam-report:
+ SFV:NSPM;SFS:(10019020)(39860400002)(366004)(346002)(396003)(376002)(136003)(199004)(189003)(7116003)(7736002)(486006)(7406005)(7416002)(106356001)(7366002)(446003)(102836004)(7336002)(11346002)(73972006)(26005)(86362001)(221733001)(7276002)(105586002)(476003)(66066001)(186003)(6862004)(6116002)(39060400002)(53346004)(33656002)(68736007)(2906002)(3846002)(54896002)(6200100001)(236005)(316002)(9686003)(71190400001)(71200400001)(6436002)(14454004)(25786009)(65686004)(55016002)(4744005)(786003)(3480700005)(229853002)(6306002)(76176011)(478600001)(76576003)(88732003)(7696005)(256004)(8936002)(81166006)(74482002)(97736004)(6506007)(99286004)(6246003)(8676002)(55236004)(790700001)(53936002)(53546011)(74316002)(81156014);DIR:OUT;SFP:1102;SCL:1;SRVR:DB7PR03MB4937;H:DB7PR03MB4491.eurprd03.prod.outlook.com;FPR:;SPF:None;LANG:es;PTR:InfoNoRecords;A:0;MX:1;
+received-spf: None (protection.outlook.com: mail.ucv.es does not designate
+ permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam-message-info:
+ Ft/mhTbDYY9S6unWql+ujGVs2Pz8XIlc+nWEsFSPdkUw6RsVu2DavjTe9/OfFqh20ekNZ5Ri7I+lkisPRpA5gw8NG5K0oYvGLGo2XiYupc4r5PG4Xa6LSU1NyRg2nhOtFNRf2/ND086hJfR0Qjy8WyBNtbCaU0mOvG/ghh1DLbMLlUscYMvLnOCLKOqO/0O282oiIogSoPjp1rSp8kq9xtemTaWu5i/vu1f89fCUmN68LmebSLgZbM+ahdJjdpdvd1BfOl63GkUmhu00JxZ+S35NBwy0+RcCBUG0ZHrio+yWIn1kMNya33yKTPdE2ukVFDExP6slUEhbuRbjvTjYlzlgRaowA2mwQQ8wVgr+SbRm4QkUwqJJaptFQjAt415R83By1115MIhY/deDyP+YlFFy6lSvpCqZbiWtdaH00Dg=
+Content-Type: multipart/alternative;
+	boundary="_000_DB7PR03MB44919432ADC5371CBA1ED342ED6D0DB7PR03MB4491eurp_"
+MIME-Version: 1.0
+X-OriginatorOrg: mail.ucv.es
+X-MS-Exchange-CrossTenant-Network-Message-Id: 791e7820-811c-4bf5-968c-08d68a3768a9
+X-MS-Exchange-CrossTenant-originalarrivaltime: 04 Feb 2019 00:26:28.7470
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: a6646126-b0da-4ad9-ad11-ce63e96eb959
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB7PR03MB4937
+X-Spam-Status: No, score=4.5
+X-Spam-Score: 45
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  From: JUAN VICENTE SORIANO FERNANDEZ Sent: Sunday, February
+    3, 2019 1:13 AM To: ISIDRO JOSÉ Estimado propietario: correo electrónico,
+    Ha sido elegido como beneficiario recibir USD $900.000 de Juan Abe
+ 
+ Content analysis details:   (4.5 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: juanabellofundation.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: juanabellofundation.org]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mailucv.onmicrosoft.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or identical to
+                             background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+X-Spam-Flag: NO
+
+--_000_DB7PR03MB44919432ADC5371CBA1ED342ED6D0DB7PR03MB4491eurp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+From: JUAN VICENTE SORIANO FERNANDEZ
+Sent: Sunday, February 3, 2019 1:13 AM
+To: ISIDRO JOS=C9
+
+
+Estimado propietario: correo electr=F3nico,
+
+
+
+
+
+Ha sido elegido como beneficiario recibir USD $900.000 de Juan Abello Found=
+ation para fines humanitarios.
+
+
+
+
+
+P=F3ngase en contacto con la oficina de pago con el c=F3digo de pago: JAF20=
+18US900#
+
+
+
+Agente: Luis, Roberto
+
+Correo electr=F3nico: foundation@juanabellofundation.org<mailto:foundation@=
+juanabellofundation.org>
+
+
+
+ Debe comunicarse con nosotros a trav=E9s del siguiente correo electr=F3nic=
+o: foundation@juanabellofundation.org<mailto:foundation@juanabellofundation=
+.org>
+
+dias Isidro, el email que las termino el dia 15 de Febrero.
+
+Un saludo.
+
+________________________________
+
+--_000_DB7PR03MB44919432ADC5371CBA1ED342ED6D0DB7PR03MB4491eurp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.xxxxmsonormal, li.xxxxmsonormal, div.xxxxmsonormal
+	{mso-style-name:x_xxxmsonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.xxxxxmsonormal, li.xxxxxmsonormal, div.xxxxxmsonormal
+	{mso-style-name:x_xxxxmsonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle20
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.xxxxxdropdown-user-namefirst-letter
+	{mso-style-name:x_xxxxdropdown-user-namefirst-letter;}
+span.xxxxxdropdown-user-name
+	{mso-style-name:x_xxxxdropdown-user-name;}
+span.EmailStyle24
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"color:white">From:</span></b><span=
+ style=3D"color:white"> JUAN VICENTE SORIANO FERNANDEZ
+<br>
+<b>Sent:</b> Sunday, February 3, 2019 1:13 AM<br>
+<b>To:</b> ISIDRO JOS=C9 <o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><span style=3D"color:white"><o:p>&nbsp;</o:p></span>=
+</p>
+<div id=3D"divtagdefaultwrapper">
+<p class=3D"xxxxmsonormal">Estimado propietario: correo electr=F3nico,<o:p>=
+</o:p></p>
+<p class=3D"xxxxxmsonormal">&nbsp;<o:p></o:p></p>
+<p class=3D"xxxxxmsonormal">&nbsp;<o:p></o:p></p>
+<p class=3D"xxxxxmsonormal">Ha sido elegido como beneficiario recibir USD $=
+900.000 de Juan Abello Foundation para fines humanitarios.<o:p></o:p></p>
+<p class=3D"xxxxxmsonormal">&nbsp;<o:p></o:p></p>
+<p class=3D"xxxxxmsonormal">&nbsp;<o:p></o:p></p>
+<p class=3D"xxxxxmsonormal">P=F3ngase en contacto con la oficina de pago co=
+n el c=F3digo de pago: JAF2018US900#<o:p></o:p></p>
+<p class=3D"xxxxxmsonormal">&nbsp;<o:p></o:p></p>
+<p class=3D"xxxxxmsonormal">Agente: Luis, Roberto<o:p></o:p></p>
+<p class=3D"xxxxxmsonormal">Correo electr=F3nico: <span class=3D"xxxxxdropd=
+own-user-namefirst-letter">
+<a href=3D"mailto:foundation@juanabellofundation.org" target=3D"_blank">fou=
+ndation@juanabellofundation.org</a></span><span class=3D"xxxxxdropdown-user=
+-name">
+</span><o:p></o:p></p>
+<p class=3D"xxxxxmsonormal">&nbsp;<o:p></o:p></p>
+<p class=3D"xxxxxmsonormal">&nbsp;Debe comunicarse con nosotros a trav=E9s =
+del siguiente correo electr=F3nico:
+<span class=3D"xxxxxdropdown-user-namefirst-letter"><a href=3D"mailto:found=
+ation@juanabellofundation.org" target=3D"_blank">foundation@juanabellofunda=
+tion.org</a></span><span class=3D"xxxxxdropdown-user-name"> &nbsp;</span><o=
+:p></o:p></p>
+<p><span style=3D"font-size:12.0pt;color:white">dias Isidro, el email que l=
+as termino el dia 15 de Febrero.&nbsp;<o:p></o:p></span></p>
+<p><span style=3D"font-size:12.0pt;color:white">Un saludo.<o:p></o:p></span=
+></p>
+</div>
+<div class=3D"MsoNormal" align=3D"center" style=3D"text-align:center">
+<hr size=3D"2" width=3D"98%" align=3D"center">
+</div>
+</div>
+</body>
+</html>
+
+--_000_DB7PR03MB44919432ADC5371CBA1ED342ED6D0DB7PR03MB4491eurp_--

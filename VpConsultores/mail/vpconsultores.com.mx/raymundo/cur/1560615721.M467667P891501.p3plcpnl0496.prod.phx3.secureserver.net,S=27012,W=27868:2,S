@@ -1,0 +1,856 @@
+Return-Path: <noreply@email.apple.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id EPosGSkbBV1tmg0AFq4nlA
+	(envelope-from <noreply@email.apple.com>)
+	for <raymundo@vpconsultores.com.mx>; Sat, 15 Jun 2019 09:22:01 -0700
+Return-path: <noreply@email.apple.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Sat, 15 Jun 2019 09:22:01 -0700
+Received: from nwk-txn-msbadger0405.apple.com ([17.151.1.66]:56167)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <noreply@email.apple.com>)
+	id 1hcBRE-0040PQ-Im
+	for raymundo@vpconsultores.com.mx; Sat, 15 Jun 2019 09:22:01 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=email.apple.com;
+	s=email0517; t=1560615670;
+	bh=yiuA1QiBkbFcHLsD6ZmIds5rRN7+OyrviuHb43fUmQg=;
+	h=Date:From:To:Message-ID:Subject:Content-Type;
+	b=VdAbTdvRV7fELkeqBVyqD3uDGEVYPL5HEES3mxUQnUZo76mpbrzdc7+wKx10nW7kr
+	 XPbB526ucJzhtN8kQ7tctzbY7KpE+Pe1M5mFOm/otu/1dmx71RtSspXN4Dbz3uYw0t
+	 mmPCesBTy5igvJhG5bEruMeEik+47319Trti8gNfJ/ap6ErHVJwtC+ppAZlJw9XbNl
+	 FFMFzV91eMKXhuRabU0gZS/ouZDu8ojqeLHhVQqiykXbiV5ki1c+WWY9ak8XYUGdsa
+	 lI7nVrDu1aMNSPLjO7fDu2uRGuvw/jSQgE2Jxr0XJ69gODl6N0HDTfvP6NKADamcFv
+	 NnZLIaNCKHj5A==
+Date: Sat, 15 Jun 2019 16:21:10 +0000 (GMT)
+From: iCloud <noreply@email.apple.com>
+To: raymundo@vpconsultores.com.mx
+Message-ID: <1450811786.155468151.1560615670355@email.apple.com>
+Subject: Tu almacenamiento de iCloud se ha agotado
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_155468149_1450815088.1560615670355"
+X-EmailType-Id: 1000104171
+X-Sent-To: raymundo@vpconsultores.com.mx,2,s7Z8v5XypSklIGvDztRB4ieV8tdgug7Jk%2FXNsCrxjBRo9iaOwytrCAwT8cty%2BaFJMsbteM3IIq1ILffo1bdiKOBmCfInSefe%2FwZLDi2AN5fl5%2BtEHfygO0S3GGKcMCAFG7QQBl4Rszy%2FxE3h%2FqheHzrnn2xpbeLme%2FtsVL2oc8X%2Feq5a%2BAri5fT2OtFHi1dyQPbYOAHGvxd1FWpEBaSggoJU0%2Bya4uYvumu%2F09tcO27xLid%2B62%2Fb54uiimoSOrC8qKO6LxkVrW4oOMtEqX%2FoOcz5uqo64QTSPbcSMikTWzoENTysxlF3Lin7bHIitnHBkS%2BVbDFqcVtOOasKpPMr50eAJKUFwMNPwfkrBtZKp5bpGOI3slv0CqO6JwdditjCGxdZ7kHEsWGegoIJ1fxI7JWqW6zLb2OJ%2FvKF1VVgUpfTS3Hy%2BBUwILVm%2F9zIMTpaEpt%2FPE8JcfSJvIUvGTgBqQ%3D%3D
+X-Attach-Flag: N
+X-TXN_ID: 84C1E3EC-CE14-48B2-B02E-1917CF6FA5CA
+X-Business-Group: iCloud
+X-Request-UUID: e29d7200-1acb-461f-b6da-652f0a69d02e-usernotf
+X-DKIM_SIGN_REQUIRED: YES
+X-Spam-Status: No, score=-14.5
+X-Spam-Score: -144
+X-Spam-Bar: --------------
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Hola, Raymundo Vazquez: Tu espacio de almacenamiento de iCloud
+    se ha agotado. Alcanzaste el límite de tu plan de almacenamiento, y ya no
+    se están generando respaldos en iCloud de tus documentos, contactos y datos
+    de dispos [...] 
+ 
+ Content analysis details:   (-14.5 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: icloud.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: icloud.com]
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             white-list
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.1 KAM_REALLYHUGEIMGSRC   RAW: Spam with image tags with ridiculously
+                              huge http urls
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.5 ENV_AND_HDR_SPF_MATCH  Env and Hdr From used in default SPF WL
+                             Match
+X-Spam-Flag: NO
+
+------=_Part_155468149_1450815088.1560615670355
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+Hola, Raymundo Vazquez:
+
+Tu espacio de almacenamiento de iCloud se ha agotado. Alcanzaste el l=C3=AD=
+mite de tu plan de almacenamiento, y ya no se est=C3=A1n generando respaldo=
+s en iCloud de tus documentos, contactos y datos de dispositivo. Tus fotos =
+y videos no se est=C3=A1n cargando en Fotos de iCloud, ni tampoco se est=C3=
+=A1n actualizando iCloud=C2=A0Drive o las aplicaciones habilitadas para iCl=
+oud en tus dispositivos.
+=09
+=09Para seguir utilizando estos servicios de iCloud necesitas ampliar tu pl=
+an de almacenamiento de iCloud : https://setup.icloud.com/email/prefs/stora=
+ge?path=3DSTORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN o reducir la cantidad de a=
+lmacenamiento que est=C3=A1s usando.
+=09
+=09
+=09=09=09=09Ampliar a 50=C2=A0GB a $17.00 por mes : https://setup.icloud.co=
+m/email/prefs/storage?path=3DSTORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN
+=09
+=09
+
+
+Atentamente,
+
+
+El equipo de iCloud
+
+iCloud es un servicio de Apple.
+Apple ID: https://appleid.apple.com/choose-your-country/
+Soporte: https://www.apple.com/support/icloud/ww
+T=C3=A9rminos y condiciones: https://www.apple.com/legal/internet-services/=
+icloud/ww/
+Pol=C3=ADtica de privacidad: https://www.apple.com/legal/privacy/es-la/
+Copyright 2019 Apple Inc. One Apple Park Way, Cupertino, CA 95014 USA.
+Todos los derechos reservados.
+
+------=_Part_155468149_1450815088.1560615670355
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+<html>
+ <head>=20
+  <meta charset=3D"UTF-8">=20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">=20
+  <style type=3D"text/css">
+    table.footer-table {
+        width: 100%;
+        font-size: inherit;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    table.footer-table .footer-background {
+        width: 685px;
+        font-size: 11px;
+        line-height: 22px;
+        color: #888;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center top;
+        padding: 15px 0 7px;
+        background-image: url(https://statici.icloud.com/emailimages/v4/com=
+mon/footer_gradient_web.png);
+    }
+
+    table.footer-table .icloud-logo {
+        display: inline-block;
+    }
+
+    table.footer-table .footer-cell {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI=
+, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        line-height: 15px;
+        color: #666;
+        text-align: center;
+        padding: 0 18px 18px 18px;
+    }
+
+    table.footer-table .nobr {
+        white-space: nowrap;
+    }
+
+    table.footer-table .footer-cell a {
+        color: #0070c9;
+        text-decoration: none;
+    }
+
+    table.footer-table .footer-cell a.apple-address {
+        color: #666;
+        white-space: nowrap;
+        text-decoration: none;
+    }
+
+</style>=20
+  <style type=3D"text/css">
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    body * {
+        margin: 0;
+    }
+
+    img {
+        border: 0;
+    }
+
+    hr.horizontal-divider {
+        height: 1px;
+        background-color: #f6f6f6;
+        border: 0;
+    }
+
+    a {
+        color: #0070c9;
+        text-decoration: none;
+    }
+
+    a.big-button {
+        color: #0070c9;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        height: 43px;
+        line-height: 43px;
+        font-size: 17px;
+        padding: 0;
+    }
+
+    a.big-button > table {
+        text-align: center;
+        background-color: rgb(70,162,255);
+        font-size: inherit;
+        line-height: inherit;
+        padding: 0;
+        border: 0;
+    }
+
+    a.big-button > table td.btn-padding {
+        width: 18px;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        background-size: 18px 43px !important;
+        background-repeat: no-repeat;
+        background-color: rgb(70,162,255);
+    }
+
+    a.big-button > table td.btn-left {
+        background-image: url(https://statici.icloud.com/emailimages/v4/fam=
+ilysharing/button_left.png);
+    }
+
+    a.big-button > table td.btn-right {
+        background-image: url(https://statici.icloud.com/emailimages/v4/fam=
+ilysharing/button_right.png);
+    }
+
+    a.big-button > table td.btn-middle {
+        min-width: 60px;
+        text-align: center;
+        background: url('https://statici.icloud.com/emailimages/v4/familysh=
+aring/button_middle.png') repeat-x;
+        background-position:left bottom !important;
+        background-color: rgb(70,162,255);
+        zoom: 1;
+        font-family: inherit;
+        line-height: inherit;
+        font-size: inherit;
+    }
+
+    a.big-button > table td.btn-middle > a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    body, td, p, ul, ol {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI=
+, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        -webkit-font-smoothing: antialiased;
+        line-height: 18px;
+        color: #333333;
+    }
+
+    table {
+        border-spacing: 0;
+        border-collapse: collapse;
+        border: 0;
+    }
+
+    table td {
+        padding: 0;
+    }
+
+    table td.align-left {
+        text-align: left;
+    }
+
+    table td.align-center {
+        text-align: center;
+    }
+
+    table td.align-right {
+        text-align: right;
+    }
+
+    h1 {
+        font-size: 19px;
+        line-height: 22px;
+        color: #333333;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 16px;
+        line-height: 18px;
+        color: #333333;
+        font-weight: bold;
+    }
+
+    .hr {
+        height:1px;
+        background-color:#ccc;
+    }
+
+    .mail-wrapper {
+        background-color: #ffffff;
+    }
+
+    table.list-items {
+       =20
+        table-layout: fixed;
+        line-height: inherit;
+        font-size: inherit;
+    }
+
+    table.list-items .list-item-prefix {
+        padding-right: 4px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    table.list-items .list-item {
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .show-on-mobile {
+        display: none;
+        mso-hide: all; /* Outlook */
+        max-height: 0; /* Gmail */
+        overflow: hidden; /* Gmail */
+    }
+
+    @media (max-width: 414px) {
+        .show-on-mobile {
+            display: table !important;
+            mso-hide: none !important; /* Outlook */
+            max-height: none !important; /* Gmail */
+        }
+        .hide-on-mobile {
+            display: none !important;
+            mso-hide: all !important;
+            max-height: 0 !important;
+            overflow: hidden;
+        }
+    }
+
+</style>=20
+  <style type=3D"text/css">
+    .main-table-1 {
+        width: 685px;
+        padding: 0px 20px;
+    }
+
+    .main-table-2 {
+        width: 685px;
+       =20
+=09=09=09padding: 0px 36px 0px 40px;
+=09=09
+    }
+
+    .content-table-1 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .content-table-2 {
+        margin: 0 auto;
+=09=09
+=09=09=09text-align: left;
+=09=09
+    }
+
+    .header-1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI=
+, Helvetica Neue, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        color: #333;
+        font-smooth: always;
+        font-size: 34px;
+        line-height: 37px;
+        text-align: center;
+       =20
+    }
+
+    .text-1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI=
+, Helvetica Neue, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        color: #333;
+        font-smooth: always;
+        font-size: 17px;
+        line-height: 26px;
+=09=09text-align: center;
+       =20
+    }
+
+    .button-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI=
+, Helvetica Neue, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        color: #333;
+        font-smooth: always;
+        font-size: 17px;
+        line-height: 26px;
+=09=09text-align: center;
+       =20
+    }
+
+=09.padding-1{
+    =09padding-top: 16px;
+    }
+
+=09.padding-2{
+    =09padding-bottom: 14px;
+    }
+
+    .padding-3{
+    =09padding-bottom: 16px;
+    }
+
+    .padding-4{
+    =09padding-top: 24px;
+    }
+
+    .padding-5{
+    =09padding-bottom: 26px;
+    }
+
+=09.padding-6{
+    =09padding-bottom: 30px;
+    }
+
+    .padding-7{
+=09=09padding-bottom: 12px;
+    }
+
+    .padding-8{
+    =09padding-top: 38px;
+    }
+
+    @media screen and (max-width: 750px) {
+=09=09.content-table-1 {
+=09=09=09padding: 0px 20px;
+=09=09=09text-align: center;
+=09=09}
+
+=09=09.content-table-2 {
+=09=09=09padding: 0px 20px;
+=09=09  =20
+=09=09}
+=09}
+
+</style>=20
+  <style type=3D"text/css">
+=09.mail-wrapper {
+=09=09margin-top: 0px;
+=09=09font-weight: 300;
+=09=09color: #333;
+=09=09text-align: center;
+=09}
+
+=09.main-table {
+=09=09margin: 0 auto;
+=09=09position: relative;
+=09=09font-size: inherit;
+=09=09line-height: inherit;
+=09=09border-spacing: 0;
+=09=09border-collapse: collapse;
+=09=09-premailer-cellpadding: 0;
+=09=09-premailer-cellspacing: 0;
+=09=09padding: 0px;
+=09=09border: 0px;
+=09}   =20
+
+=09.main-table.layout-width {
+=09=09width: 685px;
+=09}
+
+=09.center-col {
+=09=09
+=09=09=09  padding-right: 36px;padding-left: 40px;
+=09=09
+=09}
+
+=09.content-table {
+=09=09
+=09}
+
+=09.content-col {
+=09   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, =
+Helvetica Neue, Helvetica, Arial, sans-serif;
+=09   font-smooth: always;
+=09   -webkit-font-smoothing: antialiased;
+=09   color: #333;
+=09   font-size: 15px;
+=09   font-weight:300;
+=09   line-height: 20px;
+=09  =20
+=09=09   text-align: left;
+=09  =20
+=09}
+
+=09.content-col.content-1{
+=09=09word-break: break-word;
+=09=09width: 100%;
+=09}
+
+=09.content-col.content-2{
+=09=09padding-left: 40px;
+=09}
+
+=09.content-col.content-3{
+=09=09word-break: break-word;
+=09=09text-align: center;
+=09}
+
+=09.content-padding-1 {
+=09=09padding-bottom: 15px;
+=09}
+
+=09.content-padding-2 {
+=09=09padding-bottom: 34px;
+=09}   =20
+=09.content-padding-3{
+=09=09
+=09=09   padding-bottom: 15px;
+=09=09
+=09}
+
+=09.content-padding-4 {
+=09=09padding-bottom: 0px;
+=09}
+
+=09.content-sf {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI=
+, Helvetica Neue, Helvetica, Arial, sans-serif;
+        color: #333;
+        font-smooth: always;
+        font-size: 17px;
+        line-height: 1.3;
+=09=09
+=09=09=09text-align: left;
+=09=09
+    }
+   =20
+    .center-content-sf {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI=
+, Helvetica Neue, Helvetica, Arial, sans-serif;
+        color: #333;
+        font-smooth: always;
+        font-size: 17px;
+        line-height: 1.3;
+=09=09text-align: center;
+    }
+
+    .note-sf {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI=
+, Helvetica Neue, Helvetica, Arial, sans-serif;
+        color: #333;
+        font-smooth: always;
+        font-size: 11px;
+        line-height: 1.3;
+=09=09
+=09=09=09text-align: left;
+=09=09
+    }
+
+=09.bullet-text-main-col {
+=09  =20
+=09=09   padding-left: 40px;
+=09  =20
+=09}
+
+=09.bullet-text-table {
+=09  =20
+=09}
+
+=09.bullet-text-col {
+=09   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, =
+Helvetica Neue, Helvetica, Arial, sans-serif;
+=09   font-smooth: always;=20
+=09   -webkit-font-smoothing: antialiased;=20
+=09   font-size: 15px;
+=09   font-weight:300;
+=09   color: #333333;
+=09   line-height: 20px;
+=09  =20
+=09=09   text-align: left;
+=09  =20
+=09}
+
+=09.bullet-text-col.bullet-text-content {
+=09=09display: inline-block;
+=09=09word-break:break-word;
+=09=09width: 100%;
+=09}
+
+=09.bullet-text-num {
+=09=09
+=09=09=09padding-right: 4px !important;
+=09=09
+=09}
+
+=09.bullet-col-padding{
+=09=09
+=09=09   padding-bottom: 15px;
+=09=09
+=09}
+
+=09.content-left-padding-1{
+=09=09padding-left: 40px;
+=09}
+
+=09.link-attr-1{
+=09=09color: rgb(0, 138, 205);
+        text-decoration: none;
+=09}
+
+=09.link-attr-2{
+=09=09color: rgb(57, 57, 57);
+=09=09text-decoration: none;
+=09=09font-weight: 600;
+=09}
+
+=09.link-attr-3{
+=09=09color: rgb(57, 57, 57);
+=09=09text-decoration: none;
+=09=09font-weight: 500;
+=09}
+
+=09.link-attr-4{
+=09=09color: rgb(0, 0, 0);
+=09=09text-decoration: none;
+=09}
+=09
+=09.link-attr-5{
+=09=09color: rgb(57, 57, 57);
+=09=09text-decoration: underline;
+=09=09font-weight: 600;
+=09}
+
+=09.link-attr-6{
+=09=09color: rgb(0, 0, 0);
+=09=09text-decoration: underline;
+=09}
+
+=09.link-attr-7{
+=09=09color: rgb(0, 138, 205);
+        text-decoration: underline;
+=09}
+
+=09.link-attr-8{
+=09=09color: rgb(0, 138, 205);
+        text-decoration: none;
+        font-weight: 600;
+=09}
+
+=09.link-attr-9{
+=09=09color: rgb(0, 138, 205);
+        text-decoration: underline;
+        font-weight: 600;
+=09}
+
+=09.link-attr-10{
+=09=09color: rgb(51, 51, 51);
+=09=09text-decoration: underline;
+=09}
+=09
+=09.link-attr-11{
+=09=09color: rgb(0, 138, 205);
+        text-decoration: none;
+        font-weight: 500;
+=09}
+=09.font-1{
+=09=09font-weight: 600;
+=09}
+
+=09.font-wt-2{
+=09=09font-weight: 500;
+=09}
+=09
+=09.preheader{
+=09 =09display:none !important;
+=09}
+
+</style>=20
+ </head>=20
+ <body style=3D"padding:0;margin:0;color:rgb(51, 51, 51);font-size:13px;fon=
+t-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica =
+Neue, Helvetica, Arial, sans-serif;line-height:18px;-webkit-font-smoothing:=
+antialiased;">=20
+  <div class=3D"mail-wrapper" style=3D"background-color:rgb(255, 255, 255);=
+margin:0;color:rgb(51, 51, 51);font-weight:300;margin-top:0px;text-align:ce=
+nter;">=20
+   <table style=3D"border:0;margin:0;border-spacing:0;table-layout:auto;wid=
+th:100%;border-collapse:collapse;">=20
+   </table>
+   <img style=3D"border:0;margin:0;display:none !important;" width=3D"" hei=
+ght=3D"" alt=3D"" src=3D"https://quota.icloud.com/quotaservice/report/email=
+/spacer?trace=3DAT2gRUCowTpV2NJm0fI3rIpCZr078L1e_of4mxgAWKTVG1opIcUwNNzgnEq=
+tpOQ5DbLjeTmatjuRSdYAoyEJ-FLjwOZ6KM1Pk2o1pUmaa5sQ685Gxl3Novw4oDiSmiE9pugcnw=
+0Pkvklwv7nyQ">
+   <table style=3D"border:0;margin:0 auto;border-spacing:0;border-collapse:=
+collapse;" align=3D"center">=20
+    <tbody style=3D"margin:0;">
+     <tr style=3D"margin:0;">
+      <td class=3D"main-table-2" align=3D"center" style=3D"padding:0px 36px=
+ 0px 40px;margin:0;color:rgb(51, 51, 51);width:685px;font-size:13px;font-fa=
+mily:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue=
+, Helvetica, Arial, sans-serif;line-height:18px;-webkit-font-smoothing:anti=
+aliased;">=20
+       <table class=3D"content-table-2" style=3D"border:0;margin:0 auto;bor=
+der-spacing:0;border-collapse:collapse;text-align:left;">=20
+        <tbody style=3D"margin:0;">
+         <tr style=3D"margin:0;">
+          <td class=3D"content-sf padding-7 padding-8" style=3D"padding:0;p=
+adding-top:38px;margin:0;color:rgb(51, 51, 51);font-size:17px;padding-botto=
+m:12px;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, =
+Helvetica Neue, Helvetica, Arial, sans-serif;line-height:1.3;font-smooth:al=
+ways;-webkit-font-smoothing:antialiased;text-align:left;"> Hola, Raymundo V=
+azquez: </td>
+         </tr>=20
+         <tr style=3D"margin:0;">
+          <td class=3D"content-sf padding-7" style=3D"padding:0;margin:0;co=
+lor:rgb(51, 51, 51);font-size:17px;padding-bottom:12px;font-family:system-u=
+i, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, =
+Arial, sans-serif;line-height:1.3;font-smooth:always;-webkit-font-smoothing=
+:antialiased;text-align:left;"> <span class=3D"font-1" style=3D"margin:0;fo=
+nt-weight:600;">Tu almacenamiento de iCloud est&aacute; lleno.</span> Debid=
+o a que se agot&#243; el espacio de almacenamiento de tu plan, ya no se est=
+&#225;n generando respaldos en iCloud de tus documentos, contactos y datos =
+de dispositivo. Adem&#225;s, tus fotos y videos no se est&#225;n cargando e=
+n Fotos de iCloud. iCloud=C2=A0Drive y las aplicaciones habilitadas para iC=
+loud no se est&#225;n actualizando en tus dispositivos. </td>
+         </tr>=20
+         <tr style=3D"margin:0;">
+          <td class=3D"content-sf padding-7" style=3D"padding:0;margin:0;co=
+lor:rgb(51, 51, 51);font-size:17px;padding-bottom:12px;font-family:system-u=
+i, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, =
+Arial, sans-serif;line-height:1.3;font-smooth:always;-webkit-font-smoothing=
+:antialiased;text-align:left;"> Para seguir utilizando estos servicios de i=
+Cloud, necesitas <a class=3D"link-attr-9" href=3D"https://setup.icloud.com/=
+email/prefs/storage?path=3DSTORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN" style=3D=
+"margin:0;color:rgb(0, 138, 205);font-weight:600;text-decoration:underline;=
+">ampliar tu plan de almacenamiento de iCloud</a> o reducir la cantidad de =
+almacenamiento que est&#225;s usando. </td>
+         </tr>=20
+         <tr style=3D"margin:0;">
+          <td class=3D"center-content-sf padding-7" style=3D"padding:0;marg=
+in:0;color:rgb(51, 51, 51);font-size:17px;padding-bottom:12px;font-family:s=
+ystem-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helv=
+etica, Arial, sans-serif;line-height:1.3;font-smooth:always;-webkit-font-sm=
+oothing:antialiased;text-align:center;"> <u style=3D"margin:0;"><a class=3D=
+"link-attr-1 font-1" href=3D"https://setup.icloud.com/email/prefs/storage?p=
+ath=3DSTORAGE_AND_BACKUP/CHANGE_STORAGE_PLAN" style=3D"margin:0;color:rgb(0=
+, 138, 205);font-weight:600;text-decoration:none;">Ampl&#237;a a 50=C2=A0GB=
+ a $17.00 por mes</a></u> </td>
+         </tr>=20
+         <tr style=3D"margin:0;">
+          <td class=3D"content-sf padding-7" style=3D"padding:0;margin:0;co=
+lor:rgb(51, 51, 51);font-size:17px;padding-bottom:12px;font-family:system-u=
+i, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, =
+Arial, sans-serif;line-height:1.3;font-smooth:always;-webkit-font-smoothing=
+:antialiased;text-align:left;"> Atentamente, </td>
+         </tr>=20
+         <tr style=3D"margin:0;">
+          <td class=3D"content-sf padding-5" style=3D"padding:0;margin:0;co=
+lor:rgb(51, 51, 51);font-size:17px;padding-bottom:26px;font-family:system-u=
+i, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, =
+Arial, sans-serif;line-height:1.3;font-smooth:always;-webkit-font-smoothing=
+:antialiased;text-align:left;"> El equipo de iCloud </td>
+         </tr>=20
+        </tbody>
+       </table> </td>
+     </tr>=20
+     <tr style=3D"margin:0;">
+      <td style=3D"padding:0;margin:0;color:rgb(51, 51, 51);width:100%;font=
+-size:13px;font-family:system-ui, -apple-system, BlinkMacSystemFont, Segoe =
+UI, Helvetica Neue, Helvetica, Arial, sans-serif;line-height:18px;-webkit-f=
+ont-smoothing:antialiased;" align=3D"center">=20
+       <table class=3D"footer-table" style=3D"border:0;margin:0;border-spac=
+ing:0;width:100%;font-size:inherit;line-height:18px;border-collapse:collaps=
+e;text-align:center;">=20
+        <tbody style=3D"margin:0;">
+         <tr style=3D"margin:0;">
+          <td class=3D"footer-background" colspan=3D"3" style=3D"padding:15=
+px 0 7px;background-repeat:no-repeat;margin:0;color:rgb(136, 136, 136);widt=
+h:685px;font-size:11px;line-height:22px;font-family:system-ui, -apple-syste=
+m, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-ser=
+if;background-position:center top;background-image:url(https://statici.iclo=
+ud.com/emailimages/v4/common/footer_gradient_web.png);-webkit-font-smoothin=
+g:antialiased;text-align:center;"> <img width=3D"81" height=3D"22" src=3D"h=
+ttps://statici.icloud.com/emailimages/v4/common/icloud_footer_signoff@2x.pn=
+g" class=3D"icloud-logo" style=3D"border:0;margin:0;display:inline-block;">=
+ </td>
+         </tr>=20
+         <tr style=3D"margin:0;">
+          <td class=3D"footer-cell" style=3D"padding:0 18px 18px 18px;margi=
+n:0;color:rgb(102, 102, 102);font-size:12px;font-family:system-ui, -apple-s=
+ystem, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans=
+-serif;line-height:15px;-webkit-font-smoothing:antialiased;text-align:cente=
+r;"> <span class=3D"nobr" style=3D"margin:0;white-space:nowrap;"> iCloud es=
+ un servicio de Apple. </span> <br style=3D"margin:0;"> <span style=3D"marg=
+in:0;"> <a class=3D"nobr" href=3D"https://appleid.apple.com/choose-your-cou=
+ntry/" style=3D"margin:0;color:rgb(0, 112, 201);white-space:nowrap;text-dec=
+oration:none;"> Apple ID </a> | <a class=3D"nobr" href=3D"https://www.apple=
+.com/support/icloud/ww" style=3D"margin:0;color:rgb(0, 112, 201);white-spac=
+e:nowrap;text-decoration:none;"> Soporte </a> | <a class=3D"nobr" href=3D"h=
+ttps://www.apple.com/legal/internet-services/icloud/ww/" style=3D"margin:0;=
+color:rgb(0, 112, 201);white-space:nowrap;text-decoration:none;"> T&#233;rm=
+inos y condiciones </a> | <a class=3D"nobr" href=3D"https://www.apple.com/l=
+egal/privacy/es-la/" style=3D"margin:0;color:rgb(0, 112, 201);white-space:n=
+owrap;text-decoration:none;"> Pol&#237;tica de privacidad </a> </span> <br =
+style=3D"margin:0;"> <span class=3D"nobr" style=3D"margin:0;white-space:now=
+rap;">Copyright &#169; 2019</span> Apple Inc. <a class=3D"apple-address" hr=
+ef=3D"#address" style=3D"margin:0;color:rgb(102, 102, 102);white-space:nowr=
+ap;text-decoration:none;">One Apple Park Way, Cupertino, CA 95014 USA</a>. =
+<span class=3D"nobr" style=3D"margin:0;white-space:nowrap;">Todos los derec=
+hos reservados.</span> </td>
+         </tr>=20
+        </tbody>
+       </table> </td>
+     </tr> =20
+    </tbody>
+   </table> =20
+  </div> =20
+ </body>
+<img src=3D'http://outsideapple.apple.com/img/APPLE_EMAIL_LINK/spacer4.gif?=
+v=3D2&a=3Ds7Z8v5XypSklIGvDztRB4ieV8tdgug7Jk%2FXNsCrxjBRo9iaOwytrCAwT8cty%2B=
+aFJMsbteM3IIq1ILffo1bdiKOBmCfInSefe%2FwZLDi2AN5fl5%2BtEHfygO0S3GGKcMCAFG7QQ=
+Bl4Rszy%2FxE3h%2FqheHzrnn2xpbeLme%2FtsVL2oc8X%2Feq5a%2BAri5fT2OtFHi1dyQPbYO=
+AHGvxd1FWpEBaSggoJU0%2Bya4uYvumu%2F09tcO27xLid%2B62%2Fb54uiimoSOrC8qKO6LxkV=
+rW4oOMtEqX%2FoOcz5uqo64QTSPbcSMikTWzoENTysxlF3Lin7bHIitnHBkS%2BVbDFqcVtOOas=
+KpPMr50eAJKUFwMNPwfkrBtZKp5bpGOI3slv0CqO6JwdditjCGxdZ7kHEsWGegoIJ1fxI7JWqW6=
+zLb2OJ%2FvKF1VVgUpfTS3Hy%2BBUwILVm%2F9zIMTpaEpt%2FPE8JcfSJvIUvGTgBqQ%3D%3D'=
+/>
+</html>
+------=_Part_155468149_1450815088.1560615670355--

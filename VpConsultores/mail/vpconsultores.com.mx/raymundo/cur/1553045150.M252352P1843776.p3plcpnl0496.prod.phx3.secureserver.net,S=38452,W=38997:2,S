@@ -1,0 +1,545 @@
+Return-Path: <bounce+272830-57-1966301273+raymundo=vpconsultores.com.mx@mkt.canacope.org>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id gIwcDp6WkVxAIhwAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Tue, 19 Mar 2019 18:25:50 -0700
+Return-path: <bounce+272830-57-1966301273+raymundo=vpconsultores.com.mx@mkt.canacope.org>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Tue, 19 Mar 2019 18:25:50 -0700
+Received: from smtp1893.nozhost.com ([51.38.23.93]:49453)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <bounce+272830-57-1966301273+raymundo=vpconsultores.com.mx@mkt.canacope.org>)
+	id 1h6PzH-008TaO-Vq
+	for raymundo@vpconsultores.com.mx; Tue, 19 Mar 2019 18:25:50 -0700
+Received: from smtp1893.nozhost.com (smtp1893.nozhost.com [51.38.23.93])
+	by smtp1893.nozhost.com (Postfix) with ESMTP id E8F975198F
+	for <raymundo@vpconsultores.com.mx>; Wed, 20 Mar 2019 01:25:03 +0000 (WET)
+ARC-Seal:  i=1; a=rsa-sha256; d=nozhost.com; s=key201809; t=1553045104;
+	cv=none; b=Gv9rpVX3cjq2UuGsCQw84ygstwhDbBLucBHi1Qg0Nj9daE5xXO4eFgUQxDmMAgavzNuVTBXniYfq+SkC+hLGLPb4hx1WWtVxGq5bAl+PMnNT8kQwpDQ583fCo5u/F2urCQdbqWE24FEDS9rG/f5JGBoq+0Er79D5gZ5IXRgMil0=
+ARC-Message-Signature:  i=1; a=rsa-sha256; d=nozhost.com; s=key201809;
+	t=1553045104; c=relaxed/simple;
+	bh=YCnuLNwCf931E0W6/J8zcJIQrFoW14AsjUb6YA9RlQw=;
+	h=DKIM-Filter:DKIM-Signature:DKIM-Signature:Date:To:From:Reply-To:
+	 Subject:Message-ID:X-Priority:X-Mailer:X-Client:X-List:X-Campaign:
+	 List-Subscribe:List-Unsubscribe:X-Report-Abuse:MIME-Version:
+	 Content-Type; b=BbiLeedp2nL7yUjLaujQGcJuTNqkmzSsNNorfivxooj0Kb4AmsHPVAZGpj2/jJUUx9YCn6I4E5nJcq59Z9CopJ6Yc1c++R3QdpqIR5f86L5X0z7oletMyuQPbfwZhKZU+Ed5OJ5LTykrN/ejH9SsAYL8MndmUn0QHT/TFnON1Ds=
+ARC-Authentication-Results:  i=1; smtp1888.nozhost.com; none
+DKIM-Filter: OpenDKIM Filter v2.11.0 smtp1893.nozhost.com E8F975198F
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=nozhost.com; s=egoi;
+	t=1553045104; bh=YCnuLNwCf931E0W6/J8zcJIQrFoW14AsjUb6YA9RlQw=;
+	h=Date:To:From:Reply-To:Subject:List-Subscribe:List-Unsubscribe:
+	 From:Subject:To;
+	b=RZIJHTYnwFK8ElY5ePocJQNcL4vHTzv17hQOYJDQ9aqdw4EeuDkR7RH4YA2SvvtO9
+	 /T7dIlXZIjp54uYOtPY59w8v7liAC41ndUlwVBC6tzic84vycKYYgUvqKtjP9sTRLi
+	 HPOMrKS/YrajC+/ApRKE+XxJZREE3UXdpkIrPmqU=
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=canacope.org; s=egoi;
+	t=1553045104; bh=YCnuLNwCf931E0W6/J8zcJIQrFoW14AsjUb6YA9RlQw=;
+	h=Date:To:From:Reply-To:Subject:List-Subscribe:List-Unsubscribe:
+	 From:Subject:To;
+	b=eeapWHwp5TL4jPKvu+/TOYlATXUhDfqz44AhSXD/4YxVwSgDJbH+HLEJRbXRmaUJC
+	 RyVCtRSL0IREVlmkAFbaLi9C2J8G7iXKLYDfPEByhz5h+BkspjFJBxXvHuqt/1Re3V
+	 BsPywthbxfYlchzeVewPZAvlQaH+qTAfKLlyG3q0=
+Date: Wed, 20 Mar 2019 01:25:01 +0000
+To: =?utf-8?Q?Servicios_de_Contabilidad_y_Auditor=C3=ADa?= <raymundo@vpconsultores.com.mx>
+From: =?utf-8?Q?C=C3=A1mara_de_Comercio_Servicios_y_Turismo_en_Peque=C3=B1o_de_?=
+ =?utf-8?Q?la_Ciudad_de_M=C3=A9xico?= <soportec@canacope.org>
+Reply-To: CANACOPE CDMX <promociones@canacope.org>
+Subject: =?utf-8?Q?=F0=9F=A4=97_=C2=A1Gana_m=C3=A1s_Clientes_y_Vende_M=C3=A1s!_?=
+ =?utf-8?Q?=F0=9F=A4=97?=
+Message-ID: <5881e99253b91ea98d417d69d638c0ed@smtp1893.nozhost.com>
+X-Priority: 3
+X-Mailer: E-goi 2.6
+X-Client: 272830
+X-List: 57
+X-Campaign: 30cd89b7804d6521e9d1be17481f3da5
+List-Subscribe: 2019-03-09 21:51:09
+List-Unsubscribe: <mailto:unsubscribe+57-272830-30cd89b7804d6521e9d1be17481f3da5-1966301273-mkt.canacope.org@mkt.canacope.org?subject=unsubscribe>, <http://mkt.canacope.org/rm.php?dodel=dodel&u=1966301273&l=57&c=272830&e=30cd89b7804d6521e9d1be17481f3da5>
+X-Report-Abuse: Please report abuse for this campaign here: http://mkt.canacope.org/abuse.php?u=1966301273&l=57&c=272830&e=30cd89b7804d6521e9d1be17481f3da5
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_5881e99253b91ea98d417d69d638c0ed"
+X-Spam-Status: No, score=1.5
+X-Spam-Score: 15
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  References 1. #imgmap201935203215 campanha_teste_272830_0.237420001553044385_920101598.html#imgmap201935203215
+    1. Versión web http://mkt.canacope.org/vl/4f0c993-e30cd89b7804d6521-9d1b-17481f3da5eIY
+ 
+ Content analysis details:   (1.5 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: nozhost.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: nozhost.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.8 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of empty
+                             lines
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+--b1_5881e99253b91ea98d417d69d638c0ed
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+  References 1. #imgmap201935203215 campanha_teste_272830_0.237420001553044=
+385_920101598.html#imgmap201935203215 1. =0A=0AVersi=C3=B3n web=0Ahttp://mk=
+t.canacope.org/vl/4f0c993-e30cd89b7804d6521-9d1b-17481f3da5eIYe672Ce1gNae19=
+66301273=0ARecomendar=0Ahttp://mkt.canacope.org/rc/4f0c993-e30cd89b7804d652=
+1-9d1b-17481f3da5eIYe672Ce1gNae1966301273=0ARedes sociales=0Ahttp://mkt.can=
+acope.org/vls/4f0c993-e30cd89b7804d6521-9d1b-17481f3da5eIYe672Ce1gNae196630=
+1273=0ARedes sociales=0Ahttp://mkt.canacope.org/fb/4f0c993-e30cd89b7804d652=
+1-9d1b-17481f3da5eIYe672Ce1gNae1966301273=0ARedes sociales=0Ahttp://mkt.can=
+acope.org/tw/4f0c993-e30cd89b7804d6521-9d1b-17481f3da5eIYe672Ce1gNae1966301=
+273=0A=0A=0A=0A=0A   =0A   [1]=0A   =0A=0AReferences=0A=0A   1. #imgmap2019=
+35203215=0A=0A=0Acampanha_teste_272830_0.237420001553044385_920101598.html#=
+imgmap201935203215=0A   1. "http://mkt.canacope.org/go/4f0c993-e30cd89b7804=
+d6521-9d1b-17481f3da5e1966301273eXe1gNae672CeIYe6n8pR"=0A=0A=0ARecomendar=
+=0Ahttp://mkt.canacope.org/rc/4f0c993-e30cd89b7804d6521-9d1b-17481f3da5eIYe=
+672Ce1gNae1966301273=0AEditar suscripci=C3=B3n=0Ahttp://mkt.canacope.org/es=
+ub/4f0c993-e1966301273e30cd89b7804d6521-9d1b-17481f3da5eIYe672Ce1gNaeX=0ADa=
+r de baja=0Ahttp://mkt.canacope.org/del/4f0c993-e30cd89b7804d6521-9d1b-1748=
+1f3da5eIYe672Ce1gNaeXe1966301273=0ARedes sociales=0Ahttp://mkt.canacope.org=
+/vls/4f0c993-e30cd89b7804d6521-9d1b-17481f3da5eIYe672Ce1gNae1966301273=0ARe=
+des sociales=0Ahttp://mkt.canacope.org/fb/4f0c993-e30cd89b7804d6521-9d1b-17=
+481f3da5eIYe672Ce1gNae1966301273=0ARedes sociales=0Ahttp://mkt.canacope.org=
+/tw/4f0c993-e30cd89b7804d6521-9d1b-17481f3da5eIYe672Ce1gNae1966301273=0AImp=
+rimir=0Ahttp://mkt.canacope.org/vlp/4f0c993-e30cd89b7804d6521-9d1b-17481f3d=
+a5eIYe672Ce1gNae1966301273=0A
+
+--b1_5881e99253b91ea98d417d69d638c0ed
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><style type=3D"te=
+xt/css">body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%; margin:0; padding:0;} .moz-forward-container .original-o=
+nly, blockquote .original-only, .WordSection1 .original-only {width: 0px; h=
+eight: 0px; overflow: hidden; display: none !important;}#outlook a{padding:=
+0;} p {margin: 0px;} p {margin-bottom:0; margin:0;} .ExternalClass {width:1=
+00%;} .ExternalClass p {margin:0px} .ExternalClass, .ExternalClass p, .Exte=
+rnalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div =
+{line-height: 100%;} table td {border-collapse:collapse; table td {border-c=
+ollapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;} a {word-wrap=
+:break-word;} .easygoi-rss img {height: auto; width: 100%;}</style></head><=
+body><!-- Gmail hack -->=0A<div style=3D"display:none; white-space:nowrap; =
+font:15px courier; color:#ffffff; line-height:0; width:600px !important; mi=
+n-width:600px !important; max-width:600px !important;">&nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>=0A<!-- /Gmail hack --><!--[if=
+ mso]>=0A                                       <span style=3D"display: non=
+e; max-height: 0px; font-size: 0px; overflow: hidden; mso-hide: all">=0A   =
+                                <![endif]--><!--[if !mso]> <!---->=0A      =
+                                 <span style=3D"visibility: hidden; display=
+: none !important; display: none;">=0A                                   <!=
+-- <![endif]-->  References 1. #imgmap201935203215 campanha_teste_272830_0.=
+237420001553044385_920101598.html#imgmap201935203215 1. </span><img border=
+=3D"0" src=3D"http://mkt.canacope.org/stats.php?l=3D30cd89b7804d6521e9d1be1=
+7481f3da5&u=3D1966301273&ca_id=3D2578&cl_id=3D272830&l_id=3D57&m_id=3D13213=
+57&hf=3D20&i=3D1" style=3D"width: 3px !important; height: 2px !important; o=
+verflow: hidden; border:0px solid transparent; margin: 0;" width=3D"3" heig=
+ht=3D"2" align=3D"middle" border=3D"0" alt=3D""><table border=3D"0" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"background-color: #E=
+CECEC; display:table !important;" class=3D"easygoi-header-table-responsive"=
+>=0A<tr style=3D"display:table-row !important;">=0A<td class=3D"easygoi-hea=
+der-table-td-responsive" style=3D"display:table-cell !important;">
+       =20
+    </td>
+
+</tr>=0A<tr style=3D"display:table-row !important;">=0A<td width=3D"100%" a=
+lign=3D"center" class=3D"easygoi-header-table-td-responsive" style=3D"displ=
+ay:table-cell !important;">
+          <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" style=3D"max-width: 600px;; display:table !important;" class=3D"easy=
+goi-header-table-responsive"><tr style=3D"display:table-row !important;">=
+=0A<td width=3D"70%" align=3D"left" style=3D"text-align:left; background-co=
+lor: #ECECEC; color: #828282; font-family: Arial, Helvetica, sans-serif; fo=
+nt-size:13px; font-weight: bold; padding: 5px; height: 30px; display:table-=
+cell !important;" class=3D"easygoi-header-table-td-responsive">=0A<a style=
+=3D"color: #828282; text-decoration: underline; font-family: Arial, Helveti=
+ca, sans-serif; font-size:13px; font-weight: bold;" href=3D"http://mkt.cana=
+cope.org/vl/4f0c993-e30cd89b7804d6521-9d1b-17481f3da5eIYe672Ce1gNae19663012=
+73">Versi=C3=B3n web</a>=0A=C2=A0=C2=A0=C2=A0<a style=3D"color: #828282; te=
+xt-decoration: underline; font-family: Arial, Helvetica, sans-serif; font-s=
+ize:13px; font-weight: bold;" href=3D"http://mkt.canacope.org/rc/4f0c993-e3=
+0cd89b7804d6521-9d1b-17481f3da5eIYe672Ce1gNae1966301273">Recomendar</a>=0A<=
+/td>
+                    <td width=3D"30%" align=3D"right" style=3D"text-align: =
+right; background-color: #ECECEC; color: #828282; font-family: Arial, Helve=
+tica, sans-serif; font-size:13px; font-weight: normal; padding: 5px; height=
+: 30px; display:table-cell !important;" class=3D"easygoi-header-table-td-re=
+sponsive"><a href=3D"http://mkt.canacope.org/vls/4f0c993-e30cd89b7804d6521-=
+9d1b-17481f3da5eIYe672Ce1gNae1966301273" border=3D"0"><img src=3D"http://mk=
+t.canacope.org/recursos/9b8a67ed2f4489d6c755a9dcd6688fa1/.SocialIcons/20x20=
+/other_social_networks.png" alt=3D"Social" border=3D"0" style=3D"display: i=
+nline;"></a>=0A=C2=A0<a href=3D"http://mkt.canacope.org/fb/4f0c993-e30cd89b=
+7804d6521-9d1b-17481f3da5eIYe672Ce1gNae1966301273" border=3D"0"><img src=3D=
+"http://mkt.canacope.org/recursos/9b8a67ed2f4489d6c755a9dcd6688fa1/.SocialI=
+cons/20x20/facebook.png" alt=3D"Facebook" border=3D"0" style=3D"display: in=
+line;"></a>=0A=C2=A0<a href=3D"http://mkt.canacope.org/tw/4f0c993-e30cd89b7=
+804d6521-9d1b-17481f3da5eIYe672Ce1gNae1966301273" border=3D"0"><img src=3D"=
+http://mkt.canacope.org/recursos/9b8a67ed2f4489d6c755a9dcd6688fa1/.SocialIc=
+ons/20x20/twitter.png" alt=3D"Twitter" border=3D"0" style=3D"display: inlin=
+e;"></a>=0A</td>
+                </tr></table>=0A</td>
+    </tr>=0A<tr style=3D"display:table-row !important;">=0A<td style=3D"bac=
+kground-color: #F7F7F7;  height:2px; font-size:2px; line-height:2px; mso-ma=
+rgin-top-alt:2px; display:table-cell !important;" colspan=3D"3" class=3D"ea=
+sygoi-header-table-td-responsive">=C2=A0</td>
+    </tr>=0A</table>=0A<div class=3D"eggmhk" style=3D"display: none; white-=
+space: nowrap; color: rgb(255, 255, 255); line-height: 0; max-width: 580px;=
+ min-width: 580px; width: 580px;">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=
+ =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0</div>=0A=09=09=09=09=09=0A=09=09=09=09=0A=09=09=09=09=
+=09=0A=09=09=09=09=0A=09=09=09=09=09=0A=09=09=09=09=0A=09=09=09=09=09=0A=09=
+=09=09=09=0A=09=09=09=09=09=0A=09=09=09=09=0A=09=09=09=09=09=0A=09=09=09=09=
+=0A=09=09=09=09=09=0A=09=09=09=09=0A=09=09=09=09=09=0A=09=09=09=09=0A=09=09=
+=09=09=09=0A=09=09=09=09=0A=09=09=09=09=09=0A=09=09=09=09=0A=09=09=09=09=09=
+=0A=09=09=09=09=09=09=09=09=09=09=09=09=09<style type=3D"text/css" id=3D"ea=
+sygoi-style-tag-make-responsive">=0A=09=09        @media screen and (max-wi=
+dth:580px) {=0A=09=09=09=09=09=0A=09=09=09=09=09body {=0A=09=09=09=09=09=09=
+overflow-x:hidden!important;=0A=09=09=09=09=09}=0A=0A=09=09=09=09=09.eggmhk=
+ {display:none;}=0A=09=09=09=09=09=0A=09=09=09=09=09* {=0A=09=09=09=09     =
+   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */=0A=09=
+=09=09=09        -moz-box-sizing: border-box; /* Firefox, other Gecko */=0A=
+=09=09=09=09        box-sizing: border-box; /* Opera/IE 8+*/=0A=09=09=09=09=
+        word-wrap: break-word !important;=0A=09=09=09=09        word-break:=
+ break-word !important;=0A=09=09=09=09    }=0A=09=09=09=09    =0A=09=09=09=
+=09    a[style*=3D"width"] {=0A=09=09=09=09    =09display:block!important;=
+=0A=09=09=09=09    =09width:100%!important;=0A=09=09=09=09    }=0A=09=09=09=
+=09    =0A=09=09=09=09    table {=0A=09=09=09=09        max-width: 100% !im=
+portant;=0A=09=09=09=09        width: 100% !important;=0A=09=09=09=09      =
+  border-collapse: collapse;=0A=09=09=09=09    }=0A=09=09=09=09    table.ea=
+sygoi-drag-structure,=0A=09=09=09=09    td.easygoi-drag-structure {=0A=09=
+=09=09=09        width: 100% !important;=0A=09=09=09=09    }=0A=09=09=09=09=
+    =0A=09=09=09=09    table td {=0A=09=09=09=09        border-collapse: co=
+llapse;=0A=09=09=09=09        max-width: 100% !important;=0A=09=09=09=09   =
+     height: auto !important;=0A=09=09=09=09    }=0A=09=09=09=09    =0A=09=
+=09=09=09    #egoitable {=0A=09=09=09=09        /*padding: 1% !important; @=
+mustrollback */=0A=09=09=09=09    }=0A=09=09=09=09    =0A=09=09=09=09    di=
+v.easygoi-struct {=0A=09=09=09=09         width: 100% !important;=0A=09=09=
+=09=09     }=0A=09=09=09=09    =0A=09=09=09=09    .easygoi-textfield,=0A=09=
+=09=09=09    .easygoi-emailfield,=0A=09=09=09=09    .easygoi-datafield,=0A=
+=09=09=09=09    .easygoi-submit,=0A=09=09=09=09    .easygoi-filefield,=0A=
+=09=09=09=09    .easygoi-gridfield,=0A=09=09=09=09    .easygoi-listafield,=
+=0A=09=09=09=09    .easygoi-message,=0A=09=09=09=09    .easygoi-telefonefie=
+ld,=0A=09=09=09=09    .easygoi-telemovelfield,=0A                    .easyg=
+oi-button-element,=0A                    .easygoi-langfield,=0A=09=09=09=09=
+    .easygoi-captchafield {=0A=09=09=09=09    width: 100% !important;=0A   =
+                     margin: 0 auto;=0A=09=09=09=09    }=0A=0A             =
+       .easygoi-listafield {=0A                        text-align: left !im=
+portant;=0A                    }=0A                    .easygoi-langfield {=
+=0A                        text-align: left !important;=0A                 =
+   }=0A=0A=09=09=09=09    .easygoi-drag-structure {=0A=09=09=09=09        w=
+idth: 100% !important;=0A=09=09=09=09    }=0A=09=09=09=09    =0A=09=09=09=
+=09    .easygoi-column {=0A=09=09=09=09        box-sizing: border-box !impo=
+rtant;=0A=09=09=09=09        display: block !important;=0A=09=09=09=09     =
+   max-width: 100% !important;=0A=09=09=09=09        /*padding: 5px; @mustr=
+ollback */=0A=09=09=09=09        text-align: center;=0A=09=09=09=09        =
+width: 100% !important;=0A=09=09=09=09    }=0A=09=09=09=09    =0A=09=09=09=
+=09    .easygoi-content,=0A=09=09=09=09    .easygoi-title {=0A=09=09=09=09 =
+       /*padding: 5px !important; @musrollback */=0A=09=09=09=09    }=0A=09=
+=09=09=09    =0A=09=09=09=09    .easygoi-title,=0A=09=09=09=09    .easygoi-=
+title td,=0A=09=09=09=09    .easygoi-title td p {=0A=09=09=09=09        /*t=
+ext-align: center !important; */=0A=09=09=09=09    }=0A=09=09=09=09    =0A=
+=09=09=09=09    .easygoi-title,.easygoi-title td {=0A=09=09=09=09        wi=
+dth: 100% !important;=0A=09=09=09=09    }=0A=09=09=09=09=0A=09=09=09=09    =
+table:not(.easygoi-image) {=0A=09=09=09=09        margin: 0 auto !important=
+;=0A=09=09=09=09    }=0A=09=09=09=09    =0A=09=09=09=09    table.easygoi-im=
+age {=0A=09=09=09=09        box-sizing: border-box !important;=0A=09=09=09=
+=09        width: auto !important;=0A=09=09=09=09        max-width: 100% !i=
+mportant;=0A=09=09=09=09        display: inline-block !important;=0A=09=09=
+=09=09        height: auto !important;=0A=09=09=09=09    }=0A=09=09=09=09  =
+  =0A=09=09=09=09    img {=0A=09=09=09=09        height: auto !important;=
+=0A=09=09=09=09        margin-left: auto !important;=0A=09=09=09=09        =
+max-width: 100% !important;=0A=09=09=09=09        display: inline-block !im=
+portant;=0A=09=09=09=09        outline: 0 !important;=0A=09=09=09=09    }=
+=0A=09=09=09=09    =0A=09=09=09=09    .easygoi-content:empty {=0A=09=09=09=
+=09        display: none;=0A=09=09=09=09    }=0A=09=09=09=09    =0A=09=09=
+=09=09    .easygoi-content,=0A=09=09=09=09    .easygoi-content td {=0A=09=
+=09=09=09        box-sizing: border-box !important;=0A=09=09=09=09        w=
+idth: auto !important;=0A=09=09=09=09        max-width: 100% !important;=0A=
+=09=09=09=09        /*display: inline-block !important;*/=0A=09=09=09=09   =
+     height: auto !important;=0A=09=09=09=09    }=0A=09=09=09=09    =0A=09=
+=09=09=09    .easygoi-rss a {=0A=09=09=09=09        margin: 0 !important;=
+=0A=09=09=09=09        padding: 0 !important;=0A=09=09=09=09    }=0A=09=09=
+=09=09    =0A=09=09=09=09    h1,h2,h3,h4,h5,h6 {=0A=09=09=09=09        text=
+-align: center !important;=0A=09=09=09=09    }=0A=09=09=09=09    =0A=09=09=
+=09=09    object,=0A=09=09=09=09    embed {=0A=09=09=09=09        height: a=
+uto !important;=0A=09=09=09=09        width: auto !important;=0A=09=09=09=
+=09        max-width: 100% !important;=0A=09=09=09=09    }=0A=09=09=09=09  =
+  =0A=09=09=09=09    object,=0A=09=09=09=09    embed {=0A=09=09=09=09      =
+  height: auto !important;=0A=09=09=09=09        width: auto !important;=0A=
+=09=09=09=09        max-width: 100% !important;=0A=09=09=09=09    }=0A=09=
+=09=09=09    =0A=09=09=09=09    iframe {=0A=09=09=09=09        max-width: 1=
+00% !important;=0A=09=09=09=09        width: 100% !important;=0A=09=09=09=
+=09    }=0A=09=09=09=09    =0A=09=09=09=09    *[style*=3D"text-align: cente=
+r"],*[style*=3D"text-align:center"] {=0A=09=09=09=09        text-align: cen=
+ter !important;=0A=09=09=09=09    }=0A=09=09=09=09    =0A=09=09=09=09    *[=
+style*=3D"text-align: left"],*[style*=3D"text-align:left"] {=0A=09=09=09=09=
+        text-align: left !important;=0A=09=09=09=09    }=0A=09=09=09=09    =
+=0A=09=09=09=09    *[style*=3D"text-align: right"],*[style*=3D"text-align:r=
+ight"] {=0A=09=09=09=09        text-align: right !important;=0A=09=09=09=09=
+    }=0A=09=09=09=09    =0A=09=09=09=09    img[src*=3D"statst.php"] {=0A=09=
+=09=09=09        height: 1px !important;=0A=09=09=09=09        width: 1px !=
+important;=0A=09=09=09=09    }=0A=09=09=09=09    =0A=09=09=09=09    img[src=
+*=3D"fstats.php"] {=0A=09=09=09=09        height: 1px !important;=0A=09=09=
+=09=09        width: 1px !important;=0A=09=09=09=09    }=0A=09=09=09=09    =
+ .easygoi-spacer {=0A=09=09=09=09         height: 20px !important;=0A=09=09=
+=09=09         line-height: 20px !important;=0A=09=09=09=09     }=0A=09=09=
+=09=09    =0A=09=09=09=09    img[src*=3D"easyspacer.gif"] {=0A=09=09=09=09 =
+       display: inline-block !important;=0A=09=09=09=09        height: auto=
+ !important;=0A=09=09=09=09        margin-left: auto !important;=0A=09=09=
+=09=09        max-width: 100% !important;=0A=09=09=09=09        outline: 0 =
+none !important;=0A=09=09=09=09        width: 100% !important;=0A=09=09=09=
+=09        height: 10px !important;=0A=09=09=09=09    }=0A=09=09=09=09    =
+=0A=09=09=09=09    .easygoi-title {=0A=09=09=09=09        text-align: cente=
+r !important;=0A=09=09=09=09    }=0A=09=09=09=09    =0A=09=09=09=09    .eas=
+ygoi-content img {=0A=09=09=09=09       display: inline-block !important;=
+=0A=09=09=09=09       height: auto !important;=0A=09=09=09=09       width: =
+auto !important;=0A=09=09=09=09    }=0A=09=09=09=09=0A=09=09=09=09    .easy=
+goi-rss {=0A=09=09=09=09        width: 100% !important;=0A=09=09=09=09    }=
+=0A=09=09=09=09    =0A=09=09=09=09    .easygoi-rss img {=0A=09=09=09=09    =
+    box-sizing: border-box !important;=0A=09=09=09=09        height: auto !=
+important;=0A=09=09=09=09        width: 100% !important;=0A=09=09=09=09    =
+}=0A=09=09=09=09=0A=09=09=09=09     .easygoi-image[style*=3D"text-align:lef=
+t"]>img,=0A=09=09=09=09     .easygoi-image[style*=3D"text-align: left"]>img=
+,=0A=09=09=09=09     .easygoi-image[style*=3D"text-align:center"]>img,=0A=
+=09=09=09=09     .easygoi-image[style*=3D"text-align: center"]>img,=0A=09=
+=09=09=09     .easygoi-image[style*=3D"text-align:right"]>img,=0A=09=09=09=
+=09     .easygoi-image[style*=3D"text-align: right"]>img,=0A=09=09=09=09   =
+  .easygoi-image[style*=3D"text-align:left"]>td>img,=0A=09=09=09=09     .ea=
+sygoi-image[style*=3D"text-align: left"]>td>img,=0A=09=09=09=09     .easygo=
+i-image[style*=3D"text-align:center"]>td>img,=0A=09=09=09=09     .easygoi-i=
+mage[style*=3D"text-align: center"]>td>img,=0A=09=09=09=09     .easygoi-ima=
+ge[style*=3D"text-align:right"]>td>img,=0A=09=09=09=09     .easygoi-image[s=
+tyle*=3D"text-align: right"]>td>img { =0A=09=09=09=09         display: inli=
+ne-block !important; =0A=09=09=09=09         margin: 0 0 0 0 !important; =
+=0A=09=09=09=09     }=0A=0A=09=09=09=09     /* anoder raki */=0A=09=09=09=
+=09     .easygoi-dragbox-content.easygoi-video,=0A=09=09=09=09     .easygoi=
+-dragbox-content.easygoi-image > img {=0A=09=09=09=09=09=09width: 100% !imp=
+ortant;=0A=09=09=09=09=09 }=0A=0A                    .easygoi-dragbox-conte=
+nt.easygoi-image {=0A                        text-align: center !important;=
+=0A                    }=0A=09=09=09=09=0A=09=09=09=09     .easygoi-header-=
+table-responsive { =0A=09=09=09=09         width: auto !important; =0A=09=
+=09=09=09     } =0A=09=09=09=09     .easygoi-header-table-td-responsive { =
+=0A=09=09=09=09         height: auto !important; =0A=09=09=09=09         wi=
+dth: auto !important;=0A=09=09=09=09     } =0A=09=09=09=09     .easygoi-foo=
+ter-links { =0A=09=09=09=09         display: inline-block !important; =0A=
+=09=09=09=09         line-height: 0 !important; =0A=09=09=09=09     } =0A=
+=09=09=09=09     .easygoi-footer-table-responsive { =0A=09=09=09=09        =
+ float: left !important; =0A=09=09=09=09     } =0A=09=09=09=09     .easygoi=
+-footer-table-responsive img { =0A=09=09=09=09         display: inline-bloc=
+k !important; =0A=09=09=09=09         width: auto !important; =0A=09=09=09=
+=09     } =0A=09=09=09=09     .easygoi-footer-table-responsive,.easygoi-foo=
+ter-table-responsive table { =0A=09=09=09=09         text-align: center !im=
+portant; =0A=09=09=09=09         width: 100% !important; =0A=09=09=09=09   =
+  } =0A=09=09=09=09     .easygoi-footer-table-responsive td { =0A=09=09=09=
+=09         box-sizing: border-box; =0A=09=09=09=09         display: block =
+!important; =0A=09=09=09=09         float: left !important; =0A=09=09=09=09=
+         height: auto !important; =0A=09=09=09=09         text-align: cente=
+r !important; =0A=09=09=09=09         width: 100% !important; =0A=09=09=09=
+=09     } =0A=09=09=09=09     .easygoi-footer-links a,=0A=09=09=09=09     .=
+easygoi-header-table-responsive td a { =0A=09=09=09=09         display: inl=
+ine-block; =0A=09=09=09=09         height: auto; =0A=09=09=09=09         li=
+ne-height: 15px; =0A=09=09=09=09         white-space: pre-line; =0A=09=09=
+=09=09     } =0A=09=09=09=09     .easygoi-header-table-responsive td:last-c=
+hild a { =0A=09=09=09=09         display: inline-block !important; =0A=09=
+=09=09=09         height: auto !important; =0A=09=09=09=09         line-hei=
+ght: auto !important; =0A=09=09=09=09     } =0A=09=09=09=09     .easygoi-he=
+ader-table-responsive,=0A=09=09=09=09     .easygoi-header-table-responsive =
+table,=0A=09=09=09=09     .easygoi-footer-table-responsive,=0A=09=09=09=09 =
+    .easygoi-footer-table-responsive table { =0A=09=09=09=09         float:=
+ none !important; =0A=09=09=09=09         width: 100% !important; =0A=09=09=
+=09=09     } =0A=09=09=09=09=0A=09=09=09=09     .easygoi-footer-table-respo=
+nsive,=0A=09=09=09=09     .easygoi-footer-table-responsive table { =0A=09=
+=09=09=09         height: auto !important; =0A=09=09=09=09     } =0A=09=09=
+=09=09     .easygoi-footer-table-responsive,=0A=09=09=09=09     .easygoi-fo=
+oter-table-responsive td,=0A=09=09=09=09     .easygoi-footer-table-responsi=
+ve th,=0A=09=09=09=09     .easygoi-footer-table-responsive tr { =0A=09=09=
+=09=09         padding: 0 !important; =0A=09=09=09=09     } =0A=09=09=09=09=
+     .easygoi-footer-table-td-responsive,=0A=09=09=09=09     .easygoi-foote=
+r-table-responsive td { =0A=09=09=09=09         line-height: 18px !importan=
+t; =0A=09=09=09=09         /*padding: 5px !important; @mustrollback */=0A=
+=09=09=09=09     } =0A=09=09=09=09     .easygoi-footer-table-td-responsive[=
+width=3D"50%"] { =0A=09=09=09=09         display: none !important; =0A=09=
+=09=09=09     } =0A=09=09=09=09=0A=09=09=09=09     .easygoi-footer-table-td=
+-responsive br:first-child { =0A=09=09=09=09         display: none !importa=
+nt; =0A=09=09=09=09     }=0A=0A=09=09=09=09     #egoiCustomFooter table td =
+{=0A=09=09=09=09     =09padding: 20px !important;=0A=09=09=09=09     }=0A=
+=0A                    #egoiCustomHeader table td[width=3D"50%"] {=0A      =
+                  width: 0px !important;=0A                    }=0A=09     =
+          }=0A=09=09=09    </style>=0A<table id=3D"egoitable" class=3D"easy=
+goi-template" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"=
+0" style=3D""><tr><td valign=3D"top" class=3D"easygoi-structure" align=3D"c=
+enter"><table width=3D"580" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" class=3D"easygoi-drag-structure"><tr><td class=3D"easygoi-column" style=
+=3D"width: 580px;">=0A<table width=3D"100%" class=3D"easygoi-struct" cellsp=
+acing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"border-collapse: collap=
+se;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-=
+webkit-text-size-adjust: 100%;"><tr><td valign=3D"top" style=3D"display: bl=
+ock; mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;mso-line-height-rule:exactly;"><table class=
+=3D"easygoi-sub-structure" width=3D"580" cellspacing=3D"0" cellpadding=3D"0=
+" border=3D"0" style=3D"background-color: ;"><tr><td class=3D"easygoi-colum=
+n" valign=3D"top" align=3D"left" style=3D"width: 580px;"><table class=3D"ea=
+sygoi-spacer" height=3D"auto" width=3D"undefined" cellspacing=3D"0" cellpad=
+ding=3D"0" border=3D"0" style=3D"border-collapse: collapse;mso-table-lspace=
+: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;"><tr><td valign=3D"top" align=3D"left" height=3D"auto" style=3D=
+"line-height: 0px; text-size-adjust: 100%; background-color: transparent; t=
+ext-align: left;">=0A=09=09<img src=3D"http://mkt.canacope.org/recursos/9b8=
+a67ed2f4489d6c755a9dcd6688fa1/.Easygoi/easyspacer.gif" border=3D"0" height=
+=3D"21" width=3D"580" style=3D"display: block; height: 21px; border: 0px; o=
+utline: none; text-decoration: none; vertical-align: bottom; width: 580px;"=
+ outerwidth=3D"100%">=0A</td></tr></table></td></tr></table></td></tr></tab=
+le>=0A<table width=3D"100%" class=3D"easygoi-struct" cellspacing=3D"0" cell=
+padding=3D"0" border=3D"0" style=3D"border-collapse: collapse;mso-table-lsp=
+ace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;"><tr><td valign=3D"top" style=3D"display: block; mso-table-l=
+space: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-si=
+ze-adjust: 100%;mso-line-height-rule:exactly;"><table class=3D"easygoi-sub-=
+structure" width=3D"580" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" s=
+tyle=3D"background-color: ;"><tr><td class=3D"easygoi-column" valign=3D"top=
+" align=3D"left" style=3D"width: 580px;"><table class=3D"easygoi-image" hei=
+ght=3D"auto" width=3D"580" cellspacing=3D"0" cellpadding=3D"0" border=3D"0"=
+ style=3D"border-collapse: collapse; text-size-adjust: 100%; width: 580px;"=
+><tr><td valign=3D"top" align=3D"left" height=3D"auto" style=3D"line-height=
+: 0px; text-size-adjust: 100%; width: 580px; background-color: transparent;=
+ text-align: left;">=0A=09=09<img src=3D"http://mkt.canacope.org/recursos/9=
+b8a67ed2f4489d6c755a9dcd6688fa1/Image/.ffea806a674c77ff43165fb1ad03303a/580=
+px_e5c7f306c40f60145200.png" usemap=3D"#imgmap201935203215" width=3D"580" h=
+eight=3D"auto" alt=3D"imagem" border=3D"0" style=3D"display: block; height:=
+ auto; width: 580px !important; border: 0px; outline: none; text-decoration=
+: none; vertical-align: bottom;"><map name=3D"imgmap201935203215" id=3D"img=
+map201935203215"><area shape=3D"rect" coords=3D"126,574,454,655" href=3D"ht=
+tp://mkt.canacope.org/go/4f0c993-e30cd89b7804d6521-9d1b-17481f3da5e19663012=
+73eXe1gNae672CeIYe6n8pR" target=3D"_self"></map>=0A</td></tr></table></td><=
+/tr></table></td></tr></table>=0A<table width=3D"100%" class=3D"easygoi-str=
+uct" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"border-colla=
+pse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adj=
+ust: 100%;-webkit-text-size-adjust: 100%;"><tr><td valign=3D"top" style=3D"=
+display: block; mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-a=
+djust: 100%;-webkit-text-size-adjust: 100%;mso-line-height-rule:exactly;"><=
+table class=3D"easygoi-sub-structure" width=3D"580" cellspacing=3D"0" cellp=
+adding=3D"0" border=3D"0" style=3D"background-color: ;"><tr><td class=3D"ea=
+sygoi-column" valign=3D"top" align=3D"left" style=3D"width: 580px;"><table =
+class=3D"easygoi-spacer" height=3D"auto" width=3D"undefined" cellspacing=3D=
+"0" cellpadding=3D"0" border=3D"0" style=3D"border-collapse: collapse;mso-t=
+able-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;"><tr><td valign=3D"top" align=3D"left" height=3D"aut=
+o" style=3D"line-height: 0px; text-size-adjust: 100%; background-color: tra=
+nsparent; text-align: left;">=0A=09=09<img src=3D"http://mkt.canacope.org/r=
+ecursos/9b8a67ed2f4489d6c755a9dcd6688fa1/.Easygoi/easyspacer.gif" border=3D=
+"0" height=3D"203" width=3D"580" style=3D"display: block; height: 203px; bo=
+rder: 0px; outline: none; text-decoration: none; vertical-align: bottom; wi=
+dth: 580px;" outerwidth=3D"100%">=0A</td></tr></table></td></tr></table></t=
+d></tr></table>=0A</td></tr></table></td></tr></table>=0A<div style=3D"clea=
+r:both !important; height: 0 !important;"></div><table border=3D"0" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"background-color: #E=
+CECEC; display:table !important;" class=3D"easygoi-footer-table-responsive"=
+>=0A<tr style=3D"display:table-row !important;">=0A<td style=3D"background-=
+color: #F7F7F7; height:2px; font-size:2px; line-height:2px; mso-margin-top-=
+alt:2px; display:table-cell !important;" colspan=3D"3" class=3D"easygoi-foo=
+ter-table-td-responsive">=C2=A0</td>
+    </tr>=0A<tr style=3D"display:table-row !important;">=0A<td width=3D"100=
+%" style=3D"background-color: #ECECEC; display:table-cell !important;" alig=
+n=3D"center" colspan=3D"3" class=3D"easygoi-footer-table-td-responsive">
+            <table width=3D"100%" cellpadding=3D"5" cellspacing=3D"0" style=
+=3D"max-width: 600px; display:table !important;" class=3D"easygoi-footer-ta=
+ble-responsive">=0A<tr style=3D"display:table-row !important;">=0A<td style=
+=3D"text-align: center; display:table-cell !important;" class=3D"easygoi-fo=
+oter-table-td-responsive">
+                        <table width=3D"100%" id=3D"table1" class=3D"easygo=
+i-footer-table-responsive" style=3D"display:table !important;"><tr style=3D=
+"display:table-row !important;">=0A<td width=3D"85%" style=3D"font-style: n=
+ormal;font-family: Arial, Helvetica, sans-serif; text-align: left; font-siz=
+e: 13px; color:#999999; display:table-cell !important;" class=3D"easygoi-fo=
+oter-table-td-responsive">Este mensaje ha sido enviado a <b>raymundo@vpcons=
+ultores.com.mx</b> por <b>soportec@canacope.org</b><br>Isabel la Cat=C3=B3l=
+ica No. 135 Colonia Centro 06000 Mexico Distrito Federal Mexico<br><br><spa=
+n style=3D"font-style: normal;font-family: Arial, Helvetica, sans-serif; te=
+xt-align: left; font-size: 13px; font-weight:bold; color:#828282;"><a style=
+=3D"color: #828282; text-decoration: underline; font-family: Arial, Helveti=
+ca, sans-serif; font-size:13px; font-weight: bold;" href=3D"http://mkt.cana=
+cope.org/rc/4f0c993-e30cd89b7804d6521-9d1b-17481f3da5eIYe672Ce1gNae19663012=
+73">Recomendar</a>=0A=C2=A0=C2=A0=C2=A0<span class=3D"original-only" style=
+=3D"display: inline !important;"><a style=3D"color: #828282; text-decoratio=
+n: underline; font-family: Arial, Helvetica, sans-serif; font-size:13px; fo=
+nt-weight: bold;" href=3D"http://mkt.canacope.org/esub/4f0c993-e1966301273e=
+30cd89b7804d6521-9d1b-17481f3da5eIYe672Ce1gNaeX">Editar suscripci=C3=B3n</a=
+></span>=0A=C2=A0=C2=A0=C2=A0<span class=3D"original-only" style=3D"display=
+: inline !important;"><a style=3D"color: #828282; text-decoration: underlin=
+e; font-family: Arial, Helvetica, sans-serif; font-size:13px; font-weight: =
+bold;" href=3D"http://mkt.canacope.org/del/4f0c993-e30cd89b7804d6521-9d1b-1=
+7481f3da5eIYe672Ce1gNaeXe1966301273">Dar de baja</a></span>=0A</span>=0A</t=
+d>
+                                <td width=3D"15%" style=3D"font-style: norm=
+al;font-family: Arial, Helvetica, sans-serif; text-align: right; font-size:=
+ 13px; color:#999999; display:table-cell !important;" valign=3D"top" class=
+=3D"easygoi-footer-table-td-responsive"> <a target=3D"_blank" href=3D"http:=
+//mkt.canacope.org/certifiedby_es/?campaign_id=3D30cd89b7804d6521e9d1be1748=
+1f3da5&email=3Draymundo@vpconsultores.com.mx&f=3D672Ce1gNaeIY"><img border=
+=3D"0" src=3D"http://mkt.canacope.org/recursos/9b8a67ed2f4489d6c755a9dcd668=
+8fa1/egoi_certificado_cinza.jpg" width=3D"70" height=3D"80" align=3D"middle=
+" border=3D"0" alt=3D""></a></td>
+                            </tr></table>=0A</td>
+                </tr>=0A<tr style=3D"display:table-row !important;">=0A<td =
+width=3D"100%" style=3D"font-style: normal;font-family: Arial, Helvetica, s=
+ans-serif; text-align: left; color:#999999; font-size: 13px; height:40px; v=
+ertical-align:top; display:table-cell !important;" class=3D"easygoi-footer-=
+table-td-responsive"><a href=3D"http://mkt.canacope.org/vls/4f0c993-e30cd89=
+b7804d6521-9d1b-17481f3da5eIYe672Ce1gNae1966301273" border=3D"0"><img src=
+=3D"http://mkt.canacope.org/recursos/9b8a67ed2f4489d6c755a9dcd6688fa1/.Soci=
+alIcons/20x20/other_social_networks.png" alt=3D"Social" border=3D"0" style=
+=3D"display: inline;"></a>=0A=C2=A0<a href=3D"http://mkt.canacope.org/fb/4f=
+0c993-e30cd89b7804d6521-9d1b-17481f3da5eIYe672Ce1gNae1966301273" border=3D"=
+0"><img src=3D"http://mkt.canacope.org/recursos/9b8a67ed2f4489d6c755a9dcd66=
+88fa1/.SocialIcons/20x20/facebook.png" alt=3D"Facebook" border=3D"0" style=
+=3D"display: inline;"></a>=0A=C2=A0<a href=3D"http://mkt.canacope.org/tw/4f=
+0c993-e30cd89b7804d6521-9d1b-17481f3da5eIYe672Ce1gNae1966301273" border=3D"=
+0"><img src=3D"http://mkt.canacope.org/recursos/9b8a67ed2f4489d6c755a9dcd66=
+88fa1/.SocialIcons/20x20/twitter.png" alt=3D"Twitter" border=3D"0" style=3D=
+"display: inline;"></a>=0A=C2=A0<a href=3D"http://mkt.canacope.org/vlp/4f0c=
+993-e30cd89b7804d6521-9d1b-17481f3da5eIYe672Ce1gNae1966301273" border=3D"0"=
+><img src=3D"http://mkt.canacope.org/recursos/9b8a67ed2f4489d6c755a9dcd6688=
+fa1/.SocialIcons/20x20/print.png" alt=3D"print" border=3D"0" style=3D"displ=
+ay: inline;"></a>=0A</td>
+                </tr>=0A</table>=0A</td>
+    </tr>=0A<tr style=3D"display:table-row !important;">=0A<td class=3D"eas=
+ygoi-footer-table-td-responsive" style=3D"display:table-cell !important;">
+           =20
+        </td>
+    </tr>=0A<!-- ////// linha necess=C3=A1ria para n=C3=A3o quebrar o foote=
+r no Mac Mail //// --><tr style=3D"display:table-row !important;">=0A<td co=
+lspan=3D"3" width=3D"100%" class=3D"easygoi-footer-table-td-responsive" sty=
+le=3D"display:table-cell !important;"></td>
+    </tr>=0A<!-- ///////////// -->=0A</table></body></html>
+
+
+--b1_5881e99253b91ea98d417d69d638c0ed--
+

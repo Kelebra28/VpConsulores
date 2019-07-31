@@ -1,0 +1,166 @@
+Return-Path: <alcantaragarzonelsa@gmail.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id cCFiIEhq9Vx/EQ8AFq4nlA
+	(envelope-from <alcantaragarzonelsa@gmail.com>)
+	for <raymundo@vpconsultores.com.mx>; Mon, 03 Jun 2019 11:43:20 -0700
+Return-path: <alcantaragarzonelsa@gmail.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Mon, 03 Jun 2019 11:43:20 -0700
+Received: from mail-oi1-f176.google.com ([209.85.167.176]:33312)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <alcantaragarzonelsa@gmail.com>)
+	id 1hXrvP-004Gfu-Jv
+	for raymundo@vpconsultores.com.mx; Mon, 03 Jun 2019 11:43:20 -0700
+Received: by mail-oi1-f176.google.com with SMTP id q186so13663172oia.0
+        for <raymundo@vpconsultores.com.mx>; Mon, 03 Jun 2019 11:42:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=from:content-transfer-encoding:mime-version:date:subject:message-id
+         :references:to;
+        bh=zbmlYymVxR7XWnJSapLF9NSLqSxIpA7T2wVDtm/iBa4=;
+        b=hqAOLA+hYTmo8d8To24JwUa73ehdtHcGFOENC+x7ZDmrFjsAI9XEeVZl5fn1NDuFCn
+         uZvKzgYuNhVGQ9cagYBDP6NNdKfyeGSuy+/ZEDQZqLMTi5oDR0anxrQZzEbxgnAXRu80
+         PB/I1Y5CJsJeXYPHzgFT22UmlAbExetbbq7D/GcBkzj8PZxWOb5hmjMoWXr8X4Gswcg+
+         Ty6TbVC3P1/e/3yYPPjjUGdmhX5KQcy7sJtJzD3nDkU6c/GoX/8W8TeO0WG1DVW3FQPl
+         Kp6Ixu2OQSaCMs7duZZxRRi4gD2m6u+3iOaRLO1n/FFjo7D1RUl/OFE4arAJorMAFbkc
+         cAmQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version:date
+         :subject:message-id:references:to;
+        bh=zbmlYymVxR7XWnJSapLF9NSLqSxIpA7T2wVDtm/iBa4=;
+        b=cCq63eQq8l8o+gSsyzvMi9b0Fhtp/hfuIeiEqtbuCdck7jPle48OWeW+0NNqOQG6W7
+         MLDe2QwfiNbwww2VJIUY2oLf0+F1joP3lBVcm7fiFzfgANYPXT7FJOzZrRDPU+O0g37Q
+         GIqly7dUdHt246FnP8WQkF9enOmEg+nPce7F5QPBdF57ypjVTtTPHY9uoMR3J9axLHeI
+         nHBOvGExjKAbKfhxPnw81DUwvdqrI83a9UD+WVe/+DcpQ7O2itzxR5ceAVvIWhXzFBx0
+         jSRNI4dseXdj71ByJZl1bzEMVEKc2mFnDiE+e/FHtWp5v7Y4LrVqvmwi2GiX/KwDuvId
+         7/8g==
+X-Gm-Message-State: APjAAAWnnuV9m453b+q+aZCR/ur0WrQ2sSP8BFs1MTtM4XqAaYDdJo8C
+	mbpWvRrLvSsMnki7OGM6ZpLuV5m0
+X-Google-Smtp-Source: APXvYqzPHMYP8TJomvz1RN8PRgj60DBeIdCADF0YsUQ6ALbT/Me3XkHN6oY67uxLXcRae87NxN4Pxg==
+X-Received: by 2002:a05:6808:28f:: with SMTP id z15mr1817097oic.32.1559587350820;
+        Mon, 03 Jun 2019 11:42:30 -0700 (PDT)
+Received: from [192.168.1.68] ([187.207.175.150])
+        by smtp.gmail.com with ESMTPSA id c204sm7691255oih.19.2019.06.03.11.42.29
+        for <raymundo@vpconsultores.com.mx>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 03 Jun 2019 11:42:30 -0700 (PDT)
+From: =?utf-8?Q?Elsa_Alc=C3=A1ntara?= <alcantaragarzonelsa@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-108E201A-6302-4F68-A1B3-9AA0152B564F
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Date: Mon, 3 Jun 2019 13:42:29 -0500
+Subject: Fwd: JUNTA MENSUAL
+Message-Id: <DEB73E31-37CA-4507-AC43-5599B5B17C52@gmail.com>
+References: <CAD=mkss7B0RHYvsTgb8fAsH-b949D9zgqyGfzpZcEzKKyQ5zeg@mail.gmail.com>
+To: El Dads <raymundo@vpconsultores.com.mx>
+X-Mailer: iPhone Mail (16E227)
+X-Spam-Status: No, score=1.4
+X-Spam-Score: 14
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Enviado desde mi iPhone Inicio del mensaje reenviado: > De:
+    campestre churubusco > Fecha: 3 de junio de 2019, 9:40:01 GMT-5 > Para: undisclosed-recipients:;
+    > Asunto: JUNTA MENSUAL > > ESTIMADO SOCIO/VECINO: > > Te informamos que
+   nuestra reunión mensu [...] 
+ 
+ Content analysis details:   (1.4 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             (alcantaragarzonelsa[at]gmail.com)
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.6 SUBJ_ALL_CAPS          Subject is all capitals
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_FONT_SIZE_LARGE   BODY: HTML font size is large
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+
+--Apple-Mail-108E201A-6302-4F68-A1B3-9AA0152B564F
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Enviado desde mi iPhone
+
+Inicio del mensaje reenviado:
+
+> De: campestre churubusco <campestrechurubusco63@gmail.com>
+> Fecha: 3 de junio de 2019, 9:40:01 GMT-5
+> Para: undisclosed-recipients:;
+> Asunto: JUNTA MENSUAL
+>=20
+> ESTIMADO SOCIO/VECINO:
+>=20
+> Te informamos que nuestra reuni=C3=B3n mensual se llevar=C3=A1 a cabo hoy l=
+unes 3 de junio, a las 19:00 hrs. en las oficinas de tu Asociaci=C3=B3n.
+>=20
+> Tu asistencia es importante.
+>=20
+> Saludos.
+>=20
+> Atentamente
+>=20
+> Asociaci=C3=B3n de Colonos Campestre Churubusco A.C.
+> Cerro Boludo 10
+> Col. Campestre Churubusco
+> =20
+> Tels. 55 49 12 36  /  56 89 33 99
+>=20
+
+--Apple-Mail-108E201A-6302-4F68-A1B3-9AA0152B564F
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><br><br><div id=3D"AppleMailSignature" dir=3D=
+"ltr">Enviado desde mi iPhone</div><div dir=3D"ltr"><br>Inicio del mensaje r=
+eenviado:<br><br></div><blockquote type=3D"cite"><div dir=3D"ltr"><b>De:</b>=
+ campestre churubusco &lt;<a href=3D"mailto:campestrechurubusco63@gmail.com"=
+>campestrechurubusco63@gmail.com</a>&gt;<br><b>Fecha:</b> 3 de junio de 2019=
+, 9:40:01 GMT-5<br><b>Para:</b> undisclosed-recipients:;<br><b>Asunto:</b> <=
+b>JUNTA MENSUAL</b><br><br></div></blockquote><blockquote type=3D"cite"><div=
+ dir=3D"ltr"><div dir=3D"ltr"><font size=3D"6">ESTIMADO SOCIO/VECINO:</font>=
+<div><font size=3D"6"><br></font></div><div><font size=3D"6">Te informamos q=
+ue nuestra reuni=C3=B3n mensual se llevar=C3=A1 a cabo hoy lunes 3 de junio,=
+ a las 19:00 hrs. en las oficinas de tu Asociaci=C3=B3n.</font></div><div><f=
+ont size=3D"6"><br></font></div><div><span style=3D"font-size:xx-large;line-=
+height:1.5">Tu asistencia es importante.</span><br></div><div><font size=3D"=
+6"><br></font></div><div><font size=3D"6">Saludos.</font></div><div><font si=
+ze=3D"6"><br></font></div><div><div dir=3D"ltr" class=3D"gmail_signature" da=
+ta-smartmail=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div=
+ dir=3D"ltr"><div dir=3D"ltr"><font color=3D"#3d85c6" size=3D"4"><b>Atentame=
+nte</b></font></div><div dir=3D"ltr"><font color=3D"#3d85c6" size=3D"4"><b><=
+br></b></font><div><b><font color=3D"#3d85c6" size=3D"4">Asociaci=C3=B3n de C=
+olonos Campestre Churubusco A.C.</font></b></div><div><b><font color=3D"#3d8=
+5c6" size=3D"4">Cerro Boludo 10</font></b></div><div><b><font color=3D"#3d85=
+c6" size=3D"4">Col. Campestre Churubusco</font></b></div><div><b><font color=
+=3D"#3d85c6" size=3D"4">&nbsp;</font></b></div><div><b><font color=3D"#3d85c=
+6" size=3D"4">Tels. 55 49 12 36 &nbsp;/ &nbsp;56 89 33 99</font></b></div><d=
+iv><br></div></div></div></div></div></div></div></div></div>
+</div></blockquote></body></html>=
+
+--Apple-Mail-108E201A-6302-4F68-A1B3-9AA0152B564F--

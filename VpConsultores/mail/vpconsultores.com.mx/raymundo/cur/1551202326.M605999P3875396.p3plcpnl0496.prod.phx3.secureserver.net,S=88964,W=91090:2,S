@@ -1,0 +1,2126 @@
+Return-Path: <jgarduno@roblesmiaja.com.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id cD3yIxZ4dVxEIjsAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Tue, 26 Feb 2019 10:32:06 -0700
+Return-path: <jgarduno@roblesmiaja.com.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Tue, 26 Feb 2019 10:32:06 -0700
+Received: from mail-ot1-f50.google.com ([209.85.210.50]:44605)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <jgarduno@roblesmiaja.com.mx>)
+	id 1gygaJ-00GGVg-8f
+	for raymundo@vpconsultores.com.mx; Tue, 26 Feb 2019 10:32:06 -0700
+Received: by mail-ot1-f50.google.com with SMTP id g1so11749985otj.11
+        for <raymundo@vpconsultores.com.mx>; Tue, 26 Feb 2019 09:31:43 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=roblesmiaja-com-mx.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:subject:from:in-reply-to:date:cc
+         :content-transfer-encoding:message-id:references:to;
+        bh=9C+cJvBPEIAW1l4oVtRjqdeDYDUHXjIUmEIKSt8YcD4=;
+        b=YTSuKtju9NBJYfqLwW4JN+SJZ1fEhq9dse3nwQUL2HHIhZuSs/bHy4nz78KQ4RuTHJ
+         M5sg9WEa+98ujYVFf2A9ODG2+RhaVl3djm5I62C2jPCfK5EqJGlWF3p9q+pKFhGOx/0j
+         ExoXh7v06A64pegfgFRATXab11Si0akgG1QndSGCineDcyhsNkgvnP9gLqEazq4ca18m
+         O0LjiwMLegIB8VKy30tAK9kO8y9ug/YO4BzvTnqsG9HbY93zde66CzksbCME/QRqXVKb
+         Gl61CeZIxoianx4SO+BH8knUKdOp2F3G2fQMozMdWPw+e1pyXBznvA2oOc+pN5czhIyV
+         hGFw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:subject:from:in-reply-to:date:cc
+         :content-transfer-encoding:message-id:references:to;
+        bh=9C+cJvBPEIAW1l4oVtRjqdeDYDUHXjIUmEIKSt8YcD4=;
+        b=sIk8uCsreKOCm2fHqpB37QCAb3b8btc2xriL8KZF5u2SLTTv0ZRn+AT1/cqXAFln64
+         TXbasbtAvq6SZsZkoQdOjavoTBVMrmAxyMRJSRNS0pMJNh+Z4EDyHv52vf9i7INwtJ7b
+         LbAHAg4JXSVzVd7VWHCZqd9xu7o2gZM/h9GEQhCOeZgkFytRvyVVSu3v0XcoEgVlRMAW
+         RzZYvvpXJNzKuLyG6dwvc1TSmH7xJUCo5FRk2s7t2zgzECdYNl5Pbh4LhxRgbwi2hEwG
+         N51nyQsP7BAw4x7BUJ6D9RVUO0tSgrgGnxQpesurRoVWK9regGWtSB9BukDeA0gd9cFz
+         nNqg==
+X-Gm-Message-State: AHQUAubrshupSCgpC1KM/EACLHRLVNSRC2RejvGmqkQfQSScZuYEWWpj
+	JfdLbmRmYqytEiDtAm1DuiQ7S+gz48Y=
+X-Google-Smtp-Source: AHgI3IbZZmKLQz/uKivlo4QA+AhYJ0KYCRa48Tp4XFBcRXfp794sU3ObYXnAkQeWklLcMYT/QYzPfQ==
+X-Received: by 2002:a05:6830:1448:: with SMTP id w8mr15523114otp.232.1551202282060;
+        Tue, 26 Feb 2019 09:31:22 -0800 (PST)
+Received: from [10.77.43.39] ([187.210.189.218])
+        by smtp.gmail.com with ESMTPSA id q25sm4990285otl.15.2019.02.26.09.31.20
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 26 Feb 2019 09:31:20 -0800 (PST)
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-12F5FA4C-094A-49FA-893C-1C780EF4A8D4
+Mime-Version: 1.0 (1.0)
+Subject: =?utf-8?Q?Re:_Declaraci=C3=B3n_anual_2017_?=
+From: =?utf-8?Q?Jorge_Gardu=C3=B1o_Paramo?= <jgarduno@roblesmiaja.com.mx>
+X-Mailer: iPhone Mail (16D57)
+In-Reply-To: <001b01d4cdf1$96732d10$c3598730$@vpconsultores.com.mx>
+Date: Tue, 26 Feb 2019 11:31:19 -0600
+Cc: raymundo@vpconsultores.com.mx
+Content-Transfer-Encoding: 7bit
+Message-Id: <96B24C13-4402-4B08-AB07-69A2FC847B66@roblesmiaja.com.mx>
+References: <003701d4ca11$f9e00550$eda00ff0$@vpconsultores.com.mx> <009101d4ca58$80f0e230$82d2a690$@com.mx> <001b01d4cdf1$96732d10$c3598730$@vpconsultores.com.mx>
+To: Patricia Perez <patricia@vpconsultores.com.mx>
+X-Spam-Status: No, score=-0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Entendido, resuelvo lo del RFC y te lo mando actualizado.
+   Muchas gracias, saludos. El 26 feb 2019, a la(s) 10:37, Patricia Perez <patricia@vpconsultores.com.mx>
+    escribió: [...] 
+ 
+ Content analysis details:   (-0.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: gappssmtp.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: gappssmtp.com]
+ -0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [209.85.210.50 listed in wl.mailspike.net]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76 chars
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+X-Spam-Flag: NO
+
+
+--Apple-Mail-12F5FA4C-094A-49FA-893C-1C780EF4A8D4
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Entendido, resuelvo lo del RFC y te lo mando actualizado.
+
+Muchas gracias, saludos.
+
+El 26 feb 2019, a la(s) 10:37, Patricia Perez <patricia@vpconsultores.com.mx=
+> escribi=C3=B3:
+
+> Buen d=C3=ADa Jorge:
+> =20
+> =20
+> S=C3=AD, claro yo le doy seguimiento solo dos comentarios:
+> =20
+> 1.       Tu estado de cuenta no tiene tu Registro Federal de Contribuyente=
+s, por lo cual ser=C3=A1 necesario que actualices tu informaci=C3=B3n en el B=
+anco ya que de lo contrario la autoridad no autorizar=C3=A1 tu devoluci=C3=B3=
+n ya que es uno de los requisitos para ingresar el tramite.
+> =20
+> 2.       En cuanto a los honorarios esos lo puedes ver directamente con el=
+ por favor.
+> =20
+> =20
+> =20
+> Quedo a la espera.
+> =20
+> =20
+> Saludos
+> =20
+> Patricia P=C3=A9rez
+> =20
+> =20
+> =20
+> =20
+> =20
+> =20
+> De: Jorge L. Gardu=C3=B1o [mailto:jgarduno@roblesmiaja.com.mx]=20
+> Enviado el: jueves, 21 de febrero de 2019 08:44 p.m.
+> Para: 'Patricia Perez'
+> CC: raymundo@vpconsultores.com.mx
+> Asunto: RE: Declaraci=C3=B3n anual 2017
+> =20
+> Muchas gracias Patricia =C2=BFme podr=C3=ADan por favor ayudar a darle seg=
+uimiento?
+> =20
+> Adjunto al presente los CFDIs de n=C3=B3mina de 2017, as=C3=AD como =C3=BA=
+ltimo estado de cuenta de Banamex que es mi cuenta principal, correspondient=
+e a febrero de 2019.
+> =20
+> Lo =C3=BAnico que tengo como constancia de intereses es en GBM que es la =C3=
+=BAnica cuenta en la que tengo intereses ganados los cuales son m=C3=ADnimos=
+.
+> =20
+> Por favor ind=C3=ADcame tambi=C3=A9n el monto de sus honorarios que estar=C3=
+=ADan reteniendo de la devoluci=C3=B3n y si necesitan algo m=C3=A1s de mi pa=
+rte.
+> =20
+> Muchas gracias,
+> =20
+> Jorge L. Gardu=C3=B1o
+> =20
+> ______________________________
+> Robles Miaja Abogados
+> Bosque de Alisos 47-A 1er Piso A2-11
+> Bosques de las Lomas 05120, M=C3=A9xico, D.F.
+> Tel.  (55)1105-1316
+> =20
+> www.roblesmiaja.com.mx
+> =20
+> =20
+> Este mensaje contiene informaci=C3=B3n confidencial.  /This message contai=
+ns confidential information.
+> =20
+> =20
+> De: Patricia Perez [mailto:patricia@vpconsultores.com.mx]=20
+> Enviado el: jueves, 21 de febrero de 2019 12:19 p. m.
+> Para: jgarduno@roblesmiaja.com.mx
+> Asunto: Declaraci=C3=B3n anual 2017
+> =20
+> Hola Jose Luis:
+> =20
+> =20
+> Soy Patricia P=C3=A9rez de parte del contador Raymundo V=C3=A1zquez para d=
+arle seguimiento a tu solicitud.
+> =20
+> =20
+> Te anexo el acuse de tu declaraci=C3=B3n presenta y te comento que el sald=
+o a favor fue rechazado por las inconsistencias que menciona la autoridad po=
+r lo cual te sugiero lo siguiente en caso de que desees solicitar la devoluc=
+i=C3=B3n en forma manual
+> =20
+> =20
+> 1.      Recabar los CFDI de n=C3=B3mina del ejercicio 2017.
+> 2.      Solicitar al Banco tu contanstancia de intereses ganados en 2017.
+> 3.      Ultimo estado de cuenta bancario donde aparezca tu Clabe interbanc=
+aria con una antig=C3=BCedad no mayor a dos meses anteriores a la fecha de l=
+a solicitud de devoluci=C3=B3n.
+> =20
+> =20
+> =20
+> Saludos
+> =20
+> =20
+> Patricia P=C3=A9rez
+> =20
+> <image001.jpg>
+> =20
+> De: raymundo@vpconsultores.com.mx [mailto:raymundo@vpconsultores.com.mx]=20=
+
+> Enviado el: mi=C3=A9rcoles, 20 de febrero de 2019 01:18 p.m.
+> Para: Patricia Perez
+> Asunto: RV: RE: RE: Nuevo Cliente
+> =20
+> =20
+> =20
+> De: Jorge L. Gardu=C3=B1o <jgarduno@roblesmiaja.com.mx>=20
+> Enviado el: mi=C3=A9rcoles, 06 de febrero de 2019 05:58 p.m.
+> Para: raymundo@vpconsultores.com.mx
+> Asunto: RE: RE: RE: Nuevo Cliente
+> =20
+> Estimado Raymundo,
+> =20
+> Gusto en saludarte =C2=BFMe podr=C3=ADas enviar por favor el acuse de mi d=
+eclaraci=C3=B3n de impuestos o indicarme como verificarlo? No lo recib=C3=AD=
+ en su momento y viendo mi buz=C3=B3n tributario no tengo nada.
+> =20
+> Muchas gracias, saludos.
+> =20
+> Jorge L. Gardu=C3=B1o
+> =20
+> ______________________________
+> Robles Miaja Abogados
+> Bosque de Alisos 47-A 1er Piso A2-11
+> Bosques de las Lomas 05120, M=C3=A9xico, D.F.
+> Tel.  (55)1105-1316
+> =20
+> www.roblesmiaja.com.mx
+> =20
+> =20
+> Este mensaje contiene informaci=C3=B3n confidencial.  /This message contai=
+ns confidential information.
+> =20
+> =20
+> De: Jorge L. Gardu=C3=B1o [mailto:jgarduno@roblesmiaja.com.mx]=20
+> Enviado el: lunes, 14 de mayo de 2018 02:23 p. m.
+> Para: 'raymundo@vpconsultores.com.mx'
+> Asunto: RE: RE: RE: Nuevo Cliente
+> =20
+> Con gusto Raymundo, te adjunto los documentos de la FEA.
+> =20
+> La contrase=C3=B1a es Coco1970
+> =20
+> Saludos,
+> =20
+> Jorge L. Gardu=C3=B1o
+> =20
+> ______________________________
+> Robles Miaja Abogados
+> Bosque de Alisos 47-A 1er Piso A2-11
+> Bosques de las Lomas 05120, M=C3=A9xico, D.F.
+> Tel.  (55)1105-1316
+> =20
+> www.roblesmiaja.com.mx
+> =20
+> =20
+> Este mensaje contiene informaci=C3=B3n confidencial.  /This message contai=
+ns confidential information.
+> =20
+> =20
+> De: raymundo@vpconsultores.com.mx [mailto:raymundo@vpconsultores.com.mx]=20=
+
+> Enviado el: lunes, 14 de mayo de 2018 02:12 p. m.
+> Para: Jorge L.Gardu=C3=B1o
+> Asunto: Re: RE: RE: Nuevo Cliente
+> =20
+>=20
+> Hola Jorge
+>=20
+>=20
+> Por favor mandame los archivos de tu firma electronica que te dieron el sa=
+bado as=C3=AD como la contrase=C3=B1a correspondiente para poder presentar t=
+u declaracion anual.
+>=20
+>=20
+>=20
+> Gracias.
+>=20
+>=20
+>=20
+>=20
+> El Lu 14/05/18 12:57, Jorge L. Gardu=C3=B1o jgarduno@roblesmiaja.com.mx es=
+cribi=C3=B3:
+> Muchas gracias Raymundo, te mando los datos de mi cuenta.
+> =20
+>=20
+> =20
+> =20
+>=20
+> Banamex
+> =20
+>=20
+> =20
+> =20
+>=20
+> CLABE: 002180700456709940
+> =20
+>=20
+> =20
+> =20
+>=20
+> Saludos,
+> =20
+>=20
+> =20
+> =20
+>=20
+> Jorge L. Gardu=C3=B1o
+> =20
+>=20
+> =20
+> =20
+>=20
+> ______________________________
+> =20
+>=20
+> Robles Miaja Abogados
+> =20
+>=20
+> Bosque de Alisos 47-A 1er Piso A2-11
+> =20
+>=20
+> Bosques de las Lomas 05120, M=C3=A9xico, D.F.
+> =20
+>=20
+> Tel.  (55)1105-1316
+> =20
+>=20
+> =20
+> =20
+>=20
+> www.roblesmiaja.com.mx
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+> =20
+>=20
+> Este mensaje contiene informaci=C3=B3n confidencial.  /This message contai=
+ns confidential information.
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+> =20
+>=20
+> De: raymundo@vpconsultores.com.mx [mailto:raymundo@vpconsultores.com.mx]=20=
+
+> Enviado el: lunes, 14 de mayo de 2018 11:28 a. m.
+> Para: Jorge L.Gardu=C3=B1o
+> Asunto: Re: RE: Nuevo Cliente
+> =20
+>=20
+> =20
+> =20
+>=20
+> Hola Jorge
+>=20
+> Anexo al presente correo dos archivos que son tu declaracion anual del 201=
+7, el primer archivo es como tienen u declaracion el SAT y el segundo es el c=
+alculo anual con los datos que me enviaste.
+>=20
+>=20
+> En un momento te llamo para ver estos punto y que etes de acuerdo como se p=
+resentara tu declaracion anua del 2017.
+>=20
+>=20
+> Saludos
+>=20
+>=20
+> El Lu 14/05/18 10:14, Jorge L. Gardu=C3=B1o jgarduno@roblesmiaja.com.mx es=
+cribi=C3=B3:
+> =20
+>=20
+> Hola Raymundo,
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =C2=BFPudiste ver mi correo anterior? Ya tambi=C3=A9n tengo mi FEA que pud=
+e sacar el s=C3=A1bado.
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Saludos,
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Jorge L. Gardu=C3=B1o
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> ______________________________
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Robles Miaja Abogados
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Bosque de Alisos 47-A 1er Piso A2-11
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Bosques de las Lomas 05120, M=C3=A9xico, D.F.
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Tel.  (55)1105-1316
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> www.roblesmiaja.com.mx
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Este mensaje contiene informaci=C3=B3n confidencial.  /This message contai=
+ns confidential information.
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> De: Jorge L. Gardu=C3=B1o [mailto:jgarduno@roblesmiaja.com.mx]=20
+> Enviado el: mi=C3=A9rcoles, 9 de mayo de 2018 01:37 p. m.
+> Para: 'raymundo@vpconsultores.com.mx'
+> Asunto: RE: Nuevo Cliente
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Estimado Raymundo,
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Adjunto al presente mi constancia y te indico abajo mi RFC y contrase=C3=B1=
+a:
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> GAPJ8609252Y5
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Contrase=C3=B1a: coco1970
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> El s=C3=A1bado tengo cita para sacar mi firma electr=C3=B3nica. =C2=BFMe p=
+odr=C3=ADas por favor ayudar con mi declaraci=C3=B3n?
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Muchas gracias,
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Jorge L. Gardu=C3=B1o
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> ______________________________
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Robles Miaja Abogados
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Bosque de Alisos 47-A 1er Piso A2-11
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Bosques de las Lomas 05120, M=C3=A9xico, D.F.
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Tel.  (55)1105-1316
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> www.roblesmiaja.com.mx
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Este mensaje contiene informaci=C3=B3n confidencial.  /This message contai=
+ns confidential information.
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> De: raymundo@vpconsultores.com.mx [mailto:raymundo@vpconsultores.com.mx]=20=
+
+> Enviado el: viernes, 20 de abril de 2018 10:15 a. m.
+> Para: Jorge L.Gardu=C3=B1o
+> Asunto: Re: Nuevo Cliente
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Hola Jorge
+>=20
+> Para saludarte y comentarte que el SAT abrio citas para el sabado y existe=
+n muchas horas disponibles para que te atiendan.
+>=20
+>=20
+> Es importante que de una vez tramites de e.firma la cual te servira para m=
+uchas cosas y esta vigente tres a=C3=B1os.
+>=20
+> Las personas que presente su declaraci=C3=B3n anual  y  no tengan registra=
+da una cuenta bancaria para que el SAT les deposite su saldo a favor necesit=
+an foezosamente su e.firma (firma electronica) para presentar su declaracion=
+ anaul y que quede precargada su cuenta en donde el SAT la validara.
+>=20
+>=20
+> El dia de hoy acompa=C3=B1amos a un cliente y ya es rapidisimo se tardaron=
+ 20 minutos solo necesitas llevar:
+>=20
+>  IFE, CUR, RFC, Un correo electronico y un USB para que te guaden los arch=
+ivos correspondientes.
+>=20
+>=20
+> Necesitas hacer cita pero como te comento en Bahia de Santa Barbara hay mu=
+chos horarios disponibles para ma=C3=B1ana sabado.
+>=20
+>=20
+> Saludos
+>=20
+>=20
+>=20
+>=20
+>=20
+>=20
+> El Ma 17/04/18 18:53, Jorge L. Gardu=C3=B1o jgarduno@roblesmiaja.com.mx es=
+cribi=C3=B3:
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Hola Raymundo,
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Soy amigo de Antonio Montes de Oca y me recomend=C3=B3 contigo. Me gustar=C3=
+=ADa de ser posible contratar tus servicios para presentar mi declaraci=C3=B3=
+n de impuestos.
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Saludos,
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Jorge L. Gardu=C3=B1o
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> ______________________________
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Robles Miaja Abogados
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Bosque de Alisos 47-A 1er Piso A2-11
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Bosques de las Lomas 05120, M=C3=A9xico, D.F.
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Tel.  (55)1105-1316
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> www.roblesmiaja.com.mx
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> Este mensaje contiene informaci=C3=B3n confidencial.  /This message contai=
+ns confidential information.
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+>=20
+> =20
+
+--Apple-Mail-12F5FA4C-094A-49FA-893C-1C780EF4A8D4
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><div dir=3D"ltr"></div><div dir=3D"ltr">Ent=
+endido, resuelvo lo del RFC y te lo mando actualizado.</div><div dir=3D"ltr"=
+><br></div><div dir=3D"ltr">Muchas gracias, saludos.</div><div dir=3D"ltr"><=
+br>El 26 feb 2019, a la(s) 10:37, Patricia Perez &lt;<a href=3D"mailto:patri=
+cia@vpconsultores.com.mx">patricia@vpconsultores.com.mx</a>&gt; escribi=C3=B3=
+:<br><br></div><blockquote type=3D"cite"><div dir=3D"ltr"><meta http-equiv=3D=
+"Content-Type" content=3D"text/html; charset=3Dutf-8"><meta name=3D"Generato=
+r" content=3D"Microsoft Word 14 (filtered medium)"><!--[if !mso]><style>v\:*=
+ {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Texto de globo Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.TextodegloboCar
+	{mso-style-name:"Texto de globo Car";
+	mso-style-priority:99;
+	mso-style-link:"Texto de globo";
+	font-family:"Tahoma","sans-serif";}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.EstiloCorreo22
+	{mso-style-type:personal;
+	font-family:"Arial","sans-serif";
+	color:#1F497D;}
+span.EstiloCorreo23
+	{mso-style-type:personal;
+	font-family:"Arial","sans-serif";
+	color:#1F497D;}
+span.EstiloCorreo24
+	{mso-style-type:personal;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+span.EstiloCorreo25
+	{mso-style-type:personal;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+span.EstiloCorreo26
+	{mso-style-type:personal;
+	font-family:"Arial","sans-serif";
+	color:#1F497D;}
+span.EstiloCorreo27
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:520701764;
+	mso-list-type:hybrid;
+	mso-list-template-ids:2088518876 134873103 134873113 134873115 1348=
+73103 134873113 134873115 134873103 134873113 134873115;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1
+	{mso-list-id:1092705213;
+	mso-list-type:hybrid;
+	mso-list-template-ids:49348412 134873103 134873113 134873115 134873=
+103 134873113 134873115 134873103 134873113 134873115;}
+@list l1:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--><div class=3D"WordSection1"><p class=3D"Ms=
+oNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&qu=
+ot;sans-serif&quot;;color:#1F497D">Buen d=C3=ADa Jorge:<o:p></o:p></span></p=
+><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span></=
+p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;C=
+alibri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span><=
+/p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;=
+Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">S=C3=AD, claro yo le doy=
+ seguimiento solo dos comentarios:<o:p></o:p></span></p><p class=3D"MsoNorma=
+l"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;san=
+s-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoList=
+Paragraph" style=3D"text-indent:-18.0pt;mso-list:l0 level1 lfo2"><!--[if !su=
+pportLists]--><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot=
+;,&quot;sans-serif&quot;;color:#1F497D"><span style=3D"mso-list:Ignore">1.<s=
+pan style=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style=3D"font-size:11=
+.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">T=
+u estado de cuenta no tiene tu Registro Federal de Contribuyentes, por lo cu=
+al ser=C3=A1 necesario que actualices tu informaci=C3=B3n en el Banco ya que=
+ de lo contrario la autoridad no autorizar=C3=A1 tu devoluci=C3=B3n ya que e=
+s uno de los requisitos para ingresar el tramite.<o:p></o:p></span></p><p cl=
+ass=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&=
+quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span></p><p c=
+lass=3D"MsoListParagraph" style=3D"text-indent:-18.0pt;mso-list:l0 level1 lf=
+o2"><!--[if !supportLists]--><span style=3D"font-size:11.0pt;font-family:&qu=
+ot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D"><span style=3D"mso-li=
+st:Ignore">2.<span style=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style=3D=
+"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;col=
+or:#1F497D">En cuanto a los honorarios esos lo puedes ver directamente con e=
+l por favor.<o:p></o:p></span></p><p class=3D"MsoListParagraph"><span style=3D=
+"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;col=
+or:#1F497D"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoListParagraph"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&qu=
+ot;;color:#1F497D"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoListParagraph"=
+><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-=
+serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal=
+"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;;color:#1F497D">Quedo a la espera.<o:p></o:p></span></p><p class=
+=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quo=
+t;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span></p><p clas=
+s=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&qu=
+ot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span></p><p cla=
+ss=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&q=
+uot;,&quot;sans-serif&quot;;color:#1F497D">Saludos<o:p></o:p></span></p><p c=
+lass=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span></p><p c=
+lass=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri=
+&quot;,&quot;sans-serif&quot;;color:#1F497D">Patricia P=C3=A9rez<o:p></o:p><=
+/span></p><p class=3D"MsoListParagraph"><span style=3D"font-size:11.0pt;font=
+-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp=
+;</o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;fon=
+t-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbs=
+p;</o:p></span></p><p class=3D"MsoListParagraph"><span style=3D"font-size:11=
+.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D"><=
+o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:1=
+1.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D">=
+<o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:=
+11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D"=
+><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size=
+:11.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;color:#1F497D=
+"><o:p>&nbsp;</o:p></span></p><div><div style=3D"border:none;border-top:soli=
+d #B5C4DF 1.0pt;padding:3.0pt 0cm 0cm 0cm"><p class=3D"MsoNormal"><b><span l=
+ang=3D"ES" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sa=
+ns-serif&quot;">De:</span></b><span lang=3D"ES" style=3D"font-size:10.0pt;fo=
+nt-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> Jorge L. Gardu=C3=B1o [=
+<a href=3D"mailto:jgarduno@roblesmiaja.com.mx">mailto:jgarduno@roblesmiaja.c=
+om.mx</a>] <br><b>Enviado el:</b> jueves, 21 de febrero de 2019 08:44 p.m.<b=
+r><b>Para:</b> 'Patricia Perez'<br><b>CC:</b> <a href=3D"mailto:raymundo@vpc=
+onsultores.com.mx">raymundo@vpconsultores.com.mx</a><br><b>Asunto:</b> RE: D=
+eclaraci=C3=B3n anual 2017 <o:p></o:p></span></p></div></div><p class=3D"Mso=
+Normal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"><span style=3D"font-size=
+:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Mu=
+chas gracias Patricia =C2=BFme podr=C3=ADan por favor ayudar a darle seguimi=
+ento?<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:1=
+1.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black"><o:p=
+>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0=
+pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Adjunto=
+ al presente los CFDIs de n=C3=B3mina de 2017, as=C3=AD como =C3=BAltimo est=
+ado de cuenta de Banamex que es mi cuenta principal, correspondiente a febre=
+ro de 2019.<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-=
+size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black=
+"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-siz=
+e:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">L=
+o =C3=BAnico que tengo como constancia de intereses es en GBM que es la =C3=BA=
+nica cuenta en la que tengo intereses ganados los cuales son m=C3=ADnimos.<o=
+:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;f=
+ont-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black"><o:p>&nbsp;=
+</o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font=
+-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Por favor ind=C3=
+=ADcame tambi=C3=A9n el monto de sus honorarios que estar=C3=ADan reteniendo=
+ de la devoluci=C3=B3n y si necesitan algo m=C3=A1s de mi parte.<o:p></o:p><=
+/span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family=
+:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black"><o:p>&nbsp;</o:p></sp=
+an></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&q=
+uot;Arial&quot;,&quot;sans-serif&quot;;color:black">Muchas gracias,<o:p></o:=
+p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-fam=
+ily:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p=
+></span></p><div><p class=3D"MsoNormal" style=3D"background:white"><span sty=
+le=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;=
+color:black">Jorge L. Gardu=C3=B1o <o:p></o:p></span></p><p class=3D"MsoNorm=
+al" style=3D"background:white"><span style=3D"font-size:11.0pt;font-family:&=
+quot;Arial&quot;,&quot;sans-serif&quot;;color:black">&nbsp;<o:p></o:p></span=
+></p><p class=3D"MsoNormal" style=3D"background:white"><b><span style=3D"fon=
+t-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:bla=
+ck">______________________________</span></b><span style=3D"font-size:11.0pt=
+;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black"><o:p></o:=
+p></span></p><p class=3D"MsoNormal" style=3D"background:white"><b><span lang=
+=3D"ES" style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-s=
+erif&quot;;color:black">Robles Miaja Abogados</span></b><span style=3D"font-=
+size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black=
+"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"background:white"><s=
+pan style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif=
+&quot;;color:black">Bosque de Alisos 47-A 1er Piso A2-11<o:p></o:p></span></=
+p><p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size=
+:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Bo=
+sques de las Lomas 05120, M=C3=A9xico, D.F.<o:p></o:p></span></p><p class=3D=
+"MsoNormal" style=3D"background:white"><span style=3D"font-size:11.0pt;font-=
+family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Tel.&nbsp; (55)=
+1105-1316<o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"background:wh=
+ite"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;san=
+s-serif&quot;;color:black">&nbsp;<o:p></o:p></span></p><p class=3D"MsoNormal=
+" style=3D"background:white"><a href=3D"http://www.roblesmiaja.com.mx/" targ=
+et=3D"_blank"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,=
+&quot;sans-serif&quot;;color:black">www.roblesmiaja.com.mx</span></a><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot=
+;;color:black"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"backgro=
+und:white"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&qu=
+ot;sans-serif&quot;;color:black">&nbsp;</span><span style=3D"font-size:11.0p=
+t;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#222222"><o:p><=
+/o:p></span></p><p class=3D"MsoNormal" style=3D"background:white"><span lang=
+=3D"ES" style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-s=
+erif&quot;;color:black">&nbsp;</span><span style=3D"font-size:11.0pt;font-fa=
+mily:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#222222"><o:p></o:p></sp=
+an></p><p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font=
+-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:blac=
+k">Este mensaje&nbsp;contiene informaci=C3=B3n confidencial.&nbsp;&nbsp;</sp=
+an><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:&quot;Arial&qu=
+ot;,&quot;sans-serif&quot;;color:black">/This message&nbsp;contains confiden=
+tial information.</span><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-=
+family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#222222"><o:p></o:p></=
+span></p><p class=3D"MsoNormal" style=3D"background:white"><span lang=3D"EN-=
+US" style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif=
+&quot;;color:#222222">&nbsp;<o:p></o:p></span></p></div><p class=3D"MsoNorma=
+l"><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:&quot;Arial&qu=
+ot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span></p><div><=
+div style=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm 0c=
+m 0cm"><p class=3D"MsoNormal"><b><span lang=3D"ES" style=3D"font-size:10.0pt=
+;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">De:</span></b><span l=
+ang=3D"ES" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sa=
+ns-serif&quot;"> Patricia Perez [<a href=3D"mailto:patricia@vpconsultores.co=
+m.mx">mailto:patricia@vpconsultores.com.mx</a>] <br><b>Enviado el:</b> jueve=
+s, 21 de febrero de 2019 12:19 p. m.<br><b>Para:</b> <a href=3D"mailto:jgard=
+uno@roblesmiaja.com.mx">jgarduno@roblesmiaja.com.mx</a><br><b>Asunto:</b> De=
+claraci=C3=B3n anual 2017 <o:p></o:p></span></p></div></div><p class=3D"MsoN=
+ormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal">Hola Jose Luis:<o:p></o:p=
+></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"><o:p=
+>&nbsp;</o:p></p><p class=3D"MsoNormal">Soy Patricia P=C3=A9rez de parte del=
+ contador Raymundo V=C3=A1zquez para darle seguimiento a tu solicitud.<o:p><=
+/o:p></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal">=
+<o:p>&nbsp;</o:p></p><p class=3D"MsoNormal">Te anexo el acuse de tu declarac=
+i=C3=B3n presenta y te comento que el saldo a favor fue rechazado por las in=
+consistencias que menciona la autoridad por lo cual te sugiero lo siguiente e=
+n caso de que desees solicitar la devoluci=C3=B3n en forma manual<o:p></o:p>=
+</p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"><o:p>=
+&nbsp;</o:p></p><p class=3D"MsoListParagraph" style=3D"text-indent:-18.0pt;m=
+so-list:l1 level1 lfo4"><!--[if !supportLists]--><span style=3D"mso-list:Ign=
+ore">1.<span style=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp; </span></span><!--[endif]-->Recabar los CFDI de n=C3=B3mina=
+ del ejercicio 2017.<o:p></o:p></p><p class=3D"MsoListParagraph" style=3D"te=
+xt-indent:-18.0pt;mso-list:l1 level1 lfo4"><!--[if !supportLists]--><span st=
+yle=3D"mso-list:Ignore">2.<span style=3D"font:7.0pt &quot;Times New Roman&qu=
+ot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]-->Solicitar al=
+ Banco tu contanstancia de intereses ganados en 2017.<o:p></o:p></p><p class=
+=3D"MsoListParagraph" style=3D"text-indent:-18.0pt;mso-list:l1 level1 lfo4">=
+<!--[if !supportLists]--><span style=3D"mso-list:Ignore">3.<span style=3D"fo=
+nt:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>=
+</span><!--[endif]-->Ultimo estado de cuenta bancario donde aparezca tu Clab=
+e interbancaria con una antig=C3=BCedad no mayor a dos meses anteriores a la=
+ fecha de la solicitud de devoluci=C3=B3n.<o:p></o:p></p><p class=3D"MsoNorm=
+al"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p clas=
+s=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal">Saludos<o:p></o:=
+p></p><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"><o:=
+p>&nbsp;</o:p></p><p class=3D"MsoNormal">Patricia P=C3=A9rez<o:p></o:p></p><=
+p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal">&lt;image0=
+01.jpg&gt;<span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;;color:#1F497D"><o:p></o:p></span></p><p class=3D"MsoNor=
+mal"><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;s=
+ans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span></p><div><div style=3D=
+"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm 0cm 0cm"><p cl=
+ass=3D"MsoNormal"><b><span lang=3D"ES" style=3D"font-size:10.0pt;font-family=
+:&quot;Tahoma&quot;,&quot;sans-serif&quot;">De:</span></b><span lang=3D"ES" s=
+tyle=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quo=
+t;"> <a href=3D"mailto:raymundo@vpconsultores.com.mx">raymundo@vpconsultores=
+.com.mx</a> [<a href=3D"mailto:raymundo@vpconsultores.com.mx">mailto:raymund=
+o@vpconsultores.com.mx</a>] <br><b>Enviado el:</b> mi=C3=A9rcoles, 20 de feb=
+rero de 2019 01:18 p.m.<br><b>Para:</b> Patricia Perez<br><b>Asunto:</b> RV:=
+ RE: RE: Nuevo Cliente<o:p></o:p></span></p></div></div><p class=3D"MsoNorma=
+l"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0=
+pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;</o:p>=
+</span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-famil=
+y:&quot;Calibri&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;</o:p></span></p><d=
+iv><div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0c=
+m 0cm 0cm"><p class=3D"MsoNormal"><b><span lang=3D"ES" style=3D"font-size:11=
+.0pt;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">De:</span></b><=
+span lang=3D"ES" style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&=
+quot;sans-serif&quot;"> Jorge L. Gardu=C3=B1o &lt;<a href=3D"mailto:jgarduno=
+@roblesmiaja.com.mx">jgarduno@roblesmiaja.com.mx</a>&gt; <br><b>Enviado el:<=
+/b> mi=C3=A9rcoles, 06 de febrero de 2019 05:58 p.m.<br><b>Para:</b> <a href=
+=3D"mailto:raymundo@vpconsultores.com.mx">raymundo@vpconsultores.com.mx</a><=
+br><b>Asunto:</b> RE: RE: RE: Nuevo Cliente<o:p></o:p></span></p></div></div=
+><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"><span st=
+yle=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;=
+;color:black">Estimado Raymundo,<o:p></o:p></span></p><p class=3D"MsoNormal"=
+><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;;color:black"><o:p>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><s=
+pan style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif=
+&quot;;color:black">Gusto en saludarte =C2=BFMe podr=C3=ADas enviar por favo=
+r el acuse de mi declaraci=C3=B3n de impuestos o indicarme como verificarlo?=
+ No lo recib=C3=AD en su momento y viendo mi buz=C3=B3n tributario no tengo n=
+ada.<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:11=
+.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black"><o:p>=
+&nbsp;</o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0p=
+t;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Muchas g=
+racias, saludos.<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"=
+font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:=
+#1F497D"><o:p>&nbsp;</o:p></span></p><div><p class=3D"MsoNormal" style=3D"ba=
+ckground:white"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot=
+;,&quot;sans-serif&quot;;color:black">Jorge L. Gardu=C3=B1o <o:p></o:p></spa=
+n></p><p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-=
+size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black=
+">&nbsp;<o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"background:whi=
+te"><b><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;s=
+ans-serif&quot;;color:black">______________________________</span></b><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot=
+;;color:black"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"backgro=
+und:white"><b><span lang=3D"ES" style=3D"font-size:11.0pt;font-family:&quot;=
+Arial&quot;,&quot;sans-serif&quot;;color:black">Robles Miaja Abogados</span>=
+</b><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans=
+-serif&quot;;color:black"><o:p></o:p></span></p><p class=3D"MsoNormal" style=
+=3D"background:white"><span style=3D"font-size:11.0pt;font-family:&quot;Aria=
+l&quot;,&quot;sans-serif&quot;;color:black">Bosque de Alisos 47-A 1er Piso A=
+2-11<o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"background:white">=
+<span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-ser=
+if&quot;;color:black">Bosques de las Lomas 05120, M=C3=A9xico, D.F.<o:p></o:=
+p></span></p><p class=3D"MsoNormal" style=3D"background:white"><span style=3D=
+"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color=
+:black">Tel.&nbsp; (55)1105-1316<o:p></o:p></span></p><p class=3D"MsoNormal"=
+ style=3D"background:white"><span style=3D"font-size:11.0pt;font-family:&quo=
+t;Arial&quot;,&quot;sans-serif&quot;;color:black">&nbsp;<o:p></o:p></span></=
+p><p class=3D"MsoNormal" style=3D"background:white"><a href=3D"http://www.ro=
+blesmiaja.com.mx/" target=3D"_blank"><span style=3D"font-size:11.0pt;font-fa=
+mily:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">www.roblesmiaja.c=
+om.mx</span></a><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot=
+;,&quot;sans-serif&quot;;color:black"><o:p></o:p></span></p><p class=3D"MsoN=
+ormal" style=3D"background:white"><span style=3D"font-size:11.0pt;font-famil=
+y:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">&nbsp;</span><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot=
+;;color:#222222"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"backg=
+round:white"><span lang=3D"ES" style=3D"font-size:11.0pt;font-family:&quot;A=
+rial&quot;,&quot;sans-serif&quot;;color:black">&nbsp;</span><span style=3D"f=
+ont-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#=
+222222"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"background:whi=
+te"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans=
+-serif&quot;;color:black">Este mensaje&nbsp;contiene informaci=C3=B3n confid=
+encial.&nbsp;&nbsp;</span><span lang=3D"EN-US" style=3D"font-size:11.0pt;fon=
+t-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">/This message=
+&nbsp;contains confidential information.</span><span lang=3D"EN-US" style=3D=
+"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color=
+:#222222"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"background:w=
+hite"><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:&quot;Arial=
+&quot;,&quot;sans-serif&quot;;color:#222222">&nbsp;<o:p></o:p></span></p></d=
+iv><p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:11.0pt;fon=
+t-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;=
+</o:p></span></p><div><div style=3D"border:none;border-top:solid #B5C4DF 1.0=
+pt;padding:3.0pt 0cm 0cm 0cm"><p class=3D"MsoNormal"><b><span lang=3D"ES" st=
+yle=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot=
+;">De:</span></b><span lang=3D"ES" style=3D"font-size:10.0pt;font-family:&qu=
+ot;Tahoma&quot;,&quot;sans-serif&quot;"> Jorge L. Gardu=C3=B1o [</span><a hr=
+ef=3D"mailto:jgarduno@roblesmiaja.com.mx"><span lang=3D"ES" style=3D"font-si=
+ze:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">mailto:jgar=
+duno@roblesmiaja.com.mx</span></a><span lang=3D"ES" style=3D"font-size:10.0p=
+t;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">] <br><b>Enviado el=
+:</b> lunes, 14 de mayo de 2018 02:23 p. m.<br><b>Para:</b> '<a href=3D"mail=
+to:raymundo@vpconsultores.com.mx">raymundo@vpconsultores.com.mx</a>'<br><b>A=
+sunto:</b> RE: RE: RE: Nuevo Cliente<o:p></o:p></span></p></div></div><p cla=
+ss=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNormal"><span style=3D"=
+font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:=
+black">Con gusto Raymundo, te adjunto los documentos de la FEA.<o:p></o:p></=
+span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:=
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black"><o:p>&nbsp;</o:p></spa=
+n></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&qu=
+ot;Arial&quot;,&quot;sans-serif&quot;;color:black">La contrase=C3=B1a es Coc=
+o1970<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:1=
+1.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black"><o:p=
+>&nbsp;</o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0=
+pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Saludos=
+,<o:p></o:p></span></p><p class=3D"MsoNormal"><span style=3D"font-size:11.0p=
+t;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&=
+nbsp;</o:p></span></p><p class=3D"MsoNormal" style=3D"background:white"><spa=
+n style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&q=
+uot;;color:black">Jorge L. Gardu=C3=B1o <o:p></o:p></span></p><p class=3D"Ms=
+oNormal" style=3D"background:white"><span style=3D"font-size:11.0pt;font-fam=
+ily:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">&nbsp;<o:p></o:p><=
+/span></p><p class=3D"MsoNormal" style=3D"background:white"><b><span style=3D=
+"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color=
+:black">______________________________</span></b><span style=3D"font-size:11=
+.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black"><o:p>=
+</o:p></span></p><p class=3D"MsoNormal" style=3D"background:white"><b><span l=
+ang=3D"ES" style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;san=
+s-serif&quot;;color:black">Robles Miaja Abogados</span></b><span style=3D"fo=
+nt-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:bl=
+ack"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"background:white"=
+><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;;color:black">Bosque de Alisos 47-A 1er Piso A2-11<o:p></o:p></span=
+></p><p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-s=
+ize:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black"=
+>Bosques de las Lomas 05120, M=C3=A9xico, D.F.<o:p></o:p></span></p><p class=
+=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:11.0pt;fo=
+nt-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Tel.&nbsp; (=
+55)1105-1316<o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"background=
+:white"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;=
+sans-serif&quot;;color:black">&nbsp;<o:p></o:p></span></p><p class=3D"MsoNor=
+mal" style=3D"background:white"><a href=3D"http://www.roblesmiaja.com.mx/" t=
+arget=3D"_blank"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quo=
+t;,&quot;sans-serif&quot;;color:black">www.roblesmiaja.com.mx</span></a><spa=
+n style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&q=
+uot;;color:black"><o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"back=
+ground:white"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,=
+&quot;sans-serif&quot;;color:black">&nbsp;</span><span style=3D"font-size:11=
+.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#222222"><o:=
+p></o:p></span></p><p class=3D"MsoNormal" style=3D"background:white"><span l=
+ang=3D"ES" style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;san=
+s-serif&quot;;color:black">&nbsp;</span><span style=3D"font-size:11.0pt;font=
+-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#222222"><o:p></o:p><=
+/span></p><p class=3D"MsoNormal" style=3D"background:white"><span style=3D"f=
+ont-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:b=
+lack">Este mensaje&nbsp;contiene informaci=C3=B3n confidencial.&nbsp;&nbsp;<=
+/span><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:&quot;Arial=
+&quot;,&quot;sans-serif&quot;;color:black">/This message&nbsp;contains confi=
+dential information.</span><span lang=3D"EN-US" style=3D"font-size:11.0pt;fo=
+nt-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#222222"><o:p></o:p=
+></span></p><p class=3D"MsoNormal" style=3D"background:white"><span lang=3D"=
+EN-US" style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;;color:#222222">&nbsp;<o:p></o:p></span></p><p class=3D"MsoNormal">=
+<span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;=
+,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span></p><div styl=
+e=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm 0cm 0cm"><=
+p class=3D"MsoNormal"><b><span lang=3D"ES" style=3D"font-size:10.0pt;font-fa=
+mily:&quot;Tahoma&quot;,&quot;sans-serif&quot;">De:</span></b><span lang=3D"=
+ES" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-seri=
+f&quot;"> </span><a href=3D"mailto:raymundo@vpconsultores.com.mx"><span lang=
+=3D"ES" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-=
+serif&quot;">raymundo@vpconsultores.com.mx</span></a><span lang=3D"ES" style=
+=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">=
+ [</span><a href=3D"mailto:raymundo@vpconsultores.com.mx"><span lang=3D"ES" s=
+tyle=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quo=
+t;">mailto:raymundo@vpconsultores.com.mx</span></a><span lang=3D"ES" style=3D=
+"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">] <=
+br><b>Enviado el:</b> lunes, 14 de mayo de 2018 02:12 p. m.<br><b>Para:</b> J=
+orge L.Gardu=C3=B1o<br><b>Asunto:</b> Re: RE: RE: Nuevo Cliente<o:p></o:p></=
+span></p></div><p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p><p class=3D"MsoNo=
+rmal"><br>Hola Jorge<br><br><br>Por favor mandame los archivos de tu firma e=
+lectronica que te dieron el sabado as=C3=AD como la contrase=C3=B1a correspo=
+ndiente para poder presentar tu declaracion anual.<br><br><br><br>Gracias.<b=
+r><br><br><br><br>El Lu 14/05/18 12:57, Jorge L. Gardu=C3=B1o <a href=3D"mai=
+lto:jgarduno@roblesmiaja.com.mx">jgarduno@roblesmiaja.com.mx</a> escribi=C3=B3=
+:<o:p></o:p></p><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto=
+;mso-margin-bottom-alt:auto"><span style=3D"font-size:11.0pt;font-family:&qu=
+ot;Arial&quot;,&quot;sans-serif&quot;;color:black">Muchas gracias Raymundo, t=
+e mando los datos de mi cuenta.</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p=
+><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto">&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal"=
+ style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D=
+"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color=
+:black">Banamex</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"Mso=
+Normal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&nbsp;<=
+o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-ma=
+rgin-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font-size:11.0p=
+t;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">CLABE: 0=
+02180700456709940</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"M=
+soNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&nbsp=
+;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-=
+margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font-size:11.=
+0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Saludo=
+s,</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=
+=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&nbsp;<o:p></o:p></p=
+><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:=
+auto;mso-margin-bottom-alt:auto;background:white"><span style=3D"font-size:1=
+1.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Jorg=
+e L. Gardu=C3=B1o </span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"=
+MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;backg=
+round:white"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&=
+quot;sans-serif&quot;;color:black">&nbsp;</span><o:p></o:p></p><p>&nbsp;<o:p=
+></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margi=
+n-bottom-alt:auto;background:white"><strong><span style=3D"font-size:11.0pt;=
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">__________=
+____________________</span></strong><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><=
+p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto;background:white"><strong><span lang=3D"ES" style=3D"font-size:11.0pt;=
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Robles Mia=
+ja Abogados</span></strong><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D=
+"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;back=
+ground:white"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,=
+&quot;sans-serif&quot;;color:black">Bosque de Alisos 47-A 1er Piso A2-11</sp=
+an><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"ms=
+o-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><span sty=
+le=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;=
+color:black">Bosques de las Lomas 05120, M=C3=A9xico, D.F.</span><o:p></o:p>=
+</p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-a=
+lt:auto;mso-margin-bottom-alt:auto;background:white"><span style=3D"font-siz=
+e:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">T=
+el.&nbsp; (55)1105-1316</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p clas=
+s=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;=
+background:white"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&qu=
+ot;,&quot;sans-serif&quot;;color:black">&nbsp;</span><o:p></o:p></p><p>&nbsp=
+;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-=
+margin-bottom-alt:auto;background:white"><a href=3D"http://www.roblesmiaja.c=
+om.mx/" target=3D"_blank"><span style=3D"font-size:11.0pt;font-family:&quot;=
+Arial&quot;,&quot;sans-serif&quot;;color:black">www.roblesmiaja.com.mx</span=
+></a><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"=
+mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot=
+;;color:black">&nbsp;</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D=
+"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;back=
+ground:white"><span lang=3D"ES" style=3D"font-size:11.0pt;font-family:&quot;=
+Arial&quot;,&quot;sans-serif&quot;;color:black">&nbsp;</span><o:p></o:p></p>=
+<p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:a=
+uto;mso-margin-bottom-alt:auto;background:white"><span style=3D"font-size:11=
+.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Este m=
+ensaje&nbsp;contiene informaci=C3=B3n confidencial.&nbsp;&nbsp;</span><span l=
+ang=3D"EN-US" style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;=
+sans-serif&quot;;color:black">/This message&nbsp;contains confidential infor=
+mation.</span><span lang=3D"EN-US"><o:p></o:p></span></p><p><span lang=3D"EN=
+-US">&nbsp;<o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"mso-margin-=
+top-alt:auto;mso-margin-bottom-alt:auto;background:white"><span lang=3D"EN-U=
+S" style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&=
+quot;;color:#222222">&nbsp;</span><span lang=3D"EN-US"><o:p></o:p></span></p=
+><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p class=3D"MsoNormal" s=
+tyle=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span lang=3D"EN=
+-US">&nbsp;<o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></=
+span></p><div style=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.=
+0pt 0cm 0cm 0cm"><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso=
+-margin-bottom-alt:auto"><strong><span lang=3D"ES" style=3D"font-size:10.0pt=
+;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">De:</span></strong><=
+span lang=3D"ES" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&q=
+uot;sans-serif&quot;"> </span><a href=3D"mailto:raymundo@vpconsultores.com.m=
+x"><span lang=3D"ES" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot=
+;,&quot;sans-serif&quot;">raymundo@vpconsultores.com.mx</span></a><span lang=
+=3D"ES" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-=
+serif&quot;"> [</span><a href=3D"mailto:raymundo@vpconsultores.com.mx"><span=
+ lang=3D"ES" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">mailto:raymundo@vpconsultores.com.mx</span></a><span lang=3D=
+"ES" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-ser=
+if&quot;">] <br><strong><span style=3D"font-family:&quot;Tahoma&quot;,&quot;=
+sans-serif&quot;">Enviado el:</span></strong> lunes, 14 de mayo de 2018 11:2=
+8 a. m.<br><strong><span style=3D"font-family:&quot;Tahoma&quot;,&quot;sans-=
+serif&quot;">Para:</span></strong> Jorge L.Gardu=C3=B1o<br><strong><span sty=
+le=3D"font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">Asunto:</span><=
+/strong> Re: RE: Nuevo Cliente</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p>=
+</div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bot=
+tom-alt:auto">&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNo=
+rmal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">Hola Jorg=
+e<br><br>Anexo al presente correo dos archivos que son tu declaracion anual d=
+el 2017, el primer archivo es como tienen u declaracion el SAT y el segundo e=
+s el calculo anual con los datos que me enviaste.<br><br><br>En un momento t=
+e llamo para ver estos punto y que etes de acuerdo como se presentara tu dec=
+laracion anua del 2017.<br><br><br>Saludos<br><br><br>El Lu 14/05/18 10:14, J=
+orge L. Gardu=C3=B1o <a href=3D"mailto:jgarduno@roblesmiaja.com.mx">jgarduno=
+@roblesmiaja.com.mx</a> escribi=C3=B3:<o:p></o:p></p><p>&nbsp;<o:p></o:p></p=
+><div><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bot=
+tom-alt:auto"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,=
+&quot;sans-serif&quot;;color:black">Hola Raymundo,</span><o:p></o:p></p><p>&=
+nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=
+=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">=
+&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbs=
+p;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso=
+-margin-bottom-alt:auto"><span style=3D"font-size:11.0pt;font-family:&quot;A=
+rial&quot;,&quot;sans-serif&quot;;color:black">=C2=BFPudiste ver mi correo a=
+nterior? Ya tambi=C3=A9n tengo mi FEA que pude sacar el s=C3=A1bado.</span><=
+o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p>=
+</o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin=
+-bottom-alt:auto">&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p=
+></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margi=
+n-top-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font-size:11.0pt;f=
+ont-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Saludos,</s=
+pan><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;=
+<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-m=
+argin-bottom-alt:auto">&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp=
+;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><div><p class=3D"MsoNormal" style=3D=
+"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot=
+;;color:black">Jorge L. Gardu=C3=B1o </span><o:p></o:p></p><p>&nbsp;<o:p></o=
+:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal=
+" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:whi=
+te"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans=
+-serif&quot;;color:black">&nbsp;</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></=
+p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" sty=
+le=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><=
+strong><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;s=
+ans-serif&quot;;color:black">______________________________</span></strong><=
+o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p>=
+</o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin=
+-bottom-alt:auto;background:white"><strong><span lang=3D"ES" style=3D"font-s=
+ize:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black"=
+>Robles Miaja Abogados</span></strong><o:p></o:p></p><p>&nbsp;<o:p></o:p></p=
+><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" styl=
+e=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><s=
+pan style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif=
+&quot;;color:black">Bosque de Alisos 47-A 1er Piso A2-11</span><o:p></o:p></=
+p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p=
+ class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:=
+auto;background:white"><span style=3D"font-size:11.0pt;font-family:&quot;Ari=
+al&quot;,&quot;sans-serif&quot;;color:black">Bosques de las Lomas 05120, M=C3=
+=A9xico, D.F.</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o=
+:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-to=
+p-alt:auto;mso-margin-bottom-alt:auto;background:white"><span style=3D"font-=
+size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black=
+">Tel.&nbsp; (55)1105-1316</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&=
+nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"=
+mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><span s=
+tyle=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot=
+;;color:black">&nbsp;</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;=
+<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-m=
+argin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><a href=3D"h=
+ttp://www.roblesmiaja.com.mx/" target=3D"_blank"><span style=3D"font-size:11=
+.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">www.r=
+oblesmiaja.com.mx</span></a><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;=
+<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-m=
+argin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><span style=3D=
+"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color=
+:black">&nbsp;</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></=
+o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-t=
+op-alt:auto;mso-margin-bottom-alt:auto;background:white"><span lang=3D"ES" s=
+tyle=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot=
+;;color:black">&nbsp;</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;=
+<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-m=
+argin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><span style=3D=
+"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color=
+:black">Este mensaje&nbsp;contiene informaci=C3=B3n confidencial.&nbsp;&nbsp=
+;</span><span lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:&quot;Ari=
+al&quot;,&quot;sans-serif&quot;;color:black">/This message&nbsp;contains con=
+fidential information.</span><span lang=3D"EN-US"><o:p></o:p></span></p><p><=
+span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span lang=3D"EN-US">&nbs=
+p;<o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p>=
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-al=
+t:auto;background:white"><span lang=3D"EN-US" style=3D"font-size:11.0pt;font=
+-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:#222222">&nbsp;</span=
+><span lang=3D"EN-US"><o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o=
+:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><=
+span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p></div><p class=3D"MsoNormal"=
+ style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span lang=3D"=
+EN-US">&nbsp;<o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p>=
+</span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span lang=
+=3D"EN-US">&nbsp;<o:p></o:p></span></p><div><div style=3D"border:none;border=
+-top:solid #B5C4DF 1.0pt;padding:3.0pt 0cm 0cm 0cm"><p class=3D"MsoNormal" s=
+tyle=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><strong><span la=
+ng=3D"ES" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;san=
+s-serif&quot;">De:</span></strong><span lang=3D"ES" style=3D"font-size:10.0p=
+t;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> Jorge L. Gardu=C3=B1=
+o [</span><a href=3D"mailto:jgarduno@roblesmiaja.com.mx"><span lang=3D"ES" s=
+tyle=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quo=
+t;">mailto:jgarduno@roblesmiaja.com.mx</span></a><span lang=3D"ES" style=3D"=
+font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">] <b=
+r><strong><span style=3D"font-family:&quot;Tahoma&quot;,&quot;sans-serif&quo=
+t;">Enviado el:</span></strong> mi=C3=A9rcoles, 9 de mayo de 2018 01:37 p. m=
+.<br><strong><span style=3D"font-family:&quot;Tahoma&quot;,&quot;sans-serif&=
+quot;">Para:</span></strong> '<a href=3D"mailto:raymundo@vpconsultores.com.m=
+x">raymundo@vpconsultores.com.mx</a>'<br><strong><span style=3D"font-family:=
+&quot;Tahoma&quot;,&quot;sans-serif&quot;">Asunto:</span></strong> RE: Nuevo=
+ Cliente</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></=
+p><p>&nbsp;<o:p></o:p></p></div></div><p class=3D"MsoNormal" style=3D"mso-ma=
+rgin-top-alt:auto;mso-margin-bottom-alt:auto">&nbsp;<o:p></o:p></p><p>&nbsp;=
+<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"M=
+soNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span=
+ style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;color:black">Estimado Raymundo,</span><o:p></o:p></p><p>&nbsp;<o:p></o:p=
+></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" s=
+tyle=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&nbsp;<o:p></o:p=
+></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p=
+><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot=
+;sans-serif&quot;;color:black">Adjunto al presente mi constancia y te indico=
+ abajo mi RFC y contrase=C3=B1a:</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></=
+p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" sty=
+le=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&nbsp;<o:p></o:p><=
+/p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><=
+p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt=
+:auto"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;s=
+ans-serif&quot;;color:black">GAPJ8609252Y5 </span><o:p></o:p></p><p>&nbsp;<o=
+:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"Mso=
+Normal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&nbsp;<=
+o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p>=
+</o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin=
+-bottom-alt:auto"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&qu=
+ot;,&quot;sans-serif&quot;;color:black">Contrase=C3=B1a: coco1970</span><o:p=
+></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o=
+:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bo=
+ttom-alt:auto">&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></=
+o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-t=
+op-alt:auto;mso-margin-bottom-alt:auto"><span style=3D"font-size:11.0pt;font=
+-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">El s=C3=A1bado=
+ tengo cita para sacar mi firma electr=C3=B3nica. =C2=BFMe podr=C3=ADas por f=
+avor ayudar con mi declaraci=C3=B3n?</span><o:p></o:p></p><p>&nbsp;<o:p></o:=
+p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal"=
+ style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&nbsp;<o:p></o=
+:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p><=
+/p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom=
+-alt:auto"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&qu=
+ot;sans-serif&quot;;color:black">Muchas gracias,</span><o:p></o:p></p><p>&nb=
+sp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D=
+"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&nb=
+sp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<=
+o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-ma=
+rgin-bottom-alt:auto;background:white"><span style=3D"font-size:11.0pt;font-=
+family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Jorge L. Gardu=C3=
+=B1o </span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><=
+p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:au=
+to;mso-margin-bottom-alt:auto;background:white"><span style=3D"font-size:11.=
+0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">&nbsp;=
+</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nb=
+sp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;ms=
+o-margin-bottom-alt:auto;background:white"><strong><span style=3D"font-size:=
+11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">___=
+___________________________</span></strong><o:p></o:p></p><p>&nbsp;<o:p></o:=
+p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal"=
+ style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:whit=
+e"><strong><span lang=3D"ES" style=3D"font-size:11.0pt;font-family:&quot;Ari=
+al&quot;,&quot;sans-serif&quot;;color:black">Robles Miaja Abogados</span></s=
+trong><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbs=
+p;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso=
+-margin-bottom-alt:auto;background:white"><span style=3D"font-size:11.0pt;fo=
+nt-family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Bosque de Al=
+isos 47-A 1er Piso A2-11</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nb=
+sp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"ms=
+o-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><span sty=
+le=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;=
+color:black">Bosques de las Lomas 05120, M=C3=A9xico, D.F.</span><o:p></o:p>=
+</p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p>=
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-al=
+t:auto;background:white"><span style=3D"font-size:11.0pt;font-family:&quot;A=
+rial&quot;,&quot;sans-serif&quot;;color:black">Tel.&nbsp; (55)1105-1316</spa=
+n><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o=
+:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-mar=
+gin-bottom-alt:auto;background:white"><span style=3D"font-size:11.0pt;font-f=
+amily:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">&nbsp;</span><o:=
+p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></=
+o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-b=
+ottom-alt:auto;background:white"><a href=3D"http://www.roblesmiaja.com.mx/" t=
+arget=3D"_blank"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quo=
+t;,&quot;sans-serif&quot;;color:black">www.roblesmiaja.com.mx</span></a><o:p=
+></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o=
+:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bo=
+ttom-alt:auto;background:white"><span style=3D"font-size:11.0pt;font-family:=
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">&nbsp;</span><o:p></o:=
+p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></=
+p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-=
+alt:auto;background:white"><span lang=3D"ES" style=3D"font-size:11.0pt;font-=
+family:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">&nbsp;</span><o=
+:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p><=
+/o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-=
+bottom-alt:auto;background:white"><span style=3D"font-size:11.0pt;font-famil=
+y:&quot;Arial&quot;,&quot;sans-serif&quot;;color:black">Este mensaje&nbsp;co=
+ntiene informaci=C3=B3n confidencial.&nbsp;&nbsp;</span><span lang=3D"EN-US"=
+ style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;color:black">/This message&nbsp;contains confidential information.</span=
+><span lang=3D"EN-US"><o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o=
+:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><=
+span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p class=3D"MsoNormal" style=
+=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><sp=
+an lang=3D"EN-US" style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&q=
+uot;sans-serif&quot;;color:#222222">&nbsp;</span><span lang=3D"EN-US"><o:p><=
+/o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span=
+ lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o=
+:p></o:p></span></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;=
+mso-margin-bottom-alt:auto"><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p=
+><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span lang=3D"EN-US"=
+>&nbsp;<o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span=
+></p><div style=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0=
+cm 0cm 0cm"><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-marg=
+in-bottom-alt:auto"><strong><span lang=3D"ES" style=3D"font-size:10.0pt;font=
+-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">De:</span></strong><span l=
+ang=3D"ES" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sa=
+ns-serif&quot;"> </span><a href=3D"mailto:raymundo@vpconsultores.com.mx"><sp=
+an lang=3D"ES" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quo=
+t;sans-serif&quot;">raymundo@vpconsultores.com.mx</span></a><span lang=3D"ES=
+" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&=
+quot;"> [</span><a href=3D"mailto:raymundo@vpconsultores.com.mx"><span lang=3D=
+"ES" style=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-ser=
+if&quot;">mailto:raymundo@vpconsultores.com.mx</span></a><span lang=3D"ES" s=
+tyle=3D"font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quo=
+t;">] <br><strong><span style=3D"font-family:&quot;Tahoma&quot;,&quot;sans-s=
+erif&quot;">Enviado el:</span></strong> viernes, 20 de abril de 2018 10:15 a=
+. m.<br><strong><span style=3D"font-family:&quot;Tahoma&quot;,&quot;sans-ser=
+if&quot;">Para:</span></strong> Jorge L.Gardu=C3=B1o<br><strong><span style=3D=
+"font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">Asunto:</span></stro=
+ng> Re: Nuevo Cliente</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;=
+<o:p></o:p></p><p>&nbsp;<o:p></o:p></p></div><p class=3D"MsoNormal" style=3D=
+"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&nbsp;<o:p></o:p></p><p=
+>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p cla=
+ss=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto=
+">Hola Jorge<br><br>Para saludarte y comentarte que el SAT abrio citas para e=
+l sabado y existen muchas horas disponibles para que te atiendan.<br><br><br=
+>Es importante que de una vez tramites de e.firma la cual te servira para mu=
+chas cosas y esta vigente tres a=C3=B1os.<br><br>Las personas que presente s=
+u declaraci=C3=B3n anual&nbsp; y&nbsp; no tengan registrada una cuenta banca=
+ria para que el SAT les deposite su saldo a favor necesitan foezosamente su e=
+.firma (firma electronica) para presentar su declaracion anaul y que quede p=
+recargada su cuenta en donde el SAT la validara.<br><br><br>El dia de hoy ac=
+ompa=C3=B1amos a un cliente y ya es rapidisimo se tardaron 20 minutos solo n=
+ecesitas llevar:<br><br>&nbsp;IFE, CUR, RFC, Un correo electronico y un USB p=
+ara que te guaden los archivos correspondientes.<br><br><br>Necesitas hacer c=
+ita pero como te comento en Bahia de Santa Barbara hay muchos horarios dispo=
+nibles para ma=C3=B1ana sabado.<br><br><br>Saludos<br><br><br><br><br><br><b=
+r>El Ma 17/04/18 18:53, Jorge L. Gardu=C3=B1o <a href=3D"mailto:jgarduno@rob=
+lesmiaja.com.mx">jgarduno@roblesmiaja.com.mx</a> escribi=C3=B3:<o:p></o:p></=
+p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><d=
+iv><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom=
+-alt:auto">Hola Raymundo,<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:=
+p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></=
+o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNorma=
+l" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&nbsp;<o:p><=
+/o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p=
+></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p=
+><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:=
+auto;mso-margin-bottom-alt:auto">Soy amigo de Antonio Montes de Oca y me rec=
+omend=C3=B3 contigo. Me gustar=C3=ADa de ser posible contratar tus servicios=
+ para presentar mi declaraci=C3=B3n de impuestos.<o:p></o:p></p><p>&nbsp;<o:=
+p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></=
+o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p>=
+</p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-botto=
+m-alt:auto">&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p=
+></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p=
+><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" styl=
+e=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">Saludos,<o:p></o:p>=
+</p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p>=
+<p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&=
+nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;=
+mso-margin-bottom-alt:auto">&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>=
+&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbs=
+p;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D=
+"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;back=
+ground:white"><span style=3D"color:black">Jorge L. Gardu=C3=B1o </span><o:p>=
+</o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:=
+p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></=
+p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt=
+:auto;mso-margin-bottom-alt:auto;background:white"><span style=3D"color:blac=
+k">&nbsp;</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p><=
+/p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><=
+p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D=
+"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><stron=
+g><span style=3D"color:black">______________________________</span></strong>=
+<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p=
+></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o=
+:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-to=
+p-alt:auto;mso-margin-bottom-alt:auto;background:white"><strong><span lang=3D=
+"ES" style=3D"color:black">Robles Miaja Abogados</span></strong><o:p></o:p><=
+/p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><=
+p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&n=
+bsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;m=
+so-margin-bottom-alt:auto;background:white"><span style=3D"color:black">Bosq=
+ue de Alisos 47-A 1er Piso A2-11</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></=
+p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p=
+>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p cla=
+ss=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto=
+;background:white"><span style=3D"color:black">Bosques de las Lomas 05120, M=
+=C3=A9xico, D.F.</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p>=
+</o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:=
+p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal"=
+ style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:whit=
+e"><span style=3D"color:black">Tel.&nbsp; (55)1105-1316</span><o:p></o:p></p=
+><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>=
+&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbs=
+p;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso=
+-margin-bottom-alt:auto;background:white"><span style=3D"color:black">&nbsp;=
+</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nb=
+sp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<=
+o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"mso-ma=
+rgin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><a href=3D"ht=
+tp://www.roblesmiaja.com.mx/" target=3D"_blank"><span style=3D"color:black">=
+www.roblesmiaja.com.mx</span></a><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&=
+nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp=
+;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"=
+MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;backg=
+round:white"><span style=3D"color:black">&nbsp;</span><o:p></o:p></p><p>&nbs=
+p;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o=
+:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p><=
+/o:p></p><p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-=
+bottom-alt:auto;background:white"><span lang=3D"ES" style=3D"color:black">&n=
+bsp;</span><o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p=
+>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p>&nb=
+sp;<o:p></o:p></p><p>&nbsp;<o:p></o:p></p><p class=3D"MsoNormal" style=3D"ms=
+o-margin-top-alt:auto;mso-margin-bottom-alt:auto;background:white"><span sty=
+le=3D"color:black">Este mensaje&nbsp;contiene informaci=C3=B3n confidencial.=
+&nbsp;&nbsp;</span><span lang=3D"EN-US" style=3D"color:black">/This message&=
+nbsp;contains confidential information.</span><span lang=3D"EN-US"><o:p></o:=
+p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span la=
+ng=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p>=
+</o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><spa=
+n lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<=
+o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p c=
+lass=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-alt:au=
+to;background:white"><span lang=3D"EN-US" style=3D"color:#222222">&nbsp;</sp=
+an><span lang=3D"EN-US"><o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;=
+<o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p=
+><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span lang=3D"EN-US">&n=
+bsp;<o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></=
+p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span lang=3D"EN-US=
+">&nbsp;<o:p></o:p></span></p><p class=3D"MsoNormal" style=3D"mso-margin-top=
+-alt:auto;mso-margin-bottom-alt:auto"><span lang=3D"EN-US">&nbsp;<o:p></o:p>=
+</span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span lang=
+=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></=
+o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span l=
+ang=3D"EN-US">&nbsp;<o:p></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p=
+></o:p></span></p><p><span lang=3D"EN-US">&nbsp;<o:p></o:p></span></p></div>=
+</div></div></div></div></blockquote></body></html>=
+
+--Apple-Mail-12F5FA4C-094A-49FA-893C-1C780EF4A8D4--

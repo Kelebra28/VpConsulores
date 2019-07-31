@@ -1,0 +1,172 @@
+Return-Path: <0100016b4e31cdd7-b19f631c-753d-4a4a-818f-f479600c52b4-000000@amazonses.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id cJ4VGCqWAV1rEiEAFq4nlA
+	(envelope-from <0100016b4e31cdd7-b19f631c-753d-4a4a-818f-f479600c52b4-000000@amazonses.com>)
+	for <raymundo@vpconsultores.com.mx>; Wed, 12 Jun 2019 17:17:46 -0700
+Return-path: <0100016b4e31cdd7-b19f631c-753d-4a4a-818f-f479600c52b4-000000@amazonses.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Wed, 12 Jun 2019 17:17:46 -0700
+Received: from a31-225.smtp-out.amazonses.com ([54.240.31.225]:58986)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <0100016b4e31cdd7-b19f631c-753d-4a4a-818f-f479600c52b4-000000@amazonses.com>)
+	id 1hbDQz-0098FN-HL
+	for raymundo@vpconsultores.com.mx; Wed, 12 Jun 2019 17:17:46 -0700
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=zqz5lda7iqgutach5xwpkmp66vnftikz; d=digitalshop.mx; t=1560385015;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=URbtkxVDi5VYlFG8LYkbAhsdCIiCclA/CiQILQ69tFo=;
+	b=cZNumkrb9ieQTOAUBT5qAIpp9EH3QiEd+kXLIrjgFw4NbVWCnGm8XqT/KUqkf/ri
+	QISKFp/6xjrsFSNi+IEjLlmcPXEqhKtoDIaXy3/69k4f3cg4MonoRJ09J8YkUFT+DHe
+	217ifVS8C9/N1Sde/kIccPUj/4EOrxx5IqY3gS44=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1560385015;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=URbtkxVDi5VYlFG8LYkbAhsdCIiCclA/CiQILQ69tFo=;
+	b=M34T/DoGA+PSg+PtC1tuPh/FPlytg0nLNbJf3PylnvcgZy08mL1RVy8Zl/1MjEtr
+	dok+vpDSFYGownlCTJ8rP0w4v5woyMgO4MF23gTaZfyn+pUssonoqkTHOO5I9KYjOgm
+	/dW3oC/iQ3OmNvSAYHThP6fk4B+7/+PxkrESTKik=
+Date: Thu, 13 Jun 2019 00:16:55 +0000
+To: "raymundo@vpconsultores.com.mx" <raymundo@vpconsultores.com.mx>
+From: =?UTF-8?Q?Digital_Shop_M=C3=A9xico?= <ventas@digitalshop.mx>
+Reply-To: =?UTF-8?Q?Digital_Shop_M=C3=A9xico?= <ventas@digitalshop.mx>
+Subject: Funda 360 por $99 pesos!
+Message-ID: <0100016b4e31cdd7-b19f631c-753d-4a4a-818f-f479600c52b4-000000@email.amazonses.com>
+X-Mailer: Sendy (https://sendy.co)
+List-Unsubscribe: <https://www.digitalshop.mx/e/unsubscribe/54uuiWsguy9Vkpwv4D0MQh892DLil6PjNRAhtU1wg892GSo/Sxw5b2berBq0I7zpSSPdJQ/GzGLVxDx61KW4SugZ9PRfg>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_5bdb18f240d1e832c5cf0d37b9db74df"
+Content-Transfer-Encoding: 8bit
+X-SES-Outgoing: 2019.06.13-54.240.31.225
+Feedback-ID: 1.us-east-1.ehEsOYLk3zbn1QxWGLJuBqba7Bg68l13DsZxplcwFH4=:AmazonSES
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Funda 360 por $99 pesos! Digital Shop México Continuan las
+    ofertas de Junio. clic aquí para ver las imagenes 
+ 
+ Content analysis details:   (1.3 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: digitalshop.mx]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: digitalshop.mx]
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.8 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+--b1_5bdb18f240d1e832c5cf0d37b9db74df
+Content-Type: text/plain; charset=us-ascii
+
+Funda 360 por $99 pesos!
+
+
+--b1_5bdb18f240d1e832c5cf0d37b9db74df
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+	<title>Digital Shop M&eacute;xico</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">
+<div style="text-align: center; font-family: Tahoma; color: #000; font-size: 11px;">
+<p>Continuan las ofertas de Junio. <a href="https://digitalshop.mx/promos/especial-12-06-2019/mailing-12-06-2019.html">clic aqu&iacute;</a> para ver las imagenes</p>
+</div>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+	<tbody>
+		<tr>
+			<td width="600">&nbsp;</td>
+		</tr>
+		<tr>
+			<td><img alt="Habilita las imagenes para ver las promociones" border="0" height="310" src="https://digitalshop.mx/promos/especial-12-06-2019/mailing-12-06-2019-1.jpg" style="display:block" usemap="#one" width="600" /></td>
+		</tr>
+		<tr>
+			<td><img alt="Habilita las imagenes para ver las promociones" border="0" height="832" src="https://digitalshop.mx/promos/especial-12-06-2019/mailing-12-06-2019-2.jpg" style="display:block" usemap="#2" width="600" /><map id="222" name="2"><area coords="3,32,603,773" href="https://www.digitalshop.mx/catalogsearch/result/?q=case+360%C2%B0" shape="rect" target="_self" /></map></td>
+		</tr>
+		<tr>
+			<td><img alt="Habilita las imagenes para ver las promociones" border="0" height="623" src="https://digitalshop.mx/promos/especial-12-06-2019/mailing-12-06-2019-3.jpg" style="display:block" usemap="#3" width="600" /></td>
+		</tr>
+		<tr>
+			<td><img alt="Habilita las imagenes para ver las promociones" border="0" height="275" src="https://digitalshop.mx/promos/especial-12-06-2019/mailing-12-06-2019-4.jpg" style="display:block" usemap="#Maper" width="600" /></td>
+		</tr>
+		<tr>
+			<td><img alt="Habilita las imagenes para ver las promociones" border="0" height="225" src="https://digitalshop.mx/promos/especial-12-06-2019/mailing-12-06-2019-5.jpg" style="display:block" usemap="#Mapeados2" width="600" /></td>
+		</tr>
+		<tr>
+			<td><map id="99" name="06"><area coords="11,16,634,373" href="" shape="rect" target="_blank" /></map></td>
+		</tr>
+		<tr>
+			<td><map id="one" name="one"><area coords="472,261,584,311" href="https://www.digitalshop.mx/lo-nuevo.html" shape="rect" target="_blank" /><area coords="288,258,459,307" href="https://www.digitalshop.mx/tablets-y-celulares.html" shape="rect" target="_blank" /><area coords="140,254,267,304" href="https://www.digitalshop.mx/audio-y-video.html" shape="rect" target="_blank" /><area coords="7,255,134,305" href="https://www.digitalshop.mx/accesorios-43.html" shape="rect" target="_blank" /><area coords="542,220,574,252" href="https://www.facebook.com/DigitalshopMex/" shape="rect" target="_blank" /><area coords="510,219,542,251" href="https://www.instagram.com/digitalshopmexico/" shape="rect" target="_blank" /> <area coords="-60,10,593,252" href="https://www.digitalshop.mx/" shape="rect" target="_self" /></map></td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF">
+			<table align="center" border="0" cellpadding="0" cellspacing="0" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="100%">
+				<tbody>
+					<tr>
+						<td bgcolor="#ffffff" height="30" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="100%">&nbsp;</td>
+					</tr>
+					<tr>
+						<td bgcolor="#d8d8d8" height="1" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="100%">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" class="MobileScale2" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="600">
+							<tbody>
+								<tr>
+									<td bgcolor="#d8d8d8" class="MobileScale2" height="1" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="600">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<div style="text-align:center;font-family:Times;font-size:medium">
+			<p><span style="font-size: 10pt;">Usted recibe este correo porque est&aacute; suscrito al servicio de env&iacute;o de Promociones de digitalshop. con esta direcci&oacute;n de correo electr&oacute;nico raymundo@vpconsultores.com.mx Si desea eliminar la inscripci&oacute;n <a href="https://www.digitalshop.mx/e/unsubscribe/54uuiWsguy9Vkpwv4D0MQh892DLil6PjNRAhtU1wg892GSo/Sxw5b2berBq0I7zpSSPdJQ/GzGLVxDx61KW4SugZ9PRfg" >haga clic aqu&iacute; y se dara de baja del bolet&iacute;n</a></span></p>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><map name="3"><area coords="-3045,24,2781,1023" href="https://www.digitalshop.mx/catalogsearch/result/?q=case+360°" shape="rect" target="_self" /></map><map name="Maper"><area coords="-4,2,599,755" href="https://www.digitalshop.mx/storelocator/index/" shape="rect" target="_self" /></map><map name="Mapeados2"><area coords="1,6,587,624" href="https://www.digitalshop.mx/storelocator/index/" shape="rect" target="_self" /> <area coords="142,699,435,766" href="https://www.digitalshop.mx/storelocator/index/" shape="rect" /></map></p>
+</body>
+</html>
+<img src="https://www.digitalshop.mx/e/t/GzGLVxDx61KW4SugZ9PRfg/M763tHflszNsrNDd3B7TlSWg" alt="" style="width:1px;height:1px;"/>
+
+
+
+--b1_5bdb18f240d1e832c5cf0d37b9db74df--

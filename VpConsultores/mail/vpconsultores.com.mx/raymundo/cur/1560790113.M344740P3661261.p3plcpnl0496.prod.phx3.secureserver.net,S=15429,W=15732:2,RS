@@ -1,0 +1,303 @@
+Return-Path: <javier.perez.1@bbva.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id iBkEFGHEB13N3TcAFq4nlA
+	(envelope-from <javier.perez.1@bbva.com>)
+	for <raymundo@vpconsultores.com.mx>; Mon, 17 Jun 2019 09:48:33 -0700
+Return-path: <javier.perez.1@bbva.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Mon, 17 Jun 2019 09:48:33 -0700
+Received: from mail1.bemta25.messagelabs.com ([195.245.230.132]:11057)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <javier.perez.1@bbva.com>)
+	id 1hcuo0-00FSZE-QB
+	for raymundo@vpconsultores.com.mx; Mon, 17 Jun 2019 09:48:33 -0700
+Received: from [46.226.53.55] (using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384 (256 bits))
+	by server-4.bemta.az-c.eu-west-1.aws.symcld.net id 0A/2E-11136-D24C70D5; Mon, 17 Jun 2019 16:47:41 +0000
+X-Brightmail-Tracker: H4sIAAAAAAAAA+NgFprIKsWRWlGSWpSXmKPExsWi9O35Q13dI+y
+  xBpcfs1p0n/7B4sDo8fNmF1sAYxRrZl5SfkUCa0b/kveMBb/tK1Y2vmZsYNxl0cXIxSEkMJ1R
+  4u2yncwgDovAIxaJ5l8bWEAcCYEfLBJXl+xjhHD6mCTaZu8EynACObUSl/5vZIOwiyTmb5/EB
+  GGXSdzsec0MYvMKCEqcnPkErJ5NwEii42wfWD2LgKrElp2P2SFqAiT6Ns9mBLGFBRQkjky8Al
+  YjIqAo8e5WF9hMZgEfiT8P70DtkpU4cPI71C5JiYMrbkDdYyNxaddN1gmMgrOQrJ6FpB3C1pR
+  o3f6bHcLWlli28DUzhK0hseDOPkZk8QWMbKsYzZOKMtMzSnITM3N0DQ0MdA0NjXSNQLSxXmKV
+  brJeaqlueWpxia6hXmJ5sV5xZW5yTopeXmrJJkZgjKQUnODdwdhx5LXeIUZJDiYlUd6kaPZYI
+  b6k/JTKjMTijPii0pzU4kOMMhwcShK8SYeBcoJFqempFWmZOcB4hUlLcPAoifCmHgJK8xYXJO
+  YWZ6ZDpE4xWnJ8XLVkETPHdzC5ee7SRcxCLHn5ealS4ry3QRoEQBoySvPgxsFSyiVGWSlhXkY
+  GBgYhnoLUotzMElT5V4ziHIxKwryCIFN4MvNK4La+AjqICeigR0vZQA4qSURISTUwqTnsNnjZ
+  9Ur2iGd/ROk1u+uP7p76rJhQfc27++5BsaatZ3uElQwXe0yxtWOqdZ0myFikIfhj4/kLlevfr
+  PmrFm169futj3muAqzN1wWyAk2elMZrOcmUfttj4+cYGa1b2H35z2+fq1N0C38KCHJLyB5rfb
+  ppucDmpqkKCy9kMKnUKjZVMl7wMqyedSJhwwbn+WavE5jr912xeS7p6ut3mou1Ty/J9dm2+U/
+  ULy5WfOVXpcOyS6kj4YHg10uSysvSv23tr1++gunRUZV5odrzuU03+ixW8lBJFq7dcXdR6KoN
+  C8+X3e74ecxZq4F7o/fd2FNx3ks9akLV5iTPam5MXi3+40LY9fcXfYyZcu4osRRnJBpqMRcVJ
+  wIAGNLP1qQDAAA=
+X-Env-Sender: javier.perez.1@bbva.com
+X-Msg-Ref: server-15.tower-307.messagelabs.com!1560790060!10042725!1
+X-Originating-IP: [34.246.231.225]
+X-SYMC-ESS-Client-Auth: mailfrom-relay-check=pass
+X-StarScan-Received:
+X-StarScan-Version: 9.31.5; banners=-,-,-
+X-VirusChecked: Checked
+Received: (qmail 9268 invoked from network); 17 Jun 2019 16:47:40 -0000
+Received: from ec2-34-246-231-225.eu-west-1.compute.amazonaws.com (HELO mail.ds.dlp.protect.symantec.com) (34.246.231.225)
+  by server-15.tower-307.messagelabs.com with AES256-SHA256 encrypted SMTP; 17 Jun 2019 16:47:40 -0000
+Received: by mail-ot1-f72.google.com with SMTP id a21so5123771otk.17
+        for <raymundo@vpconsultores.com.mx>; Mon, 17 Jun 2019 09:47:40 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=bbva.com; s=google-bbva-com;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=h9jZJoyzVPIPmbOddIcJd0WxxVrPiyFiIIHqyVXNW5s=;
+        b=IF3PzWTKcN08TD2KnIUdDhxBmB2vtfVTT4qdWAeEtoWM7iFTZ0ECX2G9LmBVSPdtaA
+         /BOfVVv1UtufepekCbPzEOkU1ATrNKzfY3QnvqPOTy5aUPZJxkRqc5mQo5LSgA3onsBA
+         OCHEfqBXIbwLW2+ZXPpVQTMzLu5BS5NV/zM9ZgPAlpzmXd4h01dMRIXCVWg1lnL0zE3H
+         XgzCDKe3sC6pT66vfZ/7X6cWTwAOssE8EPLUiz5L0ap4NGEfGeG0tAM7zVXCGvYjiXhz
+         z3fHz/pyfvQbV9kyOgTkezEQGFMcwwJT9dcW4bgEXf239QD0iDxNeDIrtdiJ5hJgVjvj
+         oCTg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=h9jZJoyzVPIPmbOddIcJd0WxxVrPiyFiIIHqyVXNW5s=;
+        b=bfnJ7gYHllqfQZqGf2y+o/zbV6Tf5gxBHfCs/VElaJLVkvZ5N29qJJ2XhkAeQMvkIc
+         oA/brJUoadTxRbK9lSg4jn8cPzWd6CBj4KmvAMzFddC7w1Dz7kPZ3Ld/MHaHxBUEunJd
+         RUXfjDpHjzJ2gE6RgJOwDn6nVyo211Dhlix8MK4J93NbM/vZK7ZO1m5/6Yf6eOv4ShM9
+         jbEQ9D4oxNIcmZtnEgdGLWnMHeRDNjPPKfJaD2QWCsmmfEx6aQXkLmMDLJIQbsKRi7h9
+         o/GuFUGQVWZPYRTRYTdCNyPM4Pwx7lAMQ3/EubB4UBNL5SxH9vPj8oF4EyHbRRljfetL
+         g2VA==
+X-Gm-Message-State: APjAAAWLDuouh8koV/U7A9txZhfSJ2n5GF9EBcqx7UkaWFQJrEnTw8EQ
+	riKuR7O/lNTU491OhhS+x4kMTlXUku/UDmwtW/77aubvcGDJvMkbZz50kOTF9IWupLNKh7MLAJ8
+	uRtgg/n8pQA0DHlFEuT1wbuSuGqA5pvh1dT33pjrgEWR0VwNbPYSLPuYau6cWx+PKXJBRXTK9ry
+	ddLtlL/NrFcFJ5gXWAEAIISR/3YjApXVrnDuxZ
+X-Received: by 2002:a9d:758b:: with SMTP id s11mr11244240otk.130.1560790059075;
+        Mon, 17 Jun 2019 09:47:39 -0700 (PDT)
+X-Google-Smtp-Source: APXvYqz7U13mFYRulMa+zEiixAF3pDuKAOvmnBFO5GvHV6TlSgxBfjnO29ltYx70CH/fEGi4xbAqnZmWNSQvHhGPs30=
+X-Received: by 2002:a9d:758b:: with SMTP id s11mr11244208otk.130.1560790058453;
+ Mon, 17 Jun 2019 09:47:38 -0700 (PDT)
+MIME-Version: 1.0
+From: JAVIER PEREZ TREJO <javier.perez.1@bbva.com>
+Date: Mon, 17 Jun 2019 11:47:25 -0500
+Message-ID: <CALh6A6abrQh=ZmeshKAK53UcRhhCo=V5EUEQOniy8twJkC5WEA@mail.gmail.com>
+Subject: CUENTA BBVA Bancomer SA
+To: raymundo@vpconsultores.com.mx
+Content-Type: multipart/alternative; boundary="00000000000001d520058b87c16b"
+X-dl-symantec-google: from-mx
+X-CFilter-Loop: Reflected
+X-DetectorID-Processed: 626c2525-8c57-41e8-9537-107a9b50c1ee
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Estimado Raymundo Vazquez Madrigal Patricia Perez Ambrosio
+    Por este medio le saludo y a petición de nuestra área interna nos esta
+   solicitando la siguiente documentación para justificar la operatividad de
+    su cuenta 
+ 
+ Content analysis details:   (-0.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: bbva.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: bbva.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+--00000000000001d520058b87c16b
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Estimado Raymundo Vazquez Madrigal
+                Patricia Perez Ambrosio
+
+Por este medio le saludo y a petici=C3=B3n de nuestra =C3=A1rea interna nos=
+ esta
+solicitando la siguiente documentaci=C3=B3n para justificar la operatividad=
+ de
+su cuenta
+
+
+
+
+   1. Reporte de Visita Domiciliaria (Una vez que se tenga la documentaci=
+=C3=B3n
+   acudir=C3=A1 un ejecutivo a realizar la visita)
+   2. Evidencia fotogr=C3=A1fica (Un m=C3=ADnimo de 5 fotograf=C3=ADas, del=
+ interior,
+   exterior del negocio con inventario y empleados laborando)
+   3. Declaraci=C3=B3n Anual 2018 (con sello digital)
+   4. Actualizar KYC en sistema Formato entregado por sucursal
+
+Soporte documental y carta explicatoria que justifique la siguiente
+operativa (solo una factura dentro del periodo observado por contraparte,
+por el monto m=C3=A1s relevante):
+
+*OPERATIVA ORIGEN: *
+
+1.- DEL 31ENE2019 AL 02ABR2019 REGISTRA 07 PAGOS CUENTA DE TERCERO POR
+TOTAL DE 327,700.00 MN POR MONTOS DE LOS 17,400.00 MN A LOS 92,800.00 MN DE
+LA CUENTA MAESTRA PYME BANCOMER MN 0143976351 DE BUFETE SALES BOYOLISC.
+2.- DEL 17DIC2018 AL 08ABR2019 REGISTRA 05 PAGOS CUENTA DE TERCERO POR
+TOTAL DE 99,620.00 MN POR MONTOS DE LOS 18,560.00 MN A LOS 23,269.60 MN DE
+LA CUENTA MAESTRA PYME BANCOMER MN 0137255020 DE COMERLIZADORA FOOD XPRESS,
+S.A. DE C.V.
+
+*OPERATIVA DESTINO: *
+
+1.- DEL 28DIC2018 AL 10ABR2019 REGISTRA 08 PAGOS CUENTA DE TERCERO POR
+TOTAL DE 303,162.28 MN POR MONTOS DE LOS 16,290.57 MN A LOS 48,000.00 MN A
+LA CUENTA LIBRETON 2.0 0166859275 DE HORLET RAYMUNDO VAZQUEZ MADRIGAL.
+2.- DEL 28DIC2018 AL 10ABR2019 REGISTRA 06 PAGOS CUENTA DE TERCERO POR
+TOTAL DE 200,147.28 MN POR MONTOS DE LOS 6,000.00 MN A LOS 50,070.57 MN A
+LA CUENTA MAESTRA PARTICULARES 0141824058 DE OLGA PATRICIA PEREZ AMBROSIO.
+
+Esta informaci=C3=B3n se requiere a mas tardar el pr=C3=B3ximo dia 19 de Ju=
+nio en
+caso no presentarse o que el banco considere que no soporta los movimientos
+reflejados en la cuenta puede tomar la decisi=C3=B3n de concluir la relaci=
+=C3=B3n de
+negocio.
+
+Quedo a tus ordenes y atento a tus comentarios.
+
+Saludos.
+
+--=20
+
+[image: BBVA | Creando Oportunidades]
+*Javier Perez Trejo*
+Dir Suc Parque Via 3470
+Tel. +01 55 55 35 31 57 Ext 32  javier.perez.1@bbva.com
+*Polanco* - Rio Amur 5 Col. Cuauhtemoc C.P. 06500
+Ciudad De Mexico
+Antes de imprimir este mensaje, por favor comprueba que es necesario
+hacerlo. Before you print this message please consider if it is really
+necessary.
+
+--00000000000001d520058b87c16b
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div><div><div>Estimado Raymundo Vazquez Madrigal</di=
+v><div>=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0 Patricia Perez Ambrosio <br></div></div><div><div>=
+<br></div><div>Por
+ este medio le saludo y a petici=C3=B3n de nuestra =C3=A1rea interna=20
+nos esta solicitando la siguiente documentaci=C3=B3n para justificar la=20
+operatividad de su cuenta<br></div></div></div><div><br></div></div><div><b=
+r></div><div><br></div><div><ol><li>Reporte de Visita Domiciliaria (Una vez=
+ que se tenga la documentaci=C3=B3n acudir=C3=A1 un ejecutivo a realizar la=
+ visita)<br></li><li>Evidencia fotogr=C3=A1fica (Un m=C3=ADnimo de 5 fotogr=
+af=C3=ADas, del interior, exterior del negocio con inventario y empleados l=
+aborando)</li><li>Declaraci=C3=B3n Anual 2018  (con sello digital)</li><li>=
+Actualizar KYC en sistema Formato entregado por sucursal<br></li></ol></div=
+><div>Soporte documental y carta explicatoria que justifique la siguiente=
+=20
+operativa   (solo una factura dentro del periodo observado por=20
+contraparte, por el monto m=C3=A1s relevante):=C2=A0</div><div><br></div><d=
+iv><b><font size=3D"4">OPERATIVA ORIGEN: </font></b><br></div><div><br></di=
+v><div>
+=20
+ 1.- DEL 31ENE2019 AL 02ABR2019 REGISTRA 07 PAGOS CUENTA DE TERCERO POR=20
+TOTAL DE 327,700.00 MN POR MONTOS DE LOS 17,400.00 MN A LOS 92,800.00 MN
+ DE LA CUENTA MAESTRA PYME BANCOMER MN 0143976351 DE BUFETE SALES=20
+BOYOLISC. <br></div><div>
+=20
+ 2.- DEL 17DIC2018 AL 08ABR2019 REGISTRA 05 PAGOS CUENTA DE TERCERO POR=20
+TOTAL DE 99,620.00 MN POR MONTOS DE LOS 18,560.00 MN A LOS 23,269.60 MN=20
+DE LA CUENTA MAESTRA PYME BANCOMER MN 0137255020 DE COMERLIZADORA FOOD=20
+XPRESS, S.A. DE C.V.=C2=A0</div><div><br></div><div><b><font size=3D"4">OPE=
+RATIVA DESTINO:=C2=A0</font></b></div><div><br></div><div>1.- DEL 28DIC2018=
+ AL 10ABR2019 REGISTRA 08 PAGOS CUENTA DE TERCERO POR=20
+TOTAL DE 303,162.28 MN POR MONTOS DE LOS 16,290.57 MN A LOS 48,000.00 MN
+ A LA CUENTA LIBRETON 2.0 0166859275 DE HORLET RAYMUNDO VAZQUEZ=20
+MADRIGAL.=C2=A0</div><div>2.- DEL 28DIC2018 AL 10ABR2019 REGISTRA 06 PAGOS =
+CUENTA DE TERCERO POR=20
+TOTAL DE 200,147.28 MN POR MONTOS DE LOS 6,000.00 MN A LOS 50,070.57 MN A
+ LA CUENTA MAESTRA PARTICULARES 0141824058 DE OLGA PATRICIA PEREZ=20
+AMBROSIO. <br></div><div><br></div><div><div><div>Esta informaci=C3=B3n se =
+requiere a mas tardar el pr=C3=B3ximo dia 19 de=20
+Junio en caso no presentarse o que el banco considere que no soporta los
+ movimientos reflejados en la cuenta puede tomar la decisi=C3=B3n de conclu=
+ir
+ la relaci=C3=B3n de negocio.</div><div><br></div><div>Quedo a tus ordenes =
+y atento a tus comentarios.</div><div><br></div><div>Saludos.</div></div></=
+div><br>-- <br><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D=
+"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"l=
+tr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div>=
+<div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=
+=3D"ltr"><div><div dir=3D"ltr"><br><center>
+
+	<div style=3D"width:680px;max-width:95%;margin-top:30px;height:auto;max-he=
+ight:180px;font-family:Arial,&quot;sans-serif&quot;;font-size:13px;text-ali=
+gn:left;padding-bottom:20px">
+		<div style=3D"width:134px;margin:20px 0px;padding-left:3px"><img src=3D"h=
+ttps://prensabbva.s3.amazonaws.com/firma_new_beginning/img/BBVA_creando_opo=
+rtunidades_es.png" alt=3D"BBVA | Creando Oportunidades" width=3D"200px"></d=
+iv>
+	  <div style=3D"font-family:Arial,&quot;sans-serif&quot;;font-size:13px;co=
+lor:rgb(0,68,129);line-height:18px;font-weight:700;padding-left:5px;text-al=
+ign:left">
+			<b>Javier Perez Trejo</b><br></div><div style=3D"font-family:Arial,&quot=
+;sans-serif&quot;;font-size:13px;color:rgb(0,68,129);line-height:18px;font-=
+weight:700;padding-left:5px;text-align:left">
+
+		  <span style=3D"color:rgb(45,204,205);font-weight:700;text-align:left;fo=
+nt-size:12px">Dir Suc Parque Via 3470<br></span><span style=3D"color:rgb(10=
+2,102,102);font-weight:300;text-align:left">Tel. +01 55 55 35 31 57 Ext 32=
+=C2=A0 <a href=3D"mailto:javier.perez.1@bbva.com" target=3D"_blank">javier.=
+perez.1@bbva.com</a></span><br>
+		  <b style=3D"color:rgb(45,204,205);font-weight:700;text-align:left;font-=
+size:12px">Polanco</b><span style=3D"color:rgb(102,102,102);font-weight:300=
+;text-align:left"> - Rio Amur 5 Col. Cuauhtemoc C.P. 06500</span></div><div=
+ style=3D"font-family:Arial,&quot;sans-serif&quot;;font-size:13px;color:rgb=
+(0,68,129);line-height:18px;font-weight:700;padding-left:5px;text-align:lef=
+t"><span style=3D"color:rgb(102,102,102);font-weight:300;text-align:left">C=
+iudad De Mexico<br></span>
+		</div>
+	=09
+	=09
+</div>
+
+<div style=3D"width:680px;max-width:95%;height:auto;max-height:180px;font-f=
+amily:Arial,&quot;sans-serif&quot;;font-size:7px;text-align:left">
+=09
+	 <div style=3D"font-family:Arial,&quot;sans-serif&quot;;font-size:9px;colo=
+r:rgb(102,102,102);line-height:10px;font-weight:700;padding-left:5px;text-a=
+lign:left">
+
+		<span style=3D"color:rgb(72,174,100);font-weight:300;text-align:left">Ant=
+es
+ de imprimir este mensaje, por favor comprueba que es necesario hacerlo.
+ Before you print this message please consider if it is really=20
+necessary.</span>
+	=09
+		</div>
+</div>
+
+
+
+	</center></div></div></div></div></div></div></div></div></div></div></div=
+></div></div></div></div></div></div></div></div></div></div></div></div>
+
+--00000000000001d520058b87c16b--

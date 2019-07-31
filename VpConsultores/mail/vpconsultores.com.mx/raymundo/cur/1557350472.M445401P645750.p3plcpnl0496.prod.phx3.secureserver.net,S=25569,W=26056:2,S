@@ -1,0 +1,487 @@
+Return-Path: <h.ramirez@notaria29df.com.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id IMG/GEhI01x22gkAFq4nlA
+	(envelope-from <h.ramirez@notaria29df.com.mx>)
+	for <raymundo@vpconsultores.com.mx>; Wed, 08 May 2019 14:21:12 -0700
+Return-path: <h.ramirez@notaria29df.com.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Wed, 08 May 2019 14:21:12 -0700
+Received: from mail-oi1-f169.google.com ([209.85.167.169]:39039)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <h.ramirez@notaria29df.com.mx>)
+	id 1hOTzv-002iN1-85
+	for raymundo@vpconsultores.com.mx; Wed, 08 May 2019 14:21:12 -0700
+Received: by mail-oi1-f169.google.com with SMTP id x16so269445oic.6
+        for <raymundo@vpconsultores.com.mx>; Wed, 08 May 2019 14:20:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=notaria29df-com-mx.20150623.gappssmtp.com; s=20150623;
+        h=from:to:subject:date:message-id:mime-version:thread-index
+         :content-language;
+        bh=TgLa+WmmBB0lUomSwkkMfwLkp+p7BeQT7lle5ZBtRwM=;
+        b=IXbpGMiftS52/lcza+P7EB/dLCAQpEYtr2gZuQvRFwcg47F0CjVQbLKcWcLuxCh7lm
+         RlW6FudHVTYL5oPBozdxcUYvH0vq9eQA80EiEZUgSws6EpLKqCR9IQ2y6z8pOECGRptc
+         TzNbEbNEE5EEx6DDzQMhQGBcBSxspdVY1zHbeksQiHIf9m80CosY1X2au4MyCeCqAJKf
+         itAjxRddK221PqhlXkxHa06dLTdQWkbQfCSMX3MNWupVShy5+D8outzgvUZ3zYfE+zUU
+         Qaql2cBe7mQbG/kWrF1lGX/7H/pTB2yjYdL2GNfnbD8Tsjnw9rsCLNm8qOo5XrWugAcU
+         BBTw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:subject:date:message-id:mime-version
+         :thread-index:content-language;
+        bh=TgLa+WmmBB0lUomSwkkMfwLkp+p7BeQT7lle5ZBtRwM=;
+        b=mr8SpyzJCZNl5sLIbH4MFf1OvPbOHUT3WJfy7Lrdro2jf1pBNBtPsEfgtrK3feQ3qd
+         5oKg4XlL65GmfZ9RYuWrsZnaGr4G7SSpDDlVipJX8lp9R+5aePvTGXtUK+l7xaCDRW2y
+         QrcVF559rY8DVog79WJKo6lnNXDpUdbfL/fKXhSMgMsM3n7Fzcufodwiog+yJNIZvf1n
+         hvfxagBYbrSjmJWopyCs0zr1L3PfmAtEWQ0ZJ0ucgohXAVWj5rvMeQ1+aAfq8ikCJHnT
+         Jo3G8sETaciunSYOxjkyj5A8+d0pCfqCU3hjH8cYgJO5hc+fV+B+U2oegnAHSVD1Y7YB
+         lRCQ==
+X-Gm-Message-State: APjAAAVYmO2Pvw5PTRwDvPWgtUAPkLNNDlXzOC7rloEr5Dyse2CEBHBu
+	ko5SkgWhxHOjJ30hyO0WyA4KTTwZlsc=
+X-Google-Smtp-Source: APXvYqxfbWDxDF+0t3oum33S10kIOApVF4PdgPyc3pAOddV7unxae5obxXIz4pZFZ3o2X5PGik7d3A==
+X-Received: by 2002:aca:d8c5:: with SMTP id p188mr3435278oig.144.1557350425757;
+        Wed, 08 May 2019 14:20:25 -0700 (PDT)
+Received: from DESKTOPFM0KCLG ([2806:107e:13:7f0c:886f:242c:e6e4:21e0])
+        by smtp.gmail.com with ESMTPSA id r65sm113163oif.47.2019.05.08.14.20.23
+        for <raymundo@vpconsultores.com.mx>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 08 May 2019 14:20:24 -0700 (PDT)
+From: =?iso-8859-1?Q?Hugo_Ram=EDrez?= <h.ramirez@notaria29df.com.mx>
+To: <raymundo@vpconsultores.com.mx>
+Subject: INMUEBLE AVANTE
+Date: Wed, 8 May 2019 16:20:23 -0500
+Message-ID: <007701d505e3$d9b8ce20$8d2a6a60$@notaria29df.com.mx>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0078_01D505B9.F0E51010"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AdUF46TJr0vHOOHMRm2xDV5QOzUM0g==
+Content-Language: es-mx
+X-Spam-Status: No, score=1.6
+X-Spam-Score: 16
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  HOLA RAYMUNDO, BUENAS TARDES EL COSTO DE LA ESCRITURA SOBRE
+    $4,200,000.00 QUEDARIA EN $282,106.00 (YA INCLUYE AVALUO), EN SU CASO ESTA
+    ES LA CANTIDAD QUE TE TIENEN QUE MEJORAR SI SE HICIERA EN LA OTRA NOTARIA.
+    
+ 
+ Content analysis details:   (1.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: notaria29df.com.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: notaria29df.com.mx]
+  1.6 SUBJ_ALL_CAPS          Subject is all capitals
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+X-Spam-Flag: NO
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0078_01D505B9.F0E51010
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0079_01D505B9.F0E51010"
+
+
+------=_NextPart_001_0079_01D505B9.F0E51010
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+HOLA RAYMUNDO, BUENAS TARDES
+
+=20
+
+EL COSTO DE LA ESCRITURA SOBRE $4,200,000.00 QUEDARIA EN $282,106.00 (YA
+INCLUYE AVALUO), EN SU CASO ESTA ES LA CANTIDAD QUE TE TIENEN QUE =
+MEJORAR SI
+SE HICIERA EN LA OTRA NOTARIA.
+
+=20
+
+SALUDOS
+
+=20
+
+
+
+
+Hugo Ram=EDrez
+
+Abogado |  <mailto:h.ramirez@notaria29df.com.mx>
+h.ramirez@notaria29df.com.mx
+
+D: (55) 5262 4222 | T: (55) 5260 5686
+
+Calzada Melchor Ocampo #193 | Torre Privanza | Piso 4
+Col. Ver=F3nica Anzures | 11300 | Ciudad de M=E9xico
+
+=20
+<https://www.signaturesatori.com/app/user/user/signature/www.notaria29df.=
+com
+.mx> www.notaria29df.com.mx
+
+AVISO DE PRIVACIDAD: Para consultar los fines para los cuales la =
+Notar=EDa 29
+del Distrito Federal recaba y usa sus datos personales ponemos a su =
+entera
+disposici=F3n, la versi=F3n completa del presente aviso de privacidad en =
+nuestro
+domicilio y en nuestra p=E1gina de Internet  =
+<http://www.notaria29df.com.mx/>
+www.notaria29df.com.mx secci=F3n =93Aviso de Privacidad=94. Sus datos =
+personales
+s=F3lo son tratados por el personal adscrito a esta Notar=EDa, por lo =
+cual, sus
+datos personales no se transfieren a ning=FAn tercero ajeno a ella, =
+salvo para
+el cumplimiento de obligaciones legales ante las autoridades =
+competentes.
+Usted puede limitar el uso y divulgaci=F3n de su informaci=F3n personal =
+a trav=E9s
+de los medios que se establecen en nuestra p=E1gina de Internet
+<http://www.notaria29df.com.mx/> www.notaria29df.com.mx secci=F3n =
+=93Aviso de
+Privacidad=94.
+
+=20
+
+El contenido de este correo electr=F3nico y sus anexos es confidencial. =
+Si
+usted ha recibido este mensaje por error, favor de no reenviarlo y =
+borrarlo
+inmediatamente. El correo electr=F3nico no es un medio de comunicaci=F3n =
+100%
+seguro.  Aunque hemos tomado ciertas precauciones para evitar que =E9ste
+correo electr=F3nico y sus anexos contengan virus, se les recuerda que =
+es
+responsabilidad del destinatario asegurarse que el correo electr=F3nico =
+y sus
+anexos efectivamente no contengan virus. Gracias. En t=E9rminos del =
+C=F3digo
+Fiscal de la Federaci=F3n, el contenido de este correo electr=F3nico y/o =
+los
+documentos anexos al mismo, pueden expresar posiciones que no coincidan =
+con
+los criterios de las autoridades fiscales mexicanas. Esta comunicaci=F3n =
+no
+tiene la intenci=F3n de y no podr=E1 ser usada por el receptor o persona =
+alguna
+con el prop=F3sito de eludir un impuesto, federal, local o municipal, o =
+la
+imposici=F3n de sanciones fiscales en los Estados Unidos Mexicanos.
+
+=20
+
+
+------=_NextPart_001_0079_01D505B9.F0E51010
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1"><meta name=3DGenerator content=3D"Microsoft Word =
+15 (filtered medium)"><!--[if !mso]><style>v\:* =
+{behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EstiloCorreo17
+	{mso-style-type:personal-compose;
+	font-family:"Arial",sans-serif;
+	color:windowtext;
+	font-weight:normal;
+	font-style:normal;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DES-MX =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><p =
+class=3DMsoNormal><span style=3D'font-family:"Arial",sans-serif'>HOLA =
+RAYMUNDO, BUENAS TARDES<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-family:"Arial",sans-serif'>EL =
+COSTO DE LA ESCRITURA SOBRE $4,200,000.00 QUEDARIA EN $282,106.00 (YA =
+INCLUYE AVALUO), EN SU CASO ESTA ES LA CANTIDAD QUE TE TIENEN QUE =
+MEJORAR SI SE HICIERA EN LA OTRA NOTARIA.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif'>SALUDOS<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif'><o:p>&nbsp;</o:p></span></p><tab=
+le class=3DMsoNormalTable border=3D0 cellpadding=3D0><tr><td =
+style=3D'padding:0cm 5.25pt 0cm 0cm'><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:7.5pt;margin-right:0cm;margin-bottom:7.5pt;ma=
+rgin-left:0cm'><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#222222;ms=
+o-fareast-language:ES-MX'><img width=3D75 height=3D87 =
+id=3D"Imagen_x0020_1" src=3D"cid:image001.png@01D505B9.EF6C04A0" =
+alt=3D"https://storage.googleapis.com/signaturesatori/customer-C00zyq2jb/=
+images/companyLogo/407434afd069afd50d745a0ec3f8b4a866b264b286d965c01f34aa=
+6554eaeafd.png"><o:p></o:p></span></p></td><td style=3D'padding:0cm 0cm =
+0cm 0cm'><p class=3DMsoNormal style=3D'margin-bottom:7.5pt'><b><span =
+style=3D'font-size:8.5pt;color:#88181A;mso-fareast-language:ES-MX'>Hugo =
+Ram=EDrez</span></b><span lang=3DES =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#222222;ms=
+o-fareast-language:ES'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:7.5pt'><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:gray;mso-fa=
+reast-language:ES-MX'>Abogado</span><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:#88181A;mso=
+-fareast-language:ES-MX'>&nbsp;|</span><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:gray;mso-fa=
+reast-language:ES-MX'>&nbsp;<a =
+href=3D"mailto:h.ramirez@notaria29df.com.mx"><span =
+style=3D'color:blue'>h.ramirez@notaria29df.com.mx</span></a><o:p></o:p></=
+span></p><p class=3DMsoNormal style=3D'margin-bottom:7.5pt'><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:#88181A;mso=
+-fareast-language:ES-MX'>D:</span><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:gray;mso-fa=
+reast-language:ES-MX'>&nbsp;(55) 5262 4222&nbsp;</span><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:#88181A;mso=
+-fareast-language:ES-MX'>|&nbsp;T:&nbsp;</span><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:gray;mso-fa=
+reast-language:ES-MX'>(55) 5260 5686</span><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#222222;ms=
+o-fareast-language:ES-MX'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:7.5pt'><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:gray;mso-fa=
+reast-language:ES-MX'>Calzada Melchor Ocampo #193 | Torre Privanza | =
+Piso 4<br>Col. Ver=F3nica Anzures | 11300 | Ciudad de =
+M=E9xico<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'mso-fareast-language:ES-MX'><a =
+href=3D"https://www.signaturesatori.com/app/user/user/signature/www.notar=
+ia29df.com.mx"><span =
+style=3D'font-size:6.0pt;font-family:"Arial",sans-serif;color:#88181A'>ww=
+w.notaria29df.com.mx</span></a></span><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#222222;ms=
+o-fareast-language:ES-MX'><o:p></o:p></span></p></td></tr></table><p =
+class=3DMsoNormal style=3D'text-align:justify'><span =
+style=3D'font-size:4.0pt;font-family:"Arial",sans-serif;mso-fareast-langu=
+age:ES-MX'>AVISO DE PRIVACIDAD: Para consultar los fines para los cuales =
+la Notar=EDa 29 del Distrito Federal recaba y usa sus datos personales =
+ponemos a su entera disposici=F3n, la versi=F3n completa del presente =
+aviso de privacidad en nuestro domicilio y en nuestra p=E1gina de =
+Internet </span><span style=3D'mso-fareast-language:ES-MX'><a =
+href=3D"http://www.notaria29df.com.mx/"><span =
+style=3D'font-size:4.0pt;font-family:"Arial",sans-serif;color:blue'>www.n=
+otaria29df.com.mx</span></a></span><span =
+style=3D'font-size:4.0pt;font-family:"Arial",sans-serif;mso-fareast-langu=
+age:ES-MX'> secci=F3n &#8220;Aviso de Privacidad&#8221;. Sus datos =
+personales s=F3lo son tratados por el personal adscrito a esta =
+Notar=EDa, por lo cual, sus datos personales no se transfieren a =
+ning=FAn tercero ajeno a ella, salvo para el cumplimiento de =
+obligaciones legales ante las autoridades competentes. Usted puede =
+limitar el uso y divulgaci=F3n de su informaci=F3n personal a trav=E9s =
+de los medios que se establecen en nuestra p=E1gina de Internet =
+</span><span style=3D'mso-fareast-language:ES-MX'><a =
+href=3D"http://www.notaria29df.com.mx/"><span =
+style=3D'font-size:4.0pt;font-family:"Arial",sans-serif;color:blue'>www.n=
+otaria29df.com.mx</span></a></span><span =
+style=3D'font-size:4.0pt;font-family:"Arial",sans-serif;mso-fareast-langu=
+age:ES-MX'> secci=F3n &#8220;Aviso de Privacidad&#8221;.</span><span =
+lang=3DES =
+style=3D'font-size:4.0pt;font-family:"Arial",sans-serif;mso-fareast-langu=
+age:ES-MX'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify'><span =
+style=3D'font-size:4.0pt;font-family:"Arial",sans-serif;mso-fareast-langu=
+age:ES'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'text-align:justify'><span =
+style=3D'font-size:4.0pt;font-family:"Arial",sans-serif;mso-fareast-langu=
+age:ES-MX'>El contenido de este correo electr=F3nico y sus anexos es =
+confidencial. Si usted ha recibido este mensaje por error, favor de no =
+reenviarlo y borrarlo inmediatamente. El correo electr=F3nico no es un =
+medio de comunicaci=F3n 100% seguro.&nbsp; Aunque hemos tomado ciertas =
+precauciones para evitar que =E9ste correo electr=F3nico y sus anexos =
+contengan virus, se les recuerda que es responsabilidad del destinatario =
+asegurarse que el correo electr=F3nico y sus anexos efectivamente no =
+contengan virus. Gracias. En t=E9rminos del C=F3digo Fiscal de la =
+Federaci=F3n, el contenido de este correo electr=F3nico y/o los =
+documentos anexos al mismo, pueden expresar posiciones que no coincidan =
+con los criterios de las autoridades fiscales mexicanas. Esta =
+comunicaci=F3n no tiene la intenci=F3n de y no podr=E1 ser usada por el =
+receptor o persona alguna con el prop=F3sito de eludir un impuesto, =
+federal, local o municipal, o la imposici=F3n de sanciones fiscales en =
+los Estados Unidos Mexicanos.</span><span lang=3DES =
+style=3D'font-size:4.0pt;font-family:"Arial",sans-serif;mso-fareast-langu=
+age:ES-MX'><o:p></o:p></span></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_001_0079_01D505B9.F0E51010--
+
+------=_NextPart_000_0078_01D505B9.F0E51010
+Content-Type: image/png;
+	name="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.png@01D505B9.EF6C04A0>
+
+iVBORw0KGgoAAAANSUhEUgAAAEsAAABXCAYAAABMWrgKAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAO
+xAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUATWljcm9zb2Z0IE9mZmljZX/tNXEAABeiSURBVHhe
+7V0LdBzFla2q7pnpmZFsycZYI0MgLBAM3vD/h3UIPwO7WTD/8DEBIY+FkiM+4bMBhG2chZCPQoSm
+NTgcGzDhxBAOkHAgsJjNcWADyRIIn4WADRhs2cLWXzOj6a7a+1pquWc0I/VIwptsVOeMJU1XV726
+9eq9V6/eK+tLly5lf49FbzHv0ATbtM+WLSvfWbrU9oOB7qfS/7c6mmmeMDsQ+O5ntvX6lv33X4Xx
++QMrZJr/FGX6rC4pO+262v8oBkzIXHlUUMjYQH//85mGhr6/VQDnNjZqH8fm/KxXyh0src7ojF+c
+8TsWcJYo51w9Wgme7Goxa7N18fsKvaykvTzMtVMH9LL98fwvfjv4a6v3QVWscYYQ+7VLa77dEN9c
+Cn16Jl77azvR2lIptLqQEC2y2XzTro+/nN8IZ6w/rSS+FvTP32RRTU2760akbru0ltjx+G9LHYQj
+szTFN9lMsQDnutTFWrup6TAstW1+GwMRFWVG2UmMyQPwThqAvtoXr8khBnJif4Ppsy1mKdRRFv5B
+55gD+qlzy7K6M/Xx190+KxobA6lY7Ni0ZWV4ff3vi9GiNTfPC4rgPCnYfoIxA5/toOOVvnh8/Yh3
+DMPWOL/XzrI/F2qvsbGR3zkrdjRxxD7tW/4Lgj+HMQYFvGBB+rZfynSFps3pDkV+gbX9tfzKhToI
+mMlvhozID8sEq+xDIyCGGYCAm8lXeixRw+trHMJ0ye6aEeBn9UmNZZUioFgQdQmtiOCsnbHv4ddh
+sGIQuhsU+/7uQePobtM8PBOP/3eh/nUt+HiZEPt2SzsrOVNBJoKG0JlKJF+wM/0XeSfdsNgegQC7
+bUDjF6AtmticAstAsYR53Sw9cO6G2XO+jodPeSu42pBr+Bayq6Hbtm+r1PT571dV34Ov6kfjLgB1
++W5C3A9Ct3VIeR5m9CUrq0dSurxoGhfLwKfrBpqbj8zU12/EhNzSo+zmFOkdru4IC3FMr63i4IT3
+MxxfptOvePuiiQolTE6A4oU6/FNTmBalo/90OGLsnero6E7relVaC1yzu65/aysP/wjvXLLzPV1K
+rCDii6LjUtzBRDFFYy8IljPLqLE+y9WF4LDfThfa1RD4rxcV+KY5U1f8nn6lMr1MfZXHF7/jEoCh
+L+80k/1VmvaDbUr/Pr4/D5zxFtTOW1QnZCbraHIGpHgenPdBIXUELX1aWGhHddk2E4qdj79vQhuf
+jRwkBz8rZTDW19nQkMLzjXMb37xmQ9XvloBtvzraZOc/05pXflnX+Vkd6DMg+MkB0zwAy/l/3HrD
+dpaDNxO72/Hadf0tyVtm6PwOg+cIfEe+uAXEnT5T18u3ZrNreF18GCj3ebQ82rytu/dmLLSzQhCs
+OTJQqYDC5OjMKi9m4CjFG9NKbQAnrAWX3LjVzl6Ktn9cZPAKHJV1n70XW3/IDK4Tx71bClhC2Dfb
+ivXaXN21m9CXb7dkHO83jADL22i2rnZFZ8I8ZKYWONfmbO20pqYDd4Qi3TkdK/6PhJ4QYoTmpHqd
+F1+cCSZaX58mtK/t0I398JVvhaE1m4dWBvVjd0h5vUinzG4euR5cfzXk6E8KyFGaZ5Hq6ZkL7usY
+YOyLES4espjssbi6wS9YqsmcEw1rF6aknbh5y5YVP4jNuU7j4nJM9K2Y6B5qp7gFn0lfviPE587U
+tIPaQ+GHBFhdDiovp0CW0kqCmJKgr2gZoNUtdD3gy0QeakbX+E1pKXvBnfd0xmuzKmGumaXpl70f
+i52KKs/k9qYGIEIMxfhr9H0ZOoSJ8/Z2Kztf1Nd/4BcsI8S/jQFJlmF3LIOgDyRa76nS9dvaVISU
+wcpRwSIrHTO8sJPZr0aF+BcQr6DFSOM7RSnxEUGHaZ1bjCA8+xLkH5PWwMd+iQZ3fCHAxfkpJd/k
+PX3/GmpJkuHcQezDFb96JFg8gPU3YEt2OWl1pVRC57zCkcA+C7innIfCV/fa9jZpiOPRp8YElymJ
+KeCKlMvoYFE/ME7fG2hJXqor9QRMAi6h8t1iCflsB9hF5+IC3tR0C8DN0TCwq06foelfhLD84y3t
+7Rv9btchq+oNmBJZxXfHjKwGCxNzpjpt2w4wvsBeuXJfu6bmfQ8OAnRZ2brFP3e+M82+cq6vtbTg
+b3pXrz6CL1rUORZm0ogsquAiChmX4kqtoj6Jx3q4PQCtfajdbB4PLH435kYa8uvJftO8rULoy7I2
+JNhQgQX8XjrR+tNqPfCtdh5+DOCQVfwhPdbM5IkRJh7ExDANS8qxX3wUzPD0ACzsHqle7cikTq4c
+4g68DHVnfBtLccXWrHUV5uhGb3Nk1oVWr67IAJhsPP7odtO8s1oP3mT3p38OC/n00bqmveKHVdU3
+wKz5JM3VIbF0OtMxaCwrZkTOgQ23ql+T9ehzECygGS0X2BtaLFCoYRCwvCfRegQM1q/32pbmqvpo
+2+Zr26rmTJ+haZdhY7pxINFKajaCel/AsrU7bYv2ms+PbFNNBxGsi9k5kyUN4waAH91oZe+ONDR0
+e00KZZrJHba9AkvsBtbU9ENXu4LtZoDjwloqxd36oPfmtpbWw/cKBhd8lDBXh6eVXwWFM4Ddg14m
+AiwlJeZhsGyIxa7YSw/uiT6vh/mzvc1DbMWaNQ9v7+n9caWmXdhlmjc6xNpce7pHKRIvRTfIOzLG
+pZqRqbd0tsNtr3PpUpJhi3Ykkw/BZj5fMH4QpqStT8oHuy35gMAyLjirnLUC3HW6Ff7EK/gFE598
+amUbIdifyF87HDZWpsW8pELXD+zXy6YBGEe7KiZuH2CyvDIcJhtruKSFumiLtOsBrtHR3l4JurZa
+Vnhzb2BgqeR8JyaS9bXb1jKRDv0sn1YAnA20JC8LCEZboKgDVjZe8yLefnE0do00LOqGX4a2JCNK
+prb2ORD/nPcBLPOiBcblw4UMUWzqE6P5S8Cla7AtyimZeM1P6AsvR9DfAHc79L0jKl3ZwRsWbcUk
+3O5tIFNXmBa3DsTQrz5l7Ff095gyazQA/96eTYFVwozrFY1rAqlKK4p3fGksn22D8zsyEMLDcqTi
+5Zd1o/29ssntp5JXdnRk31m0aNhzO3fuXMHWJst90llKNaX3ze47s0zj90G6TxpYsE14SkUeAiXX
+uNSUtW84JiiMx7Mwiiaro7BI8+4ZIfKbnTM86qceqNYC+stQNiGvXVgKKvl1BVQu2tpGyzAMp99u
+0BoTaS/nXbRHvrFh9ew8lCwU1MVutGmaLLCCcIX3Z+Usb+e6Zelof48gVJg9SfOvwUhOZW2dwJIW
+5po+k1WoLeA1vDVy2hVMgqucfiarJ2oPe9RhbwN1Y+m60uBdzdoyNFlgSeU4KTNTAr4EDpkCawqs
+EhAooeoUZ02BVQICJVSd4qwpsEpAoISqU5w1BVYJCJRQdYqzpsAqAYESqk5x1hRYJSBQQtUpzpoC
+qwQESqiq4/guRGd4k1lw3M9SliQXsqeIQLmuIcyIDnsnp0Q1jfXZ1nRva2GKVQnooTD6mix/Fjn/
+OlKZGXAsipe6hapPTaLzj9y5CCl62zuIQGrgrR4h6jM4nJysYgN2JcQn3vaMcPqzrh6xxLJ1LStz
+/Y/j7TeASEJMcb9u19e834nou/E2VOi9Qmd/Gy9YhOM3du9k9lOorZfmnEDhQebn0c+UgC8B1Smw
+diVYiEIRfqKaS6BpwlWrmpqmIRImgoZIQKbcyL2JNjwmZyEMKKIbTpjjPITCInBN7Y3TmdmQ4NBC
+0thQVR0MJVohSXk/dOpWSMIPoAx/b0m5HjENmyZKoJ/3o4jZQgTi6Thlmw/lckBnKEzHY1CMDljp
+cKJ1O+j6GPT9CRGM6wbS6fX58WR++ikKFiKKL0Uoz0LbCB+OALM9Q1Cfg0FLdOCIn5yOtHaaHE58
+Kc6/6BtSrHjWFzWTz1pM3IPgjf/0Q0ypdRAleFhAiRtwUnVWiPMQfjrnb4SQe9yGr6aDptkIxjsQ
+PxfYSt2kG+EPEZb+YE+6/17e0LDVb78FwaKwQRYK34eT5VA/KKDsi34/B5Ye8wPxmdGgEAs1JRci
+uK3VDocaEGyG2LLJKWEzuUJn4kaEYGuIt2J9Y5k+nuc4BN7b4PxWBKvVZluS383U1Y4INypEZWHO
+MsoODTIZQtjguEdGb1LAF3FcuaYt7k1lDsAknDnRjLL+pqboTGSAlAl+BuLA2EAeSHQaTh/3fJ04
+jA52KavD5Tb6nT6oNxuhCytFInlEakntkrEGWxAspeyvgStGEOJtbCj4dqz2HQKRtcGmCTG/Kxh+
+EH8uHPOlIhXeREjjkbHqX5Zxcap3IqkPSnqgEAREKr+btdVvIRMo6FdDVONe+HkUgDmIRARi64db
+J8AISExmXCbMSGZJfNFotBUEC0Cc6KQjkRzCh4igjwsQrUiKWPDKKZITZJ0Xs8+78axcE2f3tiQv
+BNs/Mh7ADpsdu7tMaKcS+G4hMsNcQFapbRj8DUZ52cMUsedtnzT2x7HYKVKJRmzFjiWOdyGjnz3O
+ZOqXdZrmewixXFGMthFgIXZzJjQbZoIENvZ4SH7KMvUuCHkT8LwLMDaB6TpBXR+y6YS0RYUQch+E
+XR+HV06KCBEmYgoVJ56Cy1vAIWvn+Uy1ddsJNTcfHdSD1yD8OqdpyB4C6qO0JU6m3UihfodMm2cB
+2nMfVc1pBo1LaAl7Aae/Q1wsl6b5NAKJXyvUzgiwkGZyGjRLADHgazGwJyDfyQT4yA8naFDhPCtX
+gJjzCwGWAVhBLg46OBY7CkMumJlRtB8RWE7c7ZVRxPXQbhaijM+162vH3LINgVanzNbp4LBvIK51
+WLYBcBblgiOf6Eeg7URfYKHS+9igzutbsjPBxw9QVIfi0xEMf4E0W7MA7OJ8wFzZMqDYiaWARTmF
+mh48hbSet0BbI9HGvt9eEv+DXxqpnkynrkqFwseDKfZywSeRQu2DU7/KTfMrYJD1+W2O4CxUesV3
+0nARClXauDptpBeAE2bmhzI5NpDiXy5lcLoeXBgGV/V6hDMNDpyqkBPWUkpbVJcMUmR83YpErge8
+nEqT6SgJm1OC09hgldpxofqZhkVdQbP1cQywZgRYjmTlVSX1o9R8Oy/YzlmSUn3wD+1b/jwiJc1H
+49Hy8kf6unuXQ4vuRVrRLSQq0PSC/qbV0yhC29vUmNsdH/0WrIIufwcSavIfkrUDrqB9m6+CmNdg
+qortmw86gYXcyHfGuy8ljYlt2lqAdb0XLOoHHDdzupE6Bir1N7sELKSdb7KQVZlfBg0Q6Xulpyp7
+ZgLe3fL1q7PRUio//N3XBAxXUvwZgHN9/ks6SOSSH4fvdw1YSIRKYzsybJu5BGGLSRu3HO/maCNE
+2CMyG2zK9hpZjfPR0vfGBC4t5BuQer3g0jJo1eH6ZJyAzoNHgDhmi+OsABOMlFVeYOmgkQuhUDSb
+vkh3I6KDaWhY0tPGSZ7zGrIw2lki+SH2sfCo7CwEHAzvfXYdWEweGECaer5dBPWskGGal2BZfMg4
+JOjDpiWDDL6I484YKuTnx5KmrcwEi/xE49q8nLYJSKZmwS8WafOkBn5uAh7m3j/nyxkDrAZLeR0s
+5OEk7bFGGu4o/yxV1bsNHLm3d/aHjiLmkYdkQs49zrfns+3glPCyLfAB4NlwHuXnAhZyDw+AljkR
+aXTDWLj7SmyLCiZLFQOtc6mjtd6CXNk7X2thTzgjFYyQtf3kWKAXe46M017nngZPceQj/GOGXhbx
+aqLPByzFl8FrobsWPM0UnSVie/HUQN3iopcDFR0w509jPGfmP3fkFmfXTgQsvF9Ac1DDSgM4w7mV
+1PekgwXL+Axc8HOed2tC7hNwWTfyjSnHueSSTvc/hhzmuzXGI+SIdAvdjYNt1XzbNC/H0l5VcsOD
+yy1cCC3IQwlPZYHrVcbXy4i3cCdNVTAUvl86LufBQtqPnHEwha+y44vH5ZMn168yk0lcQdBAfiyv
+jKGlaTCRwF0UH6u62hdKHQraIl99TiFbEJOStXTcg+N5MmmcVbGmMZAxqh+FV2E2uTvcTqJCY13K
+vhNA/aLUgXjrp5lcjn3gBdjoxsiB57ZPYNFVBVHBngag11235dMWumrAd1+KVeSbcLSzwnyncOVL
+zj1hkwZWunvOw1HBj/e6PSjvGonaD2fji2/2TXyRirCJdtgtyUsgY54HOJxMEgKMPvQ7FEAIXoTm
+H8Sqrwyb5gNYP+sxWPKWetOBLW9a3+AqZLPyU6+GJqLjwI6OHu++c1LACrckH4xo/FwCyi0EFDjs
+qX3aNl86no1uIcyQgvuCbEl+IyLYQ9ika66LmAZHhiTuxYEDjx+K6xMOJU1shyJdkNSOQoNsIxfM
+Ovx6ods2HfOpkFGVu7Ah1VEB+8K2/LsAJwSW4xOvql4T0cQFuUAhukXaT4YO2XzOO8fm3kE1UQ7D
+VXuPpE2zDXIqiQnZjwDL9xo4ngN0pHE23T26oKuqIBxyvB3Ixa8OMHtWfl4iHelBG45Irh83WDhl
+mXZ0rPoX2KGf5gJFBFL4Up+yf/4qOGresf5uaSwVQPjJX+xqajpit1D4WthDV4Jr9nC5iwxXV2C5
+y5SAAscRADkbeF2XXwrh8pfBG+d2Fmerz/mIC8nGBRb89HvPMiK/hLA91AWKtB6xOv5uTi9Z/K15
+pSJQYn269wGm9e1YSj9MG2UnC2WfhNCvQ8BU1dDF0HAOT2XxwcUm6gPbVi/bUnssr5vjwH05Cc/0
+J3Eq0iNz7vOi90oGC/fTHBMOiEdxWj2nZ0hGuWd1cPH+G1L//73EcU+o+tBW53E0Qh9G198ZlZWh
+DqBVUVmZbRvtYFexU8j37i3EhVjG23gm/ad8wkoCCwbn2SFdrIGbKtw3xLp0uoJMz2yK2VcAqIcm
+NPJJeBkXc9AxmHMUNpqzK4o7CCHZDsvmGRlkQENZrEsXuF7UN1iIfYjjPr0Ete1qIVp2cJ614xq6
+80mOTMJYd1kTuBjoCshXzXsk5nYOH9fgJUB5xRdYuDTsdgDTSFrGyX9GI7TXw9/vwlg8qxQvwi5D
+Y5SOIHMrsXW6isbjLcRVAG9TZHrZM4VcuWOCZSTMBKzwuHMPFlp2NR7ut3qpN51aKEqIQvlrAIpo
+QLjNMngmZ+RzFWlM7Ad/SrfKlcRZuGLJ0FLphyNCO5s0njsHTiSyVI8G2zZfLJYunZBb9/8CPMjd
+BTh5rs8/gySu6pVqs8j0F41HLRwYYpqzEJ8L00B8xdV4NDA0iNvKZCK1ZHF98bsrS4fgNlymuhZM
+O96TGr89ws92ZFCJRyiOK98xOXgXhf0de+h+P1+chesn9w3r4kkAM9drldPLQy7iY3F/6BsYW57L
+zC/JufXoJOWuquruyoxxGp7kXsI4viYLvhVKJs/SlVhFVr13I04rBpc4sh5pPWrjxqPRuszhLNW8
+8uiwLh/HpjTm3RB7GhCYgcN2Rj9NfDR0qtEl7Zfa8g40J97yYAswEQ5kXHxHU+xyGK2OJnc9Fq5T
+Eluztysz6SvHOlcbBgumwbkBna2CJR51g9AKEezdh03GgAKORuL5lvWIpilsaENlZZSMzUL9VsIO
+TxsG3SxXjuCWPTGOw7gSC7AfPAW2oA6F5MhdL1C0Ncso+dEAV2fiYGJMrh4GC3fEfDOi6VFcRFiY
+mslAJq8NIjxNwV62yLmorFBXb8die4Zwyo0T1wBdeVuoDu7fpPGUgftDJLCJkzJoPz9Ahfolrwiy
+Sl7D7b0L4f750M/whsHiAb2h15InYxaC4w+O9NPlzjqkqqG+N/6xfdPbY+0lDVzIw/XAHDq2Hy2h
+hTwIblhkQUARc0Z7aiiq+9szqW9jj+n7PwIYBitTU/MXRPAuDzJ+dUbh0txdUALISUI3vgLb6N50
+ypxywCiRNtfrQIMCkK9gi7Mss2Txr30HXAz1lyPgs/HaO1JNTU1Dzz53wODCFPt0dPT5cg7qeidA
+Wg8VfBxsPSeKghx+tAropyuPBv1Yg2GdNBOD4ZuqK8vkC0rwVX2La8d9bDYyPquhobfEiZtQdV9A
+kWDGUTvM6hPohlzs6w7H4I+En/xgxOPvC6DIqVeGn6jCO8E9nwJEOsh9Da6WP8hI+I2Uj8tdxxrI
+/wIoLzZxpWndJAAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0078_01D505B9.F0E51010--
+

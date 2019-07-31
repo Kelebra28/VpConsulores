@@ -1,0 +1,1727 @@
+Return-Path: <MD-NO--59986-1067-MX-PR--raymundo=vpconsultores.com.mx@bounces.mdrctr.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id iADCN+MDx1x+2D4AFq4nlA
+	(envelope-from <MD-NO--59986-1067-MX-PR--raymundo=vpconsultores.com.mx@bounces.mdrctr.com>)
+	for <raymundo@vpconsultores.com.mx>; Mon, 29 Apr 2019 07:02:11 -0700
+Return-path: <MD-NO--59986-1067-MX-PR--raymundo=vpconsultores.com.mx@bounces.mdrctr.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Mon, 29 Apr 2019 07:02:11 -0700
+Received: from mta130.120.mdrctr.com ([62.97.130.120]:22387)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <MD-NO--59986-1067-MX-PR--raymundo=vpconsultores.com.mx@bounces.mdrctr.com>)
+	id 1hL6qy-00HQQm-Qh
+	for raymundo@vpconsultores.com.mx; Mon, 29 Apr 2019 07:02:11 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=md2; d=academo.com.mx;
+ h=From:Reply-To:To:Date:List-Id:List-Unsubscribe:Subject:MIME-Version:
+ Content-Type:Message-ID; i=administracion@academo.com.mx;
+ bh=tiz4ce+bbhybQzAS03CjMeh/Oc/E0kUkL60g0A4Aq5M=;
+ b=sbS8+PT+T4eNJ8JNCDRuKZc1bQ3ln+fkgBHITNj28dCZKxVR5kjRl4OyGlVu4iWRE55WD3IEAnoy
+   Z047NAeEiURwDbg5WliwnBedCNaF+OyUzcHbataPoPh1BN8RhSmbmFlMIe8JfDMPCsYXe9QxxMDH
+   FEAKnGgsLCrMFul8IXo=
+Received: from pmta-senderdaemon.antevenio.local (172.16.18.16) by mta141.78.mdrctr.com id hos1t82h5a0t for <raymundo@vpconsultores.com.mx>; Mon, 29 Apr 2019 16:00:35 +0200 (envelope-from <MD-NO--59986-1067-MX-PR--raymundo=vpconsultores.com.mx@bounces.mdrctr.com>)
+From: =?UTF-8?Q?Academo_Delgado=2C_Arag=C3=B3n_y_Asociados?= <administracion@academo.com.mx>
+Reply-To: =?UTF-8?Q?Academo_Delgado=2C_Arag=C3=B3n_y_Asociados?= <administracion@academo.com.mx>
+To:  <raymundo@vpconsultores.com.mx>
+Precedence: bulk
+X-rpcampaign: mdMDNO599861067MXPR
+X-rpcampaignok: mdmdMD-NO--59986-1067-MX-PR
+X-reputation: 5
+Date: Mon, 29 Apr 2019 16:00:35 +0200
+Feedback-ID: 59986:1067:gmailmdrctr
+List-Id: 59986-327.mdrctr.com
+List-Unsubscribe: <mailto:unsubscribe-md59986-1067-327-3200-5bbf8191efc5bbe59f743cb81747b192@bounces.mdrctr.com>, <http://track.mdrctr.com/track/unsubscribe/empId/59986/subId/1067/listId/327/conId/3200/conEmail/raymundo@vpconsultores.com.mx/type/8/motivo/list-unsubscribe/signature/5bbf8191efc5bbe59f743cb81747b192>
+X-LU: <mailto:unsubscribe-md59986-1067-327-3200-5bbf8191efc5bbe59f743cb81747b192@bounces.mdrctr.com>, <http://track.mdrctr.com/track/unsubscribe/empId/59986/subId/1067/listId/327/conId/3200/conEmail/raymundo@vpconsultores.com.mx/type/8/motivo/list-unsubscribe/signature/5bbf8191efc5bbe59f743cb81747b192>
+X-ElasticEmail-Postback: <mailto:unsubscribe-md59986-1067-327-3200-5bbf8191efc5bbe59f743cb81747b192@lists.mdirector.com>, <http://track.mdrctr.com/track/unsubscribe/empId/59986/subId/1067/listId/327/conId/3200/conEmail/raymundo@vpconsultores.com.mx/type/8/motivo/list-unsubscribe/signature/5bbf8191efc5bbe59f743cb81747b192>
+Subject: =?UTF-8?Q?Agenda_acad=C3=A9mica_mayo?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="boundaryTagForMixed"
+Message-ID: <0.0.6.4D.1D4FE93EAEF2AA6.201A66@mta141.78.mdrctr.com>
+X-Spam-Status: No, score=-0.6
+X-Spam-Score: -5
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Publicidad Si no ve correctamente el contenido de este e-mail,
+    puede visualizarlo vía web. //track.mdrctr.com/track/display/empId/59986/subId/1067/listId/327/conId/3200/signature/5bbf8191efc5bbe59f74
+    [...] 
+ 
+ Content analysis details:   (-0.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mdrctr.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mdrctr.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.2 KAM_TRACKIMAGE         RAW: Message has a remote image explicitly meant
+                             for tracking
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -1.0 MAILING_LIST_MULTI     Multiple indicators imply a widely-seen list
+                             manager
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+  0.2 KAM_LOTSOFHASH         Emails with lots of hash-like gibberish
+X-Spam-Flag: NO
+
+--boundaryTagForMixed
+Content-Type: multipart/alternative; boundary="boundaryTagForAlternative"
+
+--boundaryTagForAlternative
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Publicidad=0D
+Si no ve correctamente el contenido de este e-mail, puede visualizarlo v=C3=
+=ADa web.=0D
+//track.mdrctr.com/track/display/empId/59986/subId/1067/listId/327/=
+conId/3200/signature/5bbf8191efc5bbe59f743cb81747b192/conEmail/raymundo@vpconsultores.com.mx/conMovil/-/snapI=
+d/529681/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D=0D
+=0D
+**********************************************************************=0D
+
+Agenda acad=C3=A9mica de mayo 2019
+
+ Excelencia en Capacitaci=C3=B3n
+
+
+Feliz d=C3=ADa del Contador!!!
+
+ Tel: (55) 2155-9436 || administracion@academo.com.mx www.academo.=
+com.mx
+
+Agenda acad=C3=A9mica de mayo 2019
+
+
+
+Ubicaci=C3=B3n de aula: Av. Miguel =C3=81ngel de Quevedo # 8 Interior 50=
+7 Col. Ex Hacienda de Guadalupe
+Chimalistac Delegaci=C3=B3n =C3=81lvaro Obreg=C3=B3n CP 01050 CDMX
+
+
+ Colegio de Contadores p=C3=BAblicos Asociaci=C3=B3n Mexicana de Contadores=
+ P=C3=BAblicos
+ Reg. N=C3=BAmero: CCPM-CE187-0817 Reg. N=C3=BAmero: AMCP/CE/098
+
+
+ 
+
+ Aspectos legales y fiscales del matrimonio y el divorcio
+ Viernes =E2=96=BA
+ 
+ 03 mayo VIDEO
+ L.C. M.D.F. Gadiel Arag=C3=B3n Peralta PRESENTACI=C3=93N
+ 09:00-13:00
+ Inversi=C3=B3n presencial: $1,500.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $950.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ An=C3=A1lisis estructural del ISR de los ingresos patrimoniales
+ Martes =E2=96=BA
+ 
+ 07 mayo VIDEO
+ C.P.C.Luis Guillermo Delgado Pedroza PRESENTACI=C3=93N
+ 09:00-18:00
+ Inversi=C3=B3n presencial: $2,900.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,600.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ NIF D-4: Impuestos a la utilidad
+ Mi=C3=A9rcoles
+ 
+ 08 mayo
+ C.P. Daniel Roberto B=C3=A9jar L=C3=B3pez
+ 09:00-15:00
+ Inversi=C3=B3n presencial: $2,200.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,320.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ Consideraciones para la mejor pensi=C3=B3n IMSS / ISSSTE
+ Mi=C3=A9rcoles =E2=96=BA
+ 
+ 08 mayo VIDEO
+ C.P.C. Cecilia Bravo Navarro PRESENTACI=C3=93N
+ 15:00-20:00
+ Inversi=C3=B3n presencial: $1,850.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,175.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ Relaci=C3=B3n con las autoridades fiscales II, defensa fiscal
+ Jueves =E2=96=BA
+ 
+ 16 mayo VIDEO
+ Lic. Rafael Rivera Prado PRESENTACI=C3=93N
+ 09:00-14:00
+ Inversi=C3=B3n presencial: $1,850.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,175.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ Actualizaci=C3=B3n integral en obligaciones en materia de lavado de
+ dinero (Repercusiones legales y patrimoniales. Incluye transitorio
+ Viernes de Ley de Ingresos) =E2=96=BA
+
+ 17 mayo  VIDEO
+ PRESENTACI=C3=93N
+ 15:00-20:00 L.C. M.D.F. Gadiel Arag=C3=B3n Peralta
+
+ Inversi=C3=B3n presencial: $1,850.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,175.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ Dividendos y enajenaci=C3=B3n de acciones
+ S=C3=A1bado =E2=96=BA
+ 
+ 18 mayo VIDEO
+ C.P.C.Luis Guillermo Delgado Pedroza PRESENTACI=C3=93N
+ 09:00-15:00
+ Inversi=C3=B3n presencial: $2,200.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,320.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ Estrategias fiscales de planeaci=C3=B3n
+ Mi=C3=A9rcoles =E2=96=BA
+ 
+ 22 mayo VIDEO
+ L.C. M.D.F. Gadiel Arag=C3=B3n Peralta PRESENTACI=C3=93N
+ 09:00-18:00
+ Inversi=C3=B3n presencial: $3,200.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,800.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ Contabilidad electr=C3=B3nica aplicada con CFDIs en COI v8.0
+ Jueves =E2=96=BA
+ 
+ 23 mayo VIDEO
+ L.C. Israel Minero Atrian PRESENTACI=C3=93N
+ 09:00-15:00
+ Inversi=C3=B3n presencial: $1,950.00 m=C3=A1s I.V.A.
+
+ *Indispensable Traer: computadora con Excel.
+
+
+
+ 
+
+ An=C3=A1lisis integral de la resoluci=C3=B3n miscel=C3=A1nea Actualiza=
+da 2019
+ Viernes =E2=96=BA
+ 
+ 24 mayo VIDEO
+ C.P.C.Luis Guillermo Delgado Pedroza PRESENTACI=C3=93N
+ 09:00-15:00
+ Inversi=C3=B3n presencial: $2,200.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,320.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ Nuevas reglas de compensaciones, acreditamientos y devoluciones
+ Viernes =E2=96=BA
+ 
+ 24 mayo VIDEO
+ L.C. M.D.F. Gadiel Arag=C3=B3n Peralta PRESENTACI=C3=93N
+ 15:00-20:00
+ Inversi=C3=B3n presencial: $1,850.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,175.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ R=C3=A9gimen fiscal de sociedades financieras de objeto m=C3=BAltiple
+ Martes =E2=96=BA
+ 
+ 28 mayo VIDEO
+ L.C. M.D.F. Gadiel Arag=C3=B3n Peralta PRESENTACI=C3=93N
+ 15:00-20:00
+ Inversi=C3=B3n presencial: $1,850.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,175.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ Estrategias patrimoniales de transferencia de recursos a los
+ Mi=C3=A9rcoles accionistas
+ =E2=96=BA
+ 29 mayo 
+ VIDEO
+ 09:00-14:00 L.C. M.D.F. Gadiel Arag=C3=B3n Peralta PRESENTACI=C3=93N
+
+ Inversi=C3=B3n presencial: $2,150.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,350.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ AGAPES Tratamiento, facilidades y est=C3=ADmulos para el sector
+ Mi=C3=A9rcoles primario
+ =E2=96=BA
+ 29 mayo 
+ VIDEO
+ 15:00-20:00 C.P.C.Luis Guillermo Delgado Pedroza PRESENTACI=C3=93N
+
+ Inversi=C3=B3n presencial: $1,850.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,175.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ SIDEIMSS nuevo sistema de dictamen electr=C3=B3nico del IMSS
+ Jueves =E2=96=BA
+ 
+ 30 mayo VIDEO
+ C.P.C. Cecilia Bravo Navarro PRESENTACI=C3=93N
+ 09:00-14:00
+ Inversi=C3=B3n presencial: $1,850.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,175.00 m=C3=A1s I.V.A.
+
+
+
+Facebook Twitter Youtube
+
+References:
+
+ tel:5521559436
+ mailto:administracion@academo.com.mx
+ //track.mdrctr.com/track/link/key/59986-1067-28055-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484/
+ //track.mdrctr.com/track/link/key/59986-1067-28056-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28057-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28058-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28059-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28060-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28061-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28062-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28063-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28064-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28065-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28066-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28067-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28068-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28069-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28070-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28071-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28072-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28073-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28074-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28075-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28076-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28077-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28078-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28079-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28080-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28081-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28082-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28083-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28084-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28128-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28129-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28130-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28131-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28132-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28090-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28091-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28092-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28093-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28094-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28095-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28096-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28097-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28098-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28099-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28100-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28101-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28102-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28103-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28104-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28105-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28106-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28107-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28108-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28109-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28085-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28086-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28087-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28088-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28089-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28110-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28111-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28112-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28113-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28114-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28115-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28116-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28117-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28118-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28119-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28120-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28121-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28122-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28123-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28124-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28125-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28126-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-1067-28127-327-3200-=
+529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484
+ =0D
+**********************************************************************=0D
+=0D
+Puede proceder a:=0D
+ * darse de baja:=0D
+//track.mdrctr.com/track/pre-unsubscribe/category/EMAIL/empId/59986/subId/=
+1067/listId/327/conId/3200/signature/5bbf8191efc5bbe59f743cb81747b192/conEmail/raymundo@vpconsultores.com.mx=
+/conMovil/-/snapId/529681=0D
+
+
+--boundaryTagForAlternative
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+ <title>Academo</title>
+ <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><=
+meta name=3D"viewport" content=3D"width=3Ddevice-width, user-scalable=3Dno,=
+ initial-scale=3D1.0, maximum-scale=3D1.0, minimum-scale=3D1.0">
+ <style type=3D"text/css">#legales { font-size:9px; display:block; width:60=
+%; margin:auto; text-align:center; padding:2% 0%; color:#666;}
+#boton { width:40%; display:block; margin:auto; padding:2% 0%;}
+.datos {font-size:13px; color:#444444;}
+
+@media screen and (max-width: 400px) {
+=20
+ .datos {font-size:12px;}
+ #boton { width:80%;}
+ #legales { width:90%; margin:auto;
+=20
+}
+ </style>
+</head>
+<body bgcolor=3D"#FFFFFF" leftmargin=3D"0" marginheight=3D"0" marginwidth=
+=3D"0" topmargin=3D"0"><img src=3D"http://track.mdrctr.com/track/open/key/5=
+9986-1067-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"display:none;" border=3D0 width=3D1 height=3D1 alt=3D""><table=
+ border=3D"0" style=3D"max-width:570px;" cellspacing=3D"4" cellpadding=3D"0"
+	align=3D"center">
+	<tr>
+		<td><font face=3D"Verdana" color=3D"#8c8c8c" size=3D"1">Publicidad</font>=
+</td>
+	</tr>
+</table>
+<table border=3D"0" style=3D"max-width:570px;" cellspacing=3D"4" cellpaddin=
+g=3D"0"
+	align=3D"center">
+	<tr>
+		<td width=3D"100%"><font face=3D"Verdana" color=3D"#8c8c8c" size=3D"1">Si=
+ no
+		ve correctamente el contenido de este e-mail, puede <a
+			style=3D"color: #FF8549;" target=3D"_blank"
+			href=3D"http://track.mdrctr.com/track/display/empId/59986/subId/1067/=
+listId/327/conId/3200/signature/5bbf8191efc5bbe59f743cb81747b192/conEmail/raymundo@vpconsultores.com.mx/conMov=
+il/-/snapId/529681/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D">visualizarlo v&iacute=
+;a web</a>.</font></td>
+	</tr>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:aut=
+o; margin:0 auto; vertical-align:middle; width:600px">
+ <tbody>
+ <tr>
+ <td colspan=3D"5" style=3D"font-family: arial !important;color:#ffffff;bac=
+kground-color:#0b568f;"><img alt=3D"Agenda acad&#233;mica de mayo 2019" src=
+=3D"http://static.mdirector.com/files/campanias/59986/userfiles/images/mail=
+_header(3).jpg" style=3D"display:block; height:185px; width:600px" title=3D=
+"Agenda acad&#233;mica de mayo 2019" /></td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"height: 5px;background-color: #0c4475;">&nbsp;<=
+/td>
+ </tr>
+ <tr>
+ <th colspan=3D"5" style=3D"font-family: arial;color:#ffffff;background-col=
+or:#0374ba;height: 50px;">
+ <h2 style=3D"padding:0;margin: 0;">Excelencia en Capacitaci&oacute;n</h2>
+ </th>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"font-family: arial;color:#ffffff;background-col=
+or:#0b568f;font-weight:bold;text-align: center;font-size: 12pt;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"height: 2px; background-color: rgb(255, 130, 3)=
+; text-align: center;"><span style=3D"color:#FFF0F5"><span style=3D"font-si=
+ze:24px"><strong>Feliz d&iacute;a del Contador!!!</strong></span></span></t=
+d>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"height: 5px;background-color: #0b568f;">&nbsp;<=
+/td>
+ </tr>
+ <tr>
+ <td height=3D"40" style=3D"background-color: #0b568f;" width=3D"20">&nbsp;=
+</td>
+ <td colspan=3D"3" style=3D"font-family: arial;color:#ff8203;background-col=
+or:#0b568f;font-weight:bold;text-align: center;">&nbsp; Tel: <a href=3D"tel=
+:5521559436" style=3D"color:#ffffff;font-family: arial;font-weight: bold">(=
+55) 2155-9436</a> || <a href=3D"mailto:administracion@academo.com.mx" style=
+=3D"color:#ffffff;font-family: arial;font-weight: bold;">administracion@aca=
+demo.com.mx</a>&nbsp; <a data-linkid=3D"link_5cc32d463322b" href=3D"http://=
+track.mdrctr.com/track/link/key/59986-1067-28055-327-3200-529681/=
+signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=
+=3D"color:#ff8203;font-family: arial;font-weight: bold;font-size: 18px; ">w=
+ww.academo.com.mx</a></td>
+ <td style=3D"background-color: #0b568f;" width=3D"20">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"height: 10px;background-color: #0b568f;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color:#ff8203;color: #ffffff;font-fa=
+mily: arial;">
+ <h2 style=3D"padding:0;margin: 0;text-align: center;">Agenda acad&eacute;m=
+ica de mayo 2019</h2>
+ </td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #0c4475;height: 5px;">&nbsp;<=
+/td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #0c4475;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"color: #ffffff;font-family: arial;font-size: 15=
+px;font-weight: bold;background-color: #0c4475;height: 10px;text-align: cen=
+ter;">Ubicaci&oacute;n de aula: <a data-linkid=3D"link_5cc32d4633394" href=
+=3D"http://track.mdrctr.com/track/link/key/59986-1067-28056-327-=
+3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"color: #ffffff;font-family: arial;font-size: 15px;font-weight=
+: bold;"> Av. Miguel &Aacute;ngel de Quevedo # 8 Interior 507 Col. Ex Hacie=
+nda de Guadalupe Chimalistac Delegaci&oacute;n &Aacute;lvaro Obreg&oacute;n=
+ CP 01050 CDMX</a></td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #0c4475;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"height: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td colspan=3D"3">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100=
+%">
+ <tbody>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ffffff;text-align: center;color:#ffffff;he=
+ight: 40px;text-align: center;"><img alt=3D"Colegio de Contadores p&#250;bl=
+icos" src=3D"http://static.mdirector.com/files/campanias/59986/1/0/4/9/CAM/=
+CCPM_IMCI.jpg" style=3D"color:#ff8203" /></td>
+ <td style=3D"background-color: #ffffff;width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ffffff;text-align: center;"><img alt=3D"As=
+ociaci&#243;n Mexicana de Contadores P&#250;blicos" src=3D"http://static.md=
+irector.com/files/campanias/59986/1/0/4/9/CAM/AMCP.jpg" style=3D"color:#ff8=
+203" /></td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;height:30px!important;">&nbsp;</td>
+ <td style=3D"background-color: #ffffff;text-align: center;color:#ffffff;he=
+ight: 30px;text-align: center;vertical-align: top;">
+ <h4 style=3D"color: #909090;margin:5px 0px;text-align: center;font-family:=
+ 'Times New Roman', Times, serif">Reg. N&uacute;mero: CCPM-CE187-0817</h4>
+ </td>
+ <td style=3D"background-color: #ffffff;width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ffffff;text-align: center;vertical-align: =
+top;">
+ <h4 style=3D"color: #909090;margin:5px 0px;text-align: center;font-family:=
+ 'Times New Roman', Times, serif">Reg. N&uacute;mero: AMCP/CE/098</h4>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Viernes</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">03 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">09:00-13:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32d4633=
+4ec" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28057-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32d4633634" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28058-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">Aspe=
+ctos legales y fiscales del matrimonio y el divorcio </span></a></h2>
+ <a data-linkid=3D"link_5cc32d4633754" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28059-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>L.C. M.D.F. Gadiel Arag&oacute;n Peralta</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $1,500.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $950.0=
+0 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32d463389c" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28060-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32d46339b5" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28061-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Martes</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">07 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">09:00-18:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32d4633=
+ae3" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28062-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32d4633bf6" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28063-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">An&a=
+acute;lisis estructural del ISR de los ingresos patrimoniales </span></a></=
+h2>
+ <a data-linkid=3D"link_5cc32d4633cfa" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28064-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>C.P.C.Luis Guillermo Delgado Pedroza</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $2,900.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,600=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32d4633e26" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28065-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32d4633f33" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28066-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Mi&eacute;rcoles</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">08 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">09:00-15:00</p>
+ </td>
+ <td colspan=3D"2" style=3D"background-color: #afafaf;"><a data-linkid=3D"l=
+ink_5cc32d463406b" href=3D"http://track.mdrctr.com/track/link/key/59986-106=
+7-28067-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/=
+Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_bla=
+nk">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32d4634188" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28068-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">NIF =
+D-4: Impuestos a la utilidad </span></a></h2>
+ <a data-linkid=3D"link_5cc32d463429a" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28069-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>C.P. Daniel Roberto B&eacute;jar L&oacute;pez</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $2,200.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,320=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Mi&eacute;rcoles</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">08 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">15:00-20:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32d4634=
+3d7" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28070-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32d4634502" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28071-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">Cons=
+ideraciones para la mejor pensi&oacute;n IMSS / ISSSTE </span></a></h2>
+ <a data-linkid=3D"link_5cc32d4634666" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28072-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>C.P.C. Cecilia Bravo Navarro</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $1,850.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,175=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32d46347ed" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28073-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32d463494c" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28074-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Jueves</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">16 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">09:00-14:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32d4634=
+a95" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28075-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32d4634c0b" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28076-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">Rela=
+ci&oacute;n con las autoridades fiscales II, defensa fiscal </span></a></h2>
+ <a data-linkid=3D"link_5cc32d4634d2a" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28077-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>Lic. Rafael Rivera Prado</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $1,850.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,175=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32d4634e79" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28078-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32d4634fd3" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28079-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Viernes</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">17 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">15:00-20:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32d4635=
+11e" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28080-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32d4635268" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28081-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">Actu=
+alizaci&oacute;n integral en obligaciones en materia de lavado de dinero (R=
+epercusiones legales y patrimoniales. Incluye transitorio de Ley de Ingreso=
+s) </span></a></h2>
+ <a data-linkid=3D"link_5cc32d4635382" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28082-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>L.C. M.D.F. Gadiel Arag&oacute;n Peralta</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $1,850.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,175=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32d46354b5" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28083-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32d46355f3" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28084-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">S&aacute;bado</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">18 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">09:00-15:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32e87d7=
+de6" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28128-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32e87d8075" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28129-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">Divi=
+dendos y enajenaci&oacute;n de acciones</span></a></h2>
+ <a data-linkid=3D"link_5cc32e87d8304" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28130-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>C.P.C.Luis Guillermo Delgado Pedroza</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $2,200.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,320=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32e87d8594" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28131-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32e87d8816" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28132-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Mi&eacute;rcoles</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">22 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">09:00-18:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32d4635=
+f3e" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28090-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32d463607f" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28091-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">Estr=
+ategias fiscales de planeaci&oacute;n </span></a></h2>
+ <a data-linkid=3D"link_5cc32d46361c4" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28092-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>L.C. M.D.F. Gadiel Arag&oacute;n Peralta</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $3,200.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,800=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32d4636317" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28093-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32d463649d" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28094-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Jueves</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">23 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">09:00-15:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32d4636=
+5ed" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28095-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32d4636777" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28096-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">Cont=
+abilidad electr&oacute;nica aplicada con CFDIs en COI v8.0 </span></a></h2>
+ <a data-linkid=3D"link_5cc32d46368bc" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28097-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>L.C. Israel Minero Atrian</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $1,950.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">*Indispensable Traer: computadora con Ex=
+cel.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32d4636a79" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28098-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32d4636bde" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28099-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Viernes</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">24 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">09:00-15:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32d4636=
+d5e" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28100-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><span style=3D"text-decoration:none"><a data-linkid=3D"li=
+nk_5cc32d4636ee3" href=3D"http://track.mdrctr.com/track/link/key/59986-1067=
+-28101-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/=
+Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blan=
+k"><span style=3D"color:#0000FF">An&aacute;lisis integral de la resoluci&oa=
+cute;n miscel&aacute;nea Actualizada</span></a><span style=3D"color:#0000FF=
+">&nbsp;2019</span></span></h2>
+ <a data-linkid=3D"link_5cc32d4637031" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28102-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>C.P.C.Luis Guillermo Delgado Pedroza</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $2,200.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,320=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32d4637190" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28103-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32d4637378" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28104-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Viernes</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">24 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">15:00-20:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32d4637=
+4eb" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28105-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32d4637655" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28106-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">Nuev=
+as reglas de compensaciones, acreditamientos y devoluciones </span></a></h2>
+ <a data-linkid=3D"link_5cc32d4637789" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28107-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>L.C. M.D.F. Gadiel Arag&oacute;n Peralta</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $1,850.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,175=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32d46378e3" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28108-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32d4637a3e" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28109-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Martes</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">28 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">15:00-20:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32d4635=
+7eb" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28085-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32d463597f" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28086-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">R&ea=
+cute;gimen fiscal de sociedades financieras de objeto m&uacute;ltiple </spa=
+n></a></h2>
+ <a data-linkid=3D"link_5cc32d4635af0" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28087-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>L.C. M.D.F. Gadiel Arag&oacute;n Peralta</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $1,850.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,175=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32d4635c69" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28088-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32d4635dbf" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28089-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Mi&eacute;rcoles</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">29 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">09:00-14:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32d4637=
+b9d" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28110-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32d4637d12" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28111-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">Estr=
+ategias patrimoniales de transferencia de recursos a los accionistas </span=
+></a></h2>
+ <a data-linkid=3D"link_5cc32d4637e6c" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28112-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>L.C. M.D.F. Gadiel Arag&oacute;n Peralta</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $2,150.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,350=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32d4637fc5" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28113-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32d4638104" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28114-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Mi&eacute;rcoles</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">29 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">15:00-20:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32d4638=
+23a" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28115-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32d463839b" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28116-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">AGAP=
+ES Tratamiento, facilidades y est&iacute;mulos para el sector primario </sp=
+an></a></h2>
+ <a data-linkid=3D"link_5cc32d46384eb" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28117-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>C.P.C.Luis Guillermo Delgado Pedroza</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $1,850.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,175=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32d46386ad" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28118-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32d463884b" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28119-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Jueves</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">30 mayo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">09:00-14:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5cc32d4638=
+a40" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28120-=
+327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5cc32d4638c11" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-1067-28121-327-3200-529681/sign=
+ature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"t=
+ext-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">SIDE=
+IMSS nuevo sistema de dictamen electr&oacute;nico del IMSS </span></a></h2>
+ <a data-linkid=3D"link_5cc32d4638dcc" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-1067-28122-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192=
+/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: n=
+one;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>C.P.C. Cecilia Bravo Navarro</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $1,850.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,175=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5cc32d4638f85" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-1067-28123-327-3200-529681/signa=
+ture/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5cc32d4639189" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-1067-28124-327-3200-529681/signature/=
+5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorat=
+ion: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></=
+p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"text-align: center;"><a data-linkid=3D"link_5cc=
+32d46393a6" href=3D"http://track.mdrctr.com/track/link/key/59986-1067-28125=
+-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/=
+userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;"><img alt=3D"Facebook"=
+ src=3D"http://static.mdirector.com/files/campanias/59986/1/0/4/9/CAM/face.=
+png" /> </a> <a data-linkid=3D"link_5cc32d4639549" href=3D"http://track.mdr=
+ctr.com/track/link/key/59986-1067-28126-327-3200-529681/signature=
+/5bbf8191efc5bbe59f743cb81747b192/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"margin=
+:0 5px;text-decoration: none;"> <img alt=3D"Twitter" src=3D"http://static.m=
+director.com/files/campanias/59986/1/0/4/9/CAM/twitt.png" /> </a> <a data-l=
+inkid=3D"link_5cc32d4639726" href=3D"http://track.mdrctr.com/track/link/key=
+/59986-1067-28127-327-3200-529681/signature/5bbf8191efc5bbe59f743cb81747b192/contactIn=
+fo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD0xMDY3fn5lbnZJZD01NDh%2Bfmxpc3RJZD0zMjd%2BfnNuYXBJZD01Mjk2ODF%2Bfm1kUGFydHM9MX5%2BbWRFbWFpbE1ENT05ZTI1OGIyNDk0Y2ZjNjJiMGU2Y2ViYThhMzcwYzQ4NH5%2BbWRFbWFpbFNIQTI1Nj1jYWJjMTg3NmNjZTRkZWZkNWEzOTY1NTgwNTc3MGUxMmMyNTQzM2JmMDQ0NzBmZTJiM2RiNGU5NzlhYjQxNmVjfn5yZWdpc3RlckRhdGU9MjAxOC0xMS0wMSAyMzowNTo1Nn5%2BbWREZWxpdmVyeURhdGU9MjAxOS0wNC0yOSAwOTowMDowMH5%2BY29uX21kNT0yYzFjZGY0M2ZkOGI2MDY4NTE1MjgyZTc4ZTQxOGJiYw%3D%3D/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;"> <im=
+g alt=3D"Youtube" src=3D"http://static.mdirector.com/files/campanias/59986/=
+1/0/4/9/CAM/you.png" /> </a></td>
+ </tr>
+ </tbody>
+</table>
+<table style=3D"max-width:550px;" width=3D"" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" align=3D"center">
+    <tr>
+        <td style=3D"max-width:6px;" height=3D"6">
+            <img src=3D"http://static.mdirector.com/images/email/footer/esq=
+_sup_izq.gif" alt=3D"">
+        </td>
+        <td style=3D"max-width:538px;" bgcolor=3D"#ffffff"></td>
+        <td style=3D"max-width:6px;" height=3D"6">
+            <img src=3D"http://static.mdirector.com/images/email/footer/esq=
+_sup_dcha.gif" alt=3D"">
+        </td>
+    </tr>
+    <tr>
+        <td style=3D"max-width:6px;" bgcolor=3D"#ffffff"></td>
+        <td style=3D"max-width:538px;" bgcolor=3D"#ffffff" valign=3D"top" a=
+lign=3D"justify">
+            <font size=3D"1" color=3D"#8c8c8c" face=3D"Verdana">
+            Para dejar de recibir estas comunicaciones haga clic en
+            <a style=3D"color: #FF8549;" href=3D'http://track.mdrctr.com/tr=
+ack/pre-unsubscribe/category/EMAIL/empId/59986/subId/1067/listId/=
+327/conId/3200/signature/5bbf8191efc5bbe59f743cb81747b192/conEmail/raymundo@vpconsultores.com.mx/conMovil/-/sna=
+pId/529681'>baja</a>.
+            </font>
+        </td>
+        <td style=3D"max-width:6px;" bgcolor=3D"#ffffff"></td>
+    </tr>
+    <tr>
+        <td style=3D"max-width:6px;" height=3D"6">
+            <img src=3D"http://static.mdirector.com/images/email/footer/esq=
+_inf_izq.gif" alt=3D"">
+        </td>
+        <td style=3D"max-width:538px;" bgcolor=3D"#ffffff"></td>
+        <td style=3D"max-width:6px;" height=3D"6">
+            <img src=3D"http://static.mdirector.com/images/email/footer/esq=
+_inf_dcha.gif" alt=3D"">
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
+
+--boundaryTagForAlternative--
+
+--boundaryTagForMixed--

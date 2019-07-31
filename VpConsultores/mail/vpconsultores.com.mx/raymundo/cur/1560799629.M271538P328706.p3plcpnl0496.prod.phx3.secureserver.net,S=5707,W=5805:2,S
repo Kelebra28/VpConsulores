@@ -1,0 +1,98 @@
+Return-Path: <paty-perez-a@hotmail.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id 2AYWEI3pB10CBAUAFq4nlA
+	(envelope-from <paty-perez-a@hotmail.com>)
+	for <raymundo@vpconsultores.com.mx>; Mon, 17 Jun 2019 12:27:09 -0700
+Return-path: <paty-perez-a@hotmail.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Mon, 17 Jun 2019 12:27:09 -0700
+Received: from mail-oln040092010109.outbound.protection.outlook.com ([40.92.10.109]:15111 helo=NAM04-CO1-obe.outbound.protection.outlook.com)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <paty-perez-a@hotmail.com>)
+	id 1hcxHU-001Vqr-Q4
+	for raymundo@vpconsultores.com.mx; Mon, 17 Jun 2019 12:27:09 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Ko86eTdCj+WOMCk+aT68Z60oID1cds9EVSHAPUf+zUM=;
+ b=g/lHE+2gi6JZSCcjZLRTL62rtSp8FSq7ttT3YaBWIlBRLvZlLsZtl+mA2DiTYlQCVqMHj+Vlo/nc7hOMXpORXIJifE5zpX0DTrmzwVmbdMiCCyRCBeYUJUJ9ZkOvwoDqRmUCMyBHAaTCrXg/WjquX86O3hDdhRyx7mK+aahCK22yvYZ2HqAffPCNtaU+0vF/vXc7xELk3mICykIwAS4VnwzDyUpA0yUSYfS9Rrip6/ejLu+MKi+hOsBz8PqEY5W7kXp/Yw4q6nutrkubLuM+aH8GfI5g4E02vzhz5yGKk+xBPrmV7OpmIlZcVaaxE7LcJYNcbZ7U9Be6es2tP6Gg0g==
+Received: from CO1NAM04FT009.eop-NAM04.prod.protection.outlook.com
+ (10.152.90.56) by CO1NAM04HT046.eop-NAM04.prod.protection.outlook.com
+ (10.152.91.28) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1987.11; Mon, 17 Jun
+ 2019 19:26:16 +0000
+Received: from CY4PR20MB1190.namprd20.prod.outlook.com (10.152.90.56) by
+ CO1NAM04FT009.mail.protection.outlook.com (10.152.90.137) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.1987.11 via Frontend Transport; Mon, 17 Jun 2019 19:26:16 +0000
+Received: from CY4PR20MB1190.namprd20.prod.outlook.com
+ ([fe80::3c82:18a9:4a89:476a]) by CY4PR20MB1190.namprd20.prod.outlook.com
+ ([fe80::3c82:18a9:4a89:476a%5]) with mapi id 15.20.1987.014; Mon, 17 Jun 2019
+ 19:26:16 +0000
+From: Patricia Perez <paty-perez-a@hotmail.com>
+To: "raymundo@vpconsultores.com.mx" <raymundo@vpconsultores.com.mx>
+Subject: Prueba 
+Thread-Topic: Prueba 
+Thread-Index: AQHVJUKIPSGohzKn0U+qjvyd6qV5Vw==
+Date: Mon, 17 Jun 2019 19:26:15 +0000
+Message-ID: <CY4PR20MB11900184E5BBDD2C4BB1AF7ECAEB0@CY4PR20MB1190.namprd20.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: aa
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-incomingtopheadermarker: OriginalChecksum:70801A759DFD941FD91BAB1862F7BBEA2AFBD5D36D38E733D052F171FCDF529D;UpperCasedChecksum:A0B34D0FFFC6446E0471D46AC3851860093EAE04D6F35252F44FE77065C1DFFF;SizeAsReceived:6641;Count:41
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [u1/Hg92MudKq3/wbK3Ytpo30QQFFw4BAky6gfv78UGH5QtN22EduxP706+ee3KfV]
+x-ms-publictraffictype: Email
+x-incomingheadercount: 41
+x-eopattributedmessage: 0
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(2390118)(5050001)(7020095)(20181119110)(201702061078)(5061506573)(5061507331)(1603103135)(2017031320274)(2017031323274)(2017031324274)(2017031322404)(1601125500)(1603101475)(1701031045);SRVR:CO1NAM04HT046;
+x-ms-traffictypediagnostic: CO1NAM04HT046:
+x-microsoft-antispam-message-info: Hwrbki9NiyBB9cAZUY7CgTJHeKjSJK4n3ilIiwMQBrxdbcOPPpekxKfSZBE+kgA2s4ufvUfAkeNBoXd7pDy/XpJv6HuLDUtxN8JmdKaZ58CHSHa5nRZaV+HxVrvFMrQMhfyNvGCjRWILgdkBmDFxAVcqlhg4GKcPZKuYzRkdHET9zM3+wWkb/SLZrjBDrz62
+Content-Type: text/plain; charset="us-ascii"
+Content-ID: <9A5932163FEEE84DAC4EFFEF49216C73@sct-15-20-1580-16-msonline-outlook-ef1d2.templateTenant>
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-OriginatorOrg: hotmail.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 4e3d8d33-0ac3-4865-adfc-08d6f359aab2
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-originalarrivaltime: 17 Jun 2019 19:26:16.0198
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1NAM04HT046
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Enviado desde mi iPhone 
+ 
+ Content analysis details:   (-0.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider (paty-perez-a[at]hotmail.com)
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+
+
+Enviado desde mi iPhone

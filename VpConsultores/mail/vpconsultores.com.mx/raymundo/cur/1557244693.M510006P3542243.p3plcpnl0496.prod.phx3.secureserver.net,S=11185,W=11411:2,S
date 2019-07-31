@@ -1,0 +1,226 @@
+Return-Path: <bsc@eventosenlineamx.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id MNpKHhWr0VzjDDYAFq4nlA
+	(envelope-from <bsc@eventosenlineamx.com>)
+	for <raymundo@vpconsultores.com.mx>; Tue, 07 May 2019 08:58:13 -0700
+Return-path: <bsc@eventosenlineamx.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Tue, 07 May 2019 08:58:13 -0700
+Received: from mail.eventosenlineamx.com ([46.165.210.165]:29071)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1:DHE-RSA-AES256-SHA:256)
+	(Exim 4.91)
+	(envelope-from <bsc@eventosenlineamx.com>)
+	id 1hO2To-00EutD-OD
+	for raymundo@vpconsultores.com.mx; Tue, 07 May 2019 08:58:13 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=evlm; d=eventosenlineamx.com;
+ h=Date:Subject:To:From:Reply-To:MIME-Version:Content-Type:Message-ID; i=bsc@eventosenlineamx.com;
+ bh=jMdXqC4Bu10IU3/U43H/wM/858c=;
+ b=LgplypUqD1Cz1NFx+RhYgpMMv1f37IMed5UEXJyQg0Egvvdqs2Jmqn43zGYQC6TSOcsBba0N7OgZ
+   D2e8v/VXH0cpvzPZGRiHKmTAsop2MqfpA2G6tBjST7JoQQCP6MNJHDN1Aj9cLnys7RLvD1tP3zMB
+   LZXq/ISZvaU6TeF7FVM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=evlm; d=eventosenlineamx.com;
+ b=bmjCRUuOBImdgWiESlwHJgBQdhFkoFZzoLFwgfTaekGZtRjnrLtBfSYE+zJVhpBq4GUjKaqszmdc
+   dWsFYw6w6b9D5ogb/rkONIn2uJ4fhwFBwgJjMZfLr2ESA6UzrXn95F5xGt1VsrRdLi88b/udulFx
+   b3sq6UzQst5q6vqh0wg=;
+Received: from s83409 (46.165.210.168) by mail.eventosenlineamx.com id hq6lf80our02 for <raymundo@vpconsultores.com.mx>; Tue, 7 May 2019 10:56:58 -0500 (envelope-from <bsc@eventosenlineamx.com>)
+Date: Tue, 07 May 2019 10:56:58 -0500
+Subject: BSC
+To: raymundo@vpconsultores.com.mx
+From: Cursos ONLINE<bsc@eventosenlineamx.com>
+X-Sender: GhostMailer <bsc@eventosenlineamx.com>
+X-Mailer: PHP/7.3.4
+Reply-To:<bsc@eventosenlineamx.com>
+MIME-Version: 1.0
+X-Priority: 0
+Content-Type: multipart/alternative;boundary=np5cd1aaca4a763
+Message-ID:<f27747d3dc35d0905597e62d3084e338@eventosenlineamx.com>
+X-Spam-Status: No, score=2.6
+X-Spam-Score: 26
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  BALANCED SCORECARD APLICACIÓN E IMPLEMENTACIÓN. ¿Conoce
+    El BSC?¿Sabia Usted que es un poderoso instrumento para medir el desempeño
+    corporativo?. Es la herramienta más efectiva para enlazar la visión, misión
+    y la estrategia a cinco medidas de [...] 
+ 
+ Content analysis details:   (2.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: eventosenlineamx.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: eventosenlineamx.com]
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+              [Blocked - see <https://www.spamcop.net/bl.shtml?46.165.210.165>]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_FONT_SIZE_LARGE   BODY: HTML font size is large
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 AC_BR_BONANZA          RAW: Too many newlines in a row... spammy template
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of
+                             empty lines
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE_HTML RAW: Spam that has large block of
+                              empty html lines
+X-Spam-Flag: NO
+
+This is a MIME encoded message.
+
+--np5cd1aaca4a763
+Content-Type: text/plain; charset=utf-8
+
+BALANCED SCORECARD
+APLICACIÓN E IMPLEMENTACIÓN.
+ 
+    ¿Conoce El BSC?¿Sabia Usted que es un poderoso instrumento para medir el desempeño corporativo?. Es la herramienta más efectiva para enlazar la visión, misión y la estrategia a cinco medidas de desempeño. Además permite ofrecer una visión completa de la organización. 
+
+    Le invito a que conozca todos los beneficios  de esta metodologia participando en este CURSO ONLINE en VIVO, este 24 de Mayo de la mano de nuestro experto aprendera a centrarse en los indicadores de cada proceso crítico tales como: plan de negocio, distribución de recursos, estrategias y retroalimentación, aprendizaje, comportamiento ante los clientes internos y externos y hacia acciones comunitarias.
+
+Si le interesa recibir el PDF con el temario completo y como participar llame al 01800 212 9393 o responda este email con sus datos.
+---------------------------------------------------------------------------
+Nombre-　 　
+Teléfono-　 　
+Correo Corporativo-　 　
+Correo Personal-　 　
+---------------------------------------------------------------------------
+WhatsApp: 55 5154 9546
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Para dejar de recibir invitaciones de este dominio, responda con el asunto BAJA
+
+
+--np5cd1aaca4a763
+Content-type: text/html; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o = "urn:schemas-microsoft-com:office:office"><HEAD></HEAD>
+<BODY>
+<P><FONT color=#800000><FONT face=Constantia><FONT size=6>BALANCED 
+SCORECARD</FONT><BR></FONT></FONT><FONT color=#800000><FONT 
+face=Constantia><STRONG>APLICACI&#211;N E 
+IMPLEMENTACI&#211;N</STRONG>.<BR></FONT></FONT>&nbsp;<BR>&nbsp;&nbsp;&nbsp; &#191;Conoce 
+El BSC?&#191;Sabia Usted que es un&nbsp;poderoso instrumento para medir el desempe&#241;o 
+corporativo?. Es la herramienta m&#225;s efectiva para enlazar la visi&#243;n, misi&#243;n y la 
+estrategia a cinco medidas de desempe&#241;o. Adem&#225;s permite ofrecer una visi&#243;n 
+completa de la organizaci&#243;n. <BR><BR>&nbsp;&nbsp;&nbsp; Le invito a que conozca 
+todos los beneficios&nbsp; de esta metodologia participando en este CURSO ONLINE 
+en VIVO, este 24 de Mayo de la mano de nuestro experto aprendera a centrarse en 
+los indicadores de cada proceso cr&#237;tico tales como: plan de negocio, 
+distribuci&#243;n de recursos, estrategias y retroalimentaci&#243;n, aprendizaje, 
+comportamiento ante los clientes internos y externos y hacia acciones 
+comunitarias.<BR><SPAN style='FONT-FAMILY: "Segoe UI","sans-serif"'><BR><FONT 
+face=Constantia>Si le interesa recibir el PDF con&nbsp;el temario&nbsp;completo 
+y como participar llame al&nbsp;01800 212 9393&nbsp;</FONT></SPAN><FONT 
+face=Constantia><FONT size=3><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black'>o 
+responda este email con sus 
+datos.<BR>---------------------------------------------------------------------------<BR><FONT 
+size=3 face=Constantia>Nombre-</FONT></SPAN></FONT></FONT><FONT 
+face=Constantia><FONT size=3><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "MS Gothic"; COLOR: black; mso-bidi-font-family: "Segoe UI"'>　</SPAN><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black'>&nbsp;</SPAN><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "MS Gothic"; COLOR: black; mso-bidi-font-family: "Segoe UI"'>　</SPAN></FONT></FONT><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black'><BR></SPAN><FONT 
+face=Constantia><SPAN 
+style='FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black'>Tel&#233;fono-</SPAN><FONT 
+size=3><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "MS Gothic"; COLOR: black; mso-bidi-font-family: "Segoe UI"'>　</SPAN><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black'>&nbsp;</SPAN><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "MS Gothic"; COLOR: black; mso-bidi-font-family: "Segoe UI"'>　</SPAN></FONT></FONT><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black'><BR></SPAN><FONT 
+face=Constantia><SPAN 
+style='FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black'>Correo 
+Corporativo-</SPAN><FONT size=3><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "MS Gothic"; COLOR: black; mso-bidi-font-family: "Segoe UI"'>　</SPAN><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black'>&nbsp;</SPAN><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "MS Gothic"; COLOR: black; mso-bidi-font-family: "Segoe UI"'>　</SPAN></FONT></FONT><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black'><BR></SPAN><FONT 
+face=Constantia><FONT face=Constantia><FONT face=Constantia><FONT 
+face=Constantia><SPAN 
+style='FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black'>Correo 
+Personal-</SPAN><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "MS Gothic"; COLOR: black; mso-bidi-font-family: "Segoe UI"'><FONT 
+size=3>　</FONT></SPAN></FONT></FONT></FONT><FONT size=3><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black'>&nbsp;</SPAN><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "MS Gothic"; COLOR: black; mso-bidi-font-family: "Segoe UI"'>　</SPAN></FONT></FONT><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black'><BR></SPAN><FONT 
+face=Constantia><SPAN 
+style='FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black'>---------------------------------------------------------------------------<BR></SPAN><STRONG><SPAN 
+style='FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: green'>WhatsApp: 55 5154 
+9546<o:p></o:p></SPAN></STRONG></FONT></P>
+<P><SPAN 
+style='FONT-SIZE: 13.5pt; FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: ES-MX; mso-fareast-language: ES-MX; mso-bidi-language: AR-SA'><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR></SPAN><SPAN 
+style='FONT-SIZE: 12pt; FONT-FAMILY: "Segoe UI","sans-serif"; COLOR: black; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: ES-MX; mso-fareast-language: ES-MX; mso-bidi-language: AR-SA'><FONT 
+face=Constantia>Para dejar de recibir invitaciones de este dominio, responda con 
+el asunto BAJA</FONT></SPAN></P></BODY></HTML>
+
+
+--np5cd1aaca4a763--

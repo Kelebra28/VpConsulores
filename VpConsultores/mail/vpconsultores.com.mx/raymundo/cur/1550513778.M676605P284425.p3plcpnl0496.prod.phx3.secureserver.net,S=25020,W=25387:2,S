@@ -1,0 +1,367 @@
+Return-Path: <bounce-414979-409-144273-raymundo=vpconsultores.com.mx@s14.acems2.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id YK8LJnL2alwJVwQAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Mon, 18 Feb 2019 11:16:18 -0700
+Return-path: <bounce-414979-409-144273-raymundo=vpconsultores.com.mx@s14.acems2.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Mon, 18 Feb 2019 11:16:18 -0700
+Received: from s5.acems3.com ([173.236.20.49]:44940)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <bounce-414979-409-144273-raymundo=vpconsultores.com.mx@s14.acems2.com>)
+	id 1gvnSi-001Rbz-L6
+	for raymundo@vpconsultores.com.mx; Mon, 18 Feb 2019 11:16:18 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dk; d=s14.acems2.com;
+ h=To:From:Reply-To:Subject:Date:MIME-Version:Content-Type:
+ Content-Transfer-Encoding:Sender:List-Unsubscribe:Message-ID;
+ i=grupogda.activehosted.com@s14.acems2.com;
+ bh=79brF1ou9bjmGtid24c18ofkistW5MZYfXsB3+ABhYo=;
+ b=YeAw5E+xoUpsTMK7nnOr1CdhkqzC9U/hsweKWlEle6bdqpkWQX+/nyE+vvWNt5KDqjTc0IWfdE4S
+   IRNa5VAP9SxqzQ0V13hWusm0DQy1ldj4XQTOgGM7vd4C3q49GKUOfu0MzORVDrKYihMIBGISctm3
+   CPcQGQqlmNSi6/KAIJg=
+Received: by s9.acems3.com id hdbr702gcl00 for <raymundo@vpconsultores.com.mx>; Mon, 18 Feb 2019 12:15:35 -0600 (envelope-from <bounce-414979-409-144273-raymundo=vpconsultores.com.mx@s14.acems2.com>)
+To: "RAYMUNDO VAZQUEZ" <raymundo@vpconsultores.com.mx>
+From: =?utf-8?Q?Olab_Diagn=C3=B3sticos_M=C3=A9dicos?=
+ <contacto@olabpromociones.com.mx>
+Reply-To: reply-grupogda.activehosted.409.2020.144273@s14.acems2.com
+Subject: =?utf-8?Q?RAYMUNDO,_renueva_tu_membres=C3=ADa_a_Precio_Especial?=
+Date: Mon, 18 Feb 2019 12:07:36 -0600
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift-10293278935c6af4683a5984.65149390_=_"
+Content-Transfer-Encoding: 7bit
+Sender: <grupogda.activehosted.com@s14.acems2.com>
+X-Sender: <grupogda.activehosted.com@s14.acems2.com>
+X-Report-Abuse: Please report abuse to abuse@activecampaign.com
+X-mid: cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXggLCBjNDA5ICwgbTIwMjAgLCBzMzYx
+List-Unsubscribe: <mailto:unsubscribe-c197e9facd615dec6a42aeee8fd0f7f8-409-d06778e3770900c38d4ef6556e7c723d@s14.acems2.com>,
+ <http://grupogda.acemlnb.com/box.php?nl=83&c=409&m=2020&s=d06778e3770900c38d4ef6556e7c723d&funcml=unsub2&luha=1>
+Message-ID: <20190218181535.26830.1797418855.swift@grupogda.activehosted.com>
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Queremos que sigas siendo uno de nuestros pacientes distinguidos,
+    por eso te invitamos a que renueves tu membresía a un preció increíble.
+    ¡Sólo $99! Lo único que tienes que hacer para aprovechar
+ 
+ Content analysis details:   (0.3 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: acems2.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: acems2.com]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 T_KAM_HTML_FONT_INVALID BODY: Test for Invalidly Named or Formatted
+                             Colors in HTML
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or identical to
+                             background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+
+--_=_swift-10293278935c6af4683a5984.65149390_=_
+Content-Type: text/plain; charset=utf-8
+
+Queremos que sigas siendo uno de nuestros pacientes distinguidos, por
+eso te invitamos a que renueves tu membresía a un preció increíble.
+¡Sólo $99!
+
+Lo único que tienes que hacer para aprovechar esta promoción es acudir
+a la sucursal de tu preferencia y presentar este correo y una
+identificación oficial. Si tienes dudas llámanos y con gusto te
+atenderemos.
+
+Recuerda que en Olab queremos saber cómo estás.
+
+http://grupogda.acemlnb.com/lt.php?s=d06778e3770900c38d4ef6556e7c723d&i=409A2020A83A1902
+
+ 
+
+tel:+525547478100 
+
+UBICA TU SUCURSAL
+
+_________________
+
+Sent to raymundo@vpconsultores.com.mx
+
+Unsubscribe:
+http://grupogda.acemlnb.com/proc.php?nl=83&c=409&m=2020&s=d06778e3770900c38d4ef6556e7c723d&act=unsub
+
+Olab Diagnósticos Médicos, Campos Eliseos 345, Piso 17, Polanco II Sección, 11550 Ciudad de México Del. Miguel Hidalgo, Mexico
+--_=_swift-10293278935c6af4683a5984.65149390_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html>=0A<head><!--[if !mso]><meta http-equiv=3D"X-UA-Compat=
+ible" content=3D"IE=3Dedge"><!--<![endif]--><meta http-equiv=3D"Content-Typ=
+e" content=3D"text/html; charset=3Dutf-8"><meta http-equiv=3D"Content-Langu=
+age" content=3D"en-us"><meta name=3D"format-detection" content=3D"telephone=
+=3Dno"><meta name=3D"format-detection" content=3D"date=3Dno"><meta name=3D"=
+format-detection" content=3D"address=3Dno"><meta name=3D"format-detection" =
+content=3D"email=3Dno"><title>Preview</title><style data-ac-keep=3D"true">=
+=0A.ExternalClass {width:100%; background:inherit; background-color:inherit=
+;}=0A.ExternalClass p, .ExternalClass ul, .ExternalClass ol { Margin: 0; }=
+=0A.undoreset div p, .undoreset p { margin-bottom: 20px; }=0Adiv[class^=3D"=
+aolmail_divbody"] { overflow: auto; }=0A[owa] #ac-footer { padding: 20px 0p=
+x!important; background:inherit; background-color:inherit; }=0A</style><sty=
+le data-ac-keep=3D"true">=0A@media only screen and (max-width: 600px) {=09/=
+*-------------------------------------------------------------------------*=
+\ Abandoned Cart widget \*-------------------------------------------------=
+-----------------------*/ .td_abandoned-cart img {display: block;padding-ri=
+ght: 0 !important;padding-bottom: 0 !important;width: 100% !important;max-w=
+idth: 100% !important;height: auto !important;} body { padding: 0!important=
+; font-size:1em!important; } * { -webkit-box-sizing: border-box; -moz-box-s=
+izing: border-box; box-sizing: border-box; } *[class].divbody {-webkit-text=
+-size-adjust:none !important; width:auto !important;} *[class].td_picture i=
+mg {width:auto !important;} *[class].td_text { line-height: 110%; } *[class=
+].td_button { width: auto; } /* Collapse all block elements */ :not(.body) =
+table { display: block!important; float:none!important; border-collapse:col=
+lapse !important; width:100% !important; min-width:100% !important; clear:b=
+oth!important; } :not(.body) thead,=0A:not(.body) tbody, :not(.body) tr { d=
+isplay:block!important; float:none!important; width:100% !important; } :not=
+(.body) th, :not(.body) td, :not(.body) p { display:block!important; float:=
+none!important; width:100% !important; clear:both!important; } /* Remove br=
+owser default styling for elements */ ul, ol { margin-left: 20px; margin-bo=
+ttom: 10px; margin-top: 10px; -webkit-margin-before: 0; -webkit-margin-afte=
+r: 0; -webkit-padding-start: 0; } /* Set default height for spacer once col=
+lapse */ *[class].spacer { height: auto!important; } a[href^=3Ddate]{ color=
+:inherit !important; text-decoration:none !important;} a[href^=3Dtelephone]=
+{ color:inherit !important; text-decoration:none !important;} a[href^=3Dadd=
+ress]{ color:inherit !important; text-decoration:none !important;} a[href^=
+=3Demail]{ color:inherit !important; text-decoration:none !important;} /* D=
+efault table cell height */ /* Default social icons */ *[class].ac-social-i=
+con-16 {width:16px !important; height:16px=0A!important;} *[class].ac-socia=
+l-icon-24 {width:24px !important; height:24px !important;} *[class].ac-soci=
+al-icon-28 {width:28px !important; height:28px !important;} *[class].__ac_s=
+ocial_icons { margin-right: 0px !important; } }=0A</style><style data-ac-ke=
+ep=3D"true"> @media only screen and (max-width: 320px) { #layout-row2329 im=
+g { width: 100% !important; height: auto !important; max-width: 320px !impo=
+rtant; } div.divbody { padding: 20px !important; } .td_rss .rss-item img.ip=
+hone_large_image { width: auto !important; } u + .body { display: table !im=
+portant; width: 100vw !important; min-width: 100vw !important; } u + .body =
+table { display: table !important; width: 100% !important; min-width: 100% =
+!important; } u + .body td { display: block !important; width: 100% !import=
+ant; min-width: 100% !important; } u + .body img { display: inline-block !i=
+mportant; margin: auto !important; width: auto !important; vertical-align: =
+bottom !important; } u + .body center { display: block !important; margin: =
+auto !important; width: 100% !important; min-width: 100% !important; text-a=
+lign: center !important; } u + .body table._ac_social_table, u + .body tabl=
+e._ac_social_table td, u + .body table._ac_social_table=0Adiv, u + .body ta=
+ble._ac_social_table a { display: inline-block !important; margin: auto !im=
+portant; width: auto !important; min-width: auto !important; text-align: ce=
+nter !important; } u + .body table._ac_social_table img { display: inline-b=
+lock !important; margin: auto !important; width: 32px !important; min-width=
+: 32px !important; max-width: 32px !important; }=0A}=0A@media only screen a=
+nd (max-width: 375px) { #layout-row2329 img { width: 100% !important; heigh=
+t: auto !important; max-width: 338px !important; } div.divbody { padding: 2=
+0px !important; } .td_rss .rss-item img.iphone_large_image { width: auto !i=
+mportant; } u + .body { display: table !important; width: 100vw !important;=
+ min-width: 100vw !important; } u + .body table { display: table !important=
+; width: 100% !important; min-width: 100% !important; } u + .body td { disp=
+lay: block !important; width: 100% !important; min-width: 100% !important; =
+} u + .body img { display: inline-block !important; margin: auto !important=
+; width: auto !important; vertical-align: bottom !important; } u + .body ce=
+nter { display: block !important; margin: auto !important; width: 100% !imp=
+ortant; min-width: 100% !important; text-align: center !important; } u + .b=
+ody table._ac_social_table, u + .body table._ac_social_table td, u + .body =
+table._ac_social_table div, u + .body table._ac_social_table=0Aa { display:=
+ inline-block !important; margin: auto !important; width: auto !important; =
+min-width: auto !important; text-align: center !important; } u + .body tabl=
+e._ac_social_table img { display: inline-block !important; margin: auto !im=
+portant; width: 32px !important; min-width: 32px !important; max-width: 32p=
+x !important; }=0A}=0A@media only screen and (max-width: 414px) { #layout-r=
+ow2329 img { width: 100% !important; height: auto !important; max-width: 33=
+8px !important; } div.divbody { padding: 20px !important; } .td_rss .rss-it=
+em img.iphone_large_image { width: auto !important; } u + .body { display: =
+table !important; width: 100vw !important; min-width: 100vw !important; } u=
+ + .body table { display: table !important; width: 100% !important; min-wid=
+th: 100% !important; } u + .body td { display: block !important; width: 100=
+% !important; min-width: 100% !important; } u + .body img { display: inline=
+-block !important; margin: auto !important; width: auto !important; vertica=
+l-align: bottom !important; } u + .body center { display: block !important;=
+ margin: auto !important; width: 100% !important; min-width: 100% !importan=
+t; text-align: center !important; } u + .body table._ac_social_table, u + .=
+body table._ac_social_table td, u + .body table._ac_social_table div, u + .=
+body table._ac_social_table=0Aa { display: inline-block !important; margin:=
+ auto !important; width: auto !important; min-width: auto !important; text-=
+align: center !important; } u + .body table._ac_social_table img { display:=
+ inline-block !important; margin: auto !important; width: 32px !important; =
+min-width: 32px !important; max-width: 32px !important; }=0A}=0A@media only=
+ screen and (max-width: 667px) { #layout-row2329 img { width: 100% !importa=
+nt; height: auto !important; max-width: 338px !important; } div.divbody { p=
+adding: 20px !important; } .td_rss .rss-item img.iphone_large_image { width=
+: auto !important; } u + .body { display: table !important; width: 100vw !i=
+mportant; min-width: 100vw !important; } u + .body table { display: table !=
+important; width: 100% !important; min-width: 100% !important; } u + .body =
+td { display: block !important; width: 100% !important; min-width: 100% !im=
+portant; } u + .body img { display: inline-block !important; margin: auto !=
+important; width: auto !important; vertical-align: bottom !important; } u +=
+ .body center { display: block !important; margin: auto !important; width: =
+100% !important; min-width: 100% !important; text-align: center !important;=
+ } u + .body table._ac_social_table, u + .body table._ac_social_table td, u=
+ + .body table._ac_social_table div, u + .body table._ac_social_table=0Aa {=
+ display: inline-block !important; margin: auto !important; width: auto !im=
+portant; min-width: auto !important; text-align: center !important; } u + .=
+body table._ac_social_table img { display: inline-block !important; margin:=
+ auto !important; width: 32px !important; min-width: 32px !important; max-w=
+idth: 32px !important; }=0A}=0A</style><!--[if !mso]><!-- webfonts --><!--<=
+![endif]--><!--[if lt mso 12]> <![endif]--></head><body id=3D"ac-designer" =
+class=3D"body" style=3D"font-family: Arial; line-height: 1.1; margin: 0px; =
+background-color: #FFFFFF; width: 100%; text-align: center;"><div class=3D"=
+divbody" style=3D"margin: 0px; outline: none; padding: 0px; color: #000000;=
+ font-family: arial; line-height: 1.1; width: 100%; background-color: #FFFF=
+FF; background: #FFFFFF; text-align: center;"><table class=3D"template-tabl=
+e" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" align=3D=
+"left" style=3D"font-size: 13px; min-width: auto; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; background-color: #FFFFFF; background: #FFFFFF;"><tr><=
+td align=3D"center" valign=3D"top" width=3D"100%"><table class=3D"template-=
+table" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"650" bgcol=
+or=3D"#FFFFFF" style=3D"font-size: 13px; min-width: auto; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; max-width: 650px;"><tr><td=0Aid=3D"layout_tabl=
+e_f4a264ec3c0118fb81db824072eb8c7f531be775" valign=3D"top" align=3D"center"=
+ width=3D"650"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" clas=
+s=3D"layout layout-table root-table" width=3D"650" style=3D"font-size: 13px=
+; min-width: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tr><td i=
+d=3D"layout-row-margin2331" valign=3D"top" style=3D"padding: 5px;"><table w=
+idth=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"fon=
+t-size: 13px; min-width: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+; border-collapse: initial !important;"><tr id=3D"layout-row2331" class=3D"=
+layout layout-row widget _widget_text style2331" style=3D"margin: 0; paddin=
+g: 0;"><td id=3D"layout-row-padding2331" valign=3D"top" style=3D"padding: 5=
+px;"><table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"font-size: 13px; min-width: 100%; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt;"><tr><td id=3D"text_div2145" class=3D"td_text td_block" vali=
+gn=3D"top" align=3D"left" style=3D"color: inherit;=0Afont-size: 12px; font-=
+weight: inherit; line-height: 1; text-decoration: inherit; font-family: Ari=
+al;"> <div style=3D"margin: 0; outline: none; padding: 0;">Queremos que sig=
+as siendo uno de nuestros pacientes distinguidos, por eso te invitamos a qu=
+e renueves tu membres=C3=ADa a un preci=C3=B3 incre=C3=ADble. =C2=A1S=C3=
+=B3lo $99!<br><br>Lo =C3=BAnico que tienes que hacer para aprovechar esta p=
+romoci=C3=B3n es acudir a la sucursal de tu preferencia y presentar este co=
+rreo y una identificaci=C3=B3n oficial. Si tienes dudas ll=C3=A1manos y con=
+ gusto te atenderemos.<br><br>Recuerda que en Olab queremos saber c=C3=
+=B3mo est=C3=A1s.</div>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</tabl=
+e>=0A</td>=0A</tr>=0A<tr><td id=3D"layout-row-margin2329" valign=3D"top"><t=
+able width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"font-size: 13px; min-width: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"><tr id=3D"layout-row2329" class=3D"layout layout-row widget _widg=
+et_picture " align=3D"center"><td id=3D"layout-row-padding2329" valign=3D"t=
+op"><table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"font-size: 13px; min-width: 100%; mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt;"><tr><td class=3D"image-td" align=3D"center" valign=3D"top" w=
+idth=3D"650"><a href=3D"http://grupogda.acemlnb.com/lt.php?s=3Dd06778e37709=
+00c38d4ef6556e7c723d&i=3D409A2020A83A1902" style=3D"margin: 0; outline: non=
+e; padding: 0; color: #045FB4; display: block; min-width: 100%;"><img src=
+=3D"https://grupogda.imgus11.com/public//fdb69b5601ee6c78fa0f37747f2c4342.p=
+ng?r=3D792157069" alt=3D"" width=3D"338" style=3D"border: none; display: bl=
+ock; outline: none; width: 338px; opacity: 1; max-width: 100%;"></a></td>=
+=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A<tr><td id=
+=3D"layout-row-margin2330" valign=3D"top"><table width=3D"100%" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-size: 13px; min-width: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tr id=3D"layout-row23=
+30" class=3D"layout layout-row widget _widget_spacer "><td id=3D"layout-row=
+-padding2330" valign=3D"top"><table width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-size: 13px; min-width: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;"><tr><td valign=3D"top" height=3D"30=
+"><div class=3D"spacer" style=3D"margin: 0; outline: none; padding: 0; heig=
+ht: 30px;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%" style=3D"font-size: 13px; min-width: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt;"><tr><td class=3D"spacer-body" valign=3D"top" height=
+=3D"30" width=3D"650">=C2=A0</td>=0A</tr>=0A</table>=0A</div>=0A</td>=0A</t=
+r>=0A</table>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A<tr id=3D"layout=
+-row2334" class=3D"layout layout-row clear-this "><td id=3D"layout-row-padd=
+ing2334" valign=3D"top"><table width=3D"100%" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"font-size: 13px; min-width: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;"><tr><td id=3D"layout_table_21fa936d87b96=
+3d2a7c6fd623c0fa4e4ad1e982f" valign=3D"top" width=3D"325"><table cellpaddin=
+g=3D"0" cellspacing=3D"0" border=3D"0" class=3D"layout layout-table " width=
+=3D"325" style=3D"font-size: 13px; min-width: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;"><tr><td id=3D"layout-row-margin2333" valign=3D"top"=
+ style=3D"padding: 5px;"><table width=3D"100%" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" style=3D"font-size: 13px; min-width: 100%; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt; border-collapse: initial !important;"><t=
+r id=3D"layout-row2333" class=3D"layout layout-row widget _widget_html styl=
+e2333" style=3D""><td id=3D"layout-row-padding2333" valign=3D"top" style=3D=
+"padding: 5px;"><table width=3D"100%" border=3D"0"=0Acellpadding=3D"0" cell=
+spacing=3D"0" style=3D"font-size: 13px; min-width: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"><tr><td id=3D"html_div2147" width=3D"305" alig=
+n=3D"left"> <div style=3D"margin: 0; outline: none; padding: 0; position: r=
+elative; text-align: center;"><a href=3D"tel:+525547478100" style=3D"margin=
+: 0; outline: none; padding: 0; color: #045FB4;"><img src=3D"https://megrid=
+igital.com/proyectos/gda/llamanos-2.png" style=3D"border: none; margin: 0 a=
+uto; float: none;"></a></div>=0A </td>=0A</tr>=0A</table>=0A</td>=0A</tr>=
+=0A</table>=0A</td>=0A</tr>=0A</table>=0A</td>=0A<td id=3D"layout_table_fa2=
+a0497dd58a247310262b5ed8ee91a3008e580" valign=3D"top" width=3D"325"><table =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" class=3D"layout layout-tab=
+le " width=3D"325" style=3D"font-size: 13px; min-width: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt;"><tr><td id=3D"layout-row-margin2332" vali=
+gn=3D"top" style=3D"padding: 5px;"><table width=3D"100%" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" style=3D"font-size: 13px; min-width: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: initial !impo=
+rtant;"><tr id=3D"layout-row2332" class=3D"layout layout-row widget _widget=
+_button style2332" style=3D""><td id=3D"layout-row-padding2332" valign=3D"t=
+op" style=3D"padding: 5px;"><table width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"font-size: 13px; min-width: 100%; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;"><tr><td class=3D"td_button td_block=
+ customizable" valign=3D"top" align=3D"left" width=3D"305"> <div class=3D"b=
+utton-wrapper" style=3D"margin: 0; outline:=0Anone; padding: 0; text-align:=
+ center;">=0A<!--[if mso]> <v:roundrect xmlns:v=3D"urn:schemas-microsoft-co=
+m:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"http://gru=
+pogda.acemlnb.com/lt.php?s=3Dd06778e3770900c38d4ef6556e7c723d&i=3D409A2020A=
+83A1903" style=3D"v-text-anchor:middle; width:237px; height:64px; font-weig=
+ht: bold;" arcsize=3D"10%" strokecolor=3D"#B5B5B5" strokeweight=3D"1pt" fil=
+lcolor=3D"#e04f11" o:button=3D"true" o:allowincell=3D"true" o:allowoverlap=
+=3D"false" > <v:textbox inset=3D"2px,2px,2px,2px"> <center style=3D"color:#=
+ffffff;font-family:Arial; font-size:18px; font-weight: bold;line-height: 1.=
+1;">UBICA TU SUCURSAL</center> </v:textbox> </v:roundrect>=0A<![endif]--> <=
+a href=3D"http://grupogda.acemlnb.com/lt.php?s=3Dd06778e3770900c38d4ef6556e=
+7c723d&i=3D409A2020A83A1903" style=3D"margin: 0; outline: none; padding: 12=
+px; color: #ffffff; background-color: #e04f11; border: 1px solid #B5B5B5; b=
+order-radius: 3px; font-family: Arial; font-size: 18px; display: inline-blo=
+ck; line-height: 1.1; text-align: center; text-decoration: none; mso-hide: =
+all;"> <span style=3D"color:#ffffff;font-family:Arial;font-size:18px;font-w=
+eight: bold;"> UBICA TU SUCURSAL </span> </a> </div>=0A=0A</td>=0A</tr>=0A<=
+/table>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</t=
+r>=0A</table>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A</td>=
+=0A</tr>=0A</table>=0A</div>=0A<img src=3D"http://grupogda.acemlnb.com/lt.p=
+hp?nl=3D83&c=3D409&m=3D2020&s=3Dd06778e3770900c38d4ef6556e7c723d&l=3Dopen" =
+border=3D"0" width=3D"1" height=3D"1" style=3D"display:block;width:1px!impo=
+rtant;min-width:1px!important;max-width:1px!important;height:1px!important;=
+border:0;overflow:hidden;" /><div id=3D"ac-footer" style=3D"clear:both;back=
+ground-color:inherit;background:inherit;min-width:100%;mso-table-lspace:0pt=
+;mso-table-rspace:0pt;padding:20px;color:#000000;font-size:11px;font-family=
+:arial,helvetica,sans-serif;line-height:140%;line-height:1.4;text-align:cen=
+ter;box-sizing:border-box;">=0A=09<center>=0A=09=09Sent to: <span style=3D"=
+font-size:11px;font-family:arial,helvetica,sans-serif;font-weight:normal;te=
+xt-decoration:none;outline:none;">raymundo@vpconsultores.com.mx</span>=0A=
+=09=09<br>=0A=09=09<br>=0A=09=09<a href=3D"http://grupogda.acemlnb.com/proc=
+.php?nl=3D83&c=3D409&m=3D2020&s=3Dd06778e3770900c38d4ef6556e7c723d&act=3Dun=
+sub" style=3D"font-size:11px;font-family:arial,helvetica,sans-serif;font-we=
+ight:bold;text-decoration:underline;"><span style=3D"font-weight:bold;text-=
+decoration:underline;">Unsubscribe</span></a>=0A=09=09<br>=0A=09=09<br> Ola=
+b Diagn=C3=B3sticos M=C3=A9dicos, Campos Eliseos 345, Piso 17, Polanco II S=
+ecci=C3=B3n, 11550 Ciudad de M=C3=A9xico Del. Miguel Hidalgo, Mexico=0A=09<=
+/center>=0A</div>=0A<br clear=3D"all" /></body>=0A</html>
+--_=_swift-10293278935c6af4683a5984.65149390_=_--
+

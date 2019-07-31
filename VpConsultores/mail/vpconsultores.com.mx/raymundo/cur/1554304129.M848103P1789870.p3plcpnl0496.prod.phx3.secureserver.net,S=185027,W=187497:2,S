@@ -1,0 +1,2470 @@
+Return-Path: <bounce+272830-57-1966301273+raymundo=vpconsultores.com.mx@mkt.canacope.org>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id GDFXMoHMpFyuTxsAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Wed, 03 Apr 2019 08:08:49 -0700
+Return-path: <bounce+272830-57-1966301273+raymundo=vpconsultores.com.mx@mkt.canacope.org>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Wed, 03 Apr 2019 08:08:49 -0700
+Received: from smtp1890-2.nozhost.com ([54.38.168.154]:49557)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <bounce+272830-57-1966301273+raymundo=vpconsultores.com.mx@mkt.canacope.org>)
+	id 1hBhVM-0081b6-VJ
+	for raymundo@vpconsultores.com.mx; Wed, 03 Apr 2019 08:08:49 -0700
+Received: from smtp1890.nozhost.com (smtp1890.nozhost.com [51.38.23.90])
+	by smtp1890.nozhost.com (Postfix) with ESMTP id D1AAD5D380
+	for <raymundo@vpconsultores.com.mx>; Wed,  3 Apr 2019 16:08:02 +0100 (WEST)
+ARC-Seal:  i=1; a=rsa-sha256; d=nozhost.com; s=key201809; t=1554304083;
+	cv=none; b=FoJ2UmtS1XSVsyeZybucJ5jjcuSxs7dTfve+EyicwgN1ek9Ruvabl2MeXKe9kScHltGkTR2IZWaiU46w3TLgi7O/isvbB0uUtt2klInzd/a1miC6CBxx+w8dQMhaJzgeBXELiBntZrMoXdbP8yqqLh5Kz17ddA6EGkb3SEzbI0M=
+ARC-Message-Signature:  i=1; a=rsa-sha256; d=nozhost.com; s=key201809;
+	t=1554304083; c=relaxed/simple;
+	bh=kF7TYNgiJ0wa5wkZsWDTk99BQfHBcmgZosJgWiFwTq8=;
+	h=DKIM-Filter:DKIM-Signature:DKIM-Signature:Date:To:From:Reply-To:
+	 Subject:Message-ID:X-Priority:X-Mailer:X-Client:X-List:X-Campaign:
+	 List-Subscribe:List-Unsubscribe:X-Report-Abuse:MIME-Version:
+	 Content-Type; b=D6Cdn1Rm6Vuo79ckYvRM8AWSEFgI13uNjsLr9avqimi4NkD0GZG2K72LL5615kZdv9b+Fv5RKZcDvjU2xyEULdorKFGfrpvKSs0JwMhFFGW01VZ/JSx4d43OZXXUK6b6/3stkPcl+APJSlyaPrVvcQDGbd2XbLgobndcqssCOzM=
+ARC-Authentication-Results:  i=1; smtp1888.nozhost.com; none
+DKIM-Filter: OpenDKIM Filter v2.11.0 smtp1890.nozhost.com D1AAD5D380
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=nozhost.com; s=egoi;
+	t=1554304083; bh=kF7TYNgiJ0wa5wkZsWDTk99BQfHBcmgZosJgWiFwTq8=;
+	h=Date:To:From:Reply-To:Subject:List-Subscribe:List-Unsubscribe:
+	 From:Subject:To;
+	b=eDPSug49jkWZfJFnd499GU0DarYGfEpGKMIQPcRN/RqREKGHcT/64JIrTs9rbeD84
+	 gu5mOyiPrJSXJXPb5FlKR4oCzFiYjh8tz3LjHdombvoN1yL0bKJ+7sUhvpkxlRsYJH
+	 LW/Gf/A9XmI8UqQmQp73OzRiFl63AbHOiXO9gEiw=
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=canacope.org; s=egoi;
+	t=1554304083; bh=kF7TYNgiJ0wa5wkZsWDTk99BQfHBcmgZosJgWiFwTq8=;
+	h=Date:To:From:Reply-To:Subject:List-Subscribe:List-Unsubscribe:
+	 From:Subject:To;
+	b=VM8lnuKF/K3fNzQ/+C3QxgQWDYCX6TCFePFTN4Ed9DrDfr+/ffAqpLcN4cq4gAtHU
+	 OvuZBvH1KYCRUFfJMuvTsVPTzy76Bk3KjWpgPTSZB6CcABj4eaf8Rmqg+JNaA5jatT
+	 M9Gzdusc+m45F4uOIqe6agPzT11bX3+bBN/c9nsY=
+Date: Wed, 3 Apr 2019 16:08:02 +0100
+To: =?utf-8?Q?Servicios_de_Contabilidad_y_Auditor=C3=ADa?= <raymundo@vpconsultores.com.mx>
+From: =?utf-8?Q?C=C3=A1mara_de_Comercio_Servicios_y_Turismo_en_Peque=C3=B1o_de_?=
+ =?utf-8?Q?la_Ciudad_de_M=C3=A9xico?= <soportec@canacope.org>
+Reply-To: =?utf-8?Q?C=C3=A1mara_de_Comercio_Servicios_y_Turismo_en_Peque=C3=B1o_de_?=
+ =?utf-8?Q?la_Ciudad_de_M=C3=A9xico?= <soportec@canacope.org>
+Subject: =?utf-8?Q?Re:_Servicios_de_Contabilidad_y_Auditor=C3=ADa_/_Miguel_Hidalgo?=
+ =?utf-8?Q?_-_Invitaci=C3=B3n_Exclusiva_C=C3=A1mara_de_Comercio_hasta_Vier?=
+ =?utf-8?Q?nes_5/Abril?=
+Message-ID: <2202b8f6e909d92911dd12661b896108@smtp1890.nozhost.com>
+X-Priority: 3
+X-Mailer: E-goi 2.6
+X-Client: 272830
+X-List: 57
+X-Campaign: 1d9fac02a6903b25037e5db206915367
+List-Subscribe: 2019-03-09 21:51:09
+List-Unsubscribe: <mailto:unsubscribe+57-272830-1d9fac02a6903b25037e5db206915367-1966301273-mkt.canacope.org@mkt.canacope.org?subject=unsubscribe>, <http://mkt.canacope.org/rm.php?dodel=dodel&u=1966301273&l=57&c=272830&e=1d9fac02a6903b25037e5db206915367>
+X-Report-Abuse: Please report abuse for this campaign here: http://mkt.canacope.org/abuse.php?u=1966301273&l=57&c=272830&e=1d9fac02a6903b25037e5db206915367
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_2202b8f6e909d92911dd12661b896108"
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Invitación Exclusiva Empresas Contabilidad en Miguel Hidalgo
+    hasta este viernes 5 de Abril ¡Hola Servicios de Contabilidad y Auditoría!
+    La Cámara de Comercio en Pequeño de la Ciudad de México t
+ 
+ Content analysis details:   (1.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vpconsultores.com.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vpconsultores.com.mx]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 T_KAM_HTML_FONT_INVALID BODY: Test for Invalidly Named or Formatted
+                             Colors in HTML
+  0.0 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image area
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of empty
+                             lines
+  0.2 KAM_LOTSOFHASH         Emails with lots of hash-like gibberish
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+--b1_2202b8f6e909d92911dd12661b896108
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+ Invitaci=C3=B3n Exclusiva Empresas Contabilidad en Miguel Hidalgo hasta es=
+te viernes 5 de Abril =C2=A1Hola Servicios de Contabilidad y Auditor=C3=ADa=
+! La C=C3=A1mara de Comercio en Peque=C3=B1o de la Ciudad de M=C3=A9xico te=
+ ofrece en exclusiva, junto a un reducido n=C3=BAmero de empresas contables=
+ y de asesor=C3=ADa =0A=0AVersi=C3=B3n web=0Ahttp://mkt.canacope.org/vl/fbf=
+4d24ce1d9fac02a6903b25037-5db206915367eJWe6g7Fe1gNae1966301273=0ARecomendar=
+=0Ahttp://mkt.canacope.org/rc/fbf4d24ce1d9fac02a6903b25037-5db206915367eJWe=
+6g7Fe1gNae1966301273=0ARedes sociales=0Ahttp://mkt.canacope.org/vls/fbf4d24=
+ce1d9fac02a6903b25037-5db206915367eJWe6g7Fe1gNae1966301273=0ARedes sociales=
+=0Ahttp://mkt.canacope.org/fb/fbf4d24ce1d9fac02a6903b25037-5db206915367eJWe=
+6g7Fe1gNae1966301273=0ARedes sociales=0Ahttp://mkt.canacope.org/tw/fbf4d24c=
+e1d9fac02a6903b25037-5db206915367eJWe6g7Fe1gNae1966301273=0A=0A=0A=0A      =
+                            =0A=0A=0A=0A    Invitaci=C3=B3n Exclusiva Empre=
+sas Contabilidad en Miguel Hidalgo hasta=0A                           este =
+viernes 5 de Abril=0A=0A=0A                               =C2=A1Hola Servic=
+ios de Contabilidad y Auditor=C3=ADa!=0A   La C=C3=A1mara de Comercio en Pe=
+que=C3=B1o de la Ciudad de M=C3=A9xico te ofrece en=0A      exclusiva, junt=
+o a un reducido n=C3=BAmero de empresas contables y de=0A                  =
+      asesor=C3=ADa en Ciudad de M=C3=A9xico:=0A=0A=0A=0A  =E2=9C=94 Invita=
+ci=C3=B3n al evento anual para digitalizaci=C3=B3n de empresas contables=0A=
+    en las oficinas de Google en CDMX, =C2=A1desayuno incluido! Conocer=C3=
+=A1s en=0A     exclusiva y de primera mano del equipo de Google los secreto=
+s para=0A                      ganar m=C3=A1s clientes en internet.=0A=0A  =
+                             [1]=C2=A1Lo quiero!=0A=0A=0A=0A=0A=0A  Video t=
+estimonio de c=C3=B3mo la CANACOPE ayuda a peque=C3=B1as empresas a crecer=
+=0A      en muy poco tiempo: Restaurante Los Murales, en Ciudad de M=C3=A9x=
+ico=0A=0A                                  [2]=0A=0A=0A=0A  =E2=9C=94 P=C3=
+=A1gina web para tu empresa de contabilidad/asesor=C3=ADa 100% gratis que=
+=0A   aparece arriba de los resultados de Google, cuando buscan "Contable q=
+ue=0A         haga declaraci=C3=B3n de impuestos en Miguel Hidalgo, o mejor=
+=0A   contable/asesor para empresas", por ejemplo. Tecnolog=C3=ADa intelige=
+nte a=0A         coste $0, de la mano de nuestro Partner de los EE.UU Kolau=
+.=0A=0A                                  =0A=0A=0A=0A   =E2=9C=94 Webinar t=
+rimestral 100% gratis con el equipo de Google en M=C3=A9xico,=0A    CANACOP=
+E y Kolau donde aprender=C3=A1s c=C3=B3mo tu empresa contable/asesora=0A   =
+   puede ganar m=C3=A1s y ser m=C3=A1s visible. =C2=A1Puedes hacer tus preg=
+untas=0A                           directamente a Google!=0A   =E2=9C=94 To=
+dos los dem=C3=A1s beneficios de estar afiliado a la CANACOPE de CDMX,=0A  =
+   como asesor=C3=ADa gratuita legal, laboral, contable, de marketing y de=
+=0A         estrategia de ventas especialmente para contables/asesores.=0A =
+=E2=86=92 Todo esto por s=C3=B3lo $499/a=C3=B1o s=C3=B3lo para nuevas afili=
+aciones hasta el 5=0A                                  de Abril.=0A=0A     =
+                          [3]=C2=A1Lo quiero!=0A=0A=0A=0A=0A      CANACOPE =
+de CDMX, ayudando con orgullo a las empresas contables y=0A                =
+       asesoras a crecer desde el 1937=0A=0A                               =
+   =0A                                  =0A                                =
+  =0A=0AReferences=0A=0A   1. "http://mkt.canacope.org/go/fbf4d24ce1d9fac02=
+a6903b25037-5db206915367e1966301273eXe1gNae6g7FeJWe6n8vD"=0A   2. "http://m=
+kt.canacope.org/go/fbf4d24ce1d9fac02a6903b25037-5db206915367e1966301273eXe1=
+gNae6g7FeJWe6mZVv"=0A   3. "http://mkt.canacope.org/go/fbf4d24ce1d9fac02a69=
+03b25037-5db206915367e1966301273eXe1gNae6g7FeJWe6n8vD"=0A=0A=0ARecomendar=
+=0Ahttp://mkt.canacope.org/rc/fbf4d24ce1d9fac02a6903b25037-5db206915367eJWe=
+6g7Fe1gNae1966301273=0AEditar suscripci=C3=B3n=0Ahttp://mkt.canacope.org/es=
+ub/fbf4d24ce1966301273e1d9fac02a6903b25037-5db206915367eJWe6g7Fe1gNaeX=0ADa=
+r de baja=0Ahttp://mkt.canacope.org/del/fbf4d24ce1d9fac02a6903b25037-5db206=
+915367eJWe6g7Fe1gNaeXe1966301273=0ARedes sociales=0Ahttp://mkt.canacope.org=
+/vls/fbf4d24ce1d9fac02a6903b25037-5db206915367eJWe6g7Fe1gNae1966301273=0ARe=
+des sociales=0Ahttp://mkt.canacope.org/fb/fbf4d24ce1d9fac02a6903b25037-5db2=
+06915367eJWe6g7Fe1gNae1966301273=0ARedes sociales=0Ahttp://mkt.canacope.org=
+/tw/fbf4d24ce1d9fac02a6903b25037-5db206915367eJWe6g7Fe1gNae1966301273=0AImp=
+rimir=0Ahttp://mkt.canacope.org/vlp/fbf4d24ce1d9fac02a6903b25037-5db2069153=
+67eJWe6g7Fe1gNae1966301273=0A
+
+--b1_2202b8f6e909d92911dd12661b896108
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><style type=3D"te=
+xt/css">body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text=
+-size-adjust:100%; margin:0; padding:0;} .moz-forward-container .original-o=
+nly, blockquote .original-only, .WordSection1 .original-only {width: 0px; h=
+eight: 0px; overflow: hidden; display: none !important;}#outlook a{padding:=
+0;} p {margin: 0px;} p {margin-bottom:0; margin:0;} .ExternalClass {width:1=
+00%;} .ExternalClass p {margin:0px} .ExternalClass, .ExternalClass p, .Exte=
+rnalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div =
+{line-height: 100%;} table td {border-collapse:collapse; table td {border-c=
+ollapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;} a {word-wrap=
+:break-word;} .easygoi-rss img {height: auto; width: 100%;}</style></head><=
+body><!-- Gmail hack -->=0A<div style=3D"display:none; white-space:nowrap; =
+font:15px courier; color:#ffffff; line-height:0; width:600px !important; mi=
+n-width:600px !important; max-width:600px !important;">&nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>=0A<!-- /Gmail hack --><!--[if=
+ mso]>=0A                                       <span style=3D"display: non=
+e; max-height: 0px; font-size: 0px; overflow: hidden; mso-hide: all">=0A   =
+                                <![endif]--><!--[if !mso]> <!---->=0A      =
+                                 <span style=3D"visibility: hidden; display=
+: none !important; display: none;">=0A                                   <!=
+-- <![endif]--> Invitaci=C3=B3n Exclusiva Empresas Contabilidad en Miguel H=
+idalgo hasta este viernes 5 de Abril =C2=A1Hola Servicios de Contabilidad y=
+ Auditor=C3=ADa! La C=C3=A1mara de Comercio en Peque=C3=B1o de la Ciudad de=
+ M=C3=A9xico te ofrece en exclusiva, junto a un reducido n=C3=BAmero de emp=
+resas contables y de asesor=C3=ADa </span><img border=3D"0" src=3D"http://m=
+kt.canacope.org/stats.php?l=3D1d9fac02a6903b25037e5db206915367&u=3D19663012=
+73&ca_id=3D2636&cl_id=3D272830&l_id=3D57&m_id=3D1350459&hf=3D2256&i=3D1" st=
+yle=3D"width: 3px !important; height: 2px !important; overflow: hidden; bor=
+der:0px solid transparent; margin: 0;" width=3D"3" height=3D"2" align=3D"mi=
+ddle" border=3D"0" alt=3D""><table border=3D"0" width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"background-color: #FFFFFF; display:table =
+!important;" class=3D"easygoi-header-table-responsive">=0A<tr style=3D"disp=
+lay:table-row !important;">=0A<td class=3D"easygoi-header-table-td-responsi=
+ve" style=3D"display:table-cell !important;">
+
+</td>
+</tr>=0A<tr style=3D"display:table-row !important;">=0A<td width=3D"100%" a=
+lign=3D"center" class=3D"easygoi-header-table-td-responsive" style=3D"displ=
+ay:table-cell !important;">
+          =20
+           <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" style=3D"max-width: 640px;; display:table !important;" class=3D"easy=
+goi-header-table-responsive"><tr style=3D"display:table-row !important;">=
+=0A<td width=3D"70%" align=3D"left" style=3D"text-align:left; background-co=
+lor: #FFFFFF; color: #777777; font-family: Arial, Helvetica, sans-serif; fo=
+nt-size:13px; font-weight: normal; padding: 5px; height: 30px; display:tabl=
+e-cell !important;" class=3D"easygoi-header-table-td-responsive">
+
+                       <a style=3D"color: #777777; text-decoration: none; f=
+ont-family: Arial, Helvetica, sans-serif; font-size:13px; font-weight: norm=
+al;
+" href=3D"http://mkt.canacope.org/vl/fbf4d24ce1d9fac02a6903b25037-5db206915=
+367eJWe6g7Fe1gNae1966301273">Versi=C3=B3n web</a>=0A=C2=A0=C2=A0=C2=A0<a st=
+yle=3D"color: #777777; text-decoration: none; font-family: Arial, Helvetica=
+, sans-serif; font-size:13px; font-weight: normal;
+" href=3D"http://mkt.canacope.org/rc/fbf4d24ce1d9fac02a6903b25037-5db206915=
+367eJWe6g7Fe1gNae1966301273">Recomendar</a>=0A=20
+
+                   </td>
+
+                   <td width=3D"30%" align=3D"right" style=3D"text-align: r=
+ight; background-color: #FFFFFF; color: #777777; font-family: Arial, Helvet=
+ica, sans-serif; font-size:13px; font-weight: normal; padding: 5px; height:=
+ 30px; display:table-cell !important;" class=3D"easygoi-header-table-td-res=
+ponsive">
+                     =20
+<a href=3D"http://mkt.canacope.org/vls/fbf4d24ce1d9fac02a6903b25037-5db2069=
+15367eJWe6g7Fe1gNae1966301273" border=3D"0"><img src=3D"http://mkt.canacope=
+.org/recursos/9b8a67ed2f4489d6c755a9dcd6688fa1/.SocialIcons/28x28/share.png=
+" alt=3D"Social" width=3D"28" height=3D"28" border=3D"0" style=3D"display:i=
+nline;"></a>=C2=A0<a href=3D"http://mkt.canacope.org/fb/fbf4d24ce1d9fac02a6=
+903b25037-5db206915367eJWe6g7Fe1gNae1966301273" border=3D"0"><img src=3D"ht=
+tp://mkt.canacope.org/recursos/9b8a67ed2f4489d6c755a9dcd6688fa1/.SocialIcon=
+s/28x28/facebook.png" alt=3D"Facebook" width=3D"28" height=3D"28" border=3D=
+"0" style=3D"display:inline;"></a>=C2=A0<a href=3D"http://mkt.canacope.org/=
+tw/fbf4d24ce1d9fac02a6903b25037-5db206915367eJWe6g7Fe1gNae1966301273" borde=
+r=3D"0"><img src=3D"http://mkt.canacope.org/recursos/9b8a67ed2f4489d6c755a9=
+dcd6688fa1/.SocialIcons/28x28/twitter.png" alt=3D"Twitter" bwidth=3D"28" he=
+ight=3D"28" border=3D"0" style=3D"display:inline;"></a>
+
+                   </td>
+
+               </tr></table>=0A</td>
+   </tr>=0A<tr style=3D"display:table-row !important;">=0A<td style=3D"back=
+ground-color: #ffffff; height:1px; font-size:2px; line-height:1px; mso-marg=
+in-top-alt:1px; display:table-cell !important;" class=3D"easygoi-header-tab=
+le-td-responsive">=C2=A0</td>
+   </tr>=0A</table><!-- <title> </title> -->=0A=0A  =0A  =0A  =0A  =0A  =0A=
+  =0A  =0A  =0A  =0A  =0A  =0A  =0A  =0A  <style type=3D"text/css">=0A  /* =
+Client-specific Styles */=0A  div, p, a, li, td { -webkit-text-size-adjust:=
+none; }=0A  #outlook a {padding:0;} /* Force Outlook to provide a "view in =
+browser" menu link. */=0A  html{width: 100%; }=0A  body{width:100% !importa=
+nt; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; pad=
+ding:0; }=0A=0A         /*body{width:100% !important; -webkit-text-size-adj=
+ust:none;-ms-text-size-adjust:100%;=0A=0A         }=0A         /* Prevent W=
+ebkit and Windows Mobile platforms from changing default font sizes, while =
+not breaking desktop design. */=0A         .ExternalClass {width:100%;} /* =
+Force Hotmail to display emails at full width */=0A         .ExternalClass,=
+ .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass=
+ td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display no=
+rmal line spacing. */=0A         #backgroundTable {margin:0; padding:0; wid=
+th:100% !important; line-height: 100% !important;}=0A         img {outline:=
+none; text-decoration:none;border:none; -ms-interpolation-mode: bicubic;dis=
+play:block;}=0A         a img {border:none;}=0A         p {margin: 0px 0px =
+!important;}=0A         table td {border-collapse: collapse;}=0A         ta=
+ble { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;=
+ }=0A=0A         a {color: #0F9948; text-decoration:none!important;}=0A    =
+     /*STYLES*/=0A         table[class=3Dfull] { width: 100%; clear: both; =
+}=0A         /*IPAD STYLES*/=0A         @media only screen and (max-width: =
+640px) {=0A=0A         /*a[href^=3D"tel"], a[href^=3D"sms"] {=0A         te=
+xt-decoration: none;=0A         color: #0F9948;=0A         pointer-events: =
+none;=0A         cursor: default;=0A         }=0A         .mobile_link a[hr=
+ef^=3D"tel"], .mobile_link a[href^=3D"sms"] {=0A         text-decoration: d=
+efault;=0A         color: #33b9ff !important;=0A         pointer-events: au=
+to;=0A         cursor: default;*=0A         }*/=0A         td[class=3Dfontm=
+obile] {font-size: 16px!important}=0A         table[class=3Ddevicewidth] {w=
+idth: 440px!important;text-align:center!important;}=0A         table[class=
+=3Ddevicewidthinner] {width: 420px!important;text-align:center!important;}=
+=0A         img[class=3Dbanner] {width: 440px!important;height:220px!import=
+ant;}=0A         img[class=3Dbanner_mobile] {width: 440px!important;height:=
+110px!important;}=0A         img[class=3Dbannerstat] {width: 440px!importan=
+t;height:190px!important;}=0A         img[class=3Dbanner_google] {width: 18=
+0px!important;height:61px!important;}=0A         img[class=3Dcol2img] {widt=
+h: 440px!important;height:220px!important;}=0A         *[class=3D"HideAll"]=
+{display:none !important;}=0A=0A     }=0A     /*IPHONE STYLES*/=0A     @med=
+ia only screen and (max-width: 480px) {=0A         a[href^=3D"tel"], a[href=
+^=3D"sms"] {=0A             text-decoration: none;=0A             pointer-e=
+vents: none;=0A             cursor: default;=0A         }=0A         .mobil=
+e_link a[href^=3D"tel"], .mobile_link a[href^=3D"sms"] {=0A             tex=
+t-decoration: default;=0A             /*color: #33b9ff !important; */=0A   =
+          pointer-events: auto;=0A             cursor: default;=0A         =
+}=0A         td[class=3Dfontmobile] {font-size: 16px!important}=0A         =
+table[class=3Ddevicewidth] {width: 340px!important;text-align:center!import=
+ant;}=0A         table[class=3Ddevicewidthinner] {width: 320px!important;te=
+xt-align:center!important;}=0A         img[class=3Dbanner] {width: 340px!im=
+portant;height:170px!important;}=0A         img[class=3Dbanner_mobile] {wid=
+th: 340px!important;height:80px!important;}=0A         img[class=3Dbannerst=
+at] {width: 340px!important;height:147px!important;}=0A         img[class=
+=3Dbanner_google] {width: 170px!important;height:58px!important;}=0A       =
+  img[class=3Dcol2img] {width: 340px!important;height:170px!important;}=0A =
+        *[class=3D"Hide400"]{display:none !important;}=0A=0A     }=0A     @=
+media only screen and (max-width: 300px) {=0A      *[class=3D"Hide300"]{dis=
+play:none !important;}=0A  }=0A  </style>=0A=0A=0A=0A  =0A=0A=0A  =0A=0A=0A=
+  =0A=0A=0A  =0A=0A=0A  =0A=0A=0A=0A=0A=0A=0A  =0A  =0A  =0A=0A=0A  =0A=0A=
+=0A=0A=0A=0A=0A  =0A  =0A  =0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=
+=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A=0A  =0A  =0A  =0A  =0A  =0A  =0A  =0A =
+ =0A  =0A  =0A  =0A  =0A  =0A  <table bgcolor=3D"#f3f3f3" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><tr><td align=3D"cent=
+er">=0A                    =0A          =0A          =0A          =0A      =
+    =0A          =0A          =0A          =0A          =0A          =0A   =
+       =0A          =0A          =0A          =0A          =0A          =0A=
+          =0A          =0A          =0A          =0A          =0A          =
+=0A          =0A          =0A          =0A          <table bgcolor=3D"#f3f3=
+f3" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"backgroundTable"=
+ width=3D"100%"><tbody><tr><td align=3D"center" valign=3D"top">=0A         =
+                           =0A                  =0A                  =0A   =
+               =0A                  =0A                  =0A               =
+   =0A                  =0A                  =0A                  =0A      =
+            =0A                  =0A                  =0A                  =
+=0A                  =0A                  =0A                  =0A         =
+         =0A                  =0A                  =0A                  =0A=
+                  =0A                  =0A                  =0A            =
+      =0A                  <table align=3D"center" bgcolor=3D"#f3f3f3" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devicewidth" width=3D=
+"600"><tbody><tr><td align=3D"center" height=3D"5" style=3D"font-size:1px; =
+line-height:5px;mso-line-height-rule: exactly;">=C2=A0</td>=0A</tr>=0A<tbod=
+y>=0A</table>=0A                                =0A                =0A     =
+           =0A                =0A                =0A                =0A    =
+            =0A                =0A                =0A                =0A   =
+             =0A                =0A                =0A                =0A  =
+              =0A                =0A                =0A                =0A =
+               =0A                =0A                =0A                =0A=
+                =0A                =0A                =0A                </=
+td>=0A</tr>=0A<tbody>=0A</table>=0A                    <!-- End of seperato=
+r --><!-- Start of seperator -->=0A=0A                    =0A          =0A =
+         =0A          =0A          =0A          =0A          =0A          =
+=0A          =0A          =0A          =0A          =0A          =0A       =
+   =0A          =0A          =0A          =0A          =0A          =0A    =
+      =0A          =0A          =0A          =0A          =0A          =0A =
+         <table bgcolor=3D"#f3f3f3" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" id=3D"backgroundTable" width=3D"100%"><tbody><tr><td>=0A         =
+                           =0A                  =0A                  =0A   =
+               =0A                  =0A                  =0A               =
+   =0A                  =0A                  =0A                  =0A      =
+            =0A                  =0A                  =0A                  =
+=0A                  =0A                  =0A                  =0A         =
+         =0A                  =0A                  =0A                  =0A=
+                  =0A                  =0A                  =0A            =
+      =0A                  <table align=3D"center" bgcolor=3D"#ffffff" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devicewidth" width=3D=
+"600"><tbody><tr><td align=3D"center" height=3D"5" style=3D"font-size:1px; =
+line-height:5px;mso-line-height-rule: exactly;">=C2=A0</td>=0A</tr>=0A<tbod=
+y>=0A</table>=0A                                =0A                =0A     =
+           =0A                =0A                =0A                =0A    =
+            =0A                =0A                =0A                =0A   =
+             =0A                =0A                =0A                =0A  =
+              =0A                =0A                =0A                =0A =
+               =0A                =0A                =0A                =0A=
+                =0A                =0A                =0A                </=
+td>=0A</tr>=0A<tbody>=0A</table>=0A                    <!-- End of seperato=
+r --><!-- Alternative Email Header - better in my opinion-->=0A=0A         =
+           =0A          =0A          =0A          =0A          =0A         =
+ =0A          =0A          =0A          =0A          =0A          =0A      =
+    =0A          =0A          =0A          =0A          =0A          =0A   =
+       =0A          =0A          =0A          =0A          =0A          =0A=
+          =0A          =0A          <table bgcolor=3D"#f3f3f3" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" id=3D"backgroundTable" width=3D"100%">=
+<tbody><tr><td>=0A                  =0A                  =0A               =
+   =0A                  =0A                  =0A                  =0A      =
+            =0A                  =0A                  =0A                  =
+=0A                  =0A                  =0A                  =0A         =
+         =0A                  <table align=3D"center" bgcolor=3D"#ffffff" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devicewidth" width=
+=3D"600"><tbody><tr><td width=3D"100%">=0A                          =0A    =
+                      =0A                          =0A                     =
+     =0A                          =0A                          =0A         =
+                 =0A                          =0A                          =
+=0A                          =0A                          =0A              =
+            =0A                          =0A                          =0A  =
+                        <table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"devicewidth" width=3D"600"><tbody><tr><!-- s=
+tart of image -->=0A                                =0A                    =
+            =0A                                =0A                         =
+       =0A                                =0A                              =
+  =0A                                =0A                                =0A=
+                                =0A                                =0A     =
+                           =0A                                =0A          =
+                      =0A                                =0A               =
+                 <td align=3D"center">                                  =0A=
+                                  =0A                                  =0A =
+                                 =0A                                  =0A  =
+                                =0A                                  =0A   =
+                               =0A                                  =0A    =
+                              =0A                                  =0A     =
+                             =0A                                  =0A      =
+                            =0A                                  =0A       =
+                           <img alt=3D"CANACOPE CDMX" border=3D"0" class=3D=
+"banner_mobile" height=3D"145" src=3D"https://s3.amazonaws.com/kolau/images=
+/top-contable-asesor1.png" style=3D"display:block; border:none; outline:non=
+e; font-family: Georgia; color: #538D9C; font-style: normal; font-size: 19p=
+x; text-decoration:none;" width=3D"600">=0A                                =
+=0A                                =0A                                =0A  =
+                              =0A                                =0A       =
+                         =0A                                =0A            =
+                    =0A                                =0A                 =
+               =0A                                =0A                      =
+          =0A                                =0A                           =
+     =0A                                </td>=0A</tr>=0A<tbody>=0A</table>=
+=0A                        =0A                        =0A                  =
+      =0A                        =0A                        =0A            =
+            =0A                        =0A                        =0A      =
+                  =0A                        =0A                        =0A=
+                        =0A                        =0A                     =
+   =0A                        </td>=0A</tr>=0A<tbody>=0A</table>=0A        =
+        =0A                =0A                =0A                =0A       =
+         =0A                =0A                =0A                =0A      =
+          =0A                =0A                =0A                =0A     =
+           =0A                =0A                </td>=0A</tr>=0A<tbody>=0A=
+</table>=0A            <!-- End of main-banner --><!-- Start of seperator -=
+->=0A=0A          =0A          =0A          =0A          =0A          =0A  =
+        =0A          =0A          =0A          =0A          =0A          =
+=0A          =0A          =0A          =0A          =0A          =0A       =
+   =0A          =0A          =0A          =0A          =0A          =0A    =
+      =0A          =0A          <table bgcolor=3D"#f3f3f3" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" id=3D"backgroundTable" width=3D"100%"><tbo=
+dy><tr><td>=0A                        =0A                  =0A             =
+     =0A                  =0A                  =0A                  =0A    =
+              =0A                  =0A                  =0A                =
+  =0A                  =0A                  =0A                  =0A       =
+           =0A                  =0A                  =0A                  =
+=0A                  =0A                  =0A                  =0A         =
+         =0A                  =0A                  =0A                  =0A=
+                  =0A                  <table align=3D"center" bgcolor=3D"#=
+ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devicewid=
+th" width=3D"600"><tbody><tr><td align=3D"center" height=3D"10" style=3D"fo=
+nt-size:1px; line-height:10px;">=C2=A0</td>=0A</tr>=0A<tbody>=0A</table>=0A=
+                        =0A                =0A                =0A          =
+      =0A                =0A                =0A                =0A         =
+       =0A                =0A                =0A                =0A        =
+        =0A                =0A                =0A                =0A       =
+         =0A                =0A                =0A                =0A      =
+          =0A                =0A                =0A                =0A     =
+           =0A                =0A                </td>=0A</tr>=0A<tbody>=0A=
+</table>=0A              =0A          =0A          =0A          =0A        =
+  =0A          =0A          =0A          =0A          =0A          =0A     =
+     =0A          =0A          =0A          =0A          =0A          =0A  =
+        =0A          =0A          =0A          =0A          =0A          =
+=0A          =0A          =0A          =0A          <table bgcolor=3D"#f3f3=
+f3" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"backgroundTable"=
+ width=3D"100%"><tbody><tr><td>=0A                        =0A              =
+    =0A                  =0A                  =0A                  =0A     =
+             =0A                  =0A                  =0A                 =
+ =0A                  =0A                  =0A                  =0A        =
+          =0A                  =0A                  =0A                  =
+=0A                  =0A                  =0A                  =0A         =
+         =0A                  =0A                  =0A                  =0A=
+                  =0A                  =0A                  <table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devicewi=
+dth" width=3D"600"><tbody><tr><td width=3D"100%">=0A                       =
+             =0A                          =0A                          =0A =
+                         =0A                          =0A                  =
+        =0A                          =0A                          =0A      =
+                    =0A                          =0A                       =
+   =0A                          =0A                          =0A           =
+               =0A                          =0A                          =
+=0A                          =0A                          =0A              =
+            =0A                          =0A                          =0A  =
+                        =0A                          =0A                   =
+       =0A                          =0A                          <table ali=
+gn=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"devicewidth" width=3D"600"><!-- Spacing -->=0A            =
+                            =0A                            =0A             =
+               =0A                            =0A                          =
+  =0A                            =0A                            =0A        =
+                    =0A                            =0A                     =
+       =0A                            =0A                            =0A   =
+                         =0A                            =0A                =
+            =0A                            =0A                            =
+=0A                            =0A                            =0A          =
+                  =0A                            =0A                       =
+     =0A                            =0A                            =0A     =
+                       =0A                            <tbody><tr><td height=
+=3D"20" style=3D"font-size:1px; line-height:20px; mso-line-height-rule: exa=
+ctly;">=C2=A0</td>=0A</tr>=0A=0A                                           =
+ <!-- Spacing -->=0A                                            =0A        =
+                      =0A                              =0A                 =
+             =0A                              =0A                          =
+    =0A                              =0A                              =0A  =
+                            =0A                              =0A           =
+                   =0A                              =0A                    =
+          =0A                              =0A                             =
+ =0A                              =0A                              =0A     =
+                         =0A                              =0A              =
+                =0A                              =0A                       =
+       =0A                              =0A                              =
+=0A                              =0A                              <tr><td>=
+=0A                                                =0A                     =
+             =0A                                  =0A                      =
+            =0A                                  =0A                       =
+           =0A                                  =0A                        =
+          =0A                                  =0A                         =
+         =0A                                  =0A                          =
+        =0A                                  =0A                           =
+       =0A                                  =0A                            =
+      =0A                                  =0A                             =
+     =0A                                  =0A                              =
+    =0A                                  =0A                               =
+   =0A                                  =0A                                =
+  =0A                                  =0A                                 =
+ <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" c=
+lass=3D"devicewidthinner" width=3D"560"><!-- Title -->=0A                  =
+                                  =0A                                    =
+=0A                                    =0A                                 =
+   =0A                                    =0A                              =
+      =0A                                    =0A                           =
+         =0A                                    =0A                        =
+            =0A                                    =0A                     =
+               =0A                                    =0A                  =
+                  =0A                                    =0A               =
+                     =0A                                    =0A            =
+                        =0A                                    =0A         =
+                           =0A                                    =0A      =
+                              =0A                                    =0A   =
+                                 =0A                                    =0A=
+                                    <tbody><tr><td style=3D"font-family: He=
+lvetica, arial, sans-serif;color:#0F9948;font-size:17px;line-height:1.5em;"=
+>=0A                                          Invitaci=C3=B3n Exclusiva Emp=
+resas Contabilidad en=C2=A0Miguel Hidalgo=0A                               =
+           =0A                                          =0A                =
+                          =0A                                          =0A =
+                                         =0A                               =
+           =0A                                          =0A                =
+                          =0A                                          =0A =
+                                         =0A                               =
+           =0A                                          =0A                =
+                          =0A                                          =0A =
+                                         =0A                               =
+           =0A                                          <strong>hasta este =
+viernes 5 de Abril</strong>=0A                                        =0A  =
+                                      =0A                                  =
+      =0A                                        =0A                       =
+                 =0A                                        =0A            =
+                            =0A                                        =0A =
+                                       =0A                                 =
+       =0A                                        =0A                      =
+                  =0A                                        =0A           =
+                             =0A                                        =0A=
+                                        =0A                                =
+        </td>=0A</tr>=0A<tbody>=0A</table>=0A                              =
+                  =0A                                =0A                   =
+             =0A                                =0A                        =
+        =0A                                =0A                             =
+   =0A                                =0A                                =
+=0A                                =0A                                =0A  =
+                              =0A                                =0A       =
+                         =0A                                =0A            =
+                    =0A                                =0A                 =
+               =0A                                =0A                      =
+          =0A                                =0A                           =
+     =0A                                =0A                                =
+=0A                                =0A                                </td>=
+=0A</tr>=0A<tbody>=0A</table>=0A                                    =0A    =
+                    =0A                        =0A                        =
+=0A                        =0A                        =0A                  =
+      =0A                        =0A                        =0A            =
+            =0A                        =0A                        =0A      =
+                  =0A                        =0A                        =0A=
+                        =0A                        =0A                     =
+   =0A                        =0A                        =0A               =
+         =0A                        =0A                        =0A         =
+               =0A                        =0A                        </td>=
+=0A</tr>=0A<tbody>=0A</table>=0A                        =0A                =
+=0A                =0A                =0A                =0A               =
+ =0A                =0A                =0A                =0A              =
+  =0A                =0A                =0A                =0A             =
+   =0A                =0A                =0A                =0A            =
+    =0A                =0A                =0A                =0A           =
+     =0A                =0A                =0A                =0A          =
+      </td>=0A</tr>=0A<tbody>=0A</table>=0A            =0A          =0A    =
+      =0A          =0A       =0A          =0A          =0A          =0A=0A =
+         =0A          =0A          =0A          =0A          =0A          =
+=0A          =0A          =0A        =0A=0A            =0A          =0A    =
+      =0A          =0A          =0A          =0A          =0A          =0A =
+         =0A          =0A          =0A          =0A          =0A          =
+=0A          =0A          =0A          =0A          =0A          =0A       =
+   =0A          =0A          =0A          =0A          =0A          =0A    =
+      =0A          =0A          =0A          =0A          =0A          <tab=
+le bgcolor=3D"#f3f3f3" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=
+=3D"backgroundTable" width=3D"100%"><tbody><tr><td>=0A                  =0A=
+                  =0A                  =0A                  =0A            =
+      =0A                  =0A                  =0A                  =0A   =
+               =0A                  =0A                  =0A               =
+   =0A                  =0A                  =0A                  =0A      =
+            =0A                  =0A                  <table align=3D"cente=
+r" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devicewidth" w=
+idth=3D"600"><tbody><tr><td width=3D"100%">=0A                          =0A=
+                          =0A                          =0A                 =
+         =0A                          =0A                          =0A     =
+                     =0A                          =0A                      =
+    =0A                          =0A                          =0A          =
+                =0A                          =0A                          =
+=0A                          =0A                          =0A              =
+            =0A                          <table align=3D"center" bgcolor=3D=
+"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devicew=
+idth" width=3D"600"><!-- Spacing -->   =0A                            =0A  =
+                          =0A                            =0A               =
+             =0A                            =0A                            =
+=0A                            =0A                            =0A          =
+                  =0A                            =0A                       =
+     =0A                            =0A                            =0A     =
+                       =0A                            =0A                  =
+          =0A                            =0A                            <tb=
+ody><!-- Spacing -->=0A                              =0A                   =
+           =0A                              =0A                            =
+  =0A                              =0A                              =0A    =
+                          =0A                              =0A             =
+                 =0A                              =0A                      =
+        =0A                              =0A                              =
+=0A                              =0A                              =0A      =
+                        =0A                              =0A               =
+               <tr><td>=0A                                  =0A            =
+                      =0A                                  =0A             =
+                     =0A                                  =0A              =
+                    =0A                                  =0A               =
+                   =0A                                  =0A                =
+                  =0A                                  =0A                 =
+                 =0A                                  =0A                  =
+                =0A                                  =0A                   =
+               =0A                                  =0A                    =
+              <table align=3D"center" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" class=3D"devicewidthinner" width=3D"560"><!-- Title -->=0A     =
+                               =0A                                    =0A  =
+                                  =0A                                    =
+=0A                                    =0A                                 =
+   =0A                                    =0A                              =
+      =0A                                    =0A                           =
+         =0A                                    =0A                        =
+            =0A                                    =0A                     =
+               =0A                                    =0A                  =
+                  =0A                                    =0A               =
+                     <tbody><tr><td class=3D"fontmobile" style=3D"font-fami=
+ly: Helvetica, arial, sans-serif;color:#333333;font-size:15px;line-height:1=
+.5em;text-align:left;">                                          =0A       =
+                                   =0A                                     =
+     =0A                                          =0A                      =
+                    =0A                                          =0A       =
+                                   =0A                                     =
+     =0A                                          =0A                      =
+                    =0A                                          =0A       =
+                                   =0A                                     =
+     =0A                                          =0A                      =
+                    =0A                                          =0A       =
+                                   =0A                                     =
+     =0A                                          <br>=0A                  =
+                      =0A                                        =0A       =
+                                 =0A                                       =
+ =0A                                        =0A                            =
+            =0A                                        =0A                 =
+                       =0A                                        =0A      =
+                                  =0A                                      =
+  =0A                                        =0A                           =
+             =0A                                        =0A                =
+                        =0A                                        =0A     =
+                                   =0A                                     =
+   </td>=0A</tr>=0A=0A                                      =0A            =
+                          =0A                                      =0A     =
+                                 =0A                                      =
+=0A                                      =0A                               =
+       =0A                                      =0A                        =
+              =0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ =0A                                      =0A                              =
+        <tr><td height=3D"15" style=3D"font-size:1px; line-height:15px; mso=
+-line-height-rule: exactly;" width=3D"100%">=C2=A0</td>=0A</tr>=0A=0A      =
+                                =0A                                      =
+=0A                                      =0A                               =
+       =0A                                      =0A                        =
+              =0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ =0A                                      =0A                              =
+        =0A                                      =0A                       =
+               =0A                                      <tr><td class=3D"fo=
+ntmobile" style=3D"font-family: Helvetica, arial, sans-serif;color:#333333;=
+font-size:15px;line-height:1.5em;text-align:left;">=0A=C2=A1Hola Servicios =
+de Contabilidad y Auditor=C3=ADa!=0A                                       =
+   =0A                                          =0A                        =
+                  =0A                                          =0A         =
+                                 =0A                                       =
+   =0A                                          =0A                        =
+                  =0A                                          =0A         =
+                                 =0A                                       =
+   =0A                                          =0A                        =
+                  =0A                                          =0A         =
+                                 =0A                                       =
+   =0A                                          =0A                        =
+                  <br>=0A                                          =0A     =
+                                     =0A                                   =
+       =0A                                          =0A                    =
+                      =0A                                          =0A     =
+                                     =0A                                   =
+       =0A                                          =0A                    =
+                      =0A                                          =0A     =
+                                     =0A                                   =
+       =0A                                          =0A                    =
+                      =0A                                          =0A     =
+                                     =0A                                   =
+       <br>=0A                                          La =0A             =
+                             =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+=0A                                          <strong>C=C3=A1mara de Comerci=
+o</strong> en Peque=C3=B1o de la Ciudad de M=C3=A9xico =0A                 =
+                         =0A                                          =0A  =
+                                        =0A                                =
+          =0A                                          =0A                 =
+                         =0A                                          =0A  =
+                                        =0A                                =
+          =0A                                          =0A                 =
+                         =0A                                          =0A  =
+                                        =0A                                =
+          =0A                                          =0A                 =
+                         =0A                                          =0A  =
+                                        <strong>te ofrece en exclusiva</str=
+ong>, junto a un reducido n=C3=BAmero de empresas contables y de asesor=C3=
+=ADa en Ciudad de M=C3=A9xico:=0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+=0A                                          =0A                           =
+               <br>=0A                                          =0A        =
+                                  =0A                                      =
+    =0A                                          =0A                       =
+                   =0A                                          =0A        =
+                                  =0A                                      =
+    =0A                                          =0A                       =
+                   =0A                                          =0A        =
+                                  =0A                                      =
+    =0A                                          =0A                       =
+                   =0A                                          =0A        =
+                                  =0A                                      =
+    <br>=0A                                          =0A                   =
+                     =0A                                        =0A        =
+                                =0A                                        =
+=0A                                        =0A                             =
+           =0A                                        =0A                  =
+                      =0A                                        =0A       =
+                                 =0A                                       =
+ =0A                                        =0A                            =
+            =0A                                        =0A                 =
+                       =0A                                        =0A      =
+                                  =0A                                      =
+  </td>=0A</tr>=0A<tbody>=0A</table>=0A                                =0A =
+                               =0A                                =0A      =
+                          =0A                                =0A           =
+                     =0A                                =0A                =
+                =0A                                =0A                     =
+           =0A                                =0A                          =
+      =0A                                =0A                               =
+ =0A                                =0A                                =0A =
+                               =0A                                </td>=0A<=
+/tr>=0A<tbody>=0A</table>=0A                        =0A                    =
+    =0A                        =0A                        =0A              =
+          =0A                        =0A                        =0A        =
+                =0A                        =0A                        =0A  =
+                      =0A                        =0A                       =
+ =0A                        =0A                        =0A                 =
+       =0A                        =0A                        </td>=0A</tr>=
+=0A<tbody>=0A</table>=0A                =0A                =0A             =
+   =0A                =0A                =0A                =0A            =
+    =0A                =0A                =0A                =0A           =
+     =0A                =0A                =0A                =0A          =
+      =0A                =0A                =0A                </td>=0A</tr=
+>=0A<tbody>=0A</table>=0A          =0A          =0A          =0A          =
+=0A          =0A          =0A          =0A          =0A          =0A       =
+   =0A          =0A          =0A          =0A          =0A          =0A    =
+      =0A          =0A          =0A          <table bgcolor=3D"#f3f3f3" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"backgroundTable" width=
+=3D"100%"><tbody><tr><td>=0A                                =0A            =
+      =0A                  =0A                  =0A                  =0A   =
+               =0A                  =0A                  =0A               =
+   =0A                  =0A                  =0A                  =0A      =
+            =0A                  =0A                  =0A                  =
+=0A                  =0A                  <table align=3D"center" bgcolor=
+=3D"#f3f3f3" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devi=
+cewidth" width=3D"600"><tbody><tr><td align=3D"center" height=3D"10" style=
+=3D"font-size:1px; line-height:10px;">=C2=A0</td>=0A</tr>=0A<tbody>=0A</tab=
+le>=0A                            =0A                =0A                =0A=
+                =0A                =0A                =0A                =
+=0A                =0A                =0A                =0A               =
+ =0A                =0A                =0A                =0A              =
+  =0A                =0A                =0A                </td>=0A</tr>=0A=
+<tbody>=0A</table>=0A          =0A          =0A          =0A          =0A  =
+        =0A          =0A          =0A          =0A          =0A          =
+=0A          =0A          =0A          =0A          =0A          =0A       =
+   =0A          =0A          <table bgcolor=3D"#f3f3f3" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" id=3D"backgroundTable" width=3D"100%"><tbody>=
+<tr><td>=0A                  =0A                  =0A                  =0A =
+                 =0A                  =0A                  =0A             =
+     =0A                  =0A                  =0A                  =0A    =
+              =0A                  =0A                  =0A                =
+  =0A                  =0A                  =0A                  =0A       =
+           <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"devicewidth" width=3D"600"><tbody><tr><td width=3D"100%">=
+=0A                          =0A                          =0A              =
+            =0A                          =0A                          =0A  =
+                        =0A                          =0A                   =
+       =0A                          =0A                          =0A       =
+                   =0A                          =0A                        =
+  =0A                          =0A                          =0A            =
+              =0A                          =0A                          <ta=
+ble align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" class=3D"devicewidth" width=3D"600"><!-- Spacing -->   =0A  =
+                          =0A                            =0A               =
+             =0A                            =0A                            =
+=0A                            =0A                            =0A          =
+                  =0A                            =0A                       =
+     =0A                            =0A                            =0A     =
+                       =0A                            =0A                  =
+          =0A                            =0A                            =0A=
+                            <tbody><!-- Spacing -->=0A                     =
+         =0A                              =0A                              =
+=0A                              =0A                              =0A      =
+                        =0A                              =0A               =
+               =0A                              =0A                        =
+      =0A                              =0A                              =0A=
+                              =0A                              =0A         =
+                     =0A                              =0A                  =
+            =0A                              <tr><td>=0A                   =
+               =0A                                  =0A                    =
+              =0A                                  =0A                     =
+             =0A                                  =0A                      =
+            =0A                                  =0A                       =
+           =0A                                  =0A                        =
+          =0A                                  =0A                         =
+         =0A                                  =0A                          =
+        =0A                                  =0A                           =
+       =0A                                  <table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devicewidthinner" width=
+=3D"560"><!-- Title -->=0A                                    =0A          =
+                          =0A                                    =0A       =
+                             =0A                                    =0A    =
+                                =0A                                    =0A =
+                                   =0A                                    =
+=0A                                    =0A                                 =
+   =0A                                    =0A                              =
+      =0A                                    =0A                           =
+         =0A                                    =0A                        =
+            =0A                                    <tbody><tr><td height=3D=
+"15" style=3D"font-size:1px; line-height:15px; mso-line-height-rule: exactl=
+y;" width=3D"100%">=C2=A0</td>=0A</tr>=0A=0A                               =
+       =0A                                      =0A                        =
+              =0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ =0A                                      =0A                              =
+        =0A                                      =0A                       =
+               =0A                                      =0A                =
+                      =0A                                      =0A         =
+                             <tr><td class=3D"fontmobile" style=3D"font-fam=
+ily: Helvetica, arial, sans-serif;color:#333333;font-size:15px;line-height:=
+1.5em;text-align:left;">=0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         <span style=3D"color: #2753b4 !important; font-size:17px;">=E2=9C=
+=94</span> =0A                                          =0A                =
+                          =0A                                          =0A =
+                                         =0A                               =
+           =0A                                          =0A                =
+                          =0A                                          =0A =
+                                         =0A                               =
+           =0A                                          =0A                =
+                          =0A                                          =0A =
+                                         =0A                               =
+           =0A                                          =0A                =
+                          =0A                                          <str=
+ong>Invitaci=C3=B3n al evento anual para digitalizaci=C3=B3n de empresas co=
+ntables en las oficinas de Google en CDMX</strong>, =C2=A1desayuno incluido=
+! Conocer=C3=A1s en exclusiva y de primera mano del equipo de Google los se=
+cretos para ganar m=C3=A1s clientes en internet.=0A                        =
+                  =0A                                          =0A         =
+                                 =0A                                       =
+   =0A                                          =0A                        =
+                  =0A                                          =0A         =
+                                 =0A                                       =
+   =0A                                          =0A                        =
+                  =0A                                          =0A         =
+                                 =0A                                       =
+   =0A                                          =0A                        =
+                  =0A                                          =0A         =
+                                 <br>=0A                                   =
+       =0A                                          =0A                    =
+                      =0A                                          =0A     =
+                                     =0A                                   =
+       =0A                                          =0A                    =
+                      =0A                                          =0A     =
+                                     =0A                                   =
+       =0A                                          =0A                    =
+                      =0A                                          =0A     =
+                                     =0A                                   =
+       =0A                                          =0A                    =
+                      <br>=0A                                          =0A =
+                                        =0A                                =
+        =0A                                        =0A                     =
+                   =0A                                        =0A          =
+                              =0A                                        =
+=0A                                        =0A                             =
+           =0A                                        =0A                  =
+                      =0A                                        =0A       =
+                                 =0A                                       =
+ =0A                                        =0A                            =
+            =0A                                        =0A                 =
+                       </td>=0A</tr>=0A=0A                                 =
+     =0A                                      =0A                          =
+            =0A                                      =0A                   =
+                   =0A                                      =0A            =
+                          =0A                                      =0A     =
+                                 =0A                                      =
+=0A                                      =0A                               =
+       =0A                                      =0A                        =
+              =0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            <tr><td class=3D"fontmobile" style=3D"font-fami=
+ly: Helvetica, arial, sans-serif;color:#333333;font-size:15px;line-height:1=
+.5em;text-align:left;">=0A                                          =0A    =
+                                      =0A                                  =
+        =0A                                          =0A                   =
+                       =0A                                          =0A    =
+                                      =0A                                  =
+        =0A                                          =0A                   =
+                       =0A                                          =0A    =
+                                      =0A                                  =
+        =0A                                          =0A                   =
+                       =0A                                          =0A    =
+                                      =0A                                  =
+        <br>=0A                                        =0A                 =
+                       =0A                                        =0A      =
+                                  =0A                                      =
+  =0A                                        =0A                           =
+             =0A                                        =0A                =
+                        =0A                                        =0A     =
+                                   =0A                                     =
+   =0A                                        =0A                          =
+              =0A                                        =0A               =
+                         =0A                                        =0A    =
+                                    </td>=0A</tr>=0A=0A                    =
+                  =0A                                      =0A             =
+                         =0A                                      =0A      =
+                                =0A                                      =
+=0A                                      =0A                               =
+       =0A                                      =0A                        =
+              =0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ =0A                                      <tr><td style=3D"padding-left: 10=
+px;">=0A                                          =0A                      =
+                    =0A                                          =0A       =
+                                   =0A                                     =
+     =0A                                          =0A                      =
+                    =0A                                          =0A       =
+                                   =0A                                     =
+     =0A                                          =0A                      =
+                    =0A                                          =0A       =
+                                   =0A                                     =
+     =0A                                          =0A                      =
+                    =0A                                          <table ali=
+gn=3D"center" bgcolor=3D"#2780b4" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" height=3D"40" style=3D"border-radius:3px;" valign=3D"middle" width=
+=3D"250"><tbody><tr><td align=3D"center" height=3D"9" style=3D"font-size:1p=
+x; line-height:9px;">=C2=A0</td>=0A</tr>=0A=0A                             =
+                 =0A                                              =0A      =
+                                        =0A                                =
+              =0A                                              =0A         =
+                                     =0A                                   =
+           =0A                                              =0A            =
+                                  =0A                                      =
+        =0A                                              =0A               =
+                               =0A                                         =
+     =0A                                              =0A                  =
+                            =0A                                            =
+  =0A                                              =0A                     =
+                         <tr><td align=3D"center" height=3D"20" style=3D"fo=
+nt-family: Helvetica, Arial, sans-serif; font-size: 16px;color: #ffffff; te=
+xt-align:center; line-height: 14px; ; -webkit-text-size-adjust:none;" valig=
+n=3D"middle">=0A                                                  =0A      =
+                                            =0A                            =
+                      =0A                                                  =
+=0A                                                  =0A                   =
+                               =0A                                         =
+         =0A                                                  =0A          =
+                                        =0A                                =
+                  =0A                                                  =0A =
+                                                 =0A                       =
+                           =0A                                             =
+     =0A                                                  =0A              =
+                                    =0A                                    =
+              =0A                                                  <a href=
+=3D"http://mkt.canacope.org/go/fbf4d24ce1d9fac02a6903b25037-5db206915367e19=
+66301273eXe1gNae6g7FeJWe6n8vD" rel=3D"noopener noreferrer" style=3D"color:#=
+ffffff;text-decoration:none; text-align:center;" target=3D"_blank">=C2=A1Lo=
+ quiero!                                                  </a>=0A=0A       =
+                                         =0A                               =
+                 =0A                                                =0A    =
+                                            =0A                            =
+                    =0A                                                =0A =
+                                               =0A                         =
+                       =0A                                                =
+=0A                                                =0A                     =
+                           =0A                                             =
+   =0A                                                =0A                  =
+                              =0A                                          =
+      =0A                                                =0A               =
+                                 =0A                                       =
+         </td>=0A</tr>=0A=0A                                              =
+=0A                                              =0A                       =
+                       =0A                                              =0A=
+                                              =0A                          =
+                    =0A                                              =0A   =
+                                           =0A                             =
+                 =0A                                              =0A      =
+                                        =0A                                =
+              =0A                                              =0A         =
+                                     =0A                                   =
+           =0A                                              =0A            =
+                                  =0A                                      =
+        <tr><td align=3D"center" height=3D"9" style=3D"font-size:1px; line-=
+height:1px;">=C2=A0</td>=0A</tr>=0A<tbody>=0A</table>=0A                   =
+                     =0A                                        =0A        =
+                                =0A                                        =
+=0A                                        =0A                             =
+           =0A                                        =0A                  =
+                      =0A                                        =0A       =
+                                 =0A                                       =
+ =0A                                        =0A                            =
+            =0A                                        =0A                 =
+                       =0A                                        =0A      =
+                                  =0A                                      =
+  </td>=0A</tr>=0A=0A                                      =0A             =
+                         =0A                                      =0A      =
+                                =0A                                      =
+=0A                                      =0A                               =
+       =0A                                      =0A                        =
+              =0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ =0A                                      =0A                              =
+        <tr><td height=3D"15" style=3D"font-size:1px; line-height:15px; mso=
+-line-height-rule: exactly;" width=3D"100%">=C2=A0</td>=0A</tr>=0A=0A      =
+                                =0A                                      =
+=0A                                      =0A                               =
+       =0A                                      =0A                        =
+              =0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ =0A                                      =0A                              =
+        =0A                                      =0A                       =
+               =0A                                      <tr><td height=3D"1=
+5" style=3D"font-size:1px; line-height:15px; mso-line-height-rule: exactly;=
+" width=3D"100%">=C2=A0</td>=0A</tr>=0A<tbody>=0A</table>=0A               =
+                 =0A                                =0A                    =
+            =0A                                =0A                         =
+       =0A                                =0A                              =
+  =0A                                =0A                                =0A=
+                                =0A                                =0A     =
+                           =0A                                =0A          =
+                      =0A                                =0A               =
+                 =0A                                =0A                    =
+            </td>=0A</tr>=0A<tbody>=0A</table>=0A                        =
+=0A                        =0A                        =0A                  =
+      =0A                        =0A                        =0A            =
+            =0A                        =0A                        =0A      =
+                  =0A                        =0A                        =0A=
+                        =0A                        =0A                     =
+   =0A                        =0A                        =0A               =
+         </td>=0A</tr>=0A<tbody>=0A</table>=0A                =0A          =
+      =0A                =0A                =0A                =0A         =
+       =0A                =0A                =0A                =0A        =
+        =0A                =0A                =0A                =0A       =
+         =0A                =0A                =0A                =0A      =
+          </td>=0A</tr>=0A<tbody>=0A</table>=0A =0A          =0A          =
+=0A          =0A          =0A          =0A          =0A          =0A       =
+   =0A          =0A          =0A          =0A          =0A          =0A    =
+      =0A          =0A          <table bgcolor=3D"#f3f3f3" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" id=3D"backgroundTable" width=3D"100%"><tbo=
+dy><tr><td>=0A                  =0A                  =0A                  =
+=0A                  =0A                  =0A                  =0A         =
+         =0A                  =0A                  =0A                  =0A=
+                  =0A                  =0A                  =0A            =
+      =0A                  =0A                  =0A                  =0A   =
+               <table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" class=3D"devicewidth" width=3D"600"><tbody=
+><tr><td align=3D"center" height=3D"10" style=3D"font-size:1px; line-height=
+:10px;">=C2=A0</td>=0A</tr>=0A<tbody>=0A</table>=0A                =0A     =
+           =0A                =0A                =0A                =0A    =
+            =0A                =0A                =0A                =0A   =
+             =0A                =0A                =0A                =0A  =
+              =0A                =0A                =0A                =0A =
+               </td>=0A</tr>=0A<tbody>=0A</table>=0A                <!-- En=
+d of seperator -->=0A          =0A          =0A          =0A          =0A  =
+        =0A          =0A          =0A          =0A          =0A          =
+=0A          =0A          =0A          =0A          =0A          =0A       =
+   =0A          =0A          =0A          <table bgcolor=3D"#f3f3f3" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"backgroundTable" width=3D"=
+100%"><tbody><tr><td>=0A                  =0A                  =0A         =
+         =0A                  =0A                  =0A                  =0A=
+                  =0A                  =0A                  =0A            =
+      =0A                  =0A                  =0A                  =0A   =
+               =0A                  =0A                  =0A               =
+   =0A                  <table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"devicewidth" width=3D"600"><tbody><tr><td wi=
+dth=3D"100%">=0A                          =0A                          =0A =
+                         =0A                          =0A                  =
+        =0A                          =0A                          =0A      =
+                    =0A                          =0A                       =
+   =0A                          =0A                          =0A           =
+               =0A                          =0A                          =
+=0A                          =0A                          =0A              =
+            <table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" class=3D"devicewidth" width=3D"600"><!-- Spac=
+ing -->=0A                            =0A                            =0A   =
+                         =0A                            =0A                =
+            =0A                            =0A                            =
+=0A                            =0A                            =0A          =
+                  =0A                            =0A                       =
+     =0A                            =0A                            =0A     =
+                       =0A                            =0A                  =
+          =0A                            <tbody><!-- Spacing -->=0A        =
+                      =0A                              =0A                 =
+             =0A                              =0A                          =
+    =0A                              =0A                              =0A  =
+                            =0A                              =0A           =
+                   =0A                              =0A                    =
+          =0A                              =0A                             =
+ =0A                              =0A                              =0A     =
+                         =0A                              <tr><td>         =
+                         =0A                                  =0A          =
+                        =0A                                  =0A           =
+                       =0A                                  =0A            =
+                      =0A                                  =0A             =
+                     =0A                                  =0A              =
+                    =0A                                  =0A               =
+                   =0A                                  =0A                =
+                  =0A                                  =0A                 =
+                 =0A                                  =0A                  =
+                <table align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" class=3D"devicewidthinner" width=3D"560"><!-- Title -->=0A   =
+                                 =0A                                    =0A=
+                                    =0A                                    =
+=0A                                    =0A                                 =
+   =0A                                    =0A                              =
+      =0A                                    =0A                           =
+         =0A                                    =0A                        =
+            =0A                                    =0A                     =
+               =0A                                    =0A                  =
+                  =0A                                    =0A               =
+                     <tbody><tr><td height=3D"15" style=3D"font-size:1px; l=
+ine-height:15px; mso-line-height-rule: exactly;" width=3D"100%">=C2=A0</td>=
+=0A</tr>=0A=0A                                      =0A                    =
+                  =0A                                      =0A             =
+                         =0A                                      =0A      =
+                                =0A                                      =
+=0A                                      =0A                               =
+       =0A                                      =0A                        =
+              =0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ <tr><td class=3D"fontmobile" style=3D"font-family: Helvetica, arial, sans-=
+serif;color:#333333;font-size:15px;line-height:1.5em;text-align:left;">=0A =
+                                         =0A                               =
+           =0A                                          =0A                =
+                          =0A                                          =0A =
+                                         =0A                               =
+           =0A                                          =0A                =
+                          =0A                                          =0A =
+                                         =0A                               =
+           =0A                                          =0A                =
+                          =0A                                          =0A =
+                                         =0A                               =
+           =0A                                          <strong>Video testi=
+monio de c=C3=B3mo la CANACOPE ayuda a peque=C3=B1as empresas a crecer</str=
+ong> en muy poco tiempo: =0A                                          =0A  =
+                                        =0A                                =
+          =0A                                          =0A                 =
+                         =0A                                          =0A  =
+                                        =0A                                =
+          =0A                                          =0A                 =
+                         =0A                                          =0A  =
+                                        =0A                                =
+          =0A                                          =0A                 =
+                         =0A                                          <u>Re=
+staurante Los Murales, en Ciudad de M=C3=A9xico</u>=0A                     =
+                   =0A                                        =0A          =
+                              =0A                                        =
+=0A                                        =0A                             =
+           =0A                                        =0A                  =
+                      =0A                                        =0A       =
+                                 =0A                                       =
+ =0A                                        =0A                            =
+            =0A                                        =0A                 =
+                       =0A                                        =0A      =
+                                  =0A                                      =
+  </td>=0A</tr>=0A=0A                                      =0A             =
+                         =0A                                      =0A      =
+                                =0A                                      =
+=0A                                      =0A                               =
+       =0A                                      =0A                        =
+              =0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ =0A                                      <tr><td height=3D"15" style=3D"fo=
+nt-size:1px; line-height:15px; mso-line-height-rule: exactly;" width=3D"100=
+%">=C2=A0</td>=0A</tr>=0A<tbody>=0A</table>                 =0A            =
+                    =0A                                =0A                 =
+               =0A                                =0A                      =
+          =0A                                =0A                           =
+     =0A                                =0A                                =
+=0A                                =0A                                =0A  =
+                              =0A                                =0A       =
+                         =0A                                =0A            =
+                    =0A                                =0A                 =
+               </td>=0A</tr>=0A<tbody>=0A</table>=0A                       =
+ =0A                        =0A                        =0A                 =
+       =0A                        =0A                        =0A           =
+             =0A                        =0A                        =0A     =
+                   =0A                        =0A                        =
+=0A                        =0A                        =0A                  =
+      =0A                        =0A                        =0A            =
+            </td>=0A</tr>=0A<tbody>=0A</table>=0A                =0A       =
+         =0A                =0A                =0A                =0A      =
+          =0A                =0A                =0A                =0A     =
+           =0A                =0A                =0A                =0A    =
+            =0A                =0A                =0A                =0A   =
+             </td>=0A</tr>=0A<tbody>=0A</table>=0A          =0A          =
+=0A          =0A          =0A          =0A          =0A          =0A       =
+   =0A          =0A          =0A          =0A          =0A          =0A    =
+      =0A          =0A          =0A          =0A          =0A          <tab=
+le bgcolor=3D"#f3f3f3" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=
+=3D"backgroundTable" width=3D"100%"><tbody><tr><td>=0A                  =0A=
+                  =0A                  =0A                  =0A            =
+      =0A                  =0A                  =0A                  =0A   =
+               =0A                  =0A                  =0A               =
+   =0A                  =0A                  =0A                  =0A      =
+            =0A                  =0A                  <table align=3D"cente=
+r" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"devicewidth" width=3D"600"><tbody><tr><td width=3D"100%">=0A         =
+                 =0A                          =0A                          =
+=0A                          =0A                          =0A              =
+            =0A                          =0A                          =0A  =
+                        =0A                          =0A                   =
+       =0A                          =0A                          =0A       =
+                   =0A                          =0A                        =
+  =0A                          =0A                          <table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devicewi=
+dth" width=3D"600"><tbody><tr><!-- start of image -->=0A                   =
+             =0A                                =0A                        =
+        =0A                                =0A                             =
+   =0A                                =0A                                =
+=0A                                =0A                                =0A  =
+                              =0A                                =0A       =
+                         =0A                                =0A            =
+                    =0A                                =0A                 =
+               =0A                                =0A                      =
+          <td align=3D"center">=0A                                  =0A    =
+                              =0A                                  =0A     =
+                             =0A                                  =0A      =
+                            =0A                                  =0A       =
+                           =0A                                  =0A        =
+                          =0A                                  =0A         =
+                         =0A                                  =0A          =
+                        =0A                                  =0A           =
+                       =0A                                  =0A            =
+                      <a href=3D"http://mkt.canacope.org/go/fbf4d24ce1d9fac=
+02a6903b25037-5db206915367e1966301273eXe1gNae6g7FeJWe6mZVv" target=3D"_blan=
+k">=0A                                    =0A                              =
+      =0A                                    =0A                           =
+         =0A                                    =0A                        =
+            =0A                                    =0A                     =
+               =0A                                    =0A                  =
+                  =0A                                    =0A               =
+                     =0A                                    =0A            =
+                        =0A                                    =0A         =
+                           =0A                                    =0A      =
+                              <img alt=3D"Kolau" border=3D"0" class=3D"bann=
+er" height=3D"300" src=3D"https://s3.amazonaws.com/kolau/images/rest-murale=
+s-email.png" style=3D"display:block; border:none; outline:none; font-family=
+: Georgia; color: #538D9C; font-style: normal; font-size: 19px; text-decora=
+tion:none;" width=3D"600">=0A                                  =0A         =
+                         =0A                                  =0A          =
+                        =0A                                  =0A           =
+                       =0A                                  =0A            =
+                      =0A                                  =0A             =
+                     =0A                                  =0A              =
+                    =0A                                  =0A               =
+                   =0A                                  =0A                =
+                  =0A                                  =0A                 =
+                 </a>=0A                                =0A                =
+                =0A                                =0A                     =
+           =0A                                =0A                          =
+      =0A                                =0A                               =
+ =0A                                =0A                                =0A =
+                               =0A                                =0A      =
+                          =0A                                =0A           =
+                     =0A                                =0A                =
+                =0A                                =0A                     =
+           </td>=0A          <!-- image banner --></tr>=0A<tbody>=0A</table=
+>=0A                        =0A                        =0A                 =
+       =0A                        =0A                        =0A           =
+             =0A                        =0A                        =0A     =
+                   =0A                        =0A                        =
+=0A                        =0A                        =0A                  =
+      =0A                        =0A                        =0A            =
+            =0A                        </td>=0A</tr>=0A<tbody>=0A</table>=
+=0A                =0A                =0A                =0A               =
+ =0A                =0A                =0A                =0A              =
+  =0A                =0A                =0A                =0A             =
+   =0A                =0A                =0A                =0A            =
+    =0A                =0A                </td>=0A</tr>=0A<tbody>=0A</table=
+>=0A          =0A          =0A          <!-- Start of seperator -->=0A=0A  =
+              =0A          =0A          =0A          =0A          =0A      =
+    =0A          =0A          =0A          =0A          =0A          =0A   =
+       =0A          =0A          =0A          =0A          =0A          =0A=
+          =0A          =0A          <table bgcolor=3D"#f3f3f3" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" id=3D"backgroundTable" width=3D"100%">=
+<tbody><tr><td>=0A                  =0A                  =0A               =
+   =0A                  =0A                  =0A                  =0A      =
+            =0A                  =0A                  =0A                  =
+=0A                  =0A                  =0A                  =0A         =
+         =0A                  =0A                  =0A                  =0A=
+                  <table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"devicewidth" width=3D"600"><tb=
+ody><tr><td align=3D"center" height=3D"10" style=3D"font-size:1px; line-hei=
+ght:10px;">=C2=A0</td>=0A</tr>=0A<tbody>=0A</table>=0A                =0A  =
+              =0A                =0A                =0A                =0A =
+               =0A                =0A                =0A                =0A=
+                =0A                =0A                =0A                =
+=0A                =0A                =0A                =0A               =
+ =0A                </td>=0A</tr>=0A<tbody>=0A</table>=0A                <!=
+-- End of seperator -->=0A=0A          =0A          =0A          =0A       =
+   =0A          =0A          =0A          =0A          =0A          =0A    =
+      =0A          =0A          =0A          =0A          =0A          =0A =
+         <table bgcolor=3D"#f3f3f3" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" id=3D"backgroundTable" width=3D"100%"><tbody><tr><td>=0A         =
+         =0A                  =0A                  =0A                  =0A=
+                  =0A                  =0A                  =0A            =
+      =0A                  =0A                  =0A                  =0A   =
+               =0A                  =0A                  =0A               =
+   =0A                  =0A                  =0A                  <table al=
+ign=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"de=
+vicewidth" width=3D"600"><tbody><tr><td width=3D"100%">=0A                 =
+         =0A                          =0A                          =0A     =
+                     =0A                          =0A                      =
+    =0A                          =0A                          =0A          =
+                =0A                          =0A                          =
+=0A                          =0A                          =0A              =
+            =0A                          =0A                          =0A  =
+                        =0A                          <table align=3D"center=
+" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"devicewidth" width=3D"600"><!-- Spacing -->   =0A                     =
+       =0A                            =0A                            =0A   =
+                         =0A                            =0A                =
+            =0A                            =0A                            =
+=0A                            =0A                            =0A          =
+                  =0A                            =0A                       =
+     =0A                            =0A                            =0A     =
+                       =0A                            =0A                  =
+          <tbody><!-- Spacing -->=0A                              =0A      =
+                        =0A                              =0A               =
+               =0A                              =0A                        =
+      =0A                              =0A                              =0A=
+                              =0A                              =0A         =
+                     =0A                              =0A                  =
+            =0A                              =0A                           =
+   =0A                              =0A                              =0A   =
+                           <tr><td>=0A                                  =0A=
+                                  =0A                                  =0A =
+                                 =0A                                  =0A  =
+                                =0A                                  =0A   =
+                               =0A                                  =0A    =
+                              =0A                                  =0A     =
+                             =0A                                  =0A      =
+                            =0A                                  =0A       =
+                           =0A                                  =0A        =
+                          <table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"devicewidthinner" width=3D"560"><!-- Titl=
+e -->=0A                                    =0A                            =
+        =0A                                    =0A                         =
+           =0A                                    =0A                      =
+              =0A                                    =0A                   =
+                 =0A                                    =0A                =
+                    =0A                                    =0A             =
+                       =0A                                    =0A          =
+                          =0A                                    =0A       =
+                             =0A                                    =0A    =
+                                <tbody><tr><td height=3D"15" style=3D"font-=
+size:1px; line-height:15px; mso-line-height-rule: exactly;" width=3D"100%">=
+=C2=A0</td>=0A</tr>=0A=0A                                      =0A         =
+                             =0A                                      =0A  =
+                                    =0A                                    =
+  =0A                                      =0A                             =
+         =0A                                      =0A                      =
+                =0A                                      =0A               =
+                       =0A                                      =0A        =
+                              =0A                                      =0A =
+                                     =0A                                   =
+   =0A                                      =0A                            =
+          <tr><td class=3D"fontmobile" style=3D"font-family: Helvetica, ari=
+al, sans-serif;color:#333333;font-size:15px;line-height:1.5em;text-align:le=
+ft;">=0A                                         =0A=0A                    =
+                      =0A                                          =0A     =
+                                     =0A                                   =
+       =0A                                          =0A                    =
+                      =0A                                          =0A     =
+                                     =0A                                   =
+       =0A                                          =0A                    =
+                      =0A                                          =0A     =
+                                     =0A                                   =
+       =0A                                          =0A                    =
+                      =0A                                          <span st=
+yle=3D"color: #2753b4 !important; font-size:17px;">=E2=9C=94</span> P=C3=A1=
+gina web para tu empresa de contabilidad/asesor=C3=ADa =0A                 =
+                         =0A                                          =0A  =
+                                        =0A                                =
+          =0A                                          =0A                 =
+                         =0A                                          =0A  =
+                                        =0A                                =
+          =0A                                          =0A                 =
+                         =0A                                          =0A  =
+                                        =0A                                =
+          =0A                                          =0A                 =
+                         =0A                                          =0A  =
+                                        <strong>100% gratis</strong> que ap=
+arece arriba de los resultados de Google, =0A                              =
+            =0A                                          =0A               =
+                           =0A                                          =0A=
+                                          =0A                              =
+            =0A                                          =0A               =
+                           =0A                                          =0A=
+                                          =0A                              =
+            =0A                                          =0A               =
+                           =0A                                          =0A=
+                                          =0A                              =
+            =0A                                          =0A               =
+                           <strong>cuando buscan &quot;Contable que haga de=
+claraci=C3=B3n de impuestos en Miguel Hidalgo, o mejor contable/asesor para=
+ empresas&quot;</strong>, por ejemplo. Tecnolog=C3=ADa inteligente a coste =
+$0, de la mano de nuestro Partner de los EE.UU Kolau.=0A                   =
+                       =0A                                          =0A    =
+                                      =0A                                  =
+        =0A                                          =0A                   =
+                       =0A                                          =0A    =
+                                      =0A                                  =
+        =0A                                          =0A                   =
+                       =0A                                          =0A    =
+                                      =0A                                  =
+        =0A                                          =0A                   =
+                       =0A                                          =0A    =
+                                      <br>=0A                              =
+            =0A                                          =0A               =
+                           =0A                                        =0A  =
+                                      =0A                                  =
+      =0A                                        =0A                       =
+                 =0A                                        =0A            =
+                            =0A                                        =0A =
+                                       =0A                                 =
+       =0A                                        =0A                      =
+                  =0A                                        =0A           =
+                             =0A                                        =0A=
+                                        =0A                                =
+        </td>=0A</tr>=0A=0A                                      =0A       =
+                               =0A                                      =0A=
+                                      =0A                                  =
+    =0A                                      =0A                           =
+           =0A                                      =0A                    =
+                  =0A                                      =0A             =
+                         =0A                                      =0A      =
+                                =0A                                      =
+=0A                                      =0A                               =
+       =0A                                      =0A                        =
+              <tr><td class=3D"fontmobile" style=3D"font-family: Helvetica,=
+ arial, sans-serif;color:#333333;font-size:15px;line-height:1.5em;text-alig=
+n:left;">=0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          <br>=
+=0A                                        =0A                             =
+           =0A                                        =0A                  =
+                      =0A                                        =0A       =
+                                 =0A                                       =
+ =0A                                        =0A                            =
+            =0A                                        =0A                 =
+                       =0A                                        =0A      =
+                                  =0A                                      =
+  =0A                                        =0A                           =
+             =0A                                        =0A                =
+                        </td>=0A</tr>=0A=0A                                =
+      =0A                                      =0A                         =
+             =0A                                      =0A                  =
+                    =0A                                      =0A           =
+                           =0A                                      =0A    =
+                                  =0A                                      =
+=0A                                      =0A                               =
+       =0A                                      =0A                        =
+              =0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ <tr><td height=3D"15" style=3D"font-size:1px; line-height:15px; mso-line-h=
+eight-rule: exactly;" width=3D"100%">=C2=A0</td>=0A</tr>=0A<tbody>=0A</tabl=
+e>=0A                                =0A                                =0A=
+                                =0A                                =0A     =
+                           =0A                                =0A          =
+                      =0A                                =0A               =
+                 =0A                                =0A                    =
+            =0A                                =0A                         =
+       =0A                                =0A                              =
+  =0A                                =0A                                =0A=
+                                </td>=0A</tr>=0A<tbody>=0A</table>=0A      =
+                  =0A                        =0A                        =0A=
+                        =0A                        =0A                     =
+   =0A                        =0A                        =0A               =
+         =0A                        =0A                        =0A         =
+               =0A                        =0A                        =0A   =
+                     =0A                        =0A                        =
+=0A                        </td>=0A</tr>=0A<tbody>=0A</table>=0A           =
+     =0A                =0A                =0A                =0A          =
+      =0A                =0A                =0A                =0A         =
+       =0A                =0A                =0A                =0A        =
+        =0A                =0A                =0A                =0A       =
+         =0A                </td>=0A</tr>=0A<tbody>=0A</table>=0A=0A=0A    =
+      =0A          =0A          =0A          =0A          =0A          =0A =
+         =0A          =0A          =0A          =0A          =0A          =
+=0A          =0A          =0A          =0A          =0A          <table bgc=
+olor=3D"#f3f3f3" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"bac=
+kgroundTable" width=3D"100%"><tbody><tr><td>=0A                  =0A       =
+           =0A                  =0A                  =0A                  =
+=0A                  =0A                  =0A                  =0A         =
+         =0A                  =0A                  =0A                  =0A=
+                  =0A                  =0A                  <table align=3D=
+"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" class=3D"devicewidth" width=3D"600"><tbody><tr><td width=3D"100%">=0A   =
+                       =0A                          =0A                    =
+      =0A                          =0A                          =0A        =
+                  =0A                          =0A                         =
+ =0A                          =0A                          =0A             =
+             =0A                          =0A                          =0A =
+                         =0A                          <table align=3D"cente=
+r" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devicewidth" w=
+idth=3D"600"><tbody><tr><!-- start of image -->=0A                         =
+       =0A                                =0A                              =
+  =0A                                =0A                                =0A=
+                                =0A                                =0A     =
+                           =0A                                =0A          =
+                      =0A                                =0A               =
+                 =0A                                =0A                    =
+            =0A                                <td align=3D"center">       =
+                           =0A                                  =0A        =
+                          =0A                                  =0A         =
+                         =0A                                  =0A          =
+                        =0A                                  =0A           =
+                       =0A                                  =0A            =
+                      =0A                                  =0A             =
+                     =0A                                  =0A              =
+                    =0A                                  <img alt=3D"CANACO=
+PE CDMX" border=3D"0" class=3D"banner_mobile" height=3D"145" src=3D"https:/=
+/s3.amazonaws.com/kolau/images/landing-page-mailer.png" style=3D"display:bl=
+ock; border:none; outline:none; font-family: Georgia; color: #538D9C; font-=
+style: normal; font-size: 19px; text-decoration:none;" width=3D"600">=0A   =
+                             =0A                                =0A        =
+                        =0A                                =0A             =
+                   =0A                                =0A                  =
+              =0A                                =0A                       =
+         =0A                                =0A                            =
+    =0A                                =0A                                =
+=0A                                =0A                                </td>=
+=0A</tr>=0A<tbody>=0A</table>=0A                        =0A                =
+        =0A                        =0A                        =0A          =
+              =0A                        =0A                        =0A    =
+                    =0A                        =0A                        =
+=0A                        =0A                        =0A                  =
+      =0A                        =0A                        </td>=0A</tr>=
+=0A<tbody>=0A</table>=0A                =0A                =0A             =
+   =0A                =0A                =0A                =0A            =
+    =0A                =0A                =0A                =0A           =
+     =0A                =0A                =0A                =0A          =
+      </td>=0A</tr>=0A<tbody>=0A</table>=0A=0A          =0A          =0A   =
+       =0A          =0A          =0A          =0A          =0A          =0A=
+          =0A          =0A          =0A          =0A          =0A          =
+=0A          <table bgcolor=3D"#f3f3f3" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" id=3D"backgroundTable" width=3D"100%"><tbody><tr><td>=0A     =
+             =0A                  =0A                  =0A                 =
+ =0A                  =0A                  =0A                  =0A        =
+          =0A                  =0A                  =0A                  =
+=0A                  =0A                  =0A                  =0A         =
+         =0A                  =0A                  =0A                  <ta=
+ble align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" class=3D"devicewidth" width=3D"600"><tbody><tr><td align=3D"=
+center" height=3D"10" style=3D"font-size:1px; line-height:10px;">=C2=A0</td=
+>=0A</tr>=0A<tbody>=0A</table>=0A                =0A                =0A    =
+            =0A                =0A                =0A                =0A   =
+             =0A                =0A                =0A                =0A  =
+              =0A                =0A                =0A                =0A =
+               =0A                =0A                =0A                </t=
+d>=0A</tr>=0A<tbody>=0A</table>=0A                <!-- End of seperator -->=
+=0A=0A          =0A          =0A          =0A          =0A          =0A    =
+      =0A          =0A          =0A          =0A          =0A          =0A =
+         =0A          =0A          =0A          =0A          <table bgcolor=
+=3D"#f3f3f3" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"backgro=
+undTable" width=3D"100%"><tbody><tr><td>=0A                  =0A           =
+       =0A                  =0A                  =0A                  =0A  =
+                =0A                  =0A                  =0A              =
+    =0A                  =0A                  =0A                  =0A     =
+             =0A                  =0A                  =0A                 =
+ =0A                  =0A                  <table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devicewidth" width=3D"6=
+00"><tbody><tr><td width=3D"100%">=0A                          =0A         =
+                 =0A                          =0A                          =
+=0A                          =0A                          =0A              =
+            =0A                          =0A                          =0A  =
+                        =0A                          =0A                   =
+       =0A                          =0A                          =0A       =
+                   =0A                          =0A                        =
+  =0A                          <table align=3D"center" bgcolor=3D"#ffffff" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devicewidth" widt=
+h=3D"600"><!-- Spacing -->   =0A                            =0A            =
+                =0A                            =0A                         =
+   =0A                            =0A                            =0A       =
+                     =0A                            =0A                    =
+        =0A                            =0A                            =0A  =
+                          =0A                            =0A               =
+             =0A                            =0A                            =
+=0A                            =0A                            <tbody><!-- S=
+pacing -->=0A                              =0A                             =
+ =0A                              =0A                              =0A     =
+                         =0A                              =0A              =
+                =0A                              =0A                       =
+       =0A                              =0A                              =
+=0A                              =0A                              =0A      =
+                        =0A                              =0A               =
+               =0A                              =0A                        =
+      <tr><td>=0A                                  =0A                     =
+             =0A                                  =0A                      =
+            =0A                                  =0A                       =
+           =0A                                  =0A                        =
+          =0A                                  =0A                         =
+         =0A                                  =0A                          =
+        =0A                                  =0A                           =
+       =0A                                  =0A                            =
+      =0A                                  =0A                             =
+     <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" class=3D"devicewidthinner" width=3D"560"><!-- Title -->=0A              =
+                      =0A                                    =0A           =
+                         =0A                                    =0A        =
+                            =0A                                    =0A     =
+                               =0A                                    =0A  =
+                                  =0A                                    =
+=0A                                    =0A                                 =
+   =0A                                    =0A                              =
+      =0A                                    =0A                           =
+         =0A                                    =0A                        =
+            <tbody><tr><td height=3D"15" style=3D"font-size:1px; line-heigh=
+t:15px; mso-line-height-rule: exactly;" width=3D"100%">=C2=A0</td>=0A</tr>=
+=0A=0A                                      =0A                            =
+          =0A                                      =0A                     =
+                 =0A                                      =0A              =
+                        =0A                                      =0A       =
+                               =0A                                      =0A=
+                                      =0A                                  =
+    =0A                                      =0A                           =
+           =0A                                      =0A                    =
+                  =0A                                      =0A             =
+                         =0A                                      <tr><td c=
+lass=3D"fontmobile" style=3D"font-family: Helvetica, arial, sans-serif;colo=
+r:#333333;font-size:15px;line-height:1.5em;text-align:left;">=0A           =
+                              =0A=0A                                       =
+   =0A                                          =0A                        =
+                  =0A                                          =0A         =
+                                 =0A                                       =
+   =0A                                          =0A                        =
+                  =0A                                          =0A         =
+                                 =0A                                       =
+   =0A                                          =0A                        =
+                  =0A                                          =0A         =
+                                 =0A                                       =
+   =0A                                          =0A                        =
+                  =0A                                          <span style=
+=3D"color: #2753b4 !important; font-size:17px;">=E2=9C=94</span> Webinar tr=
+imestral =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          <stron=
+g>100% gratis con el equipo de Google en M=C3=A9xico, CANACOPE y Kolau</str=
+ong> donde aprender=C3=A1s c=C3=B3mo tu empresa contable/asesora puede gana=
+r m=C3=A1s y ser m=C3=A1s visible. =C2=A1Puedes hacer tus preguntas directa=
+mente a Google!=0A                                          =0A            =
+                              =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+<br>=0A                                          =0A                       =
+                   =0A                                          =0A        =
+                                  =0A                                      =
+    =0A                                          =0A                       =
+                   =0A                                          =0A        =
+                                  =0A                                      =
+    =0A                                          =0A                       =
+                   =0A                                          =0A        =
+                                  =0A                                      =
+    =0A                                          =0A                       =
+                   =0A                                          <br>=0A    =
+                                      =0A                                  =
+        =0A                                          =0A                   =
+                       =0A                                          =0A    =
+                                      =0A                                  =
+        =0A                                          =0A                   =
+                       =0A                                          =0A    =
+                                      =0A                                  =
+        =0A                                          =0A                   =
+                       =0A                                          =0A    =
+                                      =0A                                  =
+        =0A                                          <span style=3D"color: =
+#2753b4 !important; font-size:17px;">=E2=9C=94</span> =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       <strong>Todos los dem=C3=A1s benefic=
+ios de estar afiliado a la CANACOPE de CDMX</strong>, como asesor=C3=ADa gr=
+atuita legal, laboral, contable, de marketing y de estrategia de ventas esp=
+ecialmente para contables/asesores.=0A                                     =
+     =0A                                          =0A                      =
+                    =0A                                          =0A       =
+                                   =0A                                     =
+     =0A                                          =0A                      =
+                    =0A                                          =0A       =
+                                   =0A                                     =
+     =0A                                          =0A                      =
+                    =0A                                          =0A       =
+                                   =0A                                     =
+     =0A                                          =0A                      =
+                    <br>=0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         <br>=0A                                          =0A              =
+                            =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+<span style=3D"color: #2753b4 !important; font-size:17px;">=E2=86=92</span>=
+                                          =0A                              =
+            =0A                                          =0A               =
+                           =0A                                          =0A=
+                                          =0A                              =
+            =0A                                          =0A               =
+                           =0A                                          =0A=
+                                          =0A                              =
+            =0A                                          =0A               =
+                           =0A                                          =0A=
+                                          =0A                              =
+            =0A                                          =0A               =
+                           <strong>Todo esto por s=C3=B3lo $499/a=C3=B1o</s=
+trong> =0A                                          =0A                    =
+                      =0A                                          =0A     =
+                                     =0A                                   =
+       =0A                                          =0A                    =
+                      =0A                                          =0A     =
+                                     =0A                                   =
+       =0A                                          =0A                    =
+                      =0A                                          =0A     =
+                                     =0A                                   =
+       =0A                                          =0A                    =
+                      =0A                                          <u>s=C3=
+=B3lo para nuevas afiliaciones</u> =0A                                     =
+     =0A                                          =0A                      =
+                    =0A                                          =0A       =
+                                   =0A                                     =
+     =0A                                          =0A                      =
+                    =0A                                          =0A       =
+                                   =0A                                     =
+     =0A                                          =0A                      =
+                    =0A                                          =0A       =
+                                   =0A                                     =
+     =0A                                          =0A                      =
+                    <strong>hasta el 5 de Abril</strong>.=0A               =
+                           =0A                                          =0A=
+                                          =0A                              =
+            =0A                                          =0A               =
+                           =0A                                          =0A=
+                                          =0A                              =
+            =0A                                          =0A               =
+                           =0A                                          =0A=
+                                          =0A                              =
+            =0A                                          =0A               =
+                           =0A                                          =0A=
+                                          <br>=0A                          =
+                =0A                                          =0A           =
+                               =0A                                         =
+ =0A                                          =0A                          =
+                =0A                                          =0A           =
+                               =0A                                         =
+ =0A                                          =0A                          =
+                =0A                                          =0A           =
+                               =0A                                         =
+ =0A                                          =0A                          =
+                =0A                                          =0A           =
+                               <br>=0A                                     =
+   =0A                                        =0A                          =
+              =0A                                        =0A               =
+                         =0A                                        =0A    =
+                                    =0A                                    =
+    =0A                                        =0A                         =
+               =0A                                        =0A              =
+                          =0A                                        =0A   =
+                                     =0A                                   =
+     =0A                                        =0A                        =
+                =0A                                        </td>=0A</tr>=0A=
+=0A                                      =0A                               =
+       =0A                                      =0A                        =
+              =0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ =0A                                      =0A                              =
+        =0A                                      =0A                       =
+               =0A                                      =0A                =
+                      =0A                                      <tr><td clas=
+s=3D"fontmobile" style=3D"font-family: Helvetica, arial, sans-serif;color:#=
+333333;font-size:15px;line-height:1.5em;text-align:left;">=0A              =
+                            =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+=0A                                          =0A                           =
+               =0A                                          =0A            =
+                              =0A                                          =
+=0A                                          <br>=0A                       =
+                 =0A                                        =0A            =
+                            =0A                                        =0A =
+                                       =0A                                 =
+       =0A                                        =0A                      =
+                  =0A                                        =0A           =
+                             =0A                                        =0A=
+                                        =0A                                =
+        =0A                                        =0A                     =
+                   =0A                                        =0A          =
+                              =0A                                        </=
+td>=0A</tr>=0A=0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ =0A                                      =0A                              =
+        =0A                                      =0A                       =
+               =0A                                      =0A                =
+                      =0A                                      =0A         =
+                             =0A                                      =0A  =
+                                    =0A                                    =
+  <tr><td style=3D"padding-left: 10px;">=0A                                =
+          =0A                                          =0A                 =
+                         =0A                                          =0A  =
+                                        =0A                                =
+          =0A                                          =0A                 =
+                         =0A                                          =0A  =
+                                        =0A                                =
+          =0A                                          =0A                 =
+                         =0A                                          =0A  =
+                                        =0A                                =
+          =0A                                          =0A                 =
+                         <table align=3D"center" bgcolor=3D"#2780b4" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"40" style=3D"border-ra=
+dius:3px;" valign=3D"middle" width=3D"250"><tbody><tr><td align=3D"center" =
+height=3D"9" style=3D"font-size:1px; line-height:9px;">=C2=A0</td>=0A</tr>=
+=0A=0A                                              =0A                    =
+                          =0A                                              =
+=0A                                              =0A                       =
+                       =0A                                              =0A=
+                                              =0A                          =
+                    =0A                                              =0A   =
+                                           =0A                             =
+                 =0A                                              =0A      =
+                                        =0A                                =
+              =0A                                              =0A         =
+                                     =0A                                   =
+           =0A                                              <tr><td align=
+=3D"center" height=3D"20" style=3D"font-family: Helvetica, Arial, sans-seri=
+f; font-size: 16px;color: #ffffff; text-align:center; line-height: 14px; ; =
+-webkit-text-size-adjust:none;" valign=3D"middle">=0A                      =
+                            =0A                                            =
+      =0A                                                  =0A             =
+                                     =0A                                   =
+               =0A                                                  =0A    =
+                                              =0A                          =
+                        =0A                                                =
+  =0A                                                  =0A                 =
+                                 =0A                                       =
+           =0A                                                  =0A        =
+                                          =0A                              =
+                    =0A                                                  =
+=0A                                                  =0A                   =
+                               <a href=3D"http://mkt.canacope.org/go/fbf4d2=
+4ce1d9fac02a6903b25037-5db206915367e1966301273eXe1gNae6g7FeJWe6n8vD" rel=3D=
+"noopener noreferrer" style=3D"color:#ffffff;text-decoration:none; text-ali=
+gn:center;" target=3D"_blank">=C2=A1Lo quiero!                             =
+                     </a>=0A=0A                                            =
+    =0A                                                =0A                 =
+                               =0A                                         =
+       =0A                                                =0A              =
+                                  =0A                                      =
+          =0A                                                =0A           =
+                                     =0A                                   =
+             =0A                                                =0A        =
+                                        =0A                                =
+                =0A                                                =0A     =
+                                           =0A                             =
+                   =0A                                                =0A  =
+                                              </td>=0A</tr>=0A=0A          =
+                                    =0A                                    =
+          =0A                                              =0A             =
+                                 =0A                                       =
+       =0A                                              =0A                =
+                              =0A                                          =
+    =0A                                              =0A                   =
+                           =0A                                             =
+ =0A                                              =0A                      =
+                        =0A                                              =
+=0A                                              =0A                       =
+                       =0A                                              =0A=
+                                              <tr><td align=3D"center" heig=
+ht=3D"9" style=3D"font-size:1px; line-height:1px;">=C2=A0</td>=0A</tr>=0A<t=
+body>=0A</table>=0A                                        =0A             =
+                           =0A                                        =0A  =
+                                      =0A                                  =
+      =0A                                        =0A                       =
+                 =0A                                        =0A            =
+                            =0A                                        =0A =
+                                       =0A                                 =
+       =0A                                        =0A                      =
+                  =0A                                        =0A           =
+                             =0A                                        =0A=
+                                        </td>=0A</tr>=0A=0A                =
+                      =0A                                      =0A         =
+                             =0A                                      =0A  =
+                                    =0A                                    =
+  =0A                                      =0A                             =
+         =0A                                      =0A                      =
+                =0A                                      =0A               =
+                       =0A                                      =0A        =
+                              =0A                                      =0A =
+                                     =0A                                   =
+   =0A                                      <tr><td height=3D"15" style=3D"=
+font-size:1px; line-height:15px; mso-line-height-rule: exactly;" width=3D"1=
+00%">=C2=A0</td>=0A</tr>=0A<tbody>=0A</table>=0A                           =
+     =0A                                =0A                                =
+=0A                                =0A                                =0A  =
+                              =0A                                =0A       =
+                         =0A                                =0A            =
+                    =0A                                =0A                 =
+               =0A                                =0A                      =
+          =0A                                =0A                           =
+     =0A                                =0A                                =
+</td>=0A</tr>=0A<tbody>=0A</table>=0A                        =0A           =
+             =0A                        =0A                        =0A     =
+                   =0A                        =0A                        =
+=0A                        =0A                        =0A                  =
+      =0A                        =0A                        =0A            =
+            =0A                        =0A                        =0A      =
+                  =0A                        =0A                        </t=
+d>=0A</tr>=0A<tbody>=0A</table>=0A                =0A                =0A   =
+             =0A                =0A                =0A                =0A  =
+              =0A                =0A                =0A                =0A =
+               =0A                =0A                =0A                =0A=
+                =0A                =0A                =0A                </=
+td>=0A</tr>=0A<tbody>=0A</table>=0A          =0A          =0A          =0A =
+         =0A          =0A          =0A          =0A          =0A          =
+=0A          =0A          =0A          =0A          =0A          =0A       =
+   =0A          <table bgcolor=3D"#f3f3f3" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" id=3D"backgroundTable" width=3D"100%"><tbody><tr><td>=0A  =
+                              =0A                  =0A                  =0A=
+                  =0A                  =0A                  =0A            =
+      =0A                  =0A                  =0A                  =0A   =
+               =0A                  =0A                  =0A               =
+   =0A                  =0A                  =0A                  =0A      =
+            <table align=3D"center" bgcolor=3D"#f3f3f3" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" class=3D"devicewidth" width=3D"600"><tbody><t=
+r><td align=3D"center" height=3D"10" style=3D"font-size:1px; line-height:10=
+px;">=C2=A0</td>=0A</tr>=0A<tbody>=0A</table>=0A                           =
+ =0A                =0A                =0A                =0A              =
+  =0A                =0A                =0A                =0A             =
+   =0A                =0A                =0A                =0A            =
+    =0A                =0A                =0A                =0A           =
+     =0A                </td>=0A</tr>=0A<tbody>=0A</table>=0A=0A=0A        =
+  =0A          =0A=0A=0A                =0A          =0A          =0A      =
+    =0A          =0A          =0A          =0A          =0A          =0A   =
+       =0A          =0A          =0A          =0A          =0A          =0A=
+          =0A          =0A          =0A          =0A          <table bgcolo=
+r=3D"#f3f3f3" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"backgr=
+oundTable" width=3D"100%"><tbody><tr><td>=0A                  =0A          =
+        =0A                  =0A                  =0A                  =0A =
+                 =0A                  =0A                  =0A             =
+     =0A                  =0A                  =0A                  =0A    =
+              =0A                  =0A                  =0A                =
+  =0A                  =0A                  <table align=3D"center" bgcolor=
+=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"devi=
+cewidth" width=3D"600"><tbody><tr><td align=3D"center" height=3D"10" style=
+=3D"font-size:1px; line-height:10px;">=C2=A0</td>=0A</tr>=0A<tbody>=0A</tab=
+le>=0A                =0A                =0A                =0A            =
+    =0A                =0A                =0A                =0A           =
+     =0A                =0A                =0A                =0A          =
+      =0A                =0A                =0A                =0A         =
+       =0A                =0A                </td>=0A</tr>=0A<tbody>=0A</ta=
+ble>=0A                <!-- End of seperator -->=0A          =0A          =
+=0A          =0A          =0A       =0A        =0A          =0A        =0A =
+         =0A          =0A          =0A          =0A          =0A          =
+=0A          =0A          =0A          =0A          =0A          =0A       =
+   =0A          =0A          =0A          =0A          =0A          <table =
+bgcolor=3D"#f3f3f3" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"=
+backgroundTable" width=3D"100%"><tbody><tr><td>=0A                  =0A    =
+              =0A                  =0A                  =0A                =
+  =0A                  =0A                  =0A                  =0A       =
+           =0A                  =0A                  =0A                  =
+=0A                  =0A                  =0A                  =0A         =
+         =0A                  =0A                  =0A                  =0A=
+                  <table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" class=3D"devicewidth" width=3D"600"><tbody><tr><td width=3D=
+"100%">=0A                          =0A                          =0A       =
+                   =0A                          =0A                        =
+  =0A                          =0A                          =0A            =
+              =0A                          =0A                          =0A=
+                          =0A                          =0A                 =
+         =0A                          =0A                          =0A     =
+                     =0A                          =0A                      =
+    =0A                          =0A                          <table align=
+=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"devicewidth" width=3D"600"><!-- Spacing -->=0A             =
+               =0A                            =0A                          =
+  =0A                            =0A                            =0A        =
+                    =0A                            =0A                     =
+       =0A                            =0A                            =0A   =
+                         =0A                            =0A                =
+            =0A                            =0A                            =
+=0A                            =0A                            =0A          =
+                  =0A                            =0A                       =
+     <tbody><!-- Spacing -->=0A                              =0A           =
+                   =0A                              =0A                    =
+          =0A                              =0A                             =
+ =0A                              =0A                              =0A     =
+                         =0A                              =0A              =
+                =0A                              =0A                       =
+       =0A                              =0A                              =
+=0A                              =0A                              =0A      =
+                        =0A                              =0A               =
+               <tr><td>=0A                                  =0A            =
+                      =0A                                  =0A             =
+                     =0A                                  =0A              =
+                    =0A                                  =0A               =
+                   =0A                                  =0A                =
+                  =0A                                  =0A                 =
+                 =0A                                  =0A                  =
+                =0A                                  =0A                   =
+               =0A                                  =0A                    =
+              =0A                                  =0A                     =
+             <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"devicewidthinner" width=3D"560"><!-- Title -->=0A      =
+                              =0A                                    =0A   =
+                                 =0A                                    =0A=
+                                    =0A                                    =
+=0A                                    =0A                                 =
+   =0A                                    =0A                              =
+      =0A                                    =0A                           =
+         =0A                                    =0A                        =
+            =0A                                    =0A                     =
+               =0A                                    =0A                  =
+                  =0A                                    =0A               =
+                     <tbody><tr><td class=3D"fontmobile" style=3D"font-fami=
+ly: Helvetica, arial, sans-serif;color:#333333;font-size:15px;line-height:1=
+.5em;text-align:left;">=0A                                          CANACOP=
+E de CDMX, ayudando con orgullo a las empresas contables y asesoras a crece=
+r desde el 1937=0A                                        </td>=0A</tr>=0A=
+=0A                                      =0A                               =
+       =0A                                      =0A                        =
+              =0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ =0A                                      =0A                              =
+        =0A                                      =0A                       =
+               =0A                                      =0A                =
+                      =0A                                      =0A         =
+                             =0A                                      <tr><=
+td height=3D"15" style=3D"font-size:1px; line-height:15px; mso-line-height-=
+rule: exactly;" width=3D"100%">=C2=A0=0A                                   =
+     </td>=0A</tr>=0A=0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ =0A                                      =0A                              =
+        =0A                                      =0A                       =
+               =0A                                      =0A                =
+                      =0A                                      =0A         =
+                             =0A                                      =0A  =
+                                    =0A                                    =
+  =0A                                      =0A                             =
+         =0A                                      =0A                      =
+                <tr><td align=3D"left">=0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       =0A                                 =
+         =0A                                          =0A                  =
+                        =0A                                          =0A   =
+                                       <img alt=3D"CANACOPE CDMX" border=3D=
+"0" class=3D"banner_google" height=3D"86" src=3D"https://s3.amazonaws.com/k=
+olau/images/canacope-badge.png" style=3D"display:block; border:none; outlin=
+e:none; font-family: Georgia; color: #538D9C; font-style: normal; font-size=
+: 19px; text-decoration:none;" width=3D"250">=0A                           =
+             =0A                                        =0A                =
+                        =0A                                        =0A     =
+                                   =0A                                     =
+   =0A                                        =0A                          =
+              =0A                                        =0A               =
+                         =0A                                        =0A    =
+                                    =0A                                    =
+    =0A                                        =0A                         =
+               =0A                                        =0A              =
+                          =0A                                        =0A   =
+                                     =0A                                   =
+     </td>=0A</tr>=0A                                      =0A             =
+                         =0A                                      =0A      =
+                                =0A                                      =
+=0A                                      =0A                               =
+       =0A                                      =0A                        =
+              =0A                                      =0A                 =
+                     =0A                                      =0A          =
+                            =0A                                      =0A   =
+                                   =0A                                     =
+ =0A                                      =0A                              =
+        =0A                                      =0A                       =
+               =0A                                      <tr><td align=3D"le=
+ft">=0A                                          =0A                       =
+                   =0A                                          =0A        =
+                                  =0A                                      =
+    =0A                                          =0A                       =
+                   =0A                                          =0A        =
+                                  =0A                                      =
+    =0A                                          =0A                       =
+                   =0A                                          =0A        =
+                                  =0A                                      =
+    =0A                                          =0A                       =
+                   =0A                                          =0A        =
+                                  =0A                                      =
+    <img alt=3D"Kolau" border=3D"0" class=3D"banner_google" height=3D"86" s=
+rc=3D"https://s3.amazonaws.com/kolau/images/kolau-badge.png" style=3D"displ=
+ay:block; border:none; outline:none; font-family: Georgia; color: #538D9C; =
+font-style: normal; font-size: 19px; text-decoration:none;" width=3D"250">=
+=0A                                        =0A                             =
+           =0A                                        =0A                  =
+                      =0A                                        =0A       =
+                                 =0A                                       =
+ =0A                                        =0A                            =
+            =0A                                        =0A                 =
+                       =0A                                        =0A      =
+                                  =0A                                      =
+  =0A                                        =0A                           =
+             =0A                                        =0A                =
+                        =0A                                        =0A     =
+                                   </td>=0A</tr>=0A=0A                     =
+                 =0A                                      =0A              =
+                        =0A                                      =0A       =
+                               =0A                                      =0A=
+                                      =0A                                  =
+    =0A                                      =0A                           =
+           =0A                                      =0A                    =
+                  =0A                                      =0A             =
+                         =0A                                      =0A      =
+                                =0A                                      =
+=0A                                      =0A                               =
+       =0A                                      <tr><td align=3D"left">    =
+                                      =0A                                  =
+        =0A                                          =0A                   =
+                       =0A                                          =0A    =
+                                      =0A                                  =
+        =0A                                          =0A                   =
+                       =0A                                          =0A    =
+                                      =0A                                  =
+        =0A                                          =0A                   =
+                       =0A                                          =0A    =
+                                      =0A                                  =
+        =0A                                          =0A                   =
+                       =0A                                          =0A    =
+                                      <img alt=3D"Google Partner" border=3D=
+"0" class=3D"banner_google" height=3D"86" src=3D"https://s3.amazonaws.com/k=
+olau/images/mailer-premier-badge.png" style=3D"display:block; border:none; =
+outline:none; font-family: Georgia; color: #538D9C; font-style: normal; fon=
+t-size: 19px; text-decoration:none;" width=3D"250">=0A                     =
+                   =0A                                        =0A          =
+                              =0A                                        =
+=0A                                        =0A                             =
+           =0A                                        =0A                  =
+                      =0A                                        =0A       =
+                                 =0A                                       =
+ =0A                                        =0A                            =
+            =0A                                        =0A                 =
+                       =0A                                        =0A      =
+                                  =0A                                      =
+  =0A                                        =0A                           =
+             </td>=0A</tr>=0A=0A                                      =0A  =
+                                    =0A                                    =
+  =0A                                      =0A                             =
+         =0A                                      =0A                      =
+                =0A                                      =0A               =
+                       =0A                                      =0A        =
+                              =0A                                      =0A =
+                                     =0A                                   =
+   =0A                                      =0A                            =
+          =0A                                      =0A                     =
+                 =0A                                      =0A              =
+                        <tr><td height=3D"15" style=3D"font-size:1px; line-=
+height:15px; mso-line-height-rule: exactly;" width=3D"100%">=C2=A0</td>=0A<=
+/tr>=0A<tbody>=0A</table>=0A                                =0A            =
+                    =0A                                =0A                 =
+               =0A                                =0A                      =
+          =0A                                =0A                           =
+     =0A                                =0A                                =
+=0A                                =0A                                =0A  =
+                              =0A                                =0A       =
+                         =0A                                =0A            =
+                    =0A                                =0A                 =
+               =0A                                </td>=0A</tr>=0A<tbody>=
+=0A</table>=0A                        =0A                        =0A       =
+                 =0A                        =0A                        =0A =
+                       =0A                        =0A                      =
+  =0A                        =0A                        =0A                =
+        =0A                        =0A                        =0A          =
+              =0A                        =0A                        =0A    =
+                    =0A                        =0A                        =
+=0A                        </td>=0A</tr>=0A<tbody>=0A</table>=0A           =
+     =0A                =0A                =0A                =0A          =
+      =0A                =0A                =0A                =0A         =
+       =0A                =0A                =0A                =0A        =
+        =0A                =0A                =0A                =0A       =
+         =0A                =0A                =0A                </td>=0A<=
+/tr>=0A<tbody>=0A</table>=0A=0A=0A          =0A          =0A          =0A  =
+        =0A          =0A          =0A          =0A          =0A          =
+=0A          =0A          =0A          =0A          =0A          =0A       =
+   =0A          =0A          =0A          =0A          =0A          =0A    =
+      =0A          =0A          =0A          =0A          <table bgcolor=3D=
+"#f3f3f3" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"background=
+Table" width=3D"100%"><tbody><tr><td>=0A        =0A                  =0A   =
+               =0A                  =0A                  =0A               =
+   =0A                  =0A                  =0A                  =0A      =
+            =0A                  =0A                  =0A                  =
+=0A                  =0A                  =0A                  =0A         =
+         =0A                  =0A                  =0A                  =0A=
+                  =0A                  =0A                  =0A            =
+      =0A                  =0A                  <table align=3D"center" bgc=
+olor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+devicewidth" width=3D"600"><tbody><tr><td align=3D"center" height=3D"10" st=
+yle=3D"font-size:1px; line-height:10px;">=C2=A0</td>=0A</tr>=0A<tbody>=0A</=
+table>=0A      =0A                =0A                =0A                =0A=
+                =0A                =0A                =0A                =
+=0A                =0A                =0A                =0A               =
+ =0A                =0A                =0A                =0A              =
+  =0A                =0A                =0A                =0A             =
+   =0A                =0A                =0A                =0A            =
+    =0A                =0A                </td>=0A</tr>=0A<tbody>=0A</table=
+>=0A=0A=0A =0A        =0A        =0A        =0A        =0A        =0A      =
+  =0A        =0A        =0A        =0A        =0A        =0A        =0A    =
+    =0A        =0A        =0A        =0A        =0A        =0A        =0A  =
+      =0A        =0A        =0A        =0A        =0A        =0A        </t=
+d>=0A</tr>=0A<tbody>=0A</table><div style=3D"clear:both !important; height:=
+ 0 !important;"></div>=0A<table border=3D"0" width=3D"100%" cellspacing=3D"=
+0" cellpadding=3D"0" style=3D"background-color: #ffffff; display:table !imp=
+ortant;" class=3D"easygoi-footer-table-responsive">=0A<tr style=3D"display:=
+table-row !important;">=0A<td style=3D"background-color: #EAEAEA; height:1p=
+x; font-size:2px; line-height:1px; mso-margin-top-alt:1px; display:table-ce=
+ll !important;" class=3D"easygoi-footer-table-td-responsive">=C2=A0</td>
+   </tr>=0A<tr style=3D"display:table-row !important;">=0A<td width=3D"100%=
+" align=3D"center" class=3D"easygoi-footer-table-td-responsive" style=3D"di=
+splay:table-cell !important;">           =20
+           <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"10" borde=
+r=3D"0" style=3D"max-width: 640px;; display:table !important;" class=3D"eas=
+ygoi-footer-table-responsive">=0A<tr style=3D"display:table-row !important;=
+">=0A<td width=3D"100%" style=3D"text-align: center; padding: 10px !importa=
+nt; display:table-cell !important;" class=3D"easygoi-footer-table-td-respon=
+sive">
+
+<a href=3D"http://mkt.canacope.org/vls/fbf4d24ce1d9fac02a6903b25037-5db2069=
+15367eJWe6g7Fe1gNae1966301273" border=3D"0"><img src=3D"http://mkt.canacope=
+.org/recursos/9b8a67ed2f4489d6c755a9dcd6688fa1/.SocialIcons/80x80/share.png=
+" alt=3D"Social" width=3D"40" height=3D"40" border=3D"0" style=3D"width:40p=
+x !important; height:40px !important; display:inline; line-height:80px !imp=
+ortant;"></a>=0A=C2=A0<a href=3D"http://mkt.canacope.org/fb/fbf4d24ce1d9fac=
+02a6903b25037-5db206915367eJWe6g7Fe1gNae1966301273" border=3D"0"><img src=
+=3D"http://mkt.canacope.org/recursos/9b8a67ed2f4489d6c755a9dcd6688fa1/.Soci=
+alIcons/80x80/facebook.png" alt=3D"Facebook" width=3D"40" height=3D"40" bor=
+der=3D"0" style=3D"width:40px !important; height:40px !important; display:i=
+nline; line-height:80px !important;"></a>=0A=C2=A0<a href=3D"http://mkt.can=
+acope.org/tw/fbf4d24ce1d9fac02a6903b25037-5db206915367eJWe6g7Fe1gNae1966301=
+273" border=3D"0"><img src=3D"http://mkt.canacope.org/recursos/9b8a67ed2f44=
+89d6c755a9dcd6688fa1/.SocialIcons/80x80/twitter.png" alt=3D"Twitter" width=
+=3D"40" height=3D"40" border=3D"0" style=3D"width:40px !important; height:4=
+0px !important; display:inline; line-height:80px !important;"></a>=0A=C2=A0=
+<a href=3D"http://mkt.canacope.org/vlp/fbf4d24ce1d9fac02a6903b25037-5db2069=
+15367eJWe6g7Fe1gNae1966301273" border=3D"0"><img src=3D"http://mkt.canacope=
+.org/recursos/9b8a67ed2f4489d6c755a9dcd6688fa1/.SocialIcons/80x80/print.png=
+" alt=3D"print" width=3D"40" height=3D"40" alt=3D"Print" border=3D"0" style=
+=3D"width:40px !important; height:40px !important; display:inline; line-hei=
+ght:80px !important;"></a>=0A
+                =20
+                   </td>
+               </tr>=0A<tr style=3D"display:table-row !important;">=0A<td w=
+idth=3D"100%" align=3D"center" style=3D"text-align:center; color: #777777; =
+font-family: Arial, Helvetica, sans-serif; font-size:13px; font-weight: nor=
+mal; padding:10px !important; display:table-cell !important;" class=3D"easy=
+goi-footer-table-td-responsive">
+                      =20
+                       <table align=3D"center" class=3D"easygoi-footer-tabl=
+e-responsive" style=3D"display:table !important;"><tr style=3D"display:tabl=
+e-row !important;">=0A<td class=3D"easygoi-footer-table-td-responsive" styl=
+e=3D"display:table-cell !important;">
+<a style=3D"color: #777777; text-decoration: none; font-family: Arial, Helv=
+etica, sans-serif; font-size:13px; font-weight: normal;
+" href=3D"http://mkt.canacope.org/rc/fbf4d24ce1d9fac02a6903b25037-5db206915=
+367eJWe6g7Fe1gNae1966301273">Recomendar</a>=0A=C2=A0=C2=A0=C2=A0<span class=
+=3D"original-only" style=3D"display: inline !important;"><a style=3D"color:=
+ #777777; text-decoration: none; font-family: Arial, Helvetica, sans-serif;=
+ font-size:13px; font-weight: normal;
+" href=3D"http://mkt.canacope.org/esub/fbf4d24ce1966301273e1d9fac02a6903b25=
+037-5db206915367eJWe6g7Fe1gNaeX">Editar suscripci=C3=B3n</a></span>=0A=C2=
+=A0=C2=A0=C2=A0<span class=3D"original-only" style=3D"display: inline !impo=
+rtant;"><a style=3D"color: #777777; text-decoration: none; font-family: Ari=
+al, Helvetica, sans-serif; font-size:13px; font-weight: normal;
+" href=3D"http://mkt.canacope.org/del/fbf4d24ce1d9fac02a6903b25037-5db20691=
+5367eJWe6g7Fe1gNaeXe1966301273">Dar de baja</a></span>=0A
+                               </td>
+                           </tr></table>=0A</td>
+               </tr>=0A<tr style=3D"display:table-row !important;">=0A<td w=
+idth=3D"100%" align=3D"center" style=3D"font-style: normal;font-family: Ari=
+al, Helvetica, sans-serif; text-align: center; font-size: 13px; line-height=
+:18px; color:#BABABA; padding:10px !important; display:table-cell !importan=
+t;" class=3D"easygoi-footer-table-td-responsive">
+
+Enviado para raymundo@vpconsultores.com.mx<br>
+Isabel la Cat=C3=B3lica No. 135 Colonia Centro 06000 Mexico Distrito Federa=
+l Mexico<br>=0A</td>          =20
+               </tr>=0A<tr style=3D"display:table-row !important;">=0A<td w=
+idth=3D"100%" align=3D"center" style=3D"text-align: center; font-size: 16px=
+; padding:20px !important; display:table-cell !important;" class=3D"easygoi=
+-footer-table-td-responsive">
+ <a target=3D"_blank" id=3D"egoi-certified" href=3D"http://mkt.canacope.org=
+/go/fbf4d24ce1d9fac02a6903b25037-5db206915367e1966301273eXe1gNae6g7FeJWe6nd=
+xi"><img src=3D"http://mkt.canacope.org/recursos/9b8a67ed2f4489d6c755a9dcd6=
+688fa1/.SocialIcons/privacy/privacy-dark.png" alt=3D"Privacy Protected" wid=
+th=3D"94" height=3D"14" border=3D"0" style=3D"width:94px !important; height=
+:14px !important;"></a>
+                   </td>          =20
+               </tr>=0A</table>=0A</td>
+=20
+   </tr>=0A<tr style=3D"display:table-row !important;">=0A<td width=3D"100%=
+" align=3D"center" class=3D"easygoi-footer-table-td-responsive" style=3D"di=
+splay:table-cell !important;">      =20
+           <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" style=3D"background-color: #ffffff;; display:table !important;" clas=
+s=3D"easygoi-footer-table-responsive"><tr style=3D"display:table-row !impor=
+tant;">=0A<td class=3D"easygoi-footer-table-td-responsive" style=3D"display=
+:table-cell !important;">
+              =20
+              </td>
+              </tr></table>=0A</td>
+   </tr>=0A</table></body></html>
+
+
+--b1_2202b8f6e909d92911dd12661b896108--
+

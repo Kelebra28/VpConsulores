@@ -1,0 +1,139 @@
+Return-Path: <temmyjohn225@yahoo.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id sNgTIqGoUlyi3BsAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Thu, 31 Jan 2019 00:49:53 -0700
+Return-path: <temmyjohn225@yahoo.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Thu, 31 Jan 2019 00:49:53 -0700
+Received: from sonic305-2.consmr.mail.bf2.yahoo.com ([74.6.133.41]:43955)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <temmyjohn225@yahoo.com>)
+	id 1gp76e-007zgH-Ak
+	for raymundo@vpconsultores.com.mx; Thu, 31 Jan 2019 00:49:53 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1548920951; bh=uHPxXCmbf3k86ivGqE/FuAJX22RzBkEtvmdPZ1vTnV4=; h=Date:From:Reply-To:Subject:References:From:Subject; b=bjFBcHxPe1HwlfkRDSFIXBnfruYwJKGtkFtOooYSBqfwee7RBk82IqjoblWtbSZQ6dJOgJ0EKO80JJY8Fd0p7VY92+fnszw269bCgC9O9xuQL5zUYKcodlqGcJCCPzMGOAyZvjI0gNL0VsX8AMKzgsj+D9UaabOG2J1pzyBGvyuXZggfEuM080t9O2xW93JNwuuqvCczTUcxGyXtul2BpkqAHZR9kQ6sx3lCG86MeB9IQvJQ4eoXu9uXRFbhuhWeB+lp+tCL13MbNoYsBnswsFwrkOwZ/qtkHnXKLnpA292Vg8cG0uDX6gXyb+9b/pE0h9agOvormlSAgTFLaIYSew==
+X-YMail-OSG: T5gTAZYVM1kjxMTRpNtKBJrLBdE0iz4a48eZQpxtmgIRBaVqCJ5ceWddWZyVtk7
+ d.u7LZCwu8I69SPOrOY1_V95kYpsiv_EcLnv0kmfWxqMUf6r4gsV8M1YMD13pL9D.1kHC6U2l.4D
+ iLNTBZaqRejhzkqs0UUhmxALjppCTJuf84z62qR3VcYd4yfUw5QxeEt90JuE1phNilQZ78m.Yyuj
+ Z1cwz_2.TDJYgNReEZOFlkfdPcyMXY5BABM46oCumxaVg09fyv5J0qGm8M8BFM8W7qcVfAfjXOqC
+ bALmCxsbBjaHMVCG7EI6iDNCw3xaufbjY3q3cqbaZz6YDR5F2wvbrWom0OnmGgLyfrXHWAK3fV6z
+ H40upGHcUHl6w5QYH1uHIoU8lkGOjninMw8gJ2hnn3q2BwrHXFYzHf2_DP7wHpynOh9NWxAyS2xI
+ v3nRKjOW4yLdH6NTU89Xeyv.2yq4uupF_AhiIfii3TTI.O73uF9NfHnvKFv_Ft_NaG1bBpEzIl3j
+ 3B3uQZAYwYnP0uIYqF.8xs1Dsaa05kqrq7XWcUn19w48_3vYwVuu0c1cTwKLf4X_W7C_3INN006C
+ cghPMW2hpCIasDyF.HWctJ_Sr8wSpfxFiDqA6.eUCyWbRQokyyDHt4GeNx1DlKuOIr.oq788lRxH
+ XEitpJ3w0t2reFDGrp0q25AT1RKdIBd40rTMRHdNhJx96TIsn6g1xXzPTmfDaSPC8mOoZeH9KA0H
+ ZvQPwulnIQs3J.TVS3MsGTRUcnt9.F_0XLSR014a3GfkxRqJIjiU0ViLBEARZtlHj28xBRII.KZP
+ dVk0cMvhPWHlpeSTJlzSSFT7xSMQnlHjsGeUF13Opnkdd9fJJ1Ss22mKmz4agltNHcHJwMW99jnr
+ MlG51CTP2hoVmLwsexUQvunaKCYvEBkEYYy7uJDlwsvuoxR2ZIfzGgbFm8pTh17iJMy6QcSGIx4s
+ MGJOKTmyfvz12cY2LAe3IINHOFptpQNty4pzt6FFPmeC4h7Oe9ZprN4NZjV9HG.FeK1SNpYKRWDC
+ FkToVtBkXOnJQbbO7S5qlZVQ2nUhxVNAMpKZoTR0etb9DC_2bKX4W9cftt6tj0tgilfwcJDP8PU_
+ bAXOepdCgpQ4pAmjsrCi5tirxaiDlNKI-
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic305.consmr.mail.bf2.yahoo.com with HTTP; Thu, 31 Jan 2019 07:49:11 +0000
+Date: Thu, 31 Jan 2019 07:49:06 +0000 (UTC)
+From: "Barr. Abubakar Malami SAN" <temmyjohn225@yahoo.com>
+Reply-To: "Barr. Abubakar Malami SAN" <abubakarmalami234@gmail.com>
+Message-ID: <1795276789.676742.1548920946755@mail.yahoo.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+References: <1795276789.676742.1548920946755.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.13027 YahooMailBasic Mozilla/5.0 (Windows NT 6.1; rv:64.0) Gecko/20100101 Firefox/64.0
+Content-Length: 2622
+X-Spam-Status: Yes, score=6.7
+X-Spam-Score: 67
+X-Spam-Bar: ++++++
+X-Spam-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Supreme Court of Nigeria Three-Arms Zone P.M.B. 308. Garki
+    Abuja E-mail: abubakarmalami234@minister.com Dear: Unpaid Beneficiary, This
+    is to inform you that in the course of my investigation as direc
+ 
+ Content analysis details:   (6.7 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: minister.com]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit (temmyjohn225[at]yahoo.com)
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             (temmyjohn225[at]yahoo.com)
+  0.2 FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in digit
+                             (abubakarmalami234[at]gmail.com)
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.6 SUBJ_ALL_CAPS          Subject is all capitals
+  1.2 MISSING_HEADERS        Missing To: header
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: minister.com]
+  0.5 REPTO_QUOTE_YAHOO      Yahoo! doesn't do quoting like this
+  1.9 REPLYTO_WITHOUT_TO_CC  No description available.
+  1.0 FREEMAIL_REPLYTO       Reply-To/From or Reply-To/body contain different
+                             freemails
+X-Spam-Flag: YES
+Subject:  ***SPAM***  FROM THE ATTORNEY GENERAL FEDERAL REPUBLIC OF NIGERIA.
+
+Supreme Court of Nigeria
+Three-Arms Zone
+P.M.B. 308. Garki Abuja
+ E-mail: abubakarmalami234@minister.com=20
+
+
+Dear: Unpaid Beneficiary,
+
+This is to inform you that in the course of my investigation as director of=
+ payment verification / implementation committee I came across  your name a=
+s unpaid fund beneficiary in the record of the central bank of Nigeria and =
+other banks that are suppose to get your funds   released to you. My commit=
+tee was set up by the payment reconciliation committee to verify and scruti=
+nize all outstanding debts owed to   our foreign beneficiaries in accordanc=
+e to the information received from the United States government and other c=
+ountries over unpaid =20
+huge debts owed to Foreigners.
+
+Having seen your file and my further questioning to the officials of the ce=
+ntral of Nigeria bank and ministry of finance as to why your   payment is s=
+till pending reveals the rot and corruption in the system. The bank officia=
+ls told me that the reason why you haven't   received your payment is due t=
+o your inability to pay for the required charges for transfer of funds to y=
+our account. When I asked them   why they didn't deduct the said charges fr=
+om your principal sum, I was given the flimsy excuse that you never authori=
+zed them to do so.  When I put the question across to them if they ever adv=
+ised you that such charges could be deducted from your principal fund,the a=
+nswer I  got was no. Now, if you do not tell this beneficiary that such cha=
+rges could be deducted from his or her principal fund, how will he or   she=
+ know that such options are available for such beneficiaries. From my inves=
+tigation I discovered that these bank officials  deliberately refused to le=
+t the charges be deducted from your principal fund  because they want your =
+fund to remain trapped in the bank,=20
+
+while they continue to extort money from beneficiaries under some flimsy  e=
+xcuse. You do not need to pay any money to any official, all  you are requi=
+red to do is swear to an affidavit at the federal high court  of Nigeria, a=
+uthorizing the bank to deduct all charges from  your principal fund and tra=
+nsfer the balance of funds after deduction to your  bank account. If you ha=
+ve spent any money in the past in your quest for payment, kindly let me kno=
+w so that I can follow this up. You can   reach me on my phone or email for=
+ directive on how you can get the deduction done as soon as possible and ge=
+t your payment also.
+
+Yours sincerely,
+
+Barr. Abubakar Malami (SAN)
+E-mail: abubakarmalami234@minister.com=20
+ATTORNEY GENERAL FEDERAL
+REPUBLIC OF NIGERIA.

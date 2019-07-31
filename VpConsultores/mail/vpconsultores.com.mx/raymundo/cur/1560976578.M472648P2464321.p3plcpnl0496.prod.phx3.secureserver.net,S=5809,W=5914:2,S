@@ -1,0 +1,105 @@
+Return-Path: <tu.material@cefa.com.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id OKcEHMKcCl1BmiUAFq4nlA
+	(envelope-from <tu.material@cefa.com.mx>)
+	for <raymundo@vpconsultores.com.mx>; Wed, 19 Jun 2019 13:36:18 -0700
+Return-path: <tu.material@cefa.com.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Wed, 19 Jun 2019 13:36:18 -0700
+Received: from mail-pf1-f177.google.com ([209.85.210.177]:42288)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <tu.material@cefa.com.mx>)
+	id 1hdhJW-00AMAT-0B
+	for raymundo@vpconsultores.com.mx; Wed, 19 Jun 2019 13:36:18 -0700
+Received: by mail-pf1-f177.google.com with SMTP id q10so259091pff.9
+        for <raymundo@vpconsultores.com.mx>; Wed, 19 Jun 2019 13:35:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cefa-com-mx.20150623.gappssmtp.com; s=20150623;
+        h=message-id:date:from:to:reply-to:errors-to:mime-version:subject;
+        bh=0FA2XryesKSVyMcyoEXvfF5suhhVzqwlX9lJMaZ88Oc=;
+        b=pkOZmPZ5TNmjt3LYfurm5of1Rkj1pO1NDkQdkaIA9UvYnKGhzEdFUnSIIuYxne8OV9
+         7TbPsKoHFUMdj1QTE03sPKv+iiOcFj7m4poCh4COeZXn8QvrvlNge2L6Wdm+IkQsAkdR
+         novGUb/tjZXAPq58UCqmSUSE4wPzJv2fZzGXwCw0UOgUz0zpzqGAguD/+9KUBe9Q88Rf
+         TakWxGJTqw1qEDe5pCIWluPgT6ppFNZYfEClFSykgdgJchE41vSDeUxbTeykqq7Z0cUK
+         47ikQiFtVyivYQM0LkbtmTuFf1toRXPtVwDVP2sAPkFRHCSOd6QJiqOhBmimDR6vG3aa
+         rzbg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:message-id:date:from:to:reply-to:errors-to
+         :mime-version:subject;
+        bh=0FA2XryesKSVyMcyoEXvfF5suhhVzqwlX9lJMaZ88Oc=;
+        b=j6828rsj7df0xzRvfxSKOGRK6mSBvdQfydfJmc6Sg93AYaWYdRGiWdk7lLPGSQ/vvc
+         aVKwjWn0K/VDK4Xj2Eobofxl28ovktmNRY41EHeonlBddWSydEOejVokfl4Cm/LqkGXh
+         QOKsWep57xWTMUd/kjR46tgM7g8w1xs3LeJFIdgnX1tfQyaufumnTH9ftVzD0TaRV3HT
+         UTRlkETOeWEWf1th3b+7YlkpfDQNf864tovoe9G/QZNZRhsfsbRT/YzaHh6C+zWgreH5
+         q8Y+pbFfvmQoTtefo1VQ6w1GD4Wm77oJQYQ0ROsZqD8QCHak3jzkn5YhMoJ4/0awrH6D
+         Cx9w==
+X-Gm-Message-State: APjAAAVJT2GL5rBCpDASj0TVn2oRlfezRDkkdSed7ZEPj5dVBaJDStEF
+	90WaWBxd2qYjGsH5bozYYdXo9PY4zH8=
+X-Google-Smtp-Source: APXvYqyab0jMvjtb9zssa0Enb46+/OXztm4WKN1WUyo5EJ2TsphSyWKdsCFp1d1/zsDAdZ8VeV2fTg==
+X-Received: by 2002:a17:90a:b011:: with SMTP id x17mr13194988pjq.113.1560976527102;
+        Wed, 19 Jun 2019 13:35:27 -0700 (PDT)
+Received: from localhost ([162.221.202.181])
+        by smtp.gmail.com with ESMTPSA id l23sm20830180pgh.68.2019.06.19.13.35.22
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Wed, 19 Jun 2019 13:35:23 -0700 (PDT)
+Message-ID: <5d0a9c8b.1c69fb81.7da84.b713@mx.google.com>
+Date: Wed, 19 Jun 2019 13:35:23 -0700 (PDT)
+From: "Tu Material CEFA" <tu.material@cefa.com.mx>
+To: "C.P.C. Horlet Raymundo Vazquez Madrigal" <raymundo@vpconsultores.com.mx>
+Reply-To: dennys@cefa.com.mx
+Errors-To: dennys@cefa.com.mx
+Content-Type: text/html; charset=UTF-8
+MIME-Version: 1.0
+Subject: Clave de acceso a tu material CEFA 22227
+X-Spam-Status: No, score=2.2
+X-Spam-Score: 22
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Estimado(a) C.P.C. Horlet Raymundo Vazquez Madrigal Le hacemos
+    llegar el usuario y clave de la librería virtual de materiales de sus cursos.
+    El material estará disponible para su descarga un día antes del curso con
+    los siguientes datos. 
+ 
+ Content analysis details:   (2.2 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: cefa.com.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: cefa.com.mx]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+  0.6 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML
+                             tag
+X-Spam-Flag: NO
+
+<p>Estimado(a) C.P.C. Horlet Raymundo Vazquez Madrigal
+<p>Le hacemos llegar el usuario y clave de la librería virtual de materiales de sus cursos.
+<p>El material estará disponible para su descarga un día antes del curso con los siguientes datos.
+<p>Página: <a href="https://tumaterial.cefa.com.mx/">https://tumaterial.cefa.com.mx</a></b><br>
+Usuario unificado: <b>22227</b><br>
+Clave: <b>27187971</b>
+<p>
+<p>Dudas o aclaraciones mande un correo a: <a href='mailto:dennys@cefa.com.mx'>Dennys Mireles Bernardino</a>
+<p><b>No conteste este correo automático.</b>

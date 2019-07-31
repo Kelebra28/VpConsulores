@@ -1,0 +1,3679 @@
+Return-Path: <magdalena.diego@tax.com.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id SOZIEDIyAF3b8S4AFq4nlA
+	(envelope-from <magdalena.diego@tax.com.mx>)
+	for <raymundo@vpconsultores.com.mx>; Tue, 11 Jun 2019 15:58:58 -0700
+Return-path: <magdalena.diego@tax.com.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Tue, 11 Jun 2019 15:58:58 -0700
+Received: from smtp113.ord1d.emailsrvr.com ([184.106.54.113]:40507)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <magdalena.diego@tax.com.mx>)
+	id 1hapjA-00D3pC-4z
+	for raymundo@vpconsultores.com.mx; Tue, 11 Jun 2019 15:58:58 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=g001.emailsrvr.com;
+	s=20190322-9u7zjiwi; t=1560293886;
+	bh=Ij2DHjuiILFUNXIVYYK1yJjdIc84GlJpnEWylF/p/bk=;
+	h=From:To:Subject:Date:From;
+	b=nc5t3jlVC9/ZqGPotYuEPt+WUzEtsPfRUZ3b3Xsk3XDVy5C8RpFbdmNwO63dchv3g
+	 PRP/IxlkzVa2+GFmGj4QtkSValpu7mhqwfXBukYMbOFOCksPVadKQbHWCByv3NeSqz
+	 CDU/z++lRXdrgsTEat1t2vcbvTTwZp3dDw+2dZCU=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=tax.com.mx;
+	s=20180522-qebthsxn; t=1560293886;
+	bh=Ij2DHjuiILFUNXIVYYK1yJjdIc84GlJpnEWylF/p/bk=;
+	h=From:To:Subject:Date:From;
+	b=R1DxuclzVZXuwUJq0e1DTu/tHlHuB2U+5HFQEgm3y3XGHIH1TEB63uQULA0qwcpTn
+	 VyKLotlfpoSJFkmW2HhY89VtBA5waaT8LqmfxSrCvPyURqIL6/jOJn4yh1+RrG7dZu
+	 IEjuCCrMi+/aRHM/vRm1lBjLzQWPgHouxO7NmuZM=
+X-Auth-ID: magdalena.diego@tax.com.mx
+Received: by smtp15.relay.ord1d.emailsrvr.com (Authenticated sender: magdalena.diego-AT-tax.com.mx) with ESMTPA id 08A6D601E3;
+	Tue, 11 Jun 2019 18:57:51 -0400 (EDT)
+X-Sender-Id: magdalena.diego@tax.com.mx
+Received: from SERVERERP (mail.taxeditoresunidos.com [200.94.66.5])
+	by 0.0.0.0:25 (trex/5.7.12);
+	Tue, 11 Jun 2019 18:58:06 -0400
+From: "Magdalena Diego" <magdalena.diego@tax.com.mx>
+To: <magydiego04@gmail.com>
+Subject: =?iso-8859-1?Q?_Ley_Federal_del_Trabajo_/_Resoluci=F3n_Miscel=E1nea_/_El_?=
+	=?iso-8859-1?Q?sistema_Nacional_Anticorrupci=F3n?=
+Date: Tue, 11 Jun 2019 17:57:15 -0500
+Message-ID: <948074242D9E454CBF1B5D2F8E0B4E6E@taxeditores.pvt>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_004D_01D5207F.227B2990"
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: AdUdZDGWjR9dNqJlRxWqMUP2x9RXfQCNxeMgAAKQ9OAADxGj8AAlc28gAAwbcuA=
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.24158
+X-Spam-Status: No, score=2.0
+X-Spam-Score: 20
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  LEY FEDERAL DEL TRABAJO CORRELACIONADA ARTICULO POR ARTÍCULO
+    En compras mayores a $1,500.00 el gasto de envío lo cubre la editorial, en
+    caso contrario favor de agregar a su pedido $80.00 del envío. (Tiempo de
+   entrega de 3 a 4 días servicio a domicilio) 
+ 
+ Content analysis details:   (2.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: tax.com.mx]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.4 FUZZY_CREDIT           BODY: Attempt to obfuscate words in spam
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of
+                             empty lines
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_004D_01D5207F.227B2990
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_004E_01D5207F.227B2990"
+
+
+------=_NextPart_001_004E_01D5207F.227B2990
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+=20
+
+=20
+
+LEY FEDERAL DEL TRABAJO=20
+
+CORRELACIONADA ARTICULO POR ART=CDCULO=20
+
+=20
+
+En compras mayores a $1,500.00 el gasto de env=EDo lo cubre la =
+editorial, en
+caso contrario favor de agregar a su pedido $80.00 del env=EDo. (Tiempo =
+de
+entrega de 3 a 4 d=EDas servicio a domicilio)
+
+=20
+
+Magdalena Diego
+
+Tel. Directo: 01 (55) 8000 9511 / 01 (55) 8000 9500 Ext. 505 / 140
+
+E-mail: magdalena.diego@tax.com.mx
+
+ 045 55 8031 7071
+
+=20
+
+=20
+
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+ <http://www.tax.com.mx/PaginaTaxComponentes/Fondo/9786076292600_c.png>  =
+
+
+=20
+
+  _____ =20
+
+P.V.P. $159.00
+
+=20
+
+=20
+
+=20
+
+SINOPSIS
+
+=20
+
+  _____ =20
+
+=20
+
+=20
+
+=20
+
+Es ideal para ejecutivos y en general para todas las personas dedicadas =
+al
+estudio de las disposiciones laborales.
+
+=20
+
+Incluye las modificaciones que sufri=F3 la Ley Federal del Trabajo =
+mediante el
+=93Decreto por el que se reforman, adicionan y derogan diversas =
+disposiciones
+de la Ley Federal del Trabajo, de la Ley Org=E1nica del Poder Judicial =
+de la
+Federaci=F3n, de la Ley Federal de la Defensor=EDa P=FAblica, de la Ley =
+del
+Instituto del Fondo Nacional de la Vivienda para los Trabajadores y de =
+la
+Ley del Seguro Social, en materia de justicia laboral, libertad sindical =
+y
+negociaci=F3n colectiva=94, publicado por la Secretar=EDa del Trabajo y =
+Previsi=F3n
+Social en el Diario Oficial de la Federaci=F3n el 1o. de mayo de 2019. =
+Estos
+cambios entraron en vigor el 2 de mayo de 2019.  =20
+
+=20
+
+Esta obra, titulada Ley Federal del Trabajo. Correlacionada art=EDculo =
+por
+art=EDculo, en presentaci=F3n acad=E9mica, incluye titulillos y =
+correlaciones
+art=EDculo por art=EDculo, las cuales le confieren un valor agregado, =
+pues esto
+facilita la consulta o localizaci=F3n de todas las disposiciones =
+aplicables a
+cada caso. La ley se encuentra correlacionada entre s=ED y con sus
+reglamentos.
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+RESOLUCION MISCELANEA PROFESIONAL
+
+JUNIO 2019
+
+=20
+
+=20
+
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+ <http://www.tax.com.mx/PaginaTaxComponentes/Fondo/18861003200419_c.png> =
+RM
+Profesional
+
+=20
+
+  _____ =20
+
+P.V.P. $649.00
+
+=20
+
+INTRODUCCION AL EJEMPLAR DE JUNIO
+
+  _____ =20
+
+=20
+
+Esta edici=F3n incluye la Resoluci=F3n Miscel=E1nea Fiscal para 2019, =
+publicada en
+el DOF el 29 de abril de este a=F1o. De esta publicaci=F3n destaca la =
+adici=F3n,
+entre otras, de las siguientes reglas, con respecto a la RMF para 2018:
+
+=20
+
+* 2.8.1.26, Presentaci=F3n de pagos provisionales y definitivos de =
+personas
+f=EDsicas que obtengan ingresos por arrendamiento y en general por =
+otorgar el
+uso o goce temporal de bienes inmuebles a trav=E9s del aplicativo =93Mi
+contabilidad=94.
+
+* 2.8.1.27, Procedimiento para presentar declaraciones complementarias =
+en el
+esquema anterior, a trav=E9s del aplicativo =93Mi contabilidad=94.
+
+* 3.2.26, Solicitud de autorizaci=F3n para enajenar acciones a costo =
+fiscal.
+
+* 3.2.27, Presentaci=F3n del acta de asamblea protocolizada con motivo =
+de la
+suscripci=F3n y pago de capital, derivado de la enajenaci=F3n de =
+acciones a
+costo fiscal.
+
+* 3.2.28, Aplicaci=F3n de la autorizaci=F3n emitida para enajenar =
+acciones a
+costo fiscal.
+
+* 3.11.13, Opci=F3n para aplicar el esquema de retenci=F3n por permitir =
+el uso
+de plataformas tecnol=F3gicas a personas f=EDsicas.
+
+* 3.11.14, Actualizaci=F3n de obligaciones fiscales de las personas =
+f=EDsicas
+que prestan el servicio de transporte terrestre de pasajeros o servicio =
+de
+entrega de alimentos.
+
+* 3.11.15, Opci=F3n para manifestarle a la plataforma tecnol=F3gica que =
+efect=FAe
+la retenci=F3n de ISR e IVA.
+
+* 3.11.16, Conclusi=F3n del uso de la plataforma tecnol=F3gica.
+
+* 3.11.17, Cambio de opci=F3n para personas f=EDsicas que prestan el =
+servicio de
+transporte terrestre de pasajeros o de alimentos preparados a trav=E9s =
+de
+plataformas tecnol=F3gicas.
+
+* 3.11.18, Opci=F3n para continuar con los beneficios del art=EDculo 23 =
+de la
+LIF.
+
+* =20
+
+Asimismo, se incluye el Decreto por el que se dejan sin efectos los =
+Decretos
+y diversas disposiciones de car=E1cter general emitidos en t=E9rminos =
+del
+art=EDculo 39, fracci=F3n I del C=F3digo Fiscal de la Federaci=F3n, por =
+virtud de
+los cuales se condonaron deudas fiscales, el cual entr=F3 en vigor el 21 =
+de
+mayo de 2019 y estar=E1 vigente hasta 2024. El objetivo del decreto es =
+dejar
+sin efectos los decretos o disposiciones de car=E1cter general emitidos =
+por el
+titular del Ejecutivo Federal, mediante los cuales se otorgaron
+condonaciones a deudores fiscales.
+
+=20
+
+=20
+
+RESOLUCION MISCELANEA ACTUALIZADA - PORTABLE
+
+MAYO 2019
+
+=20
+
+=20
+
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+ <http://www.tax.com.mx/PaginaTaxComponentes/Fondo/18861003200419_c.png> =
+RM
+Portable
+
+=20
+
+  _____ =20
+
+P.V.P. $249.00
+
+=20
+
+=20
+
+INTRODUCCION AL EJEMPLAR DE MAYO
+
+=20
+
+  _____ =20
+
+=20
+
+=20
+
+Esta edici=F3n incluye la Resoluci=F3n Miscel=E1nea Fiscal para 2019, =
+publicada en
+el DOF el 29 de abril de este a=F1o. De esta publicaci=F3n destaca la =
+adici=F3n,
+entre otras, de las siguientes reglas, con respecto a la RMF para 2018:
+
+=20
+
+* 2.8.1.26, Presentaci=F3n de pagos provisionales y definitivos de =
+personas
+f=EDsicas que obtengan ingresos por arrendamiento y en general por =
+otorgar el
+uso o goce temporal de bienes inmuebles a trav=E9s del aplicativo =93Mi
+contabilidad=94.
+
+* 2.8.1.27, Procedimiento para presentar declaraciones complementarias =
+en el
+esquema anterior, a trav=E9s del aplicativo =93Mi contabilidad=94.
+
+* 3.2.26, Solicitud de autorizaci=F3n para enajenar acciones a costo =
+fiscal.
+
+* 3.2.27, Presentaci=F3n del acta de asamblea protocolizada con motivo =
+de la
+suscripci=F3n y pago de capital, derivado de la enajenaci=F3n de =
+acciones a
+costo fiscal.
+
+* 3.2.28, Aplicaci=F3n de la autorizaci=F3n emitida para enajenar =
+acciones a
+costo fiscal.
+
+* 3.11.13, Opci=F3n para aplicar el esquema de retenci=F3n por permitir =
+el uso
+de plataformas tecnol=F3gicas a personas f=EDsicas.
+
+* 3.11.14, Actualizaci=F3n de obligaciones fiscales de las personas =
+f=EDsicas
+que prestan el servicio de transporte terrestre de pasajeros o servicio =
+de
+entrega de alimentos.
+
+* 3.11.15, Opci=F3n para manifestarle a la plataforma tecnol=F3gica que =
+efect=FAe
+la retenci=F3n de ISR e IVA.
+
+* 3.11.16, Conclusi=F3n del uso de la plataforma tecnol=F3gica.
+
+* 3.11.17, Cambio de opci=F3n para personas f=EDsicas que prestan el =
+servicio de
+transporte terrestre de pasajeros o de alimentos preparados a trav=E9s =
+de
+plataformas tecnol=F3gicas.
+
+* 3.11.18, Opci=F3n para continuar con los beneficios del art=EDculo 23 =
+de la
+LIF.
+
+=20
+
+=20
+
+=20
+
+=20
+
+EL SISTEMA NACIONAL ANTICORRUPCION
+
+=20
+
+=20
+
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+ <http://www.tax.com.mx/PaginaTaxComponentes/Fondo/18861003200419_c.png> =
+El
+Sistema Nac Antc
+
+=20
+
+  _____ =20
+
+P.V.P. $349.00
+
+=20
+
+SINOPSIS
+
+  _____ =20
+
+=20
+
+La corrupci=F3n es un fen=F3meno que lacera a las instituciones, y =
+engendra
+m=FAltiples males que descomponen el tejido social y pervierten al =
+Estado. Por
+ello, el tema anticorrupci=F3n es siempre un t=F3pico de sumo inter=E9s, =
+m=E1s a=FAn
+en nuestros tiempos, ya que hemos sido testigos de corruptelas =
+oprobiosas de
+servidores p=FAblicos y del discurso principal del actual gobierno, que
+gravita justamente en torno al combate a la corrupci=F3n. Aunado a esto, =
+a
+partir de la reforma constitucional de mayo de 2015, observamos la
+estructuraci=F3n del llamado Sistema Nacional Anticorrupci=F3n.
+
+=20
+
+En este contexto, la compilaci=F3n de ensayos que el lector tiene en sus
+manos, que seguro marcar=E1 tendencia en la materia, presenta estudios =
+de
+frontera e informaci=F3n de suma utilidad en la pr=E1ctica forense del =
+derecho
+disciplinario tendente al ataque a la corrupci=F3n.=20
+
+=20
+
+El libro es fruto de la investigaci=F3n y la colaboraci=F3n =
+interinstitucional
+auspiciadas desde el Colegio de Morelos, que ha vertebrado =
+acad=E9micamente la
+obra, reuniendo en ella a conspicuos juristas y estudiosos de las =
+ciencias
+sociales de su claustro, a prestigiados magistrados de Tribunales de
+Justicia Administrativa, y a reconocidos litigantes y especialistas, en =
+el
+plano nacional; as=ED como a insignes profesores y expertos de Colombia, =
+a
+trav=E9s de la universidad hermana de Santiago de Cali.
+
+=20
+
+El trabajo de los coordinadores del libro, Ricardo Tapia Vega, Jorge =
+Alberto
+Estrada Cuevas y Manuel Lucero Espinosa, se ve materializado en el
+reclutamiento del excelente equipo de ensayistas a que se refiere el =
+p=E1rrafo
+que antecede, y en la inclusi=F3n de una visi=F3n de derecho comparado, =
+a trav=E9s
+de la experiencia colombiana, que viene a enriquecer el enfoque de =
+c=F3mo
+afrontar el problema relativo al ataque a la corrupci=F3n. =20
+
+=20
+
+Tambi=E9n es justo reconocer el apoyo y entusiasmo del Dr. Juan =
+Rabindrana
+Cisneros Garc=EDa, rector del Centro Universitario de Estudios =
+Jur=EDdicos,
+gracias a quien fue posible que Tax Editores Unidos S.A. de C.V. se
+interesara en publicar esta obra, as=ED como la disposici=F3n del Dr. =
+Juan de
+Dios Gonz=E1lez Ibarra, rector de el Colegio de Morelos, y del Mtro. =
+Edward
+Javier Ordo=F1ez, editor de la Universidad de Santiago de Cali, para la
+coedici=F3n de este trabajo.=20
+
+=20
+
+En el bloque mexicano, integrado por diez ensayos, el magistrado en =
+retiro
+Dr. Luis Humberto Delgadillo Guti=E9rrez, nos presenta =93Las =
+responsabilidades
+de los servidores p=FAblicos en el marco del Sistema Nacional =
+Anticorrupci=F3n=94;
+inmediatamente despu=E9s el Dr. Ricardo Tapia Vega reflexiona sobre =
+=93La
+destituci=F3n: Transgresora de la garant=EDa de proporcionalidad al =
+ubicarse en
+zona de intersecci=F3n sancionatoria entre faltas graves y no graves=94; =
+a
+continuaci=F3n el Mtro. Omar Herrera Salazar nos habla de =93La =
+insuficiencia de
+los tipos administrativos en el Sistema Nacional Anticorrupci=F3n para
+conductas susceptibles de responsabilidad administrativa sancionable=94;
+posteriormente, el magistrado Dr. Jorge Alberto Estrada Cuevas expone =
+=93El
+procedimiento administrativo disciplinario y el debido proceso=94; =
+despu=E9s, el
+magistrado Lic. Manuel Lucero Espinosa diserta sobre el =93An=E1lisis de =
+los
+procedimientos de investigaci=F3n, substanciaci=F3n y resoluci=F3n del =
+Sistema
+Nacional Anticorrupci=F3n=94; luego el Mtro. Antonio Ru=EDz Alegr=EDa =
+estudia =93La
+estructura de la auditor=EDa conforme al Sistema Nacional de =
+Fiscalizaci=F3n=94;
+subsiguientemente la magistrada Mtra. Graciela Buenrostro Pe=F1a =
+discurre
+sobre =93Los valores fundamentales en el ejercicio de la funci=F3n =
+p=FAblica=94;
+acto seguido, el Dr. Juan Rabindrana Cisneros Garc=EDa explica =93El
+fortalecimiento del estado de derecho, la transparencia, la =
+participaci=F3n
+ciudadana y el uso de las tecnolog=EDas de la informaci=F3n en el ataque =
+a la
+corrupci=F3n=94; ulteriormente el Mtro. Gabriel Garc=EDa Vargas nos =
+muestra =93El
+procedimiento penal como herramienta esencial en el nuevo modelo
+constitucional de combate a la corrupci=F3n=94; y cierran este bloque, =
+dando
+adem=E1s colof=F3n a la obra, los Doctores Juan de Dios Gonz=E1lez =
+Ibarra y
+Gerardo Gonz=E1lez Camarena, hablando de =93Corrupci=F3n y =
+democracia=94.
+
+=20
+
+En el bloque colombiano, compuesto por 3 ensayos, la Mtra. Lizeth =
+Juliana
+Garc=EDa Atra hace un =93An=E1lisis cr=EDtico-propositivo del Sistema =
+Nacional
+Anticorrupci=F3n mexicano: antecedentes y panorama actual=94; =
+posteriormente el
+Dr. Ar=EDstides Obando Cabezas y la Mtra. Jenny Esperanza Torres nos =
+muestran
+=93La experiencia colombiana en el sistema de elecci=F3n de altos =
+dignatarios
+como estrategia contra la corrupci=F3n=94, y cierra =E9ste bloque el Dr. =
+Augusto
+Vel=E1squez Forero con =93Apor=EDas y reflexiones sobre el conflicto =
+armado en
+Colombia y su relaci=F3n con la corrupci=F3n=94.
+
+=20
+
+Se destaca tambi=E9n que la obra es prologada por Jean Claude Tron =
+Petit,
+distinguido magistrado de Tribunales Colegiados de Circuito, y =
+reconocido
+profesor y doctrinario en el campo del derecho en el pa=EDs.=20
+
+=20
+
+Finalmente, se pone de relieve que, aunque la obra ha sido trazada para
+tener una secuencia l=F3gica, los ensayos pueden leerse en cualquier =
+orden
+dado que cada uno es tem=E1tico y monogr=E1fico.
+
+=20
+
+=20
+
+=20
+
+Tax Editores Unidos  SA de CV
+
+=20
+
+
+BANCO
+
+No. DE CUENTA
+
+CLABE INTERBANCARIA
+
+
+BANCOMER
+
+044-5672708
+
+012180004456727087
+
+
+BANCOMER
+
+0445672694
+
+012180004456726949
+
+
+SCOTIABANK INVERLAT
+
+00100182958
+
+044180001001829589
+
+
+SANTANDER SERFIN
+
+65501430532
+
+014180655014305324
+
+
+BANAMEX
+
+0363384 SUC.148
+
+002180014803633847
+
+
+BANORTE
+
+0607212710 PLAZA 01
+
+072180006072127106
+
+
+BANCO REGIONAL DE MONTERREY (BANREGIO)
+
+220970410015
+
+058180000001098080
+
+=20
+
+Cargo a tarjeta de cr=E9dito=20
+
+Banamex y Bancomer a 6 meses sin intereses
+
+=20
+
+=20
+
+
+
+Magdalena Diego
+
+ <mailto:magdalena.diego@tax.com.mx> magdalena.diego@tax.com.mx
+
+01 (55) 8000 9511 / 01 (55) 8000 9500 Ext. 505
+
+(045) 55 8031 7071
+
+
+Tax Editores Unidos SA de CV da cumplimiento a lo dispuesto en la Ley
+Federal de Protecci=F3n de datos Personales en Posesi=F3n de =
+Particulares, si
+requiere mayor informaci=F3n, puede consultar a nuestro Aviso de =
+Privacidad
+completo a trav=E9s de la p=E1gina de internet
+<http://www.practicafiscal.com.mx/AVISODEPRIVACIDAD.htm> www.tax.com.mx =
+o
+<http://www.practicafiscal.com.mx/AVISODEPRIVACIDAD.htm>
+www.practicafiscal.com.mx
+
+
+=20
+
+
+------=_NextPart_001_004E_01D5207F.227B2990
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" =
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" =
+xmlns:st1=3D"urn:schemas-microsoft-com:office:smarttags" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta name=3D"Microsoft Theme 2.00" content=3D"Journal 011">
+<meta http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><o:SmartTagType
+ namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags" =
+name=3D"PersonName"/>
+<!--[if !mso]>
+<style>
+st1\:*{behavior:url(#default#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Arial Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;}
+@font-face
+	{font-family:"Century Gothic";
+	panose-1:2 11 5 2 2 2 2 2 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Liberation Serif";}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Verdana;
+	color:#6A6A6A;}
+h1
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:Verdana;
+	color:#6A6A6A;
+	font-weight:bold;}
+h2
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:Verdana;
+	color:#6A6A6A;
+	font-weight:normal;}
+h3
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:Verdana;
+	color:#6A6A6A;
+	font-weight:normal;}
+h4
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:Verdana;
+	color:#6A6A6A;
+	font-weight:normal;}
+h5
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	font-size:13.0pt;
+	font-family:Verdana;
+	color:#6A6A6A;
+	font-weight:normal;}
+h6
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:Verdana;
+	color:#6A6A6A;
+	font-weight:normal;}
+a:link, span.MsoHyperlink
+	{color:#D03505;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#FF7045;
+	text-decoration:underline;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.standard, li.standard, div.standard
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Liberation Serif";}
+p.sinopsis, li.sinopsis, div.sinopsis
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:Calibri;
+	color:black;}
+p.standarduser, li.standarduser, div.standarduser
+	{margin-top:14.0pt;
+	margin-right:0cm;
+	margin-bottom:14.25pt;
+	margin-left:0cm;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:#333333;}
+p.msonospacing, li.msonospacing, div.msonospacing
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:Calibri;}
+span.EstiloCorreo22
+	{mso-style-type:personal;
+	color:#6A6A6A;}
+span.ttulo1car
+	{font-family:Verdana;
+	color:#6A6A6A;
+	font-weight:bold;}
+span.sinopsiscar
+	{font-family:Calibri;
+	color:black;}
+span.EstiloCorreo25
+	{mso-style-type:personal;
+	color:#6A6A6A;}
+span.ttulo1car0
+	{font-family:Verdana;
+	color:#6A6A6A;
+	font-weight:bold;}
+span.EstiloCorreo27
+	{mso-style-type:personal;
+	color:#6A6A6A;}
+span.ttulo1car1
+	{font-family:Verdana;
+	color:#6A6A6A;
+	font-weight:bold;}
+span.EstiloCorreo29
+	{mso-style-type:personal;
+	color:#6A6A6A;}
+span.ttulo1car2
+	{font-family:Verdana;
+	color:#6A6A6A;
+	font-weight:bold;}
+span.EstiloCorreo31
+	{mso-style-type:personal;
+	color:#6A6A6A;}
+span.ttulo1car3
+	{font-family:Verdana;
+	color:#6A6A6A;
+	font-weight:bold;}
+span.EstiloCorreo33
+	{mso-style-type:personal-reply;
+	color:#6A6A6A;}
+span.Ttulo1Car4
+	{font-family:Verdana;
+	color:#6A6A6A;
+	font-weight:bold;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:796414962;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1439488744 134873089 134873091 134873093 =
+134873089 134873091 134873093 134873089 134873091 134873093;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:47.35pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:83.35pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:119.35pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:155.35pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:227.35pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:263.35pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:299.35pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:335.35pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:1977368290;
+	mso-list-type:hybrid;
+	mso-list-template-ids:764963018 134873089 134873091 134873093 134873089 =
+134873091 134873093 134873089 134873091 134873093;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:47.35pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:83.35pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:119.35pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:155.35pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:227.35pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:263.35pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:299.35pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:335.35pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=3Dwhite background=3D"cid:image002.gif@01D5207E.DB4B4910" =
+lang=3DES
+link=3D"#D03505" vlink=3D"#FF7045">
+<img src=3D"cid:image002.gif@01D5207E.DB4B4910"
+v:src=3D"cid:image002.gif@01D5207E.DB4B4910" v:shapes=3D"_x0000_Mail" =
+width=3D0
+height=3D0 class=3Dshape style=3D'display:none;width:0;height:0'><!--[if =
+gte mso 9]><xml>
+ <v:background id=3D"_x0000_s1025" o:bwmode=3D"white" =
+o:targetscreensize=3D"800,600">
+  <v:fill src=3D"cid:image002.gif@01D5207E.DB4B4910" =
+o:title=3D"background_journal"=20
+   type=3D"frame" />
+ </v:background></xml><![endif]-->
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><font size=3D3 color=3D"#6a6a6a" =
+face=3DVerdana><span
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><a
+name=3D"_Hlk499913051"><b><font size=3D3 color=3D"#0066cc" =
+face=3DArial><span
+lang=3DES-MX =
+style=3D'font-size:12.0pt;font-family:Arial;color:#0066CC;font-weight:
+bold'>LEY FEDERAL DEL TRABAJO </span></font></b></a><b><font =
+color=3D"#0066cc"
+face=3DArial><span lang=3DES-MX =
+style=3D'font-family:Arial;color:#0066CC;font-weight:
+bold'><o:p></o:p></span></font></b></p>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><b><font =
+size=3D3
+color=3D"#0066cc" face=3DArial><span lang=3DES-MX =
+style=3D'font-size:12.0pt;font-family:
+Arial;color:#0066CC;font-weight:bold'>CORRELACIONADA ARTICULO POR =
+ART=CDCULO <o:p></o:p></span></font></b></p>
+
+<p class=3DMsoNormal><font size=3D3 color=3D"#6a6a6a" =
+face=3DVerdana><span lang=3DES-MX
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3Dmsonospacing align=3Dcenter =
+style=3D'text-align:center'><b><font size=3D2
+color=3D"#333399" face=3DCalibri><span =
+style=3D'font-size:11.0pt;color:#333399;
+font-weight:bold'>En compras mayores a $1,500.00 el gasto de env=EDo lo =
+cubre la
+editorial, en caso contrario favor de agregar a su pedido $80.00 del =
+env=EDo.</span></font><font
+color=3Dnavy><span style=3D'color:navy'> </span></font></b><i><font =
+color=3Dnavy><span
+style=3D'color:navy;font-style:italic'>(</span></font></i><i><font =
+size=3D1
+color=3Dnavy><span =
+style=3D'font-size:9.0pt;color:navy;font-style:italic'>Tiempo de
+entrega de 3 a 4 d=EDas servicio a =
+domicilio)<o:p></o:p></span></font></i></p>
+
+<p class=3DMsoNormal><font size=3D3 color=3D"#6a6a6a" =
+face=3DVerdana><span
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3Dmsonospacing align=3Dcenter =
+style=3D'text-align:center'><b><font size=3D5
+color=3D"#0070c0" face=3D"Century Gothic"><span =
+style=3D'font-size:16.0pt;font-family:
+"Century Gothic";color:#0070C0;font-weight:bold'>Magdalena =
+Diego<o:p></o:p></span></font></b></p>
+
+<p class=3Dmsonospacing align=3Dcenter =
+style=3D'text-align:center'><b><font size=3D2
+color=3D"#333399" face=3D"Century Gothic"><span =
+style=3D'font-size:11.0pt;font-family:
+"Century Gothic";color:#333399;font-weight:bold'>Tel. Directo: 01 (55) =
+8000
+9511 / 01 (55) 8000 9500 Ext. 505 / 140</span></font></b><font size=3D3
+face=3D"Times New Roman"><span lang=3DES-MX =
+style=3D'font-size:12.0pt;font-family:
+"Times New Roman"'><o:p></o:p></span></font></p>
+
+<p class=3Dmsonospacing align=3Dcenter =
+style=3D'text-align:center'><b><font size=3D2
+color=3D"#333399" face=3D"Century Gothic"><span =
+style=3D'font-size:11.0pt;font-family:
+"Century =
+Gothic";color:#333399;font-weight:bold'>E-mail:</span></font></b><font
+color=3D"#333399" face=3D"Century Gothic"><span =
+style=3D'font-family:"Century Gothic";
+color:#333399'> </span></font><font face=3D"Century Gothic"><span
+style=3D'font-family:"Century Gothic"'><a =
+href=3D"mailto:magdalena.diego@tax.com.mx"
+title=3D"blocked::mailto:magdalena.diego@tax.com.mx">magdalena.diego@tax.=
+com.mx</a><o:p></o:p></span></font></p>
+
+<p class=3Dmsonospacing align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+color=3Dblack face=3D"Century Gothic"><span lang=3DES-MX =
+style=3D'font-size:12.0pt;
+font-family:"Century Gothic";color:black'>&nbsp;</span></font><font =
+size=3D3
+color=3Dnavy face=3D"Century Gothic"><span =
+style=3D'font-size:12.0pt;font-family:
+"Century Gothic";color:navy'>045 55 8031 =
+7071<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 color=3Dblack face=3D"Century =
+Gothic"><span
+style=3D'font-size:12.0pt;font-family:"Century =
+Gothic";color:black'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 color=3D"#6a6a6a" =
+face=3DVerdana><span
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<div align=3Dcenter>
+
+<table class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D784
+ style=3D'width:588.3pt;border-collapse:collapse'>
+ <tr>
+  <td width=3D284 valign=3Dtop style=3D'width:212.7pt;border:solid =
+#2E74B5 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=3Dstandard><a name=3D"OLE_LINK6"></a><a =
+name=3D"OLE_LINK7"></a><font
+  size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard =
+style=3D'mso-margin-top-alt:0cm;margin-right:25.5pt;
+  margin-bottom:0cm;margin-left:39.7pt;margin-bottom:.0001pt'><font =
+size=3D3
+  face=3D"Liberation Serif"><span style=3D'font-size:12.0pt'><a
+  =
+href=3D"http://www.tax.com.mx/PaginaTaxComponentes/Fondo/9786076292600_c.=
+png"><font
+  color=3Dblack face=3DArial><span =
+style=3D'font-family:Arial;color:black;text-decoration:
+  none'><img border=3D0 width=3D142 height=3D231
+  src=3D"cid:image003.jpg@01D5207E.DB4B4910"><span
+  =
+title=3D"http://www.practicafiscal.com.mx/AVISODEPRIVACIDAD.htm">&nbsp;</=
+span></span></font></a></span></font><font
+  color=3Dblack face=3DArial><span =
+style=3D'font-family:Arial;color:black'><o:p></o:p></span></font></p>
+  <p class=3Dstandard =
+style=3D'mso-margin-top-alt:0cm;margin-right:25.5pt;
+  margin-bottom:0cm;margin-left:39.7pt;margin-bottom:.0001pt'><font =
+size=3D3
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:Arial;
+  color:black'><o:p>&nbsp;</o:p></span></font></p>
+  <div class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><font size=3D3
+  color=3D"#6a6a6a" face=3DVerdana><span style=3D'font-size:12.0pt'>
+  <hr size=3D2 width=3D214 style=3D'width:160.5pt' align=3Dcenter>
+  </span></font></div>
+  <p class=3Dstandard align=3Dcenter =
+style=3D'text-align:center'><b><font size=3D4
+  color=3Dmaroon face=3DArial><span =
+style=3D'font-size:15.0pt;font-family:Arial;
+  color:maroon;font-weight:bold'>P.V.P. $159.00</span></font></b><font
+  color=3Dblack face=3DArial><span =
+style=3D'font-family:Arial;color:black'><o:p></o:p></span></font></p>
+  </td>
+  <td width=3D501 valign=3Dtop bgcolor=3D"#D0CECE" =
+style=3D'width:375.6pt;border:solid #2E74B5 1.5pt;
+  border-left:none;background:#D0CECE;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=3DMsoNormal><b><font size=3D3 color=3Dblue face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:blue;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  <p class=3DMsoNormal><b><font size=3D3 color=3Dblue face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:blue;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  <p class=3DMsoNormal><b><font size=3D3 color=3Dblue face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:blue;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  <p class=3DMsoNormal><b><font size=3D3 color=3Dblue face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:blue;font-weight:bold'>=
+SINOPSIS<o:p></o:p></span></font></b></p>
+  <p class=3DMsoNormal><b><font size=3D3 color=3Dblue face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:blue;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  <div class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><font size=3D3
+  color=3D"#6a6a6a" face=3DVerdana><span style=3D'font-size:12.0pt'>
+  <hr size=3D2 width=3D"100%" align=3Dcenter>
+  </span></font></div>
+  <p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#6a6a6a"
+  face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D2
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+  <p class=3Dsinopsis style=3D'margin-right:11.35pt'><font size=3D2 =
+color=3Dblack
+  face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D2
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>Es ideal
+  para ejecutivos y en general para todas las personas dedicadas al =
+estudio de
+  las disposiciones laborales.<o:p></o:p></span></font></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D2
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt;text-align:ju=
+stify'><font
+  size=3D2 color=3D"#6a6a6a" face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:
+  Arial'>Incluye las modificaciones que sufri=F3 <st1:PersonName
+  ProductID=3D"la Ley Federal" w:st=3D"on">la Ley =
+Federal</st1:PersonName> del
+  Trabajo mediante el &#8220;Decreto por el que se reforman, adicionan y
+  derogan diversas disposiciones de <st1:PersonName ProductID=3D"la Ley =
+Federal"
+  w:st=3D"on">la Ley Federal</st1:PersonName> del Trabajo, de =
+<st1:PersonName
+  ProductID=3D"la Ley Org=E1nica" w:st=3D"on">la Ley =
+Org=E1nica</st1:PersonName> del
+  Poder Judicial de <st1:PersonName ProductID=3D"la Federaci=F3n" =
+w:st=3D"on">la
+   Federaci=F3n</st1:PersonName>, de <st1:PersonName ProductID=3D"la Ley =
+Federal"
+  w:st=3D"on">la Ley Federal</st1:PersonName> de <st1:PersonName
+  ProductID=3D"la Defensor=EDa P=FAblica" w:st=3D"on">la Defensor=EDa =
+P=FAblica</st1:PersonName>,
+  de <st1:PersonName ProductID=3D"la Ley" w:st=3D"on">la =
+Ley</st1:PersonName> del
+  Instituto del Fondo Nacional de <st1:PersonName ProductID=3D"la =
+Vivienda"
+  w:st=3D"on">la Vivienda</st1:PersonName> para los Trabajadores y de =
+<st1:PersonName
+  ProductID=3D"la Ley" w:st=3D"on">la Ley</st1:PersonName> del Seguro =
+Social, en materia
+  de justicia laboral, libertad sindical y negociaci=F3n =
+colectiva&#8221;,
+  publicado por <st1:PersonName ProductID=3D"la Secretar=EDa" =
+w:st=3D"on">la
+   Secretar=EDa</st1:PersonName> del Trabajo y Previsi=F3n Social en el =
+Diario
+  Oficial de <st1:PersonName ProductID=3D"la Federaci=F3n" =
+w:st=3D"on">la Federaci=F3n</st1:PersonName>
+  el 1o. de mayo de 2019. Estos cambios entraron en vigor el 2 de mayo =
+de
+  2019.&nbsp;&nbsp; <o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt;text-align:ju=
+stify'><font
+  size=3D2 color=3D"#6a6a6a" face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:
+  Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt;text-align:ju=
+stify'><font
+  size=3D2 color=3D"#6a6a6a" face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:
+  Arial'>Esta obra, titulada <b><span style=3D'font-weight:bold'>Ley =
+Federal del
+  Trabajo. Correlacionada art=EDculo por art=EDculo,</span></b> en =
+presentaci=F3n
+  acad=E9mica, incluye titulillos y correlaciones art=EDculo por =
+art=EDculo, las
+  cuales le confieren un valor agregado, pues esto facilita la consulta =
+o
+  localizaci=F3n de todas las disposiciones aplicables a cada caso. La =
+ley se
+  encuentra correlacionada entre s=ED y con sus =
+reglamentos.<o:p></o:p></span></font></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fon=
+t></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fon=
+t></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fon=
+t></p>
+  <p class=3Dsinopsis style=3D'margin-right:11.35pt'><font size=3D1 =
+color=3Dblack
+  face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fon=
+t></p>
+  <p class=3Dsinopsis style=3D'margin-right:11.35pt'><font size=3D1 =
+color=3Dblack
+  face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fon=
+t></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:1.5pt;margin-right:9.95pt;
+  margin-bottom:1.5pt;margin-left:0cm'><b><font size=3D3 color=3Dnavy =
+face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:navy;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:1.5pt;margin-right:9.95pt;
+  margin-bottom:1.5pt;margin-left:0cm'><b><font size=3D3 color=3Dnavy =
+face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:navy;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=3DMsoNormal><font size=3D3 color=3D"#6a6a6a" =
+face=3DVerdana><span
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p align=3Dcenter =
+style=3D'margin:0cm;margin-bottom:.0001pt;text-align:center'><b><font
+size=3D3 color=3D"#0066cc" face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:
+Arial;color:#0066CC;font-weight:bold'>RESOLUCION MISCELANEA =
+PROFESIONAL<o:p></o:p></span></font></b></p>
+
+<p align=3Dcenter =
+style=3D'margin:0cm;margin-bottom:.0001pt;text-align:center'><b><font
+size=3D3 color=3D"#0066cc" face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:
+Arial;color:#0066CC;font-weight:bold'>JUNIO =
+2019<o:p></o:p></span></font></b></p>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D2
+color=3Dblack face=3DArial><span =
+style=3D'font-size:11.0pt;font-family:Arial;
+color:windowtext'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3Dstandarduser style=3D'margin:0cm;margin-bottom:.0001pt'><font =
+size=3D3
+color=3Dblack face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:Arial;
+color:black'><o:p>&nbsp;</o:p></span></font></p>
+
+<div align=3Dcenter>
+
+<table class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D784
+ style=3D'width:588.3pt;border-collapse:collapse'>
+ <tr>
+  <td width=3D284 valign=3Dtop style=3D'width:212.7pt;border:solid =
+#2E74B5 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard =
+style=3D'mso-margin-top-alt:0cm;margin-right:25.5pt;
+  margin-bottom:0cm;margin-left:39.7pt;margin-bottom:.0001pt'><font =
+size=3D3
+  face=3D"Liberation Serif"><span style=3D'font-size:12.0pt'><a
+  =
+href=3D"http://www.tax.com.mx/PaginaTaxComponentes/Fondo/18861003200419_c=
+.png"><font
+  color=3Dblack face=3DArial><span =
+style=3D'font-family:Arial;color:black;text-decoration:
+  none'><img border=3D0 width=3D160 height=3D220 id=3D"_x0000_i1045"
+  src=3D"cid:image004.jpg@01D5207E.DB4B4910" alt=3D"RM =
+Profesional"></span></font></a></span></font><font
+  face=3DArial><span =
+style=3D'font-family:Arial'><o:p></o:p></span></font></p>
+  <p class=3Dstandard =
+style=3D'mso-margin-top-alt:0cm;margin-right:25.5pt;
+  margin-bottom:0cm;margin-left:39.7pt;margin-bottom:.0001pt'><font =
+size=3D3
+  face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+  <div class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><font size=3D3
+  color=3D"#6a6a6a" face=3DVerdana><span style=3D'font-size:12.0pt'>
+  <hr size=3D2 width=3D214 style=3D'width:160.5pt' align=3Dcenter>
+  </span></font></div>
+  <p class=3Dstandard align=3Dcenter =
+style=3D'text-align:center'><b><font size=3D4
+  color=3Dmaroon face=3DArial><span =
+style=3D'font-size:15.0pt;font-family:Arial;
+  color:maroon;font-weight:bold'>P.V.P. $649.00</span></font></b><font
+  face=3DArial><span =
+style=3D'font-family:Arial'><o:p></o:p></span></font></p>
+  </td>
+  <td width=3D501 valign=3Dtop bgcolor=3D"#D0CECE" =
+style=3D'width:375.6pt;border:solid #2E74B5 1.5pt;
+  border-left:none;background:#D0CECE;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=3DMsoNormal><b><font size=3D3 color=3Dblue face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:blue;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  <p class=3DMsoNormal><b><font size=3D3 color=3Dblue face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:blue;font-weight:bold'>=
+INTRODUCCION
+  AL EJEMPLAR DE JUNIO<o:p></o:p></span></font></b></p>
+  <div class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><font size=3D3
+  color=3D"#6a6a6a" face=3DVerdana><span style=3D'font-size:12.0pt'>
+  <hr size=3D2 width=3D"100%" align=3Dcenter>
+  </span></font></div>
+  <p class=3DMsoNormal =
+style=3D'margin-right:11.35pt;text-align:justify'><a
+  name=3D"_Hlk521328319"></a><font size=3D2 color=3D"#6a6a6a" =
+face=3DArial><span
+  =
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt;text-align:ju=
+stify'><a
+  name=3D"_Hlk10538908"><font size=3D2 color=3D"#6a6a6a" =
+face=3DArial><span
+  style=3D'font-size:10.0pt;font-family:Arial'>Esta edici=F3n incluye =
+</span></font></a><st1:PersonName
+  ProductID=3D"la Resoluci=F3n Miscel=E1nea" w:st=3D"on"><font size=3D2 =
+face=3DArial><span
+   style=3D'font-size:10.0pt;font-family:Arial'>la Resoluci=F3n =
+Miscel=E1nea</span></font></st1:PersonName><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'> Fiscal
+  para 2019, publicada en el DOF el 29 de abril de este a=F1o. De esta
+  publicaci=F3n destaca la adici=F3n, entre otras, de las siguientes =
+reglas, con
+  respecto a <st1:PersonName ProductID=3D"la RMF" w:st=3D"on">la =
+RMF</st1:PersonName>
+  para 2018:<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt;text-align:ju=
+stify'><font
+  size=3D2 color=3D"#6a6a6a" face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:
+  Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>2.8.1.26,
+  Presentaci=F3n de pagos provisionales y definitivos de personas =
+f=EDsicas que
+  obtengan ingresos por arrendamiento y en general por otorgar el uso o =
+goce
+  temporal de bienes inmuebles a trav=E9s del aplicativo &#8220;Mi
+  contabilidad&#8221;.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>2.8.1.27,
+  Procedimiento para presentar declaraciones complementarias en el =
+esquema
+  anterior, a trav=E9s del aplicativo &#8220;Mi =
+contabilidad&#8221;.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.2.26,
+  Solicitud de autorizaci=F3n para enajenar acciones a costo =
+fiscal.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.2.27,
+  Presentaci=F3n del acta de asamblea protocolizada con motivo de la =
+suscripci=F3n
+  y pago de capital, derivado de la enajenaci=F3n de acciones a costo =
+fiscal.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.2.28,
+  Aplicaci=F3n de la autorizaci=F3n emitida para enajenar acciones a =
+costo fiscal.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.11.13,
+  Opci=F3n para aplicar el esquema de retenci=F3n por permitir el uso de
+  plataformas tecnol=F3gicas a personas =
+f=EDsicas.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.11.14,
+  Actualizaci=F3n de obligaciones fiscales de las personas f=EDsicas que =
+prestan el
+  servicio de transporte terrestre de pasajeros o servicio de entrega de
+  alimentos.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.11.15,
+  Opci=F3n para manifestarle a la plataforma tecnol=F3gica que efect=FAe =
+la retenci=F3n
+  de ISR e IVA.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.11.16,
+  Conclusi=F3n del uso de la plataforma =
+tecnol=F3gica.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.11.17,
+  Cambio de opci=F3n para personas f=EDsicas que prestan el servicio de =
+transporte
+  terrestre de pasajeros o de alimentos preparados a trav=E9s de =
+plataformas
+  tecnol=F3gicas.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.11.18,
+  Opci=F3n para continuar con los beneficios del art=EDculo 23 de =
+<st1:PersonName
+  ProductID=3D"la LIF." w:st=3D"on">la =
+LIF.</st1:PersonName><o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l0 level1 lfo2'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt;text-align:ju=
+stify'><font
+  size=3D2 color=3D"#6a6a6a" face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:
+  Arial'>Asimismo, se incluye el Decreto por el que se dejan sin efectos =
+los
+  Decretos y diversas disposiciones de car=E1cter general emitidos en =
+t=E9rminos
+  del art=EDculo 39, fracci=F3n I del C=F3digo Fiscal de <st1:PersonName
+  ProductID=3D"la Federaci=F3n" w:st=3D"on">la =
+Federaci=F3n</st1:PersonName>, por
+  virtud de los cuales se condonaron deudas fiscales, el cual entr=F3 en =
+vigor el
+  21 de mayo de 2019 y estar=E1 vigente hasta 2024. El objetivo del =
+decreto es
+  dejar sin efectos los decretos o disposiciones de car=E1cter general =
+emitidos
+  por el titular del Ejecutivo Federal, mediante los cuales se otorgaron
+  condonaciones a deudores fiscales.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:1.5pt;margin-right:9.95pt;
+  margin-bottom:1.5pt;margin-left:0cm'><b><font size=3D3 color=3Dnavy =
+face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:navy;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=3Dstandard><b><font size=3D3 color=3D"#0066cc" =
+face=3DArial><span lang=3DES-MX
+style=3D'font-size:12.0pt;font-family:Arial;color:#0066CC;font-weight:bol=
+d'><o:p>&nbsp;</o:p></span></font></b></p>
+
+<p align=3Dcenter =
+style=3D'margin:0cm;margin-bottom:.0001pt;text-align:center'><b><font
+size=3D3 color=3D"#0066cc" face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:
+Arial;color:#0066CC;font-weight:bold'>RESOLUCION MISCELANEA ACTUALIZADA =
+-
+PORTABLE<o:p></o:p></span></font></b></p>
+
+<p align=3Dcenter =
+style=3D'margin:0cm;margin-bottom:.0001pt;text-align:center'><b><font
+size=3D3 color=3D"#0066cc" face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:
+Arial;color:#0066CC;font-weight:bold'>MAYO =
+2019<o:p></o:p></span></font></b></p>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D2
+color=3Dblack face=3DArial><span =
+style=3D'font-size:11.0pt;font-family:Arial;
+color:windowtext'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3Dstandarduser style=3D'margin:0cm;margin-bottom:.0001pt'><font =
+size=3D3
+color=3Dblack face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:Arial;
+color:black'><o:p>&nbsp;</o:p></span></font></p>
+
+<div align=3Dcenter>
+
+<table class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D784
+ style=3D'width:588.3pt;border-collapse:collapse'>
+ <tr>
+  <td width=3D284 valign=3Dtop style=3D'width:212.7pt;border:solid =
+#2E74B5 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard =
+style=3D'mso-margin-top-alt:0cm;margin-right:25.5pt;
+  margin-bottom:0cm;margin-left:39.7pt;margin-bottom:.0001pt'><font =
+size=3D3
+  face=3D"Liberation Serif"><span style=3D'font-size:12.0pt'><a
+  =
+href=3D"http://www.tax.com.mx/PaginaTaxComponentes/Fondo/18861003200419_c=
+.png"><font
+  color=3Dblack face=3DArial><span =
+style=3D'font-family:Arial;color:black;text-decoration:
+  none'><img border=3D0 width=3D157 height=3D239 id=3D"_x0000_i1069"
+  src=3D"cid:image005.jpg@01D5207E.DB4B4910" alt=3D"RM =
+Portable"></span></font></a></span></font><font
+  face=3DArial><span =
+style=3D'font-family:Arial'><o:p></o:p></span></font></p>
+  <p class=3Dstandard =
+style=3D'mso-margin-top-alt:0cm;margin-right:25.5pt;
+  margin-bottom:0cm;margin-left:39.7pt;margin-bottom:.0001pt'><font =
+size=3D3
+  face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+  <div class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><font size=3D3
+  color=3D"#6a6a6a" face=3DVerdana><span style=3D'font-size:12.0pt'>
+  <hr size=3D2 width=3D214 style=3D'width:160.5pt' align=3Dcenter>
+  </span></font></div>
+  <p class=3Dstandard align=3Dcenter =
+style=3D'text-align:center'><b><font size=3D4
+  color=3Dmaroon face=3DArial><span =
+style=3D'font-size:15.0pt;font-family:Arial;
+  color:maroon;font-weight:bold'>P.V.P. $249.00</span></font></b><font
+  face=3DArial><span =
+style=3D'font-family:Arial'><o:p></o:p></span></font></p>
+  </td>
+  <td width=3D501 valign=3Dtop bgcolor=3D"#D0CECE" =
+style=3D'width:375.6pt;border:solid #2E74B5 1.5pt;
+  border-left:none;background:#D0CECE;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=3DMsoNormal><b><font size=3D3 color=3Dblue face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:blue;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  <p class=3DMsoNormal><b><font size=3D3 color=3Dblue face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:blue;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  <p class=3DMsoNormal><b><font size=3D3 color=3Dblue face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:blue;font-weight:bold'>=
+INTRODUCCION
+  AL EJEMPLAR DE MAYO<o:p></o:p></span></font></b></p>
+  <p class=3DMsoNormal><b><font size=3D3 color=3Dblue face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:blue;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  <div class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><font size=3D3
+  color=3D"#6a6a6a" face=3DVerdana><span style=3D'font-size:12.0pt'>
+  <hr size=3D2 width=3D"100%" align=3Dcenter>
+  </span></font></div>
+  <p class=3DMsoNormal =
+style=3D'margin-right:11.35pt;text-align:justify'><font
+  size=3D2 color=3D"#6a6a6a" face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:
+  Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'margin-right:11.35pt;text-align:justify'><font
+  size=3D2 color=3D"#6a6a6a" face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:
+  Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt;text-align:ju=
+stify'><font
+  size=3D2 color=3D"#6a6a6a" face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:
+  Arial'>Esta edici=F3n incluye <st1:PersonName
+  ProductID=3D"la Resoluci=F3n Miscel=E1nea" w:st=3D"on">la Resoluci=F3n =
+Miscel=E1nea</st1:PersonName>
+  Fiscal para 2019, publicada en el DOF el 29 de abril de este a=F1o. De =
+esta
+  publicaci=F3n destaca la adici=F3n, entre otras, de las siguientes =
+reglas, con
+  respecto a <st1:PersonName ProductID=3D"la RMF" w:st=3D"on">la =
+RMF</st1:PersonName>
+  para 2018:<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt;text-align:ju=
+stify'><font
+  size=3D2 color=3D"#6a6a6a" face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:
+  Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>2.8.1.26,
+  Presentaci=F3n de pagos provisionales y definitivos de personas =
+f=EDsicas que
+  obtengan ingresos por arrendamiento y en general por otorgar el uso o =
+goce
+  temporal de bienes inmuebles a trav=E9s del aplicativo &#8220;Mi
+  contabilidad&#8221;.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>2.8.1.27,
+  Procedimiento para presentar declaraciones complementarias en el =
+esquema
+  anterior, a trav=E9s del aplicativo &#8220;Mi =
+contabilidad&#8221;.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.2.26,
+  Solicitud de autorizaci=F3n para enajenar acciones a costo =
+fiscal.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.2.27,
+  Presentaci=F3n del acta de asamblea protocolizada con motivo de la =
+suscripci=F3n
+  y pago de capital, derivado de la enajenaci=F3n de acciones a costo =
+fiscal.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.2.28,
+  Aplicaci=F3n de la autorizaci=F3n emitida para enajenar acciones a =
+costo fiscal.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.11.13,
+  Opci=F3n para aplicar el esquema de retenci=F3n por permitir el uso de
+  plataformas tecnol=F3gicas a personas =
+f=EDsicas.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.11.14,
+  Actualizaci=F3n de obligaciones fiscales de las personas f=EDsicas que =
+prestan el
+  servicio de transporte terrestre de pasajeros o servicio de entrega de
+  alimentos.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.11.15,
+  Opci=F3n para manifestarle a la plataforma tecnol=F3gica que efect=FAe =
+la retenci=F3n
+  de ISR e IVA.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.11.16,
+  Conclusi=F3n del uso de la plataforma =
+tecnol=F3gica.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.11.17,
+  Cambio de opci=F3n para personas f=EDsicas que prestan el servicio de =
+transporte
+  terrestre de pasajeros o de alimentos preparados a trav=E9s de =
+plataformas
+  tecnol=F3gicas.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  =
+margin-bottom:0cm;margin-left:47.35pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+  text-indent:-18.0pt;mso-list:l1 level1 lfo4'><![if =
+!supportLists]><font
+  size=3D2 color=3D"#6a6a6a" face=3DSymbol><span =
+style=3D'font-size:10.0pt;font-family:
+  Symbol'><span style=3D'mso-list:Ignore'>=B7<font size=3D1 =
+face=3D"Times New Roman"><span
+  style=3D'font:7.0pt "Times New Roman"'> =
+</span></font></span></span></font><![endif]><font
+  size=3D2 face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'>3.11.18,
+  Opci=F3n para continuar con los beneficios del art=EDculo 23 de =
+<st1:PersonName
+  ProductID=3D"la LIF." w:st=3D"on">la =
+LIF.</st1:PersonName><o:p></o:p></span></font></p>
+  <p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#6a6a6a"
+  face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:1.5pt;margin-right:9.95pt;
+  margin-bottom:1.5pt;margin-left:0cm'><b><font size=3D3 color=3Dnavy =
+face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:navy;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p align=3Dcenter =
+style=3D'margin:0cm;margin-bottom:.0001pt;text-align:center'><b><font
+size=3D3 color=3D"#0066cc" face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:
+Arial;color:#0066CC;font-weight:bold'><o:p>&nbsp;</o:p></span></font></b>=
+</p>
+
+<p align=3Dcenter =
+style=3D'margin:0cm;margin-bottom:.0001pt;text-align:center'><b><font
+size=3D3 color=3D"#0066cc" face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:
+Arial;color:#0066CC;font-weight:bold'><o:p>&nbsp;</o:p></span></font></b>=
+</p>
+
+<p align=3Dcenter =
+style=3D'margin:0cm;margin-bottom:.0001pt;text-align:center'><b><font
+size=3D3 color=3D"#0066cc" face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:
+Arial;color:#0066CC;font-weight:bold'>EL SISTEMA NACIONAL =
+ANTICORRUPCION<o:p></o:p></span></font></b></p>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D2
+color=3Dblack face=3DArial><span =
+style=3D'font-size:11.0pt;font-family:Arial;
+color:windowtext'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3Dstandarduser style=3D'margin:0cm;margin-bottom:.0001pt'><font =
+size=3D3
+color=3Dblack face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:Arial;
+color:black'><o:p>&nbsp;</o:p></span></font></p>
+
+<div align=3Dcenter>
+
+<table class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D784
+ style=3D'width:588.3pt;border-collapse:collapse'>
+ <tr>
+  <td width=3D284 valign=3Dtop style=3D'width:212.7pt;border:solid =
+#2E74B5 1.5pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard><font size=3D3 face=3DArial><span =
+style=3D'font-size:12.0pt;
+  font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dstandard =
+style=3D'mso-margin-top-alt:0cm;margin-right:25.5pt;
+  margin-bottom:0cm;margin-left:39.7pt;margin-bottom:.0001pt'><font =
+size=3D3
+  face=3D"Liberation Serif"><span style=3D'font-size:12.0pt'><a
+  =
+href=3D"http://www.tax.com.mx/PaginaTaxComponentes/Fondo/18861003200419_c=
+.png"><font
+  color=3Dblack face=3DArial><span =
+style=3D'font-family:Arial;color:black;text-decoration:
+  none'><img border=3D0 width=3D162 height=3D222 id=3D"_x0000_i1056"
+  src=3D"cid:image006.jpg@01D5207E.DB4B4910" alt=3D"El Sistema Nac =
+Antc"></span></font></a></span></font><font
+  face=3DArial><span =
+style=3D'font-family:Arial'><o:p></o:p></span></font></p>
+  <p class=3Dstandard =
+style=3D'mso-margin-top-alt:0cm;margin-right:25.5pt;
+  margin-bottom:0cm;margin-left:39.7pt;margin-bottom:.0001pt'><font =
+size=3D3
+  face=3DArial><span =
+style=3D'font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+  <div class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><font size=3D3
+  color=3D"#6a6a6a" face=3DVerdana><span style=3D'font-size:12.0pt'>
+  <hr size=3D2 width=3D214 style=3D'width:160.5pt' align=3Dcenter>
+  </span></font></div>
+  <p class=3Dstandard align=3Dcenter =
+style=3D'text-align:center'><b><font size=3D4
+  color=3Dmaroon face=3DArial><span =
+style=3D'font-size:15.0pt;font-family:Arial;
+  color:maroon;font-weight:bold'>P.V.P. $349.00</span></font></b><font
+  face=3DArial><span =
+style=3D'font-family:Arial'><o:p></o:p></span></font></p>
+  </td>
+  <td width=3D501 valign=3Dtop bgcolor=3D"#D0CECE" =
+style=3D'width:375.6pt;border:solid #2E74B5 1.5pt;
+  border-left:none;background:#D0CECE;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=3DMsoNormal><b><font size=3D3 color=3Dblue face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:blue;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  <p class=3DMsoNormal><b><font size=3D3 color=3Dblue face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:blue;font-weight:bold'>=
+SINOPSIS<o:p></o:p></span></font></b></p>
+  <div class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><font size=3D3
+  color=3D"#6a6a6a" face=3DVerdana><span style=3D'font-size:12.0pt'>
+  <hr size=3D2 width=3D"100%" align=3Dcenter>
+  </span></font></div>
+  <p class=3DMsoNormal =
+style=3D'margin-right:11.35pt;text-align:justify'><font
+  size=3D2 color=3D"#6a6a6a" face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:
+  Arial'><o:p>&nbsp;</o:p></span></font></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'>La
+  corrupci=F3n es un fen=F3meno que lacera a las instituciones, y =
+engendra
+  m=FAltiples males que descomponen el tejido social y pervierten al =
+Estado. Por
+  ello, el tema anticorrupci=F3n es siempre un t=F3pico de sumo =
+inter=E9s, m=E1s a=FAn en
+  nuestros tiempos, ya que hemos sido testigos de corruptelas oprobiosas =
+de
+  servidores p=FAblicos y del discurso principal del actual gobierno, =
+que gravita
+  justamente en torno al combate a la corrupci=F3n. Aunado a esto, a =
+partir de la
+  reforma constitucional de mayo de 2015, observamos la estructuraci=F3n =
+del
+  llamado Sistema Nacional =
+Anticorrupci=F3n.<o:p></o:p></span></font></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fon=
+t></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'>En
+  este contexto, la compilaci=F3n de ensayos que el lector tiene en sus =
+manos,
+  que seguro marcar=E1 tendencia en la materia, presenta estudios de =
+frontera e
+  informaci=F3n de suma utilidad en la pr=E1ctica forense del derecho =
+disciplinario
+  tendente al ataque a la corrupci=F3n. <o:p></o:p></span></font></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fon=
+t></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'>El
+  libro es fruto de la investigaci=F3n y la colaboraci=F3n =
+interinstitucional
+  auspiciadas desde el Colegio de Morelos, que ha vertebrado =
+acad=E9micamente la
+  obra, reuniendo en ella a conspicuos juristas y estudiosos de las =
+ciencias
+  sociales de su claustro, a prestigiados magistrados de Tribunales de =
+Justicia
+  Administrativa, y a reconocidos litigantes y especialistas, en el =
+plano
+  nacional; as=ED como a insignes profesores y expertos de Colombia, a =
+trav=E9s de
+  la universidad hermana de Santiago de =
+Cali.<o:p></o:p></span></font></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fon=
+t></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'>El
+  trabajo de los coordinadores del libro, Ricardo Tapia Vega, Jorge =
+Alberto
+  Estrada Cuevas y Manuel Lucero Espinosa, se ve materializado en el
+  reclutamiento del excelente equipo de ensayistas a que se refiere el =
+p=E1rrafo
+  que antecede, y en la inclusi=F3n de una visi=F3n de derecho =
+comparado, a trav=E9s
+  de la experiencia colombiana, que viene a enriquecer el enfoque de =
+c=F3mo
+  afrontar el problema relativo al ataque a la corrupci=F3n.&nbsp; =
+<o:p></o:p></span></font></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fon=
+t></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'>Tambi=E9n
+  es justo reconocer el apoyo y entusiasmo del Dr. Juan Rabindrana =
+Cisneros
+  Garc=EDa, rector del Centro Universitario de Estudios Jur=EDdicos, =
+gracias a
+  quien fue posible que Tax Editores Unidos S.A. de C.V. se interesara =
+en
+  publicar esta obra, as=ED como la disposici=F3n del Dr. Juan de Dios =
+Gonz=E1lez
+  Ibarra, rector de el Colegio de Morelos, y del Mtro. Edward Javier =
+Ordo=F1ez,
+  editor de <st1:PersonName ProductID=3D"la Universidad" w:st=3D"on">la =
+Universidad</st1:PersonName>
+  de Santiago de Cali, para la coedici=F3n de este trabajo. =
+<o:p></o:p></span></font></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fon=
+t></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'>En el
+  bloque mexicano, integrado por diez ensayos, el magistrado en retiro =
+Dr. <st1:PersonName
+  w:st=3D"on">Luis</st1:PersonName> Humberto Delgadillo Guti=E9rrez, nos =
+presenta
+  &#8220;Las responsabilidades de los servidores p=FAblicos en el marco =
+del
+  Sistema Nacional Anticorrupci=F3n&#8221;; inmediatamente despu=E9s el =
+Dr. Ricardo
+  Tapia Vega reflexiona sobre &#8220;La destituci=F3n: Transgresora de =
+la
+  garant=EDa de proporcionalidad al ubicarse en zona de intersecci=F3n
+  sancionatoria entre faltas graves y no graves&#8221;; a continuaci=F3n =
+el Mtro.
+  Omar Herrera Salazar nos habla de &#8220;La insuficiencia de los tipos
+  administrativos en el Sistema Nacional Anticorrupci=F3n para conductas
+  susceptibles de responsabilidad administrativa sancionable&#8221;;
+  posteriormente, el magistrado Dr. Jorge Alberto Estrada Cuevas expone =
+&#8220;El
+  procedimiento administrativo disciplinario y el debido proceso&#8221;;
+  despu=E9s, el magistrado Lic. Manuel Lucero Espinosa diserta sobre el
+  &#8220;An=E1lisis de los procedimientos de investigaci=F3n, =
+substanciaci=F3n y
+  resoluci=F3n del Sistema Nacional Anticorrupci=F3n&#8221;; luego el =
+Mtro. Antonio
+  Ru=EDz Alegr=EDa estudia &#8220;La estructura de la auditor=EDa =
+conforme al Sistema
+  Nacional de Fiscalizaci=F3n&#8221;; subsiguientemente la magistrada =
+Mtra.
+  Graciela Buenrostro Pe=F1a discurre sobre &#8220;Los valores =
+fundamentales en
+  el ejercicio de la funci=F3n p=FAblica&#8221;; acto seguido, el Dr. =
+Juan
+  Rabindrana Cisneros Garc=EDa explica &#8220;El fortalecimiento del =
+estado de
+  derecho, la transparencia, la participaci=F3n ciudadana y el uso de =
+las
+  tecnolog=EDas de la informaci=F3n en el ataque a la =
+corrupci=F3n&#8221;;
+  ulteriormente el Mtro. Gabriel Garc=EDa Vargas nos muestra &#8220;El
+  procedimiento penal como herramienta esencial en el nuevo modelo
+  constitucional de combate a la corrupci=F3n&#8221;; y cierran este =
+bloque,
+  dando adem=E1s colof=F3n a la obra, los Doctores Juan de Dios =
+Gonz=E1lez Ibarra y
+  Gerardo Gonz=E1lez Camarena, hablando de &#8220;Corrupci=F3n y =
+democracia&#8221;.<o:p></o:p></span></font></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fon=
+t></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'>En el
+  bloque colombiano, compuesto por 3 ensayos, <st1:PersonName
+  ProductID=3D"la Mtra. Lizeth" w:st=3D"on">la Mtra. =
+Lizeth</st1:PersonName>
+  Juliana Garc=EDa Atra hace un &#8220;An=E1lisis cr=EDtico-propositivo =
+del Sistema
+  Nacional Anticorrupci=F3n mexicano: antecedentes y panorama =
+actual&#8221;;
+  posteriormente el Dr. Ar=EDstides Obando Cabezas y <st1:PersonName
+  ProductID=3D"la Mtra. Jenny" w:st=3D"on">la Mtra. =
+Jenny</st1:PersonName>
+  Esperanza Torres nos muestran &#8220;La experiencia colombiana en el =
+sistema
+  de elecci=F3n de altos dignatarios como estrategia contra la =
+corrupci=F3n&#8221;,
+  y cierra =E9ste bloque el Dr. Augusto Vel=E1squez Forero con =
+&#8220;Apor=EDas y
+  reflexiones sobre el conflicto armado en Colombia y su relaci=F3n con =
+la
+  corrupci=F3n&#8221;.<o:p></o:p></span></font></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fon=
+t></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'>Se
+  destaca tambi=E9n que la obra es prologada por Jean Claude Tron Petit,
+  distinguido magistrado de Tribunales Colegiados de Circuito, y =
+reconocido
+  profesor y doctrinario en el campo del derecho en el pa=EDs. =
+<o:p></o:p></span></font></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fon=
+t></p>
+  <p class=3Dsinopsis =
+style=3D'mso-margin-top-alt:0cm;margin-right:11.35pt;
+  margin-bottom:0cm;margin-left:11.35pt;margin-bottom:.0001pt'><font =
+size=3D1
+  color=3Dblack face=3DArial><span =
+style=3D'font-size:9.0pt;font-family:Arial'>Finalmente,
+  se pone de relieve que, aunque la obra ha sido trazada para tener una
+  secuencia l=F3gica, los ensayos pueden leerse en cualquier orden dado =
+que cada
+  uno es tem=E1tico y monogr=E1fico.<o:p></o:p></span></font></p>
+  <p class=3DMsoNormal style=3D'text-align:justify'><font size=3D2 =
+color=3D"#6a6a6a"
+  face=3DArial><span =
+style=3D'font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></fo=
+nt></p>
+  <p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:1.5pt;margin-right:9.95pt;
+  margin-bottom:1.5pt;margin-left:0cm'><b><font size=3D3 color=3Dnavy =
+face=3DArial><span
+  =
+style=3D'font-size:12.0pt;font-family:Arial;color:navy;font-weight:bold'>=
+<o:p>&nbsp;</o:p></span></font></b></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+color=3Dblack face=3D"Century Gothic"><span =
+style=3D'font-size:12.0pt;font-family:
+"Century Gothic";color:black'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;background:white'><font
+size=3D5 color=3Dnavy face=3DCalibri><span lang=3DES-MX =
+style=3D'font-size:16.0pt;
+font-family:Calibri;color:navy'>Tax Editores Unidos&nbsp; SA de =
+CV</span></font><font
+size=3D5><span style=3D'font-size:16.0pt'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;background:white'><font
+size=3D5 color=3Dblack face=3DCalibri><span lang=3DES-MX =
+style=3D'font-size:16.0pt;
+font-family:Calibri;color:black'>&nbsp;</span></font><font =
+size=3D5><span
+style=3D'font-size:16.0pt'><o:p></o:p></span></font></p>
+
+<div align=3Dcenter>
+
+<table class=3DMsoNormalTable border=3D1 cellpadding=3D0 width=3D711 =
+style=3D'width:533.25pt;
+ border:outset silver 1.0pt'>
+ <tr>
+  <td width=3D212 style=3D'width:159.0pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><b><u><font size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  =
+color:navy;font-weight:bold'>BANCO</span></font></u></b><o:p></o:p></p>
+  </td>
+  <td width=3D249 style=3D'width:186.75pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><b><u><font size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy;font-weight:bold'>No. DE =
+CUENTA</span></font></u></b><o:p></o:p></p>
+  </td>
+  <td width=3D202 style=3D'width:151.5pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center'><b><font size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy;font-weight:bold'>CLABE =
+INTERBANCARIA</span></font></b><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=3D212 style=3D'width:159.0pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>BANCOMER</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D249 style=3D'width:186.75pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>044-5672708</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D202 style=3D'width:151.5pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>012180004456727087</span></font><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=3D212 style=3D'width:159.0pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>BANCOMER</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D249 style=3D'width:186.75pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>0445672694</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D202 style=3D'width:151.5pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>012180004456726949</span></font><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=3D212 style=3D'width:159.0pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>SCOTIABANK INVERLAT</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D249 style=3D'width:186.75pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>00100182958</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D202 style=3D'width:151.5pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>044180001001829589</span></font><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=3D212 style=3D'width:159.0pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>SANTANDER SERFIN</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D249 style=3D'width:186.75pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>65501430532</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D202 style=3D'width:151.5pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>014180655014305324</span></font><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=3D212 style=3D'width:159.0pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>BANAMEX</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D249 style=3D'width:186.75pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>0363384 SUC.148</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D202 style=3D'width:151.5pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>002180014803633847</span></font><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=3D212 style=3D'width:159.0pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>BANORTE</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D249 style=3D'width:186.75pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>0607212710 PLAZA 01</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D202 style=3D'width:151.5pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>072180006072127106</span></font><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=3D212 style=3D'width:159.0pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>BANCO REGIONAL DE MONTERREY =
+(BANREGIO)</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D249 style=3D'width:186.75pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>220970410015</span></font><o:p></o:p></p>
+  </td>
+  <td width=3D202 style=3D'width:151.5pt;border:inset silver =
+1.0pt;padding:5.25pt 5.25pt 5.25pt 5.25pt'>
+  <p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+  color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+  color:navy'>058180000001098080</span></font><o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;background:white'><font
+size=3D3 color=3Dnavy face=3DCalibri><span lang=3DES-MX =
+style=3D'font-size:12.0pt;
+font-family:Calibri;color:navy'>&nbsp;</span></font><o:p></o:p></p>
+
+<p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;background:white'><font
+size=3D3 color=3Dnavy face=3DCalibri><span lang=3DES-MX =
+style=3D'font-size:12.0pt;
+font-family:Calibri;color:navy'>Cargo a tarjeta de =
+cr=E9dito&nbsp;</span></font><o:p></o:p></p>
+
+<p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;background:white'><b><font
+size=3D3 color=3Dred face=3DCalibri><span lang=3DES-MX =
+style=3D'font-size:12.0pt;
+font-family:Calibri;color:red;font-weight:bold'>Banamex y&nbsp;Bancomer =
+a</span></font></b><b><font
+color=3Dblack face=3DCalibri><span lang=3DES-MX =
+style=3D'font-family:Calibri;
+color:black;font-weight:bold'>&nbsp;</span></font></b><b><font =
+color=3Dred
+face=3DCalibri><span lang=3DES-MX =
+style=3D'font-family:Calibri;color:red;font-weight:
+bold'>6 meses sin intereses</span></font></b><o:p></o:p></p>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+color=3Dblack face=3D"Century Gothic"><span =
+style=3D'font-size:12.0pt;font-family:
+"Century Gothic";color:black'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 color=3Dblack face=3D"Times New =
+Roman"><span
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman";color:black'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+color=3D"#1f497d" face=3DCalibri><span =
+style=3D'font-size:12.0pt;font-family:Calibri;
+color:#1F497D'><img border=3D0 width=3D184 height=3D87 =
+id=3D"_x0000_i1025"
+src=3D"cid:image007.gif@01D5207E.DB4B4910" =
+shrinktofit=3Dtrue></span></font><font
+color=3Dblack face=3D"Century Gothic"><span =
+style=3D'font-family:"Century Gothic";
+color:black'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal align=3Dcenter =
+style=3D'margin-left:35.4pt;text-align:center'><b><font
+size=3D2 color=3D"#333399" face=3DCalibri><span lang=3DES-MX =
+style=3D'font-size:11.0pt;
+font-family:Calibri;color:#333399;font-weight:bold'>Magdalena =
+Diego<o:p></o:p></span></font></b></p>
+
+<p class=3DMsoNormal align=3Dcenter =
+style=3D'margin-left:35.4pt;text-align:center'><font
+size=3D3 color=3Dblack face=3DVerdana><span =
+style=3D'font-size:12.0pt;color:black'><a
+href=3D"mailto:magdalena.diego@tax.com.mx"><font size=3D2 =
+color=3D"#333399"
+face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;color:#333399'>magdalena.di=
+ego@tax.com.mx</span></font></a></span></font><font
+size=3D2 color=3D"#333399" face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:
+Calibri;color:#333399'><o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal align=3Dcenter =
+style=3D'margin-left:35.4pt;text-align:center'><font
+size=3D2 color=3D"#333399" face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:
+Calibri;color:#333399'>01 (55) 8000 9511 / 01 (55) 8000 9500 Ext. =
+505<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal align=3Dcenter =
+style=3D'margin-left:35.4pt;text-align:center'><font
+size=3D2 color=3Dnavy face=3DCalibri><span lang=3DES-MX =
+style=3D'font-size:11.0pt;
+font-family:Calibri;color:navy'><img border=3D0 width=3D27 height=3D27
+id=3D"_x0000_i1026" =
+src=3D"cid:image008.gif@01D5207E.DB4B4910"></span></font><font
+size=3D2 color=3Dnavy face=3DCalibri><span =
+style=3D'font-size:11.0pt;font-family:Calibri;
+color:navy'>(045) 55 8031 7071</span></font><font size=3D2 color=3Dnavy
+face=3DCalibri><span lang=3DES-MX =
+style=3D'font-size:11.0pt;font-family:Calibri;
+color:navy'><o:p></o:p></span></font></p>
+
+<h1 align=3Dcenter style=3D'text-align:center'><b><font size=3D1 =
+color=3D"#6a6a6a"
+face=3D"Arial Narrow"><span lang=3DES-MX =
+style=3D'font-size:8.0pt;font-family:"Arial Narrow";
+font-weight:normal'>Tax Editores Unidos SA de CV da cumplimiento a lo =
+dispuesto
+en <st1:PersonName ProductID=3D"la Ley Federal" w:st=3D"on">la Ley =
+Federal</st1:PersonName>
+de Protecci=F3n de datos Personales en Posesi=F3n de Particulares, si =
+requiere
+mayor informaci=F3n, puede consultar a nuestro Aviso de Privacidad =
+completo a
+trav=E9s de la&nbsp;p=E1gina de internet </span></font></b><a
+href=3D"http://www.practicafiscal.com.mx/AVISODEPRIVACIDAD.htm" =
+target=3D"_blank"
+title=3D"http://www.practicafiscal.com.mx/AVISODEPRIVACIDAD.htm"><font =
+size=3D1
+face=3D"Arial Narrow"><span lang=3DES-MX =
+style=3D'font-size:8.0pt;font-family:"Arial Narrow";
+font-weight:normal'><span
+title=3D"http://www.practicafiscal.com.mx/AVISODEPRIVACIDAD.htm"><span
+title=3D"http://www.practicafiscal.com.mx/AVISODEPRIVACIDAD.htm">www.tax.=
+com.mx</span></span></span></font></a><font
+size=3D1 face=3D"Arial Narrow"><span lang=3DES-MX =
+style=3D'font-size:8.0pt;font-family:
+"Arial Narrow";font-weight:normal'> o </span></font><a
+href=3D"http://www.practicafiscal.com.mx/AVISODEPRIVACIDAD.htm" =
+target=3D"_blank"
+title=3D"http://www.practicafiscal.com.mx/AVISODEPRIVACIDAD.htm"><font =
+size=3D1
+face=3D"Arial Narrow"><span lang=3DES-MX =
+style=3D'font-size:8.0pt;font-family:"Arial Narrow";
+font-weight:normal'><span
+title=3D"http://www.practicafiscal.com.mx/AVISODEPRIVACIDAD.htm"><span
+title=3D"http://www.practicafiscal.com.mx/AVISODEPRIVACIDAD.htm">www.prac=
+ticafiscal.com.mx</span></span></span></font></a><font
+size=3D1 color=3Dblack face=3D"Arial Narrow"><span =
+style=3D'font-size:8.0pt;font-family:
+"Arial =
+Narrow";color:black;font-weight:normal'><o:p></o:p></span></font></h1>
+
+<p class=3DMsoNormal align=3Dcenter style=3D'text-align:center'><font =
+size=3D3
+color=3D"#6a6a6a" face=3DVerdana><span =
+style=3D'font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_001_004E_01D5207F.227B2990--
+
+------=_NextPart_000_004D_01D5207F.227B2990
+Content-Type: image/gif;
+	name="image008.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <image008.gif@01D5207E.DB4B4910>
+
+R0lGODlhGwAbAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAQAZ
+ABgAhwAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBmmQBm
+zABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD/
+/zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNmzDNm/zOZ
+ADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYA
+M2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZ
+ZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkA
+mZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZ
+zJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA
+/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZzMyZ/8zM
+AMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8zAP8z
+M/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//M
+Zv/Mmf/MzP/M////AP//M///Zv//mf//zP///wECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwj/AAEIHEiwoMGDBrG1UohNEMKH2CJimyVR
+WquHAwVJPDQGh5gbYw5JBBAAIjZEXG6oXHkDB6uIVxBGdHTj40eVYiaodBRRJqIwH1OudCkUkcKE
+12pysXmDSwOj2GrewCat4MJDYrIuHUorIqIbYUQ6HDhRDFCpN2/Mkoati81r2EoKxHYta9ameFtO
+9JiVIkkAGlmJ2TKYqZgGImfVJGz0L4Cydrew5NKVS4+lYiiyIDvLbs0uX7ss7IKzJkW5j7HZFbNw
+IsWvNe0eRY1NVmyGEYUy9es4tVkxY2a1QoSDpZilRscOXCgYrU60aCOiFriw80qhK8UcwioLW2/q
+Cg+xKWyg8lBrhq0CTAfQehYijogQUVR4Httmgxrr07d68eHYVv2th9GACAUEADs=
+
+------=_NextPart_000_004D_01D5207F.227B2990
+Content-Type: image/gif;
+	name="image007.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <image007.gif@01D5207E.DB4B4910>
+
+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
+
+------=_NextPart_000_004D_01D5207F.227B2990
+Content-Type: image/jpeg;
+	name="image006.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image006.jpg@01D5207E.DB4B4910>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCADeAKIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDyGiii
+kUFFFbzeGUTw5bas13MUuI5HCJallQocEM2eMnoaAMGiuibwzbweN4NCudQC27tFvuWUJgOgfHPA
+POOa1LjweI9d0yyk0LULZ7iV1MT3aFZ1A4KS4wG9RQFziaK1z4bvBZxXjmGGGd8QrJIA7rv2Fh2I
+B/lmtK/8A6hD4hutNsXinjglWFZ3kVQ7t91OM4Y4PH50Bc5aiuhtfA2uXkUbxwQAy+aI43uEV3Mf
+31C5zkc8e1VpvC2oW19bWsz2ifaoRPFMbhfKZCcZ3fXjFAGPRWta6QbXxZDpGsQSBhciCeONwGGT
+jg8j3962rvwlZWN5NOrzXujz2Ut1YXKPtJKDJR+PvDoRQFzj6K1h4Z1N9Ot72GKO4jnlWALBIHdZ
+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
+UUUUAFFFFAH/2Q==
+
+------=_NextPart_000_004D_01D5207F.227B2990
+Content-Type: image/jpeg;
+	name="image005.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image005.jpg@01D5207E.DB4B4910>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCADvAJ0DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDj49UU
+cSKR7ircd3DN91xn0rAY81GWI5Bwa5HBM+n+uSjvqdQkfmvjOKe9gP4ZCprC0/U2iuEWU5UnGa3L
+y/2oFj6kdawkpJ2No1o1I8xBJayx8tgj1X/Cum+GJX/hKHCFSPsz9D7iuJkmcsDvbJ9TxXW/Cznx
+g5K8/ZJOfxHetaafMrnBiq0XTkl2PXqKKK9E8AKKKKACiisfV/Fej6IpF3eI0o6Qw/O5/AdPxpNp
+blwpzqPlgrs2KK4XSfHt1rviuzsba2S3spGbfv8AmdwAT17fhXdUozUtjSvhqmHajUVm1cKKKKow
+CiiigAooooA+ZZuGI9KhJqRuTUbVzJHrVJ3Ywkjkdq67TtPTVbBCCQ4HDVyOCTitCx1K905MQSsi
++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
+
+------=_NextPart_000_004D_01D5207F.227B2990
+Content-Type: image/jpeg;
+	name="image004.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image004.jpg@01D5207E.DB4B4910>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCADcAKADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDzuloo
+qRhRRRQAUUUUAFFFFABRRRQAUUUUAFJS0UAFFFFABRRRQAUUUUAFFFFABRRRQAUU1iVUkDJ9KMP6
+J/31QA6im/P6J/31R8/on/fVAC0tN+f0T/vqj5/RP++qAHUU35/RP++qPn9E/wC+qAHUU35/RP8A
+vqj5/RP++qAHUU35/RP++qPn9E/76oAdRTfn9E/76pRnncBx6HNAC0UlLQAUUUUAJS0UUANf7v4j
++dDk5GDjk5OM0P8Ad/EfzokOOT05/lQAzzDj75z6BQaQSEtt3HP+6P8AGoznI2gYA6enpWtdeGr2
+zQs7w7AyRkK5ypbp1HP4UnJR0YJN7GYJc/xMOccp0pxfBA3k5HGEH+NaE3hy8hvY7PzIGuJM5XJG
+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
+KKAP/9k=
+
+------=_NextPart_000_004D_01D5207F.227B2990
+Content-Type: image/jpeg;
+	name="image003.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image003.jpg@01D5207E.DB4B4910>
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMg
+IyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09
+PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wAARCADnAI4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDySiii
+tzAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAACegJ+lLtP90/lUkTlI3KnkVL
+5jDrIf8AvkUh2K20/wB0/lRtP90/lVsM5/5aEcZ+5SBpDn52+Xr8g4oCxV2n+6fyo2n+6fyq0XZS
+AZTz/sUF2UZMje3ydaAsVdp/un8qNp/un8qstIVAJlPOf4PSlDEkfvu2fuUBYq7T/dP5UbT/AHT+
+VWfMb++ceu0UoZsAmQgHp8goCxV2n+6fyo2n+6fyqyJCQD5pAPU7Pu/WjzGGcykEHGNgoCxW2n+6
+fypOnWrLyOobEhO31TGaimOXH0oER0UUUwCiiigB6f6p6nySyrnaDwCRjOetQJ/qnqcbmbbnjGCS
+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
+
+------=_NextPart_000_004D_01D5207F.227B2990
+Content-Type: image/gif;
+	name="image002.gif"
+Content-Transfer-Encoding: base64
+Content-ID: <image002.gif@01D5207E.DB4B4910>
+
+R0lGODlhHwAfAIAAAP///wAAACH5BAAAAAAALAAAAAAfAB8AAAIdhI+py+0Po5y02ouz3rz7D4bi
+SJbmiabqyrbuOxUAOw==
+
+------=_NextPart_000_004D_01D5207F.227B2990--
+

@@ -1,0 +1,222 @@
+Return-Path: <survey-noreply@mr.surveymonkeyuser.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id 4N1LANuYbVzXUy8AFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Wed, 20 Feb 2019 11:13:47 -0700
+Return-path: <survey-noreply@mr.surveymonkeyuser.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Wed, 20 Feb 2019 11:13:47 -0700
+Received: from mta1b8.outbound.surveymonkey.com ([52.32.252.160]:15049)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <survey-noreply@mr.surveymonkeyuser.com>)
+	id 1gwWNN-00DAN7-Qw
+	for raymundo@vpconsultores.com.mx; Wed, 20 Feb 2019 11:13:46 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=surveymonkeyuser.com; s=scph0816; t=1550686384;
+	i=@surveymonkeyuser.com;
+	bh=2Jwj90Rx5BAoxliwJL3XX4uh0/ItshePBrMmCEXtYYQ=;
+	h=Content-Type:Message-ID:From:To:Subject:Date;
+	b=CZEyIgr5noGj5dIjVebI7mjlC/mHn+CF0XCu2yXaCGrH/IoMJ6F7qKLOsi1Y0ctSi
+	 uoonNJJwv9Lm1WkwaaT5bSm/BmE/FcsabsIjD/yQO96zZfvI6iHCiPeC9ByWeNuIn6
+	 vZNLk9keP8Nffa8FETHB9TM1jZ82e/0KMIfb890w=
+X-MSFBL: 3eurZ+tz7fPLlYyhefY5dm24z1st84ADIataCpnDTvY=|eyJyIjoicmF5bXVuZG9
+	AdnBjb25zdWx0b3Jlcy5jb20ubXgiLCJjdXN0b21lcl9pZCI6IjEiLCJzdWJhY2N
+	vdW50X2lkIjoiMTAyIiwibWVzc2FnZV9pZCI6IjAwMDBiMDk4NmQ1YzUzNzhhZTI
+	zIiwidGVuYW50X2lkIjoic3VydmV5bW9ua2V5In0=
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+Authentication-Results:  a.mta2vsmtp.cc.prd.sparkpost smtp.user=<hidden>; auth=pass (PLAIN)
+Received: from [64.191.16.134] ([64.191.16.134:52412] helo=n9emlsvc402mgp1.n9.jungle.tech-mailer_process)
+	by a.mta2vsmtp.cc.prd.sparkpost (envelope-from <survey-noreply@mr.surveymonkeyuser.com>)
+	(ecelerity 4.2.40.67398 r(Core:4.2.40.23)) with ESMTPSA (cipher=ECDHE-RSA-AES256-GCM-SHA384) 
+	id EA/32-30803-0B89D6C5; Wed, 20 Feb 2019 18:13:04 +0000
+Message-ID: <EA.32.30803.0B89D6C5@a.mta2vsmtp.cc.prd.sparkpost>
+MIME-Version: 1.0
+From: "webmaster@ccpm.org.mx via SurveyMonkey" <member@surveymonkeyuser.com>
+To: raymundo@vpconsultores.com.mx
+Subject: =?utf-8?q?Vota_por_las_modificaciones_de_los_Estatutos_del_Colegio?=
+Date: Wed, 20 Feb 2019 18:13:04 +0000
+Reply-To: =?utf-8?q?webmaster=40ccpm=2Eorg=2Emx?=
+X-Spam-Status: No, score=-11.5
+X-Spam-Score: -114
+X-Spam-Bar: -----------
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Vota por las modificaciones de los Estatutos del Colegio
+   Ciudad de México, a 20 de febrero de 2019 Aviso Importante 68 [...] 
+ 
+ Content analysis details:   (-11.5 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: surveymonkey.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: surveymonkey.com]
+ -3.0 RCVD_IN_RP_CERTIFIED   RBL: Sender in ReturnPath Certified - Contact
+                             cert-sa@returnpath.net
+                             [Return Path SenderScore Certified {formerly]
+                       [Bonded Sender} - <http://www.senderscorecertified.com>]
+ -2.0 RCVD_IN_RP_SAFE        RBL: Sender in ReturnPath Safe - Contact
+                             safe-sa@returnpath.net
+                             [Return Path SenderScore Safe List (formerly]
+                     [Habeas Safelist) - <http://www.senderscorecertified.com>]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF white-list
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+X-Spam-Flag: NO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">=0A<html>=0A<body style=3D"margin:0; padding=
+: 0;">=0A<div align=3D"center">=0A   <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" align=3D"center" width=3D"100%" style=3D"font-family: Ari=
+al,Helvetica,sans-serif; max-width: 700px;">=0A       <tr bgcolor=3D"#001e5=
+7">=0A           <td colspan=3D"5" height=3D"40">&#160;</td>=0A       </tr>=
+=0A       <tr bgcolor=3D"#001e57">=0A           <td width=3D"20">&#160;</td=
+>=0A           <td width=3D"20">&#160;</td>=0A           <td align=3D"cente=
+r" style=3D"font-size: 29px; color:#FFFFFF; font-weight: normal; letter-spa=
+cing: 1px; line-height: 1;&#10;                           text-shadow: -1px=
+ -1px 1px rgba(0, 0, 0, 0.2); font-family: Arial,Helvetica,sans-serif;">=0A=
+              Vota por las modificaciones de los Estatutos del Colegio=0A  =
+         </td>=0A           <td width=3D"20">&#160;</td>=0A           <td w=
+idth=3D"20">&#160;</td>=0A       </tr>=0A       <tr bgcolor=3D"#001e57">=0A=
+           <td colspan=3D"5" height=3D"40">&#160;</td>=0A       </tr>=0A   =
+    <tr>=0A           <td height=3D"10" colspan=3D"5">&#160;</td>=0A       =
+</tr>=0A       <tr>=0A           <td>&#160;</td>=0A           <td colspan=
+=3D"3" align=3D"left" valign=3D"top" style=3D"color:#666666; font-size: 13p=
+x;">=0A              =0A                <p><span style=3D"font-family: aria=
+l, helvetica, sans-serif;">Ciudad de M&#233;xico, a 20 de febrero de 2019</=
+span><br/><br/><br/><br/></p><div style=3D"text-align: center;"><strong><sp=
+an style=3D"font-family: arial, helvetica, sans-serif;">Aviso Importante 68=
+</span></strong></div><br/><br/><br/><div style=3D"text-align: center;"><st=
+rong><span style=3D"font-family: arial, helvetica, sans-serif;">Propuesta d=
+e Modificaciones a los Estatutos del Colegio y Votaci&#243;n</span></strong=
+></div><br/><br/><br/><span style=3D"font-family: arial, helvetica, sans-se=
+rif;">Estimada (o) Socia (o):</span><br/><br/><span style=3D"font-family: a=
+rial, helvetica, sans-serif;">En apego a los Estatutos de nuestro Colegio, =
+T&#237;tulo I Disposiciones Generales, numeral 1.1.13, se pone a tu disposi=
+ci&#243;n una propuesta de modificaciones a los mismos. Te invitamos a revi=
+sarla mediante el&#160;documento completo&#160;o en su&#160;versi&#243;n co=
+ndensada&#160;(dice-debe decir), as&#237; como a ejercer tu voto en favor o=
+ en contra&#160; de dichas modificaciones, en la secci&#243;n indicada bajo=
+ este mensaje. El pr&#243;ximo 25 de febrero de 2019 ser&#225; el &#250;lti=
+mo d&#237;a para ejercer este derecho.</span><br/><span style=3D"font-famil=
+y: arial, helvetica, sans-serif;">&#160;</span><br/><br/><span style=3D"fon=
+t-family: arial, helvetica, sans-serif;">Si tuvieras comentarios o sugerenc=
+ias te invitamos a externarlos, al correo&#160;snieto@colegiocpmexico.org.m=
+x</span><br/><br/><br/><span style=3D"font-family: arial, helvetica, sans-s=
+erif;">Atentamente</span><br/><br/><br/><span style=3D"font-family: arial, =
+helvetica, sans-serif;"><strong>C.P.C. y P.C.FI. Juan Manuel Puebla Dom&#23=
+7;nguez</strong></span><br/><span style=3D"font-family: arial, helvetica, s=
+ans-serif;"><strong>Vicepresidente de Gobierno</strong></span>=0A          =
+    =0A           </td>=0A           <td>&#160;</td>=0A       </tr>=0A=0A  =
+     =0A           <tr>=0A=0A=0A</tr><tr>=0A    <td colspan=3D"5">&#160;</t=
+d>=0A</tr>=0A=0A<tr>=0A    <td rowspan=3D"5"/>=0A    <td colspan=3D"3" styl=
+e=3D"word-wrap: break-word;white-space: normal;font-size: 14px;font-family:=
+ Verdana;font-weight: 700;line-height: 30px;color: #000000;font-style: norm=
+al;text-decoration: none;">Elige una de las dos opciones:</td>=0A    <td ro=
+wspan=3D"5"/>=0A</tr>=0A=0A<tr>=0A    <td colspan=3D"3">&#160;</td>=0A</tr>=
+=0A=0A      <tr>=0A        <td colspan=3D"3" style=3D"">=0A=0A             =
+   <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0">=
+=0A                    <tr>=0A                        <td valign=3D"top" wi=
+dth=3D"20" style=3D"width:20px;padding-right:10px;">=0A                    =
+        <a href=3D"https://surveymonkey.com/tr/v1/te/7C0u9Xl6xmMaK_2FgPq5vw=
+YeGzExNlwKU5J5XrEV9JPriyfLLKaM_2FVonNx6MRqLP84ou64faJXGz_2ByrqY_2B18qGCebjz=
+eJM3Zq5xQuJelx_2FqzWJUqUFU19HsU8z_2BxPICRkWsV87RFfIiXMlz1f06mfno97_2B3AcOmg=
+m9_2FERORCa0j45In9OixXkFY1jYDkHBY15_2BZYkYpX_2Bf2Up_2F1ODvD40j_2F8X8AgrPWYS=
+bI3i4i1bcqjRGivQ4M1SJtKtlh6WnWdfYNaMj5p_2FI8Vjx4fQyGJ390MMh6a3HTNldmZd1vcGQ=
+CcjRyJs0TfcgHgd1U7D5lD4e42Q9khpNgPMOTtp4vQRDrz5c4erhBWPpVXXSaV5iUrb2yD_2B3K=
+szSOOaNWqJuLVDqkCbnhv5GsFtgVbAo5rhaerHeQiNtZ_2BI7vBHKvvcOAdGJJvi86gqmBGFePC=
+4vIaZkn6SZ01xMT1zKqz6cO0KIUS_2FbkGBn_2FV0kMxQlYznT9pu4n_2FW81JXBMcZ1c5XmOXb=
+VyEeymSmgPze6Xk3RM_2Fa2VkSffxSf7MsQWwuu7LXzsj_2FZEfdx889MPkdpZJVVBTX_2F" st=
+yle=3D"font-size:20px;text-decoration: none;vertical-align:top;color:#99999=
+9;">&#9711;</a>=0A                            </td>=0A                     =
+   <td valign=3D"top" align=3D"left">=0A                            <a href=
+=3D"https://surveymonkey.com/tr/v1/te/7C0u9Xl6xmMaK_2FgPq5vwYeGzExNlwKU5J5X=
+rEV9JPriyfLLKaM_2FVonNx6MRqLP84ou64faJXGz_2ByrqY_2B18qGCebjzeJM3Zq5xQuJelx_=
+2FqzWJUqUFU19HsU8z_2BxPICRkWsV87RFfIiXMlz1f06mfno97_2B3AcOmgm9_2FERORCa0j45=
+In9OixXkFY1jYDkHBY15_2BZYkYpX_2Bf2Up_2F1ODvD40j_2F8X8AgrPWYSbI3i4i1bcqjRGiv=
+Q4M1SJtKtlh6WnWdfYNaMj5p_2FI8Vjx4fQyGJ390MMh6a3HTNldmZd1vcGQCcjRyJs0TfcgHgd=
+1U7D5lD4e42Q9khpNgPMOTtp4vQRDrz5c4erhBWPpVXXSaV5iUrb2yD_2B3KszSOOaNWqJuLVDq=
+kCbnhv5GsFtgVbAo5rhaerHeQiNtZ_2BI7vBHKvvcOAdGJJvi86gqmBGFePC4vIaZkn6SZ01xMT=
+1zKqz6cO0KIUS_2FbkGBn_2FV0kMxQlYznT9pu4n_2FW81JXBMcZ1c5XmOXbVyEeymSmgPze6Xk=
+3RM_2Fa2VkSffxSf7MsQWwuu7LXzsj_2FZEfdx889MPkdpZJVVBTX_2F" style=3D"color:#0=
+00000;font-family:Verdana;font-size:14px;font-weight:300;font-style:normal;=
+text-decoration:none;">A favor</a>=0A                        </td>=0A      =
+              </tr>=0A                </table>=0A        </td>=0A    </tr>=
+=0A=0A        <tr>=0A            <td colspan=3D"3" style=3D"font-size:9px;"=
+>&#160;</td>=0A        </tr>=0A=0A      <tr>=0A        <td colspan=3D"3" st=
+yle=3D"">=0A=0A                <table border=3D"0" width=3D"100%" cellpaddi=
+ng=3D"0" cellspacing=3D"0">=0A                    <tr>=0A                  =
+      <td valign=3D"top" width=3D"20" style=3D"width:20px;padding-right:10p=
+x;">=0A                            <a href=3D"https://surveymonkey.com/tr/v=
+1/te/7C0u9Xl6xmMaK_2FgPq5vwYeGzExNlwKU5J5XrEV9JPriyfLLKaM_2FVonNx6MRqLP84ou=
+64faJXGz_2ByrqY_2B18qGCebjzeJM3Zq5xQuJelx_2FqzWJUqUFU19HsU8z_2BxPICRkWsV87R=
+FfIiXMlz1f06mfno97_2B3AcOmgm9_2FERORCa0j45In9OixXkFY1jYDkHBY15_2BZYkYpX_2Bf=
+2Up_2F1ODvD40j_2F8X8AgrPWYSbI3i4i1bcqjRGivQ4M1SJtKtlh6WnWdfYNaMj5p_2FI8Vjx4=
+fQyGJ390MMh6a3HTNldmZd1vcGQCcjRyJs0TfcgHgd1U7D5lD4e42Q9khpNgPMOTtp4vQRDrz5c=
+4erhBWPpVXXSaV5iUraWPrusfSG1v9YOVOd0Z4y_2FyBf2K4FXTkwLohPlkLScCuap0SOu1pYc3=
+7Voa2iCshcrTKiCWsS_2FmnRS4POdMC02IRiKPwuqAVMCCaSAF_2BoiFoF1S_2FmL17ylSt4S6L=
+Xj56WV_2BCOxo9JVvhKcVZoYc3Q0KAEN8BIq3n2f_2F3DBzzOmZG9Re1BStSdBIBjENDw1z2hnC=
+UCojKidubQSBQfZmfEh" style=3D"font-size:20px;text-decoration: none;vertical=
+-align:top;color:#999999;">&#9711;</a>=0A                            </td>=
+=0A                        <td valign=3D"top" align=3D"left">=0A           =
+                 <a href=3D"https://surveymonkey.com/tr/v1/te/7C0u9Xl6xmMaK=
+_2FgPq5vwYeGzExNlwKU5J5XrEV9JPriyfLLKaM_2FVonNx6MRqLP84ou64faJXGz_2ByrqY_2B=
+18qGCebjzeJM3Zq5xQuJelx_2FqzWJUqUFU19HsU8z_2BxPICRkWsV87RFfIiXMlz1f06mfno97=
+_2B3AcOmgm9_2FERORCa0j45In9OixXkFY1jYDkHBY15_2BZYkYpX_2Bf2Up_2F1ODvD40j_2F8=
+X8AgrPWYSbI3i4i1bcqjRGivQ4M1SJtKtlh6WnWdfYNaMj5p_2FI8Vjx4fQyGJ390MMh6a3HTNl=
+dmZd1vcGQCcjRyJs0TfcgHgd1U7D5lD4e42Q9khpNgPMOTtp4vQRDrz5c4erhBWPpVXXSaV5iUr=
+aWPrusfSG1v9YOVOd0Z4y_2FyBf2K4FXTkwLohPlkLScCuap0SOu1pYc37Voa2iCshcrTKiCWsS=
+_2FmnRS4POdMC02IRiKPwuqAVMCCaSAF_2BoiFoF1S_2FmL17ylSt4S6LXj56WV_2BCOxo9JVvh=
+KcVZoYc3Q0KAEN8BIq3n2f_2F3DBzzOmZG9Re1BStSdBIBjENDw1z2hnCUCojKidubQSBQfZmfE=
+h" style=3D"color:#000000;font-family:Verdana;font-size:14px;font-weight:30=
+0;font-style:normal;text-decoration:none;">En contra</a>=0A                =
+        </td>=0A                    </tr>=0A                </table>=0A    =
+    </td>=0A    </tr>=0A=0A         <tr>=0A            <td colspan=3D"5" st=
+yle=3D"font-size:9px;">&#160;</td>=0A        </tr>=0A=0A =0A       =0A     =
+  <tr valign=3D"top" style=3D"color: #666666;font-size: 10px;">=0A         =
+  <td>&#160;</td>=0A           <td valign=3D"top" align=3D"center" colspan=
+=3D"3">=0A               <p>No reenv&#237;es este correo electr&#243;nico y=
+a que el enlace de la encuesta es exclusivo para ti. <br/><a href=3D"https:=
+//es.surveymonkey.com/mp/legal/privacy-basics/" target=3D"_blank" style=3D"=
+color: #333333; text-decoration: underline;">Privacidad</a> | <a href=3D"ht=
+tps://surveymonkey.com/tr/v1/te/7C0u9Xl6xmMaK_2FgPq5vwYeGzExNlwKU5J5XrEV9JP=
+riXF8PZRqyR_2FXQjHvAFJ4hlNhPy_2FbVQ6PNC9_2B0ByO9c6tQMl1uAs3z_2FVC1l2R9e1jPY=
+kdQ5pODxtNiHVs00wXHQfnUGLKfE_2BXdU7K_2BEsHREJiCfe3p8uGc3aA3Wt_2BSsmQwfafyNo=
+GUHoduYZZ4JeqTjMvfCeZG55Vrjpp1Qxic1hA_3D_3D" target=3D"_blank" style=3D"col=
+or: #333333; text-decoration: underline;">Cancelar la suscripci&#243;n</a><=
+/p>=0A           </td>=0A           <td>&#160;</td>=0A       </tr>=0A      =
+ <tr>=0A           <td height=3D"20" colspan=3D"5">&#160;</td>=0A       </t=
+r>=0A=0A       <tr style=3D"color: #999999;font-size: 10px;">=0A           =
+<td align=3D"center" colspan=3D"5"><table width=3D"100%" cellpadding=3D"2">=
+=0A    <tbody>=0A        <tr>=0A            <td width=3D"45%" align=3D"righ=
+t" style=3D"font-size: 10px; color: #999999;">Desarrollado por</td>=0A     =
+       <td width=3D"55%" align=3D"left">=0A                <img width=3D"13=
+0" align=3D"middle" height=3D"17" alt=3D"SurveyMonkey Logo" src=3D"https://=
+www.surveymonkey.com/collect/images/smLogo.png"/>=0A            </td>=0A   =
+     </tr>=0A    </tbody>=0A</table>=0A</td>=0A       </tr>=0A       <tr>=
+=0A           <td height=3D"20" colspan=3D"5">&#160;</td>=0A       </tr>=0A=
+   </table>=0A</div>=0A<img src=3D"https://surveymonkey.com/tr/v1/te/vVKXWl=
+Jh3jhbvAzbn_2FgTWW1n7G2Vzo8ZkDYSp85LsBcHa2byyKgHx98Dw4dp4maI.png" alt=3D"" =
+width=3D"1px" height=3D"1px"/>=0D=0A<img border=3D"0" width=3D"1" height=3D=
+"1" alt=3D"" src=3D"http://click.outbound.surveymonkey.com/q/w_AFF56rcD8U-x=
+F--yPkgg~~/AAAAAQA~/RgReTswwPlcMc3VydmV5bW9ua2V5QgoAALCYbVxTeK4jUh1yYXltdW5=
+kb0B2cGNvbnN1bHRvcmVzLmNvbS5teFgEAAAAZg~~">=0D=0A</body>=0A</html>
+

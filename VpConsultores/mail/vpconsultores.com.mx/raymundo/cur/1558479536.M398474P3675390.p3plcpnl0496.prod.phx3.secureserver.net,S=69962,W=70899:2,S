@@ -1,0 +1,937 @@
+Return-Path: <bounce-17_HTML-571925-2605-100015632-174@bounce.promociones.bbva.mx>
+Delivered-To: RAYMUNDO@VPCONSULTORES.COM.MX
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id NUt/F7CC5Fz+FDgAFq4nlA
+	(envelope-from <bounce-17_HTML-571925-2605-100015632-174@bounce.promociones.bbva.mx>)
+	for <RAYMUNDO@VPCONSULTORES.COM.MX>; Tue, 21 May 2019 15:58:56 -0700
+Return-path: <bounce-17_HTML-571925-2605-100015632-174@bounce.promociones.bbva.mx>
+Envelope-to: RAYMUNDO@VPCONSULTORES.COM.MX
+Delivery-date: Tue, 21 May 2019 15:58:56 -0700
+Received: from mta.promociones.bbva.mx ([13.111.97.88]:40742)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <bounce-17_HTML-571925-2605-100015632-174@bounce.promociones.bbva.mx>)
+	id 1hTDid-00FRmp-FG
+	for RAYMUNDO@VPCONSULTORES.COM.MX; Tue, 21 May 2019 15:58:56 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=10dkim1; d=promociones.bbva.mx;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:List-ID:Message-ID:
+ Content-Type:Content-Transfer-Encoding; i=promociones@promociones.bbva.mx;
+ bh=aknvpSAvbZC5Q6nFux9W29JvAxdtvX3gDUndoiZoE9A=;
+ b=Sb3w1A0vwuMPI1m8uInIzYWIeTpT3rgNRv+ZbhtMrNicLXK0cQFzpsuqFqD3VEHPI+PIL2eYOwFB
+   BV8gnhPFIgfjuaLN6XBGyeUWSGaWYV1vMHkIo0qnla9RJpGAfDIYgzVJwtb3SsD940zxGySevS65
+   kg33D77yW+GvP94q482sGdI/kzocVv902b0JCkHru4a1KQfrPkpeQx99BzgL18Vc1MDXup/upNcV
+   PNVY21Vh5BWp01Hziwv4uMvSw0cyrWkGsgqgFGxNINayh3j02mCXvMIZmILUOcl4QuoCPAPBHWDc
+   bFiJhNDyhnh1qXsCsV7/c559S2eBZ0eGlHzusg==
+Received: by mta.promociones.bbva.mx id hsi1ai2fmd4k for <RAYMUNDO@VPCONSULTORES.COM.MX>; Tue, 21 May 2019 22:58:09 +0000 (envelope-from <bounce-17_HTML-571925-2605-100015632-174@bounce.promociones.bbva.mx>)
+From: "BBVA Bancomer" <promociones@promociones.bbva.mx>
+To: <RAYMUNDO@VPCONSULTORES.COM.MX>
+Subject: =?UTF-8?Q?=C2=BFA=C3=BAn_no_pagas_tus_impuestos=3F_=C2=A1Hazlo_a_?=
+ =?UTF-8?Q?meses_sin_intereses!?=
+Date: Tue, 21 May 2019 16:58:08 -0600
+List-Unsubscribe: <mailto:leave-fd8315771a3c402029-fec21177746d0678-ff3216767561-fe3d157075640578731772-ff63157771@leave.promociones.bbva.mx>
+MIME-Version: 1.0
+List-ID: <100015594.xt.local>
+X-CSA-Complaints: whitelistcomplaints@eco.de
+x-job: 100015632_2605
+Message-ID: <1dc6af85-0d98-4b21-b61c-a35ec2707982@dfw1s10mta361.xt.local>
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: No, score=2.7
+X-Spam-Score: 27
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Dsk Alianzas Comerciales Usa tu tarjeta de crédito BBVA Bancomer
+    ¿No puedes ver bien este correo? Haz clic aquí >> 
+ 
+ Content analysis details:   (2.7 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: bbva.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: bbva.mx]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.4 FUZZY_CREDIT           BODY: Attempt to obfuscate words in spam
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 T_KAM_HTML_FONT_INVALID BODY: Test for Invalidly Named or
+                             Formatted Colors in HTML
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.3 PLING_QUERY            Subject has exclamation mark and question mark
+X-Spam-Flag: NO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Dsk Alianzas Comerciales</title>
+<style>
+ @media only screen{
+  html{
+  min-height:100%;
+  background:#efeeed}
+  }
+ @media only screen and (max-width:618px){
+   table.body img{
+    width:auto;
+    height:auto}
+   table.body center{
+    min-width:0!important}
+   table.body .container{
+    width:100%!important}
+   table.body .columns{
+    height:auto!important;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    padding-left:18px!important;
+    padding-right:18px!important}
+   table.body .columns .columns{
+    padding-left:0!important;
+    padding-right:0!important}
+   table.body .collapse .columns{
+    padding-left:0!important;
+    padding-right:0!important}
+   th.small-3{
+    display:inline-block!important;
+    width:25%!important}
+   th.small-4{
+    display:inline-block!important;
+    width:33.33333%!important}
+   th.small-5{
+    display:inline-block!important;
+    width:41.66667%!important}
+   th.small-12{
+    display:inline-block!important;
+   width:100%!important}
+   .columns th.small-12{
+    display:block!important;
+    width:100%!important}
+   table.menu{
+    width:100%!important}
+   table.menu td,table.menu th{
+    width:auto!important;
+    display:inline-block!important}
+   table.menu.vertical td,table.menu.vertical th{
+    display:block!important}
+   table.menu[align=center]{
+    width:auto!important}
+  }
+ @media only screen and (max-width:618px){
+   .header .container .header-preview .header-preview-text{
+    font-size:9px!important}
+  }
+ @media only screen and (max-width:618px){
+   .hero .hero-body .hero-body-headline{
+    margin-left:0!important;
+    Margin-left:0!important;
+    margin-right:0!important;
+    Margin-right:0!important}
+  }
+ @media only screen and (max-width:618px){
+   .hero .hero-body h1.hero-body-headline{
+    font-size:28px!important;
+    line-height:31px!important}
+  }
+ @media only screen and (max-width:618px){
+   .hero .hero-body h3.hero-body-headline{
+    font-size:22px!important}
+  }
+ @media only screen and (max-width:618px){
+   .hero .hero-body .hero-body-subheadline{
+    margin-left:0!important;
+    Margin-left:0!important;
+    margin-right:0!important;
+    Margin-right:0!important}
+  }
+ @media only screen and (max-width:618px){
+   .hero .hero-body .hero-body-text{
+    margin-left:0!important;
+    Margin-left:0!important;
+    margin-right:0!important;
+    Margin-right:0!important;
+    font-size:13px!important}
+  }
+ @media only screen and (max-width:618px){
+   .hero .hero-body .hero-body-list{
+    margin-left:18px!important;
+    Margin-left:18px!important;
+    margin-right:18px!important;
+    Margin-right:18px!important;
+    font-size:13px!important}
+  }
+ @media only screen and (max-width:618px){
+   .banner .banner-headline{
+    font-size:22px!important}
+  }
+ @media only screen and (max-width:618px){
+   .banner .banner-body{
+    font-size:13px!important}
+  }
+ @media only screen and (max-width:618px){
+   .contact .contact-location .contact-location-text{
+    margin-left:0!important;
+    Margin-left:0!important;
+    margin-right:0!important;
+    Margin-right:0!important;
+    font-size:11px!important}
+  }
+ 
+ /*NEW responsive-Footer*/
+ @media only screen and (max-width:618px){
+   .footer .footer-brand .footer-brand-text{
+    margin-left:0!important;
+    Margin-left:0!important;
+    margin-right:0!important;
+    Margin-right:0!important;
+    font-size:10px!important;}
+  }
+ @media only screen and (max-width:618px){
+   .footer .footer-legal .footer-legal-text{
+    margin-left:0!important;
+    Margin-left:0!important;
+    margin-right:0!important;
+    Margin-right:0!important}
+  }
+ 
+ @media only screen and (max-width:618px){
+   .footer-brand-headline{
+    margin-left:0!important;
+    Margin-left:0!important;
+    margin-right:0!important;
+    Margin-right:0!important;
+    font-size:12px!important;
+   }
+   .footer-brand-headline{
+    font-size: 12px!important;
+   }
+   .footer-brand-text .link{
+    font-size: 10px!important;
+
+   }
+  }
+ /*NEW responsive-Footer*/
+ 
+ /*responsive-Wallet*/
+ @media only screen and (max-width:618px){
+  .alert-message-text{
+   font-size:13px!important;
+   padding-top:0px!important;
+   padding-right: 20px!important;
+   font-size:13px!important;
+  }
+  .alert-icon-container{
+   width: 70px!important;
+   padding-top: 0px!important;
+  }
+ }
+ @media only screen and (max-width:480px){
+  .alert-icon-container{
+   padding-left: 20px!important;
+  }
+ }
+ /*responsive-Wallet*/
+ 
+ /*responsive-NoDatos*/
+ @media only screen and (max-width:618px){
+   .icon-datos{
+    width: 30px!important;}
+  }
+ /*responsive-NoDatos*/
+ 
+ /*responsive-Listas*/
+ @media only screen and (max-width:618px){
+   .list{
+    font-size:13px!important;
+    width:210px!important;}
+  }
+ /*responsive-Listas*/
+ 
+ /*responsive-Icon Text Element*/
+ @media only screen and (max-width:618px){
+   .center-icon-element{
+    font-size:13px!important;
+    text-align: center!important;
+   }
+  }
+ /*responsive-appSOS*/
+ 
+ /*responsive-Icon Text Element*/
+ @media only screen and (max-width:618px){
+   .alert-message-text-SOS{
+    font-size:13px!important;
+    text-align: center!important;
+    padding-top:30px!important;
+       padding-bottom: 30px!important;
+   }
+  }
+ /*responsive-Icon Text Element*/
+    
+    /*responsive-TablaComparativa*/
+    @media only screen and (max-width:618px){
+   .tabla1{
+    margin-left:0!important;
+    Margin-left:0!important;
+    margin-right:0!important;
+    Margin-right:0!important;
+    font-size:13px!important;
+                width:100%!important;
+            }
+  }
+    /*responsive-TablaComparativa*/
+ 
+ @media(max-width:618px){
+     .order-up{
+      display:table-header-group!important;
+    }
+    .display{
+
+   display: table!important;
+  }
+ }
+</style>
+</head>
+<body style="-moz-box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-box-sizing:border-box;-webkit-text-size-adjust:100%;Margin:0;box-sizing:border-box;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;min-width:100%;padding:0;text-align:left;width:100%!important"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Usa tu tarjeta de crédito BBVA Bancomer</div>
+<style>
+/* Apple links fix */
+.apple-data-link, .apple-data-link a {
+ color: inherit !important;
+ text-decoration: none !important; }
+</style>
+<span class="preheader" style="color:#efeeed;  display:none!important;font-size:1px;line-height:1px;max-height:0;max-width:0;mso-hide:all!important;opacity:0;overflow:hidden;visibility:hidden">
+</span>
+<table class="body" style="Margin:0;background:#efeeed;border-collapse:collapse;border-spacing:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;height:100%;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;width:100%">
+<tr style="padding:0;text-align:left;vertical-align:top">
+ <td class="center" align="center" valign="top" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+  <center data-parsed="" style="min-width:600px;width:100%">
+
+  <!--Header Content-->
+   <table align="center" class="wrapper header float-center" style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:100%">
+    <tr style="padding:0;text-align:left;vertical-align:top">
+     <td class="wrapper-inner" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+      <table align="center" class="container" style="Margin:0 auto;background:#004481;border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:inherit;vertical-align:top;width:600px">
+       <tbody>
+        <tr style="padding:0;text-align:left;vertical-align:top">
+         <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+<!--Pre-header-->
+          <table class="row header-preview" style="background:#fff;border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+           <tbody>
+            <tr style="padding:0;text-align:left;vertical-align:top">
+             <th class="small-12 large-12 columns first last" style="Margin:0 auto;background:#fff;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:18px;padding-left:18px;padding-right:18px;text-align:left;width:582px">
+              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+               <tr style="padding:0;text-align:left;vertical-align:top">
+                <th style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                 <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                  <tbody>
+                   <tr style="padding:0;text-align:left;vertical-align:top">
+                    <td height="25px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:25px;font-weight:400;hyphens:auto;line-height:25px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;
+                    </td>
+                   </tr>
+                  </tbody>
+                 </table>
+                  <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                 <td class="header-preview-text" style="Margin:0;Margin-bottom:0;color:#666;font-family:Helvetica,Arial,sans-serif;font-size:11px;font-weight:300;line-height:11px;margin:0;margin-bottom:0;padding:0;text-align:center">
+                  <p>
+                  ¿No puedes ver bien este correo? <a href="http://view.promociones.bbva.mx/?qs=5da31aecb1480a0a3ffc4a758c43276ada663bc26c035768b3f849824b631ee095ba316dd0a9276d9855c9a040c36e0f629dda9ee608f80aafe104ac806406e6e378f9f8f321f9b8">Haz clic aquí >> </a>
+                  </p>
+                 </td>
+
+                 </table>
+                </th>
+                 <th class="expander" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">
+                 </th>
+               </tr>
+              </table>
+             </th>
+            </tr>
+           </tbody>
+          </table>
+         <!--//Pre-header-->
+         <!--lOGO-->
+          <table class="row header-logo" style="background:#072146;border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%" height="70">
+           <tbody>
+            <tr style="padding:0;text-align:left;vertical-align:top">
+             <th class="small-12 large-12 columns first last" style="Margin:0 auto;background:#072146;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0px;padding-left:18px;padding-right:18px;text-align:left;width:582px">
+              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+               <tr style="padding:0;text-align:left;vertical-align:top">
+                <th style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                 <center data-parsed="" style="min-width:546px;width:100%">
+                  <table class="spacer float-center" style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:100%">
+                   <tbody>
+                    <tr style="padding:0;text-align:left;vertical-align:top">
+                     <td height="24px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;hyphens:auto;line-height:24px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                   <img src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/250f8f39-023a-49ef-8945-331f78f42dd6.png" alt="bbva" class="header-logo-image" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:inline-block;max-width:226px;outline:0;text-decoration:none;width:auto;">
+                   
+                  <table class="spacer float-center" style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:100%">
+                   <tbody>
+                    <tr style="padding:0;text-align:left;vertical-align:top">
+                     <td height="24px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:24px;font-weight:400;hyphens:auto;line-height:24px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </center>
+                </th>
+                 <th class="expander" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">
+                 </th>
+               </tr>
+              </table>
+             </th>
+            </tr>
+           </tbody>
+          </table>
+           <!--//lOGO-->
+
+         <!--Titular-->
+          <table class="row header-logo" style="background:#ffffff;border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%" height="70">
+           <tbody>
+            <tr style="padding:0;text-align:left;vertical-align:top">
+             <th class="small-12 large-12 columns first last" style="Margin:0 auto;background:#ffffff;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0px;padding-left:18px;padding-right:18px;text-align:left;width:582px">
+              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+               <tr style="padding:0;text-align:left;vertical-align:top">
+                <th style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                 <center data-parsed="" style="min-width:546px;width:100%">
+                  <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                   <tbody>
+                    <tr style="padding:0;text-align:left;vertical-align:top">
+                     <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:30px;font-weight:400;hyphens:auto;line-height:30px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word" height="30px">&nbsp;
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                  <h1 class="headline" style="Margin:0;Margin-bottom:0;Margin-left:32px;Margin-right:32px;color:inherit;font-family:Helvetica,Arial,sans-serif;font-size:34px;font-weight:700;line-height:34px!important;margin:0;margin-bottom:0;margin-left:32px;margin-right:32px;padding:0;text-align:center;word-wrap:normal;hyphens: none;-ms-hyphens: none;-webkit-hyphens: none;">Paga tus impuestos a meses
+                   
+                  </h1>
+                  <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                   <tbody>
+                    <tr style="padding:0;text-align:left;vertical-align:top">
+                     <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:30px;font-weight:400;hyphens:auto;line-height:30px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word" height="30px">&nbsp;
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </center>
+                </th>
+                 <th class="expander" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">
+                 </th>
+               </tr>
+              </table>
+             </th>
+            </tr>
+           </tbody>
+          </table>
+           <!--//Titular-->
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </td>
+    </tr>
+   </table>
+    <!--//Header Content-->
+
+  <!--Content-->
+   <table align="center" class="wrapper hero float-center" style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:100%">
+    <tr style="padding:0;text-align:left;vertical-align:top">
+     <td class="wrapper-inner" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+
+     <!-- Banner -->
+      <table align="center" class="container" style="Margin:0 auto;background:#fff;border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:inherit;vertical-align:top;width:600px">
+       <tbody>
+        <tr style="padding:0;text-align:left;vertical-align:top">
+         <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+          <a target="_blank" href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e49838be3057b01abab4e60b2af3cf8a0c03e235c1fb0e5d443d794b011550193d08c5cee7ac4c930006b2be037280897"  style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none"><img alt="" src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/fe79c2a1-805a-4abb-8ed2-eba5e1ecfe04.jpg" class="hero-image" style="-ms-interpolation-mode:bicubic;border:none;clear:both;display:block;max-width:100%;outline:0;text-decoration:none;width:auto">
+          </a>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+       <!--//Banner-->
+
+
+     <!-- Content Body -->
+      <table class="container" style="Margin:0 auto;background:#fff;border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:inherit;vertical-align:top;width:600px" align="center">
+       <tbody>
+        <tr style="padding:0;text-align:left;vertical-align:top">
+         <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+          <table class="row hero-body" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+           <tbody>
+            <tr style="padding:0;text-align:left;vertical-align:top">
+             <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:15px;padding-left:18px;padding-right:18px;text-align:left;width:582px">
+              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+               <tbody>
+                <tr style="padding:0;text-align:left;vertical-align:top">
+                 <th style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+
+
+
+                  <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                   <tbody>
+                    <tr style="padding:0;text-align:left;vertical-align:top">
+                     <td class="hero-body-text" style="Margin:0;Margin-bottom:30px;Margin-left:32px;Margin-right:32px;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:300;line-height:19px; padding-top: 40px;padding-bottom:30px;padding-left:32px;padding-right:32px;text-align:center; hyphens: none;-ms-hyphens: none;-webkit-hyphens: none">
+                      <p style="margin: 0">
+                       Horlet Raymundo, regulariza el pago de tus impuestos.Aprovecha los beneficios de tu tarjeta de crédito BBVA Bancomer  terminación 0483 y paga impuestos como la tenencia o predial en tus comercios favoritos a meses sin intereses del 1 de mayo al 31 de julio de 2019.
+
+                      </p>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+
+                   <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                   <tr>
+                    <td style="padding: 0px 0 30px 0; text-align: center;">
+                     <table cellspacing="0" cellpadding="0" style="display: inline-block">
+                     <tbody>
+                      <tr>
+                       <td align="left" bgcolor="#1973B8" style="border-radius: 1px; display: block; text-align: center; margin: 0 auto; padding: 15px 0px; font-size: 13px;font-weight:700; background-color: #1973B8;">  <a href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867eb565757d362808e65312148f7d154a783ff33041157593e5c85b9b060eb4a81810d799962b52438416727724e63494cb"  target="_blank" style="color: white;text-decoration: none;word-wrap: break-word;font-weight: 700;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding: 15px 27px;">Más Información</a>
+                       </td>
+                      </tr>
+                     </tbody>
+                     </table> 
+                    </td>
+                   </tr>
+                  </table>
+
+                  </th>
+                  <th class="expander" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">
+                  </th>
+                 </tr>
+                </tbody>
+               </table>
+              </th>
+             </tr>
+            </tbody>
+           </table>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      <!--//Content Body-->
+     </td>
+    </tr>
+   </table>
+   <!--//Content-->
+
+   <!--Logos-->
+   <table align="center" class="wrapper contact float-center" style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:100%">
+   <tr style="padding:0;text-align:left;vertical-align:top">
+    <td class="wrapper-inner" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+     <table align="center" class="container" style="Margin:0 auto;background:#fff;border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:inherit;vertical-align:top;width:600px">
+      <tbody>
+       <tr style="padding:0;text-align:left;vertical-align:top">
+        <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+
+         <table class="row contact-location" style="background:#fff;border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%; margin: 0;">
+          <tbody>
+           <tr style="padding:0;text-align:left;vertical-align:top">
+            <th class="small-12 large-12 columns first" style="Margin:0 auto;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0!important;text-align:left;width:195px">
+             <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+              <tr style="padding:0;text-align:left;vertical-align:top">
+               <th style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+
+               <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0 0 65px 0;text-align:left;vertical-align:top;width:100%">
+               <tbody>
+                 <tr style="padding:0;text-align:left;vertical-align:top">
+                  <td style="padding:0 0 45px 0;width: 33.33%;min-width:100px !important;">
+               <p class="contact-network-text" style="Margin:0;Margin-bottom:0!important;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:1px;font-weight:400;line-height:1.3;margin:0;margin-bottom:0!important;padding:0;text-align:center">
+                <a target="_blank" href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e64fed98c5ef96f4284bb088252090f548492e2e4a43ea1e377ed42821d7e7ec8cb60a73e2703cf510df6f782c3412bd7" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                 <img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/fd30ebdc-41da-433f-9670-addc00e1f47a.png" alt="BBVA Wallet" hspace="6" style="-ms-interpolation-mode:bicubic;Margin:0 ;border:none;clear:both;display:inline-block;margin:0;max-width:100%;outline:0;text-decoration:none;width:100px;padding: 5px 5px 10px 5px;"></a>
+
+                <a target="_blank" href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867eb9cb776c599ca972933226302545f177cda6597458ede204d6a5c7eaa15dd0dee7a17436ca24cf5d18a2620761d3458d" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                 <img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/cc28636b-0872-44d3-881d-afc28a6eeae4.png" alt="BBVA Wallet" hspace="6" style="-ms-interpolation-mode:bicubic;Margin:0;border:none;clear:both;display:inline-block;margin:0;max-width:100%;outline:0;text-decoration:none;width:100px;padding: 5px 5px 10px 5px;"></a>
+
+                <a target="_blank" href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e802d52e5c11db8c36c0802905b95e64ccdd429c449236d8e9cb7b94cccf8cd7f28f4352389f21e1417877220cf1db21b" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                 <img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/c8cf22a8-8b2f-41a3-9663-9efd7d2da054.png" alt="BBVA Wallet" hspace="6" style="-ms-interpolation-mode:bicubic;Margin:0;border:none;clear:both;display:inline-block;margin:0;max-width:100%;outline:0;text-decoration:none;width:100px;padding: 5px 5px 10px 5px;"></a>
+
+                <a target="_blank" href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e8875b38f16142bd67491a7421c4f4632138df721ed500c2742bf3c092576902a09a78b168f7b9a3e4db62c9b4749719b" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                    <img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/7e966c05-7395-4246-9df4-7a74990ddb13.png" alt="BBVA Wallet" hspace="6" style="-ms-interpolation-mode:bicubic;Margin:0 2px;border:none;clear:both;display:inline-block;margin:0;max-width:100%;outline:0;text-decoration:none;width:100px;padding: 5px 5px 10px 5px;"></a>
+
+                <a target="_blank" href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e0fd16c8edb62ae74ce9d5ae8b6b2b98b6a3f634c06441f423054673a463ad6c336030cbefa30e51d079a45865e47f86f" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                     <img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/2b8d5479-fc19-47e2-9d21-18909e3c3cfc.png" alt="BBVA Wallet" hspace="6" style="-ms-interpolation-mode:bicubic;Margin:0;border:none;clear:both;display:inline-block;margin:0;max-width:100%;outline:0;text-decoration:none;width:100px;padding: 5px 5px 10px 5px;"></a>
+
+                 <a target="_blank" href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867ef0f8ffd16e5a9a9fdefc4e754470742f20ca3aa0b9634a8a381d7cad2a8d956108f69b3025f333e2ef5df59a82b770be" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                     <img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/f5f29dad-7349-4717-8575-b3180dc4fb1a.png" alt="BBVA Wallet" hspace="6" style="-ms-interpolation-mode:bicubic;Margin:0;border:none;clear:both;display:inline-block;margin:0;max-width:100%;outline:0;text-decoration:none;width:100px;padding: 5px 5px 10px 5px;"></a>
+                <a target="_blank" href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867ef0f8ffd16e5a9a9fdefc4e754470742f20ca3aa0b9634a8a381d7cad2a8d956108f69b3025f333e2ef5df59a82b770be" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                    <img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/d183277d-111c-4fa6-afa5-01a88bddfe93.png" alt="BBVA Wallet" hspace="6" style="-ms-interpolation-mode:bicubic;Margin:0 ;border:none;clear:both;display:inline-block;margin:0;max-width:100%;outline:0;text-decoration:none;width:100px; padding: 5px "></a>
+
+                <a target="_blank" href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e64fed98c5ef96f4284bb088252090f548492e2e4a43ea1e377ed42821d7e7ec8cb60a73e2703cf510df6f782c3412bd7" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                 <img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/527c14f3-5756-44aa-9928-0cd65af45944.png" alt="BBVA Wallet" hspace="6" style="-ms-interpolation-mode:bicubic;Margin:0;border:none;clear:both;display:inline-block;margin:0;max-width:100%;outline:0;text-decoration:none;width:110px;padding: 5px "></a>
+
+                <a target="_blank" href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867eea496f0aad5100e99564d56d169a541f72d64cc6141c52cb7b3a07353c196c3a75d48be48825d5f640dc39b222efe4bf" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                 <img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/73b0f8e1-7103-404a-8870-a15fabd6ca79.png" alt="BBVA Wallet" hspace="6" style="-ms-interpolation-mode:bicubic;Margin:0;border:none;clear:both;display:inline-block;margin:0;max-width:100%;outline:0;text-decoration:none;width:100px;padding: 5px "></a>
+
+                <a target="_blank" href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e0d19d83f119f77b02e7c327c99332ca817195d4202fa6dfd8cf8b556465fd1688349dfb0ffb062ca289b93b202b778f8" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none">
+                                                                    <img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/d1873fd2-341e-4ddc-9afc-3b11211567b4.png" alt="BBVA Wallet" hspace="6" style="-ms-interpolation-mode:bicubic;Margin:0 2px;border:none;clear:both;display:inline-block;margin:0;max-width:100%;outline:0;text-decoration:none;width:100px;padding: 5px "></a>
+
+                                                                    
+                </p>
+                </td>
+                </tr>
+                            </tbody>
+               </table>
+
+
+              </th>
+              </tr>
+             </table>
+            </th>
+           </tr>
+          </tbody>
+        
+         </table>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </td>
+    </tr>
+   </table>
+        <!--//Logos-->
+
+        <!--BBVA Wallet-->
+   <table align="center" class="wrapper contact float-center" style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:100%">
+    <tr style="padding:0;text-align:left;vertical-align:top">
+     <td class="wrapper-inner" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+      <table align="center" class="container" style="Margin:0 auto;background:#fff;border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:inherit;vertical-align:top;width:600px">
+       <tbody>
+        <tr style="padding:0;text-align:left;vertical-align:top">
+         <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+          <table class="row contact-network" style="background:#E9E9E9;border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+           <tbody>
+            <tr style="padding:0;text-align:left;vertical-align:top">
+             <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:48px;padding-left:50px;padding-right:50px;padding-top:48px;text-align:left;width:582px">
+              <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+               <tr style="padding:0;text-align:left;vertical-align:top">
+                <td class="alert-icon-container" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding-top:10px;text-align:left; padding-left: 60px; padding-right: 25px; width:60px; height: 60px;">
+                 <a href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e2ed615c5ca71fa368b50939e1ad499610d45b5d87fa24c50629df50af74637f169bd2c1a231c6626817d5bd637ea015c"  target="_blank">
+                  <img class="contact-network-icon" src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/7b8562da-90aa-4d00-8334-51685c25c6fa.png"  hspace="6"  style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;max-width:100%;outline:0;text-decoration:none;width:auto" alt="">
+                 </a>
+                </td>
+                <td class="alert-message-text" style="Margin:0;Margin-bottom:0;Margin-left:0;Margin-right:15px;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:300;line-height:1.3;padding-right:45px;text-align:left; hyphens: none;padding-top: 20px;width: 300px;hyphens: none;-ms-hyphens: none;-webkit-hyphens: none;">
+                 <p style="margin: 0;hyphens: none;-ms-hyphens: none;-webkit-hyphens: none;">Conoce más promociones en BBVA Wallet. 
+                                                                        <br>
+                                                                        Si aún no la tienes <a class="alert-message-text" href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e728009bc06c773e8af458f434b16dbdc9a38f0fce287ae40c5bca0d49669c496b1e9f1df956f4bf29cd85af2a90f703d" target="_blank"  style="font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1.3;color:#1973B8!important;text-decoration:none;">¡Descárgala!</a>
+                 </p>
+                </td>
+               </tr>
+              </table>
+             </th>
+            </tr>
+           </tbody>
+          </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </td>
+    </tr>
+   </table>
+            <!--//BBVA Wallet-->
+
+ <!--Sociales-->
+  <table align="center" class="wrapper contact float-center" style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:100%">
+   <tr style="padding:0;text-align:left;vertical-align:top">
+    <td class="wrapper-inner" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+     <table align="center" class="container" style="Margin:0 auto;background:#fff;border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:inherit;vertical-align:top;width:600px">
+      <tbody>
+       <tr style="padding:0;text-align:left;vertical-align:top">
+        <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+
+        <!--CONTACTO-->
+         
+         <table class="row contact-location" style="background:#004481;border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%; margin: 0;">
+          <tbody>
+           <tr style="padding:0;text-align:left;vertical-align:top">
+            <th class="small-12 large-12 columns first" style="Margin:0 auto;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0!important;padding-left:50px;padding-right:50px;text-align:left;width:195px">
+             <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+              <tr style="padding:0;text-align:left;vertical-align:top">
+               <th style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+               <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%" >
+                <tbody>
+                 <tr style="padding:0;text-align:left;vertical-align:top">
+                  <td height="14px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:14px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word; height: 19px" >&#xA0;
+                  </td>
+                 </tr>
+                </tbody>
+               </table>
+               <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                <tr>
+                 <td style="width: 20px; padding-right: 10px">
+                  <p class="contact-network-text" style="Margin:0;Margin-bottom:0!important;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;margin-bottom:0!important;padding:0;text-align:left;">
+
+
+                  <a href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e6ade6c3161f1f84ef2e1268e8fd0f1b87c39a1e0f8839789aaa779b0dc089bdb5cf3d9b7cfd5bcf96c4a0344a4a4f14b" target="_blank" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none"><img class="contact-network-icon" src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/e1605df3-1f77-4603-ac4e-5e155bdfdf29.png" alt="Encuentra una sucursal" hspace="6" style="-ms-interpolation-mode:bicubic;Margin:0 2px;border:none;clear:both;display:inline-block;margin:0 2px;max-width:100%;outline:0;text-decoration:none;width:20px; height: 20px">
+                  </a>
+
+                  </p>
+                 </td>
+                 <td>
+                 <p style="text-align: left;Margin:0;Margin-bottom:0!important;Margin-left:0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica,Arial,sans-serif;font-size: 14px;line-height: 1.3;font-weight:400;margin-left:0;margin-right:0; hyphens: none;">
+                    <a href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e6ade6c3161f1f84ef2e1268e8fd0f1b87c39a1e0f8839789aaa779b0dc089bdb5cf3d9b7cfd5bcf96c4a0344a4a4f14b" target="_blank" style="color:#ffffff;text-decoration: none;word-wrap: break-word;font-weight: 400;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; hyphens: none;">Encuentra una sucursal</a>
+                  </p>
+
+                 </td>
+                 <td>
+                 <p style="text-align: right;Margin:0;Margin-bottom:0!important;Margin-left:0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica,Arial,sans-serif;font-size: 14px;line-height: 1.3;font-weight:400;margin-left:0;margin-right:0;; hyphens: none;">
+                    <a href="tel:01-800-226-2663" target="_blank" style="color: #fff !important; text-decoration: none!important;">
+                        ¿Necesitas ayuda?
+                     </a>
+                    <a href="tel:01-800-226-2663"  target="_blank" style="color: #fff !important; text-decoration: none;word-wrap: break-word;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; hyphens: none;padding-left:10px;display: inline-block;">01 800 226 2663</a>
+                  </p>
+
+
+                 </td>
+                </tr>
+               </table>
+
+               <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                <tbody>
+                 <tr style="padding:0;text-align:left;vertical-align:top">
+                  <td height="14px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:14px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word; height: 19px" >&#xA0;
+                  </td>
+                 </tr>
+                </tbody>
+               </table>
+              </th>
+              </tr>
+             </table>
+            </th>
+         </tr>
+        </tbody>
+       </table>
+        <!--//Contacto-->
+
+        <!--Social Icon-->
+         <table class="row contact-network" style="background:#1973B8;border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+          <tbody>
+           <tr style="padding:0;text-align:left;vertical-align:top">
+            <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:40px;padding-left:18px;padding-right:18px;padding-top:40px;text-align:left;width:582px">
+             <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+              <tr style="padding:0;text-align:left;vertical-align:top">
+               <th style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+                <p class="contact-network-text" style="Margin:0;Margin-bottom:0!important;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;margin-bottom:0!important;padding:0;text-align:center">Síguenos en:
+                </p>
+                <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+                 <tbody>
+                  <tr style="padding:0;text-align:left;vertical-align:top">
+                   <td height="20px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;hyphens:auto;line-height:10px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;
+                   </td>
+                  </tr>
+                 </tbody>
+                </table>
+                 <p class="contact-network-text" style="Margin:0;Margin-bottom:0!important;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:1px;font-weight:400;line-height:1.3;margin:0;margin-bottom:0!important;padding:0;text-align:center">  <a href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e294c53df85fd6cdd57bd8a8b9b02f2c9dbec7de8b5808819b4b91d42e6f71131bf44a2b0a269756973a58030573862b6" target="_blank" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none;padding-right: 6px">
+<img class="contact-network-icon" src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/40a1568d-9290-4c19-8109-4b315a9285ea.png" alt="link to facebook" hspace="6" style="-ms-interpolation-mode:bicubic;Margin:0 2px;border:none;clear:both;display:inline-block;margin:0 2px;max-width:26px;outline:0;text-decoration:none;width:26px">
+                  </a>
+                  <a href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e61f6e4cfe8016ef91428adf5ff5a76060f2ac6b9cf660a6c5b0dc016f86d3e50f2f1a85c5bfbab5e39e04c4e306dcd8b" target="_blank" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none;padding-left: 6px;"><img class="contact-network-icon" src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/932446d8-cdb2-4410-9a5c-0849ce7c49e5.png" alt="link to twitter" hspace="6" style="-ms-interpolation-mode:bicubic;Margin:0 2px;border:none;clear:both;display:inline-block;margin:0 2px;max-width:26px;outline:0;text-decoration:none;width:26px">
+                  </a>
+                 </p>
+
+               </th>
+               <th class="expander" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">
+               </th>
+              </tr>
+             </table>
+            </th>
+           </tr>
+          </tbody>
+         </table>
+          <!--//Social Icon-->
+
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </td>
+ </tr>
+</table>
+ <!--//Sociales-->
+
+<!--Caja de Cierre-->
+<table align="center" class="wrapper footer float-center" style="Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;width:100%">
+ <tr style="padding:0;text-align:left;vertical-align:top">
+  <td class="wrapper-inner" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+   <table align="center" class="container" style="Margin:0 auto;background:#fff;border-collapse:collapse;border-spacing:0;margin:0 auto;padding:0;text-align:inherit;vertical-align:top;width:600px">
+    <tbody>
+     <tr style="padding:0;text-align:left;vertical-align:top">
+      <td style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
+       <table class="row footer-brand" style="background:#F4F4F4;border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+        <tbody>
+         <tr style="padding:0;text-align:left;vertical-align:top">
+          <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0px;padding-left:18px;padding-right:18px;text-align:justify;width:582px">
+           <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+            <tr style="padding:0;text-align:left;vertical-align:top">
+             <th style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:justify;">
+              <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+               <tbody>
+                <tr style="padding:0;text-align:left;vertical-align:top">
+                 <td height="45px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:28px;font-weight:400;hyphens:auto;line-height:45px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;
+                 </td>
+                </tr>
+               </tbody>
+              </table>
+              <table class="wrapper footer-brand-logo" align="center" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:center;vertical-align:top;width:90%">
+               <tr style="padding:0;text-align:left;vertical-align:top">
+                <td class="wrapper-inner" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:justify;vertical-align:top;word-wrap:break-word">
+
+                 <p class="footer-brand-headline" style="Margin:0;Margin-bottom:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:13px;font-weight:300;line-height:18px;margin:0;margin-bottom:0;padding:0;text-align:center; hyphens: none;-ms-hyphens: none;-webkit-hyphens: none;">
+                  Te enviamos este correo porque estás suscrito para recibir promociones, beneficios y ofertas especiales. Si ya no lo deseas puedes dar <a class="link" href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e26bf6f79d17860e1a18fb0ddc14e37d5a383a6b54b6a66867d8273a69660f5f83cae8d9200eaef9647e8fcc70649109e" target="_blank" style="Margin:0;color:#1973B8;font-family:Helvetica,Arial,sans-serif;font-weight:700;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none; hyphens: none;">clic aquí.</a></p>
+                </td>
+               </tr>
+              </table>
+               <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+               <tbody>
+                <tr style="padding:0;text-align:left;vertical-align:top">
+                 <td height="40px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:28px;font-weight:400;hyphens:auto;line-height:40px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;
+                 </td>
+                </tr>
+               </tbody>
+              </table>
+              <table class="wrapper footer-brand-logo" align="center" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:center;vertical-align:top;width:100%">
+               <tr style="padding:0;text-align:center;vertical-align:top">
+                <td class="wrapper-inner" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#F4F4F4;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:center;vertical-align:top;word-wrap:break-word">
+                 <p class="footer-brand-logo-text" style="Margin:0;Margin-bottom:0;color:#F4F4F4;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1.3;margin:0;margin-bottom:0;padding:0;text-align:center"><img class="footer-brand-logo-img" src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/107cfa6f-0937-4b8d-98f6-dc7deba08760.png" alt="BBVA logo blue" style="-ms-interpolation-mode:bicubic;clear:both;display:inline-block;max-width:250px;outline:0;text-decoration:none;width:auto; ">
+                 </p>
+
+                </td>
+               </tr>
+              </table>
+              <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+               <tbody>
+                <tr style="padding:0;text-align:left;vertical-align:top">
+                 <td height="40px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:45px;font-weight:400;hyphens:auto;line-height:40px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;
+                 </td>
+                </tr>
+               </tbody>
+              </table>
+              <p class="footer-brand-text" style="Margin:0;Margin-bottom:0;Margin-left:32px;Margin-right:32px;color:#666;font-family:Helvetica,Arial,sans-serif;font-size:11px;font-weight:300;line-height:13px;margin:0;margin-bottom:0;margin-left:32px;margin-right:32px;padding:0;text-align:center; hyphens: none;-ms-hyphens: none;-webkit-hyphens: none;"><a class="link apple" style="Margin:0;color:#666!important;font-family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:center;text-decoration:none; hyphens: none;-ms-hyphens: none;-webkit-hyphens: none;"><span class="apple-data-link" style="color:inherit!important;text-decoration:none!important">
+<strong style="font-weight: 700;">BBVA Bancomer, S.A., Institución de Banca Múltiple, Grupo Financiero BBVA Bancomer.</strong><br/>
+               Avenida Paseo de la Reforma 510, colonia Juárez, código postal 06600, alcaldía Cuauhtémoc, Ciudad de México.</span></a>
+              </p>
+
+              <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+               <tbody>
+                <tr style="padding:0;text-align:left;vertical-align:top">
+                 <td height="45px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:400;hyphens:auto;line-height:45px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;
+                 </td>
+                </tr>
+               </tbody>
+              </table>
+             </th>
+             <th class="expander" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">
+             </th>
+            </tr>
+           </table>
+          </th>
+         </tr>
+        </tbody>
+       </table>
+       <table class="row footer-legal" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+        <tbody>
+         <tr style="padding:0;text-align:left;vertical-align:top">
+          <th class="small-12 large-12 columns first last" style="Margin:0 auto;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:18px;padding-left:18px;padding-right:18px;text-align:left;width:582px">
+           <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+            <tr style="padding:0;text-align:left;vertical-align:top">
+             <th style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left">
+              <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
+               <tbody>
+                <tr style="padding:0;text-align:left;vertical-align:top">
+                 <td height="45px" style="-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:45px;font-weight:400;hyphens:auto;line-height:45px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&#xA0;
+                 </td>
+                </tr>
+               </tbody>
+              </table>
+              <!--Legales-->
+              <p class="footer-legal-text" style="Margin:0;Margin-bottom:0;Margin-left:32px;Margin-right:32px;color:#666;font-family:Helvetica,Arial,sans-serif;font-size:9px;font-weight:300;line-height:1.3;margin:0;margin-bottom:0;margin-left:32px;margin-right:32px;padding:0;padding-bottom: 10px;text-align:right; hyphens: none;-ms-hyphens: none;-webkit-hyphens: none;">
+              WF-132381
+
+              </p>
+              <p class="footer-legal-text" style="Margin:0;Margin-bottom:0;Margin-left:32px;Margin-right:32px;color:#666;font-family:Helvetica,Arial,sans-serif;font-size:9px;font-weight:300;line-height:1.3;margin:0;margin-bottom:0;margin-left:32px;margin-right:32px;padding:0;text-align:justify; hyphens: none;">
+               Ofertas meses sin intereses 
+                    <label style="font-size:18px; font-weight:bold">CAT 91.4%</label> sin IVA. Tasa de interés promedio ponderada por saldo en términos anuales <label style="font-size:14px; font-weight:bold">0.0%</label> y comisión anual $1033.00 sin IVA informativo. Fecha de cálculo 28 de febrero de 2019.
+                <br /><br />
+Vigencia de la promoción del 1 de mayo al 31 de julio de 2019. Consulta términos y condiciones de la <strong><a href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867ecafd8d57f8cabc185cf95bab9e452910fe3d1810092f4c13af89d921764f8a25124c11a28514e84b772a5ce64f98ad17" target="_blank"  style="text-decoration: none; color:   #237aba"> promoción.</a> </strong>
+<br /><br />
+
+
+Se aceptan pagos vencidos.
+                                                                          
+<br /><br />
+Consulta términos, condiciones, comisiones y requisitos de contratación de las <strong><a href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867e778c489119a01f40bdd5a71295ac70d190e40180f4a221cc2da195ff6176bfb206b007671bbe6aeb1f53f32fc82cf6a7"  target="_blank" style="text-decoration: none; color:   #237aba"> tarjetas de crédito</a></strong>. Sujeto a buen historial crediticio y capacidad de pago. Contratación en moneda nacional. Aplican restricciones.<br> <br>
+ 
+ 
+
+Consulta términos, condiciones y requisitos de contratación de la aplicación <strong><a href="http://click.promociones.bbva.mx/?qs=bc348c3ae4ad867ef49730d6a9048e89ded71db56eb75de43eb2647864c7496c3cecc41cacefaca45aeac64f5802e5426bb4c8f3efee9bfe" target="_blank"  style="text-decoration: none; color:   #237aba"> BBVA Wallet.</a> </strong> <br> <br> 
+ 
+
+               </p>
+            <!--//Legales-->
+        <!--/////////////////////////////////////////////// NO BORRAR CODIGO TEMPLATE ///////////////////////////////////////-->
+
+            <!--Código template-->
+                        
+            
+              <p class="footer-legal-text" style="Margin:0;Margin-bottom:0;Margin-left:32px;Margin-right:32px;color:#666;font-family:Helvetica,Arial,sans-serif;font-size:9px;font-weight:300;line-height:1.3;margin:0;margin-bottom:0;margin-left:32px;margin-right:32px;padding:0;padding-top: 20px; padding-bottom: 60px;text-align:right; hyphens: none;-ms-hyphens: none;-webkit-hyphens: none;">
+                  T11AC
+              </p>
+               
+            <!--//Código template-->
+
+    <!--/////////////////////////////////////////////// NO BORRAR CODIGO TEMPLATE ///////////////////////////////////////-->
+
+
+             </th>
+             <th class="expander" style="Margin:0;color:#121212;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">
+             </th>
+            </tr>
+           </table>
+          </th>
+         </tr>
+        </tbody>
+       </table>
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </td>
+ </tr>
+</table>
+</center>
+</td>
+</tr>
+</table>
+<!-- prevent Gmail on iOS font size manipulation -->
+<div style="display:none;white-space:nowrap;font:15px courier;line-height:0">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+</div>
+  <img src="http://click.promociones.bbva.mx/open.aspx?ffcb10-ff3216767561-fec111787d61077c-fe3d157075640578731772-ff971577-fec21177746d0678-ff63157771" width="1" height="1">
+</body>
+</html>

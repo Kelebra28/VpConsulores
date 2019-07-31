@@ -1,0 +1,435 @@
+Return-Path: <bounces+1544212-6426-raymundo=vpconsultores.com.mx@sendgrid.net>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id kDcfCmV4r1x0khQAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Thu, 11 Apr 2019 10:24:53 -0700
+Return-path: <bounces+1544212-6426-raymundo=vpconsultores.com.mx@sendgrid.net>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Thu, 11 Apr 2019 10:24:53 -0700
+Received: from o2.3le.shared.sendgrid.net ([167.89.100.128]:5787)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <bounces+1544212-6426-raymundo=vpconsultores.com.mx@sendgrid.net>)
+	id 1hEdRT-005gTa-Ks
+	for raymundo@vpconsultores.com.mx; Thu, 11 Apr 2019 10:24:53 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.me;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to;
+	s=smtpapi; bh=KZN0HtsG2wVdT+uZabG3Wz/5bdwyh3u/0pBgaSMTNO0=;
+	b=jXYV9C7JdEMqV6GVM2eZL61gjr15a/HLZDGNHGgdfiJyunWt/od73qp+uIHuKgdpSgl0
+	Zy6Be2DVMXh56wsqefsGUGIWdsWrzzDfk4dKkWMsHZqOI9HclpPDx8ANfnTonKQbHlEbc4
+	ZgzqzLTY4Q+LWOT9dxcTg8jf46ITH/8u4=
+Received: by filter0080p3las1.sendgrid.net with SMTP id filter0080p3las1-6774-5CAF783A-41
+        2019-04-11 17:24:10.987608228 +0000 UTC m=+239244.931994396
+Received: from MTU0NDIxMg (unknown [104.248.49.111])
+	by ismtpd0044p1mdw1.sendgrid.net (SG) with HTTP id lXV5ZNPvRP-wxwEu6FJ0Ow
+	for <raymundo@vpconsultores.com.mx>; Thu, 11 Apr 2019 17:24:10.931 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=iso-8859-1
+Date: Thu, 11 Apr 2019 17:24:11 +0000 (UTC)
+From: Daniel de Cloud TI <info@cloud-ti.com>
+Mime-Version: 1.0
+Subject: Website a precio especial para ti
+Message-ID: <lXV5ZNPvRP-wxwEu6FJ0Ow@ismtpd0044p1mdw1.sendgrid.net>
+X-SG-EID: 
+ =?us-ascii?Q?Q0J120W4ZU2dvxvzBhStZTINo=2F4Z3WbaPRwChrH21jhXJ6DFy3n5AAGFX8NxlK?=
+ =?us-ascii?Q?9SHEMPOypCXS5XPWjSsr0rnG3wtWXZTtQDAw=2FxY?=
+ =?us-ascii?Q?UltF02+8u+0weowHxEBPgmSjTWYXxhPag34q7y6?=
+ =?us-ascii?Q?FZ=2Fp+u=2FVBTZv7q4BGf9qkgqhdlMXqjYJMr5+Pbh?=
+ =?us-ascii?Q?q2zmD3tAznehlsvj0sPoA4IjXKQIy1oKcOCEfTF?=
+ =?us-ascii?Q?aG9V5SP6B7tKNvf1pLxG+u0Qsk18hIqyHqQ0e1?=
+To: raymundo@vpconsultores.com.mx
+X-Spam-Status: No, score=1.4
+X-Spam-Score: 14
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Cloud TI WebPages Websites ¿Has pensado en mejorar tu presencia
+    en Internet? Aprovecha nuestra promoción, creamos tu sitio web desde cero
+    o lo modernizamos a las nuevas tecnologías. Te incluimos G
+ 
+ Content analysis details:   (1.4 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: sendgrid.me]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: sendgrid.me]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+X-Spam-Flag: NO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta name=3D"viewport" content=3D"width=3Ddevice-width" />
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<title>Cloud TI WebPages</title>
+<style type=3D"text/css">
+	body{
+		background-color:#e5e9ec;=20
+		font-family: Arial, Helvetica, sans-serif;
+		color: #999;
+		font-size: 12px;
+		margin: 0;
+	}=09
+=09
+	a	{
+		color: #555;
+		text-decoration: none;
+	}
+=09
+	a:hover	{
+		color: #004979;
+	}
+=09
+	.skin-font	{
+		color: #004979;
+	}
+=09
+	.bg-white	{
+		background-color: #ffffff;
+	}
+=09
+	.bg-grey	{
+		background-color: #fafafa;
+	}
+=09
+	.text-white	{
+		color: #fff;
+	}
+=09
+	.text-skin	{
+		color: #004979;
+	}
+=09
+	.hover-white:hover	{
+		color: #fff;
+	}
+=09
+	.email-btn	{
+		background-color: #fff;
+		border: 1px solid #eee;
+		border-radius:4px;=20
+		background-clip: padding-box;
+		font-size:13px;=20
+		text-align:center; =20
+		color:#777;=20
+		font-weight: 300;=20
+	}
+=09
+	.email-btn.skin-color	{
+		background-color: #004979;
+	}
+=09
+	.email-btn.skin-color:hover	{
+		background-color: #3a3a3a;
+	}
+=09
+	.email-btn.skin-color .btn-inner	{
+		color: #fff;
+	}
+=09
+	.btn-inner	{
+		display: block;
+		padding: 7px 10px;
+	}
+</style>
+</head>
+<body>
+<table width=3D"100%" id=3D"wrapper" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" bgcolor=3D"#e5e9ec"> =20
+	<tbody>
+		<tr>
+			<td>=09
+				<table bgcolor=3D"#004979" align=3D"center" width=3D"600" style=3D"heig=
+ht:5px;">
+					<tbody><tr><td></td></tr></tbody>
+				</table>
+			</td>=09
+		</tr>
+		<tr>
+			<td>=09
+				<table bgcolor=3D"#ffffff" align=3D"center" width=3D"600" style=3D"bord=
+er-bottom: 1px solid #eee; padding:15px 0;">
+					<tbody>
+						<tr>
+							<td>
+								<table bgcolor=3D"#ffffff" align=3D"left" width=3D"100%">
+									<tbody>
+										<tr>
+											<td align=3D"left" valign=3D"top">
+												<table width=3D"100%" border=3D"0" align=3D"center" cellpadding=
+=3D"0" cellspacing=3D"0">
+													<tbody>
+														<tr>
+															<td align=3D"center" valign=3D"top">
+																<img src=3D"http://cloud-ti.com/images/logo_home.png" alt=
+=3D"" style=3D"height:80px;" />
+															</td>
+														</tr>
+														<tr>
+															<td align=3D"center" style=3D"color:#004979;font:11px Arial,=
+ Helvetica, sans-serif;">Websites</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										  </tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>=09
+		</tr>
+		<tr>
+			<td>=09
+				<table bgcolor=3D"#ffffff" align=3D"center" width=3D"600" style=3D"bord=
+er-spacing: 0;">
+					<tbody>
+						<tr align=3D"center" bgcolor=3D"#ffffff">
+							<td><img src=3D"http://cloud-ti.com/assets/img-temp/websites.png" al=
+t=3D"featured product" width=3D"400" style=3D"margin:0 auto;" /></td>
+						</tr>
+						<tr style=3D"height:20px;"><td></td></tr>
+						<tr align=3D"center">
+							<td style=3D"font:21px Arial, Helvetica, sans-serif;">=BFHas pensado=
+ en mejorar tu presencia en Internet?</td>
+						</tr>
+						<tr style=3D"height:15px;"><td></td></tr>
+						<tr align=3D"center" style=3D"padding-top: 10px;">
+							<td style=3D"font:14px Arial, Helvetica, sans-serif; padding:0 50px =
+20px;">
+								Aprovecha nuestra promoci=F3n, creamos tu sitio web desde cero o lo=
+ modernizamos a las nuevas tecnolog=EDas.  Te incluimos <b>GRATIS</b> hosti=
+ng y dominio .com por 1 a=F1o.
+							</td>
+						</tr>
+						<tr align=3D"center" style=3D"padding-top: 10px;" bgcolor=3D"#ffffff"=
+>
+							<td>
+								<table border=3D"0" align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" bgcolor=3D"#ffffff">
+									<tbody>
+										<tr>
+											<td align=3D"center" valign=3D"middle" height=3D"32" class=3D"em=
+ail-btn skin-color">
+												<a href=3D"https://u1544212.ct.sendgrid.net/wf/click?upn=3DwccS=
+rFMtuW3qlfr6lAnfOqZedPQoR6-2B5Rjo6A-2BtAFNM-3D_KpkYMKpiAm6Kt3MQ93g8W22uHtXu=
+No6x0sHVTDVd9om2bk0DC-2BTQdebJHHqHG8qOtKpVrM1BZiNzAZdlO9B1xB4sLpUneELom7i-2=
+FuxXIVMtvxje-2F7nbam1R5BH0A3jRC9RF4UplaHyk9aAfQVAo8l4Xgs3SgkjBW0DaDPgqxAKZG=
+rOAs3JpT71x-2BIAPW4H9SfLDjjSJTigO2wAelWQxv5iqPIBXVMvkV6oLZV5ghA7E-3D" class=
+=3D"btn-inner">
+													=BFQuienes Somos?
+												</a>
+											</td>
+											<td valign=3D"top">
+												<table width=3D"20" border=3D"0" align=3D"center" cellpadding=
+=3D"0" cellspacing=3D"0">
+													<tbody>
+														<tr>
+															<td valign=3D"top">
+																&nbsp;
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+											<td align=3D"center" valign=3D"middle" height=3D"32" class=3D"em=
+ail-btn">
+												<a href=3D"https://u1544212.ct.sendgrid.net/wf/click?upn=3DwccS=
+rFMtuW3qlfr6lAnfOlV8oTyt2Vn7OJvgKLIuMNN9Gu5cYVsfzoINtBCPQ5Ko_KpkYMKpiAm6Kt3=
+MQ93g8W22uHtXuNo6x0sHVTDVd9om2bk0DC-2BTQdebJHHqHG8qOtKpVrM1BZiNzAZdlO9B1xL0=
+RBdFMUQ9a1WehnObUfoNcMfzNfbbo7acLaoYEgETS9bmrzpLkSvkQME5-2FSt9b4apmDxp7W53r=
+jE5o-2BfdA2YuamtBqMeSPcbLjCCQO2BccOdVXFRAoFAE3-2Bi3OopEoeActN3vg0SlVk5cFpdV=
+TyRQ-3D" class=3D"btn-inner">
+													Cont=E1ctanos
+												</a>
+											</td>
+										</tr>
+									</tbody>
+							   </table>
+							</td>
+						</tr>
+						<tr style=3D"height:40px;"><td></td></tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr align=3D"center">
+			<td>=09
+				<table bgcolor=3D"#fafafa" align=3D"center" width=3D"600" style=3D"padd=
+ing:15px 0; border-bottom: 1px solid #eee;">
+					<tbody>
+						<tr align=3D"center">
+							<td style=3D"font:22px Arial, Helvetica, sans-serif;" class=3D"skin-=
+font"><small>3 pagos quincenales de</small><br><br>$ 1,835.00 MXN</td>
+						</tr>
+						<tr style=3D"padding-top: 10px;" align=3D"center">
+							<td style=3D"font-weight: bold;font:14px Arial, Helvetica, sans-seri=
+f; padding:10px 50px 10px;">
+								! Sin cargo adicional !
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>=09
+				<table bgcolor=3D"#fafafa" align=3D"center" width=3D"600" style=3D"padd=
+ing-bottom:15px;">
+					<tbody>
+						<tr>
+							<td valign=3D"top" >
+								<table bgcolor=3D"#fafafa" align=3D"center" width=3D"290" style=3D"=
+padding:15px 0;">
+									<tbody>
+										<tr>
+											<td><img src=3D"img/email_template/mockup2.jpg" alt=3D"" width=
+=3D"250" style=3D"display:block; margin:0 auto;" /></td>
+										</tr>
+									=09
+										<tr align=3D"center">
+											<td style=3D"font:22px Arial, Helvetica, sans-serif; padding-top=
+:10px;" class=3D"skin-font">Responsivo</td>
+										</tr>
+										<tr align=3D"center">
+											<td style=3D"font:11px Arial, Helvetica, sans-serif;">
+												Tu sitio web adaptable a cualquier dispositivo, computadora, ta=
+blet o smartphone.
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+							<td valign=3D"top" >
+								<table bgcolor=3D"#fafafa" align=3D"center" width=3D"290" style=3D"=
+padding:15px 0;">
+									<tbody>
+										<tr>
+											<td><img src=3D"img/email_template/mockup3.jpg" alt=3D"" width=
+=3D"250" style=3D"display:block; margin:0 auto;" /></td>
+										</tr>
+										<tr align=3D"center">
+											<td style=3D"font:22px Arial, Helvetica, sans-serif; padding-top=
+:10px;" class=3D"skin-font">Administrable</td>
+										</tr>
+									=09
+										<tr align=3D"center">
+											<td style=3D"font:11px Arial, Helvetica, sans-serif;">
+												Edita el contenido de tu sitio web de manera f=E1cil y en el mo=
+mento que desees, crea formularios de contacto, p=E1ginas ilimitadas, Slide=
+rs y mucho m=E1s.
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>=09
+				<table bgcolor=3D"#ffffff" align=3D"center" width=3D"600" style=3D"bord=
+er-spacing: 0;">
+					<tbody>
+						<tr style=3D"height:15px;"><td></td></tr>
+						<tr align=3D"center" style=3D"padding-top: 10px;">
+							<td style=3D"font:14px Arial, Helvetica, sans-serif; padding:0 50px =
+20px;">
+								<a href=3D"https://u1544212.ct.sendgrid.net/wf/click?upn=3DwccSrFMt=
+uW3qlfr6lAnfOqZedPQoR6-2B5Rjo6A-2BtAFNM-3D_KpkYMKpiAm6Kt3MQ93g8W22uHtXuNo6x=
+0sHVTDVd9om2bk0DC-2BTQdebJHHqHG8qOtKpVrM1BZiNzAZdlO9B1xE-2F0-2BZkbcvmAM3z6z=
+sZhhoRXyjkgjX0ulbQV1kX3aVa8-2FRg9N-2BExar57Ur3X-2FbbkATb-2FfLYFAldsiTZNQ7lP=
+dRkUj5ySPGNLXOpg5McUkEQYg-2FSbRmk6tpsqf31RvhO6La0yhMS8-2FthPIX18ZH221D0-3D"=
+>Cont=E1ctanos</a> respondiendo a =E9ste email o en nuestro <a href=3D"http=
+s://u1544212.ct.sendgrid.net/wf/click?upn=3DwccSrFMtuW3qlfr6lAnfOlV8oTyt2Vn=
+7OJvgKLIuMNN9Gu5cYVsfzoINtBCPQ5Ko_KpkYMKpiAm6Kt3MQ93g8W22uHtXuNo6x0sHVTDVd9=
+om2bk0DC-2BTQdebJHHqHG8qOtKpVrM1BZiNzAZdlO9B1xMnbT6hByd60BmQSSvJpaHv6VyHDHU=
+6-2BlzzmgKrw3XW9h-2Fqalyzf5YtaRF5NStBjYRsS0rsQk2b4scIRQJR25NajkD98q1vnmH1YH=
+Z0URnJgVHUUYe06VR3BWga6r3fFkBAbRv1O12-2Bhu4U4dNEB-2FXo-3D">sitio web</a>. P=
+erm=EDtenos ayudarte a elegir la mejor alternativa para tu negocio.
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" width=3D"600">
+					<tbody>
+						<tr>
+							<td bgcolor=3D"#004979" align=3D"center">
+								<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+									<tbody>
+										<tr>
+											<td class=3D"content" width=3D"560">
+												<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+													<tbody>
+														<tr>
+															<td class=3D"content_row" height=3D"15" width=3D"560">
+															</td>
+														</tr>
+														<tr>
+															<td class=3D"text-white" align=3D"center" width=3D"560">
+																<a href=3D"https://u1544212.ct.sendgrid.net/wf/click?upn=3D=
+wccSrFMtuW3qlfr6lAnfOqZedPQoR6-2B5Rjo6A-2BtAFNM-3D_KpkYMKpiAm6Kt3MQ93g8W22u=
+HtXuNo6x0sHVTDVd9om2bk0DC-2BTQdebJHHqHG8qOtKpVrM1BZiNzAZdlO9B1xG6BmHI2SmyQr=
+O7v301-2BysOc-2BpfyxScWuZpoX4qwbP1KUE96a8L4d7CMHOoP-2BAt-2Bnw2l9LzOVbSWyNtJ=
+bw4EDpP5ajYsW0N-2BJUXGFzHcQXHND8T6f2tf2JrsFMaTvTAXdXFKoIFiHwL9XmSDbW-2FepgE=
+-3D" class=3D"text-white hover-white" style=3D"color:#fff;">http://cloud-ti=
+.com</a>
+															</td>
+														</tr>
+														<tr>
+															<td class=3D"content_row" width=3D"560" height=3D"20">
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<img src=3D"https://u1544212.ct.sendgrid.net/wf/open?upn=3DKpkYMKpiAm6Kt3MQ=
+93g8W22uHtXuNo6x0sHVTDVd9om2bk0DC-2BTQdebJHHqHG8qOtKpVrM1BZiNzAZdlO9B1xIT4o=
+y7tr1PvktCQeCR5Axd-2FL21WWbmSWVEiXCQ-2BFtl0Kyf3Wmv5wTHxx1C1MCZwE7ZM1fw-2FH4=
+zgies9q9aesKDSTaChBnG2BAM5t7g76ipYBBogY7uix6nwHfWBmRLIO5DZ4fRd2q5Y0j46Uu3Gf=
+LI-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !=
+important;width:1px !important;border-width:0 !important;margin-top:0 !impo=
+rtant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !i=
+mportant;padding-top:0 !important;padding-bottom:0 !important;padding-right=
+:0 !important;padding-left:0 !important;"/></body>
+</html>=

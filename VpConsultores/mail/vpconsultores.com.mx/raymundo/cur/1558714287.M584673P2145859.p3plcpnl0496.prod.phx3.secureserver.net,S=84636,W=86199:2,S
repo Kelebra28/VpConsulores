@@ -1,0 +1,1563 @@
+Return-Path: <maria.rosalino@alvear.com.mx>
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id iG8BIK8X6FxDviAAFq4nlA
+	(envelope-from <maria.rosalino@alvear.com.mx>); Fri, 24 May 2019 09:11:27 -0700
+Return-path: <maria.rosalino@alvear.com.mx>
+Envelope-to: patricia@vpconsultores.com.mx,
+ raymundo@vpconsultores.com.mx
+Delivery-date: Fri, 24 May 2019 09:11:27 -0700
+Received: from mail-eopbgr820054.outbound.protection.outlook.com ([40.107.82.54]:36846 helo=NAM01-SN1-obe.outbound.protection.outlook.com)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <maria.rosalino@alvear.com.mx>)
+	id 1hUCmu-0096d4-TV; Fri, 24 May 2019 09:11:27 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=alvearcorp.onmicrosoft.com; s=selector1-alvearcorp-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=rtcP2GGJdRVTQsmefaIQ3FZAQ2PkXODZccerkttCUpA=;
+ b=YiQ9JczTY2BVTbtITA75hXgVBOXzfRHsLQ6sdwdGMPtGIMFprK/XPCCbgUie6rZNEhftw+wXrXHChCTN1UFxBQdISHwutF2nPv1SsgU1VM/h5elmHoaAQy6gc7t20W/DXQk5n/pA3uD8bw6HkaAxKbmkwBHG9E2/5wMZn/1M1P8=
+Received: from DM5PR2201MB1211.namprd22.prod.outlook.com (10.172.43.146) by
+ DM5PR2201MB1484.namprd22.prod.outlook.com (10.174.187.11) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.1922.18; Fri, 24 May 2019 16:10:14 +0000
+Received: from DM5PR2201MB1211.namprd22.prod.outlook.com
+ ([fe80::6c27:a53f:3b60:390d]) by DM5PR2201MB1211.namprd22.prod.outlook.com
+ ([fe80::6c27:a53f:3b60:390d%3]) with mapi id 15.20.1922.018; Fri, 24 May 2019
+ 16:10:14 +0000
+From: =?Windows-1252?Q?Mar=EDa_Guadalupe_Rosalino_Hern=E1ndez?=
+	<maria.rosalino@alvear.com.mx>
+To: Patricia Perez <patricia@vpconsultores.com.mx>, 'Rosaura Garcia'
+	<rosaura.garcia@cmigrupo.com>
+CC: =?Windows-1252?Q?=27Edith_Garc=EDa=27?= <edith.garcia@cmigrupo.com>,
+	"raymundo@vpconsultores.com.mx" <raymundo@vpconsultores.com.mx>, Felipa
+ Hernandez <felipa.hernandez@alvear.com.mx>,
+	=?Windows-1252?Q?Lucia_Mercedes_Correa_Gonz=E1lez?=
+	<luciacorrea@alvear.com.mx>
+Subject: Re: FACTURA ABRIL 3-D
+Thread-Topic: FACTURA ABRIL 3-D
+Thread-Index:
+ AQHU6mehCZRDc+8TYEqnMTwsfID+r6ZVXgUAgBp79dqAAAMc8IAJuFoAgAADfUuAARJNgIAAEb1j
+Date: Fri, 24 May 2019 16:10:14 +0000
+Message-ID:
+ <DM5PR2201MB1211C77717920AF2DA8A5E2AD0020@DM5PR2201MB1211.namprd22.prod.outlook.com>
+References:
+ <CY4PR10MB18135D07AAB2B7C16502AB5BF5570@CY4PR10MB1813.namprd10.prod.outlook.com>,<000901d4ff99$6e2cb590$4a8620b0$@vpconsultores.com.mx>
+ <CY4PR10MB18135D00A53BA184ED3D3CC6F50B0@CY4PR10MB1813.namprd10.prod.outlook.com>
+ <DM5PR2201MB1211BAB1F7A2F997FF16D774D00B0@DM5PR2201MB1211.namprd22.prod.outlook.com>,<001301d511b5$23af9540$6b0ebfc0$@vpconsultores.com.mx>
+ <CY4PR10MB1813B00287B0030E197B103EF5010@CY4PR10MB1813.namprd10.prod.outlook.com>,<000c01d51240$09153790$1b3fa6b0$@vpconsultores.com.mx>
+In-Reply-To: <000c01d51240$09153790$1b3fa6b0$@vpconsultores.com.mx>
+Accept-Language: es-MX, en-US
+Content-Language: es-MX
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=maria.rosalino@alvear.com.mx; 
+x-originating-ip: [201.163.197.106]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 1db7f1c5-1a39-41bb-75f2-08d6e0624e47
+x-microsoft-antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(7021145)(8989299)(4534185)(7022145)(4603075)(4627221)(201702281549075)(8990200)(7048125)(7024125)(7027125)(7023125)(5600141)(711020)(4605104)(2017052603328)(49563074)(7193020);SRVR:DM5PR2201MB1484;
+x-ms-traffictypediagnostic: DM5PR2201MB1484:
+x-ms-exchange-purlcount: 2
+x-microsoft-antispam-prvs:
+ <DM5PR2201MB1484E96400AC87B4B39049CBD0020@DM5PR2201MB1484.namprd22.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:826;
+x-forefront-prvs: 0047BC5ADE
+x-forefront-antispam-report:
+ SFV:NSPM;SFS:(10009020)(39830400003)(136003)(346002)(366004)(376002)(396003)(189003)(199004)(14444005)(19627405001)(71190400001)(8936002)(99286004)(476003)(99936001)(446003)(6306002)(81156014)(54896002)(11346002)(7736002)(14454004)(236005)(5024004)(8676002)(81166006)(4326008)(9686003)(54556002)(71200400001)(186003)(6436002)(508600001)(256004)(66574012)(733005)(26005)(54906003)(110136005)(105004)(25786009)(606006)(76116006)(66066001)(86362001)(229853002)(76176011)(55016002)(53946003)(45776006)(2906002)(6246003)(7696005)(74316002)(3846002)(102836004)(5660300002)(52536014)(6116002)(66576008)(74482002)(53936002)(33656002)(66556008)(66476007)(68736007)(91956017)(66446008)(316002)(486006)(64756008)(66946007)(73956011)(6506007)(107886003)(579004)(559001);DIR:OUT;SFP:1101;SCL:1;SRVR:DM5PR2201MB1484;H:DM5PR2201MB1211.namprd22.prod.outlook.com;FPR:;SPF:None;LANG:es;PTR:InfoNoRecords;MX:1;A:1;
+received-spf: None (protection.outlook.com: alvear.com.mx does not designate
+ permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam-message-info:
+ 477uaRrFYswid7uZ2mIeflowzDFEIRT2CuMPA1e0oQL/stK9TlYCnXmsSFXeYmiQhLXR0eycQcZ+czuhz2dINlPVwestViPipg1yYPBHGA3ZtmesHP+p6pyl96ELJe3ChKpxuzDQPXxCcopNkK6k/EmRfLTbto1a7KCZicdeM8LO/M7Rcfsev+9fgpqQd/FLyBqZMQEEOr6opUCkdxiQukp6x0rKRsXR9VKAeIIMyy97HKzPF/JPF92JvP0LggQW71VVHxh/MFJzfpmx6YVXP1cgYC3a5etbanQRWPXHT6Y9zRvlHpxE5Br8wUId0Biisb3bj0ELUWpxNcbHXgC8IvxU47LOoKEQcEuIjHJwprlCeufW+Z9UgXkt87TaYVHLIWewwvGJWU5UZszdW6FHLjXHP6vvjK0Piw8sXBfp2tQ=
+Content-Type: multipart/related;
+	boundary="_005_DM5PR2201MB1211C77717920AF2DA8A5E2AD0020DM5PR2201MB1211_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: alvear.com.mx
+X-MS-Exchange-CrossTenant-Network-Message-Id: 1db7f1c5-1a39-41bb-75f2-08d6e0624e47
+X-MS-Exchange-CrossTenant-originalarrivaltime: 24 May 2019 16:10:14.2745
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 861374b2-2f5f-4433-89ec-84c6f8abeb8b
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: maria.rosalino@alvear.com.mx
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM5PR2201MB1484
+X-Spam-Status: No, score=1.6
+X-Spam-Score: 16
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Buen día Estimadas les comento que no existe ningún inconveniente
+    en realizar el complemento de pago con fecha 30 de abril de 2019. Solo le
+    comento a la contadora Patricia los siguiente expuesto en la guía de llenado
+    emitido por el SAT. 
+ 
+ Content analysis details:   (1.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: alvearcorp.onmicrosoft.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: alvearcorp.onmicrosoft.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.6 SUBJ_ALL_CAPS          Subject is all capitals
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--_005_DM5PR2201MB1211C77717920AF2DA8A5E2AD0020DM5PR2201MB1211_
+Content-Type: multipart/alternative;
+	boundary="_000_DM5PR2201MB1211C77717920AF2DA8A5E2AD0020DM5PR2201MB1211_"
+
+--_000_DM5PR2201MB1211C77717920AF2DA8A5E2AD0020DM5PR2201MB1211_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Buen d=EDa
+
+Estimadas les comento que no existe ning=FAn inconveniente en realizar el c=
+omplemento de pago con fecha 30 de abril de 2019.
+
+Solo le comento a la contadora Patricia los siguiente expuesto en la gu=EDa=
+ de llenado emitido por el SAT.
+
+
+" =BFQu=E9 fecha se debe registrar en el campo =93Fecha=94 del CFDI al que =
+se le incorpora el complemento para recepci=F3n de pagos tambi=E9n denomina=
+do =93Recibo electr=F3nico de pago=94, y qu=E9 fecha se debe registrar en e=
+l campo =93FechaPago=94 del complemento para recepci=F3n de pagos?
+
+En el campo =93Fecha=94 se debe registrar la fecha y hora de expedici=F3n d=
+el CFDI y en el campo =93FechaPago=94 se debe registrar la fecha y hora en =
+la que se est=E1 recibiendo el pago de la contraprestaci=F3n.
+
+Fundamento Legal: Gu=EDa de llenado del comprobante al que se le incorpore =
+el complemento para recepci=F3n de pagos, publicada en el Portal del SAT."
+
+Cualquier duda o comentario estoy a sus ordenes.
+
+Saludos cordiales
+
+Mar=EDa Guadalupe Rosalino.
+Asociada.
+=C1rea Contable.
+
+[cid:9A5CE82B-1AAC-43D2-BFCD-1D3A3A2642FC]
+
+Melchor Ocampo 193, Torre A,
+Piso 1. Colonia Ver=F3nica Anzures,
+Delegaci=F3n Miguel Hidalgo
+C.P. 11300, Ciudad de M=E9xico.
+T. + 52 55 11022770
+
+
+Corporativo Alvear L=F3pez D=EDaz Ordaz, S.C.
+alvear.com.mx<https://linkprotect.cudasvc.com/url?a=3Dhttp%3a%2f%2falvear.c=
+om.mx%2f&c=3DE,1,fRP7oFhhpzrM4X8F22nFa45iZ2eOnwb7K0V_8M5Q6morgS64agXu8TIsGM=
+B8yIvKLReCwMS9Aa7s7lZCEMJdYyrOCaQc3QfLyJujmk9Eow,,&typo=3D1>
+_
+
+Lo comprendido en este medio electr=F3nico, as=ED como sus anexos son total=
+mente confidenciales. En caso de que usted haya recibido =E9ste mensaje por=
+ error, le solicitamos no reenviarlo y eliminarlo inmediatamente.
+The information contained in these means of communication and its attachmen=
+ts are strictly confidential. If by mistake you received this message we as=
+k you not to forward it and to delete it immediately.
+
+
+________________________________
+De: Patricia Perez <patricia@vpconsultores.com.mx>
+Enviado: viernes, 24 de mayo de 2019 09:50 a. m.
+Para: 'Rosaura Garcia'; Mar=EDa Guadalupe Rosalino Hern=E1ndez
+CC: 'Edith Garc=EDa'; raymundo@vpconsultores.com.mx
+Asunto: RE: FACTURA ABRIL 3-D
+
+
+Buen d=EDa:
+
+
+
+
+
+Con la fecha de pago 30 de abril por favor porque ese d=EDa lo tengo yo ref=
+lejado en el estado de cuenta bancario.
+
+
+
+
+
+Saludos y gracias.
+
+
+
+
+
+Patricia P=E9rez
+
+
+
+De: Rosaura Garcia [mailto:rosaura.garcia@cmigrupo.com]
+Enviado el: jueves, 23 de mayo de 2019 05:42 p.m.
+Para: Patricia Perez; 'Mar=EDa Guadalupe Rosalino Hern=E1ndez'
+CC: Edith Garc=EDa; raymundo@vpconsultores.com.mx
+Asunto: Re: FACTURA ABRIL 3-D
+
+
+
+Buenas tardes contadora P=E9rez:
+
+
+
+            Estoy recibiendo su comprobante del dep=F3sito, el cual le agra=
+dezco, solo le pido me indique con que fecha quiere que le haga su compleme=
+nto de pago ya que como se le notifico en d=EDas pasados no cayo en el esta=
+do de cuenta de Torre Privanza, en el mes de Abril.
+
+
+
+Quedo en espera de su respuesta.
+
+
+
+Saludos.
+
+________________________________
+
+De: Patricia Perez <patricia@vpconsultores.com.mx>
+Enviado: jueves, 23 de mayo de 2019 05:16:10 p. m.
+Para: 'Mar=EDa Guadalupe Rosalino Hern=E1ndez'
+CC: Edith Garc=EDa; Rosaura Garcia
+Asunto: RE: FACTURA ABRIL 3-D
+
+
+
+Buenas tardes:
+
+
+
+
+
+Envi=F3 comprobante de la transferencia.
+
+
+
+Quedo a la espera.
+
+
+
+
+
+Saludos
+
+
+
+
+
+Patricia P=E9rez
+
+
+
+De: Mar=EDa Guadalupe Rosalino Hern=E1ndez [mailto:maria.rosalino@alvear.co=
+m.mx]
+Enviado el: viernes, 17 de mayo de 2019 01:41 p.m.
+Para: patricia@vpconsultores.com.mx
+CC: Edith Garc=EDa; Rosaura Garcia
+Asunto: RE: FACTURA ABRIL 3-D
+
+
+
+Buena tarde
+
+
+
+Estimada Srita. Patricia, me comenta la Lic. Rosaura que al parecer existe =
+un inconveniente en la elaboraci=F3n de un recibo de pago, le estoy enviand=
+o el extracto del estado de cuenta con fecha del 24 al 30 de abril como ver=
+a no tengo referencia de un dep=F3sito, de favor agradecer=EDa si nos envia=
+ra la transferencia realizada.
+
+
+
+Quedo en espera de sus comentarios.
+
+
+
+Saludos cordiales
+
+
+
+Mar=EDa Guadalupe Rosalino.
+
+Asociada.
+
+=C1rea Contable.
+
+
+
+[cid:9A5CE82B-1AAC-43D2-BFCD-1D3A3A2642FC]
+
+
+
+Melchor Ocampo 193, Torre A,
+
+Piso 1. Colonia Ver=F3nica Anzures,
+
+Delegaci=F3n Miguel Hidalgo
+
+C.P. 11300, Ciudad de M=E9xico.
+
+T. + 52 55 11022770
+
+
+
+
+
+Corporativo Alvear L=F3pez D=EDaz Ordaz, S.C.
+
+alvear.com.mx<http://alvear.com.mx/>
+
+_
+
+
+
+Lo comprendido en este medio electr=F3nico, as=ED como sus anexos son total=
+mente confidenciales. En caso de que usted haya recibido =E9ste mensaje por=
+ error, le solicitamos no reenviarlo y eliminarlo inmediatamente.
+
+The information contained in these means of communication and its attachmen=
+ts are strictly confidential. If by mistake you received this message we as=
+k you not to forward it and to delete it immediately.
+
+
+
+De: Rosaura Garcia <rosaura.garcia@cmigrupo.com>
+Enviado el: viernes, 17 de mayo de 2019 12:41 p.m.
+Para: Mar=EDa Guadalupe Rosalino Hern=E1ndez <maria.rosalino@alvear.com.mx>
+Asunto: RV: FACTURA ABRIL 3-D
+
+
+
+Contadora Lupita:
+
+
+
+          Este es el primer comunicado que me env=EDa la C.P. Patria P=E9re=
+z, de VAZQUES PEREZ CONSULTORES  oficina 3-D
+
+
+
+________________________________
+
+De: Patricia Perez <patricia@vpconsultores.com.mx<mailto:patricia@vpconsult=
+ores.com.mx>>
+Enviado: martes, 30 de abril de 2019 04:12 p. m.
+Para: Rosaura Garcia
+Asunto: RE: FACTURA ABRIL 3-D
+
+
+
+Buen d=EDa:
+
+
+
+
+
+El d=EDa de hoy quedo en firme el dep=F3sito para el pago de esta factura e=
+nviada.
+
+
+
+
+
+Les agradecer=E9 mucho enviarme el REP.
+
+
+
+
+
+
+
+Saludos
+
+
+
+
+
+
+
+
+
+De: Rosaura Garcia [mailto:rosaura.garcia@cmigrupo.com]
+Enviado el: mi=E9rcoles, 03 de abril de 2019 03:56 p.m.
+Para: raymundo@vpconsultores.com.mx<mailto:raymundo@vpconsultores.com.mx>; =
+patricia@vpconsultores.com.mx<mailto:patricia@vpconsultores.com.mx>
+Asunto: FACTURA ABRIL 3-D
+
+
+
+Buenas tardes:
+
+
+
+            Adjunto s=EDrvanse encontrar la factura del mantenimiento corre=
+spondiente al mes de Abril.
+
+
+
+Mucho agradecer=E9 la confirmaci=F3n  de estos documentos.
+
+
+
+Como siempre quedamos a sus =F3rdenes para cualquier duda al respecto.
+
+
+
+Saludos.
+
+
+
+--_000_DM5PR2201MB1211C77717920AF2DA8A5E2AD0020DM5PR2201MB1211_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+Buen d=EDa&nbsp;</div>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+Estimadas les comento que no existe ning=FAn inconveniente en realizar el c=
+omplemento de pago con fecha 30 de abril de 2019.</div>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+Solo le comento a la contadora Patricia los siguiente expuesto en la gu=EDa=
+ de llenado emitido por el SAT.</div>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+&quot;&nbsp;<span>=BFQu=E9 fecha se debe registrar en el campo =93Fecha=94 =
+del CFDI al que se le incorpora el complemento para recepci=F3n de pagos ta=
+mbi=E9n denominado =93Recibo electr=F3nico de pago=94, y qu=E9 fecha se deb=
+e registrar en el campo =93FechaPago=94 del complemento para recepci=F3n
+ de pagos?</span></div>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+<span><br>
+</span>
+<div>En el campo =93Fecha=94 se debe registrar la fecha y hora de expedici=
+=F3n del CFDI y en el campo =93FechaPago=94
+<span style=3D"background-color: rgb(255, 255, 0);">se debe registrar la fe=
+cha y hora en la que se est=E1 recibiendo el pago de la contraprestaci=F3n.=
+</span><br>
+</div>
+<span>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+<span><br>
+</span></div>
+Fundamento Legal: Gu=EDa de llenado del comprobante al que se le incorpore =
+el complemento para recepci=F3n de pagos, publicada en el Portal del SAT.&q=
+uot;</span></div>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+<span><br>
+</span></div>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+<span>Cualquier duda o comentario estoy a sus ordenes.</span></div>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+<span><br>
+</span></div>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+<span>Saludos cordiales&nbsp;</span></div>
+<div style=3D"font-family: &quot;Courier New&quot;, monospace; font-size: 1=
+2pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div id=3D"Signature">
+<div></div>
+<div id=3D"divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12pt; color=
+:#000000; font-family:Calibri,Helvetica,sans-serif">
+<p style=3D"margin-top:0px; margin-bottom:0px"></p>
+<p class=3D"MsoNormal" style=3D"margin-top:0px; margin-bottom:0px"></p>
+<p class=3D"MsoNormal" style=3D"margin-top:0px; margin-bottom:0px"><span id=
+=3D"ms-rterangepaste-start"></span></p>
+<div>
+<div class=3D"_rp_25" id=3D"Item.MessagePartBody">
+<div class=3D"_rp_35 ms-font-weight-regular ms-font-color-neutralDark rpHig=
+hlightAllClass rpHighlightBodyClass" id=3D"Item.MessageUniqueBody" style=3D=
+"font-family:wf_segoe-ui_normal,&quot;Segoe UI&quot;,&quot;Segoe WP&quot;,T=
+ahoma,Arial,sans-serif,serif,EmojiFont">
+<span lang=3D"en-US">
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Arial,sans-serif" size=3D"2" color=
+=3D"#1F497D"><span lang=3D"es-MX" style=3D"font-size:10pt">Mar=EDa Guadalup=
+e Rosalino.</span></font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Arial,sans-serif" size=3D"2" color=
+=3D"#AA7942"><span lang=3D"es-MX" style=3D"font-size:9pt">Asociada.&nbsp;</=
+span></font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Arial,sans-serif" size=3D"2" color=
+=3D"#AA7942"><span lang=3D"es-MX" style=3D"font-size:9pt">=C1rea Contable.<=
+/span></font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Arial,sans-serif" size=3D"2" color=
+=3D"black"><span lang=3D"es-MX" style=3D"font-size:9pt">&nbsp;</span></font=
+></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><img class=3D"EmojiInsert" width=3D"222" height=
+=3D"22" lang=3D"es-MX" alt=3D"cid:9A5CE82B-1AAC-43D2-BFCD-1D3A3A2642FC" id=
+=3D"OWAPstImg79936" style=3D"" data-outlook-trace=3D"F:1|T:1" src=3D"cid:f0=
+68285f-ee8d-4987-af32-ba097f76af08"></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Arial,sans-serif" size=3D"2" color=
+=3D"black"><span lang=3D"es-MX" style=3D"font-size:9pt">&nbsp;</span></font=
+></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Arial,sans-serif" size=3D"2" color=
+=3D"#1F497D"><span lang=3D"es-MX" style=3D"font-size:9pt">Melchor Ocampo 19=
+3, Torre A,</span></font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Arial,sans-serif" size=3D"2" color=
+=3D"#1F497D"><span lang=3D"es-MX" style=3D"font-size:9pt">Piso 1. Colonia V=
+er=F3nica Anzures,</span></font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Arial,sans-serif" size=3D"2" color=
+=3D"#1F497D"><span lang=3D"es-MX" style=3D"font-size:9pt">Delegaci=F3n Migu=
+el Hidalgo</span></font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Arial,sans-serif" size=3D"2" color=
+=3D"#1F497D"><span lang=3D"es-MX" style=3D"font-size:9pt">C.P. 11300, Ciuda=
+d de M=E9xico.</span></font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Arial,sans-serif" size=3D"2" color=
+=3D"#AA7942"><span lang=3D"es-MX" style=3D"font-size:9pt">T. &#43; 52 55 11=
+022770</span></font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Helvetica,sans-serif" size=3D"2" c=
+olor=3D"black"><span lang=3D"es-MX" style=3D"font-size:9pt">&nbsp;</span></=
+font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Helvetica,sans-serif" size=3D"2" c=
+olor=3D"black"><span lang=3D"es-MX" style=3D"font-size:9pt">&nbsp;</span></=
+font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Georgia,serif" size=3D"2" color=3D=
+"#37497D"><span lang=3D"es-MX" style=3D"font-size:9pt">Corporativo Alvear L=
+=F3pez D=EDaz Ordaz, S.C.</span></font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><a href=3D"https://linkprotect.cudasvc.com/url?a=
+=3Dhttp%3a%2f%2falvear.com.mx%2f&amp;c=3DE,1,fRP7oFhhpzrM4X8F22nFa45iZ2eOnw=
+b7K0V_8M5Q6morgS64agXu8TIsGMB8yIvKLReCwMS9Aa7s7lZCEMJdYyrOCaQc3QfLyJujmk9Eo=
+w,,&amp;typo=3D1" target=3D"_blank" rel=3D"noopener noreferrer"><span lang=
+=3D"es-MX"><font face=3D"Georgia,serif" size=3D"2" color=3D"blue"><span sty=
+le=3D"font-size:9pt">alvear.com.mx</span></font></span></a><font face=3D"Ge=
+orgia,serif" size=3D"2" color=3D"#AA7942"><span lang=3D"es-MX" style=3D"fon=
+t-size:9pt">&nbsp;</span></font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Trebuchet MS,sans-serif" size=3D"2=
+" color=3D"#37497D"><span lang=3D"es-MX" style=3D"font-size:9pt"><b>_</b></=
+span></font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Helvetica,sans-serif" size=3D"2" c=
+olor=3D"black"><span lang=3D"es-MX" style=3D"font-size:9pt">&nbsp;</span></=
+font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Arial,sans-serif" size=3D"1" color=
+=3D"#1F497D"><span lang=3D"es-MX" style=3D"font-size:6pt">Lo comprendido en=
+ este medio electr=F3nico, as=ED como sus anexos son totalmente
+ confidenciales. En caso de que usted haya recibido =E9ste mensaje por erro=
+r, le solicitamos no reenviarlo y eliminarlo inmediatamente.&nbsp;</span></=
+font></span></font></div>
+<div style=3D"margin:0px"><font face=3D"Calibri,sans-serif" size=3D"2"><spa=
+n style=3D"font-size:11pt"><font face=3D"Arial,sans-serif" size=3D"1" color=
+=3D"#1F497D"><span style=3D"font-size:7pt"><i>The information contained in =
+these means of communication and its attachments
+ are strictly confidential. If by mistake you received this message we ask =
+you not to forward it and to delete it immediately.</i></span></font></span=
+></font></div>
+</span></div>
+</div>
+<span class=3D"PersonaPaneLauncher">
+<div class=3D"_pe_d _pe_92" tabindex=3D"-1" style=3D"width:1581px"></div>
+</span></div>
+<div class=3D"_rp_85"></div>
+<div class=3D"_rp_f5" style=3D"width:1581px">
+<div class=3D"_rp_g5 ms-bg-color-neutralLighter"><button type=3D"button" cl=
+ass=3D"_rp_h5 o365button" title=3D"Mostrar el historial de mensajes">
+<span class=3D"_fc_3 owaimg ms-Icon--ellipsis ms-icon-wide-glyph ms-icon-ta=
+ll-glyph ms-icon-font-size-12 ms-fcl-ns-b"></span>
+</button></div>
+</div>
+<span id=3D"ms-rterangepaste-end"></span><br>
+<p style=3D"margin-top:0px; margin-bottom:0px"></p>
+<p style=3D"margin-top:0px; margin-bottom:0px"></p>
+<p style=3D"margin-top:0px; margin-bottom:0px"></p>
+</div>
+</div>
+<div id=3D"appendonsend"></div>
+<div style=3D"font-family:&quot;Courier New&quot;,monospace; font-size:12pt=
+; color:rgb(0,0,0)">
+<br>
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" co=
+lor=3D"#000000" style=3D"font-size:11pt"><b>De:</b> Patricia Perez &lt;patr=
+icia@vpconsultores.com.mx&gt;<br>
+<b>Enviado:</b> viernes, 24 de mayo de 2019 09:50 a. m.<br>
+<b>Para:</b> 'Rosaura Garcia'; Mar=EDa Guadalupe Rosalino Hern=E1ndez<br>
+<b>CC:</b> 'Edith Garc=EDa'; raymundo@vpconsultores.com.mx<br>
+<b>Asunto:</b> RE: FACTURA ABRIL 3-D</font>
+<div>&nbsp;</div>
+</div>
+<div lang=3D"ES-MX">
+<div class=3D"x_WordSection1">
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;; color:#1F497D">Buen d=EDa:</span></p>
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;; color:#1F497D">&nbsp;</span></p>
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;; color:#1F497D">&nbsp;</span></p>
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;; color:#1F497D">Con la fecha de pago 30 de abril por favor por=
+que ese d=EDa lo tengo yo reflejado en el estado de cuenta bancario.</span>=
+</p>
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;; color:#1F497D">&nbsp;</span></p>
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;; color:#1F497D">&nbsp;</span></p>
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;; color:#1F497D">Saludos y gracias.</span></p>
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;; color:#1F497D">&nbsp;</span></p>
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;; color:#1F497D">&nbsp;</span></p>
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;; color:#1F497D">Patricia P=E9rez</span></p>
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,&quot;sans=
+-serif&quot;; color:#1F497D">&nbsp;</span></p>
+<div>
+<div style=3D"border:none; border-top:solid #B5C4DF 1.0pt; padding:3.0pt 0c=
+m 0cm 0cm">
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span lang=3D"ES" style=3D"font-size:10.0pt; font-family:&quot;Tahoma&qu=
+ot;,&quot;sans-serif&quot;">De:</span></b><span lang=3D"ES" style=3D"font-s=
+ize:10.0pt; font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> Rosaura=
+ Garcia [mailto:rosaura.garcia@cmigrupo.com]
+<br>
+<b>Enviado el:</b> jueves, 23 de mayo de 2019 05:42 p.m.<br>
+<b>Para:</b> Patricia Perez; 'Mar=EDa Guadalupe Rosalino Hern=E1ndez'<br>
+<b>CC:</b> Edith Garc=EDa; raymundo@vpconsultores.com.mx<br>
+<b>Asunto:</b> Re: FACTURA ABRIL 3-D</span></p>
+</div>
+</div>
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+&nbsp;</p>
+<div id=3D"x_divtagdefaultwrapper">
+<div id=3D"x_divtagdefaultwrapper">
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">Buenas tardes contadora P=E9rez:</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+ Estoy recibiendo su comprobante del dep=F3sito, el cual le agradezco, solo=
+ le pido me indique con que fecha quiere que le haga su complemento de pago=
+ ya que como se le notifico en d=EDas
+ pasados no cayo en el estado de cuenta de Torre Privanza, en el mes de Abr=
+il.</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">Quedo en espera de su respuesta.</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">Saludos.</span></p>
+</div>
+<div class=3D"x_MsoNormal" align=3D"center" style=3D"margin: 0cm 0cm 0.0001=
+pt; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;text-a=
+lign:center">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">
+<hr size=3D"2" width=3D"98%" align=3D"center">
+</span></div>
+<div id=3D"x_divRplyFwdMsg">
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span style=3D"font-size:11.0pt; font-family:&quot;Calibri&quot;,&quot;s=
+ans-serif&quot;; color:black">De:</span></b><span style=3D"font-size:11.0pt=
+; font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"> Pat=
+ricia Perez &lt;patricia@vpconsultores.com.mx&gt;<br>
+<b>Enviado:</b> jueves, 23 de mayo de 2019 05:16:10 p. m.<br>
+<b>Para:</b> 'Mar=EDa Guadalupe Rosalino Hern=E1ndez'<br>
+<b>CC:</b> Edith Garc=EDa; Rosaura Garcia<br>
+<b>Asunto:</b> RE: FACTURA ABRIL 3-D</span><span style=3D"font-family:&quot=
+;Calibri&quot;,&quot;sans-serif&quot;; color:black">
+</span></p>
+<div>
+<p class=3D"x_MsoNormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt=
+; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt;=
+ font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">Buenas tardes:</span><span style=3D"font-family:&quot;Calibri&qu=
+ot;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">Envi=F3 comprobante de la transferencia.</span><span style=3D"fo=
+nt-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></span><=
+/p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">Quedo a la espera.</span><span style=3D"font-family:&quot;Calibr=
+i&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">Saludos</span><span style=3D"font-family:&quot;Calibri&quot;,&qu=
+ot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">Patricia P=E9rez</span><span style=3D"font-family:&quot;Calibri&=
+quot;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<div>
+<div style=3D"border:none; border-top:solid windowtext 1.0pt; padding:3.0pt=
+ 0cm 0cm 0cm; border-color:currentColor currentColor">
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span lang=3D"ES" style=3D"font-size:10.0pt; font-family:&quot;Tahoma&qu=
+ot;,&quot;sans-serif&quot;; color:black">De:</span></b><span lang=3D"ES" st=
+yle=3D"font-size:10.0pt; font-family:&quot;Tahoma&quot;,&quot;sans-serif&qu=
+ot;; color:black"> Mar=EDa Guadalupe Rosalino Hern=E1ndez [mailto:maria.ros=
+alino@alvear.com.mx]
+<br>
+<b>Enviado el:</b> viernes, 17 de mayo de 2019 01:41 p.m.<br>
+<b>Para:</b> patricia@vpconsultores.com.mx<br>
+<b>CC:</b> Edith Garc=EDa; Rosaura Garcia<br>
+<b>Asunto:</b> RE: FACTURA ABRIL 3-D</span><span style=3D"font-family:&quot=
+;Calibri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+</div>
+</div>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; c=
+olor:#1F497D">Buena tarde </span>
+</b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; =
+color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; c=
+olor:#1F497D">&nbsp;</span></b><span style=3D"font-family:&quot;Calibri&quo=
+t;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; c=
+olor:#1F497D">Estimada Srita. Patricia, me comenta la Lic. Rosaura que al p=
+arecer existe un inconveniente en la elaboraci=F3n de un recibo de pago, le=
+ estoy enviando el extracto del estado de cuenta con fecha
+ del 24 al 30 de abril como vera no tengo referencia de un dep=F3sito, de f=
+avor agradecer=EDa si nos enviara la transferencia realizada.</span></b><sp=
+an style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:b=
+lack"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; c=
+olor:#1F497D">&nbsp;</span></b><span style=3D"font-family:&quot;Calibri&quo=
+t;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; c=
+olor:#1F497D">Quedo en espera de sus comentarios.</span></b><span style=3D"=
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></span=
+></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; c=
+olor:#1F497D">&nbsp;</span></b><span style=3D"font-family:&quot;Calibri&quo=
+t;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; c=
+olor:#1F497D">Saludos cordiales
+</span></b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&=
+quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; c=
+olor:#1F497D">&nbsp;</span></b><span style=3D"font-family:&quot;Calibri&quo=
+t;,&quot;sans-serif&quot;; color:black"></span></p>
+<div>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:10.0pt; font-family:&quot;Arial&quot;,&quot;sans-s=
+erif&quot;; color:#1F497D">Mar=EDa Guadalupe Rosalino.</span><span style=3D=
+"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></spa=
+n></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;; color:#AA7942">Asociada.&nbsp;</span><span style=3D"font-family:=
+&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;; color:#AA7942">=C1rea Contable.</span><span style=3D"font-family=
+:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;; color:black">&nbsp;</span><span style=3D"font-family:&quot;Calib=
+ri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;; color:black"><img width=3D"178" height=3D"18" id=3D"x_x_Imagen_x=
+0020_1" alt=3D"cid:9A5CE82B-1AAC-43D2-BFCD-1D3A3A2642FC" data-outlook-trace=
+=3D"F:1|T:1" src=3D"cid:image001.png@01D51216.1BFEC6C0"></span><span style=
+=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></=
+span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;; color:black">&nbsp;</span><span style=3D"font-family:&quot;Calib=
+ri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;; color:#1F497D">Melchor Ocampo 193, Torre A,</span><span style=3D=
+"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></spa=
+n></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;; color:#1F497D">Piso 1. Colonia Ver=F3nica Anzures,</span><span s=
+tyle=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black=
+"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;; color:#1F497D">Delegaci=F3n Miguel Hidalgo</span><span style=3D"=
+font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></span=
+></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;; color:#1F497D">C.P. 11300, Ciudad de M=E9xico.</span><span style=
+=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></=
+span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;; color:#AA7942">T. &#43; 52 55 11022770</span><span style=3D"font=
+-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></span></p=
+>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Helvetica&quot;,&quot;san=
+s-serif&quot;; color:black">&nbsp;</span><span style=3D"font-family:&quot;C=
+alibri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Helvetica&quot;,&quot;san=
+s-serif&quot;; color:black">&nbsp;</span><span style=3D"font-family:&quot;C=
+alibri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Georgia&quot;,&quot;serif=
+&quot;; color:#37497D">Corporativo Alvear L=F3pez D=EDaz Ordaz, S.C.</span>=
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black"><a href=3D"http://alvear.com.mx/" id=3D"LPlnk634909"><span style=
+=3D"font-size:9.0pt; font-family:&quot;Georgia&quot;,&quot;serif&quot;">alv=
+ear.com.mx</span></a></span><span style=3D"font-size:9.0pt; font-family:&qu=
+ot;Georgia&quot;,&quot;serif&quot;; color:#AA7942">&nbsp;</span><span style=
+=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></=
+span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span style=3D"font-size:9.0pt; font-family:&quot;Trebuchet MS&quot;,&qu=
+ot;sans-serif&quot;; color:#37497D">_</span></b><span style=3D"font-family:=
+&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:9.0pt; font-family:&quot;Helvetica&quot;,&quot;san=
+s-serif&quot;; color:black">&nbsp;</span><span style=3D"font-family:&quot;C=
+alibri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-size:6.0pt; font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;; color:#1F497D">Lo comprendido en este medio electr=F3nico, as=ED=
+ como sus anexos son totalmente confidenciales. En caso de que usted haya r=
+ecibido =E9ste mensaje por error, le solicitamos no reenviarlo
+ y eliminarlo inmediatamente.&nbsp;</span><span style=3D"font-family:&quot;=
+Calibri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<i><span lang=3D"EN-US" style=3D"font-size:7.0pt; font-family:&quot;Arial&q=
+uot;,&quot;sans-serif&quot;; color:#1F497D">The information contained in th=
+ese means of communication and its attachments are strictly confidential. I=
+f by mistake you received this message we ask you not to
+ forward it and to delete it immediately.</span></i><span style=3D"font-fam=
+ily:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+</div>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; c=
+olor:#1F497D">&nbsp;</span></b><span style=3D"font-family:&quot;Calibri&quo=
+t;,&quot;sans-serif&quot;; color:black"></span></p>
+<div>
+<div style=3D"border:none; border-top:solid windowtext 1.0pt; padding:3.0pt=
+ 0cm 0cm 0cm; border-color:currentColor currentColor">
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span lang=3D"ES" style=3D"font-family:&quot;Calibri&quot;,&quot;sans-se=
+rif&quot;; color:black">De:</span></b><span lang=3D"ES" style=3D"font-famil=
+y:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"> Rosaura Garcia =
+&lt;rosaura.garcia@cmigrupo.com&gt;
+<br>
+<b>Enviado el:</b> viernes, 17 de mayo de 2019 12:41 p.m.<br>
+<b>Para:</b> Mar=EDa Guadalupe Rosalino Hern=E1ndez &lt;maria.rosalino@alve=
+ar.com.mx&gt;<br>
+<b>Asunto:</b> RV: FACTURA ABRIL 3-D</span><span style=3D"font-family:&quot=
+;Calibri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+</div>
+</div>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+<div id=3D"x_x_divtagdefaultwrapper">
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">Contadora Lupita:</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Este es el =
+primer comunicado que me env=EDa la C.P. Patria P=E9rez, de VAZQUES PEREZ C=
+ONSULTORES&nbsp; oficina 3-D</span></p>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;margin-b=
+ottom:12.0pt">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+<div>
+<div class=3D"x_MsoNormal" align=3D"center" style=3D"margin: 0cm 0cm 0.0001=
+pt; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;text-a=
+lign:center">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">
+<hr size=3D"2" width=3D"98%" align=3D"center">
+</span></div>
+<div id=3D"x_x_divRplyFwdMsg">
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; c=
+olor:black">De:</span></b><span style=3D"font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;; color:black"> Patricia Perez &lt;<a href=3D"mailto:pa=
+tricia@vpconsultores.com.mx" id=3D"LPlnk621020">patricia@vpconsultores.com.=
+mx</a>&gt;<br>
+<b>Enviado:</b> martes, 30 de abril de 2019 04:12 p. m.<br>
+<b>Para:</b> Rosaura Garcia<br>
+<b>Asunto:</b> RE: FACTURA ABRIL 3-D </span></p>
+<div>
+<p class=3D"x_xmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12p=
+t; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001pt=
+; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+</div>
+</div>
+<div>
+<div>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">Buen d=EDa:</span><span style=3D"font-family:&quot;Calibri&quot;=
+,&quot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">El d=EDa de hoy quedo en firme el dep=F3sito para el pago de est=
+a factura enviada.</span><span style=3D"font-family:&quot;Calibri&quot;,&qu=
+ot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">Les agradecer=E9 mucho enviarme el REP.</span><span style=3D"fon=
+t-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; color:black"></span></=
+p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">Saludos</span><span style=3D"font-family:&quot;Calibri&quot;,&qu=
+ot;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:#1F497D">&nbsp;</span><span style=3D"font-family:&quot;Calibri&quot;,&quo=
+t;sans-serif&quot;; color:black"></span></p>
+<div>
+<div style=3D"border:none; border-top:solid windowtext 1.0pt; padding:3.0pt=
+ 0cm 0cm 0cm; border-color:currentColor">
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<b><span lang=3D"ES" style=3D"font-size:10.0pt; font-family:&quot;Tahoma&qu=
+ot;,&quot;sans-serif&quot;; color:black">De:</span></b><span lang=3D"ES" st=
+yle=3D"font-size:10.0pt; font-family:&quot;Tahoma&quot;,&quot;sans-serif&qu=
+ot;; color:black"> Rosaura Garcia [</span><span style=3D"font-family:&quot;=
+Calibri&quot;,&quot;sans-serif&quot;; color:black"><a href=3D"mailto:rosaur=
+a.garcia@cmigrupo.com" id=3D"LPlnk173711"><span lang=3D"ES" style=3D"font-s=
+ize:10.0pt; font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">mailto:r=
+osaura.garcia@cmigrupo.com</span></a></span><span lang=3D"ES" style=3D"font=
+-size:10.0pt; font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;; color:=
+black">]
+<br>
+<b>Enviado el:</b> mi=E9rcoles, 03 de abril de 2019 03:56 p.m.<br>
+<b>Para:</b> </span><span style=3D"font-family:&quot;Calibri&quot;,&quot;sa=
+ns-serif&quot;; color:black"><a href=3D"mailto:raymundo@vpconsultores.com.m=
+x" id=3D"LPlnk492572"><span lang=3D"ES" style=3D"font-size:10.0pt; font-fam=
+ily:&quot;Tahoma&quot;,&quot;sans-serif&quot;">raymundo@vpconsultores.com.m=
+x</span></a></span><span lang=3D"ES" style=3D"font-size:10.0pt; font-family=
+:&quot;Tahoma&quot;,&quot;sans-serif&quot;; color:black">;
+</span><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot=
+;; color:black"><a href=3D"mailto:patricia@vpconsultores.com.mx" id=3D"LPln=
+k258337"><span lang=3D"ES" style=3D"font-size:10.0pt; font-family:&quot;Tah=
+oma&quot;,&quot;sans-serif&quot;">patricia@vpconsultores.com.mx</span></a><=
+/span><span lang=3D"ES" style=3D"font-size:10.0pt; font-family:&quot;Tahoma=
+&quot;,&quot;sans-serif&quot;; color:black"><br>
+<b>Asunto:</b> FACTURA ABRIL 3-D</span><span style=3D"font-family:&quot;Cal=
+ibri&quot;,&quot;sans-serif&quot;; color:black"></span></p>
+</div>
+</div>
+<p class=3D"x_xxmsonormal" style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12=
+pt; font-family: &quot;Times New Roman&quot;, serif;margin: 0cm 0cm 0.0001p=
+t; font-size: 12pt; font-family: &quot;Times New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+<div id=3D"x_x_x_divtagdefaultwrapper">
+<div id=3D"x_x_x_divtagdefaultwrapper">
+<div id=3D"x_x_x_divtagdefaultwrapper">
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">Buenas tardes:</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+ Adjunto s=EDrvanse encontrar la factura del mantenimiento correspondiente =
+al mes de Abril.</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">Mucho agradecer=E9 la confirmaci=F3n&nbsp; de estos documentos.</s=
+pan></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">Como siempre quedamos a sus =F3rdenes para cualquier duda al respe=
+cto.</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">Saludos.</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt; font-size: 12pt; font-family: &quot;T=
+imes New Roman&quot;, serif;">
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;; colo=
+r:black">&nbsp;</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_DM5PR2201MB1211C77717920AF2DA8A5E2AD0020DM5PR2201MB1211_--
+
+--_005_DM5PR2201MB1211C77717920AF2DA8A5E2AD0020DM5PR2201MB1211_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=2607;
+	creation-date="Fri, 24 May 2019 14:54:05 GMT";
+	modification-date="Fri, 24 May 2019 14:54:05 GMT"
+Content-ID: <image001.png@01D51216.1BFEC6C0>
+Content-Transfer-Encoding: base64
+
+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
+
+--_005_DM5PR2201MB1211C77717920AF2DA8A5E2AD0020DM5PR2201MB1211_
+Content-Type: image/png; name="Outlook-cid_9A5CE8.png"
+Content-Description: Outlook-cid_9A5CE8.png
+Content-Disposition: inline; filename="Outlook-cid_9A5CE8.png"; size=7139;
+	creation-date="Fri, 24 May 2019 16:10:13 GMT";
+	modification-date="Fri, 24 May 2019 16:10:13 GMT"
+Content-ID: <f068285f-ee8d-4987-af32-ba097f76af08>
+Content-Transfer-Encoding: base64
+
+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
+3hUAAAAASUVORK5CYII=
+
+--_005_DM5PR2201MB1211C77717920AF2DA8A5E2AD0020DM5PR2201MB1211_--

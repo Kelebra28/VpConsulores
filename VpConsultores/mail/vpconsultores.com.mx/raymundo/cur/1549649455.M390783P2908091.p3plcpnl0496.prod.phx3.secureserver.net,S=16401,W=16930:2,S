@@ -1,0 +1,529 @@
+Return-Path: <gperegrina@salesboyoli.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id 4Io3Fy/GXVy7XywAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Fri, 08 Feb 2019 11:10:55 -0700
+Return-path: <gperegrina@salesboyoli.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Fri, 08 Feb 2019 11:10:55 -0700
+Received: from mail-qt1-f172.google.com ([209.85.160.172]:45483)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <gperegrina@salesboyoli.com>)
+	id 1gsAc1-00CEJZ-UC
+	for raymundo@vpconsultores.com.mx; Fri, 08 Feb 2019 11:10:55 -0700
+Received: by mail-qt1-f172.google.com with SMTP id e5so4904902qtr.12
+        for <raymundo@vpconsultores.com.mx>; Fri, 08 Feb 2019 10:10:33 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=salesboyoli.com; s=google;
+        h=from:to:cc:references:in-reply-to:subject:date:message-id
+         :mime-version:content-transfer-encoding:thread-index
+         :content-language;
+        bh=br2HfbupxdVXZPBReAKlsNJ27ay3C6gecQ/VBioymQE=;
+        b=owa80fwnSDEZ7fxBl6edDsOliszPIGHn7K3A0Vp76TQCQpacasY8hFYDFwM6QxLhCA
+         JE2x+4B0lm4bRraqDozd4aM4BjjEbK1jvX+Cfq4/QJI8BOjI+XsgVsgryJZ+UNxOWnCb
+         Rw+xik6ZVTmS+zs8C7c+QXcl+7aaL+1gIiC3g=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:from:to:cc:references:in-reply-to:subject:date
+         :message-id:mime-version:content-transfer-encoding:thread-index
+         :content-language;
+        bh=br2HfbupxdVXZPBReAKlsNJ27ay3C6gecQ/VBioymQE=;
+        b=WXQYJ2I0BSj8zcTCLu92cXmge+jY0xtIfO6nxKxZPl0+Zg5zvIomnO9qD+OTNrzEBp
+         2TDP40XZ3CnEVGeyNS5tBivTnXI+d7LAWRN8AkGtdW1SlpboCiGXGv6svV3cm4dMg5Tv
+         jbMEqRTYGe+Vko2n+GxtudFIYN1R2qXdcqztNkRzFP+3E9s4inaLihD3dcVQnyT25njI
+         8LjerJ84EmvHpnt8VMrmmGcLpGQHEZIHgdzaWi5CEMajunO2OltZybe0bRC5X9Qz3onv
+         LYusXUpmMezBa00IIg12AWnOnfbWC/Ez+8JrBjcPmIrsG9R6vIEki+LCKvBSi+Czm35n
+         uZqw==
+X-Gm-Message-State: AHQUAuY1XniRfrt+lPk5qZZY3/TDtujZYCwtpdfrLM2NFLSN3yV0PLIW
+	FrEBBFmFC8LoeMZp06XTJNQMUCXL2OQ=
+X-Google-Smtp-Source: AHgI3Iamb4FDnBV4sj6RiSBhyvdL8J1gYgLNhKE4idBV3WI1Df2++tluVbOlnxYWFlqMjP7E3LESKg==
+X-Received: by 2002:a0c:a144:: with SMTP id d62mr17814808qva.50.1549649412913;
+        Fri, 08 Feb 2019 10:10:12 -0800 (PST)
+Received: from LAPTOPF586K10H ([148.243.86.246])
+        by smtp.gmail.com with ESMTPSA id p49sm3363722qte.74.2019.02.08.10.10.11
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 08 Feb 2019 10:10:12 -0800 (PST)
+From: "Gabriela Peregrina Espino" <gperegrina@salesboyoli.com>
+To: <raymundo@vpconsultores.com.mx>
+Cc: "'Maria Alejandra Gomez Massud'" <agomez@salesboyoli.com>
+References: <00b101d4ae92$59b3f090$0d1bd1b0$@salesboyoli.com> <BYAPR19MB286966D261072E0F263E6966F1830@BYAPR19MB2869.namprd19.prod.outlook.com> <OID_1547760173532431_0raymundo@vpconsultores.com.mx> <000901d4aeca$5f65c940$1e315bc0$@salesboyoli.com> <5397B9E7-FF24-4E4D-8FEC-CC1FBE9A5A0D@salesboyoli.com> <BYAPR19MB2869E98F3021036499F44A31F1690@BYAPR19MB2869.namprd19.prod.outlook.com>
+In-Reply-To: <BYAPR19MB2869E98F3021036499F44A31F1690@BYAPR19MB2869.namprd19.prod.outlook.com>
+Subject: RV: RV: RV: Caso Alfonso Terron
+Date: Fri, 8 Feb 2019 12:10:10 -0600
+Message-ID: <03af01d4bfd9$88bf64c0$9a3e2e40$@salesboyoli.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQIgynmcboMFvTnw+18hgl9JzreIbQGMU94IAeqG4gABWmgY3wEeKyjfALePWculCOV94A==
+Content-Language: es-mx
+X-Spam-Status: No, score=1.9
+X-Spam-Score: 19
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Contador: Envío el correo que le comenté vía telefónica,
+    por favor díganos ¿en qué podemos ayudarlo? O si existe alguna información
+    que podamos facilitarle. Saludos. [...] 
+ 
+ Content analysis details:   (1.9 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vpconsultores.com.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: linkedin.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.8 KAM_ASCII_DIVIDERS     Spam that uses ascii formatting tricks
+  1.2 KAM_LINEPADDING        Spam that tries to get past blank line filters
+X-Spam-Flag: NO
+
+Contador:
+
+
+Env=C3=ADo el correo que le coment=C3=A9 v=C3=ADa telef=C3=B3nica, por =
+favor d=C3=ADganos =C2=BFen qu=C3=A9 podemos ayudarlo? O si existe =
+alguna informaci=C3=B3n que podamos facilitarle.
+
+Saludos.
+
+Atentamente
+_________________
+Gabriela Peregrina Espino
+Directora Asociada del =C3=81rea Laboral=20
+
+Email: gperegrina@salesboyoli.com
+Tel: +52 (55) 5292-7444
+
+
+
+
+=EF=81=90 Please consider the environment before printing this email.
+_________________________________________________________________________=
+___________________________________
+AVISO DE CONFIDENCIALIDAD. La Informaci=C3=B3n contenida en este correo =
+y sus archivos anexos es Restringida, Confidencial y Privilegiada de =
+Sales Boyoli. El uso, distribuci=C3=B3n o copiado de este mensaje o =
+cualquier informaci=C3=B3n adjunta est=C3=A1 estrictamente prohibido, =
+tampoco podr=C3=A1 revelar su contenido a ninguna persona. Si recibe =
+este e-mail por error, favor de eliminarlo permanentemente y notificar a =
+Sales Boyoli inmediatamente al tel.: +(52) 55 5292-7444. El uso no =
+autorizado de este mensaje es considerado como un delito.
+CONFIDENTIALITY NOTICE. This e-mail and any attachments thereto are =
+intended only for use by the addressee(s) named herein and may contain =
+privileged and/or confidential information of Sales Boyoli. If you are =
+not the intended recipient of this e-mail, you are hereby notified any =
+dissemination, distribution or copying of this e-mail, and any =
+attachments thereto, is strictly prohibited. If you receive this e-mail =
+in error please immediately notify Sales Boyoli at +(52) 55 5292-7444 =
+and permanently delete the original copy and any copy of any e-mail, and =
+any printout thereof. Unauthorized interception of this email is a =
+violation of federal criminal law.
+_________________________________________________________________________=
+___________________________________
+
+-----Mensaje original-----
+De: Bautista, Eduardo [mailto:Eduardo.Bautista@chesterton.com]=20
+Enviado el: jueves, 7 de febrero de 2019 06:30 p. m.
+Para: Gabriela Peregrina Espino <gperegrina@salesboyoli.com>; Alejandra =
+G=C3=B3mez Massud <agomez@salesboyoli.com>
+CC: Cortes, Ramon <Ramon.CortesTamayo@chesterton.com>; Jorge Sales =
+<jsales@salesboyoli.com>; rvazquez@salesboyoli.com
+Asunto: RE: RV: RV: Caso Alfonso Terron
+
+Mis estimadas Gabriela y Alejandra c=C3=B3mo est=C3=A1n?
+
+Solo para notificarles que ya hablamos con =C3=A9l empleado Alfonso =
+Terron acerca del plan de retiro que manejaremos y de los servicios que =
+ustedes nos ofrecen para poder llevar la gesti=C3=B3n de este tema de la =
+pensi=C3=B3n, el empleado acepta dicho cargo el cual ser=C3=A1 pagado =
+por la empresa y nosotros lo descontaremos de su finiquito. Nos interesa =
+que puedan realizar este tr=C3=A1mite a la brevedad posible, es decir ya =
+iniciarlo con fecha del 15 de febrero, esta fecha nosotros lo daremos de =
+baja de la empresa para que de inmediato ustedes puedan iniciar con los =
+tramites ASAP. Pedimos de su valioso apoyo para que puedan asesorar y =
+apoyar a Alfonso en esta importante tarea.=20
+
+As=C3=AD mismo pido que a la brevedad posible nos puedan mandar el monto =
+de pensi=C3=B3n que le corresponde a Alfonso, esto con la finalidad de =
+ser lo m=C3=A1s transparentes con =C3=A9l.
+
+Por favor ind=C3=ADquenos que procede o requieren para que em esta fecha =
+del 15 de febrero ustedes puedan iniciar los tr=C3=A1mites de Alfonso.=20
+
+Saludos y excelente tarde.=20
+
+
+Eduardo Emanuel Bautista=20
+Human Resources and Continuous Improvement
+
+
+
+A.W. Chesterton | Olmecas #1, Naucalpan de Juarez, Estado de M=C3=A9xico
+Office: (55) 5089 1350 Ext. 8124 | Cell: (55) 6066 0682, Cell: (55) 1492 =
+3498 www.chesterton.com=20
+
+=20
+
+This e-mail message, including attachments, is for the sole use of the =
+intended recipient(s) and may contain confidential or proprietary =
+information. If you are not the intended recipient, immediately contact =
+the sender by reply e-mail and destroy all copies of the original =
+message.
+
+
+
+-----Mensaje original-----
+De: Jorge Sales <jsales@salesboyoli.com>=20
+Enviado el: 18 January 2019 06:27
+Para: rvazquez@salesboyoli.com
+CC: Bautista, Eduardo <Eduardo.Bautista@chesterton.com>; Cortes, Ramon =
+<Ramon.CortesTamayo@chesterton.com>; Gabriela Peregrina Espino =
+<gperegrina@salesboyoli.com>
+Asunto: Re: RV: RV: Caso Alfonso Terron
+
+** External Email **
+
+
+Ramon buenos d=C3=ADas
+
+Solo para confirmar, podr=C3=ADas mandarnos los poderes de Alfonso para =
+echarles un vistazo?
+
+Lic. Jorge Sales
+
+El 17 ene 2019, a la(s) 19:08, <rvazquez@salesboyoli.com> =
+<rvazquez@salesboyoli.com> escribi=C3=B3:
+
+> Estimados Todos
+>
+>
+>
+>
+>
+> Para saludarlos y dar respuestas a sus preguntas.
+>
+>
+>
+> =C2=BFEn el registro de alta en el IMSS como trabajador pensionado, se =
+
+> mantiene su n=C3=BAmero de Seguro Social?
+>
+> R=3D  Si, el n=C3=BAmero de seguridad social es =C3=BAnico y es el =
+mismo para toda=20
+> la vida.
+>
+> -          La modalidad de pensi=C3=B3n ante el IMSS que se quiere que =
+se
+> realice, es la Ley de 1973.
+>
+> R=3D  S=C3=AD, la elecci=C3=B3n del r=C3=A9gimen ser=C3=A1 la ley de =
+1973
+>
+> -          Alfonso Terron tiene poderes de la compa=C3=B1=C3=ADa, al =
+momento de su
+> baja tendremos que dar de baja sus poderes o el podr=C3=A1 seguir =
+firmando=20
+> en representaci=C3=B3n de la compa=C3=B1=C3=ADa firmando documentos?
+>
+> R=3D No es necesario dar de baja los poderes, puede seguir =
+representando=20
+> a la compa=C3=B1=C3=ADa si ustedes lo desean, salvo en el caso que sea =
+APODERADO=20
+> ADUANAL, aqu=C3=AD si es necesario que exista relaci=C3=B3n laboral.
+>
+>
+>
+>
+>
+> Es muy importante que antes de que den de baja a su trabajador para=20
+> tramitar su pensi=C3=B3n, nos env=C3=ADen los documentos solicitados, =
+para estar=20
+> seguros que todos sus datos personales coinciden con los que tienen el =
+
+> IMSS y la Afore, investigar que no tenga homonimia, las semanas que=20
+> tienen cotizadas y calcular la pensi=C3=B3n aproximada que le =
+corresponde.
+>
+>
+>
+> Saludos
+>
+>
+>
+> Raymundo Vazquez
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> De: raymundo@vpconsultores.com.mx <raymundo@vpconsultores.com.mx>=20
+> Enviado el: jueves, 17 de enero de 2019 03:23 p.m.
+> Para: rvazquez@salesboyoli.com
+> Asunto: Enc: RV: Caso Alfonso Terron
+>
+>
+>
+>
+>
+>
+> ------- Mensaje reenviado -------
+> De: "Gabriela Peregrina Espino" <gperegrina@salesboyoli.com=20
+> <mailto:gperegrina@salesboyoli.com> >
+> Para: <raymundo@vpconsultores.com.mx=20
+> <mailto:raymundo@vpconsultores.com.mx>
+>>
+> Asunto: RV: Caso Alfonso Terron
+> Fecha: Ju 17/01/19 12:27
+>
+> PTC
+>
+>
+>
+>
+>
+>
+>
+> Atentamente
+> _________________
+>
+>
+>
+> Gabriela Peregrina Espino
+>
+>
+>
+> Directora Asociada del =C3=81rea Laboral
+>
+>
+>
+>
+> Email:  <mailto:gperegrina@salesboyoli.com> gperegrina@salesboyoli.com
+>
+>
+>
+> Tel: +52 (55) 5292-7444
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> P Please consider the environment before printing this email.
+>
+>
+>
+> ______________________________________________________________________
+> _____
+> _________________________________
+>
+>
+>
+> AVISO DE CONFIDENCIALIDAD. La Informaci=C3=B3n contenida en este =
+correo y=20
+> sus archivos anexos es Restringida, Confidencial y Privilegiada de =
+Sales Boyoli.
+> El uso, distribuci=C3=B3n o copiado de este mensaje o cualquier =
+informaci=C3=B3n=20
+> adjunta est=C3=A1 estrictamente prohibido, tampoco podr=C3=A1 revelar =
+su=20
+> contenido a ninguna persona. Si recibe este e-mail por error, favor de =
+
+> eliminarlo permanentemente y notificar a Sales Boyoli inmediatamente=20
+> al tel.: +(52) 55 5292-7444. El uso no autorizado de este mensaje es=20
+> considerado como un delito.
+>
+>
+>
+> CONFIDENTIALITY NOTICE. This e-mail and any attachments thereto are=20
+> intended only for use by the addressee(s) named herein and may contain =
+
+> privileged and/or confidential information of Sales Boyoli. If you are =
+
+> not the intended recipient of this e-mail, you are hereby notified any =
+
+> dissemination, distribution or copying of this e-mail, and any=20
+> attachments thereto, is strictly prohibited. If you receive this=20
+> e-mail in error please immediately notify Sales Boyoli at +(52) 55=20
+> 5292-7444 and permanently delete the original copy and any copy of any =
+e-mail, and any printout thereof.
+> Unauthorized interception of this email is a violation of federal=20
+> criminal law.
+>
+>
+>
+> ______________________________________________________________________
+> _____
+> _________________________________
+>
+>
+>
+>
+>
+>
+>
+> De: Bautista, Eduardo [ <mailto:Eduardo.Bautista@chesterton.com>
+> mailto:Eduardo.Bautista@chesterton.com]
+> Enviado el: mi=C3=A9rcoles, 16 de enero de 2019 07:09 p. m.
+> Para: Gabriela Peregrina Espino < <mailto:gperegrina@salesboyoli.com>
+> gperegrina@salesboyoli.com>; Alejandra G=C3=B3mez Massud <=20
+> <mailto:agomez@salesboyoli.com> agomez@salesboyoli.com>
+> CC: Cortes, Ramon < <mailto:Ramon.CortesTamayo@chesterton.com>
+> Ramon.CortesTamayo@chesterton.com>
+> Asunto: Caso Alfonso Terron
+>
+>
+>
+>
+>
+>
+>
+> Hola Gabriela y Alejandra,
+>
+>
+>
+>
+>
+>
+>
+> Estas son las dudas que tiene el empleado Alfonso Terron sobre el=20
+> procesos que haremos, nos podr=C3=ADan ayudar por favor:
+>
+>
+>
+>
+>
+>
+>
+> -          =C2=BFEn el registro de alta en el IMSS como trabajador =
+pensionado,
+> se mantiene su n=C3=BAmero de Seguro Social?
+>
+>
+>
+> -          La modalidad de pensi=C3=B3n ante el IMSS que se quiere que =
+se
+> realice, es la Ley de 1973.
+>
+>
+>
+> -          Alfonso Terron tiene poderes de la compa=C3=B1=C3=ADa, al =
+momento de su
+> baja tendremos que dar de baja sus poderes o el podr=C3=A1 seguir =
+firmando=20
+> en representaci=C3=B3n de la compa=C3=B1=C3=ADa firmando documentos?
+>
+>
+>
+> Agradezco su apoyo con este tema.
+>
+>
+>
+>
+>
+>
+>
+> Saludos
+>
+>
+>
+>
+>
+>
+>
+> Eduardo Emanuel Bautista
+>
+>
+>
+> Human Resources and Continuous Improvement
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> A.W. Chesterton | Olmecas #1, Naucalpan de Juarez, Estado de =
+M=C3=A9xico
+>
+>
+>
+> Office: (55) 5089 1350 Ext. 8124 | Cell: (55) 6066 0682, Cell: (55)=20
+> 1492
+> 3498  <http://www.chesterton.com/> www.chesterton.com
+>
+>
+>
+>
+>
+>
+>
+> <https://www.linkedin.com/company/a--w--chesterton-company>
+> <https://www.facebook.com/AWChesterton>   =
+<https://twitter.com/AWChesterton>
+> <https://plus.google.com/u/0/b/109886853835785779954/10988685383578577
+> 9954/p
+> osts> =20
+> osts> =
+<https://www.youtube.com/user/AWChestertonCompany?feature=3Dwatch>
+>
+>
+>
+>
+>
+>
+>
+> This e-mail message, including attachments, is for the sole use of the =
+
+> intended recipient(s) and may contain confidential or proprietary=20
+> information. If you are not the intended recipient, immediately=20
+> contact the sender by reply e-mail and destroy all copies of the =
+original message.
+>
+>
+>
+>
+>
+>
+>
+> <winmail.dat>
+

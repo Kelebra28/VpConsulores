@@ -1,0 +1,2344 @@
+Return-Path: <abel.ramos@tax.com.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id iCP9Bpuc0Vz2MTEAFq4nlA
+	(envelope-from <abel.ramos@tax.com.mx>)
+	for <raymundo@vpconsultores.com.mx>; Tue, 07 May 2019 07:56:27 -0700
+Return-path: <abel.ramos@tax.com.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Tue, 07 May 2019 07:56:27 -0700
+Received: from smtp112.iad3a.emailsrvr.com ([173.203.187.112]:40940)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <abel.ramos@tax.com.mx>)
+	id 1hO1W2-00DYB9-6X
+	for raymundo@vpconsultores.com.mx; Tue, 07 May 2019 07:56:27 -0700
+Received: from smtp7.relay.iad3a.emailsrvr.com (localhost [127.0.0.1])
+	by smtp7.relay.iad3a.emailsrvr.com (SMTP Server) with ESMTP id 7F8CF4FEF;
+	Tue,  7 May 2019 10:55:40 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=g001.emailsrvr.com;
+	s=20190322-9u7zjiwi; t=1557240940;
+	bh=QFPIc+mYPKhVrKClzG12drjoxp6zvcQA/OhhQT00Kh4=;
+	h=Subject:From:Date:To:From;
+	b=Z3eQ9SHAjnk+TxlZFxV4cpbkjQNbAuMWudgruE9WOtu8ZfP/oIZtZx4z4rGJur8nJ
+	 5N3RzizwGRBzV8TMVcoAatmUyEHcC8rkTmM6uzIvVW8Egon4fjW+SpicN1E876byvY
+	 lsmbx0Xv5iASCnUF6vMTCQW0xVNmRnCqPr2kWM9Q=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=tax.com.mx;
+	s=20180522-qebthsxn; t=1557240940;
+	bh=QFPIc+mYPKhVrKClzG12drjoxp6zvcQA/OhhQT00Kh4=;
+	h=Subject:From:Date:To:From;
+	b=hmAf7PDkZe23JQuBca04QhQAIbrdyPqpEwGurv32/YWipYOYSKKXt1qqQwVaM6NmO
+	 Y2jmH1CR7+kGrqvSh8J+hLj4ZsAHWZ+yWNNwS+gQ+Hr3xQHmjHqm1hzagZzrmXQHN/
+	 zGo1DcUaBSChL48ZIwAdDtlRjIZ490wuYVeR1xm0=
+X-Auth-ID: abel.ramos@tax.com.mx
+Received: by smtp7.relay.iad3a.emailsrvr.com (Authenticated sender: abel.ramos-AT-tax.com.mx) with ESMTPSA id 110074059;
+	Tue,  7 May 2019 10:55:30 -0400 (EDT)
+X-Sender-Id: abel.ramos@tax.com.mx
+Received: from [127.0.0.1] (mail.taxeditoresunidos.com [200.94.66.5])
+	(using TLSv1.2 with cipher DHE-RSA-AES128-SHA)
+	by 0.0.0.0:465 (trex/5.7.12);
+	Tue, 07 May 2019 10:55:40 -0400
+Subject: =?UTF-8?Q?Tax_Capacita_lo_invita_a_sus_pr=c3=b3ximos_Cursos_2019?=
+References: <5CD0A6B2.7020808@tax.com.mx>
+From: abel ramos <abel.ramos@tax.com.mx>
+X-Forwarded-Message-Id: <5CD0A6B2.7020808@tax.com.mx>
+Message-ID: <5CD19C06.6000401@tax.com.mx>
+Date: Tue, 7 May 2019 09:53:58 -0500
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101
+ Thunderbird/38.5.0
+MIME-Version: 1.0
+To: destinatarios-no-revelados: ;
+In-Reply-To: <5CD0A6B2.7020808@tax.com.mx>
+Content-Type: multipart/alternative;
+ boundary="------------020607080901080609050404"
+X-Spam-Status: No, score=1.6
+X-Spam-Score: 16
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Nuestros cursos tienen valorDPCparaCCPMyAMCP *Realice su reservación
+    con:* *Abel Ramos Vasquez* 
+ 
+ Content analysis details:   (1.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: tax.com.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: tax.com.mx]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_FONT_SIZE_HUGE    BODY: HTML font size is huge
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of
+                             empty lines
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+  1.0 KAM_HTMLNOISE          Spam containing useless HTML padding
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+--------------020607080901080609050404
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+
+Nuestros cursos tienen valorDPCparaCCPMyAMCP
+
+
+*Realice su reservación con:*
+
+*Abel Ramos Vasquez*
+
+_abel.ramos@tax.com.mx_
+
+*Tel. 01 (55) 8000-9550 ext: 261 / Cel. 5555065533*
+
+
+
+*Recuperación de saldos a favor de IVA y el nuevo complemento de pagos 
+<http://www.tax.com.mx/PaginaTaxComponentes/Cursos/01CU10260.jpg>*
+
+------------------------------------------------------------------------
+
+*Jueves 9 de mayo de 2019*
+
+*Tax Capacita, Nogales 19-A, Col. Roma Sur, Ciudad de México *
+
+*$ 1,799.00 más IVA *
+
+
+*Efectos de la nueva reforma laboral en la aplicación de las nóminas 
+<http://www.tax.com.mx/PaginaTaxComponentes/Cursos/01CU10288.jpg>*
+
+------------------------------------------------------------------------
+
+*Miércoles 15 de mayo de 2019*
+
+*Tax Capacita, Nogales 19-A, Col. Roma Sur, Ciudad de México *
+
+*$ 1,799.00 más IVA *
+
+
+*Estudio integral y práctico de la resolución miscelánea fiscal 2019 
+<http://www.tax.com.mx/PaginaTaxComponentes/Cursos/01CU10287.jpg>*
+
+------------------------------------------------------------------------
+
+*Jueves 16 de mayo de 2019*
+
+*Tax Capacita, Nogales 19-A, Col. Roma Sur, Ciudad de México *
+
+*$ 1,799.00 más IVA *
+
+
+*Elaboración de nómina en sistemas electrónicos 
+<http://www.tax.com.mx/PaginaTaxComponentes/Cursos/01CU10224.jpg>*
+
+------------------------------------------------------------------------
+
+*Lunes 20 de mayo de 2019*
+
+*Tax Capacita, Nogales 19-A, Col. Roma Sur, Ciudad de México *
+
+*$ 1,799.00 más IVA *
+
+
+
+Formas de pago a nombre de TAX EDITORES UNIDOS SA DE CV
+
+Cargo a tarjeta de credito : *Visa*o*Master**Card*
+
+*BANCO*
+
+	
+
+*N.º DE CUENTA*
+
+	
+
+*CLABE INTERBANCARIA*
+
+*BBVA BANCOMER*
+
+	
+
+*0445672708*
+
+	
+
+*012180004456727087*
+
+*BBVA BANCOMER*
+
+	
+
+*0445672694*
+
+	
+
+*012180004456726949*
+
+*BANAMEX*
+
+	
+
+*01480363384*
+
+	
+
+*002180014803633847*
+
+*SCOTIABANK INVERLAT *
+
+	
+
+*0100182958*
+
+	
+
+*044180001001829589*
+
+*SANTANDER*
+
+	
+
+*65501430532*
+
+	
+
+*014180655014305324*
+
+*BANORTE *
+
+	
+
+*0607212710*
+
+	
+
+*072180006072127106*
+
+*BANCO BANREGIO*
+
+	
+
+*220970410015*
+
+	
+
+*058180000001098080*
+
+*HSBC*
+
+	
+
+*4059963074*
+
+	
+
+*021180040599630743*
+
+
+
+
+Abel Ramos Vasquez
+
+Ejecutivo de Ventas
+
+Tel: 8000-9500 Ext.261
+
+Lada s/c 01800-0623050
+
+Movil: 5555065533
+
+Correo: abel.ramos@tax.com.mx
+
+www.tax.com.mx
+
+
+Tax Editores Unidos SA de CV da cumplimiento a lo dispuesto en la Ley 
+Federal de Protecci? de datos Personales en Posesi? de Particulares, si 
+requiere mayor informaci?, puede consultar nuestro Aviso de Privacidad a 
+trav? de la p?ina de internet www.tax.com.mx o www.practicafiscal.com.mx.
+
+IMPORTANTE: En caso de que desee darse de baja de nuestra lista de 
+correos, le solicitamos amablemente nos envi?un e-mail a 
+proteccion.datos@tax.com.mx para darlo de baja y borrarlo de nuestros 
+registros.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------020607080901080609050404
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <br>
+    <div class="moz-forward-container">
+      <div class="moz-forward-container">
+        <div class="moz-forward-container">
+          <div class="moz-forward-container">
+            <div class="moz-forward-container">
+              <div class="moz-forward-container">
+                <div class="moz-forward-container">
+                  <div class="moz-forward-container">
+                    <div class="moz-forward-container">
+                      <div class="moz-forward-container">
+                        <div class="moz-forward-container">
+                          <div class="moz-forward-container">
+                            <div class="moz-forward-container">
+                              <div class="moz-forward-container">
+                                <div class="moz-forward-container">
+                                  <div class="moz-forward-container">
+                                    <div class="moz-forward-container">
+                                      <div class="moz-forward-container">
+                                        <div
+                                          class="moz-forward-container"><br>
+                                          <div
+                                            class="moz-forward-container">
+                                            <div
+                                              class="moz-forward-container">
+                                              <div
+                                                class="moz-forward-container">
+                                                <div
+                                                  class="moz-forward-container">
+                                                  <div
+                                                    class="moz-forward-container">
+                                                    <div
+                                                      class="moz-forward-container">
+                                                      <div>
+                                                        <div
+                                                          id="xfb75cdd162e74de">
+                                                          <div
+                                                          id="x4671a852ccc64ce">
+                                                          <div
+                                                          id="xfce5b5acb0b64c1">
+                                                          <div
+                                                          id="xf40dff96a44b4ee">
+                                                          <div
+                                                          id="x4bf13ace8a5f48f">
+                                                          <div
+                                                          id="x4bb47fed76b348a">
+                                                          <div
+                                                          id="x7823b1ab696c433">
+                                                          <div>
+                                                          <div
+                                                          id="x053001f846714d56998cb64985ead07a">
+                                                          <div
+                                                          id="xf5701be12652458">
+                                                          <div
+                                                          class="WordSection1">
+                                                          <div
+                                                          id="xb992fe2c019043e">
+                                                          <div
+                                                          id="xce3b1a4970e9485">
+                                                          <div
+                                                          id="x5580d6fa36cb475">
+                                                          <div
+                                                          id="xec1e37ccb3a6463">
+                                                          <div
+                                                          id="signature_old">
+                                                          <div
+                                                          id="xf3a880ead87345b">
+                                                          <div>
+                                                          <div
+                                                          style="margin-right:6.0pt"
+id="xc1ec2a240fcf43f9a3aaf2d39bb7aa5f">
+                                                          <div>
+                                                          <div
+                                                          id="xf99d495f41a24bc28ffccbcd81726c49">
+                                                          <div
+                                                          id="x5572b8b522d24672815876ef87ef7fd9">
+                                                          <div
+                                                          id="xf094ba17ac70494a84562c7bc86ad7e3">
+                                                          <div
+                                                          id="x651c609757934954844221f718b9622f">
+                                                          <div
+                                                          align="center"><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#17365D">
+                                                          <div>
+                                                          <div
+                                                          id="xfb75cdd162e74de">
+                                                          <div
+                                                          id="x4671a852ccc64ce">
+                                                          <div
+                                                          id="xfce5b5acb0b64c1">
+                                                          <div
+                                                          id="xf40dff96a44b4ee">
+                                                          <div
+                                                          id="x4bf13ace8a5f48f">
+                                                          <div
+                                                          id="x4bb47fed76b348a">
+                                                          <div
+                                                          id="x7823b1ab696c433">
+                                                          <div>
+                                                          <div
+                                                          id="x053001f846714d56998cb64985ead07a">
+                                                          <div
+                                                          id="xf5701be12652458">
+                                                          <div
+                                                          class="WordSection1">
+                                                          <div
+                                                          id="xb992fe2c019043e">
+                                                          <div
+                                                          id="xce3b1a4970e9485">
+                                                          <div
+                                                          id="x5580d6fa36cb475">
+                                                          <div
+                                                          id="xec1e37ccb3a6463">
+                                                          <div
+                                                          id="signature_old">
+                                                          <div
+                                                          id="xf3a880ead87345b">
+                                                          <div>
+                                                          <div
+                                                          style="margin-right:6.0pt"
+id="xc1ec2a240fcf43f9a3aaf2d39bb7aa5f">
+                                                          <div>
+                                                          <div
+                                                          id="xf99d495f41a24bc28ffccbcd81726c49">
+                                                          <div
+                                                          id="x5572b8b522d24672815876ef87ef7fd9">
+                                                          <div
+                                                          id="xf094ba17ac70494a84562c7bc86ad7e3">
+                                                          <div
+                                                          id="x651c609757934954844221f718b9622f">
+                                                          <p
+                                                          class="MsoNormal"
+                                                          style="text-align:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          center;
+                                                          background-image:
+                                                          initial;
+                                                          background-attachment:
+                                                          initial;
+                                                          background-size:
+                                                          initial;
+                                                          background-origin:
+                                                          initial;
+                                                          background-clip:
+                                                          initial;
+                                                          background-position:
+                                                          initial;
+                                                          background-repeat:
+                                                          initial;"
+                                                          align="center"><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#17365D">Nuestros
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          cursos tienen
+                                                          valor</span><span
+                                                          style="font-size:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          15pt;
+                                                          font-family:
+                                                          Arial,
+                                                          sans-serif;">
+                                                          </span><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#C00000">DPC</span><span
+                                                          style="font-size:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          15pt;
+                                                          font-family:
+                                                          Arial,
+                                                          sans-serif;">
+                                                          </span><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#17365D">para</span><span
+                                                          style="font-size:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          15pt;
+                                                          font-family:
+                                                          Arial,
+                                                          sans-serif;">
+                                                          </span><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#C00000">CCPM</span><span
+                                                          style="font-size:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          15pt;
+                                                          font-family:
+                                                          Arial,
+                                                          sans-serif;">
+                                                          </span><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#17365D">y</span><span
+                                                          style="font-size:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          15pt;
+                                                          font-family:
+                                                          Arial,
+                                                          sans-serif;">
+                                                          </span><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#C00000">AMCP</span><span
+                                                          style="font-size:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          10pt;
+                                                          font-family:
+                                                          Arial,
+                                                          sans-serif;"> </span><span
+                                                          lang="ES"><o:p
+xmlns:o="#unknown"></o:p></span></p>
+                                                          <span
+                                                          style="font-size:
+                                                          10pt;
+                                                          font-family:
+                                                          Arial,
+                                                          sans-serif;"
+                                                          lang="ES"> </span><span
+                                                          lang="ES"><o:p
+xmlns:o="#unknown"></o:p></span>
+                                                          <div
+                                                          align="center"><br>
+                                                          </div>
+                                                          <div
+                                                          id="x651c609757934954844221f718b9622f">
+                                                          <div
+                                                          align="center">
+                                                          <table
+                                                          class="MsoNormalTable"
+cellpadding="0" cellspacing="0" border="0">
+                                                          <tbody>
+                                                          <tr
+                                                          style="height:20.25pt">
+                                                          <td
+                                                          style="width:23.0cm;padding:0cm
+                                                          0cm 0cm
+                                                          0cm;height:20.25pt"
+                                                          valign="top"
+                                                          width="708">
+                                                          <p
+                                                          class="MsoNormal"
+style="text-align:center" align="center"><strong><span
+                                                          style="font-size:16.0pt;font-family:&quot;Century
+Gothic&quot;,sans-serif;color:#C00000">Realice su reservación con:</span></strong><o:p
+xmlns:o="#unknown"></o:p></p>
+                                                          <p
+                                                          class="MsoNormal"
+style="text-align:center" align="center"><b><span
+style="font-size:14.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:navy">Abel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          Ramos Vasquez</span></b><o:p
+xmlns:o="#unknown"></o:p></p>
+                                                          <p
+                                                          class="MsoNormal"
+style="text-align:center" align="center"><u><span
+style="font-size:14.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:navy"
+                                                          lang="ES"><a
+                                                          moz-do-not-send="true"
+class="moz-txt-link-abbreviated" href="mailto:abel.ramos@tax.com.mx"><a class="moz-txt-link-abbreviated" href="mailto:abel.ramos@tax.com.mx">abel.ramos@tax.com.mx</a></a></span></u><o:p
+xmlns:o="#unknown"></o:p></p>
+                                                          <p
+                                                          class="MsoNormal"
+style="text-align:center" align="center"><strong><span
+style="font-size:14.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:navy">Tel.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          01 (55)
+                                                          8000-9550 ext:
+                                                          261 / Cel.
+                                                          5555065533</span></strong></p>
+                                                          </td>
+                                                          </tr>
+                                                          </tbody>
+                                                          </table>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </span><br>
+                                                          <br>
+                                                          <table
+                                                          class="MsoNormalTable"
+                                                          style="margin-left:
+
+
+                                                          90pt;
+                                                          background:
+                                                          white none
+                                                          repeat scroll
+                                                          0% 0%;
+                                                          border-collapse:
+                                                          collapse;"
+                                                          cellpadding="0"
+cellspacing="0" height="319" width="452" border="0">
+                                                          <tbody>
+                                                          <tr>
+                                                          <td
+                                                          style="width:337.5pt;border:solid
+                                                          #333333
+                                                          1.0pt;border-left:none;padding:0cm
+                                                          0cm 15.0pt
+                                                          0cm"
+                                                          width="450">
+                                                          <p
+style="mso-margin-top-alt:7.5pt;margin-right:0cm;margin-bottom:1.5pt;margin-left:15.0pt;display:inline-block;cursor:pointer"><b><span
+style="font-size:24.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"><a
+moz-do-not-send="true"
+                                                          href="http://www.tax.com.mx/PaginaTaxComponentes/Cursos/01CU10260.jpg"
+target="_blank"><span style="color:#003399">Recuperación de saldos a
+                                                          favor de IVA y
+                                                          el nuevo
+                                                          complemento de
+                                                          pagos</span></a><o:p></o:p></span></b></p>
+                                                          <div
+                                                          class="MsoNormal"
+style="text-align:center" align="center">
+                                                          <hr size="1"
+                                                          width="100%"
+                                                          align="center"></div>
+                                                          <p
+style="mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:15.0pt;margin-bottom:.0001pt;display:inline-block;cursor:pointer;cursor:auto"><b><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#C40C1D">Jueves
+
+
+                                                          9 de mayo de
+                                                          2019<o:p></o:p></span></b></p>
+                                                          <p
+style="mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:1.5pt;margin-left:15.0pt;display:inline-block;cursor:auto"><b><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Tax
+
+
+                                                          Capacita,
+                                                          Nogales 19-A,
+                                                          Col. Roma Sur,
+                                                          Ciudad de
+                                                          México <o:p></o:p></span></b></p>
+                                                          <p
+style="mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:15.0pt;margin-bottom:.0001pt;display:inline-block;cursor:auto"><b><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">$
+                                                          1,799.00 más
+                                                          IVA <o:p></o:p></span></b></p>
+                                                          </td>
+                                                          </tr>
+                                                          </tbody>
+                                                          </table>
+                                                          <br>
+                                                          <table
+                                                          class="MsoNormalTable"
+style="margin-left:90.0pt;background:white;border-collapse:collapse"
+                                                          cellpadding="0"
+cellspacing="0" border="0">
+                                                          <tbody>
+                                                          <tr>
+                                                          <td
+                                                          style="width:337.5pt;border:solid
+                                                          #333333
+                                                          1.0pt;border-left:none;padding:0cm
+                                                          0cm 15.0pt
+                                                          0cm"
+                                                          width="450">
+                                                          <p
+style="mso-margin-top-alt:7.5pt;margin-right:0cm;margin-bottom:1.5pt;margin-left:15.0pt;display:inline-block;cursor:pointer"><b><span
+style="font-size:24.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"><a
+moz-do-not-send="true"
+                                                          href="http://www.tax.com.mx/PaginaTaxComponentes/Cursos/01CU10288.jpg"
+target="_blank"><span style="color:#003399">Efectos de la nueva reforma
+                                                          laboral en la
+                                                          aplicación de
+                                                          las nóminas</span></a><o:p></o:p></span></b></p>
+                                                          <div
+                                                          class="MsoNormal"
+style="text-align:center" align="center">
+                                                          <hr size="1"
+                                                          width="100%"
+                                                          align="center"></div>
+                                                          <p
+style="mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:15.0pt;margin-bottom:.0001pt;display:inline-block;cursor:pointer;cursor:auto"><b><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#C40C1D">Miércoles
+
+
+                                                          15 de mayo de
+                                                          2019<o:p></o:p></span></b></p>
+                                                          <p
+style="mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:1.5pt;margin-left:15.0pt;display:inline-block;cursor:auto"><b><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Tax
+
+
+                                                          Capacita,
+                                                          Nogales 19-A,
+                                                          Col. Roma Sur,
+                                                          Ciudad de
+                                                          México <o:p></o:p></span></b></p>
+                                                          <p
+style="mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:15.0pt;margin-bottom:.0001pt;display:inline-block;cursor:auto"><b><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">$
+                                                          1,799.00 más
+                                                          IVA <o:p></o:p></span></b></p>
+                                                          </td>
+                                                          </tr>
+                                                          </tbody>
+                                                          </table>
+                                                          <br>
+                                                          <table
+                                                          class="MsoNormalTable"
+style="margin-left:90.0pt;background:white;border-collapse:collapse"
+                                                          cellpadding="0"
+cellspacing="0" border="0">
+                                                          <tbody>
+                                                          <tr>
+                                                          <td
+                                                          style="width:337.5pt;border:solid
+                                                          #333333
+                                                          1.0pt;border-left:none;padding:0cm
+                                                          0cm 15.0pt
+                                                          0cm"
+                                                          width="450">
+                                                          <p
+style="mso-margin-top-alt:7.5pt;margin-right:0cm;margin-bottom:1.5pt;margin-left:15.0pt;display:inline-block;cursor:pointer"><b><span
+style="font-size:24.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"><a
+moz-do-not-send="true"
+                                                          href="http://www.tax.com.mx/PaginaTaxComponentes/Cursos/01CU10287.jpg"
+target="_blank"><span style="color:#003399">Estudio integral y práctico
+                                                          de la
+                                                          resolución
+                                                          miscelánea
+                                                          fiscal 2019</span></a><o:p></o:p></span></b></p>
+                                                          <div
+                                                          class="MsoNormal"
+style="text-align:center" align="center">
+                                                          <hr size="1"
+                                                          width="100%"
+                                                          align="center"></div>
+                                                          <p
+style="mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:15.0pt;margin-bottom:.0001pt;display:inline-block;cursor:pointer;cursor:auto"><b><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#C40C1D">Jueves
+
+
+                                                          16 de mayo de
+                                                          2019<o:p></o:p></span></b></p>
+                                                          <p
+style="mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:1.5pt;margin-left:15.0pt;display:inline-block;cursor:auto"><b><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Tax
+
+
+                                                          Capacita,
+                                                          Nogales 19-A,
+                                                          Col. Roma Sur,
+                                                          Ciudad de
+                                                          México <o:p></o:p></span></b></p>
+                                                          <p
+style="mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:15.0pt;margin-bottom:.0001pt;display:inline-block;cursor:auto"><b><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">$
+                                                          1,799.00 más
+                                                          IVA <o:p></o:p></span></b></p>
+                                                          </td>
+                                                          </tr>
+                                                          </tbody>
+                                                          </table>
+                                                          <br>
+                                                          <table
+                                                          class="MsoNormalTable"
+style="margin-left:90.0pt;background:white;border-collapse:collapse"
+                                                          cellpadding="0"
+cellspacing="0" border="0">
+                                                          <tbody>
+                                                          <tr>
+                                                          <td
+                                                          style="width:337.5pt;border:solid
+                                                          #333333
+                                                          1.0pt;border-left:none;padding:0cm
+                                                          0cm 15.0pt
+                                                          0cm"
+                                                          width="450">
+                                                          <p
+style="mso-margin-top-alt:7.5pt;margin-right:0cm;margin-bottom:1.5pt;margin-left:15.0pt;display:inline-block;cursor:pointer"><b><span
+style="font-size:24.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"><a
+moz-do-not-send="true"
+                                                          href="http://www.tax.com.mx/PaginaTaxComponentes/Cursos/01CU10224.jpg"
+target="_blank"><span style="color:#003399">Elaboración de nómina en
+                                                          sistemas
+                                                          electrónicos</span></a><o:p></o:p></span></b></p>
+                                                          <div
+                                                          class="MsoNormal"
+style="text-align:center" align="center">
+                                                          <hr size="1"
+                                                          width="100%"
+                                                          align="center"></div>
+                                                          <p
+style="mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:15.0pt;margin-bottom:.0001pt;display:inline-block;cursor:pointer;cursor:auto"><b><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#C40C1D">Lunes
+
+
+                                                          20 de mayo de
+                                                          2019<o:p></o:p></span></b></p>
+                                                          <p
+style="mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:1.5pt;margin-left:15.0pt;display:inline-block;cursor:auto"><b><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Tax
+
+
+                                                          Capacita,
+                                                          Nogales 19-A,
+                                                          Col. Roma Sur,
+                                                          Ciudad de
+                                                          México <o:p></o:p></span></b></p>
+                                                          <p
+style="mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:15.0pt;margin-bottom:.0001pt;display:inline-block;cursor:auto"><b><span
+style="font-size:15.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">$
+                                                          1,799.00 más
+                                                          IVA <o:p></o:p></span></b></p>
+                                                          </td>
+                                                          </tr>
+                                                          </tbody>
+                                                          </table>
+                                                          <br>
+                                                          <br>
+                                                          <meta
+                                                          http-equiv="content-type"
+                                                          content="text/html;
+                                                          charset=utf-8">
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <div
+                                                        class="moz-forward-container">Formas
+
+
+                                                        de pago a nombre
+                                                        de TAX EDITORES
+                                                        UNIDOS SA DE CV
+                                                        <div
+                                                          class="moz-signature">
+                                                          <p
+                                                          style="margin-bottom:
+                                                          0cm">Cargo a
+                                                          tarjeta de
+                                                          credito : <font
+color="#0000ff"><b>Visa</b></font><font color="#0000ff"> </font><font
+                                                          color="#000000"><span
+                                                          style="font-weight:
+
+
+
+
+
+
+                                                          normal">o</span></font><font
+color="#000000"> </font><font color="#ff0000"><b>Master</b></font><font
+color="#eec317"><b>Card</b></font></p>
+                                                          <table
+                                                          cellpadding="5"
+cellspacing="0" width="100%">
+                                                          <colgroup><col
+                                                          width="85*"> <col
+                                                          width="85*"> <col
+                                                          width="85*"> </colgroup><tbody>
+                                                          <tr
+                                                          valign="top">
+                                                          <td
+                                                          style="border-top:
+                                                          1px solid
+                                                          #000000;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0.1cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          align="center"><b>BANCO</b></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          1px solid
+                                                          #000000;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0.1cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          align="center"><b>N.º
+
+
+
+
+
+
+
+
+
+                                                          DE CUENTA</b></p>
+                                                          </td>
+                                                          <td
+                                                          style="border:
+                                                          1px solid
+                                                          #000000;
+                                                          padding:
+                                                          0.1cm"
+                                                          width="33%">
+                                                          <p
+                                                          align="center"><b>CLABE
+
+
+
+
+
+
+
+
+
+
+                                                          INTERBANCARIA</b></p>
+                                                          </td>
+                                                          </tr>
+                                                          <tr
+                                                          valign="top">
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          align="center"><b>BBVA
+
+
+
+
+
+
+
+
+
+
+                                                          BANCOMER</b></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>0445672708</b></font></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          1px solid
+                                                          #000000;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0.1cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>012180004456727087</b></font></p>
+                                                          </td>
+                                                          </tr>
+                                                          <tr
+                                                          valign="top">
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          align="center"><b>BBVA
+
+
+
+
+
+
+
+
+
+
+                                                          BANCOMER</b></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>0445672694</b></font></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          1px solid
+                                                          #000000;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0.1cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>012180004456726949</b></font></p>
+                                                          </td>
+                                                          </tr>
+                                                          <tr
+                                                          valign="top">
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          align="center"><b>BANAMEX</b></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>01480363384</b></font></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          1px solid
+                                                          #000000;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0.1cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>002180014803633847</b></font></p>
+                                                          </td>
+                                                          </tr>
+                                                          <tr
+                                                          valign="top">
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          align="center"><b>SCOTIABANK
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          INVERLAT </b>
+                                                          </p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>0100182958</b></font></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          1px solid
+                                                          #000000;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0.1cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>044180001001829589</b></font></p>
+                                                          </td>
+                                                          </tr>
+                                                          <tr
+                                                          valign="top">
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          align="center"><b>SANTANDER</b></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>65501430532</b></font></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          1px solid
+                                                          #000000;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0.1cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>014180655014305324</b></font></p>
+                                                          </td>
+                                                          </tr>
+                                                          <tr
+                                                          valign="top">
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          align="center"><b>BANORTE
+
+
+
+
+
+
+
+
+
+
+
+                                                          </b> </p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>0607212710</b></font></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          1px solid
+                                                          #000000;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0.1cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>072180006072127106</b></font></p>
+                                                          </td>
+                                                          </tr>
+                                                          <tr
+                                                          valign="top">
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          align="center"><b>BANCO
+
+
+
+
+
+
+
+
+
+
+                                                          BANREGIO</b></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>220970410015</b></font></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          1px solid
+                                                          #000000;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0.1cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>058180000001098080</b></font></p>
+                                                          </td>
+                                                          </tr>
+                                                          <tr
+                                                          valign="top">
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          align="center"><b>HSBC</b></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          none;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>4059963074</b></font></p>
+                                                          </td>
+                                                          <td
+                                                          style="border-top:
+                                                          none;
+                                                          border-bottom:
+                                                          1px solid
+                                                          #000000;
+                                                          border-left:
+                                                          1px solid
+                                                          #000000;
+                                                          border-right:
+                                                          1px solid
+                                                          #000000;
+                                                          padding-top:
+                                                          0cm;
+                                                          padding-bottom:
+                                                          0.1cm;
+                                                          padding-left:
+                                                          0.1cm;
+                                                          padding-right:
+                                                          0.1cm"
+                                                          width="33%">
+                                                          <p
+                                                          style="margin-top:
+                                                          0.1cm;
+                                                          text-decoration:
+                                                          none"
+                                                          align="center">
+                                                          <font
+                                                          style="font-size:
+                                                          12pt" size="3"><b>021180040599630743</b></font></p>
+                                                          </td>
+                                                          </tr>
+                                                          </tbody>
+                                                          </table>
+                                                          <br>
+                                                          <p
+                                                          style="margin-bottom:
+                                                          0cm; border:
+                                                          none; padding:
+                                                          0cm"><br>
+                                                          </p>
+                                                          <p
+                                                          style="margin-bottom:
+                                                          0cm; border:
+                                                          none; padding:
+                                                          0cm"><br>
+                                                          </p>
+                                                          <p
+                                                          style="margin-bottom:
+                                                          0cm; border:
+                                                          none; padding:
+                                                          0cm"><font
+                                                          face="arial,
+                                                          Helvetica,
+                                                          sans-serif"><font
+                                                          style="font-size:
+
+
+
+
+
+                                                          10pt" size="2">Abel
+
+
+
+
+
+
+                                                          Ramos Vasquez</font></font></p>
+                                                          <p
+                                                          style="margin-bottom:
+                                                          0cm; border:
+                                                          none; padding:
+                                                          0cm"><font
+                                                          face="arial,
+                                                          Helvetica,
+                                                          sans-serif"><font
+                                                          style="font-size:
+
+
+
+
+
+                                                          10pt" size="2">Ejecutivo
+
+
+
+
+
+
+
+                                                          de Ventas</font></font></p>
+                                                          <p
+                                                          style="margin-bottom:
+                                                          0cm; border:
+                                                          none; padding:
+                                                          0cm"><font
+                                                          face="arial,
+                                                          Helvetica,
+                                                          sans-serif"><font
+                                                          style="font-size:
+
+
+
+
+
+                                                          10pt" size="2">Tel:
+
+
+
+
+
+
+                                                          8000-9500
+                                                          Ext.261</font></font></p>
+                                                          <p
+                                                          style="margin-bottom:
+                                                          0cm; border:
+                                                          none; padding:
+                                                          0cm"><font
+                                                          face="arial,
+                                                          Helvetica,
+                                                          sans-serif"><font
+                                                          style="font-size:
+
+
+
+
+
+                                                          10pt" size="2">Lada
+
+
+
+
+
+
+                                                          s/c
+                                                          01800-0623050</font></font></p>
+                                                          <p
+                                                          style="margin-bottom:
+                                                          0cm; border:
+                                                          none; padding:
+                                                          0cm"><font
+                                                          face="arial,
+                                                          Helvetica,
+                                                          sans-serif"><font
+                                                          style="font-size:
+
+
+
+
+
+                                                          10pt" size="2">Movil:
+
+
+
+
+
+
+
+                                                          55<font
+                                                          face="arial,
+                                                          Helvetica,
+                                                          sans-serif">55065533</font></font></font></p>
+                                                          <p
+                                                          style="margin-bottom:
+                                                          0cm; border:
+                                                          none; padding:
+                                                          0cm"><font
+                                                          face="arial,
+                                                          Helvetica,
+                                                          sans-serif"><font
+                                                          style="font-size:
+
+
+
+
+
+                                                          10pt" size="2">Correo:
+
+
+
+
+
+
+
+                                                          <a
+                                                          moz-do-not-send="true"
+class="moz-txt-link-abbreviated" href="mailto:abel.ramos@tax.com.mx"><a class="moz-txt-link-abbreviated" href="mailto:abel.ramos@tax.com.mx">abel.ramos@tax.com.mx</a></a></font></font></p>
+                                                          <p
+                                                          style="margin-bottom:
+                                                          0cm; border:
+                                                          none; padding:
+                                                          0cm"><font
+                                                          face="arial,
+                                                          Helvetica,
+                                                          sans-serif"><font
+                                                          style="font-size:
+
+
+
+
+
+                                                          10pt" size="2"><a
+moz-do-not-send="true" class="moz-txt-link-abbreviated"
+                                                          href="http://www.tax.com.mx"><a class="moz-txt-link-abbreviated" href="http://www.tax.com.mx">www.tax.com.mx</a></a></font></font></p>
+                                                          <p
+                                                          style="margin-bottom:
+                                                          0cm; border:
+                                                          none; padding:
+                                                          0cm"><big><big><big><big><big><br>
+                                                          </big></big></big></big></big></p>
+                                                          <big><big><big><big><big>
+                                                          </big></big></big></big></big>
+                                                          <p
+                                                          style="margin-bottom:
+                                                          0cm; border:
+                                                          none; padding:
+                                                          0cm"
+                                                          align="center"><big><big><big><big><big>
+                                                          <font
+                                                          face="arial,
+                                                          Helvetica,
+                                                          sans-serif"><font
+                                                          style="font-size:
+
+
+
+
+
+
+
+
+
+
+                                                          6pt" size="1"><big><big><big><big><big>Tax
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          Editores
+                                                          Unidos SA de
+                                                          CV da
+                                                          cumplimiento a
+                                                          lo dispuesto
+                                                          en la Ley
+                                                          Federal de
+                                                          Protecci? de
+                                                          datos
+                                                          Personales en
+                                                          Posesi? de
+                                                          Particulares,
+                                                          si requiere
+                                                          mayor
+                                                          informaci?,
+                                                          puede
+                                                          consultar
+                                                          nuestro Aviso
+                                                          de Privacidad
+                                                          a trav? de la
+                                                          p?ina de
+                                                          internet <a
+                                                          moz-do-not-send="true"
+class="moz-txt-link-abbreviated" href="http://www.tax.com.mx"><a class="moz-txt-link-abbreviated" href="http://www.tax.com.mx">www.tax.com.mx</a></a> 
+                                                          o <a
+                                                          moz-do-not-send="true"
+class="moz-txt-link-abbreviated" href="http://www.practicafiscal.com.mx"><a class="moz-txt-link-abbreviated" href="http://www.practicafiscal.com.mx">www.practicafiscal.com.mx</a></a>.</big></big></big></big></big></font></font></big></big></big></big></big></p>
+                                                          <big><big><big><big><big>
+                                                          </big></big></big></big></big>
+                                                          <p
+                                                          style="margin-bottom:
+                                                          0cm; border:
+                                                          none; padding:
+                                                          0cm"
+                                                          align="center"><big><big><big><big><big>
+                                                          <font
+                                                          face="arial,
+                                                          Helvetica,
+                                                          sans-serif"><font
+                                                          style="font-size:
+
+
+
+
+
+
+
+
+
+
+                                                          6pt" size="1"><big><big><big><big><big>IMPORTANTE:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                          En caso de que
+                                                          desee darse de
+                                                          baja de
+                                                          nuestra lista
+                                                          de correos, le
+                                                          solicitamos
+                                                          amablemente
+                                                          nos envi?un
+                                                          e-mail a <a
+                                                          moz-do-not-send="true"
+class="moz-txt-link-abbreviated"
+                                                          href="mailto:proteccion.datos@tax.com.mx"><a class="moz-txt-link-abbreviated" href="mailto:proteccion.datos@tax.com.mx">proteccion.datos@tax.com.mx</a></a> 
+                                                          para darlo de
+                                                          baja y
+                                                          borrarlo de
+                                                          nuestros
+                                                          registros.</big></big></big></big></big></font></font></big></big></big></big></big></p>
+                                                        </div>
+                                                        <br>
+                                                      </div>
+                                                      <br>
+                                                    </div>
+                                                    <br>
+                                                  </div>
+                                                  <br>
+                                                </div>
+                                                <br>
+                                              </div>
+                                              <br>
+                                            </div>
+                                            <br>
+                                          </div>
+                                          <br>
+                                        </div>
+                                        <br>
+                                      </div>
+                                      <br>
+                                    </div>
+                                    <br>
+                                  </div>
+                                  <br>
+                                </div>
+                                <br>
+                              </div>
+                              <br>
+                            </div>
+                            <br>
+                          </div>
+                          <br>
+                        </div>
+                        <br>
+                      </div>
+                      <br>
+                    </div>
+                    <br>
+                  </div>
+                  <br>
+                </div>
+                <br>
+              </div>
+              <br>
+            </div>
+            <br>
+          </div>
+          <br>
+        </div>
+        <br>
+        <br>
+      </div>
+      <br>
+      <br>
+    </div>
+    <br>
+  </body>
+</html>
+
+--------------020607080901080609050404--

@@ -1,0 +1,174 @@
+Return-Path: <survey-noreply@mr.surveymonkeyuser.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id iGWMFzB6dFwmDx4AFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Mon, 25 Feb 2019 16:28:48 -0700
+Return-path: <survey-noreply@mr.surveymonkeyuser.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Mon, 25 Feb 2019 16:28:48 -0700
+Received: from mta1b8.outbound.surveymonkey.com ([52.32.252.160]:27909)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <survey-noreply@mr.surveymonkeyuser.com>)
+	id 1gyPfy-008GiI-K2
+	for raymundo@vpconsultores.com.mx; Mon, 25 Feb 2019 16:28:48 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=surveymonkeyuser.com; s=scph0816; t=1551137285;
+	i=@surveymonkeyuser.com;
+	bh=t8sIeEm3vSEIp05P6/bdp/cPHpcaBZgmVgiqBD804bk=;
+	h=Content-Type:Message-ID:From:To:Subject:Date;
+	b=BvniK74ncUAPfvVU4flletZsFoso2Oo/A72qdHBdlnZxXu+tW6fpspgSa7hDTOuuk
+	 ZhmOGsvcRhS5mNANkFjEQT+1maXoo/v56JmrxgcRySvsrN8vk4AUY8ZGQWbnf1UI+/
+	 2ljxRgyu0NVEBKt+jwe+lfy/sszO7bC6gSmvkuCA=
+X-MSFBL: jZJ2oyGoSFKbiFL2YFOW/615WpBrypHX+1UHzzPQHOQ=|eyJjdXN0b21lcl9pZCI
+	6IjEiLCJyIjoicmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXgiLCJ0ZW5hbnR
+	faWQiOiJzdXJ2ZXltb25rZXkiLCJzdWJhY2NvdW50X2lkIjoiMTAyIiwibWVzc2F
+	nZV9pZCI6IjAwMDAwNTdhNzQ1YzJmYmVmNzNjIn0=
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+Authentication-Results:  a.mta2vsmtp.cc.prd.sparkpost smtp.user=<hidden>; auth=pass (PLAIN)
+Received: from [64.191.16.134] ([64.191.16.134:25504] helo=n9emlsvc402mgp1.n9.jungle.tech-mailer_process)
+	by a.mta2vsmtp.cc.prd.sparkpost (envelope-from <survey-noreply@mr.surveymonkeyuser.com>)
+	(ecelerity 4.2.40.67425 r(Core:4.2.40.24)) with ESMTPSA (cipher=ECDHE-RSA-AES256-GCM-SHA384) 
+	id 7F/C3-48687-50A747C5; Mon, 25 Feb 2019 23:28:05 +0000
+Message-ID: <7F.C3.48687.50A747C5@a.mta2vsmtp.cc.prd.sparkpost>
+MIME-Version: 1.0
+From: "webmaster@ccpm.org.mx via SurveyMonkey" <member@surveymonkeyuser.com>
+To: raymundo@vpconsultores.com.mx
+Subject: =?utf-8?q?Vota_por_las_modificaciones_de_los_Estatutos_del_Colegio_?=
+Date: Mon, 25 Feb 2019 23:28:05 +0000
+Reply-To: =?utf-8?q?webmaster=40ccpm=2Eorg=2Emx?=
+X-Spam-Status: No, score=-11.5
+X-Spam-Score: -114
+X-Spam-Bar: -----------
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Vota por las modificaciones de los Estatutos del Colegio
+   Ciudad de México, a 25 de febrero de 2019 Aviso Importante 68-B [...] 
+ 
+ Content analysis details:   (-11.5 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: colegiocpmexico.org.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: colegiocpmexico.org.mx]
+ -3.0 RCVD_IN_RP_CERTIFIED   RBL: Sender in ReturnPath Certified - Contact
+                             cert-sa@returnpath.net
+                             [Return Path SenderScore Certified {formerly]
+                       [Bonded Sender} - <http://www.senderscorecertified.com>]
+ -2.0 RCVD_IN_RP_SAFE        RBL: Sender in ReturnPath Safe - Contact
+                             safe-sa@returnpath.net
+                             [Return Path SenderScore Safe List (formerly]
+                     [Habeas Safelist) - <http://www.senderscorecertified.com>]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF white-list
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+X-Spam-Flag: NO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">=0A<html>=0A<body style=3D"margin:0; padding=
+: 0;">=0A<div align=3D"center">=0A   <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" align=3D"center" width=3D"100%" style=3D"font-family: Ari=
+al,Helvetica,sans-serif; max-width: 700px;">=0A       <tr bgcolor=3D"#cc000=
+0">=0A           <td colspan=3D"5" height=3D"40">&#160;</td>=0A       </tr>=
+=0A       <tr bgcolor=3D"#cc0000">=0A           <td width=3D"20">&#160;</td=
+>=0A           <td width=3D"20">&#160;</td>=0A           <td align=3D"cente=
+r" style=3D"font-size: 29px; color:#FFFFFF; font-weight: normal; letter-spa=
+cing: 1px; line-height: 1;&#10;                           text-shadow: -1px=
+ -1px 1px rgba(0, 0, 0, 0.2); font-family: Arial,Helvetica,sans-serif;">=0A=
+              Vota por las modificaciones de los Estatutos del Colegio=0A  =
+         </td>=0A           <td width=3D"20">&#160;</td>=0A           <td w=
+idth=3D"20">&#160;</td>=0A       </tr>=0A       <tr bgcolor=3D"#cc0000">=0A=
+           <td colspan=3D"5" height=3D"40">&#160;</td>=0A       </tr>=0A   =
+    <tr>=0A           <td height=3D"10" colspan=3D"5">&#160;</td>=0A       =
+</tr>=0A       <tr>=0A           <td>&#160;</td>=0A           <td colspan=
+=3D"3" align=3D"left" valign=3D"top" style=3D"color:#666666; font-size: 13p=
+x;">=0A              =0A                <p><span style=3D"font-family: helv=
+etica, arial, sans-serif;">Ciudad de M&#233;xico, a 25 de febrero de 2019</=
+span><br/><br/><br/><br/></p><div style=3D"text-align: center;"><span style=
+=3D"font-family: helvetica, arial, sans-serif;"><strong>Aviso Importante 68=
+-B</strong></span></div><br/><div style=3D"text-align: center;"><span style=
+=3D"font-family: helvetica, arial, sans-serif;"><strong>Propuesta de Modifi=
+caciones a los Estatutos del Colegio y Votaci&#243;n</strong></span></div><=
+br/><br/><br/><span style=3D"font-family: helvetica, arial, sans-serif;">Es=
+timada (o) Socia (o):</span><br/><br/><span style=3D"font-family: helvetica=
+, arial, sans-serif;">En seguimiento al&#160;Aviso Importante 68&#160;en el=
+ que te invitamos a ejercer tu voto sobre las modificaciones a los Estatuto=
+s del Colegio, te informamos que la votaci&#243;n se extiende hasta el 26 d=
+e febrero de 2019.</span><br/><br/><span style=3D"font-family: helvetica, a=
+rial, sans-serif;">Puedes consultar el&#160;documento completo&#160;o su&#1=
+60;versi&#243;n condensada, dando clic en el bot&#243;n "Consulta la propue=
+sta y Vota" bajo este mensaje.</span><br/><br/><span style=3D"font-family: =
+helvetica, arial, sans-serif;">Si tuvieras comentarios o sugerencias te inv=
+itamos a externarlos, al correo&#160;<strong>snieto@colegiocpmexico.org.mx<=
+/strong></span><br/><br/><br/><br/><div style=3D"text-align: center;"><stro=
+ng><span style=3D"font-family: helvetica, arial, sans-serif;">Atentamente</=
+span></strong></div><br/><div style=3D"text-align: center;"><strong><span s=
+tyle=3D"font-family: helvetica, arial, sans-serif;">C.P.C. y P.C.FI. Juan M=
+anuel Puebla Dom&#237;nguez</span></strong></div><br/><div style=3D"text-al=
+ign: center;"><span style=3D"font-family: helvetica, arial, sans-serif;">Vi=
+cepresidente de Gobierno</span></div>=0A              =0A           </td>=
+=0A           <td>&#160;</td>=0A       </tr>=0A=0A       =0A           <tr>=
+=0A               <td colspan=3D"5" height=3D"30">&#160;</td>=0A           =
+</tr>=0A           <tr>=0A               <td>&#160;</td>=0A               <=
+td colspan=3D"3">=0A                   <table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" align=3D"center" style=3D"background:#cc0000; border-ra=
+dius: 4px; border: 1px solid #BBBBBB; color:#FFFFFF; font-size:14px; letter=
+-spacing: 1px; text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.8); padding: 10px=
+ 18px;">=0A                       <tr>=0A                           <td ali=
+gn=3D"center" valign=3D"center">=0A                               <a href=
+=3D"https://surveymonkey.com/tr/v1/te/7C0u9Xl6xmMaK_2FgPq5vwYeGzExNlwKU5J5X=
+rEV9JPrjEAHDvyowTwTMwB7GMbcJE2BE42YXdHG2OKr9atv3HrotmK35cgKedHr5zywpeJf14Bh=
+u2MZr3CG7aFftT_2B0CUUzTYUy2h_2FvGgwsE9HsZJ_2FWE9kjr_2BuHgUKjr2LgehQrc_2B5Xz=
+6Ek1BmkcaYV4qxMS7" target=3D"_blank" style=3D"color:#FFFFFF; text-decoratio=
+n:none;">Consulta la propuesta y Vota</a>=0A                           </td=
+>=0A                       </tr>=0A                   </table>=0A          =
+     </td>=0A               <td>&#160;</td>=0A           </tr>=0A          =
+ <tr>=0A               <td colspan=3D"5" height=3D"30">&#160;</td>=0A      =
+     </tr>=0A       =0A       <tr valign=3D"top" style=3D"color: #666666;fo=
+nt-size: 10px;">=0A           <td>&#160;</td>=0A           <td valign=3D"to=
+p" align=3D"center" colspan=3D"3">=0A               <p>No reenv&#237;es est=
+e correo electr&#243;nico ya que el enlace de la encuesta es exclusivo para=
+ ti. <br/><a href=3D"https://es.surveymonkey.com/mp/legal/privacy-basics/" =
+target=3D"_blank" style=3D"color: #333333; text-decoration: underline;">Pri=
+vacidad</a> | <a href=3D"https://surveymonkey.com/tr/v1/te/7C0u9Xl6xmMaK_2F=
+gPq5vwYeGzExNlwKU5J5XrEV9JPriXF8PZRqyR_2FXQjHvAFJ4hlNhPy_2FbVQ6PNC9_2B0ByO9=
+c6tQMl1uAs3z_2FVC1l2R9e1jPYkdQ5pODxtNiHVs00wXHQfnUGLKfE_2BXdU7K_2BEsHREJhtX=
+kmmTNqH8fn6JRsdVSBKspBkCQZUemO6uRNSBqOOc5rGJGH1IV26zmdW2AtsA8g_3D_3D" targe=
+t=3D"_blank" style=3D"color: #333333; text-decoration: underline;">Cancelar=
+ la suscripci&#243;n</a></p>=0A           </td>=0A           <td>&#160;</td=
+>=0A       </tr>=0A       <tr>=0A           <td height=3D"20" colspan=3D"5"=
+>&#160;</td>=0A       </tr>=0A=0A       <tr style=3D"color: #999999;font-si=
+ze: 10px;">=0A           <td align=3D"center" colspan=3D"5"><table width=3D=
+"100%" cellpadding=3D"2">=0A    <tbody>=0A        <tr>=0A            <td wi=
+dth=3D"45%" align=3D"right" style=3D"font-size: 10px; color: #999999;">Desa=
+rrollado por</td>=0A            <td width=3D"55%" align=3D"left">=0A       =
+         <img width=3D"130" align=3D"middle" height=3D"17" alt=3D"SurveyMon=
+key Logo" src=3D"https://www.surveymonkey.com/collect/images/smLogo.png"/>=
+=0A            </td>=0A        </tr>=0A    </tbody>=0A</table>=0A</td>=0A  =
+     </tr>=0A       <tr>=0A           <td height=3D"20" colspan=3D"5">&#160=
+;</td>=0A       </tr>=0A   </table>=0A</div>=0A<img src=3D"https://surveymo=
+nkey.com/tr/v1/te/_2BJ_2BBteW2D4RZZ78sIpwTMM5OPXlEevHnuFlMRaWWJB0S2_2FhuZQG=
+g9FbY6tYmmD1q.png" alt=3D"" width=3D"1px" height=3D"1px"/>=0D=0A<img border=
+=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"http://click.outbound.surve=
+ymonkey.com/q/UoCBFhQ-ZiT1zemW_CSrfQ~~/AAAAAQA~/RgReVa2FPlcMc3VydmV5bW9ua2V=
+5QgoAAAV6dFwvvvc8Uh1yYXltdW5kb0B2cGNvbnN1bHRvcmVzLmNvbS5teFgEAAAAZg~~">=0D=
+=0A</body>=0A</html>
+

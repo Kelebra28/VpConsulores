@@ -1,0 +1,1581 @@
+Return-Path: <0100016b0420e7db-f680473f-00e5-42bf-94f9-2e592f6399c2-000000@amazonses.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id CE3UA6qj7lwteTkAFq4nlA
+	(envelope-from <0100016b0420e7db-f680473f-00e5-42bf-94f9-2e592f6399c2-000000@amazonses.com>)
+	for <raymundo@vpconsultores.com.mx>; Wed, 29 May 2019 08:22:18 -0700
+Return-path: <0100016b0420e7db-f680473f-00e5-42bf-94f9-2e592f6399c2-000000@amazonses.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Wed, 29 May 2019 08:22:18 -0700
+Received: from a10-1.smtp-out.amazonses.com ([54.240.10.1]:39136)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <0100016b0420e7db-f680473f-00e5-42bf-94f9-2e592f6399c2-000000@amazonses.com>)
+	id 1hW0P6-00G8KX-9A
+	for raymundo@vpconsultores.com.mx; Wed, 29 May 2019 08:22:18 -0700
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=vopt2gmtvbgbc62fj5t6nuv5ovopezuf; d=elconta.com; t=1559142394;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:List-Unsubscribe;
+	bh=1mnvw/bR6wMiVHdkzPjcQXCKhOZgUnnx4/q/JzRMoYw=;
+	b=AHysk/4tttiHqLTEVZpb3OwNuG392DJToH2+/8l62cDp3u577LIapN6XdPLMtGzB
+	HpG9iETridlGsSF9HdWCdCJkdozjCfJ9aJ3mMub7V5+k00KMg83DwsdDEh4Txcf+Ugk
+	1jDqNXjILcwDAFeThBK6WPZmNAimWql4I6HVaPDQ=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1559142394;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:List-Unsubscribe:Feedback-ID;
+	bh=1mnvw/bR6wMiVHdkzPjcQXCKhOZgUnnx4/q/JzRMoYw=;
+	b=ACwp8JqEVQNtIdYLfYQ4SEQHOQ8oxE67OPF2BAfpIcNZNKNLyWwP/zuZN/Qsle2h
+	EEOhxNUA33f8MfQoFeOzu290NuiKgHz54yL7qpd5w1gGsnEcODlxi00GLk02lyhcu7P
+	meVYxTI/Sk3ffQtfuGQvGhk9z19xFXhClu67XABI=
+Message-ID: <0100016b0420e7db-f680473f-00e5-42bf-94f9-2e592f6399c2-000000@email.amazonses.com>
+Date: Wed, 29 May 2019 15:06:33 +0000
+Subject: =?utf-8?Q?=E2=8F=B0_MA=C3=91ANA?= 30 Mayo 10am.
+ =?utf-8?Q?Elaboraci=C3=B3n?= de Actas Constitutivas y de Asamblea para
+ Sociedades Mercantiles y Civiles. =?utf-8?Q?=E2=8F=B0?=
+From: "Cursos ElConta.Com" <cursos@elconta.com>
+To: raymundo@vpconsultores.com.mx
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1559142393_58ce8947c871192ce369e06255c6afb0_=_"
+X-EmailOctopus-Version: 2
+X-EmailOctopus-Started-Preparing-At: 2019-05-29T15:00:02+00:00
+X-EmailOctopus-Ses-Configuration-Set-Name: emailoctopus-92ac08625b86fcb74e8dc6e633188d55
+X-EmailOctopus-Sent-At: 2019-05-29T15:06:33+00:00
+X-EmailOctopus-Parent-Type-Id: campaign
+X-EmailOctopus-Parent-Id: ea5c3a55-81d4-11e9-9307-06b4694bee2a
+X-EmailOctopus-List-Id: d12734e9-4fdc-11e9-bf10-021521e51804
+X-EmailOctopus-List-Contact-Id: 4baec867-81d1-11e9-9307-06b4694bee2a
+List-Unsubscribe: <https://araneoides.eomail3.com/unsubscribe?l=d12734e9-4fdc-11e9-bf10-021521e51804&lc=4baec867-81d1-11e9-9307-06b4694bee2a&p=ea5c3a55-81d4-11e9-9307-06b4694bee2a&pt=campaign&spa=1559142002&t=1559142393&s=6ea1c9e2f4c3ad8f953149a2e97f8354e4a36e559dc9a259dd5f2fe865cb62a6&skipConfirmation=1>
+X-SES-Outgoing: 2019.05.29-54.240.10.1
+Feedback-ID: 1.us-east-1.DkWvtcCI6J0G1/6vBjuXDrPZcjXUlyjqaIVBQ/xHQGw=:AmazonSES
+X-Spam-Status: No, score=0.6
+X-Spam-Score: 6
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Identifica y corrige los errores más frecuentes en la elaboración
+    de actas.  [https://cursos.elconta.com/course-category/cursos-grabados/]
+    IDENTIFICA Y CORREGE LOS ERRORES MÁS FRECUENTES EN LA ELABORACIÓN DE ACTAS.
+    
+ 
+ Content analysis details:   (0.6 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: awstrack.me]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: awstrack.me]
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of .info|.us|.me|.me.uk|.biz
+                             domains in spam/malware
+X-Spam-Flag: NO
+
+--_=_swift_1559142393_58ce8947c871192ce369e06255c6afb0_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Identifica y corrige los errores m=C3=A1s frecuentes en la elaboraci=C3=B3n=
+ de
+actas.=C2=A0
+
+ [https://cursos.elconta.com/course-category/cursos-grabados/]=20
+
+IDENTIFICA Y CORREGE LOS ERRORES M=C3=81S FRECUENTES EN LA ELABORACI=C3=93N=
+ DE
+ACTAS.
+
+Ver versi=C3=B3n web
+[https://araneoides.eomail3.com/web-version?lc=3D4baec867-81d1-11e9-9307-06=
+b4694bee2a&p=3Dea5c3a55-81d4-11e9-9307-06b4694bee2a&pt=3Dcampaign&t=3D15591=
+42393&s=3D2d3afc3a5f85fbf1498ec325bfe215e6fb2da4eec43e9c8c8b0fba586e91f7d4]
+
+ =C2=A0 [https://cursos.elconta.com/category/proximos-cursos/]
+
+ELABORACI=C3=93N DE ACTAS CONSTITUTIVAS Y
+
+=C2=A0DE ASAMBLEA PARA SOCIEDADES=C2=A0
+
+MERCANTILES Y CIVILES.
+
+EXPOSITOR:
+
+=C2=A0
+
+LYSSETTE T=C3=89LLEZ RAM=C3=8DREZ
+
+MAESTRA EN IMPUESTOS CP LAE Y LD*
+
+=C2=A0
+
+-------------------------
+
+CURSO EN L=C3=8DNEA:
+
+FECHA: JUEVES 30 MAYO 2019
+
+HORARIO: 10:00 A 14:00 (4 HORAS)
+
+-------------------------
+
+ VER INFO EN SITIO WEB=C2=A0
+[https://cursos.elconta.com/evento/elaboracion-actas-constitutivas-asamblea=
+-sociedades-mercantiles-y-civiles/]
+
+-------------------------
+
+TODAS LAS ORGANIZACIONES REQUIEREN REGISTRAR ADECUADAMENTE LOS ASUNTOS
+TRATADOS EN SUS ASAMBLEAS, AS=C3=8D COMO LOS ACUERDOS CORRESPONDIENTES,
+CON EL FIN DE PODER TOMAR DECISIONES ACERTADAS Y OPORTUNAS.
+
+OBJETIVO DEL CURSO:
+
+Estructurar adecuadamente las actas, incluyendo todos los elementos
+exigidos para esta clase de documentos.
+
+Identificar y corregir los errores m=C3=A1s frecuentes en la elaboraci=C3=
+=B3n
+de actas.
+
+ACOMP=C3=81=C3=91AME.
+
+-------------------------
+
+TEMARIO:
+
+I.-ELABORACI=C3=93N=C2=A0DE ACTAS DE CONSTITUCION DE SOCIEDADES (CONTRATOS
+SOCIALES)
+
+1.1.NOMBRE, RAZ=C3=93N O DENOMINACI=C3=93N
+
+1.2.PROCESO DE CONSTITUCI=C3=93N
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Sociedades y Asociaciones Civiles
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Sociedades Mercantiles
+
+1.3.ACTA DE ASAMBLEA PARA LA CONSTITUCI=C3=93N DE LA SOCIEDAD O
+ASOCIACI=C3=93N
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Objetivos
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Actividades
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Poderes
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Clausulas convenientes
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Clausulas necesarias para personas=
+ morales no
+lucrativas
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Clausulas obligatorias para donata=
+rias
+
+1.4.REDACCI=C3=93N DE ESTATUTOS
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 Sociedades mercantiles
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 Asociaciones y sociedades civiles
+
+II.-ELABORACI=C3=93N=C2=A0DE ACTAS DE ASAMBLEA
+
+2.1.REQUISITOS DE LAS CONVOCATORIAS
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Plazos entre la convocatoria y la =
+celebraci=C3=B3n de la
+asamblea
+
+2.2.QU=C3=89 DEBE CONTENER UN ACTA DE ASAMBLEA
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Errores frecuentes en la redacci=
+=C3=B3n y elaboraci=C3=B3n
+
+2.3.REQUISITOS DE SU CONTENIDO PARA SU VALIDEZ
+
+2.4.ACTAS SEG=C3=9AN TIPOS DE ASAMBLEAS
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Actas de asamblea Ordinarias
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Actas de asamblea Extraordinarias
+
+2.5. CONTENIDO Y CL=C3=81USULAS NECESARIAS
+
+2.6. OTRAS FORMALIDADES
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Qu=C3=B3rum de asistencia y qu=C3=
+=B3rum de votaci=C3=B3n
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Representaci=C3=B3n de los socios =
+y accionistas en las
+asambleas
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Informaci=C3=B3n conforme al art=
+=C3=ADculo 76-XIX de ISR
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0Sistema electr=C3=B3nico de public=
+aciones de las
+sociedades mercantiles
+
+III.-ACTAS COMO SOPORTE DE LA MATERIALIDAD DE LOS ACTOS
+
+CONCLUSIONES Y RECOMENDACIONES
+
+-------------------------
+
+*=C2=A0CURRICULUM DEL EXPOSITOR MAESTRA EN IMPUESTOS CPC LAE Y LD LYSSETTE
+T=C3=89LLEZ RAM=C3=8DREZ:
+
+-------------------------
+
+DETALLES T=C3=89CNICOS:
+
+=09* Usaremos GoToWebinar (No es necesario ning=C3=BAn software especial,
+basta con una buena conexi=C3=B3n a internet)
+ =09* =C2=BFComo ingresar=C3=A1s al webinar? Ac=C3=A1 un ejemplo
+[https://www.youtube.com/watch?v=3DJF-DnLN2KPg].
+ =09* El que cuentes con unos buenos aud=C3=ADfonos ayuda bastante.
+ =09* Puedes tomar la sesi=C3=B3n a trav=C3=A9s de un Mac, un PC o un
+dispositivo m=C3=B3vil (Tu ipad, o dispositivo android)
+ =09* =C2=BFNO PUEDES ASISTIR EN EL HORARIO DE LA SESI=C3=93N EN VIVO? NO T=
+E
+PREOCUPES, NUESTROS CURSOS EN L=C3=8DNEA PUEDES DISFRUTARLOS EN TIEMPO
+REAL DE MANERA PRESENCIAL (VIRTUAL) O BIEN, PUEDES DISFRUTAR DEL
+V=C3=8DDEO =C3=8DNTEGRO DE LA SESI=C3=93N QUE TE PROPORCIONAREMOS AL D=C3=
+=8DA
+SIGUIENTE DEL CURSO.=C2=A0EL CUAL PODR=C3=81S CONSULTAR DURANTE LOS 30 D=C3=
+=8DAS
+SIGUIENTES.
+
+PRECIO REAL (IVA INCLUIDO)=20
+
+$754.00=C2=A0P=C3=9ABLICO EN GENERAL
+
+=C2=A0
+
+DATOS DE DEP=C3=93SITO:=20
+DESARROLLO CONTABLE FISCAL EN REDES SA DE CV
+CUENTA BANCOMER: 0197099339
+(CLABE: 012320001970993396)=20
+
+=C2=BFGUSTAS HACER PAGO CON TARJETA?
+
+=C2=A0CLIC AQU=C3=8D
+[https://www.paypal.me/dcfr/754.00?country.x=3DMX&locale.x=3Des_XC]=C2=A0
+
+PARA M=C3=81S INFORMACI=C3=93N POR FAVOR CONTACTA A NUESTRA =C3=81REA DE AT=
+ENCI=C3=93N
+A CLIENTES:=20
+
+=C2=A0=C2=A0cursos@elconta.com=C2=A0=C2=A0
+GDL (33) 3683-9343
+GDL (33) 3331-6176=20
+=C2=A0=20
+=C2=A0
+
+ [https://cursos.elconta.com/course-category/cursos-grabados/]=20
+
+ [https://www.twitter.com/elconta2r]
+
+ [https://www.facebook.com/elconta/]
+
+ [https://elconta.com]
+
+=C2=A0
+
+_=C2=BFYa no desea recibir nuestros correos?: Darse de baja aqu=C3=AD
+[https://araneoides.eomail3.com/unsubscribe?l=3Dd12734e9-4fdc-11e9-bf10-021=
+521e51804&lc=3D4baec867-81d1-11e9-9307-06b4694bee2a&p=3Dea5c3a55-81d4-11e9-=
+9307-06b4694bee2a&pt=3Dcampaign&spa=3D1559142002&t=3D1559142393&s=3D6ea1c9e=
+2f4c3ad8f953149a2e97f8354e4a36e559dc9a259dd5f2fe865cb62a6]_
+
+--_=_swift_1559142393_58ce8947c871192ce369e06255c6afb0_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:o=3D"urn:=
+schemas-microsoft-com:office:office" xmlns:v=3D"urn:schemas-microsoft-com:v=
+ml"><head><!-- NAME: 1 COLUMN - BANDED --><!--[if gte mso 15]>
+=09=09<xml>
+=09=09=09<o:OfficeDocumentSettings>
+=09=09=09<o:AllowPNG></o:AllowPNG>
+=09=09=09<o:PixelsPerInch>96</o:PixelsPerInch>
+=09=09=09</o:OfficeDocumentSettings>
+=09=09</xml>
+=09=09<![endif]--><meta charset=3D"UTF-8"><meta http-equiv=3D"X-UA-Compatib=
+le" content=3D"IE=3Dedge"><meta name=3D"viewport" content=3D"width=3Ddevice=
+-width, initial-scale=3D1"><title>*|MC:SUBJECT|*</title><style type=3D"text=
+/css">
+=09=09=09p {
+=09=09=09=09margin: 10px 0;
+=09=09=09=09padding: 0;
+=09=09=09}
+=09=09=09
+=09=09=09table {
+=09=09=09=09border-collapse: collapse;
+=09=09=09}
+=09=09=09
+=09=09=09h1,
+=09=09=09h2,
+=09=09=09h3,
+=09=09=09h4,
+=09=09=09h5,
+=09=09=09h6 {
+=09=09=09=09display: block;
+=09=09=09=09margin: 0;
+=09=09=09=09padding: 0;
+=09=09=09}
+=09=09=09
+=09=09=09img,
+=09=09=09a img {
+=09=09=09=09border: 0;
+=09=09=09=09height: auto;
+=09=09=09=09outline: none;
+=09=09=09=09text-decoration: none;
+=09=09=09}
+=09=09=09
+=09=09=09body,
+=09=09=09#bodyTable,
+=09=09=09#bodyCell {
+=09=09=09=09height: 100%;
+=09=09=09=09margin: 0;
+=09=09=09=09padding: 0;
+=09=09=09=09width: 100%;
+=09=09=09}
+=09=09=09
+=09=09=09#outlook a {
+=09=09=09=09padding: 0;
+=09=09=09}
+=09=09=09
+=09=09=09img {
+=09=09=09=09-ms-interpolation-mode: bicubic;
+=09=09=09}
+=09=09=09
+=09=09=09table {
+=09=09=09=09mso-table-lspace: 0pt;
+=09=09=09=09mso-table-rspace: 0pt;
+=09=09=09}
+=09=09=09
+=09=09=09.ReadMsgBody {
+=09=09=09=09width: 100%;
+=09=09=09}
+=09=09=09
+=09=09=09.ExternalClass {
+=09=09=09=09width: 100%;
+=09=09=09}
+=09=09=09
+=09=09=09p,
+=09=09=09a,
+=09=09=09li,
+=09=09=09td,
+=09=09=09blockquote {
+=09=09=09=09mso-line-height-rule: exactly;
+=09=09=09}
+=09=09=09
+=09=09=09a[href^=3Dtel],
+=09=09=09a[href^=3Dsms] {
+=09=09=09=09color: inherit;
+=09=09=09=09cursor: default;
+=09=09=09=09text-decoration: none;
+=09=09=09}
+=09=09=09
+=09=09=09p,
+=09=09=09a,
+=09=09=09li,
+=09=09=09td,
+=09=09=09body,
+=09=09=09table,
+=09=09=09blockquote {
+=09=09=09=09-ms-text-size-adjust: 100%;
+=09=09=09=09-webkit-text-size-adjust: 100%;
+=09=09=09}
+=09=09=09
+=09=09=09.ExternalClass,
+=09=09=09.ExternalClass p,
+=09=09=09.ExternalClass td,
+=09=09=09.ExternalClass div,
+=09=09=09.ExternalClass span,
+=09=09=09.ExternalClass font {
+=09=09=09=09line-height: 100%;
+=09=09=09}
+=09=09=09
+=09=09=09a[x-apple-data-detectors] {
+=09=09=09=09color: inherit !important;
+=09=09=09=09text-decoration: none !important;
+=09=09=09=09font-size: inherit !important;
+=09=09=09=09font-family: inherit !important;
+=09=09=09=09font-weight: inherit !important;
+=09=09=09=09line-height: inherit !important;
+=09=09=09}
+=09=09=09
+=09=09=09.templateContainer {
+=09=09=09=09max-width: 600px !important;
+=09=09=09}
+=09=09=09
+=09=09=09a.mcnButton {
+=09=09=09=09display: block;
+=09=09=09}
+=09=09=09
+=09=09=09.mcnImage {
+=09=09=09=09vertical-align: bottom;
+=09=09=09}
+=09=09=09
+=09=09=09.mcnTextContent {
+=09=09=09=09word-break: break-word;
+=09=09=09}
+=09=09=09
+=09=09=09.mcnTextContent img {
+=09=09=09=09height: auto !important;
+=09=09=09}
+=09=09=09
+=09=09=09.mcnDividerBlock {
+=09=09=09=09table-layout: fixed !important;
+=09=09=09}
+=09=09=09/*
+=09@tab Page
+=09@section Background Style
+=09@tip Set the background color and top border for your email. You may wan=
+t to choose colors that match your company's branding.
+=09*/
+=09=09=09
+=09=09=09body,
+=09=09=09#bodyTable {
+=09=09=09=09/*@editable*/
+=09=09=09=09background-color: #FAFAFA;
+=09=09=09}
+=09=09=09/*
+=09@tab Page
+=09@section Background Style
+=09@tip Set the background color and top border for your email. You may wan=
+t to choose colors that match your company's branding.
+=09*/
+=09=09=09
+=09=09=09#bodyCell {
+=09=09=09=09/*@editable*/
+=09=09=09=09border-top: 0;
+=09=09=09}
+=09=09=09/*
+=09@tab Page
+=09@section Heading 1
+=09@tip Set the styling for all first-level headings in your emails. These =
+should be the largest of your headings.
+=09@style heading 1
+=09*/
+=09=09=09
+=09=09=09h1 {
+=09=09=09=09/*@editable*/
+=09=09=09=09color: #202020;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-family: Helvetica;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-size: 26px;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-style: normal;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-weight: bold;
+=09=09=09=09/*@editable*/
+=09=09=09=09line-height: 125%;
+=09=09=09=09/*@editable*/
+=09=09=09=09letter-spacing: normal;
+=09=09=09=09/*@editable*/
+=09=09=09=09text-align: left;
+=09=09=09}
+=09=09=09/*
+=09@tab Page
+=09@section Heading 2
+=09@tip Set the styling for all second-level headings in your emails.
+=09@style heading 2
+=09*/
+=09=09=09
+=09=09=09h2 {
+=09=09=09=09/*@editable*/
+=09=09=09=09color: #202020;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-family: Helvetica;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-size: 22px;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-style: normal;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-weight: bold;
+=09=09=09=09/*@editable*/
+=09=09=09=09line-height: 125%;
+=09=09=09=09/*@editable*/
+=09=09=09=09letter-spacing: normal;
+=09=09=09=09/*@editable*/
+=09=09=09=09text-align: left;
+=09=09=09}
+=09=09=09/*
+=09@tab Page
+=09@section Heading 3
+=09@tip Set the styling for all third-level headings in your emails.
+=09@style heading 3
+=09*/
+=09=09=09
+=09=09=09h3 {
+=09=09=09=09/*@editable*/
+=09=09=09=09color: #202020;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-family: Helvetica;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-size: 20px;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-style: normal;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-weight: bold;
+=09=09=09=09/*@editable*/
+=09=09=09=09line-height: 125%;
+=09=09=09=09/*@editable*/
+=09=09=09=09letter-spacing: normal;
+=09=09=09=09/*@editable*/
+=09=09=09=09text-align: left;
+=09=09=09}
+=09=09=09/*
+=09@tab Page
+=09@section Heading 4
+=09@tip Set the styling for all fourth-level headings in your emails. These=
+ should be the smallest of your headings.
+=09@style heading 4
+=09*/
+=09=09=09
+=09=09=09h4 {
+=09=09=09=09/*@editable*/
+=09=09=09=09color: #202020;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-family: Helvetica;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-size: 18px;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-style: normal;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-weight: bold;
+=09=09=09=09/*@editable*/
+=09=09=09=09line-height: 125%;
+=09=09=09=09/*@editable*/
+=09=09=09=09letter-spacing: normal;
+=09=09=09=09/*@editable*/
+=09=09=09=09text-align: left;
+=09=09=09}
+=09=09=09/*
+=09@tab Preheader
+=09@section Preheader Style
+=09@tip Set the background color and borders for your email's preheader are=
+a.
+=09*/
+=09=09=09
+=09=09=09#templatePreheader {
+=09=09=09=09/*@editable*/
+=09=09=09=09background-color: #FAFAFA;
+=09=09=09=09/*@editable*/
+=09=09=09=09border-top: 0;
+=09=09=09=09/*@editable*/
+=09=09=09=09border-bottom: 0;
+=09=09=09=09/*@editable*/
+=09=09=09=09padding-top: 9px;
+=09=09=09=09/*@editable*/
+=09=09=09=09padding-bottom: 9px;
+=09=09=09}
+=09=09=09/*
+=09@tab Preheader
+=09@section Preheader Text
+=09@tip Set the styling for your email's preheader text. Choose a size and =
+color that is easy to read.
+=09*/
+=09=09=09
+=09=09=09#templatePreheader .mcnTextContent,
+=09=09=09#templatePreheader .mcnTextContent p {
+=09=09=09=09/*@editable*/
+=09=09=09=09color: #656565;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-family: Helvetica;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-size: 12px;
+=09=09=09=09/*@editable*/
+=09=09=09=09line-height: 150%;
+=09=09=09=09/*@editable*/
+=09=09=09=09text-align: left;
+=09=09=09}
+=09=09=09/*
+=09@tab Preheader
+=09@section Preheader Link
+=09@tip Set the styling for your email's preheader links. Choose a color th=
+at helps them stand out from your text.
+=09*/
+=09=09=09
+=09=09=09#templatePreheader .mcnTextContent a,
+=09=09=09#templatePreheader .mcnTextContent p a {
+=09=09=09=09/*@editable*/
+=09=09=09=09color: #656565;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-weight: normal;
+=09=09=09=09/*@editable*/
+=09=09=09=09text-decoration: underline;
+=09=09=09}
+=09=09=09/*
+=09@tab Header
+=09@section Header Style
+=09@tip Set the background color and borders for your email's header area.
+=09*/
+=09=09=09
+=09=09=09#templateHeader {
+=09=09=09=09/*@editable*/
+=09=09=09=09background-color: #FFFFFF;
+=09=09=09=09/*@editable*/
+=09=09=09=09border-top: 0;
+=09=09=09=09/*@editable*/
+=09=09=09=09border-bottom: 0;
+=09=09=09=09/*@editable*/
+=09=09=09=09padding-top: 9px;
+=09=09=09=09/*@editable*/
+=09=09=09=09padding-bottom: 0;
+=09=09=09}
+=09=09=09/*
+=09@tab Header
+=09@section Header Text
+=09@tip Set the styling for your email's header text. Choose a size and col=
+or that is easy to read.
+=09*/
+=09=09=09
+=09=09=09#templateHeader .mcnTextContent,
+=09=09=09#templateHeader .mcnTextContent p {
+=09=09=09=09/*@editable*/
+=09=09=09=09color: #202020;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-family: Helvetica;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-size: 16px;
+=09=09=09=09/*@editable*/
+=09=09=09=09line-height: 150%;
+=09=09=09=09/*@editable*/
+=09=09=09=09text-align: left;
+=09=09=09}
+=09=09=09/*
+=09@tab Header
+=09@section Header Link
+=09@tip Set the styling for your email's header links. Choose a color that =
+helps them stand out from your text.
+=09*/
+=09=09=09
+=09=09=09#templateHeader .mcnTextContent a,
+=09=09=09#templateHeader .mcnTextContent p a {
+=09=09=09=09/*@editable*/
+=09=09=09=09color: #2BAADF;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-weight: normal;
+=09=09=09=09/*@editable*/
+=09=09=09=09text-decoration: underline;
+=09=09=09}
+=09=09=09/*
+=09@tab Body
+=09@section Body Style
+=09@tip Set the background color and borders for your email's body area.
+=09*/
+=09=09=09
+=09=09=09#templateBody {
+=09=09=09=09/*@editable*/
+=09=09=09=09background-color: #FFFFFF;
+=09=09=09=09/*@editable*/
+=09=09=09=09border-top: 0;
+=09=09=09=09/*@editable*/
+=09=09=09=09border-bottom: 0;
+=09=09=09=09/*@editable*/
+=09=09=09=09padding-top: 9px;
+=09=09=09=09/*@editable*/
+=09=09=09=09padding-bottom: 9px;
+=09=09=09}
+=09=09=09/*
+=09@tab Body
+=09@section Body Text
+=09@tip Set the styling for your email's body text. Choose a size and color=
+ that is easy to read.
+=09*/
+=09=09=09
+=09=09=09#templateBody .mcnTextContent,
+=09=09=09#templateBody .mcnTextContent p {
+=09=09=09=09/*@editable*/
+=09=09=09=09color: #202020;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-family: Helvetica;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-size: 16px;
+=09=09=09=09/*@editable*/
+=09=09=09=09line-height: 150%;
+=09=09=09=09/*@editable*/
+=09=09=09=09text-align: left;
+=09=09=09}
+=09=09=09/*
+=09@tab Body
+=09@section Body Link
+=09@tip Set the styling for your email's body links. Choose a color that he=
+lps them stand out from your text.
+=09*/
+=09=09=09
+=09=09=09#templateBody .mcnTextContent a,
+=09=09=09#templateBody .mcnTextContent p a {
+=09=09=09=09/*@editable*/
+=09=09=09=09color: #2BAADF;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-weight: normal;
+=09=09=09=09/*@editable*/
+=09=09=09=09text-decoration: underline;
+=09=09=09}
+=09=09=09/*
+=09@tab Footer
+=09@section Footer Style
+=09@tip Set the background color and borders for your email's footer area.
+=09*/
+=09=09=09
+=09=09=09#templateFooter {
+=09=09=09=09/*@editable*/
+=09=09=09=09background-color: #FAFAFA;
+=09=09=09=09/*@editable*/
+=09=09=09=09border-top: 0;
+=09=09=09=09/*@editable*/
+=09=09=09=09border-bottom: 0;
+=09=09=09=09/*@editable*/
+=09=09=09=09padding-top: 9px;
+=09=09=09=09/*@editable*/
+=09=09=09=09padding-bottom: 9px;
+=09=09=09}
+=09=09=09/*
+=09@tab Footer
+=09@section Footer Text
+=09@tip Set the styling for your email's footer text. Choose a size and col=
+or that is easy to read.
+=09*/
+=09=09=09
+=09=09=09#templateFooter .mcnTextContent,
+=09=09=09#templateFooter .mcnTextContent p {
+=09=09=09=09/*@editable*/
+=09=09=09=09color: #656565;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-family: Helvetica;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-size: 12px;
+=09=09=09=09/*@editable*/
+=09=09=09=09line-height: 150%;
+=09=09=09=09/*@editable*/
+=09=09=09=09text-align: center;
+=09=09=09}
+=09=09=09/*
+=09@tab Footer
+=09@section Footer Link
+=09@tip Set the styling for your email's footer links. Choose a color that =
+helps them stand out from your text.
+=09*/
+=09=09=09
+=09=09=09#templateFooter .mcnTextContent a,
+=09=09=09#templateFooter .mcnTextContent p a {
+=09=09=09=09/*@editable*/
+=09=09=09=09color: #656565;
+=09=09=09=09/*@editable*/
+=09=09=09=09font-weight: normal;
+=09=09=09=09/*@editable*/
+=09=09=09=09text-decoration: underline;
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (min-width:768px) {
+=09=09=09=09.templateContainer {
+=09=09=09=09=09width: 600px !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09body,
+=09=09=09=09table,
+=09=09=09=09td,
+=09=09=09=09p,
+=09=09=09=09a,
+=09=09=09=09li,
+=09=09=09=09blockquote {
+=09=09=09=09=09-webkit-text-size-adjust: none !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09body {
+=09=09=09=09=09width: 100% !important;
+=09=09=09=09=09min-width: 100% !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09#bodyCell {
+=09=09=09=09=09padding-top: 10px !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09.mcnImage {
+=09=09=09=09=09width: 100% !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09.mcnCartContainer,
+=09=09=09=09.mcnCaptionTopContent,
+=09=09=09=09.mcnRecContentContainer,
+=09=09=09=09.mcnCaptionBottomContent,
+=09=09=09=09.mcnTextContentContainer,
+=09=09=09=09.mcnBoxedTextContentContainer,
+=09=09=09=09.mcnImageGroupContentContainer,
+=09=09=09=09.mcnCaptionLeftTextContentContainer,
+=09=09=09=09.mcnCaptionRightTextContentContainer,
+=09=09=09=09.mcnCaptionLeftImageContentContainer,
+=09=09=09=09.mcnCaptionRightImageContentContainer,
+=09=09=09=09.mcnImageCardLeftTextContentContainer,
+=09=09=09=09.mcnImageCardRightTextContentContainer {
+=09=09=09=09=09max-width: 100% !important;
+=09=09=09=09=09width: 100% !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09.mcnBoxedTextContentContainer {
+=09=09=09=09=09min-width: 100% !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09.mcnImageGroupContent {
+=09=09=09=09=09padding: 9px !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09.mcnCaptionLeftContentOuter .mcnTextContent,
+=09=09=09=09.mcnCaptionRightContentOuter .mcnTextContent {
+=09=09=09=09=09padding-top: 9px !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09.mcnImageCardTopImageContent,
+=09=09=09=09.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnText=
+Content {
+=09=09=09=09=09padding-top: 18px !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09.mcnImageCardBottomImageContent {
+=09=09=09=09=09padding-bottom: 9px !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09.mcnImageGroupBlockInner {
+=09=09=09=09=09padding-top: 0 !important;
+=09=09=09=09=09padding-bottom: 0 !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09.mcnImageGroupBlockOuter {
+=09=09=09=09=09padding-top: 9px !important;
+=09=09=09=09=09padding-bottom: 9px !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09.mcnTextContent,
+=09=09=09=09.mcnBoxedTextContentColumn {
+=09=09=09=09=09padding-right: 18px !important;
+=09=09=09=09=09padding-left: 18px !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09.mcnImageCardLeftImageContent,
+=09=09=09=09.mcnImageCardRightImageContent {
+=09=09=09=09=09padding-right: 18px !important;
+=09=09=09=09=09padding-bottom: 0 !important;
+=09=09=09=09=09padding-left: 18px !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09.mcpreview-image-uploader {
+=09=09=09=09=09display: none !important;
+=09=09=09=09=09width: 100% !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09/*
+=09@tab Mobile Styles
+=09@section Heading 1
+=09@tip Make the first-level headings larger in size for better readability=
+ on small screens.
+=09*/
+=09=09=09=09h1 {
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09font-size: 22px !important;
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09line-height: 125% !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09/*
+=09@tab Mobile Styles
+=09@section Heading 2
+=09@tip Make the second-level headings larger in size for better readabilit=
+y on small screens.
+=09*/
+=09=09=09=09h2 {
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09font-size: 20px !important;
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09line-height: 125% !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09/*
+=09@tab Mobile Styles
+=09@section Heading 3
+=09@tip Make the third-level headings larger in size for better readability=
+ on small screens.
+=09*/
+=09=09=09=09h3 {
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09font-size: 18px !important;
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09line-height: 125% !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09/*
+=09@tab Mobile Styles
+=09@section Heading 4
+=09@tip Make the fourth-level headings larger in size for better readabilit=
+y on small screens.
+=09*/
+=09=09=09=09h4 {
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09font-size: 16px !important;
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09line-height: 150% !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09/*
+=09@tab Mobile Styles
+=09@section Boxed Text
+=09@tip Make the boxed text larger in size for better readability on small =
+screens. We recommend a font size of at least 16px.
+=09*/
+=09=09=09=09.mcnBoxedTextContentContainer .mcnTextContent,
+=09=09=09=09.mcnBoxedTextContentContainer .mcnTextContent p {
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09font-size: 14px !important;
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09line-height: 150% !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09/*
+=09@tab Mobile Styles
+=09@section Preheader Visibility
+=09@tip Set the visibility of the email's preheader on small screens. You c=
+an hide it to save space.
+=09*/
+=09=09=09=09#templatePreheader {
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09display: block !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09/*
+=09@tab Mobile Styles
+=09@section Preheader Text
+=09@tip Make the preheader text larger in size for better readability on sm=
+all screens.
+=09*/
+=09=09=09=09#templatePreheader .mcnTextContent,
+=09=09=09=09#templatePreheader .mcnTextContent p {
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09font-size: 14px !important;
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09line-height: 150% !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09/*
+=09@tab Mobile Styles
+=09@section Header Text
+=09@tip Make the header text larger in size for better readability on small=
+ screens.
+=09*/
+=09=09=09=09#templateHeader .mcnTextContent,
+=09=09=09=09#templateHeader .mcnTextContent p {
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09font-size: 16px !important;
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09line-height: 150% !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09/*
+=09@tab Mobile Styles
+=09@section Body Text
+=09@tip Make the body text larger in size for better readability on small s=
+creens. We recommend a font size of at least 16px.
+=09*/
+=09=09=09=09#templateBody .mcnTextContent,
+=09=09=09=09#templateBody .mcnTextContent p {
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09font-size: 16px !important;
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09line-height: 150% !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09@media only screen and (max-width: 480px) {
+=09=09=09=09/*
+=09@tab Mobile Styles
+=09@section Footer Text
+=09@tip Make the footer content text larger in size for better readability =
+on small screens.
+=09*/
+=09=09=09=09#templateFooter .mcnTextContent,
+=09=09=09=09#templateFooter .mcnTextContent p {
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09font-size: 14px !important;
+=09=09=09=09=09/*@editable*/
+=09=09=09=09=09line-height: 150% !important;
+=09=09=09=09}
+=09=09=09}
+
+=09=09</style></head><body>
+
+
+
+<div style=3D"display:none; font-size:0px; line-height:0px; max-height:0px;=
+ max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all=
+;">Identifica y corrige los errores m=C3=A1s frecuentes en la elaboraci=C3=
+=B3n de actas.&nbsp;</div>
+
+<p>
+
+</p><center>
+
+</center><p></p><p></p><center><a href=3D"https://z7d0xy0l.r.us-east-1.awst=
+rack.me/L0/https:%2F%2Fcursos.elconta.com%2Fcourse-category%2Fcursos-grabad=
+os%2F/1/0100016b0420e7db-f680473f-00e5-42bf-94f9-2e592f6399c2-000000/nt8TRQ=
+mISKQRLLTmVz05QNRn8YA=3D111" rel=3D"noopener noreferrer" target=3D"_blank">=
+<img src=3D"https://gallery.eomail3.com/16452a69-3983-11e9-a3c9-06b79b628af=
+2%2F1559109710018-1559109704451.png" alt=3D"" width=3D"607" srcset=3D"https=
+://cursos.elconta.com/wp-content/uploads/2019/05/2019-05_hotSale.jpg 800w, =
+https://cursos.elconta.com/wp-content/uploads/2019/05/2019-05_hotSale-300x5=
+6.jpg 300w, https://cursos.elconta.com/wp-content/uploads/2019/05/2019-05_h=
+otSale-768x144.jpg 768w" sizes=3D"(max-width: 800px) 100vw, 800px" height=
+=3D"113.813"></a>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" he=
+ight=3D"100%" id=3D"bodyTable" width=3D"100%"><tbody><tr><td align=3D"cente=
+r" id=3D"bodyCell" valign=3D"top">
+<!-- BEGIN TEMPLATE // -->
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tbo=
+dy><tr><td align=3D"center" id=3D"templatePreheader" valign=3D"top">
+<!--[if gte mso 9]>
+=09=09=09=09=09=09=09=09=09<table align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"600" style=3D"width:600px;">
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top" width=3D"600=
+" style=3D"width:600px;">
+=09=09=09=09=09=09=09=09=09<![endif]-->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"templateContainer" width=3D"100%"><tbody><tr><td class=3D"preheaderC=
+ontainer" valign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"mcnTextBlock" style=3D"min-width:100%;" width=3D"100%"><tbo=
+dy class=3D"mcnTextBlockOuter"><tr><td class=3D"mcnTextBlockInner" valign=
+=3D"top"><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"mcnTextContentContainer" width=3D"366"><tbody><tr><td class=
+=3D"mcnTextContent" style=3D"padding-top:9px; padding-left:18px; padding-bo=
+ttom:9px; padding-right:0;" valign=3D"top"><div><span style=3D"color:#FF000=
+0;"><strong>Identifica y correge los errores m=C3=A1s frecuentes en la elab=
+oraci=C3=B3n de actas.</strong></span></div></td></tr></tbody></table>
+
+<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"mcnTextContentContainer" width=3D"197"><tbody><tr><td class=3D"mcnTex=
+tContent" style=3D"padding: 9px 18px; text-align: center;" valign=3D"top"><=
+div><a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Faran=
+eoides.eomail3.com%2Fweb-version%3Flc=3D4baec867-81d1-11e9-9307-06b4694bee2=
+a%26p=3Dea5c3a55-81d4-11e9-9307-06b4694bee2a%26pt=3Dcampaign%26t=3D15591423=
+93%26s=3D2d3afc3a5f85fbf1498ec325bfe215e6fb2da4eec43e9c8c8b0fba586e91f7d4/1=
+/0100016b0420e7db-f680473f-00e5-42bf-94f9-2e592f6399c2-000000/CaEiNReAT5CSX=
+LPHyrlene_7lXw=3D111" rel=3D"noopener noreferrer" target=3D"_blank">Ver ver=
+si=C3=B3n web</a></div></td></tr></tbody></table></td></tr></tbody></table>=
+</td></tr></tbody></table>
+<!--[if gte mso 9]>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09<![endif]--></td></tr>
+<tr><td align=3D"center" id=3D"templateHeader" valign=3D"top">
+<!--[if gte mso 9]>
+=09=09=09=09=09=09=09=09=09<table align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"600" style=3D"width:600px;">
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top" width=3D"600=
+" style=3D"width:600px;">
+=09=09=09=09=09=09=09=09=09<![endif]-->
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"templateContainer" width=3D"100%"><tbody><tr><td class=3D"headerCont=
+ainer" valign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" class=3D"mcnImageBlock" style=3D"min-width:100%;" width=3D"100%"><tbody =
+class=3D"mcnImageBlockOuter"><tr><td class=3D"mcnImageBlockInner" style=3D"=
+padding:9px;" valign=3D"top"><table align=3D"left" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"mcnImageContentContainer" style=3D"min-wi=
+dth:100%;" width=3D"100%"><tbody><tr><td class=3D"mcnImageContent" style=3D=
+"padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; =
+text-align:center;" valign=3D"top"><div>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Fcursos.e=
+lconta.com%2Fcategory%2Fproximos-cursos%2F/1/0100016b0420e7db-f680473f-00e5=
+-42bf-94f9-2e592f6399c2-000000/xmEj6es8nPon-mmlO8D-j1ZvUQU=3D111" target=3D=
+"_blank" title=3D"Mas Info curso Chamlaty"><img align=3D"center" alt=3D"" c=
+lass=3D"mcnImage" src=3D"https://gallery.mailchimp.com/c34e1670401e8251e005=
+1354a/images/elcnta1_copy5894d4.png" style=3D"max-width: 627px; padding-bot=
+tom: 0px; vertical-align: bottom; width: 488px; height: 207.219px; display:=
+ inline !important;" height=3D"207.203" width=3D"488">&nbsp;</a></div></td>=
+</tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></=
+td></tr>
+<tr><td align=3D"center" id=3D"templateBody" valign=3D"top"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"template=
+Container" width=3D"100%"><tbody><tr><td class=3D"bodyContainer" valign=3D"=
+top"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnTe=
+xtBlock" style=3D"min-width:100%;" width=3D"100%"><tbody class=3D"mcnTextBl=
+ockOuter"><tr><td class=3D"mcnTextBlockInner" valign=3D"top"><table align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnText=
+ContentContainer" style=3D"min-width:100%;" width=3D"100%"><tbody><tr><td c=
+lass=3D"mcnTextContent" style=3D"padding-top:9px; padding-right: 18px; padd=
+ing-bottom: 9px; padding-left: 18px;" valign=3D"top"><h1 style=3D"text-alig=
+n: center;"><span style=3D"color: #008000;">Elaboraci=C3=B3n de Actas Const=
+itutivas y</span></h1><h1 style=3D"text-align: center;"><span style=3D"colo=
+r: #008000;">&nbsp;de Asamblea para Sociedades&nbsp;</span></h1><h1 style=
+=3D"text-align: center;"><span style=3D"color: #008000;">Mercantiles y Civi=
+les.</span></h1>
+<p>
+<br>
+</p>
+
+<h2 style=3D"text-align: center;"><img alt=3D"" src=3D"https://elconta.com/=
+wp-content/uploads/2018/10/lysete_tellez_elconta-300x300.png" style=3D"widt=
+h: 174px; height: 174px; float: left;"><strong>Expositor:</strong></h2>
+
+<p>&nbsp;</p>
+
+<h2 style=3D"text-align: center;"><span style=3D"color:#0000CD;"><strong>Ly=
+ssette T=C3=A9llez Ram=C3=ADrez</strong></span></h2>
+
+<h3 style=3D"text-align: center;">
+<br>
+<span style=3D"color:#0000CD;"><strong>Maestra en Impuestos CP LAE y LD*</s=
+trong></span></h3>
+
+<h3 style=3D"text-align: center;">&nbsp;</h3>
+<hr>
+
+<h3 style=3D"text-align: center;"><span style=3D"color: #000000;"><strong>C=
+urso en l=C3=ADnea:</strong></span></h3>
+<h3 style=3D"text-align: center;"><span style=3D"color: #ff6600;"><strong>F=
+echa: Jueves 30 Mayo 2019</strong></span></h3>
+<h3 style=3D"text-align: center;"><span style=3D"color: #ff6600;"><strong>H=
+orario: 10:00 a 14:00 (4 horas)</strong></span></h3>
+
+<hr>
+
+<h4 style=3D"text-align: center;">
+<span style=3D"color: rgb(44, 130, 201);"><a href=3D"https://z7d0xy0l.r.us-=
+east-1.awstrack.me/L0/https:%2F%2Fcursos.elconta.com%2Fevento%2Felaboracion=
+-actas-constitutivas-asamblea-sociedades-mercantiles-y-civiles%2F/1/0100016=
+b0420e7db-f680473f-00e5-42bf-94f9-2e592f6399c2-000000/cYlM4EiEIlhpzZ7Xi83HV=
+uqtuDs=3D111" rel=3D"noopener noreferrer" target=3D"_blank"><strong>Ver inf=
+o en sitio web&nbsp;</strong></a></span></h4>
+<hr>
+
+
+<p><strong>Todas las organizaciones requieren registrar adecuadamente los a=
+suntos tratados en sus asambleas, as=C3=AD como los acuerdos correspondient=
+es, con el fin de poder tomar decisiones acertadas y oportunas.</strong></p=
+><h4><strong>Objetivo del curso:</strong></h4><p>Estructurar adecuadamente =
+las actas, incluyendo todos los elementos exigidos para esta clase de docum=
+entos.</p><p>Identificar y corregir los errores m=C3=A1s frecuentes en la e=
+laboraci=C3=B3n de actas.</p>
+
+<p style=3D"text-align: right;"><strong><span style=3D"color: rgb(226, 80, =
+65);">Acomp=C3=A1=C3=B1ame.</span></strong></p>
+<hr>
+
+<h2 style=3D"text-align: center;"><span style=3D"color: #800080;"><strong>T=
+emario:</strong></span></h2>
+<h3><br></h3><h3><b><span style=3D"color: rgb(41, 105, 176);">I.-ELABORACI=
+=C3=93N&nbsp;DE ACTAS DE CONSTITUCION DE SOCIEDADES (CONTRATOS SOCIALES)</s=
+pan></b></h3><h4><strong>1.1.Nombre, Raz=C3=B3n o Denominaci=C3=B3n</strong=
+></h4><h4><strong>1.2.Proceso de constituci=C3=B3n</strong></h4><p>&nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sociedades y Asociaciones Civiles</p><p>&n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sociedades Mercantiles</p><h4><stron=
+g>1.3.Acta de asamblea para la constituci=C3=B3n de la sociedad o asociaci=
+=C3=B3n</strong></h4><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Objetivos<=
+/p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Actividades</p><p>&nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp;Poderes</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp;Clausulas convenientes</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;Clausulas necesarias para personas morales no lucrativas</p><p>&nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Clausulas obligatorias para donatarias</=
+p><h4><strong>1.4.Redacci=C3=B3n de estatutos</strong></h4><p>&nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; Sociedades mercantiles</p><p>&nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; Asociaciones y sociedades civiles</p><h3><b><span =
+style=3D"color: rgb(41, 105, 176);">II.-</span></b><span style=3D"color: rg=
+b(41, 105, 176);"><b>ELABORACI=C3=93N</b></span><b><span style=3D"color: rg=
+b(41, 105, 176);">&nbsp;DE ACTAS DE ASAMBLEA</span></b></h3><h4><strong>2.1=
+.Requisitos de las convocatorias</strong></h4><p>&nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp;Plazos entre la convocatoria y la celebraci=C3=B3n de la asa=
+mblea</p><h4><strong>2.2.Qu=C3=A9 debe contener un acta de asamblea</strong=
+></h4><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Errores frecuentes en la =
+redacci=C3=B3n y elaboraci=C3=B3n</p><h4><strong>2.3.Requisitos de su conte=
+nido para su validez</strong></h4><h4><strong>2.4.Actas seg=C3=BAn tipos de=
+ asambleas</strong></h4><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Actas d=
+e asamblea Ordinarias</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Actas =
+de asamblea Extraordinarias</p><h4><strong>2.5. Contenido y cl=C3=A1usulas =
+necesarias</strong></h4><h4><strong>2.6. Otras formalidades</strong></h4><p=
+>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Qu=C3=B3rum de asistencia y qu=C3=
+=B3rum de votaci=C3=B3n</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Repr=
+esentaci=C3=B3n de los socios y accionistas en las asambleas</p><p>&nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Informaci=C3=B3n conforme al art=C3=ADculo=
+ 76-XIX de ISR</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sistema elect=
+r=C3=B3nico de publicaciones de las sociedades mercantiles</p><h3><strong><=
+span style=3D"color: rgb(41, 105, 176);">III.-ACTAS COMO SOPORTE DE LA MATE=
+RIALIDAD DE LOS ACTOS</span></strong></h3><p><strong>Conclusiones y recomen=
+daciones</strong></p><h4 style=3D"padding-left: 30px;"><br></h4>
+
+<hr>
+
+<h3><span style=3D"color:#0000CD;"><strong>*&nbsp;Curriculum del expositor =
+Maestra en Impuestos CPC LAE y LD Lyssette T=C3=A9llez Ram=C3=ADrez:</stron=
+g></span></h3>
+
+<p style=3D"text-align: center;"><img alt=3D"" src=3D"https://cursos.elcont=
+a.com/wp-content/uploads/2018/01/CV_lyz_tellez.png" style=3D"width: 483px; =
+height: 657px;"></p>
+<hr>
+
+<p><strong>Detalles t=C3=A9cnicos:</strong></p>
+
+<ul><li>Usaremos GoToWebinar (No es necesario ning=C3=BAn software especial=
+, basta con una buena conexi=C3=B3n a internet)</li>
+<li>=C2=BFComo ingresar=C3=A1s al webinar? <a href=3D"https://z7d0xy0l.r.us=
+-east-1.awstrack.me/L0/https:%2F%2Fwww.youtube.com%2Fwatch%3Fv=3DJF-DnLN2KP=
+g/1/0100016b0420e7db-f680473f-00e5-42bf-94f9-2e592f6399c2-000000/p2UaRn8Abk=
+nzLH308Ed9BXmovuk=3D111" rel=3D"noopener" target=3D"_blank">Ac=C3=A1 un eje=
+mplo</a>.</li>
+<li>El que cuentes con unos buenos aud=C3=ADfonos ayuda bastante.</li>
+<li>Puedes tomar la sesi=C3=B3n a trav=C3=A9s de un Mac, un PC o un disposi=
+tivo m=C3=B3vil (Tu ipad, o dispositivo android)</li>
+<li><strong>=C2=BFNo puedes asistir en el horario de la sesi=C3=B3n en vivo=
+? No te preocupes, nuestros cursos en l=C3=ADnea <span style=3D"color:#FF00=
+00;">puedes disfrutarlos en tiempo real de manera presencial (virtual) o bi=
+en, puedes disfrutar del v=C3=ADdeo =C3=ADntegro de la sesi=C3=B3n que te p=
+roporcionaremos al d=C3=ADa siguiente del curso.&nbsp;</span>El cual podr=
+=C3=A1s consultar durante los 30 d=C3=ADas siguientes.</strong></li></ul></=
+td></tr>
+<tr><td><div data-empty=3D"true">
+<br>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnBoxedTe=
+xtBlock" style=3D"min-width:100%;" width=3D"100%"><!--[if gte mso 9]>
+=09<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"100%">
+=09<![endif]-->
+<tbody class=3D"mcnBoxedTextBlockOuter"><tr><td class=3D"mcnBoxedTextBlockI=
+nner" valign=3D"top">
+<!--[if gte mso 9]>
+=09=09=09=09<td align=3D"center" valign=3D"top" ">
+=09=09=09=09<![endif]-->
+
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" clas=
+s=3D"mcnBoxedTextContentContainer" style=3D"min-width:100%;" width=3D"100%"=
+><tbody><tr><td style=3D"padding-top:9px; padding-left:18px; padding-bottom=
+:9px; padding-right:18px;"><table border=3D"0" cellpadding=3D"18" cellspaci=
+ng=3D"0" class=3D"mcnTextContentContainer" style=3D"min-width: 100% !import=
+ant;background-color: #404040;" width=3D"100%"><tbody><tr><td class=3D"mcnT=
+extContent" style=3D"color: #F2F2F2;font-family: Helvetica;font-size: 14px;=
+font-weight: normal;text-align: center;" valign=3D"top"><h4 class=3D"null" =
+style=3D"text-align: center;"><span style=3D"font-size:16px;"><span style=
+=3D"font-family:lucida sans unicode,lucida grande,sans-serif;"><strong><spa=
+n style=3D"color:#00FF00;"><u>Precio real (IVA Incluido)</u></span></strong=
+>
+</span>
+</span>
+<br>
+<span style=3D"font-size:18px;"><span style=3D"font-family:lucida sans unic=
+ode,lucida grande,sans-serif;"><strong><span style=3D"color:#FFD700;"></spa=
+n></strong></span></span></h4><h4 class=3D"null" style=3D"text-align: cente=
+r;"><span style=3D"font-size:18px;"><span style=3D"font-family:lucida sans =
+unicode,lucida grande,sans-serif;"><strong><span style=3D"color:#FFD700;">$=
+754.00&nbsp;</span><span style=3D"color:#FFFFFF;">P=C3=BAblico en General</=
+span></strong></span></span></h4>
+
+<h3>&nbsp;</h3>
+
+<h3 style=3D"text-align: center;"><span style=3D"font-size:16px;"><span sty=
+le=3D"font-family:lucida sans unicode,lucida grande,sans-serif;"><span styl=
+e=3D"color:#00FF00;"><strong>DATOS DE DEP=C3=93SITO:</strong></span></span>
+</span>
+<br>
+<span style=3D"color:#FFFFFF;"><span style=3D"font-size:16px;"><span style=
+=3D"font-family:lucida sans unicode,lucida grande,sans-serif;"><strong>DESA=
+RROLLO CONTABLE FISCAL EN REDES SA DE CV</strong><br>
+Cuenta Bancomer: 0197099339<br>
+(CLABE: 012320001970993396)</span></span>
+</span>
+</h3>
+
+<p style=3D"text-align: center;"><strong><span style=3D"color:#00FF00;">=C2=
+=BFGustas hacer pago con Tarjeta?</span></strong></p>
+
+<h2 style=3D"text-align: center;"><strong><span style=3D"background-color:#=
+FFFF00;"><span style=3D"color:#0000CD;">&nbsp;</span><a href=3D"https://z7d=
+0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Fwww.paypal.me%2Fdcfr%2F754.00%=
+3Fcountry.x=3DMX%26locale.x=3Des_XC/1/0100016b0420e7db-f680473f-00e5-42bf-9=
+4f9-2e592f6399c2-000000/yoVvZJuKXYfZpEUpEVWgbhXpGPI=3D111" rel=3D"noopener =
+noreferrer" target=3D"_blank"><span style=3D"color:#0000CD;">Clic AQU=C3=8D=
+</span></a><span style=3D"color:#0000CD;">&nbsp;</span></span></strong></h2=
+>
+<div>
+=20
+
+</div>
+
+<h3 class=3D"null" style=3D"text-align: center;"><span style=3D"font-size:1=
+6px;"><span style=3D"font-family:lucida sans unicode,lucida grande,sans-ser=
+if;"><span style=3D"color:#00FF00;"><strong>Para m=C3=A1s informaci=C3=B3n =
+por favor contacta a nuestra =C3=A1rea de atenci=C3=B3n a clientes:</strong=
+></span></span>
+</span>
+</h3>
+<div style=3D"text-align: center;"><strong><span style=3D"font-size:16px;">=
+<span style=3D"font-family:lucida sans unicode,lucida grande,sans-serif;"><=
+span style=3D"color:#0000CD;"><span style=3D"background-color:#FFF0F5;">&nb=
+sp;</span></span><span style=3D"background-color:#FFF0F5;"><span style=3D"c=
+olor:#0000CD;">&nbsp;</span><a href=3D"mailto:cursos@elconta.com?subject=3D=
+Mas%20info%20curso%3A%20Mi%20Contabilidad%20Personas%20F%C3%ADsicas.%20Tall=
+er%20pr%C3%A1ctico%20de%20uso." target=3D"_blank"><span style=3D"color:#000=
+0CD;">cursos@elconta.com</span></a><span style=3D"color:#0000CD;">&nbsp;</s=
+pan><span style=3D"color:#0000FF;">&nbsp;</span></span><br>
+GDL (33) 3683-9343<br>
+GDL (33) 3331-6176</span></span></strong>
+<br>&nbsp;=20
+</div>
+<div style=3D"text-align: center;">&nbsp;</div></td></tr></tbody></table></=
+td></tr></tbody></table>
+<!--[if gte mso 9]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+<!--[if gte mso 9]>
+                </tr>
+                </table>
+=09=09=09=09<![endif]-->
+</td></tr></tbody></table></td></tr></tbody></table>
+<!--[if gte mso 9]>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09<![endif]--></td></tr>
+<tr><td align=3D"center" id=3D"templateFooter" valign=3D"top"><a href=3D"ht=
+tps://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Fcursos.elconta.com%2F=
+course-category%2Fcursos-grabados%2F/2/0100016b0420e7db-f680473f-00e5-42bf-=
+94f9-2e592f6399c2-000000/fROMpT0AlYCMhbyu1NC4OIkJjcA=3D111" rel=3D"noopener=
+ noreferrer" target=3D"_blank"><img src=3D"https://gallery.eomail3.com/1645=
+2a69-3983-11e9-a3c9-06b79b628af2%2F1559109628411-1559109624325.png" alt=3D"=
+" width=3D"607" srcset=3D"https://cursos.elconta.com/wp-content/uploads/201=
+9/05/2019-05_hotSale.jpg 800w, https://cursos.elconta.com/wp-content/upload=
+s/2019/05/2019-05_hotSale-300x56.jpg 300w, https://cursos.elconta.com/wp-co=
+ntent/uploads/2019/05/2019-05_hotSale-768x144.jpg 768w" sizes=3D"(max-width=
+: 800px) 100vw, 800px" style=3D"width: 607px; height: 113.813px;" height=3D=
+"113.813"></a>
+
+<!--[if gte mso 9]>
+=09=09=09=09=09=09=09=09=09<table align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"600" style=3D"width:600px;">
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" valign=3D"top" width=3D"600=
+" style=3D"width:600px;">
+=09=09=09=09=09=09=09=09=09<![endif]-->
+
+<br><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" class=3D"templateContainer" width=3D"100%"><tbody><tr><td class=3D"footer=
+Container" valign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"mcnFollowBlock" style=3D"min-width:100%;" width=3D"100%"><t=
+body class=3D"mcnFollowBlockOuter"><tr><td align=3D"center" class=3D"mcnFol=
+lowBlockInner" style=3D"padding:9px;" valign=3D"top"><table border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowContentContainer" style=
+=3D"min-width:100%;" width=3D"100%"><tbody><tr><td align=3D"center" style=
+=3D"padding-left:9px;padding-right:9px;"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"mcnFollowContent" style=3D"min-width:100%;" =
+width=3D"100%"><tbody><tr><td align=3D"center" style=3D"padding-top:9px; pa=
+dding-right:9px; padding-left:9px;" valign=3D"top"><table align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tbody><tr><td align=3D"ce=
+nter" valign=3D"top">
+<!--[if mso]>
+                                    <table align=3D"center" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0">
+                                    <tr>
+                                    <![endif]-->
+<!--[if mso]>
+                                        <td align=3D"center" valign=3D"top"=
+>
+                                        <![endif]-->
+
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"display:inline;"><tbody><tr><td class=3D"mcnFollowContentItemContainer=
+" style=3D"padding-right:10px; padding-bottom:9px;" valign=3D"top"><table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowContentIt=
+em" width=3D"100%"><tbody><tr><td align=3D"left" style=3D"padding-top:5px; =
+padding-right:10px; padding-bottom:5px; padding-left:9px;" valign=3D"middle=
+"><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D""><tbody><tr><td align=3D"center" class=3D"mcnFollowIconContent" val=
+ign=3D"middle" width=3D"24"><div>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Fwww.twit=
+ter.com%2Felconta2r/1/0100016b0420e7db-f680473f-00e5-42bf-94f9-2e592f6399c2=
+-000000/7vugIMTSQj182tuqjp3rhB2tbFc=3D111" target=3D"_blank"><img src=3D"ht=
+tp://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png" s=
+tyle=3D"display: block; width: 24px; height: 24px;"></a></div></td></tr></t=
+body></table></td></tr></tbody></table></td></tr></tbody></table>
+<!--[if mso]>
+                                        </td>
+                                        <![endif]-->
+<!--[if mso]>
+                                        <td align=3D"center" valign=3D"top"=
+>
+                                        <![endif]-->
+
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"display:inline;"><tbody><tr><td class=3D"mcnFollowContentItemContainer=
+" style=3D"padding-right:10px; padding-bottom:9px;" valign=3D"top"><table b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowContentIt=
+em" width=3D"100%"><tbody><tr><td align=3D"left" style=3D"padding-top:5px; =
+padding-right:10px; padding-bottom:5px; padding-left:9px;" valign=3D"middle=
+"><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D""><tbody><tr><td align=3D"center" class=3D"mcnFollowIconContent" val=
+ign=3D"middle" width=3D"24"><div>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Fwww.face=
+book.com%2Felconta%2F/1/0100016b0420e7db-f680473f-00e5-42bf-94f9-2e592f6399=
+c2-000000/rncM1A1nwZG7DJ_HXnfl2pJ1BRM=3D111" target=3D"_blank"><img src=3D"=
+http://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png=
+" style=3D"display: block; width: 24px; height: 24px;"></a></div></td></tr>=
+</tbody></table></td></tr></tbody></table></td></tr></tbody></table>
+<!--[if mso]>
+                                        </td>
+                                        <![endif]-->
+<!--[if mso]>
+                                        <td align=3D"center" valign=3D"top"=
+>
+                                        <![endif]-->
+
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"display:inline;"><tbody><tr><td class=3D"mcnFollowContentItemContainer=
+" style=3D"padding-right:0; padding-bottom:9px;" valign=3D"top"><table bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnFollowContentItem"=
+ width=3D"100%"><tbody><tr><td align=3D"left" style=3D"padding-top:5px; pad=
+ding-right:10px; padding-bottom:5px; padding-left:9px;" valign=3D"middle"><=
+table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D""><tbody><tr><td align=3D"center" class=3D"mcnFollowIconContent" valign=
+=3D"middle" width=3D"24"><div>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Felconta.=
+com/1/0100016b0420e7db-f680473f-00e5-42bf-94f9-2e592f6399c2-000000/qRwN8WnZ=
+qNDD_t4B_2AxQQsro7Q=3D111" target=3D"_blank"><img src=3D"http://cdn-images.=
+mailchimp.com/icons/social-block-v2/color-link-48.png" style=3D"display: bl=
+ock; width: 24px; height: 24px;"></a></div></td></tr></tbody></table></td><=
+/tr></tbody></table></td></tr></tbody></table>
+<!--[if mso]>
+                                        </td>
+                                        <![endif]-->
+<!--[if mso]>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le></td></tr></tbody></table>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnDivider=
+Block" style=3D"min-width:100%;" width=3D"100%"><tbody class=3D"mcnDividerB=
+lockOuter"><tr><td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;=
+ padding: 10px 18px 25px;"><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"mcnDividerContent" style=3D"min-width: 100%;border-top-wid=
+th: 2px;border-top-style: solid;border-top-color: #EEEEEE;" width=3D"100%">=
+<tbody><tr><td><div>&nbsp;</div></td></tr></tbody></table>
+<!--           =20
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;"=
+>
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-colo=
+r:none; border-left-color:none; border-right-color:none; border-bottom-widt=
+h:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:=
+0; margin-bottom:0; margin-left:0;" />
+--></td></tr></tbody></table>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnTextBlo=
+ck" style=3D"min-width:100%;" width=3D"100%"><tbody class=3D"mcnTextBlockOu=
+ter"><tr><td class=3D"mcnTextBlockInner" valign=3D"top"><table align=3D"lef=
+t" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"mcnTextContent=
+Container" style=3D"min-width:100%;" width=3D"100%"><tbody><tr><td class=3D=
+"mcnTextContent" style=3D"padding-top:9px; padding-right: 18px; padding-bot=
+tom: 9px; padding-left: 18px;" valign=3D"top"><div><em>=C2=BFYa no desea re=
+cibir nuestros correos?: <a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.m=
+e/L0/https:%2F%2Faraneoides.eomail3.com%2Funsubscribe%3Fl=3Dd12734e9-4fdc-1=
+1e9-bf10-021521e51804%26lc=3D4baec867-81d1-11e9-9307-06b4694bee2a%26p=3Dea5=
+c3a55-81d4-11e9-9307-06b4694bee2a%26pt=3Dcampaign%26spa=3D1559142002%26t=3D=
+1559142393%26s=3D6ea1c9e2f4c3ad8f953149a2e97f8354e4a36e559dc9a259dd5f2fe865=
+cb62a6/1/0100016b0420e7db-f680473f-00e5-42bf-94f9-2e592f6399c2-000000/uxM6i=
+siK79ITi4324THjrnf_Ouc=3D111" rel=3D"noopener noreferrer" target=3D"_blank"=
+>Darse de baja aqu=C3=AD</a></em></div></td></tr></tbody></table></td></tr>=
+</tbody></table></td></tr></tbody></table>
+<!--[if gte mso 9]>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09<![endif]--></td></tr></tbody></table>
+<!-- // END TEMPLATE -->
+</td></tr></tbody></table>
+</center>
+
+<p></p><p>
+<br>
+</p>
+<img alt=3D"" src=3D"http://z7d0xy0l.r.us-east-1.awstrack.me/I0/0100016b042=
+0e7db-f680473f-00e5-42bf-94f9-2e592f6399c2-000000/4gLdOC6Lu12ECvdtVYs72heK1=
+PU=3D111" style=3D"display: none; width: 1px; height: 1px;">
+</body></html>
+
+--_=_swift_1559142393_58ce8947c871192ce369e06255c6afb0_=_--

@@ -1,0 +1,456 @@
+Return-Path: <bounce-10466501.72261486@in1.mydplr.info>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id mPHjHickFV12lAgAFq4nlA
+	(envelope-from <bounce-10466501.72261486@in1.mydplr.info>)
+	for <raymundo@vpconsultores.com.mx>; Thu, 27 Jun 2019 13:16:39 -0700
+Return-path: <bounce-10466501.72261486@in1.mydplr.info>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Thu, 27 Jun 2019 13:16:39 -0700
+Received: from sndr1.mydplr.info ([216.157.68.240]:63754)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1:ECDHE-RSA-AES256-SHA:256)
+	(Exim 4.92)
+	(envelope-from <bounce-10466501.72261486@in1.mydplr.info>)
+	id 1hgaos-002U89-4e
+	for raymundo@vpconsultores.com.mx; Thu, 27 Jun 2019 13:16:39 -0700
+Content-type: multipart/alternative;
+	boundary="--Boundary.636972286804500847.134723402--"
+DKIM-Signature: v=1; a=rsa-sha256; d=themis.com.mx; s=doppler;
+	c=relaxed/simple; t=1561666546; h=from:to:date:subject;
+	bh=x74+1A5eggPWa+ua+46pgpRx2ey2xDDVQ3wZG+v2owk=;
+	b=tLPBwNlFSjTRDnnXDkJ6CcNSZuOTT4SUw+DKhRYxk/2oimxDC/pvhS+ncnUyyO6UY1nhdHFg2ih
+	XOS9pl1Qa9ThcK9xPFsRYGlSWtsKMeYRgjqBisl4XkcVH8mFBWjXURr+E5VtSpHjQdhhGN5miohs/
+	k5FQN08xdhMYHXN/SIQ=
+DKIM-Signature: v=1; a=rsa-sha256; d=in1.mydplr.info; s=doppler;
+	c=relaxed/simple; t=1561666545; h=from:to:date:subject;
+	bh=x74+1A5eggPWa+ua+46pgpRx2ey2xDDVQ3wZG+v2owk=;
+	b=nTiYiiE3Ff5jztjDMfHtEF7rSTuiuD921ovqrdKMeKhkkrmsDK5xamaOKrbdJ/S7sDQASDW9Lyv
+	yNhLtSnsHUwP2CTufD8jikF9tKQw73A9dpZVEnzMwnx3sqedq8lNUKS+pKnCzPhGY0tWAlKeUQi4G
+	RVUYp/Yggmu+MN7utEY=
+Received: by sndr1.mydplr.info (Doppler Mail) with ESMTP id md5636972286804500847
+	for <raymundo@vpconsultores.com.mx>; Thu, 27 Jun 2019 10:38:00 -0500 (envelope-from <bounce-10466501.a8f3d4bb4fc8a0fbe439c6372b006eba@in1.mydplr.info>)
+From: =?UTF-8?Q?Editorial_Themis?= <noticias@themis.com.mx>
+Reply-To: ventas@themis.com.mx
+To: =?UTF-8?Q?Raymundo_V=C3=A1zquez?= <raymundo@vpconsultores.com.mx>
+Date: Thu, 27 Jun 2019 10:38:00 -0500
+Subject: =?UTF-8?Q?Sisthemis=2C_una_Nueva_Experiencia_?=
+Message-ID: <a8f3d4bb4fc8a0fbe439c6372b006eba27153800@in1.mydplr.info>
+List-Unsubscribe: <https://un.mydplr.com/05593cea84282fbd407d09a5e5e42ac9-a8f3d4bb4fc8a0fbe439c6372b006eba-45a2d8fd7242a171>, <mailto:msncomplaints+10466501-a8f3d4bb4fc8a0fbe439c6372b006eba@makingsense.com>
+X-Mailer: Doppler Mail (ID: 7)
+X-Report-Abuse: Please report abuse for this campaign here: http://mydplr.com/AbuseForm?id=10466501
+Feedback-ID: 10466501:a8f3d4bb4fc8a0fbe439c6372b006eba:news:dplr
+MIME-Version: 1.0
+X-Spam-Status: No, score=2.9
+X-Spam-Score: 29
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  View Online<https://vo.mydplr.com/05593cea84282fbd407d09a5e5e42ac9-a8f3d4bb4fc8a0fbe439c6372b006eba>
+    <https://lt.mydplr.com/d708dc78024938641ea248305579a7ce-a8f3d4bb4fc8a0fbe439c6372b006eba>
+    El Servicio Electrónico de Consulta Fiscal y Jurídica por excelencia, ahora
+    se renueva. 
+ 
+ Content analysis details:   (2.9 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mydplr.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mydplr.com]
+  1.1 DATE_IN_PAST_03_06     Date: is 3 to 6 hours before Received: date
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.6 HTML_IMAGE_RATIO_04    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 T_KAM_HTML_FONT_INVALID BODY: Test for Invalidly Named or
+                             Formatted Colors in HTML
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.2 KAM_LOTSOFHASH         Emails with lots of hash-like gibberish
+  1.0 KAM_MXINFO             MX Record and dot info domains associated with
+                             FAKERBL Spammers
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+----Boundary.636972286804500847.134723402--
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+View Online<https://vo=2Emydplr=2Ecom/05593cea84282fbd407d09a5e5e42ac9-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+> =0D=0A=
+  <https://lt=2Emydplr=2Ecom/d708dc78024938641ea248305579a7ce-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+>=0D=0A=
+=0D=0A=
+El Servicio =0D=0A=
+Electr=C3=B3nico de =0D=0A=
+Consulta Fiscal =0D=0A=
+y Jur=C3=ADdica por=0D=0A=
+excelencia, =0D=0A=
+ahora se =0D=0A=
+renueva=2E =0D=0A=
+=0D=0A=
+Una nueva experiencia de uso que le permitir=C3=A1 realizar su labor prof=
+esional con una mayor eficacia=2E =0D=0A=
+=0D=0A=
+Ahora Sisthemis incluye Sisthemis M=C3=B3vil, el compa=C3=B1ero ideal par=
+a profesionales cuyo estilo de vida demanda movilidad en todo momento* =
+=0D=0A=
+=0D=0A=
+Con gusto lo atenderemos en: =0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+55 5482 2770 =0D=0A=
+ext=2E 120 y 136 =0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+email:=0D=0A=
+ventas@themis=2Ecom=2Emx <mailto:ventas@themis=2Ecom=2Emx>=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+WWW=2E=0D=0A=
+THEMIS=2ECOM=2EMX <https://lt=2Emydplr=2Ecom/3faa77b807d35e32042b244be870=
+67ec-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+>=0D=0A=
+=0D=0A=
+Sea parte de nuestras comunidades: =0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+Editorial Themis<https://lt=2Emydplr=2Ecom/58a4f753dccad063cad29a50a43d9d=
+7f-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+>=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+@EditorialThemis<https://lt=2Emydplr=2Ecom/18b5bc2ea69e946de22cada700548d=
+f0-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+> =0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+@editorialthemis<https://lt=2Emydplr=2Ecom/db748bb5f2f3ab19bde0447cbe0cbd=
+1f-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+>=0D=0A=
+=0D=0A=
+=0D=0A=
+=0D=0A=
+Editorial Themis Oficial<https://lt=2Emydplr=2Ecom/978b96b595248d88629817=
+7740ae4b3e-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+>=0D=0A=
+=0D=0A=
+*Sisthemis M=C3=B3vil, exclusivo para clientes de Sisthemis=2E Si usted y=
+a es ususario de Sisthemis, solo actualice su sistema y goce de los nuevo=
+s beneficios=2E Si tiene alguna duda con gusto lo atenderemos en el 54822=
+770 opci=C3=B3n 3=2E =0D=0A=
+=0D=0A=
+Este mensaje contiene informaci=C3=B3n propiedad de Editorial THEMIS S=2E=
+A=2E de C=2EV=2E, la cual puede ser privada y confidencial=2E El mensaje =
+y su contenido est=C3=A1 destinado para uso exclusivo del individuo y/o d=
+e la entidad al cual est=C3=A1 dirigido=2E Si el lector de este mensaje n=
+o es el destinatario, se le informa que est=C3=A1 estrictamente prohibido=
+ utilizar, difundir, hacer p=C3=BAblica o copiar esta comunicaci=C3=B3n a=
+s=C3=AD como sus documentos anexos=2E Si usted recibe esta comunicaci=C3=
+=B3n por error, favor de informarnos de inmediato al tel=C3=A9fono 0155 5=
+482 2770 o al correo electr=C3=B3nico remitente, Gracias=2E=0D=0A=
+=0D=0A=
+
+
+----Boundary.636972286804500847.134723402--
+Content-type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1=2E0 Strict//EN" "http://www=2E=
+w3=2Eorg/TR/xhtml1/DTD/xhtml1-strict=2Edtd"><html  xmlns=3D"http://www=2E=
+w3=2Eorg/1999/xhtml"><head>=0D=0A=
+<meta name=3D"viewport" content=3D"width=3Ddevice-width"/>=0D=0A=
+=0D=0A=
+=09=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Du=
+tf-8">=0D=0A=
+=09=09<title>Editorial Themis</title>=0D=0A=
+=09=
+<style> @media only screen and (min-width: 480px) { .dplr-mobile-only{display:none !important;}}</style></head><body>
+<img alt=3D'' src=3D"https://op=2Emydplr=2Ecom/05593cea84282fbd407d09a5e5=
+e42ac9-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+"/><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"center"><tr><td bgcolor=3D"#ffffff" align=3D"center" style=3D"p=
+adding: 0 10px 0 10px;"><table cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"70%" border=3D"0" ><tbody><tr><td><table cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"100%" border=3D"0"><tbody><tr><td><table cellspacing=3D"=
+0" cellpadding=3D"10" width=3D"100%" border=3D"0"><tbody><tr><td align=3D=
+"center" style=3D"padding: 0 0 0 0; font-size: 13px; font-family: Helveti=
+ca,  Arial, sans-serif; color: #999999; text-align: center !important; he=
+ight: 40px; line-height: 1=2E4;">Ver versi=C3=B3n <a href=3D"https://vo=
+=2Emydplr=2Ecom/05593cea84282fbd407d09a5e5e42ac9-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" style=3D"font-size: 13px; font-family: Helvetica,  Arial, sans-serif; c=
+olor: #2A5DB0 !important; text-decoration: underline !important; ">Online=
+</a> | <a href=3D"https://fw=2Emydplr=2Ecom/05593cea84282fbd407d09a5e5e42=
+ac9-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" style=3D"font-size: 13px; font-family: Helvetica,  Arial, sans-serif; c=
+olor: #2A5DB0 !important; text-decoration: underline !important; ">Enviar=
+</a> a un amigo </td></tr></tbody></table></td></tr></tbody></table></td>=
+</tr></tbody></table></td></tr><tr><td width=3D"100%" align=3D"center">=
+=0D=0A=
+=09=09=0D=0A=
+=0D=0A=
+=09 <table bgcolor=3D"#001b48" align=3D"center" width=3D"599" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0">=0D=0A=
+=0D=0A=
+=09     <tr>=0D=0A=
+=09=09    <td><a href=3D"https://lt=2Emydplr=2Ecom/d708dc78024938641ea248=
+305579a7ce-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" target=3D"_blank"><img src=3D"https://app2=2Edopplerfiles=2Ecom/Users/1=
+4256/Campaigns/10466501/Mailing-FASE-2b-02=2Epng" width=3D"100%" height=
+=3D"100%" ;alt=3D"Editorial Themis" alt=3D" "></a></td>=0D=0A=
+=09   </tr>=0D=0A=
+ =0D=0A=
+=09 <table bgcolor=3D"#ffffff" align=3D"center" width=3D"599" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0">=0D=0A=
+=0D=0A=
+=09 =09<tr>=0D=0A=
+=0D=0A=
+=09 =09  <td width=3D"249" style=3D"text-align: left; color: #ffffff; pad=
+ding-left:14px; padding-top:5px; padding-bottom: 5px; background-color: #=
+00534D; font-family: Verdana, Arial, Helvetica, Times New Roman, sans-ser=
+if; font-size: 27px;">El Servicio <br>Electr=C3=B3nico de <br>Consulta Fi=
+scal <br>y Jur=C3=ADdica por<br> excelencia, <br> ahora se <br>renueva=2E=
+ =0D=0A=
+=09     </td>=0D=0A=
+=0D=0A=
+=09      <td style=3D"text-align: left; color: #000000; padding-left:14px=
+; padding-top:8px; padding-bottom: 5px; background-color: #ffffff; font-f=
+amily: Verdana, Arial, Helvetica, Times New Roman, sans-serif; font-size:=
+ 20px;"> Una nueva experiencia de uso que le permitir=C3=A1 realizar su l=
+abor profesional con una mayor eficacia=2E <p> Ahora Sisthemis incluye Si=
+sthemis M=C3=B3vil, el compa=C3=B1ero ideal para profesionales cuyo estil=
+o de vida demanda movilidad en todo momento*=0D=0A=
+=09     </td>=0D=0A=
+=0D=0A=
+=09    </tr>=0D=0A=
+=09</table>=0D=0A=
+=0D=0A=
+=09 <table bgcolor=3D"#ffffff" align=3D"center" width=3D"599" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0">=0D=0A=
+=0D=0A=
+=09     <tr>=0D=0A=
+=09      <td colspan=3D"6" style=3D"text-align: center; color: #000000; p=
+adding-left:14px; padding-top:14px; padding-bottom: 5px; background-color=
+: #ffffff; font-family: Verdana, Arial, Helvetica, Times New Roman, sans-=
+serif; font-size: 17px;"> Con gusto lo atenderemos en:=0D=0A=
+=09      </td>=0D=0A=
+=09     </tr>=0D=0A=
+=0D=0A=
+=0D=0A=
+        <tr>=0D=0A=
+   =09   =09   <td width=3D"11%" style=3D"text-align: center; color: #000=
+000;"><img src=3D"https://app2=2Edopplerfiles=2Ecom/Users/14256/Campaigns=
+/10466501/icono-telefono=2Epng" width=3D"35" height=3D"35" ;=3D"" border=
+=3D"0" alt=3D" ">=0D=0A=
+=09   =09   </td>=0D=0A=
+=09       <td width=3D"24%" style=3D"text-align: left; color: #000000; pa=
+dding-top:8px; font-family: Verdana, Arial, Helvetica, sans-serif; font-s=
+ize:12px;">55 5482 2770 <br>ext=2E 120 y 136 <br>01800 2125 596 </br>=0D=
+=0A=
+=09=09   </td>=0D=0A=
+  =0D=0A=
+=0D=0A=
+    =0D=0A=
+   =09   =09<td width=3D"11%" style=3D"text-align: center; color: #000000=
+;"><img src=3D"https://app2=2Edopplerfiles=2Ecom/Users/14256/Campaigns/10=
+466501/icono-mail=2Epng" width=3D"35" height=3D"35" ;=3D"" border=3D"0" a=
+lt=3D" ">=0D=0A=
+=09   =09</td>=0D=0A=
+=09    <td width=3D"24%" style=3D"text-align: left; color: #000000; paddi=
+ng-top:5px; padding-bottom:15px; font-family: Verdana, Arial, Helvetica, =
+sans-serif; font-size:12px;">=0D=0A=
+=09    =09<a href=3D"mailto:ventas@themis=2Ecom=2Emx" style=3D"font-famil=
+y: Verdana, Arial, Helvetica, sans-serif; color:#000000; font-size:12px; =
+text-decoration:none;" target=3D"_blank">=0D=0A=
+=09=09=09email:<br> ventas@themis=2Ecom=2Emx=0D=0A=
+=09=09=09</a>=0D=0A=
+=09=09 </td>=0D=0A=
+    =0D=0A=
+   =0D=0A=
+    =0D=0A=
+   =09   =09<td width=3D"11%" style=3D"text-align: center; color: #000000=
+;"><img src=3D"https://app2=2Edopplerfiles=2Ecom/Users/14256/Campaigns/10=
+466501/icono-web=2Epng" width=3D"35" height=3D"35" ;=3D"" border=3D"0" al=
+t=3D" ">=0D=0A=
+=09   =09</td>=0D=0A=
+=09    <td width=3D"27%" style=3D"text-align: justify; padding-right:5px,=
+padding-top:11px;"><a href=3D"https://lt=2Emydplr=2Ecom/3faa77b807d35e320=
+42b244be87067ec-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" target=3D"_blank" style=3D"font-family: Verdana, Arial, Helvetica, sans=
+-serif; font-size: 11px; color: #000000; text-decoration: none;">=0D=0A=
+            <b>WWW=2E<br></b> <b>THEMIS=2ECOM=2EMX </b></a>=0D=0A=
+        </td>=0D=0A=
+      </tr>=0D=0A=
+     </table>=0D=0A=
+=0D=0A=
+       <table bgcolor=3D"#ffffff" align=3D"center" width=3D"599" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0">=0D=0A=
+=0D=0A=
+=09     <tr>=0D=0A=
+=09      <td colspan=3D"8" style=3D"text-align: center; color: #000000; p=
+adding-left:14px; padding-top:14px; padding-bottom: 5px; background-color=
+: #ffffff; font-family: Verdana, Arial, Helvetica, Times New Roman, sans-=
+serif; font-size: 14px;"> Sea parte de nuestras comunidades:=0D=0A=
+=09      </td>=0D=0A=
+=09     </tr>=0D=0A=
+=0D=0A=
+       <tr>=0D=0A=
+                <td width=3D"5%" style=3D"text-align: center; color: #000=
+000;padding-top:5px"><img src=3D"https://app2=2Edopplerfiles=2Ecom/Users/=
+14256/Campaigns/10466501/icono-fb-bk=2Epng" width=3D"22" alt=3D"facebook"=
+></td>=0D=0A=
+=09=09=09=09<td width=3D"19%" style=3D"text-align: left; color: #000000;p=
+adding-left:4px; padding-top:5px"><a href=3D"https://lt=2Emydplr=2Ecom/58=
+a4f753dccad063cad29a50a43d9d7f-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" target=3D"_blank" style=3D"color: #000000; font-family: Verdana, Arial,=
+ Helvetica, sans-serif; font-size: 11px; text-decoration: none;">Editoria=
+l Themis</a></td>=0D=0A=
+=0D=0A=
+=09=09=09=09<td width=3D"5%" style=3D"text-align: center; color: #000000;=
+ padding-top:5px"><img src=3D"https://app2=2Edopplerfiles=2Ecom/Users/142=
+56/Campaigns/10466501/icono-tw-bk=2Epng" width=3D"22" alt=3D"twitter"></t=
+d>=0D=0A=
+=09=09=09=09<td width=3D"17%" style=3D"text-align: left; color: #000000;p=
+adding-left:4px; padding-top:5px"><a href=3D"https://lt=2Emydplr=2Ecom/18=
+b5bc2ea69e946de22cada700548df0-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" target=3D"_blank" style=3D"color: #000000; font-family: Verdana, Arial,=
+ Helvetica, sans-serif; font-size: 11px; text-decoration: none;">@Editori=
+alThemis</a>=0D=0A=
+=09=09=09=09</td>=0D=0A=
+=0D=0A=
+=09=09=09=09<td width=3D"5%" style=3D"text-align:center; color: #000000; =
+padding-top:5px"><img src=3D"https://app2=2Edopplerfiles=2Ecom/Users/1425=
+6/Campaigns/10466501/icono-isnta-bk=2Epng" width=3D"22" alt=3D"Instagram"=
+></td>=0D=0A=
+=09=09=09=09<td width=3D"16%" style=3D"text-align: left; color: #000000; =
+padding-left:4px; padding-top:5px"><a href=3D"https://lt=2Emydplr=2Ecom/d=
+b748bb5f2f3ab19bde0447cbe0cbd1f-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" target=3D"_blank" style=3D"color: #000000; font-family: Verdana, Arial,=
+ Helvetica, sans-serif; font-size: 11px; text-decoration: none;">@editori=
+althemis</a></td>=0D=0A=
+=0D=0A=
+=09=09=09=09<td width=3D"5%" style=3D"text-align: center; color: #000000;=
+ padding-top:5px"><img src=3D"https://app2=2Edopplerfiles=2Ecom/Users/142=
+56/Campaigns/10466501/icono-in-bk=2Epng" width=3D"22" alt=3D"G+"></td>=0D=
+=0A=
+=09=09=09=09<td width=3D"35%" style=3D"text-align: left; color: #000000; =
+padding-left:4px; padding-top:5px"><a href=3D"https://lt=2Emydplr=2Ecom/9=
+78b96b595248d886298177740ae4b3e-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+" target=3D"_blank" padding-right=3D"10px" style=3D"color: #000000; font-=
+family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-deco=
+ration: none;">Editorial Themis Oficial</a></td>=0D=0A=
+=09=09  </tr>=0D=0A=
+=0D=0A=
+=09=09  <tr>=0D=0A=
+=09      <td colspan=3D"8" style=3D"text-align: justify; color: #000000; =
+padding-left:14px; padding-top:14px; padding-bottom: 5px; background-colo=
+r: #ffffff; font-family: Verdana, Arial, Helvetica, Times New Roman, sans=
+-serif; font-size: 12px;"> *Sisthemis M=C3=B3vil, exclusivo para clientes=
+ de Sisthemis=2E Si usted ya es ususario de Sisthemis, solo actualice su =
+sistema y goce de los nuevos beneficios=2E Si tiene alguna duda con gusto=
+ lo atenderemos en el 54822770 opci=C3=B3n 3=2E=0D=0A=
+=09     </td></tr>=0D=0A=
+=09=09</table>=0D=0A=
+   =0D=0A=
+=0D=0A=
+=0D=0A=
+=09=09<table align=3D"center" width=3D"599" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"5">=0D=0A=
+=0D=0A=
+=09=09=09<tr>=0D=0A=
+=09=09=09=09<td colspan=3D"8" style=3D"text-align: justify; color: #cfcfc=
+f; font-family: Arial, Helvetica, sans-serif, Verdana; font-size: 10px;">=
+Este mensaje contiene informaci=C3=B3n propiedad de Editorial THEMIS S=2E=
+A=2E de C=2EV=2E, la cual puede ser privada y confidencial=2E El mensaje =
+y su contenido est=C3=A1 destinado para uso exclusivo del individuo y/o d=
+e la entidad al cual est=C3=A1 dirigido=2E Si el lector de este mensaje n=
+o es el destinatario, se le informa que est=C3=A1 estrictamente prohibido=
+ utilizar, difundir, hacer p=C3=BAblica o copiar esta comunicaci=C3=B3n a=
+s=C3=AD como sus documentos anexos=2E Si usted recibe esta comunicaci=C3=
+=B3n por error, favor de informarnos de inmediato al tel=C3=A9fono 0155 5=
+482 2770 o al correo electr=C3=B3nico remitente, Gracias=2E</td>=0D=0A=
+=09=09=09</tr>=0D=0A=
+=09=09</table> =0D=0A=
+=0D=0A=
+=09=0D=0A=
+=09</table></td></tr><tr><td bgcolor=3D"#ffffff" align=3D"center" style=
+=3D"padding: 0 10px 0 10px;"><table cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" border=3D"0" ><tbody><tr><td><table cellspacing=3D"0" cellp=
+adding=3D"0" width=3D"100%" border=3D"0"><tbody><tr><td bgcolor=3D"#fffff=
+f" align=3D"center" style=3D"padding: 10px 10px 0 10px;"><table cellspaci=
+ng=3D"0" cellpadding=3D"0" width=3D"70%" border=3D"0" ><tbody><tr><td><ta=
+ble cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0"><tbod=
+y><tr><td><table cellspacing=3D"0" cellpadding=3D"10" width=3D"100%" bord=
+er=3D"0"><tbody><tr><td align=3D"center" style=3D"padding: 0 0 0 0; text-=
+align: center !important; font-size: 13px; font-family: Helvetica,  Arial=
+, sans-serif; color: #999999; height: 30px; line-height: 1=2E4;">=C2=BFDe=
+sea dejar de recibir estos emails? Click <a href=3D"https://un=2Emydplr=
+=2Ecom/05593cea84282fbd407d09a5e5e42ac9-=
+a8f3d4bb4fc8a0fbe439c6372b006eba=
+-842b1979187904f5" style=3D"font-size: 13px; font-family: Helvetica,  Ari=
+al, sans-serif; color: #2A5DB0 !important; text-decoration: underline !im=
+portant; ">aqu=C3=AD</a> y env=C3=ADe un correo a privacidad@themis=2Ecom=
+=2Emx</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbod=
+y></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><=
+tr><td bgcolor=3D"#ffffff" align=3D"center" style=3D"padding: 0 10px 0 10=
+px;"><table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"=
+0" ><tbody><tr><td><table cellspacing=3D"0" cellpadding=3D"0" width=3D"10=
+0%" border=3D"0"><tbody><tr><td bgcolor=3D"#ffffff" align=3D"center" styl=
+e=3D"padding: 10px 10px 0 10px;"><table cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"70%" border=3D"0" ><tbody><tr><td><table cellspacing=3D"0" ce=
+llpadding=3D"0" width=3D"100%" border=3D"0"><tbody><tr><td><table cellspa=
+cing=3D"0" cellpadding=3D"10" width=3D"100%" border=3D"0"><tbody><tr><td =
+align=3D"center" style=3D"padding: 0 0 0 0; line-height: 1=2E4; height: 3=
+0px; text-align: center !important; font-size: 13px; font-family: Helveti=
+ca,  Arial, sans-serif; color: #999999;">Editorial Themis | Patriotismo 8=
+89 Piso 4  | M=C3=A9xico DF | 03910</td></tr></tbody></table></td></tr></=
+tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></=
+tr></tbody></table></td></tr>=
+</body></html>
+
+----Boundary.636972286804500847.134723402----
+

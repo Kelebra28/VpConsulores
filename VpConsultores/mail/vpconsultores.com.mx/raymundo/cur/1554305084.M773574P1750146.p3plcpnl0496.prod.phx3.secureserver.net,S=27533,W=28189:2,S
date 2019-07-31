@@ -1,0 +1,656 @@
+Return-Path: <01000169e3ccc4a0-1cde6c8f-1546-4e20-8a2d-2a07fc41512b-000000@amazonses.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id aHAILjzQpFyCtBoAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Wed, 03 Apr 2019 08:24:44 -0700
+Return-path: <01000169e3ccc4a0-1cde6c8f-1546-4e20-8a2d-2a07fc41512b-000000@amazonses.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Wed, 03 Apr 2019 08:24:44 -0700
+Received: from a11-54.smtp-out.amazonses.com ([54.240.11.54]:59898)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <01000169e3ccc4a0-1cde6c8f-1546-4e20-8a2d-2a07fc41512b-000000@amazonses.com>)
+	id 1hBhko-008TL0-Oa
+	for raymundo@vpconsultores.com.mx; Wed, 03 Apr 2019 08:24:44 -0700
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=vopt2gmtvbgbc62fj5t6nuv5ovopezuf; d=elconta.com; t=1554305041;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:List-Unsubscribe;
+	bh=fg++G1IWdRWJgwHDc6algQ4RzcKH3n1B3HK3GjFrpzw=;
+	b=FuiN5IxElGBa5Nh0db9n2RFs5RIUoeGFZgdYphPc4DWIo7yFqJne0VztWkW1pDCW
+	aiYDDzlOd8F2DSmhVoRyXt/RgQmDGXQDSULbXcYAV/ELk1lvGWnyXZpUo4wgTRXdA8P
+	/YWvtP/LxJg/muyQ9toA59uA3vKs9S/AFBrZqmIw=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1554305041;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:List-Unsubscribe:Feedback-ID;
+	bh=fg++G1IWdRWJgwHDc6algQ4RzcKH3n1B3HK3GjFrpzw=;
+	b=QNtCcHLHMI+wcdcVwYE4A9ZXUIyYH8iiHplh/oFG6UbDnUt32mvsquTMg3W0oO6a
+	nq8jDIhSUIiYKN+zkraS6bv5dPZKPTZ0NSUUdfvmx/1T3UX+iJ05+ervCRH2PUhXiRC
+	zNd95uw5i436G6DWrqsGHy3aoAY8QAEEhEXAZwZk=
+Message-ID: <01000169e3ccc4a0-1cde6c8f-1546-4e20-8a2d-2a07fc41512b-000000@email.amazonses.com>
+Date: Wed, 3 Apr 2019 15:24:01 +0000
+Subject: =?utf-8?Q?=F0=9F=94=94_MA=C3=91ANA=2E?= IVA a Favor. Su
+ =?utf-8?Q?determinaci=C3=B3n=2C_compensaci=C3=B3n?= y/o solicitud de
+ =?utf-8?Q?devoluci=C3=B3n_=F0=9F=93=A1=F0=9F=92=BB?=
+From: "Cursos ElConta.Com" <cursos@elconta.com>
+To: raymundo@vpconsultores.com.mx
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1554305041_26b00cbb3652bfd81a76ceb9ff519e06_=_"
+X-EmailOctopus-Version: 2
+X-EmailOctopus-Started-Preparing-At: 2019-04-03T15:15:01+00:00
+X-EmailOctopus-Ses-Configuration-Set-Name: emailoctopus-92ac08625b86fcb74e8dc6e633188d55
+X-EmailOctopus-Sent-At: 2019-04-03T15:24:01+00:00
+X-EmailOctopus-Parent-Type-Id: campaign
+X-EmailOctopus-Parent-Id: 050ae2c1-5553-11e9-8622-02cfe9e979c6
+X-EmailOctopus-List-Id: 02e588a8-3a25-11e9-a3c9-06b79b628af2
+X-EmailOctopus-List-Contact-Id: 636f2f62-3a25-11e9-a3c9-06b79b628af2
+List-Unsubscribe: <https://araneoides.eomail1.com/unsubscribe?l=02e588a8-3a25-11e9-a3c9-06b79b628af2&lc=636f2f62-3a25-11e9-a3c9-06b79b628af2&p=050ae2c1-5553-11e9-8622-02cfe9e979c6&pt=campaign&spa=1554304501&t=1554305041&s=e52b2aed72bb03f1cbac23fceb1bfa8e68fbb56ec166534e90277c2110f485b2&skipConfirmation=1>
+X-SES-Outgoing: 2019.04.03-54.240.11.54
+Feedback-ID: 1.us-east-1.DkWvtcCI6J0G1/6vBjuXDrPZcjXUlyjqaIVBQ/xHQGw=:AmazonSES
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Incluyendo el amarre con tus CFDI.  [https://cursos.elconta.com/eventos/]
+    IVA A FAVOR SU DETERMINACIÓN, COMPENSACIÓN  [...] 
+ 
+ Content analysis details:   (0.9 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: eomail1.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: eomail1.com]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of .info|.us|.me|.me.uk|.biz domains in
+                              spam/malware
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+X-Spam-Flag: NO
+
+--_=_swift_1554305041_26b00cbb3652bfd81a76ceb9ff519e06_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Incluyendo el amarre con tus CFDI.=C2=A0
+ [https://cursos.elconta.com/eventos/]
+
+IVA A FAVOR=20
+
+SU DETERMINACI=C3=93N, COMPENSACI=C3=93N=C2=A0
+
+Y/O SOLICITUD DE DEVOLUCI=C3=93N
+
+(AMARRE CON TUS CFDI)
+
+EXPOSITOR:
+
+L.C. EMMANUEL GUERRERO ROMERO *
+
+-------------------------
+
+CURSO EN L=C3=8DNEA:
+
+JUEVES 4 DE ABRIL 2019
+
+16:00 A 20:00 (4 HORAS)
+
+-------------------------
+
+OBJETIVO:=20
+
+ANALIZAR LA DETERMINACI=C3=93N DEL IVA, POR PAGAR Y A FAVOR, REVISAR EL
+LLENADO DE LOS FORMATOS OFICIALES CON LA INFORMACI=C3=93N REQUERIDA.
+
+FINALMENTE HACIENDO UNA CONCILIACI=C3=93N ENTRE LOS COMPROBANTES DEL SAT
+EMITIDOS Y RECIBIDOS.=20
+
+-------------------------
+
+TEMARIO:
+
+=09*=20
+
+=C2=A0EL IVA EN LOS DOCUMENTOS ELECTR=C3=93NICOS Y SU REGISTRO CONTABLE
+
+ =09* Cuentas agrupadoras para los obligados a enviar Contabilidad
+Electr=C3=B3nica
+
+=09*=20
+
+=C2=A0AN=C3=81LISIS DE SITUACIONES GENERADORAS DE SALDOS A FAVOR:
+
+ =09* El acreditamiento como medio de extinci=C3=B3n de obligaciones de pag=
+o
+de cr=C3=A9ditos fiscales
+ =09* El IVA acreditable
+ =09* Requisitos para acreditar el IVA acreditable
+ =09* Proporci=C3=B3n de acreditamiento al realizar actos gravados y exento=
+s
+ =09* Factor anual de prorrateo
+ =09* Elementos de la proporci=C3=B3n que se incluyen y excluyen
+ =09* Ajuste mensual del IVA acreditable de inversiones
+
+=09*=20
+
+AN=C3=81LISIS DE LA DETERMINACI=C3=93N DE SALDOS A FAVOR DE IVA
+
+ =09* Reglas del acreditamiento de saldos a favor en meses siguientes
+ =09* Reglas de la compensaci=C3=B3n de saldos a favor
+ =09* Reglas sobre solicitud de devoluci=C3=B3n de saldos a favor
+ =09* Reglas sobre compensaci=C3=B3n y devoluci=C3=B3n de un mismo saldo a =
+favor
+ =09* Reglas sobre compensaci=C3=B3n y acreditamiento de un mismo saldo a
+favor
+ =09* Prescripci=C3=B3n del derecho a la devoluci=C3=B3n y compensaci=C3=B3=
+n pero no
+del derecho al acreditamiento
+
+=09*=20
+
+AN=C3=81LISIS Y LLENADO DE LOS FORMATOS ELECTR=C3=93NICOS
+
+ =09* Declaraci=C3=B3n Informativa de Operaciones con Terceros (DIOT)
+ =09* Sistema FED para tramitar la devoluci=C3=B3n (Anexos 7, 7-A y 7-B)
+para solicitud devoluci=C3=B3n y avisos de compensaci=C3=B3n
+ =09* Plataforma del SAT (Formato de IVA en el pago referenciado)
+
+=09*=20
+
+CONCILIACI=C3=93N ENTRE LOS COMPROBANTES EMITIDOS Y RECIBIDOS (CFDI)
+
+ =09* Comprobantes de Ingreso
+ =09* Comprobantes de Egreso
+ =09* Comprobantes de Pago
+
+-------------------------
+
+* CURR=C3=8DCULUM DEL EXPOSITOR L.C. EMMANUEL GUERRERO ROMERO.
+
+ =09* Licenciado en Contadur=C3=ADa P=C3=BAblica, Egresado de la Facultad d=
+e
+Contadur=C3=ADa y Administraci=C3=B3n, en Ciudad Universitaria (UNAM), Ciud=
+ad
+de M=C3=A9xico.
+ =09* Cuenta con un diplomado en =E2=80=9CAuditor=C3=ADa externa en un ambi=
+ente
+internacional=E2=80=9D, en la Universidad Latina Campus Sur, en la Ciudad d=
+e
+M=C3=A9xico.
+ =09* Especialista en Contabilidad Electr=C3=B3nica, Comprobantes Fiscales
+Digitales emitidos por Internet y Auditor=C3=ADas Electr=C3=B3nicas, tanto =
+en
+la parte te=C3=B3rica como en la parte pr=C3=A1ctica.
+ =09* Fue miembro asociado en el =C3=A1rea de auditor=C3=ADa del Despacho
+Dom=C3=ADnguez, Res=C3=A9ndiz, Cuevas y Asociados, S.C., trabajando como
+encargado de auditor=C3=ADa, desde el 2006 hasta el 2017, en la Ciudad de
+M=C3=A9xico.
+ =09* Invitado por la Comisi=C3=B3n de Investigaci=C3=B3n Fiscal del Colegi=
+o de
+Contadores P=C3=BAblicos de M=C3=A9xico a impartir para el curso de
+=E2=80=9Ccomprobantes fiscales digitales=E2=80=9D.
+ =09* Ha impartido diversas pl=C3=A1ticas en distintas universidades en la
+Ciudad de M=C3=A9xico.
+
+=09* En 2014 a 2015, fue Docente en la Universidad Latina, Campus Roma
+en el Distrito Federal, impartiendo clases de:=20
+
+ =09* Seminario de impuestos y casos especiales,
+ =09* Administraci=C3=B3n Fiscal en las organizaciones,
+ =09* Fundamentos de Auditoria,
+ =09* Control Interno y
+ =09* Auditoria Interna.
+
+ =09* Fue ponente en la Expo proveedur=C3=ADa PYME en Pachuca hidalgo,
+hablando de Contabilidad Electr=C3=B3nica.
+ =09* Particip=C3=B3 en un proyecto de incubaci=C3=B3n de empresas en
+Chilpancingo en la CMIC, en los m=C3=B3dulos de R=C3=A9gimen Fiscal de las
+empresas y Estudio Financiero.
+ =09* AUTOR COLABORADOR EN BLOG ELCONTA.COM
+[http://elconta.com/author/emmanuelgr/]
+
+=09*=20
+
+ =09*=20
+
+-------------------------
+
+DETALLES T=C3=89CNICOS:
+
+=09*=20
+
+=09*=20
+
+ =09* Usaremos GoToWebinar (No es necesario ning=C3=BAn software especial,
+basta con una buena conexi=C3=B3n a internet)
+ =09* =C2=BFComo ingresar=C3=A1s al webinar? Ac=C3=A1 un ejemplo
+[https://www.youtube.com/watch?v=3DJF-DnLN2KPg].
+ =09* El que cuentes con unos buenos aud=C3=ADfonos ayuda bastante.
+ =09* Puedes tomar la sesi=C3=B3n a trav=C3=A9s de un Mac, un PC o un
+dispositivo m=C3=B3vil.
+ =09* =C2=BFNO PUEDES ASISTIR EN LA HORA DEL CURSO? NO TE PREOCUPES, una ve=
+z
+concluido el curso te enviaremos el material del expositor y el video
+=C3=ADntegro de la sesi=C3=B3n para que tomes el curso en los 30 d=C3=ADas
+siguientes.
+ =09* Te reiteramos que nuestros cursos en l=C3=ADnea puedes disfrutarlos e=
+n
+vivo de manera presencial (virtual) o bien, disfrutar de el video que
+te proporcionaremos al final dicho curso el cual podr=C3=A1s consultar
+durante los 30 d=C3=ADas siguientes.
+
+-------------------------
+
+PRECIO DE LA SESI=C3=93N:
+
+$1,114.04 (IVA INCL.)
+
+PAGO CON TARJETA -AQU=C3=8D-
+[https://www.paypal.me/dcfr/1114.04?country.x=3DMX&locale.x=3Des_XC]
+
+-------------------------
+
+DATOS DE DEP=C3=93SITO BANCARIO:
+
+BANCO:=C2=A0BBVA Bancomer
+
+CUENTA:=C2=A00197099339
+
+CLABE:=C2=A0012320001970993396
+
+A NOMBRE DE:=C2=A0Desarrollo Contable Fiscal en Redes, S.A. De C.V.
+
+RFC:=C2=A0DCF1408025L5
+
+CUENTA PAYPAL PARA RECEPCI=C3=93N DE PAGOS: cursos@elconta.com=20
+
+-------------------------
+
+NOTAS IMPORTANTES:
+
+=09*=20
+
+=09*=20
+
+ =09* Los precios publicados en la lista de arriba ya incluyen el IVA.
+(No pagues de mas)
+ =09* Una vez realizado el pago es importante reportarlo al correo de
+CURSOS@ELCONTA.COM al menos 2 horas antes del evento para asegurar tu
+lugar.
+
+=09* En el correo se deber=C3=A1 incluir lo siguiente:=20
+
+ =09* Nombre del asistente. (Ejemplo: LCP Antonio Gonz=C3=A1lez P=C3=A9rez)
+ =09* Si deseas factura por favor anexa tambi=C3=A9n tus datos fiscales.
+
+ =09* Con tu pago te asignamos un enlace para acceso INDIVIDUAL, no
+debes compartirlo con nadie mas.
+ =09* Como ya es costumbre en nuestros cursos, tendremos regalitos para
+los asistentes =F0=9F=98=89
+
+-------------------------
+
+ATENCI=C3=93N A CLIENTES:=20
+
+GDL (33) 3333-9715=20
+
+GDL=C2=A0(33) 3331-6176
+
+Desuscribirme de la lista
+[https://araneoides.eomail1.com/unsubscribe?l=3D02e588a8-3a25-11e9-a3c9-06b=
+79b628af2&lc=3D636f2f62-3a25-11e9-a3c9-06b79b628af2&p=3D050ae2c1-5553-11e9-=
+8622-02cfe9e979c6&pt=3Dcampaign&spa=3D1554304501&t=3D1554305041&s=3De52b2ae=
+d72bb03f1cbac23fceb1bfa8e68fbb56ec166534e90277c2110f485b2]
+
+--_=_swift_1554305041_26b00cbb3652bfd81a76ceb9ff519e06_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html><head><title></title></head><body autocomplete=3D"on">=
+<div style=3D"display:none; font-size:0px; line-height:0px; max-height:0px;=
+ max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all=
+;">Incluyendo el amarre con tus CFDI.&nbsp;</div><p>
+<a href=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Fcursos.e=
+lconta.com%2Feventos%2F/1/01000169e3ccc4a0-1cde6c8f-1546-4e20-8a2d-2a07fc41=
+512b-000000/ulejm2eVrrr562UTWFoQh2DZp00=3D103" rel=3D"noopener noreferrer" =
+target=3D"_blank"><img src=3D"https://gallery.eomail1.com/16452a69-3983-11e=
+9-a3c9-06b79b628af2/1551158290458-elcnta1_copy_500.jpg" style=3D"width: 769=
+px; display: block; vertical-align: top; margin: 5px auto; text-align: cent=
+er; height: 206.011px;" width=3D"769" height=3D"206"></a></p><p style=3D"te=
+xt-align: center;"><img class=3D"alignleft wp-image-165" src=3D"https://cur=
+sos.elconta.com/wp-content/uploads/2017/10/emmanuel_guerrero-278x300.jpg" a=
+lt=3D"" width=3D"163" height=3D"176" style=3D"display: inline-block; vertic=
+al-align: bottom; margin: 5px 5px 5px 0px; max-width: calc(100% - 5px); tex=
+t-align: left; float: left;"></p><h2 style=3D"text-align: center;"><span st=
+yle=3D"color: #008000;"><strong><span style=3D"font-size: 30px;">IVA A FAVO=
+R</span></strong></span><span style=3D"font-size: 30px;">
+
+</span></h2><h2 style=3D"text-align: center;"><span style=3D"color: #008000=
+;"><strong><span style=3D"font-size: 30px;">SU DETERMINACI=C3=93N, COMPENSA=
+CI=C3=93N&nbsp;</span></strong></span></h2><h2 style=3D"text-align: center;=
+"><span style=3D"color: #008000;"><strong><span style=3D"font-size: 30px;">=
+Y/O SOLICITUD DE DEVOLUCI=C3=93N</span></strong></span></h2><h3 style=3D"te=
+xt-align: center;"><span style=3D"color: #ff0000;"><strong>(Amarre con tus =
+CFDI)</strong></span></h3><h2 style=3D"text-align: center;"><strong><span s=
+tyle=3D"font-size: 30px;">Expositor:</span></strong></h2><p><span style=3D"=
+font-size: 30px;">
+
+</span></p><h2 style=3D"text-align: center;"><span style=3D"color: #0000ff;=
+"><strong><span style=3D"font-size: 30px;">L.C. Emmanuel Guerrero Romero *<=
+/span></strong></span></h2><hr><h3 style=3D"text-align: center;"><span styl=
+e=3D"color: #000000;"><strong><span style=3D"font-size: 24px;">Curso en l=
+=C3=ADnea:</span></strong></span></h3><p><span style=3D"font-size: 24px;">
+
+</span></p><h3 style=3D"text-align: center;"><span style=3D"font-size: 24px=
+;"><span style=3D"color: #ff6600;"><strong>Jueves 4 de Abril 2019</strong><=
+/span></span></h3><p><span style=3D"font-size: 24px;">
+
+</span></p><h3 style=3D"text-align: center;"><span style=3D"color: #ff6600;=
+"><strong><span style=3D"font-size: 24px;">16:00 a 20:00 (4 horas)</span></=
+strong></span></h3><hr><h3><span style=3D"color: #008000;"><strong><span st=
+yle=3D"font-family: Tahoma, Geneva, sans-serif; font-size: 18px;">Objetivo:=
+ </span></strong></span></h3><p><span style=3D"font-size: 18px;"><span styl=
+e=3D"font-family: Tahoma,Geneva,sans-serif;"><strong>Analizar la determinac=
+i=C3=B3n del IVA, por pagar y a favor, revisar el llenado de los formatos o=
+ficiales con la informaci=C3=B3n requerida.</strong></span></span><br>
+</p><p><span style=3D"font-size: 18px;"><span style=3D"font-family: Tahoma,=
+Geneva,sans-serif;"><strong>Finalmente haciendo una conciliaci=C3=B3n entre=
+ los Comprobantes del SAT emitidos y recibidos.</strong>
+</span></span></p><hr><h3><span style=3D"color: #008000;"><strong>Temario:<=
+/strong></span></h3><ol>
+<li>
+
+<h3>&nbsp;El IVA en los documentos electr=C3=B3nicos y su registro contable=
+</h3>
+
+<ol>
+<li>Cuentas agrupadoras para los obligados a enviar Contabilidad Electr=C3=
+=B3nica</li>
+</ol>
+</li>
+<li>
+
+<h3>&nbsp;An=C3=A1lisis de situaciones generadoras de saldos a favor:</h3>
+
+<ol>
+<li>El acreditamiento como medio de extinci=C3=B3n de obligaciones de pago =
+de cr=C3=A9ditos fiscales</li>
+<li>El IVA acreditable</li>
+<li>Requisitos para acreditar el IVA acreditable</li>
+<li>Proporci=C3=B3n de acreditamiento al realizar actos gravados y exentos<=
+/li>
+<li>Factor anual de prorrateo</li>
+<li>Elementos de la proporci=C3=B3n que se incluyen y excluyen</li>
+<li>Ajuste mensual del IVA acreditable de inversiones</li>
+</ol>
+</li>
+<li>
+
+<h3>An=C3=A1lisis de la determinaci=C3=B3n de saldos a favor de IVA</h3>
+
+<ol>
+<li>Reglas del acreditamiento de saldos a favor en meses siguientes</li>
+<li>Reglas de la compensaci=C3=B3n de saldos a favor</li>
+<li>Reglas sobre solicitud de devoluci=C3=B3n de saldos a favor</li>
+<li>Reglas sobre compensaci=C3=B3n y devoluci=C3=B3n de un mismo saldo a fa=
+vor</li>
+<li>Reglas sobre compensaci=C3=B3n y acreditamiento de un mismo saldo a fav=
+or</li>
+<li>Prescripci=C3=B3n del derecho a la devoluci=C3=B3n y compensaci=C3=B3n =
+pero no del derecho al acreditamiento</li>
+</ol>
+</li>
+<li>
+
+<h3>An=C3=A1lisis y llenado de los formatos electr=C3=B3nicos</h3>
+
+<ol>
+<li>Declaraci=C3=B3n Informativa de Operaciones con Terceros (DIOT)</li>
+<li>Sistema FED para tramitar la devoluci=C3=B3n (Anexos 7, 7-A y 7-B) para=
+ solicitud devoluci=C3=B3n y avisos de compensaci=C3=B3n</li>
+<li>Plataforma del SAT (Formato de IVA en el pago referenciado)</li>
+</ol>
+</li>
+<li>
+
+<h3>Conciliaci=C3=B3n entre los Comprobantes emitidos y recibidos (CFDI)</h=
+3>
+
+<ol>
+<li>Comprobantes de Ingreso</li>
+<li>Comprobantes de Egreso</li>
+<li>Comprobantes de Pago</li>
+</ol>
+</li>
+</ol><hr><h3 style=3D"text-align: center;"><span style=3D"color: #008000;">=
+<strong><span style=3D"font-size: 24px;">* Curr=C3=ADculum del expositor L.=
+C. Emmanuel Guerrero Romero</span></strong><strong><span style=3D"font-size=
+: 24px;">.</span></strong></span></h3><ul>
+<li><span style=3D"font-size: 18px;">Licenciado en Contadur=C3=ADa P=C3=BAb=
+lica, Egresado de la Facultad de Contadur=C3=ADa y Administraci=C3=B3n, en =
+Ciudad Universitaria (UNAM), Ciudad de M=C3=A9xico.</span></li><span style=
+=3D"font-size: 18px;">
+</span>
+<li><span style=3D"font-size: 18px;">Cuenta con un diplomado en =E2=80=9CAu=
+ditor=C3=ADa externa en un ambiente internacional=E2=80=9D, en la Universid=
+ad Latina Campus Sur, en la Ciudad de M=C3=A9xico.</span></li><span style=
+=3D"font-size: 18px;">
+</span>
+<li><span style=3D"font-size: 18px;">Especialista en Contabilidad Electr=C3=
+=B3nica, Comprobantes Fiscales Digitales emitidos por Internet y Auditor=C3=
+=ADas Electr=C3=B3nicas, tanto en la parte te=C3=B3rica como en la parte pr=
+=C3=A1ctica.</span></li><span style=3D"font-size: 18px;">
+</span>
+<li><span style=3D"font-size: 18px;">Fue miembro asociado en el =C3=A1rea d=
+e auditor=C3=ADa del Despacho Dom=C3=ADnguez, Res=C3=A9ndiz, Cuevas y Asoci=
+ados, S.C., trabajando como encargado de auditor=C3=ADa, desde el 2006 hast=
+a el 2017, en la Ciudad de M=C3=A9xico.</span></li><span style=3D"font-size=
+: 18px;">
+</span>
+<li><span style=3D"font-size: 18px;">Invitado por la Comisi=C3=B3n de Inves=
+tigaci=C3=B3n Fiscal del Colegio de Contadores P=C3=BAblicos de M=C3=A9xico=
+ a impartir para el curso de =E2=80=9Ccomprobantes fiscales digitales=E2=80=
+=9D.</span></li><span style=3D"font-size: 18px;">
+</span>
+<li><span style=3D"font-size: 18px;">Ha impartido diversas pl=C3=A1ticas en=
+ distintas universidades en la Ciudad de M=C3=A9xico.</span></li><span styl=
+e=3D"font-size: 18px;">
+</span>
+<li><span style=3D"font-size: 18px;">En 2014 a 2015, fue Docente en la Univ=
+ersidad Latina, Campus Roma en el Distrito Federal, impartiendo clases de:
+
+</span>
+
+<ul><span style=3D"font-size: 18px;">
+</span>
+<li><span style=3D"font-size: 18px;">Seminario de impuestos y casos especia=
+les,</span></li><span style=3D"font-size: 18px;">
+</span>
+<li><span style=3D"font-size: 18px;">Administraci=C3=B3n Fiscal en las orga=
+nizaciones,</span></li><span style=3D"font-size: 18px;">
+</span>
+<li><span style=3D"font-size: 18px;">Fundamentos de Auditoria,</span></li><=
+span style=3D"font-size: 18px;">
+</span>
+<li><span style=3D"font-size: 18px;">Control Interno y</span></li><span sty=
+le=3D"font-size: 18px;">
+</span>
+<li><span style=3D"font-size: 18px;">Auditoria Interna.</span></li><span st=
+yle=3D"font-size: 18px;">
+</span></ul><span style=3D"font-size: 18px;">
+</span></li><span style=3D"font-size: 18px;">
+</span></ul><p><span style=3D"font-size: 18px;">
+
+</span></p><ul><span style=3D"font-size: 18px;">
+</span>
+<li><span style=3D"font-size: 18px;">Fue ponente en la Expo proveedur=C3=AD=
+a PYME en Pachuca hidalgo, hablando de Contabilidad Electr=C3=B3nica.</span=
+></li><span style=3D"font-size: 18px;">
+</span>
+<li><span style=3D"font-size: 18px;">Particip=C3=B3 en un proyecto de incub=
+aci=C3=B3n de empresas en Chilpancingo en la CMIC, en los m=C3=B3dulos de R=
+=C3=A9gimen Fiscal de las empresas y Estudio Financiero.</span></li><span s=
+tyle=3D"font-size: 18px;">
+</span>
+<li><strong><span style=3D"font-size: 18px;">Autor colaborador en blog </sp=
+an><a href=3D"http://z7d0xy0l.r.us-east-1.awstrack.me/L0/http:%2F%2Felconta=
+.com%2Fauthor%2Femmanuelgr%2F/1/01000169e3ccc4a0-1cde6c8f-1546-4e20-8a2d-2a=
+07fc41512b-000000/xUYxwwTKlJG1AQ6Dqle6No2F5Ho=3D103" rel=3D"noopener" targe=
+t=3D"_blank"><span style=3D"font-size: 18px;">ElConta.Com</span></a></stron=
+g></li>
+</ul><ol start=3D"10">
+<li style=3D"list-style-type: none;">
+
+<ol start=3D"10">
+<li style=3D"list-style-type: none;">
+<br>
+</li>
+</ol>
+</li>
+</ol><hr><p><strong><span style=3D"font-size: 18px;">Detalles t=C3=A9cnicos=
+:</span></strong></p><ol start=3D"10">
+<li style=3D"list-style-type: none;">
+
+<ol start=3D"10">
+<li style=3D"list-style-type: none;">
+
+<ul>
+<li>Usaremos GoToWebinar (No es necesario ning=C3=BAn software especial, ba=
+sta con una buena conexi=C3=B3n a internet)</li>
+<li>=C2=BFComo ingresar=C3=A1s al webinar? <a href=3D"https://z7d0xy0l.r.us=
+-east-1.awstrack.me/L0/https:%2F%2Fwww.youtube.com%2Fwatch%3Fv=3DJF-DnLN2KP=
+g/1/01000169e3ccc4a0-1cde6c8f-1546-4e20-8a2d-2a07fc41512b-000000/sdzJZHYsY9=
+53auv1LRDrv11bkz8=3D103" rel=3D"noopener" target=3D"_blank">Ac=C3=A1 un eje=
+mplo</a>.</li>
+<li>El que cuentes con unos buenos aud=C3=ADfonos ayuda bastante.</li>
+<li>Puedes tomar la sesi=C3=B3n a trav=C3=A9s de un Mac, un PC o un disposi=
+tivo m=C3=B3vil.</li>
+<li><strong><span style=3D"color: #ff0000;">=C2=BFNo puedes asistir en la h=
+ora del curso?</span> No te preocupes</strong>, una vez concluido el curso =
+te enviaremos el material del expositor y el video =C3=ADntegro de la sesi=
+=C3=B3n para que tomes el curso en los 30 d=C3=ADas siguientes.</li>
+<li>Te reiteramos que nuestros cursos en l=C3=ADnea puedes disfrutarlos en =
+vivo de manera presencial (virtual) o bien, disfrutar de el video que te pr=
+oporcionaremos al final dicho curso el cual podr=C3=A1s consultar durante l=
+os 30 d=C3=ADas siguientes.</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol><hr><h3 style=3D"text-align: center;"><strong><span style=3D"font-size=
+: 24px;">Precio de la sesi=C3=B3n:</span></strong></h3><p><span style=3D"fo=
+nt-size: 24px;">
+
+</span></p><h3 style=3D"text-align: center;"><span style=3D"font-size: 24px=
+;"><span style=3D"color: #008000;"><strong>$1,114.04 (IVA Incl.)</strong></=
+span></span></h3><p><span style=3D"font-size: 24px;">
+
+</span></p><h3 style=3D"text-align: center;"><a href=3D"https://z7d0xy0l.r.=
+us-east-1.awstrack.me/L0/https:%2F%2Fwww.paypal.me%2Fdcfr%2F1114.04%3Fcount=
+ry.x=3DMX%26locale.x=3Des_XC/1/01000169e3ccc4a0-1cde6c8f-1546-4e20-8a2d-2a0=
+7fc41512b-000000/FqrjkWrhpKeBecjhWItCcDRNDTc=3D103" rel=3D"noopener" target=
+=3D"_blank"><span style=3D"font-size: 24px;">Pago con tarjeta -AQU=C3=8D-</=
+span></a></h3><hr><h3 style=3D"text-align: center;"><span style=3D"color: #=
+ff0000;"><strong><span style=3D"font-size: 24px;">Datos de dep=C3=B3sito ba=
+ncario:</span></strong></span></h3><p><span style=3D"font-size: 18px;">
+
+</span></p><p style=3D"text-align: left;"><span style=3D"font-size: 18px;">=
+<strong>Banco:</strong>&nbsp;BBVA Bancomer</span></p><p><span style=3D"font=
+-size: 18px;">
+
+</span></p><p style=3D"text-align: left;"><span style=3D"font-size: 18px;">=
+<strong>Cuenta:</strong>&nbsp;0197099339</span></p><p><span style=3D"font-s=
+ize: 18px;">
+
+</span></p><p style=3D"text-align: left;"><span style=3D"font-size: 18px;">=
+<strong>CLABE:</strong>&nbsp;012320001970993396</span></p><p><span style=3D=
+"font-size: 18px;">
+
+</span></p><p style=3D"text-align: left;"><span style=3D"font-size: 18px;">=
+<strong>A nombre de:</strong>&nbsp;Desarrollo Contable Fiscal en Redes, S.A=
+. De C.V.</span></p><p><span style=3D"font-size: 18px;">
+
+</span></p><p style=3D"text-align: left;"><span style=3D"font-size: 18px;">=
+<strong>RFC:</strong>&nbsp;DCF1408025L5</span></p><p><span style=3D"font-si=
+ze: 18px;"><strong>Cuenta Paypal para recepci=C3=B3n de pagos:</strong> cur=
+sos@elconta.com
+
+</span></p><hr><p>
+<br>
+</p><p><strong><span style=3D"font-size: 18px;">Notas importantes:</span></=
+strong></p><ol start=3D"10">
+<li style=3D"list-style-type: none;">
+
+<ol start=3D"10">
+<li style=3D"list-style-type: none;">
+
+<ul>
+<li>Los precios publicados en la lista de arriba ya incluyen el IVA. (No pa=
+gues de mas)</li>
+<li>Una vez realizado el pago es importante reportarlo al correo de <span s=
+tyle=3D"color: #0000ff;"><strong><a href=3D"mailto:cursos@elconta.com">curs=
+os@elconta.com</a></strong></span> al menos 2 horas antes del evento para a=
+segurar tu lugar.</li>
+<li>En el correo se deber=C3=A1 incluir lo siguiente:
+
+<ul>
+<li>Nombre del asistente. (Ejemplo: LCP Antonio Gonz=C3=A1lez P=C3=A9rez)</=
+li>
+<li>Si deseas factura por favor anexa tambi=C3=A9n tus datos fiscales.</li>
+</ul>
+</li>
+<li>Con tu pago te asignamos un enlace para acceso INDIVIDUAL, no debes com=
+partirlo con nadie mas.</li>
+<li>Como ya es costumbre en nuestros cursos, tendremos regalitos para los a=
+sistentes =F0=9F=98=89</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol><div>
+<br>
+</div><hr><p style=3D"text-align: center;"><strong><span style=3D"font-size=
+: 18px;">ATENCI=C3=93N A CLIENTES:</span></strong><span style=3D"font-size:=
+ 18px;">
+</span></p><p><span style=3D"font-size: 18px;">
+
+</span></p><p style=3D"text-align: center;"><span style=3D"font-size: 18px;=
+">GDL (33) 3333-9715
+</span></p><p><span style=3D"font-size: 18px;">
+
+</span></p><p style=3D"text-align: center;"><span style=3D"font-size: 18px;=
+">GDL&nbsp;(33) 3331-6176</span></p><div style=3D"text-align: right;"><a hr=
+ef=3D"https://z7d0xy0l.r.us-east-1.awstrack.me/L0/https:%2F%2Faraneoides.eo=
+mail1.com%2Funsubscribe%3Fl=3D02e588a8-3a25-11e9-a3c9-06b79b628af2%26lc=3D6=
+36f2f62-3a25-11e9-a3c9-06b79b628af2%26p=3D050ae2c1-5553-11e9-8622-02cfe9e97=
+9c6%26pt=3Dcampaign%26spa=3D1554304501%26t=3D1554305041%26s=3De52b2aed72bb0=
+3f1cbac23fceb1bfa8e68fbb56ec166534e90277c2110f485b2/1/01000169e3ccc4a0-1cde=
+6c8f-1546-4e20-8a2d-2a07fc41512b-000000/Ut4eIlTy2o4pyZNTA4cfUid7pc4=3D103" =
+rel=3D"noopener noreferrer" target=3D"_blank"><span style=3D"font-size: 12p=
+x; font-family: Tahoma, Geneva, sans-serif;">Desuscribirme de la lista</spa=
+n></a></div><p>
+<br>
+</p><img src=3D"http://z7d0xy0l.r.us-east-1.awstrack.me/I0/01000169e3ccc4a0=
+-1cde6c8f-1546-4e20-8a2d-2a07fc41512b-000000/ZIClkIanVl0PptZZ72wLdfPtGAw=3D=
+103" style=3D"display: none; width: 1px; height: 1px;">
+</body></html>
+
+--_=_swift_1554305041_26b00cbb3652bfd81a76ceb9ff519e06_=_--

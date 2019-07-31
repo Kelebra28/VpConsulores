@@ -1,0 +1,590 @@
+Return-Path: <MD-NO--59986-984-MX-PR--raymundo=vpconsultores.com.mx@bounces.mdrctr.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id AB05DmgzgVyhYisAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Thu, 07 Mar 2019 08:06:16 -0700
+Return-path: <MD-NO--59986-984-MX-PR--raymundo=vpconsultores.com.mx@bounces.mdrctr.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Thu, 07 Mar 2019 08:06:16 -0700
+Received: from mta141.79.mdrctr.com ([62.97.141.79]:32843)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <MD-NO--59986-984-MX-PR--raymundo=vpconsultores.com.mx@bounces.mdrctr.com>)
+	id 1h1ub7-00C7Y7-2A
+	for raymundo@vpconsultores.com.mx; Thu, 07 Mar 2019 08:06:16 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=md2; d=academo.com.mx;
+ h=From:Reply-To:To:Date:List-Id:List-Unsubscribe:Subject:MIME-Version:
+ Content-Type:Message-ID; i=administracion@academo.com.mx;
+ bh=xXn/3xNtjK940jyVyNB2dxIJmN728c+oFhhvz250SBQ=;
+ b=helqSO9aZ1qe//l+0obcGpxFu4rAFU7dsAxixLLOvqxKWVDyxPP2Dhw3ZYeRpS2kOPjyHPC2LFwJ
+   x0OBKG0BK4og6m+CpQIeVUnGmT8eRS4okV4e8YGzXwSuYQwf07NmPvPD2qJMEyb50nPNLtZ1S4Gu
+   18J74ehXMqtAXjMDgIE=
+Received: from pmta-senderdaemon.antevenio.local (172.16.18.16) by mta141.78.mdrctr.com id hg4pma2em3cl for <raymundo@vpconsultores.com.mx>; Thu, 7 Mar 2019 16:03:11 +0100 (envelope-from <MD-NO--59986-984-MX-PR--raymundo=vpconsultores.com.mx@bounces.mdrctr.com>)
+From: =?UTF-8?Q?Academo_Delgado=2C_Arag=C3=B3n_y_Asociados_S=2EC=2E?= <administracion@academo.com.mx>
+Reply-To: =?UTF-8?Q?Academo_Delgado=2C_Arag=C3=B3n_y_Asociados_S=2EC=2E?= <administracion@academo.com.mx>
+To:  <raymundo@vpconsultores.com.mx>
+Precedence: bulk
+X-rpcampaign: mdMDNO59986984MXPR
+X-rpcampaignok: mdmdMD-NO--59986-984-MX-PR
+X-reputation: 4
+Date: Thu, 7 Mar 2019 16:03:11 +0100
+Feedback-ID: 59986:984:gmailmdrctr
+List-Id: 59986-327.mdrctr.com
+List-Unsubscribe: <mailto:unsubscribe-md59986-984-327-3200-8eff41e817a665533fce235645e39d2d@bounces.mdrctr.com>, <http://track.mdrctr.com/track/unsubscribe/empId/59986/subId/984/listId/327/conId/3200/conEmail/raymundo@vpconsultores.com.mx/type/8/motivo/list-unsubscribe/signature/8eff41e817a665533fce235645e39d2d>
+X-LU: <mailto:unsubscribe-md59986-984-327-3200-8eff41e817a665533fce235645e39d2d@bounces.mdrctr.com>, <http://track.mdrctr.com/track/unsubscribe/empId/59986/subId/984/listId/327/conId/3200/conEmail/raymundo@vpconsultores.com.mx/type/8/motivo/list-unsubscribe/signature/8eff41e817a665533fce235645e39d2d>
+X-ElasticEmail-Postback: <mailto:unsubscribe-md59986-984-327-3200-8eff41e817a665533fce235645e39d2d@lists.mdirector.com>, <http://track.mdrctr.com/track/unsubscribe/empId/59986/subId/984/listId/327/conId/3200/conEmail/raymundo@vpconsultores.com.mx/type/8/motivo/list-unsubscribe/signature/8eff41e817a665533fce235645e39d2d>
+Subject: =?UTF-8?Q?Declaraci=C3=B3n_anual_personas_morales_y_J=C3=B3venes_construyendo_el_futuro=C2=A0_=28capacitaci=C3=B3n_subsidiada=29?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="boundaryTagForMixed"
+Message-ID: <0.0.E.9FD.1D4D4F6E1C5CD02.9BA83B@mta141.78.mdrctr.com>
+X-Spam-Status: No, score=-0.4
+X-Spam-Score: -3
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Publicidad Si no ve correctamente el contenido de este e-mail,
+    puede visualizarlo vía web. //track.mdrctr.com/track/display/empId/59986/subId/984/listId/327/conId/3200/signature/8eff41e817a665533fce2
+ 
+ Content analysis details:   (-0.4 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mdirector.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mdirector.com]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or identical to
+                             background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.2 KAM_TRACKIMAGE         RAW: Message has a remote image explicitly meant for
+                             tracking
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76 chars
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -1.0 MAILING_LIST_MULTI     Multiple indicators imply a widely-seen list
+                             manager
+  0.2 KAM_LOTSOFHASH         Emails with lots of hash-like gibberish
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+X-Spam-Flag: NO
+
+--boundaryTagForMixed
+Content-Type: multipart/alternative; boundary="boundaryTagForAlternative"
+
+--boundaryTagForAlternative
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Publicidad=0D
+Si no ve correctamente el contenido de este e-mail, puede visualizarlo v=C3=
+=ADa web.=0D
+//track.mdrctr.com/track/display/empId/59986/subId/984/listId/327/=
+conId/3200/signature/8eff41e817a665533fce235645e39d2d/conEmail/raymundo@vpconsultores.com.mx/conMovil/-/snapI=
+d/529681/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj=0D
+=0D
+**********************************************************************=0D
+
+Excelencia en Capacitaci=C3=B3n
+
+
+
+
+ Tel: (55) 2155-9436 || administracion@academo.com.mx www.academo.=
+com.mx
+
+Declaraci=C3=B3n Anual 2018 Personas Morales y J=C3=B3venes construyendo el=
+ futuro
+
+
+
+Ubicaci=C3=B3n de aula: Av. Miguel =C3=81ngel de Quevedo # 8 Interior 50=
+7 Col. Ex Hacienda de Guadalupe
+Chimalistac Delegaci=C3=B3n =C3=81lvaro Obreg=C3=B3n CP 01050 CDMX
+
+
+ Colegio de Contadores p=C3=BAblicos Asociaci=C3=B3n Mexicana de Contadores=
+ P=C3=BAblicos
+ Reg. N=C3=BAmero: CCPM-CE187-0817 Reg. N=C3=BAmero: AMCP/CE/098
+
+
+ 
+
+ Declaraci=C3=B3n anual 2018 de personas morales
+ Viernes =E2=96=BA
+ 
+ 08 marzo VIDEO
+ C.P.C.Luis Guillermo Delgado Pedroza PRESENTACI=C3=93N
+ 09:00-14:00
+ Inversi=C3=B3n presencial: $1,850.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $1,090.00 m=C3=A1s I.V.A.
+
+
+
+ 
+
+ J=C3=B3venes construyendo el futuro (el A, B, C de la
+ S=C3=A1bado capacitaci=C3=B3n subsidiada)
+ =E2=96=BA
+ 09 marzo 
+ VIDEO
+ 09:00-13:00 Dr. Juan Rub=C3=A9n Luis Santillan Alatriste PRESENTACI=C3=93N
+
+ Inversi=C3=B3n presencial: $1,500.00 m=C3=A1s I.V.A.
+
+ Inversi=C3=B3n en l=C3=ADnea: $990.00 m=C3=A1s I.V.A.
+
+
+An=C3=A1lisis integral de la industria de la Construcci=C3=B3n. M=C3=B3dulo=
+ I Contribuciones Federales. M=C3=B3dulo
+II SIROC. 12 y 13 marzo
+
+Inversi=C3=B3n total en presencial de [S:$4,650.00:S]
+Inversi=C3=B3n total en l=C3=ADnea de [S:$2,740.00:S]
+Adquiera la seriaci=C3=B3n por $3,350.00 (ahorre $1,300.00)
+Adquiera la seriaci=C3=B3n en l=C3=ADnea por $2,050.00 (ahorre $690.00)
+* Precios m=C3=A1s IVA
+
+Facebook Twitter Youtube
+
+References:
+
+ tel:5521559436
+ mailto:administracion@academo.com.mx
+ //track.mdrctr.com/track/link/key/59986-984-25724-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484/
+ //track.mdrctr.com/track/link/key/59986-984-25725-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-984-25749-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-984-25750-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-984-25751-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-984-25752-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-984-25753-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-984-25754-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-984-25755-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-984-25756-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-984-25837-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-984-25838-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-984-25832-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-984-25833-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ //track.mdrctr.com/track/link/key/59986-984-25834-327-3200-=
+529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484
+ =0D
+**********************************************************************=0D
+=0D
+Puede proceder a:=0D
+ * darse de baja:=0D
+//track.mdrctr.com/track/pre-unsubscribe/category/EMAIL/empId/59986/subId/=
+984/listId/327/conId/3200/signature/8eff41e817a665533fce235645e39d2d/conEmail/raymundo@vpconsultores.com.mx=
+/conMovil/-/snapId/529681=0D
+
+
+--boundaryTagForAlternative
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+ <title>Academo</title>
+ <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><=
+meta name=3D"viewport" content=3D"width=3Ddevice-width, user-scalable=3Dno,=
+ initial-scale=3D1.0, maximum-scale=3D1.0, minimum-scale=3D1.0">
+ <style type=3D"text/css">#legales { font-size:9px; display:block; width:60=
+%; margin:auto; text-align:center; padding:2% 0%; color:#666;}
+#boton { width:40%; display:block; margin:auto; padding:2% 0%;}
+.datos {font-size:13px; color:#444444;}
+
+@media screen and (max-width: 400px) {
+=20
+ .datos {font-size:12px;}
+ #boton { width:80%;}
+ #legales { width:90%; margin:auto;
+=20
+}
+ </style>
+</head>
+<body bgcolor=3D"#FFFFFF" leftmargin=3D"0" marginheight=3D"0" marginwidth=
+=3D"0" topmargin=3D"0"><img src=3D"http://track.mdrctr.com/track/open/key/5=
+9986-984-327-3200-529681/signature/8eff41e817a665533fce235645e39d2d/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"display:none;" border=3D0 width=3D1 height=3D1 alt=3D""><table =
+border=3D"0" style=3D"max-width:570px;" cellspacing=3D"4" cellpadding=3D"0"
+	align=3D"center">
+	<tr>
+		<td><font face=3D"Verdana" color=3D"#8c8c8c" size=3D"1">Publicidad</font>=
+</td>
+	</tr>
+</table>
+<table border=3D"0" style=3D"max-width:570px;" cellspacing=3D"4" cellpaddin=
+g=3D"0"
+	align=3D"center">
+	<tr>
+		<td width=3D"100%"><font face=3D"Verdana" color=3D"#8c8c8c" size=3D"1">Si=
+ no
+		ve correctamente el contenido de este e-mail, puede <a
+			style=3D"color: #FF8549;" target=3D"_blank"
+			href=3D"http://track.mdrctr.com/track/display/empId/59986/subId/984/=
+listId/327/conId/3200/signature/8eff41e817a665533fce235645e39d2d/conEmail/raymundo@vpconsultores.com.mx/conMov=
+il/-/snapId/529681/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj">visualizarlo v&iacute=
+;a web</a>.</font></td>
+	</tr>
+</table>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"height:aut=
+o; margin:0 auto; vertical-align:middle; width:600px">
+ <tbody>
+ <tr>
+ <td colspan=3D"5" style=3D"font-family: arial !important;color:#ffffff;bac=
+kground-color:#0b568f;"><img alt=3D"Agenda acad&#233;mica de marzo 2019" sr=
+c=3D"http://static.mdirector.com/files/campanias/59986/9/3/6/CAM/mail_heade=
+r.jpg" style=3D"display:block" title=3D"Agenda acad&#233;mica de marzo 2019=
+" /></td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"height: 5px;background-color: #0c4475;">&nbsp;<=
+/td>
+ </tr>
+ <tr>
+ <th colspan=3D"5" style=3D"font-family: arial;color:#ffffff;background-col=
+or:#0374ba;height: 50px;">
+ <h2 style=3D"padding:0;margin: 0;">Excelencia en Capacitaci&oacute;n</h2>
+ </th>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"font-family: arial;color:#ffffff;background-col=
+or:#0b568f;font-weight:bold;text-align: center;font-size: 12pt;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"height: 2px;background-color: #ff8203;">&nbsp;<=
+/td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"height: 5px;background-color: #0b568f;">&nbsp;<=
+/td>
+ </tr>
+ <tr>
+ <td height=3D"40" style=3D"background-color: #0b568f;" width=3D"20">&nbsp;=
+</td>
+ <td colspan=3D"3" style=3D"font-family: arial;color:#ff8203;background-col=
+or:#0b568f;font-weight:bold;text-align: center;">&nbsp; Tel: <a href=3D"tel=
+:5521559436" style=3D"color:#ffffff;font-family: arial;font-weight: bold">(=
+55) 2155-9436</a> || <a href=3D"mailto:administracion@academo.com.mx" style=
+=3D"color:#ffffff;font-family: arial;font-weight: bold;">administracion@aca=
+demo.com.mx</a>&nbsp; <a data-linkid=3D"link_5c803b65e2bcc" href=3D"http://=
+track.mdrctr.com/track/link/key/59986-984-25724-327-3200-529681/s=
+ignature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484" style=
+=3D"color:#ff8203;font-family: arial;font-weight: bold;font-size: 18px; ">w=
+ww.academo.com.mx</a></td>
+ <td style=3D"background-color: #0b568f;" width=3D"20">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"height: 10px;background-color: #0b568f;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color:#ff8203;color: #ffffff;font-fa=
+mily: arial;">
+ <h2 style=3D"padding:0;margin: 0;text-align: center;">Declaraci&oacute;n A=
+nual 2018 Personas Morales y J&oacute;venes construyendo el futuro</h2>
+ </td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #0c4475;height: 5px;">&nbsp;<=
+/td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #0c4475;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"color: #ffffff;font-family: arial;font-size: 15=
+px;font-weight: bold;background-color: #0c4475;height: 10px;text-align: cen=
+ter;">Ubicaci&oacute;n de aula: <a data-linkid=3D"link_5c803b65e2d5c" href=
+=3D"http://track.mdrctr.com/track/link/key/59986-984-25725-327-3200=
+-529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"color: #ffffff;font-family: arial;font-size: 15px;font-weight:=
+ bold;"> Av. Miguel &Aacute;ngel de Quevedo # 8 Interior 507 Col. Ex Hacien=
+da de Guadalupe Chimalistac Delegaci&oacute;n &Aacute;lvaro Obreg&oacute;n =
+CP 01050 CDMX</a></td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #0c4475;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"height: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td colspan=3D"3">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100=
+%">
+ <tbody>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ffffff;text-align: center;color:#ffffff;he=
+ight: 40px;text-align: center;"><img alt=3D"Colegio de Contadores p&#250;bl=
+icos" src=3D"http://static.mdirector.com/files/campanias/59986/9/3/6/CAM/CC=
+PM_IMCI.jpg" style=3D"color:#ff8203" /></td>
+ <td style=3D"background-color: #ffffff;width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ffffff;text-align: center;"><img alt=3D"As=
+ociaci&#243;n Mexicana de Contadores P&#250;blicos" src=3D"http://static.md=
+irector.com/files/campanias/59986/9/3/6/CAM/AMCP.jpg" style=3D"color:#ff820=
+3" /></td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;height:30px!important;">&nbsp;</td>
+ <td style=3D"background-color: #ffffff;text-align: center;color:#ffffff;he=
+ight: 30px;text-align: center;vertical-align: top;">
+ <h4 style=3D"color: #909090;margin:5px 0px;text-align: center;font-family:=
+ 'Times New Roman', Times, serif">Reg. N&uacute;mero: CCPM-CE187-0817</h4>
+ </td>
+ <td style=3D"background-color: #ffffff;width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ffffff;text-align: center;vertical-align: =
+top;">
+ <h4 style=3D"color: #909090;margin:5px 0px;text-align: center;font-family:=
+ 'Times New Roman', Times, serif">Reg. N&uacute;mero: AMCP/CE/098</h4>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">Viernes</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">08 marzo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">09:00-14:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5c803b65e4=
+cac" href=3D"http://track.mdrctr.com/track/link/key/59986-984-25749-=
+327-3200-529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5c803b65e4dfd" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-984-25750-327-3200-529681/signa=
+ture/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">Decla=
+raci&oacute;n anual 2018 de personas morales </span></a></h2>
+ <a data-linkid=3D"link_5c803b65e4f37" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-984-25751-327-3200-529681/signature/8eff41e817a665533fce235645e39d2d/=
+contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: no=
+ne;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>C.P.C.Luis Guillermo Delgado Pedroza</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $1,850.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $1,090=
+.00 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5c803b65e5092" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-984-25752-327-3200-529681/signat=
+ure/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"tex=
+t-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5c803b65e51c4" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-984-25753-327-3200-529681/signature/=
+8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorati=
+on: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ <td style=3D"background-color: #ff8203;text-align: center;color:#ffffff;he=
+ight: 80px;width: 120px;">
+ <h3 style=3D"color: #ffffff;font-weight:bolder;font-family:arial;padding:0=
+;margin: 2px;">S&aacute;bado</h3>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">09&nbsp;marzo</p>
+
+ <p style=3D"color: #ffffff;font-weight:bold;font-family:arial;padding:0;ma=
+rgin: 2px;">09:00-13:00</p>
+ </td>
+ <td style=3D"background-color: #afafaf;"><a data-linkid=3D"link_5c803b65e5=
+303" href=3D"http://track.mdrctr.com/track/link/key/59986-984-25754-=
+327-3200-529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/=
+9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;" target=3D"_blank">&nbsp;</a>
+ <h2 style=3D"color: #0c4475;padding:0 5px;font-family: arial;margin: 5px 0=
+;font-size:18px;"><a data-linkid=3D"link_5c803b65e545a" href=3D"http://trac=
+k.mdrctr.com/track/link/key/59986-984-25755-327-3200-529681/signa=
+ture/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"te=
+xt-decoration: none;" target=3D"_blank"><span style=3D"color:#0000FF">J&oac=
+ute;venes construyendo el futuro (el A, B, C de la capacitaci&oacute;n subs=
+idiada) </span></a></h2>
+ <a data-linkid=3D"link_5c803b65e559a" href=3D"http://track.mdrctr.com/trac=
+k/link/key/59986-984-25756-327-3200-529681/signature/8eff41e817a665533fce235645e39d2d/=
+contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: no=
+ne;" target=3D"_blank"> </a>
+
+ <p style=3D"color:#0c4475;padding:0 5px;font-family: arial;margin: 5px 0;"=
+>Dr. Juan Rub&eacute;n Luis Santillan Alatriste</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n presencial: $1,500.00 m=
+&aacute;s I.V.A.</p>
+
+ <p style=3D"color:#ffffff;padding:0 5px;font-family: arial;font-size:12px;=
+margin: 5px 0;text-align: center;">Inversi&oacute;n en l&iacute;nea: $990.0=
+0 m&aacute;s I.V.A.</p>
+ </td>
+ <td style=3D"background-color: #0c4475;">
+ <div style=3D"width: 80px;margin: 0 auto">
+ <h1 style=3D"font-family: arial;color:#ffffff;text-align: center;padding:0=
+;margin: 5px 0;"><a data-linkid=3D"link_5c803f04942c0" href=3D"http://track=
+.mdrctr.com/track/link/key/59986-984-25837-327-3200-529681/signat=
+ure/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"tex=
+t-decoration: none;color:#ffffff;" target=3D"_blank">&#9658;</a></h1>
+
+ <p style=3D"font-family: arial;color:#ffffff;text-align: center;font-size:=
+ 8px;"><a data-linkid=3D"link_5c803f04943fc" href=3D"http://track.mdrctr.co=
+m/track/link/key/59986-984-25838-327-3200-529681/signature/=
+8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decorati=
+on: none;color:#ffffff;" target=3D"_blank">VIDEO PRESENTACI&Oacute;N</a></p>
+ </div>
+ </td>
+ <td style=3D"width: 5px;">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">&nbsp;=
+</td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"background-color: #ffffff;height: 10px;">
+ <h4 style=3D"text-align: center;"><span style=3D"font-size:20px"><strong><=
+span style=3D"color:#0000FF">An&aacute;lisis integral de la industria de la=
+ Construcci&oacute;n.&nbsp; M&oacute;dulo I Contribuciones Federales.&nbsp;=
+ M&oacute;dulo II SIROC.&nbsp; 12 y 13 marzo</span></strong></span></h4>
+
+ <h4 style=3D"text-align: center;"><span style=3D"font-size:20px"><strong><=
+span style=3D"color:#0000FF">Inversi&oacute;n total en presencial de <s>$4,=
+650.00</s><br />
+ Inversi&oacute;n total en l&iacute;nea de <s>$2,740.00</s><br />
+ Adquiera la seriaci&oacute;n por $3,350.00 (ahorre $1,300.00)<br />
+ Adquiera la seriaci&oacute;n en l&iacute;nea por $2,050.00 (ahorre $690.00=
+)<br />
+ * Precios m&aacute;s IVA</span></strong></span></h4>
+ </td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" style=3D"text-align: center;"><a data-linkid=3D"link_5c8=
+03b65ebf4d" href=3D"http://track.mdrctr.com/track/link/key/59986-984-25832-=
+327-3200-529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/u=
+serid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;"><img alt=3D"Facebook" =
+src=3D"http://static.mdirector.com/files/campanias/59986/9/3/6/CAM/face.png=
+" /> </a> <a data-linkid=3D"link_5c803b65ec0c5" href=3D"http://track.mdrctr=
+.com/track/link/key/59986-984-25833-327-3200-529681/signature/=
+8eff41e817a665533fce235645e39d2d/contactInfo/Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"margin:0 5=
+px;text-decoration: none;"> <img alt=3D"Twitter" src=3D"http://static.mdire=
+ctor.com/files/campanias/59986/9/3/6/CAM/twitt.png" /> </a> <a data-linkid=
+=3D"link_5c803b65ec235" href=3D"http://track.mdrctr.com/track/link/key/5998=
+6-984-25834-327-3200-529681/signature/8eff41e817a665533fce235645e39d2d/contactInfo/=
+Y29uSWQ9MzIwMH5%2BZW1haWw9cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXh%2BfmVtcElkPTU5OTg2fn5tb3ZpbD0tfn5zdWJJZD05ODR%2BfmVudklkPTUxMH5%2BbGlzdElkPTMyN35%2Bc25hcElkPTUyOTY4MX5%2BbWRQYXJ0cz0xfn5tZEVtYWlsTUQ1PTllMjU4YjI0OTRjZmM2MmIwZTZjZWJhOGEzNzBjNDg0fn5tZEVtYWlsU0hBMjU2PWNhYmMxODc2Y2NlNGRlZmQ1YTM5NjU1ODA1NzcwZTEyYzI1NDMzYmYwNDQ3MGZlMmIzZGI0ZTk3OWFiNDE2ZWN%2BfnJlZ2lzdGVyRGF0ZT0yMDE4LTExLTAxIDIzOjA1OjU2fn5tZERlbGl2ZXJ5RGF0ZT0yMDE5LTAzLTA3IDA5OjAwOjAwfn5jb25fbWQ1PTJjMWNkZjQzZmQ4YjYwNjg1MTUyODJlNzhlNDE4YmJj/userid/9e258b2494cfc62b0e6ceba8a370c484" style=3D"text-decoration: none;"> <img alt=
+=3D"Youtube" src=3D"http://static.mdirector.com/files/campanias/59986/9/3/6=
+/CAM/you.png" /> </a></td>
+ </tr>
+ </tbody>
+</table>
+<table style=3D"max-width:550px;" width=3D"" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" align=3D"center">
+    <tr>
+        <td style=3D"max-width:6px;" height=3D"6">
+            <img src=3D"http://static.mdirector.com/images/email/footer/esq=
+_sup_izq.gif" alt=3D"">
+        </td>
+        <td style=3D"max-width:538px;" bgcolor=3D"#ffffff"></td>
+        <td style=3D"max-width:6px;" height=3D"6">
+            <img src=3D"http://static.mdirector.com/images/email/footer/esq=
+_sup_dcha.gif" alt=3D"">
+        </td>
+    </tr>
+    <tr>
+        <td style=3D"max-width:6px;" bgcolor=3D"#ffffff"></td>
+        <td style=3D"max-width:538px;" bgcolor=3D"#ffffff" valign=3D"top" a=
+lign=3D"justify">
+            <font size=3D"1" color=3D"#8c8c8c" face=3D"Verdana">
+            Para dejar de recibir estas comunicaciones haga clic en
+            <a style=3D"color: #FF8549;" href=3D'http://track.mdrctr.com/tr=
+ack/pre-unsubscribe/category/EMAIL/empId/59986/subId/984/listId/=
+327/conId/3200/signature/8eff41e817a665533fce235645e39d2d/conEmail/raymundo@vpconsultores.com.mx/conMovil/-/sna=
+pId/529681'>baja</a>.
+            </font>
+        </td>
+        <td style=3D"max-width:6px;" bgcolor=3D"#ffffff"></td>
+    </tr>
+    <tr>
+        <td style=3D"max-width:6px;" height=3D"6">
+            <img src=3D"http://static.mdirector.com/images/email/footer/esq=
+_inf_izq.gif" alt=3D"">
+        </td>
+        <td style=3D"max-width:538px;" bgcolor=3D"#ffffff"></td>
+        <td style=3D"max-width:6px;" height=3D"6">
+            <img src=3D"http://static.mdirector.com/images/email/footer/esq=
+_inf_dcha.gif" alt=3D"">
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
+
+--boundaryTagForAlternative--
+
+--boundaryTagForMixed--

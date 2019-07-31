@@ -1,0 +1,1942 @@
+Return-Path: <mbueno@lagoscarrillo.com.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id BIkvEo5V8VwYHjcAFq4nlA
+	(envelope-from <mbueno@lagoscarrillo.com.mx>)
+	for <raymundo@vpconsultores.com.mx>; Fri, 31 May 2019 09:25:50 -0700
+Return-path: <mbueno@lagoscarrillo.com.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Fri, 31 May 2019 09:25:50 -0700
+Received: from mail2.correonegocios.com ([200.57.129.35]:49509 helo=mail6.correonegocios.com)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtp (Exim 4.91)
+	(envelope-from <mbueno@lagoscarrillo.com.mx>)
+	id 1hWkLg-00F9vK-89
+	for raymundo@vpconsultores.com.mx; Fri, 31 May 2019 09:25:50 -0700
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: =?us-ascii?q?A0D/DADNVPFc/xaQOchlHQEBBQEHBQG?=
+ =?us-ascii?q?BZQKBDVgqaVQeEigKjQWKDQGCDBEkAYkMhRKKHYFnBgMBAQEBAQEBAQEDASg?=
+ =?us-ascii?q?JAgEBgQVdgglVAoMDJDgTAQMBAQQBAQIBBG0TCQw+BAEMAYR6AQEBBAUDAhA?=
+ =?us-ascii?q?LAwUBGw0jDQMCCR0BAQEYAQYHAgUQAggFAxANEQIEDgQBCwWDDQQCgR1NAx8?=
+ =?us-ascii?q?DCqlUAoI5MYgFAwpdgTYQNX8BijmBNYFAPyZrgxI+ghouGQQYgQsJARIBHA8?=
+ =?us-ascii?q?CCQgIBQIICIUkBIsuFhSBA4cRQIZ8hGiCQYVjPgmCD4U4gQWJCSFzgm+CIWi?=
+ =?us-ascii?q?GCYNJigyLXYoFjz0hDVpxMxoIMIMnCQosgVwXgQIBAoJIhEqGJyMxAQEBAS5?=
+ =?us-ascii?q?3g2OHIAQLF4ELATFvAQE?=
+Received: from cust-200-57-144-22.triara.com (HELO apcndmf01.triara.com) ([200.57.144.22])
+  by apiron03.correonegocios.com with ESMTP; 31 May 2019 11:25:00 -0500
+Received: from apcndbr01.triara.com (apcndbr01 [172.18.0.105])
+	by apcndmf01.triara.com (Postfix) with ESMTP id A89C41E0519;
+	Fri, 31 May 2019 11:24:54 -0500 (CDT)
+Received: from smtp.exchangeadministrado.com (cust-200-57-145-141.triara.com [200.57.145.141])
+	by apcndbr01.triara.com (Postfix) with ESMTP id 9F1361E049F;
+	Fri, 31 May 2019 11:24:54 -0500 (CDT)
+Received: from Usuario2HP (187.207.235.0) by smtp.exchangeadministrado.com
+ (172.18.31.23) with Microsoft SMTP Server id 14.3.439.0; Fri, 31 May 2019
+ 11:24:54 -0500
+From: Mauricio Bueno <mbueno@lagoscarrillo.com.mx>
+To: 'Castro Victor Enrique' <victorenrique.castro@kone.com>
+CC: =?iso-8859-1?Q?'Mej=EDa_Alejandro'?= <alejandro.mejia@kone.com>, "'Perez
+ Elizabeth'" <elizabeth.perez@kone.com>, =?iso-8859-1?Q?'Mej=EDa_Alejandro'?=
+	<alejandro.mejia@kone.com>, <raymundo@vpconsultores.com.mx>
+References: <AM0PR07MB4595B40F5E4788D04EE21F6FE8B50@AM0PR07MB4595.eurprd07.prod.outlook.com> <AM0PR07MB4595979C7200D52C34DE35E5E88A0@AM0PR07MB4595.eurprd07.prod.outlook.com> <001c01d4a7a6$93e73580$bbb5a080$@lagoscarrillo.com.mx> <AM0PR07MB459574FA46BC29995C78C457E89A0@AM0PR07MB4595.eurprd07.prod.outlook.com>    <001601d4b902$e1da4bc0$a58ee340$@lagoscarrillo.com.mx> <AM0PR07MB45950C8BCE9660C41410F92AE8910@AM0PR07MB4595.eurprd07.prod.outlook.com> <VI1PR07MB46082319E4F6124CDA4B06D5E8660@VI1PR07MB4608.eurprd07.prod.outlook.com> <HE1PR07MB4332DECF9867E8DF9B0E410B9D660@HE1PR07MB4332.eurprd07.prod.outlook.com> <AM0PR07MB4595AEE744FF4EF0235F52D9E87F0@AM0PR07MB4595.eurprd07.prod.outlook.com> <AM0PR07MB459526469E04CD665760BD71E81F0@AM0PR07MB4595.eurprd07.prod.outlook.com> 
+In-Reply-To:
+Subject: RE: FACTURA 1ER PAGO PROYECTO 
+Date: Fri, 31 May 2019 11:24:49 -0500
+Message-ID: <000001d517cd$61c654e0$2552fea0$@lagoscarrillo.com.mx>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0001_01D517A3.78FC33C0"
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: AQFWtfYkLYSbiyUtlZ/+dNNGbsC+TAFc88WeAhXiC98BcLqxYAFAjFq0AjX9HqkCc7MtIgHKu7c9AnJHycQCbLe+6Kb09sfwgAF7ShA=
+Content-Language: es-mx
+X-Originating-IP: [187.207.235.0]
+X-TM-AS-Product-Ver: SMEX-12.5.0.1684-8.5.1010-24648.005
+X-TM-AS-Result: No-31.377000-5.000000-10
+X-TMASE-MatchedRID: vZFhdP8fGRe+AWaOCXs78kNkUF3WMuv+jMlKs/xeBxDq5WuLrU2K3+NA
+	rqqe9g0oyHI9pvh+9W/pKe8PRUlJbMnqObM9LPGyantA16I718tAun7OSia2aA+X4wCCvhGe+7k
+	0oYUmXvgaxaQwSbIEY86ozn+hOG6iU4SdJRTYOfQLKPa2e72qE6rFqcfwh74ZT1UIi7oGmOn9qi
+	Cs+wpuGwXtNMD5iqW3SyfKlWHTm75n86jNK8UwSW73/rDbCRo32LN6oCp1ETbXk6bx1ft1Fzi9t
+	yNMQzDGGJLM1EW7wL3kUlyvCe/ZZ84jBe1wJqkwYGvBk5EPe7BUDDY8+5jQR9WWoxEscdhYaV5K
+	D0hWHqN7IdnFQGkhgVYDZVU87K4iap9LIWUDd3rCWHUW/Jufdjv0aGr/gL+O+VG2SH6BnP8zfUw
+	QmrSc6YJwhkJpn2JDwMBylbMn+A1EwSRePA+6+pVWyUAJNVFchYpt4T19YW2BVpX6ElnLgNNjvV
+	fOnYCYi8QCOHVn/iFp0mW8QhNixvg7Q/k3dGQxqbLwfVsMs1POtI9U59E2giELPypo5LIhHGC0w
+	ctougJxGJGDzEr79Ku2LLh8nhI77OPxBE5jEjIYRbGIjHw9UDnb8O0YN0Q5B5sxzt03wPj+kF/Q
+	Ef4QwIjA+sAfyIsywAcusRBIiOZTXv2BtsjykkLRzVckoVml+yFtULD2DX9JJ41paI7Cr1nibIU
+	if9+wmFnIobppNwjrVITpd9hVj+M9ZsYvas+PXyJCtD3YawlbKQUJutmaR/M8lbxcVfkEDO+DX+
+	rUwfbakgJPd1JHGv6Qx9NtnfMqLQDVPcHz/sQ9pZhL0/X/8NAswyNCu3AMV4ajfR9jj2dheV+cr
+	sE6ISCpqA4pAdCVDTKUQ4YWDEkFVPgq3Yq7k9KMeqFJeWJtIU9pvTmJ6oI=
+X-TM-AS-User-Approved-Sender: No
+X-TM-AS-User-Blocked-Sender: No
+X-TMASE-Result: 10--31.377000-5.000000
+X-TMASE-Version: SMEX-12.5.0.1684-8.5.1010-24648.005
+X-TM-SNTS-SMTP:
+ 42529F78465E63346E63931CF09742DD2D9F07261D70D26C2444C56D074073B82000:8
+X-Spam-Status: No, score=2.9
+X-Spam-Score: 29
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Estimado Sr. Castro: Acabo de hablar con mi contador y tiene
+    una propuesta de solución para este asunto. Agradeceré que usted le llame.
+    Le paso sus datos. Raymundo Vázquez 
+ 
+ Content analysis details:   (2.9 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: outlook.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: outlook.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.6 SUBJ_ALL_CAPS          Subject is all capitals
+  1.3 URI_HEX                URI: URI hostname has long hexadecimal sequence
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+X-Spam-Flag: NO
+
+------=_NextPart_000_0001_01D517A3.78FC33C0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0002_01D517A3.78FC33C0"
+
+------=_NextPart_001_0002_01D517A3.78FC33C0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Estimado Sr. Castro:
+
+=20
+
+Acabo de hablar con mi contador y tiene una propuesta de soluci=F3n para =
+este
+asunto. Agradecer=E9 que usted le llame. Le paso sus datos.=20
+
+=20
+
+=20
+
+Raymundo V=E1zquez
+
+=20
+
+
+
+=20
+
+Melchor Ocampo N=B0 193 Oficina 3D
+
+Col. Ver=F3nica Anzures
+
+Tel. 55 45 71 41=20
+
+=20
+
+=20
+
+Un saludo
+
+=20
+
+Mauricio Bueno
+
+=20
+
+=20
+
+De: Mauricio Bueno [mailto:mbueno@lagoscarrillo.com.mx]=20
+Enviado el: jueves, 30 de mayo de 2019 12:49 p.m.
+Para: 'Castro Victor Enrique' <victorenrique.castro@kone.com>
+CC: 'Mej=EDa Alejandro' <alejandro.mejia@kone.com>; 'Perez Elizabeth'
+<elizabeth.perez@kone.com>; 'Mej=EDa Alejandro' =
+<alejandro.mejia@kone.com>
+Asunto: FACTURA 1ER PAGO PROYECTO=20
+
+=20
+
+Estimado Sr. Castro:
+
+=20
+
+No escuch=E9 sus llamadas. Le acabo de llamar a mi contador que es quien
+supongo tiene acceso a mi buz=F3n tributario.=20
+
+=20
+
+Espero tenerle noticias entre hoy y ma=F1ana.
+
+=20
+
+Para cualquier cosa puede llamarme a mi celular 55-3433-6930 o a los
+tel=E9fonos de mi oficina que aparecen abajo.=20
+
+=20
+
+Saludos
+
+=20
+
+Lic. Mauricio Bueno
+Proyecto Nairobi, A.C.
+Avenida Vasco de Quiroga No.1800-3B (entrada por Guillermo Gonz=E1lez
+Camarena)=20
+Col. Santa Fe
+01210, Ciudad de M=E9xico
+Tel.  (52 55) 5259-5526
+Fax: (52 55) 5259-4761
+mbueno@lagoscarrillo.com.mx <mailto:mbueno@lagoscarrillo.com.mx>=20
+
+  _____ =20
+
+=20
+
+De: Castro Victor Enrique [mailto:victorenrique.castro@kone.com]=20
+Enviado el: mi=E9rcoles, 29 de mayo de 2019 05:09 p.m.
+Para: Mauricio Bueno <mbueno@lagoscarrillo.com.mx
+<mailto:mbueno@lagoscarrillo.com.mx> >
+CC: Mej=EDa Alejandro <alejandro.mejia@kone.com
+<mailto:alejandro.mejia@kone.com> >; Perez Elizabeth
+<elizabeth.perez@kone.com <mailto:elizabeth.perez@kone.com> >; Mej=EDa
+Alejandro <alejandro.mejia@kone.com <mailto:alejandro.mejia@kone.com> >
+Asunto: RE: FACTURA 1ER PAGO PROYECTO=20
+Importancia: Alta
+
+=20
+
+Sr Mauricio
+
+=20
+
+He intentado ponerme en contacto con usted sin embargo no he tenido =
+=E9xito.
+Solo para pedirle de su apoyo con la autorizaci=F3n para proceder con la
+cancelaci=F3n de la factura emitida del proyecto Iglesia de San Jose =
+Maria.
+Deben ingresar a su buz=F3n tributario y aceptar la solicitud que se ha
+enviado para tal fin.
+
+=20
+
+Quedo atento y en espera de su confirmaci=F3n.
+
+=20
+
+Victor Castro Lopez
+
+Executive Collection Specialist MOD & NEB
+Departamento de Finanzas
+ =20
+KONE M=E9xico
+Av. Coyoac=E1n 1622, Edif 1 PB Col del Valle, Del. Benito Ju=E1rez, C.P. =
+03100,
+M=E9xico D.F.
+Tel + 52 55 19460100 Ext. 289            Mobile + 52 1 55 83356638
+
+Email victorenrique.castro@kone.com =
+<mailto:victorenrique.castro@kone.com>=20
+
+www.kone.mx
+<https://smex12-5-en-ctp.trendmicro.com:443/wis/clicktime/v1/query?url=3D=
+http%
+3a%2f%2fwww.kone.mx&umid=3De8da04c6-c897-4dc6-a5da-608f5b059bc7&auth=3Db5=
+046534a
+b628b60fa12a4fc582b2c84c628335c-d6008e9cbd521020e145ed823598b339a0c0cbab>=
+=20
+
+=20
+
+
+
+Por favor considera el medio ambiente antes de imprimir.
+
+
+The information contained in this message or files attached to it are
+intended for the exclusive use of the addressee and may contain =
+confidential
+or legally privileged information. If you are not the intended =
+recipient,
+please note that the use, copying, any form of dissemination and any =
+other
+corresponding action in respect of this communication is strictly
+prohibited. If you received this message in error, please delete the =
+message
+and notify the sender immediately. Thank you.  Please note that we take
+reasonable precautions to prevent the transmission of viruses; however, =
+we
+cannot guarantee that this message or its attachments are free from =
+viruses.
+We only send and receive emails on the basis that we shall not be liable =
+for
+any loss or damage resulting from the opening of this message and/or
+attachments.
+
+=20
+
+Please consider the environment before printing this email.
+
+=20
+
+De: Castro Victor Enrique=20
+Enviado el: viernes, 22 de febrero de 2019 12:45 p.m.
+Para: 'Mauricio Bueno' <mbueno@lagoscarrillo.com.mx
+<mailto:mbueno@lagoscarrillo.com.mx> >
+CC: Sinta Gerardo <gerardo.sinta@kone.com =
+<mailto:gerardo.sinta@kone.com> >
+Asunto: RV: FACTURA 1ER PAGO PROYECTO=20
+Importancia: Alta
+
+=20
+
+Sr Mauricio
+
+Buenas tardes espero se encuentre bien y por otra parte tengo entendido =
+que
+mi compa=F1ero Gerardo Sinta ya se puso en contacto para darle =
+seguimiento con
+el tema que tenia pendiente. Habra tenido oportunidad de revisarlo y =
+retomar
+el tema del pago?
+
+=20
+
+Cualquier duda quedo atento
+
+=20
+
+=20
+
+Victor Castro Lopez
+
+Executive Collection Specialist MOD & NEB
+Departamento de Finanzas
+ =20
+KONE M=E9xico
+Av. Coyoac=E1n 1622, Edif 1 PB Col del Valle, Del. Benito Ju=E1rez, C.P. =
+03100,
+M=E9xico D.F.
+Tel + 52 55 19460100 Ext. 289            Mobile + 52 1 55 83356638
+
+Email victorenrique.castro@kone.com =
+<mailto:victorenrique.castro@kone.com>=20
+
+www.kone.mx
+<https://smex12-5-en-ctp.trendmicro.com:443/wis/clicktime/v1/query?url=3D=
+http%
+3a%2f%2fwww.kone.mx&umid=3De8da04c6-c897-4dc6-a5da-608f5b059bc7&auth=3Db5=
+046534a
+b628b60fa12a4fc582b2c84c628335c-d6008e9cbd521020e145ed823598b339a0c0cbab>=
+=20
+
+=20
+
+
+
+Por favor considera el medio ambiente antes de imprimir.
+
+
+The information contained in this message or files attached to it are
+intended for the exclusive use of the addressee and may contain =
+confidential
+or legally privileged information. If you are not the intended =
+recipient,
+please note that the use, copying, any form of dissemination and any =
+other
+corresponding action in respect of this communication is strictly
+prohibited. If you received this message in error, please delete the =
+message
+and notify the sender immediately. Thank you.  Please note that we take
+reasonable precautions to prevent the transmission of viruses; however, =
+we
+cannot guarantee that this message or its attachments are free from =
+viruses.
+We only send and receive emails on the basis that we shall not be liable =
+for
+any loss or damage resulting from the opening of this message and/or
+attachments.
+
+=20
+
+Please consider the environment before printing this email.
+
+=20
+
+=20
+
+=20
+
+De: Sinta Gerardo=20
+Enviado el: mi=E9rcoles, 13 de febrero de 2019 04:14 p.m.
+Para: Castro Victor Enrique <victorenrique.castro@kone.com
+<mailto:victorenrique.castro@kone.com> >
+Asunto: RE: FACTURA 1ER PAGO PROYECTO=20
+
+=20
+
+Victor, buena tarde, el cliente nos solicit=F3 presupuesto de obra civil =
+y el
+lunes pr=F3ximo pasado se efectu=F3 el levantamiento de este concepto en =
+obra,
+hoy estoy enviando al cliente la cotizaci=F3n correspondiente y =
+despu=E9s el
+seguimiento para saber si =E9l hace los trabajos o nosotros, de ser =
+as=ED,
+har=EDamos un adendum al contrato agregando la obra civil, te informo =
+como
+procedemos m=E1s adelante.
+
+=20
+
+Cordial Saludo
+
+=20
+
+Ing. Gerardo Sinta
+
+Asesor Comercial
+
+Modernizaciones
+ =20
+KONE M=E9xico
+Av. Coyoac=E1n 1622 Edif. 1 PB
+
+Del Valle, Benito Juarez.
+
+CDMX, M=E9xico, CP 03100
+
+Tel. +520155.1946.0100=20
+M=F3vil 55.4810.3384=20
+
+E:mail- gerardo.sinta@kone.com <mailto:gerardo.sinta@kone.com> =20
+
+=20
+<https://emea01.safelinks.protection.outlook.com/?url=3Dhttp%3A%2F%2Fwww.=
+kone.
+mx%2F&data=3D02%7C01%7Cvictorenrique.castro%40kone.com%7Cf5116c671b4f499e=
+8c720
+8d692009e4a%7C2bb82c642eb143f78862fdc1d2333b50%7C0%7C0%7C6368569286934760=
+92&
+sdata=3Di0pRIoJJLaBPFV1WuAmfD%2B8mH2%2BmdGTNyZG9TjKc5tk%3D&reserved=3D0>
+www.kone.mx
+
+=20
+
+
+
+=20
+
+De: Castro Victor Enrique=20
+Enviado el: mi=E9rcoles, 13 de febrero de 2019 16:10
+Para: Sinta Gerardo <gerardo.sinta@kone.com =
+<mailto:gerardo.sinta@kone.com>
+>
+CC: Rodriguez Ana <Ana.Rodriguez@KONE.com =
+<mailto:Ana.Rodriguez@KONE.com> >;
+Mej=EDa Alejandro <alejandro.mejia@kone.com =
+<mailto:alejandro.mejia@kone.com>
+>
+Asunto: RV: FACTURA 1ER PAGO PROYECTO=20
+Importancia: Alta
+
+=20
+
+Gerardo
+
+Buena tarde
+
+=20
+
+Me podrias apoyar con este tema, ya tenemos respuesta del cliente? =
+proyecto
+Iglesia de San Jose Maria
+
+=20
+
+De: Castro Victor Enrique=20
+Enviado el: mi=E9rcoles, 30 de enero de 2019 07:28 p.m.
+Para: 'Mauricio Bueno' <mbueno@lagoscarrillo.com.mx
+<mailto:mbueno@lagoscarrillo.com.mx> >
+Asunto: RE: FACTURA 1ER PAGO PROYECTO=20
+
+=20
+
+Sr Mauricio
+
+=20
+
+D=EDgame por favor que fue lo que quedo pendiente y ma=F1ana mismo lo =
+reviso con
+Alejandro para apoyarlo en resolverlo
+
+=20
+
+=20
+
+=20
+
+De: Mauricio Bueno [mailto:mbueno@lagoscarrillo.com.mx]=20
+Enviado el: mi=E9rcoles, 30 de enero de 2019 07:18 p.m.
+Para: Mej=EDa Alejandro <alejandro.mejia@kone.com
+<mailto:alejandro.mejia@kone.com> >
+CC: 'Jos=E9 Ram=F3n Lain=E9' <laine.joseramon@gmail.com
+<mailto:laine.joseramon@gmail.com> >; Castro Victor Enrique
+<victorenrique.castro@kone.com <mailto:victorenrique.castro@kone.com> >
+Asunto: RV: FACTURA 1ER PAGO PROYECTO=20
+
+=20
+
+Hola Alejandro:
+
+=20
+
+=BFNos puedes apoyar para agilizar nuestro asunto?.=20
+
+=20
+
+Me estoy enterando que Emmanuel Castro ya no trabaja con ustedes.
+
+=20
+
+Gracias
+
+=20
+
+Mauricio Bueno
+
+=20
+
+De: Mauricio Bueno [mailto:mbueno@lagoscarrillo.com.mx]=20
+Enviado el: mi=E9rcoles, 30 de enero de 2019 07:10 p.m.
+Para: 'Castro Emmanuel' <emmanuel.castro@kone.com
+<mailto:emmanuel.castro@kone.com> >
+CC: 'Castro Victor Enrique' <victorenrique.castro@kone.com
+<mailto:victorenrique.castro@kone.com> >; 'Jos=E9 Ram=F3n Lain=E9'
+<laine.joseramon@gmail.com <mailto:laine.joseramon@gmail.com> >
+Asunto: RE: FACTURA 1ER PAGO PROYECTO=20
+
+=20
+
+Hola Emmanuel:
+
+=20
+
+Est=E1 pasando mucho tiempo sin que avancemos. =BFNos puedes apoyar?=20
+
+=20
+
+Muchas gracias!
+
+=20
+
+Mauricio=20
+
+=20
+
+De: Mauricio Bueno [mailto:mbueno@lagoscarrillo.com.mx]=20
+Enviado el: lunes, 28 de enero de 2019 06:43 p.m.
+Para: 'Castro Emmanuel' <emmanuel.castro@kone.com
+<mailto:emmanuel.castro@kone.com> >
+CC: 'Castro Victor Enrique' <victorenrique.castro@kone.com
+<mailto:victorenrique.castro@kone.com> >; 'Jos=E9 Ram=F3n Lain=E9'
+<laine.joseramon@gmail.com <mailto:laine.joseramon@gmail.com> >
+Asunto: RE: FACTURA 1ER PAGO PROYECTO=20
+
+=20
+
+Emmanuel, =BFalg=FAn avance con lo que te ped=ED?
+
+=20
+
+Saludos
+
+=20
+
+Mauricio
+
+=20
+
+De: Mauricio Bueno [mailto:mbueno@lagoscarrillo.com.mx]=20
+Enviado el: jueves, 24 de enero de 2019 05:37 p.m.
+Para: 'Castro Victor Enrique' <victorenrique.castro@kone.com
+<mailto:victorenrique.castro@kone.com> >; 'Jos=E9 Ram=F3n Lain=E9'
+<laine.joseramon@gmail.com <mailto:laine.joseramon@gmail.com> >
+CC: 'Castro Emmanuel' <emmanuel.castro@kone.com
+<mailto:emmanuel.castro@kone.com> >
+Asunto: RE: FACTURA 1ER PAGO PROYECTO=20
+
+=20
+
+Hola Victor:
+
+=20
+
+Todav=EDa tenemos un punto pendiente de aclarar. Emmanuel Castro tiene
+pendiente resolvernos cu=E1nto costar=EDa un arreglo en el cubo que el =
+considera
+est=E1 a cargo de nosotros conforme al contrato.=20
+
+=20
+
+Saludos
+
+=20
+
+MB  =20
+
+=20
+
+De: Castro Victor Enrique [mailto:victorenrique.castro@kone.com]=20
+Enviado el: jueves, 24 de enero de 2019 05:34 p.m.
+Para: Mauricio Bueno <mbueno@lagoscarrillo.com.mx
+<mailto:mbueno@lagoscarrillo.com.mx> >; 'Jos=E9 Ram=F3n Lain=E9'
+<laine.joseramon@gmail.com <mailto:laine.joseramon@gmail.com> >
+CC: Castro Emmanuel <emmanuel.castro@kone.com
+<mailto:emmanuel.castro@kone.com> >
+Asunto: RE: FACTURA 1ER PAGO PROYECTO=20
+Importancia: Alta
+
+=20
+
+Lic Mauricio
+
+Buenas tardes
+
+=20
+
+Me confirman que ya fueron entregados los documentos que estaban =
+pendientes
+para que nos apoye con el pago correspondiente y podamos iniciar con la
+fabricaci=F3n. Quedo a sus ordenes.
+
+=20
+
+De: Mauricio Bueno [mailto:mbueno@lagoscarrillo.com.mx]=20
+Enviado el: martes, 08 de enero de 2019 05:05 p.m.
+Para: Castro Victor Enrique <victorenrique.castro@kone.com
+<mailto:victorenrique.castro@kone.com> >
+CC: Castro Emmanuel <emmanuel.castro@kone.com
+<mailto:emmanuel.castro@kone.com> >; 'Jos=E9 Ram=F3n Lain=E9'
+<laine.joseramon@gmail.com>
+Asunto: FACTURA 1ER PAGO PROYECTO=20
+
+=20
+
+Que tal Victor:
+
+=20
+
+Como te coment=E9 en mi correo del 26 de diciembre antes de proceder con =
+el
+pago tenemos que intercambiar contratos firmados y resolver lo de la =
+gu=EDa
+mec=E1nica y carta de acabados.=20
+
+=20
+
+Saludos
+
+=20
+
+Mauricio
+
+=20
+
+=20
+
+De: Castro Victor Enrique [mailto:victorenrique.castro@kone.com]=20
+Enviado el: martes, 08 de enero de 2019 03:52 p.m.
+Para: mbueno@lagoscarrillo.com.mx <mailto:mbueno@lagoscarrillo.com.mx> ;
+laine.joseramon@gmail.com <mailto:laine.joseramon@gmail.com>=20
+Asunto: RV: FACTURA 1ER PAGO PROYECTO=20
+Importancia: Alta
+
+=20
+
+Buenas tardes
+
+=20
+
+Dando seguimiento al tema podr=EDa apoyarnos con el pago de la factura =
+en
+menci=F3n y con el podamos confirmar el pedido a fabrica?. Quedo atento
+
+=20
+
+De: Castro Victor Enrique=20
+Enviado el: mi=E9rcoles, 26 de diciembre de 2018 11:10 a.m.
+Para: 'mbueno@lagoscarrillo.com.mx' <mbueno@lagoscarrillo.com.mx
+<mailto:mbueno@lagoscarrillo.com.mx> >
+CC: Castro Emmanuel <emmanuel.castro@kone.com
+<mailto:emmanuel.castro@kone.com> >; Mej=EDa Alejandro
+<alejandro.mejia@kone.com <mailto:alejandro.mejia@kone.com> >
+Asunto: FACTURA 1ER PAGO PROYECTO=20
+Importancia: Alta
+
+=20
+
+Buen d=EDa
+
+=20
+
+Por este medio env=EDo factura correspondiente al 1er pago en relaci=F3n =
+al
+proyecto Iglesia de San Jose Maria, favor de apoyarnos con el pago
+correspondiente y podamos dar confirmaci=F3n del pedido a la f=E1brica.
+Cualquier duda quedo a sus =F3rdenes.
+
+=20
+
+Victor Castro Lopez
+
+Executive Collection Specialist MOD & NEB
+Departamento de Finanzas
+ =20
+KONE M=E9xico
+Av. Coyoac=E1n 1622, Edif 1 PB Col del Valle, Del. Benito Ju=E1rez, C.P. =
+03100,
+M=E9xico D.F.
+Tel + 52 55 19460100 Ext. 289            Mobile + 52 1 55 83356638
+
+Email victorenrique.castro@kone.com =
+<mailto:victorenrique.castro@kone.com>=20
+
+www.kone.mx
+
+=20
+
+
+
+Por favor considera el medio ambiente antes de imprimir.
+
+
+The information contained in this message or files attached to it are
+intended for the exclusive use of the addressee and may contain =
+confidential
+or legally privileged information. If you are not the intended =
+recipient,
+please note that the use, copying, any form of dissemination and any =
+other
+corresponding action in respect of this communication is strictly
+prohibited. If you received this message in error, please delete the =
+message
+and notify the sender immediately. Thank you.  Please note that we take
+reasonable precautions to prevent the transmission of viruses; however, =
+we
+cannot guarantee that this message or its attachments are free from =
+viruses.
+We only send and receive emails on the basis that we shall not be liable =
+for
+any loss or damage resulting from the opening of this message and/or
+attachments.
+
+=20
+
+Please consider the environment before printing this email.
+
+=20
+
+
+------=_NextPart_001_0002_01D517A3.78FC33C0
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Diso-8859-1">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta name=3DGenerator =
+content=3D"Microsoft Word 15 (filtered medium)"><!--[if =
+!mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Arial Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;}
+@font-face
+	{font-family:"Comic Sans MS";
+	panose-1:3 15 7 2 3 3 2 2 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EstiloCorreo18
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EstiloCorreo19
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EstiloCorreo20
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;
+	vertical-align:baseline;}
+span.EstiloCorreo21
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EstiloCorreo22
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;
+	vertical-align:baseline;}
+span.EstiloCorreo23
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;
+	vertical-align:baseline;}
+span.EstiloCorreo24
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;
+	vertical-align:baseline;}
+span.EstiloCorreo25
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;
+	vertical-align:baseline;}
+span.EstiloCorreo26
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EstiloCorreo27
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EstiloCorreo28
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EstiloCorreo29
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EstiloCorreo30
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EstiloCorreo31
+	{mso-style-type:personal;
+	font-family:"Arial",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;
+	vertical-align:baseline;}
+span.EstiloCorreo32
+	{mso-style-type:personal-reply;
+	font-family:"Arial",sans-serif;
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;
+	vertical-align:baseline;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DES-MX =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Estim=
+ado Sr. Castro:<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'><o:p>=
+&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Acabo=
+ de hablar con mi contador y tiene una propuesta de soluci=F3n para este =
+asunto. Agradecer=E9 que usted le llame. Le paso sus datos. =
+<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'><o:p>=
+&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Comic Sans =
+MS";color:#003399'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Comic =
+Sans MS";color:#003399'>Raymundo V=E1zquez<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-family:"Comic Sans =
+MS";color:#003399'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-family:"Comic Sans =
+MS";color:#003399'><img width=3D144 height=3D37 id=3D"_x0000_i1030" =
+src=3D"cid:image003.png@01D517A3.75568450" =
+alt=3D"cid:image003.png@01D0A920.92994430"><o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-family:"Comic Sans =
+MS";color:#003399'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Comic =
+Sans MS";color:#003399'>Melchor Ocampo N=B0 193 Oficina =
+3D<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Comic Sans =
+MS";color:#003399'>Col. Ver=F3nica Anzures<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Comic =
+Sans MS";color:#003399'>Tel. 55 45 71 41</span><span =
+style=3D'font-size:10.0pt;color:#17365D'> <o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'><o:p>=
+&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Un =
+saludo<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'><o:p>=
+&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Mauri=
+cio Bueno<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'><o:p>=
+&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'><o:p>=
+&nbsp;</o:p></span></p><div><div style=3D'border:none;border-top:solid =
+#E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal><b><span =
+lang=3DES>De:</span></b><span lang=3DES> Mauricio Bueno =
+[mailto:mbueno@lagoscarrillo.com.mx] <br><b>Enviado el:</b> jueves, 30 =
+de mayo de 2019 12:49 p.m.<br><b>Para:</b> 'Castro Victor Enrique' =
+&lt;victorenrique.castro@kone.com&gt;<br><b>CC:</b> 'Mej=EDa Alejandro' =
+&lt;alejandro.mejia@kone.com&gt;; 'Perez Elizabeth' =
+&lt;elizabeth.perez@kone.com&gt;; 'Mej=EDa Alejandro' =
+&lt;alejandro.mejia@kone.com&gt;<br><b>Asunto:</b> FACTURA 1ER PAGO =
+PROYECTO <o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Estim=
+ado Sr. Castro:<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'><o:p>=
+&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>No =
+escuch=E9 sus llamadas. Le acabo de llamar a mi contador que es quien =
+supongo tiene acceso a mi buz=F3n tributario. <o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'><o:p>=
+&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Esper=
+o tenerle noticias entre hoy y ma=F1ana.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'><o:p>=
+&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Para =
+cualquier cosa puede llamarme a mi celular 55-3433-6930 o a los =
+tel=E9fonos de mi oficina que aparecen abajo. <o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'><o:p>=
+&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Salud=
+os<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'><o:p>=
+&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span =
+style=3D'font-family:"Arial",sans-serif'>Lic. Mauricio =
+Bueno</span><br><b><span =
+style=3D'font-family:"Arial",sans-serif'>Proyecto Nairobi, =
+A.C.</span></b><span =
+style=3D'font-family:"Arial",sans-serif'><br>Avenida Vasco de Quiroga =
+No.1800-3B (entrada por Guillermo Gonz=E1lez Camarena) <br>Col. Santa =
+Fe<br>01210, Ciudad de M=E9xico<br>Tel. &nbsp;(52 55) 5259-5526<br>Fax: =
+(52 55) 5259-4761<br><a =
+href=3D"mailto:mbueno@lagoscarrillo.com.mx">mbueno@lagoscarrillo.com.mx</=
+a></span><span style=3D'font-family:"Times New =
+Roman",serif'><o:p></o:p></span></p><div class=3DMsoNormal =
+align=3Dcenter style=3D'text-align:center'><hr size=3D2 width=3D"100%" =
+align=3Dcenter></div><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'><o:p>=
+&nbsp;</o:p></span></p><div><div style=3D'border:none;border-top:solid =
+#E1E1E1 1.0pt;padding:3.0pt 0cm 0cm 0cm'><p class=3DMsoNormal><b><span =
+lang=3DES>De:</span></b><span lang=3DES> Castro Victor Enrique [<a =
+href=3D"mailto:victorenrique.castro@kone.com">mailto:victorenrique.castro=
+@kone.com</a>] <br><b>Enviado el:</b> mi=E9rcoles, 29 de mayo de 2019 =
+05:09 p.m.<br><b>Para:</b> Mauricio Bueno &lt;<a =
+href=3D"mailto:mbueno@lagoscarrillo.com.mx">mbueno@lagoscarrillo.com.mx</=
+a>&gt;<br><b>CC:</b> Mej=EDa Alejandro &lt;<a =
+href=3D"mailto:alejandro.mejia@kone.com">alejandro.mejia@kone.com</a>&gt;=
+; Perez Elizabeth &lt;<a =
+href=3D"mailto:elizabeth.perez@kone.com">elizabeth.perez@kone.com</a>&gt;=
+; Mej=EDa Alejandro &lt;<a =
+href=3D"mailto:alejandro.mejia@kone.com">alejandro.mejia@kone.com</a>&gt;=
+<br><b>Asunto:</b> RE: FACTURA 1ER PAGO PROYECTO <br><b>Importancia:</b> =
+Alta<o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><span =
+lang=3DES>Sr Mauricio<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>He intentado ponerme en contacto con usted sin embargo no he =
+tenido =E9xito. Solo para pedirle de su apoyo con la autorizaci=F3n para =
+proceder con la cancelaci=F3n de la factura emitida del proyecto =
+<b>Iglesia de San Jose Maria. </b>Deben ingresar a su buz=F3n tributario =
+y aceptar la solicitud que se ha enviado para tal =
+fin.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>Quedo atento y en espera de su =
+confirmaci=F3n.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>Victor Castro Lopez</span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>Executive Collection Specialist MOD &amp; =
+NEB</span><b><span lang=3DES style=3D'font-size:9.0pt;font-family:"Times =
+New =
+Roman",serif;color:#7F7F7F;mso-fareast-language:FI;layout-grid-mode:line'=
+><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>Departamento&nbsp;de Finanzas</span><b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Times New =
+Roman",serif;color:#7F7F7F;mso-fareast-language:FI;layout-grid-mode:line'=
+><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>&nbsp; </span><b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Times New =
+Roman",serif;color:#7F7F7F;mso-fareast-language:FI;layout-grid-mode:line'=
+><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:gray'>KONE =
+M=E9xico</span><b><span lang=3DES =
+style=3D'font-size:9.0pt'><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:gray'>Av. =
+Coyoac=E1n 1622, Edif 1 PB Col del Valle, Del. Benito Ju=E1rez, C.P. =
+03100, M=E9xico D.F.</span><b><span lang=3DES =
+style=3D'font-size:9.0pt'><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:gray'>Tel =
++ 52 55 19460100 Ext. 289</span><b><span lang=3DES =
+style=3D'font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp; </span></b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:gray'>Mobil=
+e&nbsp;+ 52 1 55 83356638</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormalCxSpMiddle =
+style=3D'mso-margin-bottom-alt:auto;mso-add-space:auto'><span lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>Email <a =
+href=3D"mailto:victorenrique.castro@kone.com">victorenrique.castro@kone.c=
+om</a></span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormalCxSpMiddle =
+style=3D'mso-margin-bottom-alt:auto;mso-add-space:auto'><u><span =
+lang=3DFR =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'><a =
+href=3D"https://smex12-5-en-ctp.trendmicro.com:443/wis/clicktime/v1/query=
+?url=3Dhttp%3a%2f%2fwww.kone.mx&amp;umid=3De8da04c6-c897-4dc6-a5da-608f5b=
+059bc7&amp;auth=3Db5046534ab628b60fa12a4fc582b2c84c628335c-d6008e9cbd5210=
+20e145ed823598b339a0c0cbab">www.kone.mx</a></span></u><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DFR =
+style=3D'font-size:8.0pt;font-family:"Arial",sans-serif;color:#7F7F7F;mso=
+-fareast-language:FI;layout-grid-mode:line'>&nbsp;</span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES><img border=3D0 width=3D200 height=3D29 id=3D"_x0000_i1026" =
+src=3D"cid:image004.png@01D517A3.75568450" =
+alt=3D"cid:image001.png@01D3E204.1D3F4A70"><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DES =
+style=3D'font-size:8.0pt;font-family:"Arial =
+Narrow",sans-serif;color:green;mso-fareast-language:FI;layout-grid-mode:l=
+ine'>Por favor considera el medio ambiente antes de =
+imprimir.</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><i><span lang=3DES =
+style=3D'font-size:8.0pt;font-family:"Times New =
+Roman",serif;mso-fareast-language:FI;layout-grid-mode:line'><br></span></=
+i><span lang=3DEN-AU style=3D'font-size:8.0pt;font-family:"Arial =
+Narrow",sans-serif;color:silver;mso-fareast-language:FI;layout-grid-mode:=
+line'>The information contained in this message&nbsp;or files attached =
+to it&nbsp;are intended for the exclusive use of the addressee and may =
+contain confidential or&nbsp;legally privileged information. If you are =
+not the intended recipient,&nbsp;please note that&nbsp;the use, copying, =
+any form of dissemination and any other corresponding action in respect =
+of this communication is strictly prohibited. If you received this =
+message in error, please delete the message and notify the sender =
+immediately. Thank you. &nbsp;Please note that we take reasonable =
+precautions to prevent the transmission of viruses; however, we cannot =
+guarantee that this&nbsp;message or its attachments are free from =
+viruses. We only send and receive emails on the basis that we&nbsp;shall =
+not be liable for any loss or damage resulting from the opening of this =
+message and/or attachments.</span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-AU =
+style=3D'font-size:8.0pt;font-family:"Arial =
+Narrow",sans-serif;color:silver;mso-fareast-language:FI;layout-grid-mode:=
+line'>&nbsp;</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-AU =
+style=3D'font-size:7.5pt;font-family:"Arial =
+Narrow",sans-serif;color:silver;mso-fareast-language:FI;layout-grid-mode:=
+line'>Please consider the environment before printing this =
+email.</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>&nbsp;</span><span =
+lang=3DES><o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES>De:</span></b><span =
+lang=3DES> Castro Victor Enrique <br><b>Enviado el:</b> viernes, 22 de =
+febrero de 2019 12:45 p.m.<br><b>Para:</b> 'Mauricio Bueno' &lt;<a =
+href=3D"mailto:mbueno@lagoscarrillo.com.mx">mbueno@lagoscarrillo.com.mx</=
+a>&gt;<br><b>CC:</b> Sinta Gerardo &lt;<a =
+href=3D"mailto:gerardo.sinta@kone.com">gerardo.sinta@kone.com</a>&gt;<br>=
+<b>Asunto:</b> RV: FACTURA 1ER PAGO PROYECTO <br><b>Importancia:</b> =
+Alta<o:p></o:p></span></p></div></div><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>Sr Mauricio<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>Buenas tardes espero se encuentre bien y por otra parte tengo =
+entendido que mi compa=F1ero Gerardo Sinta ya se puso en contacto para =
+darle seguimiento con el tema que tenia pendiente. Habra tenido =
+oportunidad de revisarlo y retomar el tema del =
+pago?<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>Cualquier duda quedo atento<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DES>&nbsp;<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DES>&nbsp;<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>Victor Castro Lopez</span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>Executive Collection Specialist MOD &amp; =
+NEB</span><b><span lang=3DES style=3D'font-size:9.0pt;font-family:"Times =
+New =
+Roman",serif;color:#7F7F7F;mso-fareast-language:FI;layout-grid-mode:line'=
+><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>Departamento&nbsp;de Finanzas</span><b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Times New =
+Roman",serif;color:#7F7F7F;mso-fareast-language:FI;layout-grid-mode:line'=
+><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>&nbsp; </span><b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Times New =
+Roman",serif;color:#7F7F7F;mso-fareast-language:FI;layout-grid-mode:line'=
+><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:gray'>KONE =
+M=E9xico</span><b><span lang=3DES =
+style=3D'font-size:9.0pt'><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:gray'>Av. =
+Coyoac=E1n 1622, Edif 1 PB Col del Valle, Del. Benito Ju=E1rez, C.P. =
+03100, M=E9xico D.F.</span><b><span lang=3DES =
+style=3D'font-size:9.0pt'><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:gray'>Tel =
++ 52 55 19460100 Ext. 289</span><b><span lang=3DES =
+style=3D'font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp; </span></b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:gray'>Mobil=
+e&nbsp;+ 52 1 55 83356638</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormalCxSpMiddle =
+style=3D'mso-margin-bottom-alt:auto;mso-add-space:auto'><span lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>Email <a =
+href=3D"mailto:victorenrique.castro@kone.com">victorenrique.castro@kone.c=
+om</a></span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormalCxSpMiddle =
+style=3D'mso-margin-bottom-alt:auto;mso-add-space:auto'><u><span =
+lang=3DFR =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'><a =
+href=3D"https://smex12-5-en-ctp.trendmicro.com:443/wis/clicktime/v1/query=
+?url=3Dhttp%3a%2f%2fwww.kone.mx&amp;umid=3De8da04c6-c897-4dc6-a5da-608f5b=
+059bc7&amp;auth=3Db5046534ab628b60fa12a4fc582b2c84c628335c-d6008e9cbd5210=
+20e145ed823598b339a0c0cbab">www.kone.mx</a></span></u><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DFR =
+style=3D'font-size:8.0pt;font-family:"Arial",sans-serif;color:#7F7F7F;mso=
+-fareast-language:FI;layout-grid-mode:line'>&nbsp;</span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES><img border=3D0 width=3D200 height=3D29 id=3D"_x0000_i1027" =
+src=3D"cid:image004.png@01D517A3.75568450" =
+alt=3D"cid:image001.png@01D3E204.1D3F4A70"><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DES =
+style=3D'font-size:8.0pt;font-family:"Arial =
+Narrow",sans-serif;color:green;mso-fareast-language:FI;layout-grid-mode:l=
+ine'>Por favor considera el medio ambiente antes de =
+imprimir.</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><i><span lang=3DES =
+style=3D'font-size:8.0pt;font-family:"Times New =
+Roman",serif;mso-fareast-language:FI;layout-grid-mode:line'><br></span></=
+i><span lang=3DEN-AU style=3D'font-size:8.0pt;font-family:"Arial =
+Narrow",sans-serif;color:silver;mso-fareast-language:FI;layout-grid-mode:=
+line'>The information contained in this message&nbsp;or files attached =
+to it&nbsp;are intended for the exclusive use of the addressee and may =
+contain confidential or&nbsp;legally privileged information. If you are =
+not the intended recipient,&nbsp;please note that&nbsp;the use, copying, =
+any form of dissemination and any other corresponding action in respect =
+of this communication is strictly prohibited. If you received this =
+message in error, please delete the message and notify the sender =
+immediately. Thank you. &nbsp;Please note that we take reasonable =
+precautions to prevent the transmission of viruses; however, we cannot =
+guarantee that this&nbsp;message or its attachments are free from =
+viruses. We only send and receive emails on the basis that we&nbsp;shall =
+not be liable for any loss or damage resulting from the opening of this =
+message and/or attachments.</span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-AU =
+style=3D'font-size:8.0pt;font-family:"Arial =
+Narrow",sans-serif;color:silver;mso-fareast-language:FI;layout-grid-mode:=
+line'>&nbsp;</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-AU =
+style=3D'font-size:7.5pt;font-family:"Arial =
+Narrow",sans-serif;color:silver;mso-fareast-language:FI;layout-grid-mode:=
+line'>Please consider the environment before printing this =
+email.</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>&nbsp;</span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-US>&nbsp;</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>&nbsp;</span><span =
+lang=3DES><o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES>De:</span></b><span =
+lang=3DES> Sinta Gerardo <br><b>Enviado el:</b> mi=E9rcoles, 13 de =
+febrero de 2019 04:14 p.m.<br><b>Para:</b> Castro Victor Enrique &lt;<a =
+href=3D"mailto:victorenrique.castro@kone.com">victorenrique.castro@kone.c=
+om</a>&gt;<br><b>Asunto:</b> RE: FACTURA 1ER PAGO PROYECTO =
+<o:p></o:p></span></p></div></div><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>Victor, buena tarde, el cliente nos solicit=F3 presupuesto de =
+obra civil y el lunes pr=F3ximo pasado se efectu=F3 el levantamiento de =
+este concepto en obra, hoy estoy enviando al cliente la cotizaci=F3n =
+correspondiente y despu=E9s el seguimiento para saber si =E9l hace los =
+trabajos o nosotros, de ser as=ED, har=EDamos un adendum al contrato =
+agregando la obra civil, te informo como procedemos m=E1s =
+adelante.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><div><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt'>Cordial Saludo</span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><b><span =
+style=3D'font-size:8.0pt;font-family:"Arial",sans-serif;color:#404040'>&n=
+bsp;</span></b><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><b><span style=3D'font-size:10.0pt;color:#404040'>Ing. =
+Gerardo Sinta</span></b><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:10.0pt;color:gray'>Asesor =
+Comercial</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;color:gray'>Modernizaciones<b><br></b>&nbsp; =
+<b><br></b>KONE&nbsp;M=E9xico<b><br></b>Av. </span><span lang=3DIT =
+style=3D'font-size:10.0pt;color:gray'>Coyoac=E1n 1622 Edif. 1 =
+PB</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DIT =
+style=3D'font-size:10.0pt;color:gray'>Del Valle, Benito =
+Juarez.</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt'><span =
+style=3D'font-size:10.0pt;color:gray'>CDMX, M=E9xico, =
+CP&nbsp;03100</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'margin-bottom:12.0pt'><span =
+style=3D'font-size:10.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gr=
+id-mode:line'>Tel. +520155.1946.0100</span><span =
+style=3D'font-size:10.0pt;color:gray'>&nbsp;<b><br></b>M=F3vil&nbsp;55.48=
+10.3384 </span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DIT =
+style=3D'font-size:10.0pt;color:gray'>E:mail- <u><a =
+href=3D"mailto:gerardo.sinta@kone.com">gerardo.sinta@kone.com</a></u> =
+</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DEN-AU style=3D'font-size:10.0pt;color:gray'><a =
+href=3D"https://emea01.safelinks.protection.outlook.com/?url=3Dhttp%3A%2F=
+%2Fwww.kone.mx%2F&amp;data=3D02%7C01%7Cvictorenrique.castro%40kone.com%7C=
+f5116c671b4f499e8c7208d692009e4a%7C2bb82c642eb143f78862fdc1d2333b50%7C0%7=
+C0%7C636856928693476092&amp;sdata=3Di0pRIoJJLaBPFV1WuAmfD%2B8mH2%2BmdGTNy=
+ZG9TjKc5tk%3D&amp;reserved=3D0"><span lang=3DES =
+style=3D'color:gray'>www.kone.mx</span></a></span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:8.0pt;font-family:"Arial",sans-serif;color:gray'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:8.0pt;font-family:"Arial",sans-serif;color:gray'><img =
+border=3D0 width=3D223 height=3D32 id=3D"Imagen_x0020_1" =
+src=3D"cid:image005.png@01D517A3.75568450" =
+alt=3D"KONE_logo_slogan_signature"></span><span =
+lang=3DES><o:p></o:p></span></p></div><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES>De:</span></b><span =
+lang=3DES> Castro Victor Enrique <br><b>Enviado el:</b> mi=E9rcoles, 13 =
+de febrero de 2019 16:10<br><b>Para:</b> Sinta Gerardo &lt;<a =
+href=3D"mailto:gerardo.sinta@kone.com">gerardo.sinta@kone.com</a>&gt;<br>=
+<b>CC:</b> Rodriguez Ana &lt;<a =
+href=3D"mailto:Ana.Rodriguez@KONE.com">Ana.Rodriguez@KONE.com</a>&gt;; =
+Mej=EDa Alejandro &lt;<a =
+href=3D"mailto:alejandro.mejia@kone.com">alejandro.mejia@kone.com</a>&gt;=
+<br><b>Asunto:</b> RV: FACTURA 1ER PAGO PROYECTO <br><b>Importancia:</b> =
+Alta<o:p></o:p></span></p></div></div><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>Gerardo<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>Buena tarde<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>Me podrias apoyar con este tema, ya tenemos respuesta del =
+cliente? proyecto <b>Iglesia de San Jose =
+Maria</b><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES>De:</span></b><span =
+lang=3DES> Castro Victor Enrique <br><b>Enviado el:</b> mi=E9rcoles, 30 =
+de enero de 2019 07:28 p.m.<br><b>Para:</b> 'Mauricio Bueno' &lt;<a =
+href=3D"mailto:mbueno@lagoscarrillo.com.mx">mbueno@lagoscarrillo.com.mx</=
+a>&gt;<br><b>Asunto:</b> RE: FACTURA 1ER PAGO PROYECTO =
+<o:p></o:p></span></p></div></div><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>Sr Mauricio<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>D=EDgame por favor que fue lo que quedo pendiente y ma=F1ana =
+mismo lo reviso con Alejandro para apoyarlo en =
+resolverlo<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES>De:</span></b><span =
+lang=3DES> Mauricio Bueno [<a =
+href=3D"mailto:mbueno@lagoscarrillo.com.mx">mailto:mbueno@lagoscarrillo.c=
+om.mx</a>] <br><b>Enviado el:</b> mi=E9rcoles, 30 de enero de 2019 07:18 =
+p.m.<br><b>Para:</b> Mej=EDa Alejandro &lt;<a =
+href=3D"mailto:alejandro.mejia@kone.com">alejandro.mejia@kone.com</a>&gt;=
+<br><b>CC:</b> 'Jos=E9 Ram=F3n Lain=E9' &lt;<a =
+href=3D"mailto:laine.joseramon@gmail.com">laine.joseramon@gmail.com</a>&g=
+t;; Castro Victor Enrique &lt;<a =
+href=3D"mailto:victorenrique.castro@kone.com">victorenrique.castro@kone.c=
+om</a>&gt;<br><b>Asunto:</b> RV: FACTURA 1ER PAGO PROYECTO =
+<o:p></o:p></span></p></div></div><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Hola =
+Alejandro:</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>=BFNo=
+s puedes apoyar para agilizar nuestro asunto?. </span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Me =
+estoy enterando que Emmanuel Castro ya no trabaja con =
+ustedes.</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Graci=
+as</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Mauri=
+cio Bueno</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES>De:</span></b><span =
+lang=3DES> Mauricio Bueno [<a =
+href=3D"mailto:mbueno@lagoscarrillo.com.mx">mailto:mbueno@lagoscarrillo.c=
+om.mx</a>] <br><b>Enviado el:</b> mi=E9rcoles, 30 de enero de 2019 07:10 =
+p.m.<br><b>Para:</b> 'Castro Emmanuel' &lt;<a =
+href=3D"mailto:emmanuel.castro@kone.com">emmanuel.castro@kone.com</a>&gt;=
+<br><b>CC:</b> 'Castro Victor Enrique' &lt;<a =
+href=3D"mailto:victorenrique.castro@kone.com">victorenrique.castro@kone.c=
+om</a>&gt;; 'Jos=E9 Ram=F3n Lain=E9' &lt;<a =
+href=3D"mailto:laine.joseramon@gmail.com">laine.joseramon@gmail.com</a>&g=
+t;<br><b>Asunto:</b> RE: FACTURA 1ER PAGO PROYECTO =
+<o:p></o:p></span></p></div></div><p class=3DMsoNormal>&nbsp;<span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Hola =
+Emmanuel:</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Est=E1=
+ pasando mucho tiempo sin que avancemos. =BFNos puedes apoyar? =
+</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Mucha=
+s gracias!</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Mauri=
+cio </span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES>De:</span></b><span =
+lang=3DES> Mauricio Bueno [<a =
+href=3D"mailto:mbueno@lagoscarrillo.com.mx">mailto:mbueno@lagoscarrillo.c=
+om.mx</a>] <br><b>Enviado el:</b> lunes, 28 de enero de 2019 06:43 =
+p.m.<br><b>Para:</b> 'Castro Emmanuel' &lt;<a =
+href=3D"mailto:emmanuel.castro@kone.com">emmanuel.castro@kone.com</a>&gt;=
+<br><b>CC:</b> 'Castro Victor Enrique' &lt;<a =
+href=3D"mailto:victorenrique.castro@kone.com">victorenrique.castro@kone.c=
+om</a>&gt;; 'Jos=E9 Ram=F3n Lain=E9' &lt;<a =
+href=3D"mailto:laine.joseramon@gmail.com">laine.joseramon@gmail.com</a>&g=
+t;<br><b>Asunto:</b> RE: FACTURA 1ER PAGO PROYECTO =
+<o:p></o:p></span></p></div></div><p class=3DMsoNormal>&nbsp;<span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Emman=
+uel, =BFalg=FAn avance con lo que te ped=ED?</span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Salud=
+os</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Mauri=
+cio</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES>De:</span></b><span =
+lang=3DES> Mauricio Bueno [<a =
+href=3D"mailto:mbueno@lagoscarrillo.com.mx">mailto:mbueno@lagoscarrillo.c=
+om.mx</a>] <br><b>Enviado el:</b> jueves, 24 de enero de 2019 05:37 =
+p.m.<br><b>Para:</b> 'Castro Victor Enrique' &lt;<a =
+href=3D"mailto:victorenrique.castro@kone.com">victorenrique.castro@kone.c=
+om</a>&gt;; 'Jos=E9 Ram=F3n Lain=E9' &lt;<a =
+href=3D"mailto:laine.joseramon@gmail.com">laine.joseramon@gmail.com</a>&g=
+t;<br><b>CC:</b> 'Castro Emmanuel' &lt;<a =
+href=3D"mailto:emmanuel.castro@kone.com">emmanuel.castro@kone.com</a>&gt;=
+<br><b>Asunto:</b> RE: FACTURA 1ER PAGO PROYECTO =
+<o:p></o:p></span></p></div></div><p class=3DMsoNormal>&nbsp;<span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Hola =
+Victor:</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Todav=
+=EDa tenemos un punto pendiente de aclarar. Emmanuel Castro tiene =
+pendiente resolvernos cu=E1nto costar=EDa un arreglo en el cubo que el =
+considera est=E1 a cargo de nosotros conforme al contrato. </span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Salud=
+os</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>MB =
+&nbsp;&nbsp;</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES>De:</span></b><span =
+lang=3DES> Castro Victor Enrique [<a =
+href=3D"mailto:victorenrique.castro@kone.com">mailto:victorenrique.castro=
+@kone.com</a>] <br><b>Enviado el:</b> jueves, 24 de enero de 2019 05:34 =
+p.m.<br><b>Para:</b> Mauricio Bueno &lt;<a =
+href=3D"mailto:mbueno@lagoscarrillo.com.mx">mbueno@lagoscarrillo.com.mx</=
+a>&gt;; 'Jos=E9 Ram=F3n Lain=E9' &lt;<a =
+href=3D"mailto:laine.joseramon@gmail.com">laine.joseramon@gmail.com</a>&g=
+t;<br><b>CC:</b> Castro Emmanuel &lt;<a =
+href=3D"mailto:emmanuel.castro@kone.com">emmanuel.castro@kone.com</a>&gt;=
+<br><b>Asunto:</b> RE: FACTURA 1ER PAGO PROYECTO <br><b>Importancia:</b> =
+Alta<o:p></o:p></span></p></div></div><p class=3DMsoNormal>&nbsp;<span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DES>Lic =
+Mauricio<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>Buenas tardes<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>Me confirman que ya fueron entregados los documentos que =
+estaban pendientes para que nos apoye con el pago correspondiente y =
+podamos iniciar con la fabricaci=F3n. Quedo a sus =
+ordenes.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES>De:</span></b><span =
+lang=3DES> Mauricio Bueno [<a =
+href=3D"mailto:mbueno@lagoscarrillo.com.mx">mailto:mbueno@lagoscarrillo.c=
+om.mx</a>] <br><b>Enviado el:</b> martes, 08 de enero de 2019 05:05 =
+p.m.<br><b>Para:</b> Castro Victor Enrique &lt;<a =
+href=3D"mailto:victorenrique.castro@kone.com">victorenrique.castro@kone.c=
+om</a>&gt;<br><b>CC:</b> Castro Emmanuel &lt;<a =
+href=3D"mailto:emmanuel.castro@kone.com">emmanuel.castro@kone.com</a>&gt;=
+; 'Jos=E9 Ram=F3n Lain=E9' &lt;<a =
+href=3D"mailto:laine.joseramon@gmail.com">laine.joseramon@gmail.com</a>&g=
+t;<br><b>Asunto:</b> FACTURA 1ER PAGO PROYECTO =
+<o:p></o:p></span></p></div></div><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Que =
+tal Victor:</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Como =
+te coment=E9 en mi correo del 26 de diciembre antes de proceder con el =
+pago tenemos que intercambiar contratos firmados y resolver lo de la =
+gu=EDa mec=E1nica y carta de acabados. </span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Salud=
+os</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>Mauri=
+cio</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;mso-fareast-language:EN-US'>&nbsp=
+;</span><span lang=3DES><o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES>De:</span></b><span =
+lang=3DES> Castro Victor Enrique [<a =
+href=3D"mailto:victorenrique.castro@kone.com">mailto:victorenrique.castro=
+@kone.com</a>] <br><b>Enviado el:</b> martes, 08 de enero de 2019 03:52 =
+p.m.<br><b>Para:</b> <a =
+href=3D"mailto:mbueno@lagoscarrillo.com.mx">mbueno@lagoscarrillo.com.mx</=
+a>; <a =
+href=3D"mailto:laine.joseramon@gmail.com">laine.joseramon@gmail.com</a><b=
+r><b>Asunto:</b> RV: FACTURA 1ER PAGO PROYECTO <br><b>Importancia:</b> =
+Alta<o:p></o:p></span></p></div></div><p class=3DMsoNormal>&nbsp;<span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal>Buenas tardes<span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal>&nbsp;<span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal>Dando seguimiento =
+al tema podr=EDa apoyarnos con el pago de la factura en menci=F3n y con =
+el podamos confirmar el pedido a fabrica?. Quedo atento<span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DES>De:</span></b><span =
+lang=3DES> Castro Victor Enrique <br><b>Enviado el:</b> mi=E9rcoles, 26 =
+de diciembre de 2018 11:10 a.m.<br><b>Para:</b> =
+'mbueno@lagoscarrillo.com.mx' &lt;<a =
+href=3D"mailto:mbueno@lagoscarrillo.com.mx">mbueno@lagoscarrillo.com.mx</=
+a>&gt;<br><b>CC:</b> Castro Emmanuel &lt;<a =
+href=3D"mailto:emmanuel.castro@kone.com">emmanuel.castro@kone.com</a>&gt;=
+; Mej=EDa Alejandro &lt;<a =
+href=3D"mailto:alejandro.mejia@kone.com">alejandro.mejia@kone.com</a>&gt;=
+<br><b>Asunto:</b> FACTURA 1ER PAGO PROYECTO <br><b>Importancia:</b> =
+Alta<o:p></o:p></span></p></div></div><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>Buen d=EDa<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>Por este medio env=EDo factura correspondiente al 1er pago en =
+relaci=F3n al proyecto <b>Iglesia de San Jose Maria</b>, favor de =
+apoyarnos con el pago correspondiente y podamos dar confirmaci=F3n del =
+pedido a la f=E1brica. Cualquier duda quedo a sus =
+=F3rdenes.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES>&nbsp;<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>Victor Castro Lopez</span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>Executive Collection Specialist MOD &amp; =
+NEB</span><b><span lang=3DES style=3D'font-size:9.0pt;font-family:"Times =
+New =
+Roman",serif;color:#7F7F7F;mso-fareast-language:FI;layout-grid-mode:line'=
+><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>Departamento&nbsp;de Finanzas</span><b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Times New =
+Roman",serif;color:#7F7F7F;mso-fareast-language:FI;layout-grid-mode:line'=
+><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>&nbsp; </span><b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Times New =
+Roman",serif;color:#7F7F7F;mso-fareast-language:FI;layout-grid-mode:line'=
+><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:gray'>KONE =
+M=E9xico</span><b><span lang=3DES =
+style=3D'font-size:9.0pt'><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:gray'>Av. =
+Coyoac=E1n 1622, Edif 1 PB Col del Valle, Del. Benito Ju=E1rez, C.P. =
+03100, M=E9xico D.F.</span><b><span lang=3DES =
+style=3D'font-size:9.0pt'><br></span></b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:gray'>Tel =
++ 52 55 19460100 Ext. 289</span><b><span lang=3DES =
+style=3D'font-size:9.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp; &nbsp;</span></b><span lang=3DES =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:gray'>Mobil=
+e&nbsp;+ 52 1 55 83356638</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormalCxSpMiddle =
+style=3D'mso-margin-bottom-alt:auto;mso-add-space:auto'><span lang=3DES =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'>Email <a =
+href=3D"mailto:victorenrique.castro@kone.com">victorenrique.castro@kone.c=
+om</a></span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormalCxSpMiddle =
+style=3D'mso-margin-bottom-alt:auto;mso-add-space:auto'><u><span =
+lang=3DFR =
+style=3D'font-size:9.0pt;color:#7F7F7F;mso-fareast-language:FI;layout-gri=
+d-mode:line'><a =
+href=3D"https://emea01.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fsmex12-5-en-ctp.trendmicro.com%3A443%2Fwis%2Fclicktime%2Fv1%2Fquery%3=
+Furl%3Dhttp%253a%252f%252fwww.kone.mx%26umid%3Dd9491d4e-c96f-4a96-a26a-77=
+6184fe29cf%26auth%3Db5046534ab628b60fa12a4fc582b2c84c628335c-4add46b82015=
+3f615b14948b1033e559c94bef70&amp;data=3D02%7C01%7Cvictorenrique.castro%40=
+kone.com%7Cf5116c671b4f499e8c7208d692009e4a%7C2bb82c642eb143f78862fdc1d23=
+33b50%7C0%7C0%7C636856928693486097&amp;sdata=3DYQA6OgWw4YdFLnNs35mJHShhMz=
+Dkpxck9Sd9EAN1r4M%3D&amp;reserved=3D0">www.kone.mx</a></span></u><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DFR =
+style=3D'font-size:8.0pt;font-family:"Arial",sans-serif;color:#7F7F7F;mso=
+-fareast-language:FI;layout-grid-mode:line'>&nbsp;</span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DES><img border=3D0 width=3D200 height=3D29 id=3D"Imagen_x0020_2" =
+src=3D"cid:image004.png@01D517A3.75568450" =
+alt=3D"cid:image001.png@01D3E204.1D3F4A70"><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DES =
+style=3D'font-size:8.0pt;font-family:"Arial =
+Narrow",sans-serif;color:green;mso-fareast-language:FI;layout-grid-mode:l=
+ine'>Por favor considera el medio ambiente antes de =
+imprimir.</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><i><span lang=3DES =
+style=3D'font-size:8.0pt;font-family:"Times New =
+Roman",serif;mso-fareast-language:FI;layout-grid-mode:line'><br></span></=
+i><span lang=3DEN-AU style=3D'font-size:8.0pt;font-family:"Arial =
+Narrow",sans-serif;color:silver;mso-fareast-language:FI;layout-grid-mode:=
+line'>The information contained in this message&nbsp;or files attached =
+to it&nbsp;are intended for the exclusive use of the addressee and may =
+contain confidential or&nbsp;legally privileged information. If you are =
+not the intended recipient,&nbsp;please note that&nbsp;the use, copying, =
+any form of dissemination and any other corresponding action in respect =
+of this communication is strictly prohibited. If you received this =
+message in error, please delete the message and notify the sender =
+immediately. Thank you. &nbsp;Please note that we take reasonable =
+precautions to prevent the transmission of viruses; however, we cannot =
+guarantee that this&nbsp;message or its attachments are free from =
+viruses. We only send and receive emails on the basis that we&nbsp;shall =
+not be liable for any loss or damage resulting from the opening of this =
+message and/or attachments.</span><span =
+lang=3DES><o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DEN-AU =
+style=3D'font-size:8.0pt;font-family:"Arial =
+Narrow",sans-serif;color:silver;mso-fareast-language:FI;layout-grid-mode:=
+line'>&nbsp;</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-AU =
+style=3D'font-size:7.5pt;font-family:"Arial =
+Narrow",sans-serif;color:silver;mso-fareast-language:FI;layout-grid-mode:=
+line'>Please consider the environment before printing this =
+email.</span><span lang=3DES><o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DEN-US>&nbsp;</span><span =
+lang=3DES><o:p></o:p></span></p></div></body></html>
+------=_NextPart_001_0002_01D517A3.78FC33C0--
+
+------=_NextPart_000_0001_01D517A3.78FC33C0
+Content-Type: image/png; name="image003.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image003.png@01D517A3.75568450>
+
+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
+gg==
+
+------=_NextPart_000_0001_01D517A3.78FC33C0
+Content-Type: image/png; name="image004.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image004.png@01D517A3.75568450>
+
+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
+
+------=_NextPart_000_0001_01D517A3.78FC33C0
+Content-Type: image/png; name="image005.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image005.png@01D517A3.75568450>
+
+iVBORw0KGgoAAAANSUhEUgAAAN8AAAAgCAMAAACl413SAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1
+Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+OkRvY3VtZW50SUQ9InhtcC5kaWQ6ODY4M0I5MDhFOTE2MTFFNUI2RjhGRDI3NTQ5NDRFQkQiIHht
+cE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODY4M0I5MDdFOTE2MTFFNUI2RjhGRDI3NTQ5NDRFQkQi
+IHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCI+IDx4bXBN
+TTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkE1RjE3MEJCMDAwODExRTI5
+MUZFQjQ2Njg0RDAyRkMxIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkE1RjE3MEJDMDAwODEx
+RTI5MUZFQjQ2Njg0RDAyRkMxIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4
+bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+oedTaAAAAsRQTFRFAHG5D3m9Enu+BnS7Cne8EHq9
+AXK5DHi8A3O6FHy+EXq+AnK6BHO6F36/DXi9CXa7BXS6E3y+FX2/CHW7B3W7C3e8Fn2/GH7AGn/A
+GX/AHIHBHYHBH4LCHoLBOZHJN5DIPJLJM43HJYbDP5TKKYjEIoTCL4vGKIfEMIzGLYrFNo/IOJDI
+O5LJLIrFPpTKNY/IMo3HJobDJ4fENI7HI4TDIYPCMYzGJIXDK4nFPZPKOpHJLovGIIPCT53PQZXL
+QJXLUJ7PUp/QTJvOSZrNU5/QRZfMQpbLTpzORJfMR5nMS5vOSJnNQ5bLSprNUZ7PTZzORpjMV6HR
+XKTSX6bTWKLRVaDQW6TSWaPRXqXTXaXTVKDQf7jcb6/XfbfbcrDYdLLZZ6rVebTaaKvWZKnUYqjU
+bK3Xc7HZdbLZaqzWerXae7XbYKbTba7XZqrVeLTafrfcYafUY6jUaavWdrPZbq7Xd7Paa63Wh7ze
+hrzegbncg7rdjL/fhLvdgrndiL3eib3fhbveir7fi77fn8rlkMHhksLhjcDgnMjklsXimsfjmcbj
+j8HgkcLhlcTincjknsnkmMbjm8fkk8PhlMPil8XijsDgv9vtvNrtrtLpstTqqtDos9Xqr9Lpocvl
+p87nrNHopc3mt9frqM/nvtvtqc/noMrludjsrdHotdbru9nsps3nq9DotNXqsNPputnsuNfsxt/v
+wNzuwdzuwt3uxd/vxN7v3+320+bz0eXyz+TyzePx2On01uj0zOPxyeHw2+v1zuTy3Oz11ejz1Ofz
+0ubz3ez20OXyyODw2er1yuHw3u322ur14e738Pf77fX6/f7+4u/3/v7/+vz+7/b7/P3+7vb66/T6
++fz98vj79Pn8+Pv94O726vP5+/3+5PD44+/39fn86PL56fP59vr97PT68ff75fH45/L48/j89/v9
+5vH4////nUeyNwAABeFJREFUWMPt1/tbVEUYB/CB3QV0V0GRQlGEDqJBGpiZlRsoionmpUW6sGqo
+qYRalmVaXgoETVNLIxJFxWveArWFlVuIkimHy4Istw0QsdXvP9HMmd2NXZdH/aHnUZ99f9lzzsyc
+cz5n5p2ZJcQuUjPtz3WJdqduUNudq/G4B3H5XD6Xz+Vz+Vw+l8/iezZwuPtT46sSxSBCAqtFMY37
+3sijBTU/B3PfWjFLxiyiKHKfaA23J8MnAlHEvRYokEs+bR0vMsyVfGnALwzIKks+W1uFo69Qr9fX
+219KnY8C7aUHvET+286uGujdihp6aVIcfbPHWaOehXHBvt58HtlA03PS+BQorzkruwUwhlh8ErCn
+rySfhaejj3WzLNvuklbAfnLA4aG1Cx0+gpv0U7rF7qqe3W5Eq3NfJtH1OONZpAtN7M3HHjiJ5995
+oGwIISPbgByrD1ledr5RzvOPpMI093lH3/1xMNSp70uNg+9CfWGfDx7KF1BPo65XX5IJSOfzS1/a
+fZPZ4SLao0qrD4e8evoWR9Ho48yHw6QMxfFhMXSo/L1k+JQpAtrV7RA/DIxa2oE/5gXG5OB8UB9t
+BtoWhb+RXoeOZS9MXS75ckeHaPejPCEsNr2O+/TAkjG4GB027QhwOf7FN7cC69KXR0xplXxl74RN
+z+G+odIP9TWsF8I17fjqa+DoJXSquY/yClXcF0HrydlhJD3oZ/Ph0H35F+3UJ5JcjI1LfVdZjhkv
+bVtABOk9F0d+t73/BkRGH3tPeet4SF/NDsSHZswnJ5Ds//1Gb8m3M2Cc5hCCZ2Z85HHS5kuJ6lBo
+dsV5NiHyrZ3LSCYE5YrdL8+SfOOn7lpJKux9P7ht3zpyNpJegY4++lcf7rtFk20U94134kvtsrz/
+Q/ggT2slV2CUnTKpTgBzuW8YvUvuacOiKlwlF6Fl43MAzcrxCxGcDGzi41NNx+dtcgEITrL6qgNW
+5ZMmtJI8HakEQjZDiAG+8We+NvInGvpnSL7BdHppZr55CfRDueOUsmPbQFX3jxO4L6EauObJx2fN
+/eMzJbbL3vdxCo1hzn2+W0rIdLXaZ08j+V3KP/aevrl81luv/YT2geQjYWr1wNUYtsOWf8x3mZQD
+sz/lvsgQ2ejq0x5qdRw5+Re5AwifQaCV9vkyXyGZqlZ7b7fNL5nMJ2hBJzQUkEvvp3ufWDHLMr9E
+syz/b34J4PPLKcv8kkI48CHmF/xDDpaSpYmJiSWd9PtafYNOs3Kd96trrD4TiaeVzsB/j4PvOj9g
+vnXHjphw1IvWSywvJZ1gb898FEB9BURLC0pt80uN1XecGA0+u9yvT149J9m6/u2mtRIk3xjagc37
+zxiBlhCbjwNtvsyzLPyc+bJI7TXWB1UdXeSczdePDqO2xgPeJpoWlv7zo+TOmxi5yc53h5QA01fY
+8g/4jdA18KqxiM5beC1J8h1TMF87G7FVZvv8m0a7/qAP8LoQib2Dhx6w+uTFgHlcL+s79UnAB63v
+5Fvd1ZhAmFXp6By4F/0W1Fx5hvvC5xmNMxNyVOXNy0g2Pp/Y3YQJmoa74SsRM8fYGcF9k2LNzQb5
+hprbA7b18BWRLBT5nDOrfqq755cDIdpkiI5jPoN8M24PSbP3rRlbX/NFMOurNaglpNTqI6G0w0pk
+TvZnFh8DPtBHw/0ikOwxSDm8G3uUgwYECSik3/msr1I2uLJxBCHxnpuQ159MpEmk8gm4hiNylXwG
+9+XKSCzWeshIhNQphdxHX9WbzDZhFS0IaoFAVKqhFcgnVayqMlTaxqyz+cr8iczvDLCRHKbnpJtt
+mhUKtjZ4KhQKLyf7a2+FQtp/Ej8F9yms4eHoE6UsoHFLX863Tea7ZtSwa+bKCroINVy/B5rXMOro
+Nq5JX8x2X+bKNoPI2zfrmlmjG9I9eDsW7fpaftMyOrKEhLIy2qyhnh636W/wsdbSJP000U2XoaKS
+fR0DK+8Sn7z/R4LmUffXLt/j5MvTP92+RwyXz+Vz+Vy+/yv+BWM9QXE5K7GAAAAAAElFTkSuQmCC
+
+------=_NextPart_000_0001_01D517A3.78FC33C0--

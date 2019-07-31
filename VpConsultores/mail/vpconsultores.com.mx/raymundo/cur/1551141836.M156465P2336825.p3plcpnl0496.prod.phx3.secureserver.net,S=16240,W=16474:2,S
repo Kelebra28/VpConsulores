@@ -1,0 +1,234 @@
+Return-Path: <teream2@hotmail.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id OOtBCcyLdFw5qCMAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Mon, 25 Feb 2019 17:43:56 -0700
+Return-path: <teream2@hotmail.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Mon, 25 Feb 2019 17:43:56 -0700
+Received: from mail-oln040092008014.outbound.protection.outlook.com ([40.92.8.14]:51904 helo=NAM03-DM3-obe.outbound.protection.outlook.com)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <teream2@hotmail.com>)
+	id 1gyQqh-009ryd-4B
+	for raymundo@vpconsultores.com.mx; Mon, 25 Feb 2019 17:43:56 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=4ljJDwHgRTVvjsGtNvtfTg64mDmoNvR0e4TqObbCNbg=;
+ b=B+jLS3cVRv/bSKNVbUBoI8tEitzR0NdXuwZ0ibnMM+5uAXrsfRZrs/+QRvWn5zwgvtvVZ3LQrJv+egzbL+ALI4+heSZD1javOALNonyVoAmwbpta1uizwZjQTMKLTtvJ9I3YVxFWktky//gyTO7JDXojU4+UArrpNc2Ti7BE0zhipL0eFSh8i78SUNmef/9+0mWj1RVjlOtwndugvjc/AbXEhuMLYXEolQdJkpaYNjoYrewXcSQRqbWS+C+G0p9Oc9AKvYE8aZedJ06u3dmXgDU58rePOdgS1xZ9uTXuU67QxWFR6AQ0AQuMtO9oH9yQO7Mdw+U/maUOCfphrRCFig==
+Received: from DM3NAM03FT015.eop-NAM03.prod.protection.outlook.com
+ (10.152.82.55) by DM3NAM03HT197.eop-NAM03.prod.protection.outlook.com
+ (10.152.83.43) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1643.13; Tue, 26 Feb
+ 2019 00:43:13 +0000
+Received: from CY4PR0601MB3730.namprd06.prod.outlook.com (10.152.82.58) by
+ DM3NAM03FT015.mail.protection.outlook.com (10.152.82.195) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.1643.13 via Frontend Transport; Tue, 26 Feb 2019 00:43:13 +0000
+Received: from CY4PR0601MB3730.namprd06.prod.outlook.com
+ ([fe80::3920:d9c7:1be6:dff2]) by CY4PR0601MB3730.namprd06.prod.outlook.com
+ ([fe80::3920:d9c7:1be6:dff2%2]) with mapi id 15.20.1643.019; Tue, 26 Feb 2019
+ 00:43:13 +0000
+From: =?utf-8?B?VGVyZXNhIEluw6lzIEFtZWxvbmc=?= <teream2@hotmail.com>
+To: "raymundo@vpconsultores.com.mx" <raymundo@vpconsultores.com.mx>
+Subject: =?utf-8?B?UmU6IERlY2xhcmFjacOzbiBhbnVhbCAyMDE4?=
+Thread-Topic: =?utf-8?B?RGVjbGFyYWNpw7NuIGFudWFsIDIwMTg=?=
+Thread-Index: AdTNZLs0tSI2W6YtSTuktdCuNk9VhQAB4PsA
+Date: Tue, 26 Feb 2019 00:43:13 +0000
+Message-ID: <CY4PR0601MB37302D2867A06CF8651659D6F77B0@CY4PR0601MB3730.namprd06.prod.outlook.com>
+References: <001201d4cd65$fb30b010$f1921030$@vpconsultores.com.mx>
+In-Reply-To: <001201d4cd65$fb30b010$f1921030$@vpconsultores.com.mx>
+Accept-Language: es-AR, en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-clientproxiedby: BN6PR13CA0044.namprd13.prod.outlook.com
+ (2603:10b6:404:13e::30) To CY4PR0601MB3730.namprd06.prod.outlook.com
+ (2603:10b6:910:92::15)
+x-incomingtopheadermarker: OriginalChecksum:7B42098749330DF68F0E80A31E33AE0610628D8BC6C031474F744EB3F98C4EA2;UpperCasedChecksum:C78E3D6749B36365C99EBD53D87AF96F2BE07DB4F7D4021A8686C7F8E45D0029;SizeAsReceived:8530;Count:63
+x-ms-exchange-messagesentrepresentingtype: 1
+x-mailer: iPhone Mail (16C101)
+x-tmn: [2Q9uxJvjVyrscgiLUqz7sJEpYst1vGhfE94SnAABq4zH2nrwZDDBDrzymi5V3VjA]
+x-microsoft-original-message-id: <D65829AE-1307-48BD-9E22-4F73355D6E6D@hotmail.com>
+x-ms-publictraffictype: Email
+x-incomingheadercount: 63
+x-eopattributedmessage: 0
+x-ms-exchange-slblob-mailprops: KvCwBtHRxSkYeATyleUQYdidLkdJ9JciOLMWgIDjxZLteUCR0/BYIyiG9aZEB0uO4S9japcHH4kVZjZbyBF/U7yAjupcSeo/W5cBJ7HNeLGvmZQ4MMaJNALsRvvqZCvqy9R16GkfHliCKC4A/iES+ry5Z3JvWCR1afSzeUpCX+sAsm97h9knNM9jMmb5QFbmJxTf9hvEnCtdn9A0jjKne6942UXyRde3W8S7cmEzoYakKc5rN+MpvsCL6v6JgRRFA6x461SRZGS+UuKtcY8Ec3hfLNGM4PK1mLrHVxj/XFCla0L0Hi0Fns0eIB6VVj6VHDto3I0jDt2RZW1w5EjgK2PKV/UTFIoI27tWd8q358rs8tqSuholv+HKtRGgyQUhZt96ctCt3rcj65pcO8ZoNrIGcLSRFQCDYqUrolBvbjK/X6TplVBDsMvJ/XN6iNb7Qlj6xVi9ugrLoHzK+dLX6mG8jlhu4QSSVBYJpMgGUBxegiot1RqPPLToHG3ZpBsrgqS++Me0gDHmngoOMOoY3ozL6sv8kYc9P6n+q/QxtOaQ1s/n3MdzmMiIqh0dSQTphc/svQrvYrksvIu4/MiyfUleiNr14qJzT120ejcHQ485/q+5R9vZfQxrHWtwQKzgLat2pMhu8BxyZtoii6yi5HHUXyrODwZY
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(2390118)(7020095)(20181119070)(201702061078)(5061506573)(5061507331)(1603103135)(2017031320274)(2017031323274)(2017031324274)(2017031322404)(201702181274)(1601125500)(1603101475)(1701031045);SRVR:DM3NAM03HT197;
+x-ms-traffictypediagnostic: DM3NAM03HT197:
+x-microsoft-antispam-message-info: kJsxdrAJldSxMZJHt+a6ifRb/BoLinE0Fl8sOaSv4NkuQKYsxhkLpEunrmDkQV+5
+Content-Type: multipart/alternative;
+	boundary="_000_CY4PR0601MB37302D2867A06CF8651659D6F77B0CY4PR0601MB3730_"
+MIME-Version: 1.0
+X-OriginatorOrg: hotmail.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: f80795de-4aa4-4ffa-fd9a-08d69b836347
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-originalarrivaltime: 26 Feb 2019 00:43:12.6696
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM3NAM03HT197
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Buena tarde Raymundo De acuerdo con la declaración, te confirmo
+    que el banco es Citi - Banamex clave de la cuenta 002180700874868751 y la
+    misma se encuentra a mi nombre. Te mandaría el estado de cue
+ 
+ Content analysis details:   (0.8 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vpconsultores.com.mx]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vpconsultores.com.mx]
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit (teream2[at]hotmail.com)
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             (teream2[at]hotmail.com)
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 FROM_EXCESS_BASE64     From: base64 encoded unnecessarily
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+X-Spam-Flag: NO
+
+--_000_CY4PR0601MB37302D2867A06CF8651659D6F77B0CY4PR0601MB3730_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+QnVlbmEgdGFyZGUgUmF5bXVuZG8NCkRlIGFjdWVyZG8gY29uIGxhIGRlY2xhcmFjacOzbiwgdGUg
+Y29uZmlybW8gcXVlIGVsIGJhbmNvIGVzIENpdGkgLSBCYW5hbWV4IGNsYXZlIGRlIGxhIGN1ZW50
+YSAwMDIxODA3MDA4NzQ4Njg3NTEgeSBsYSBtaXNtYSBzZSBlbmN1ZW50cmEgYSBtaSBub21icmUu
+DQpUZSBtYW5kYXLDrWEgZWwgZXN0YWRvIGRlIGN1ZW50YSBwZXJvIHRpZW5lIGNsYXZlIHkgbm8g
+dmEgYSBkZWphciBhYnJpcmxvIHBvciBzZWd1cmlkYWQuDQpQb3IgY29ycmVvIHNpZW1wcmUgbG8g
+Y29uZmlybWUgc2luIGluY29udmVuaWVudGUgZW4gbWlhIG90cmFzIGRlY2xhcmFjaW9uZXMgZW50
+b25jZXMgZXNwZXJvIHNlYSB1dGlsLg0KUG9yIGZhdm9yIG5vIG1lIGRlbiBkZSBiYWphIGVuIGVs
+IFNBVCBwb3IgbmluZ3VuYSBjaXJjdW5zdGFuY2lhLg0KUXVlZG8gYXRlbnRhLCBtdWNoYXMgZ3Jh
+Y2lhcw0KVGVyZQ0KDQpFbCAyNSBmZWIgMjAxOSwgYSBsYShzKSAxODo1OCwgPHJheW11bmRvQHZw
+Y29uc3VsdG9yZXMuY29tLm14PG1haWx0bzpyYXltdW5kb0B2cGNvbnN1bHRvcmVzLmNvbS5teD4+
+IDxyYXltdW5kb0B2cGNvbnN1bHRvcmVzLmNvbS5teDxtYWlsdG86cmF5bXVuZG9AdnBjb25zdWx0
+b3Jlcy5jb20ubXg+PiBlc2NyaWJpw7M6DQoNCkhvbGEgVGVyZXNhDQoNCg0KUGFyYSBzYWx1ZGFy
+dGUgeSBwcm9wcm9jaW9uYXJ0ZSBsb3MgcGFwZWxlcyBkZSB0cmFiYWpvIGRlIGNvbW8gcXVlZGFy
+w61hIHR1IGRlY2xhcmFjacOzbiBhbnVhbCBkZWwgZWplcmNpY2lvIDIwMTguDQoNCg0KTG9zIGlu
+Z3Jlc29zIHNvbiBsb3MgcXVlIGV4aXN0ZW4gZWwgIHBvcnRhbCBkZWwgU0FULg0KDQoNCkNvbW8g
+dGUgZGFyw6FzIGN1ZW50YSB0aWVuZXMgdW4gc2FsZG8gYSBmYXZvciBwb3IgJCAyMywxODYuMDAg
+cGVzb3MgbWV4aWNhbm9zIHBvciBsbyBxdWUgbGUgdGVuZW1vcyBxdWUgcHJvcG9yY2lvbmFyIGFs
+IFNBVCBsYSBjbGF2ZSBpbnRlcmJhbmNhcmlhIGEgMTggcG9zaWNpb25lcyBhc8OtIGNvbW8gZWwg
+bm9tYnJlIGRlbCBiYW5jbyBlbiBkb25kZSB0aWVuZXMgZXNhIGN1ZW50YS4gUG9yIGxvIHF1ZSB0
+ZSBwaWRvIG1lIGxhIHByb3BvcmNpb25lcyBvIG1lIGVudsOtZXMgbGEgY2FyYXR1bGEgZGVsIGVz
+dGFkbyBkZSBjdWVudGEgZW4gZG9uZGUgdmllbmVuIGVzdG9zIGRhdG9zLg0KDQoNCkVzIGltcG9y
+dGFudGUgdGVuc2lvbmFydGUgdGFtYmnDqW4gcXVlIGV4aXN0ZSBsYSBvYmxpZ2FjacOzbiBkZSBp
+bmZvcm1hciBjaWVydG9zIGRhdG9zIG9ibGlnYXRvcmlvcywgY29tbyBzb246IFNpIGVuIGVsIGVq
+ZXJjaWNpbyAyMDE4IGVuYWplbmFzdGUgdHUgY2FzYSBoYWJpdGFjacOzbiwgdGUgc2FjYXN0ZSBs
+YSBMb3RlcsOtYSwgcmVjaWJpc3RlIGFsZ3VuYSBoZXJlbmNpYSwgc2kgb2J0dXZpc3RlIGFsZ8O6
+biBwcsOpc3RhbW8sIGV0YywNCg0KUmV2w61zYWxhIHkgY3VhbHF1aWVyIGR1ZGEgbGEgY29tZW50
+YW1vcy4NCg0KDQpTYWx1ZG9zDQoNCg0KPFRlcmVzYSBBbWVsb25nLnhsc3g+DQo=
+
+--_000_CY4PR0601MB37302D2867A06CF8651659D6F77B0CY4PR0601MB3730_
+Content-Type: text/html; charset="utf-8"
+Content-ID: <4F3AAB18049F0544AEF5A956F1559A22@namprd06.prod.outlook.com>
+Content-Transfer-Encoding: base64
+
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5IGRpcj0iYXV0byI+DQo8
+ZGl2IGRpcj0ibHRyIj48L2Rpdj4NCjxkaXYgZGlyPSJsdHIiPkJ1ZW5hIHRhcmRlIFJheW11bmRv
+PC9kaXY+DQo8ZGl2IGRpcj0ibHRyIj5EZSBhY3VlcmRvIGNvbiBsYSBkZWNsYXJhY2nDs24sIHRl
+IGNvbmZpcm1vIHF1ZSBlbCBiYW5jbyBlcyBDaXRpIC0gQmFuYW1leCBjbGF2ZSBkZSBsYSBjdWVu
+dGEmbmJzcDs8c3BhbiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NSwgMjU1
+LCAwKTsiPjAwMjE4MDcwMDg3NDg2ODc1MSB5IGxhIG1pc21hIHNlIGVuY3VlbnRyYSBhIG1pIG5v
+bWJyZS48L3NwYW4+PC9kaXY+DQo8ZGl2IGRpcj0ibHRyIj48c3BhbiBzdHlsZT0iYmFja2dyb3Vu
+ZC1jb2xvcjogcmdiYSgyNTUsIDI1NSwgMjU1LCAwKTsiPlRlIG1hbmRhcsOtYSBlbCBlc3RhZG8g
+ZGUgY3VlbnRhIHBlcm8gdGllbmUgY2xhdmUgeSBubyB2YSBhIGRlamFyIGFicmlybG8gcG9yIHNl
+Z3VyaWRhZC48L3NwYW4+PC9kaXY+DQo8ZGl2IGRpcj0ibHRyIj48c3BhbiBzdHlsZT0iYmFja2dy
+b3VuZC1jb2xvcjogcmdiYSgyNTUsIDI1NSwgMjU1LCAwKTsiPlBvciBjb3JyZW8gc2llbXByZSBs
+byBjb25maXJtZSBzaW4gaW5jb252ZW5pZW50ZSBlbiBtaWEgb3RyYXMgZGVjbGFyYWNpb25lcyBl
+bnRvbmNlcyBlc3Blcm8gc2VhIHV0aWwuPC9zcGFuPjwvZGl2Pg0KPGRpdiBkaXI9Imx0ciI+PHNw
+YW4gc3R5bGU9ImJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMCk7Ij5Qb3Ig
+ZmF2b3Igbm8gbWUgZGVuIGRlIGJhamEgZW4gZWwgU0FUIHBvciBuaW5ndW5hIGNpcmN1bnN0YW5j
+aWEuPC9zcGFuPjwvZGl2Pg0KPGRpdiBkaXI9Imx0ciI+PHNwYW4gc3R5bGU9ImJhY2tncm91bmQt
+Y29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMCk7Ij5RdWVkbyBhdGVudGEsIG11Y2hhcyBncmFj
+aWFzPC9zcGFuPjwvZGl2Pg0KPGRpdiBkaXI9Imx0ciI+PHNwYW4gc3R5bGU9ImJhY2tncm91bmQt
+Y29sb3I6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMCk7Ij5UZXJlPC9zcGFuPjwvZGl2Pg0KPGRpdiBk
+aXI9Imx0ciI+PGJyPg0KRWwgMjUgZmViIDIwMTksIGEgbGEocykgMTg6NTgsICZsdDs8YSBocmVm
+PSJtYWlsdG86cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXgiPnJheW11bmRvQHZwY29uc3Vs
+dG9yZXMuY29tLm14PC9hPiZndDsgJmx0OzxhIGhyZWY9Im1haWx0bzpyYXltdW5kb0B2cGNvbnN1
+bHRvcmVzLmNvbS5teCI+cmF5bXVuZG9AdnBjb25zdWx0b3Jlcy5jb20ubXg8L2E+Jmd0OyBlc2Ny
+aWJpw7M6PGJyPg0KPGJyPg0KPC9kaXY+DQo8YmxvY2txdW90ZSB0eXBlPSJjaXRlIj4NCjxkaXYg
+ZGlyPSJsdHIiPg0KPG1ldGEgbmFtZT0iR2VuZXJhdG9yIiBjb250ZW50PSJNaWNyb3NvZnQgV29y
+ZCAxNSAoZmlsdGVyZWQgbWVkaXVtKSI+DQo8c3R5bGU+PCEtLQ0KLyogRm9udCBEZWZpbml0aW9u
+cyAqLw0KQGZvbnQtZmFjZQ0KCXtmb250LWZhbWlseToiQ2FtYnJpYSBNYXRoIjsNCglwYW5vc2Ut
+MToyIDQgNSAzIDUgNCA2IDMgMiA0O30NCkBmb250LWZhY2UNCgl7Zm9udC1mYW1pbHk6Q2FsaWJy
+aTsNCglwYW5vc2UtMToyIDE1IDUgMiAyIDIgNCAzIDIgNDt9DQovKiBTdHlsZSBEZWZpbml0aW9u
+cyAqLw0KcC5Nc29Ob3JtYWwsIGxpLk1zb05vcm1hbCwgZGl2Lk1zb05vcm1hbA0KCXttYXJnaW46
+MGNtOw0KCW1hcmdpbi1ib3R0b206LjAwMDFwdDsNCglmb250LXNpemU6MTEuMHB0Ow0KCWZvbnQt
+ZmFtaWx5OiJDYWxpYnJpIixzYW5zLXNlcmlmOw0KCW1zby1mYXJlYXN0LWxhbmd1YWdlOkVOLVVT
+O30NCmE6bGluaywgc3Bhbi5Nc29IeXBlcmxpbmsNCgl7bXNvLXN0eWxlLXByaW9yaXR5Ojk5Ow0K
+CWNvbG9yOiMwNTYzQzE7DQoJdGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZTt9DQphOnZpc2l0ZWQs
+IHNwYW4uTXNvSHlwZXJsaW5rRm9sbG93ZWQNCgl7bXNvLXN0eWxlLXByaW9yaXR5Ojk5Ow0KCWNv
+bG9yOiM5NTRGNzI7DQoJdGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZTt9DQpzcGFuLkVzdGlsb0Nv
+cnJlbzE3DQoJe21zby1zdHlsZS10eXBlOnBlcnNvbmFsLWNvbXBvc2U7DQoJZm9udC1mYW1pbHk6
+IkNhbGlicmkiLHNhbnMtc2VyaWY7DQoJY29sb3I6d2luZG93dGV4dDt9DQouTXNvQ2hwRGVmYXVs
+dA0KCXttc28tc3R5bGUtdHlwZTpleHBvcnQtb25seTsNCglmb250LWZhbWlseToiQ2FsaWJyaSIs
+c2Fucy1zZXJpZjsNCgltc28tZmFyZWFzdC1sYW5ndWFnZTpFTi1VUzt9DQpAcGFnZSBXb3JkU2Vj
+dGlvbjENCgl7c2l6ZTo2MTIuMHB0IDc5Mi4wcHQ7DQoJbWFyZ2luOjcwLjg1cHQgMy4wY20gNzAu
+ODVwdCAzLjBjbTt9DQpkaXYuV29yZFNlY3Rpb24xDQoJe3BhZ2U6V29yZFNlY3Rpb24xO30NCi0t
+Pjwvc3R5bGU+PCEtLVtpZiBndGUgbXNvIDldPjx4bWw+DQo8bzpzaGFwZWRlZmF1bHRzIHY6ZXh0
+PSJlZGl0IiBzcGlkbWF4PSIxMDI2IiAvPg0KPC94bWw+PCFbZW5kaWZdLS0+PCEtLVtpZiBndGUg
+bXNvIDldPjx4bWw+DQo8bzpzaGFwZWxheW91dCB2OmV4dD0iZWRpdCI+DQo8bzppZG1hcCB2OmV4
+dD0iZWRpdCIgZGF0YT0iMSIgLz4NCjwvbzpzaGFwZWxheW91dD48L3htbD48IVtlbmRpZl0tLT4N
+CjxkaXYgY2xhc3M9IldvcmRTZWN0aW9uMSI+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj5Ib2xhIFRl
+cmVzYSA8bzpwPjwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxvOnA+Jm5ic3A7PC9v
+OnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+PG86cD4mbmJzcDs8L286cD48L3A+DQo8cCBj
+bGFzcz0iTXNvTm9ybWFsIj5QYXJhIHNhbHVkYXJ0ZSB5IHByb3Byb2Npb25hcnRlIGxvcyBwYXBl
+bGVzIGRlIHRyYWJham8gZGUgY29tbyBxdWVkYXLDrWEgdHUgZGVjbGFyYWNpw7NuIGFudWFsIGRl
+bCBlamVyY2ljaW8gMjAxOC48bzpwPjwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxv
+OnA+Jm5ic3A7PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+PG86cD4mbmJzcDs8L286
+cD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj5Mb3MgaW5ncmVzb3Mgc29uIGxvcyBxdWUgZXhp
+c3RlbiBlbCAmbmJzcDtwb3J0YWwgZGVsIFNBVC48bzpwPjwvbzpwPjwvcD4NCjxwIGNsYXNzPSJN
+c29Ob3JtYWwiPjxvOnA+Jm5ic3A7PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+PG86
+cD4mbmJzcDs8L286cD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj5Db21vIHRlIGRhcsOhcyBj
+dWVudGEgdGllbmVzIHVuIHNhbGRvIGEgZmF2b3IgcG9yICQgMjMsMTg2LjAwIHBlc29zIG1leGlj
+YW5vcyBwb3IgbG8gcXVlIGxlIHRlbmVtb3MgcXVlIHByb3BvcmNpb25hciBhbCBTQVQgbGEgY2xh
+dmUgaW50ZXJiYW5jYXJpYSBhIDE4IHBvc2ljaW9uZXMgYXPDrSBjb21vIGVsIG5vbWJyZSBkZWwg
+YmFuY28gZW4gZG9uZGUgdGllbmVzIGVzYSBjdWVudGEuIFBvciBsbyBxdWUgdGUgcGlkbw0KIG1l
+IGxhIHByb3BvcmNpb25lcyBvIG1lIGVudsOtZXMgbGEgY2FyYXR1bGEgZGVsIGVzdGFkbyBkZSBj
+dWVudGEgZW4gZG9uZGUgdmllbmVuIGVzdG9zIGRhdG9zLjxvOnA+PC9vOnA+PC9wPg0KPHAgY2xh
+c3M9Ik1zb05vcm1hbCI+PG86cD4mbmJzcDs8L286cD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFs
+Ij48bzpwPiZuYnNwOzwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPkVzIGltcG9ydGFu
+dGUgdGVuc2lvbmFydGUgdGFtYmnDqW4gcXVlIGV4aXN0ZSBsYSBvYmxpZ2FjacOzbiBkZSBpbmZv
+cm1hciBjaWVydG9zIGRhdG9zIG9ibGlnYXRvcmlvcywgY29tbyBzb246IFNpIGVuIGVsIGVqZXJj
+aWNpbyAyMDE4IGVuYWplbmFzdGUgdHUgY2FzYSBoYWJpdGFjacOzbiwgdGUgc2FjYXN0ZSBsYSBM
+b3RlcsOtYSwgcmVjaWJpc3RlIGFsZ3VuYSBoZXJlbmNpYSwgc2kgb2J0dXZpc3RlIGFsZ8O6biBw
+csOpc3RhbW8sDQogZXRjLCA8bzpwPjwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxv
+OnA+Jm5ic3A7PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+UmV2w61zYWxhIHkgY3Vh
+bHF1aWVyIGR1ZGEgbGEgY29tZW50YW1vcy48bzpwPjwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29O
+b3JtYWwiPjxvOnA+Jm5ic3A7PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+PG86cD4m
+bmJzcDs8L286cD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj5TYWx1ZG9zPG86cD48L286cD48
+L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj48bzpwPiZuYnNwOzwvbzpwPjwvcD4NCjxwIGNsYXNz
+PSJNc29Ob3JtYWwiPjxvOnA+Jm5ic3A7PC9vOnA+PC9wPg0KPC9kaXY+DQo8L2Rpdj4NCjwvYmxv
+Y2txdW90ZT4NCjxibG9ja3F1b3RlIHR5cGU9ImNpdGUiPg0KPGRpdiBkaXI9Imx0ciI+Jmx0O1Rl
+cmVzYSBBbWVsb25nLnhsc3gmZ3Q7PC9kaXY+DQo8L2Jsb2NrcXVvdGU+DQo8L2JvZHk+DQo8L2h0
+bWw+DQo=
+
+--_000_CY4PR0601MB37302D2867A06CF8651659D6F77B0CY4PR0601MB3730_--

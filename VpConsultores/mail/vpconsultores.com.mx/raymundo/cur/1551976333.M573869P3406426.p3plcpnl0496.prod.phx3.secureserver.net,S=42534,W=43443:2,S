@@ -1,0 +1,909 @@
+Return-Path: <Bernardo.Soto@thomsonreuters.com>
+Delivered-To: RAYMUNDO@VPCONSULTORES.COM.MX
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id kL8fIo1HgVxa+jMAFq4nlA
+	for <RAYMUNDO@VPCONSULTORES.COM.MX>; Thu, 07 Mar 2019 09:32:13 -0700
+Return-path: <Bernardo.Soto@thomsonreuters.com>
+Envelope-to: RAYMUNDO@VPCONSULTORES.COM.MX
+Delivery-date: Thu, 07 Mar 2019 09:32:13 -0700
+Received: from mailout7-tr.thomsonreuters.com ([159.220.48.11]:23848)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <Bernardo.Soto@thomsonreuters.com>)
+	id 1h1vwE-00EfBE-Vz
+	for RAYMUNDO@VPCONSULTORES.COM.MX; Thu, 07 Mar 2019 09:32:13 -0700
+Received: from c354hcwus2r02.int.westgroup.com (relay2 [10.51.2.62])
+	by mailout7-tr.thomsonreuters.com (Sentrion-MTA-4.3.1/Sentrion-MTA-4.3.1) with ESMTP id x27GVPUl023876
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=FAIL)
+	for <RAYMUNDO@VPCONSULTORES.COM.MX>; Thu, 7 Mar 2019 16:31:26 GMT
+X-DKIM: OpenDKIM Filter v2.4.3 mailout7-tr.thomsonreuters.com x27GVPUl023876
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=thomsonreuters.com;
+	s=defaultdkim; t=1551976286;
+	bh=rb7jHaYZZKBDJUVqsROGJjeN8pjbl9h1/63pYTLEAhI=;
+	h=From:To:Subject:Date:Message-ID:References:In-Reply-To:
+	 Content-Type:MIME-Version;
+	b=IJyQKsldJQOg6xnGQ0JsBHwtyjTIJb2S10It+JFNx/gp3s87mCLEdz2u7rYg+CcNM
+	 ixL/dbJRchrRnES1GFVSwSh+uBv3T821LkcGRGbNdbQjUMJQgVq/chjz8ujjsDDKoE
+	 SSieiq9TvZzpOXX1XHnW2qivG/yltJ1OTOZfdsds=
+Received: from EAGH-ERFPHUB05.ERF.thomson.com ([10.51.52.52])
+	by c354hcwus2r02.int.westgroup.com (Sentrion-MTA-4.3.1/Sentrion-MTA-4.3.1) with ESMTP id x27GVIVI014659
+	for <RAYMUNDO@VPCONSULTORES.COM.MX>; Thu, 7 Mar 2019 16:31:25 GMT
+Received: from C111XUQEHUB15.ERF.thomson.com (163.231.23.72) by
+ EAGH-ERFPHUB05.ERF.thomson.com (163.231.29.164) with Microsoft SMTP Server
+ (TLS) id 14.3.389.1; Thu, 7 Mar 2019 10:31:15 -0600
+Received: from C111VPSHMBX54.ERF.thomson.com ([fe80::3079:63a0:23ed:1f0a]) by
+ C111XUQEHUB15.ERF.thomson.com ([fe80::4df3:7227:7312:3dbb%14]) with mapi id
+ 14.03.0389.001; Thu, 7 Mar 2019 10:31:12 -0600
+From: <Bernardo.Soto@thomsonreuters.com>
+To: <RAYMUNDO@VPCONSULTORES.COM.MX>
+Subject: RENOVACION DE COMPILACION FISCAL 2019 (COTIZACION)
+Thread-Topic: RENOVACION DE COMPILACION FISCAL 2019 (COTIZACION)
+Thread-Index: AdSngT7CXO3jzha0QPyy2LeZC0tK7AADcfKwAAA8DfAAA68DIAMW66uABVTLuNAC7VZRkA==
+Importance: high
+X-Priority: 1
+Date: Thu, 7 Mar 2019 16:31:12 +0000
+Message-ID: <C22493B5CA4F1A4382837D1FDCE761241341F039@c111vpshmbx54.ERF.thomson.com>
+References: <C22493B5CA4F1A4382837D1FDCE761240A2F352E@c111vpshmbx54.ERF.thomson.com>
+ <C22493B5CA4F1A4382837D1FDCE761240A2F3641@c111vpshmbx54.ERF.thomson.com>
+ <C22493B5CA4F1A4382837D1FDCE761240A2F365E@c111vpshmbx54.ERF.thomson.com>
+ <C22493B5CA4F1A4382837D1FDCE761240A2F36D8@c111vpshmbx54.ERF.thomson.com>
+ <C22493B5CA4F1A4382837D1FDCE761241340DDB1@c111vpshmbx54.ERF.thomson.com>
+ <C22493B5CA4F1A4382837D1FDCE761241341D13B@c111vpshmbx54.ERF.thomson.com>
+In-Reply-To: <C22493B5CA4F1A4382837D1FDCE761241341D13B@c111vpshmbx54.ERF.thomson.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+x-originating-ip: [10.206.30.4]
+X-TM-AS-Product-Ver: SMEX-12.0.0.1727-8.200.1013-24476.000
+X-TM-AS-Result: No--17.707500-0.000000-31
+X-TM-AS-MatchedID: 8005-8007-143723-147020-160105-825333-821212-823219-82130
+	4-703163-824045-825087-835588-823271-822278-820337-821424-847843-823580-821
+	364-840472-847848-822148-824160-821594-824194-822735-843129-820990-701100-8
+	48152-701884-187089-824456-821942-831884-825418-187164-703440-301251-824927
+	-843398-780058-139705-706817-701926-106660-824509-705251-847226-848308-8416
+	32-111600-111604-188119-188118-700685-188038-705718-701827-700758-303108-70
+	0264-188062-700529-700077-103306-188057-820640-700732-703808-111608-700802-
+	702404-700490-111610-704425-111603-111601-899176-190188-148035-148051-14809
+	1-20025-22102-23305-23400-29978-42003-63-190014
+X-TM-AS-User-Approved-Sender: Yes
+X-TM-AS-User-Blocked-Sender: No
+Content-Type: multipart/related;
+	boundary="_012_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-CFilter-Loop: Reflected
+X-Spam-Status: No, score=1.5
+X-Spam-Score: 15
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Buenos días C.P. Raymundo Vazquez M. A continuación, le mando
+    la cotización por el material que se adquirió el año pasado ya con el precio
+    que tenemos disponible en este mes de marzo [...] 
+ 
+ Content analysis details:   (1.5 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: thomsonreuters.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: vpconsultores.com.mx]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.6 SUBJ_ALL_CAPS          Subject is all capitals
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.0 LOTS_OF_MONEY          Huge... sums of money
+X-Spam-Flag: NO
+
+--_012_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_
+Content-Type: multipart/alternative;
+	boundary="_000_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_"
+
+--_000_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+     Buenos d=EDas
+
+     C.P. Raymundo Vazquez M.
+
+     A continuaci=F3n, le mando la cotizaci=F3n por el material que se adqu=
+iri=F3 el a=F1o pasado ya con el precio que tenemos disponible en este mes =
+de marzo
+
+     Para la emisi=F3n de la factura me puede apoyar con los siguientes dat=
+os por favor:
+
+*       Uso del CFDI
+*       N=FAmero de cuenta
+*       Banco
+*       Fecha estimada de pago
+
+
+CANTIDAD
+PRODUCTO
+PRECIO
+DESCUENTO
+IMPUESTO
+SUBTOTAL
+OBSEQUIO
+PROMOCION
+
+1
+DUO PROVIEW COMPILACION FISCAL CORRELACIONADA 2019
+OBRA DUO (IMPRESO + PROVIEW):
+VALORES ADICIONALES IMPRESOS: SUPLEMENTO CFC, SUPLEMENTO INDICE COMPARATIVO=
+ DE RM 2019 VS 2018
+VALORES ADICIONALES DIGITALES: NEWS LEGAL-TAX & ACOUNTING, BREAKING NEWS, C=
+OMENTARIOS A LA REFORMA FISCAL 2019, RESOLUCION MISCELANEA (PROVIEW - ENERO=
+), =CDNDICE COMPARATIVO DE RM 2019 - 2018, TRAMITES FISCALES. VIGENCIA DEL =
+25/1/2019 AL 24/01/2020
+$5,632.00
+$382.00
+$0.00
+$5,250.00
+NO
+-
+
+
+Suma:
+$5,632.00
+
+Descuento:
+$382.00
+
+Subtotal:
+$5,250.00
+
+  Impuesto:
+$0.000
+
+Total:
+$5,250.000
+
+
+     Slds cordials
+Cotizaci=F3n disponible del 25 de febrero al 22 de marzo 2019
+
+
+
+
+
+
+Bernardo Soto Vega
+Account Manager
+Thomson Reuters
+* Dir. (55) 5351-9702
+  M=F3vil (044) 5523325412
+*bernardo.soto@thomsonreuters.com<mailto:bernardo.soto@thomsonreuters.com>
+www.thomsonreutersmexico.com<https://webmail.thomsonreuters.com/OWA/redir.a=
+spx?C=3DhJmgtlXmyk-rv8RmzXjtPBjTUmNjKdIIOHw3lgNKdr7PMRLOM1o-KsCtez0X5_WDCK-=
+-WjYpYjI.&URL=3Dhttp%3a%2f%2fwww.thomsonreutersmexico.com%2f>
+
+
+
+_____________________________________________
+From: Soto, Bernardo
+Sent: mi=E9rcoles, 20 de febrero de 2019 12:56 p.m.
+To: RAYMUNDO@VPCONSULTORES.COM.MX
+Subject: RENOVACION DE COMPILACION FISCAL 2019 (COTIZACION)
+Importance: High
+
+
+
+
+
+     Buenas tardes
+
+     C.P. Raymundo Vazquez M.
+
+     A continuaci=F3n, le mando la cotizaci=F3n por el material que se adqu=
+iri=F3 el a=F1o pasado ya con el descuento que tenemos autorizado en este m=
+es de febrero
+
+     Para la emisi=F3n de la factura me puede apoyar con los siguientes dat=
+os por favor:
+
+*       Uso del CFDI
+*       M=E9todo de pago
+*       Forma de pago
+*       N=FAmero de cuenta
+*       Banco
+*       Fecha estimada de pago
+
+
+CANTIDAD
+PRODUCTO
+PRECIO
+DESCUENTO
+IMPUESTO
+SUBTOTAL
+OBSEQUIO
+PROMOCION
+
+1
+DUO PROVIEW COMPILACION FISCAL CORRELACIONADA 2019
+OBRA DUO (IMPRESO + PROVIEW):
+VALORES ADICIONALES IMPRESOS: SUPLEMENTO CFC, SUPLEMENTO INDICE COMPARATIVO=
+ DE RM 2019 VS 2018
+VALORES ADICIONALES DIGITALES: NEWS LEGAL-TAX & ACOUNTING, BREAKING NEWS, C=
+OMENTARIOS A LA REFORMA FISCAL 2019, RESOLUCION MISCELANEA (PROVIEW - ENERO=
+), =CDNDICE COMPARATIVO DE RM 2019 - 2018, TRAMITES FISCALES. VIGENCIA DEL =
+25/1/2019 AL 24/01/2020
+$5,632.00
+$532.00
+$0.00
+$5,100.00
+NO
+-
+
+
+Suma:
+$5,632.00
+
+Descuento:
+$532.00
+
+Subtotal:
+$5,100.00
+
+  Impuesto:
+$0.000
+
+Total:
+$5,100.000
+
+
+
+
+     Slds cordials
+
+                        Bernardo Soto Vega
+Account Manager
+Thomson Reuters
+* Dir. (55) 5351-9702
+  M=F3vil (044) 5523325412
+*bernardo.soto@thomsonreuters.com<mailto:bernardo.soto@thomsonreuters.com>
+www.thomsonreutersmexico.com<https://webmail.thomsonreuters.com/OWA/redir.a=
+spx?C=3DhJmgtlXmyk-rv8RmzXjtPBjTUmNjKdIIOHw3lgNKdr7PMRLOM1o-KsCtez0X5_WDCK-=
+-WjYpYjI.&URL=3Dhttp%3a%2f%2fwww.thomsonreutersmexico.com%2f>
+
+
+
+--_000_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from rtf -->
+<style><!-- .EmailQuote { margin-left: 1pt; padding-left: 4pt; border-left:=
+ #800000 2px solid; } --></style>
+</head>
+<body>
+<font face=3D"Calibri" size=3D"2"><span style=3D"font-size:11pt;">
+<div>&nbsp;</div>
+<div align=3D"center" style=3D"text-align:center;"><img src=3D"cid:BFC5A5E7=
+5AC0FD47A120ACFAD008037E@thomsonreuters.com"> </div>
+<div style=3D"padding-left:35.4pt;"><b>Buen</b><b>os d=EDas</b></div>
+<div style=3D"padding-left:35.4pt;">&nbsp;</div>
+<div style=3D"padding-left:35.4pt;"><b>C.P. Raymundo Vazquez M.</b></div>
+<div style=3D"padding-left:35.4pt;">&nbsp;</div>
+<div style=3D"padding-left:35.4pt;">A continuaci=F3n, le mando la cotizaci=
+=F3n por el material que se adquiri=F3 el a=F1o pasado ya con el precio que=
+ tenemos disponible en este mes de marzo</div>
+<div>&nbsp;</div>
+<div style=3D"padding-left:35.4pt;"><font color=3D"red"><span style=3D"back=
+ground-color:yellow;">Para la emisi=F3n de la factura me puede apoyar con l=
+os siguientes datos por favor:</span></font></div>
+<div style=3D"padding-left:28.35pt;"><font color=3D"red">&nbsp;</font></div=
+>
+<ul style=3D"margin:0;padding-left:64.35pt;">
+<font color=3D"red">
+<li>Uso del CFDI</li><li>N=FAmero de cuenta</li><li>Banco</li><li>Fecha est=
+imada de pago</li></font>
+</ul>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<table width=3D"2333" style=3D"width:1400.25pt;margin-left:5.4pt;">
+<col width=3D"2333" style=3D"width:1400.25pt;">
+<tr>
+<td>
+<table width=3D"320" style=3D"width:192pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<tr>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">CANTIDAD</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">PRODUCTO</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">PRECIO</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">DESCUENTO</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">IMPUESTO</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">SUBTOTAL</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">OBSEQUIO</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">PROMOCION</span></span></font></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"text-align:center;"><font color=3D"#606060"><=
+span style=3D"text-transform:uppercase;">1</span></font></td>
+<td><font color=3D"#606060"><span style=3D"text-transform:uppercase;">DUO P=
+ROVIEW COMPILACION FISCAL CORRELACIONADA 2019<br>
+
+OBRA DUO (IMPRESO &#43; PROVIEW):<br>
+
+VALORES ADICIONALES IMPRESOS: SUPLEMENTO CFC, SUPLEMENTO INDICE COMPARATIVO=
+ DE RM 2019 VS 2018<br>
+
+VALORES ADICIONALES DIGITALES: NEWS LEGAL-TAX &amp; ACOUNTING, BREAKING NEW=
+S, COMENTARIOS A LA REFORMA FISCAL 2019, RESOLUCION MISCELANEA (PROVIEW - E=
+NERO), =CDNDICE COMPARATIVO DE RM 2019 &#8211; 2018, TRAMITES FISCALES. VIG=
+ENCIA DEL 25/1/2019 AL 24/01/2020</span></font></td>
+<td style=3D"text-align:right;"><font color=3D"#595959"><span style=3D"text=
+-transform:uppercase;">$5,632.00</span></font></td>
+<td style=3D"text-align:right;"><font color=3D"#595959"><span style=3D"text=
+-transform:uppercase;">$</span><span style=3D"text-transform:uppercase;">38=
+2</span><span style=3D"text-transform:uppercase;">.00</span></font></td>
+<td style=3D"text-align:right;"><font color=3D"#595959"><span style=3D"text=
+-transform:uppercase;">$0.00</span></font></td>
+<td style=3D"text-align:right;"><font color=3D"#595959"><span style=3D"text=
+-transform:uppercase;">$5,</span><span style=3D"text-transform:uppercase;">=
+250</span><span style=3D"text-transform:uppercase;">.00</span></font></td>
+<td align=3D"center" style=3D"text-align:center;"><font color=3D"#606060"><=
+span style=3D"text-transform:uppercase;">NO</span></font></td>
+<td align=3D"center" style=3D"text-align:center;"><font color=3D"#606060"><=
+span style=3D"text-transform:uppercase;">-</span></font></td>
+</tr>
+</table>
+<div align=3D"center" style=3D"text-align:center;">&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td>
+<table width=3D"563" style=3D"width:338.25pt;">
+<col width=3D"513" style=3D"width:307.9pt;">
+<col width=3D"50" style=3D"width:30.35pt;">
+<tr height=3D"18" style=3D"height:11.2pt;">
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"#6=
+06060"><span style=3D"font-size:9pt;">Suma:</span></font></td>
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"#6=
+06060"><span style=3D"font-size:9pt;"><b>$5,632.00</b></span></font></td>
+</tr>
+<tr height=3D"22" style=3D"height:13.45pt;">
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"re=
+d"><span style=3D"font-size:9pt;"><b>Descuento:</b></span></font></td>
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"re=
+d"><span style=3D"font-size:9pt;"><b>$</b><b>382</b><b>.00</b></span></font=
+></td>
+</tr>
+<tr height=3D"18" style=3D"height:11.2pt;">
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"#6=
+06060"><span style=3D"font-size:9pt;">Subtotal:</span></font></td>
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"#5=
+95959"><span style=3D"font-size:9pt;">$5,250.00</span></font></td>
+</tr>
+<tr height=3D"19" style=3D"height:11.95pt;">
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"#6=
+06060"><span style=3D"font-size:9pt;">&nbsp; Impuesto:</span></font></td>
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"#5=
+95959"><span style=3D"font-size:9pt;">$0.000</span></font></td>
+</tr>
+<tr height=3D"17" style=3D"height:10.45pt;">
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2"><span style=
+=3D"font-size:9pt;"><b>Total:</b></span></font></td>
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2"><span style=
+=3D"font-size:9pt;"><span style=3D"background-color:yellow;"><b>$5,</b></sp=
+an><span style=3D"background-color:yellow;"><b>250</b></span><span style=3D=
+"background-color:yellow;"><b>.000</b></span></span></font></td>
+</tr>
+</table>
+<div align=3D"center" style=3D"text-align:center;">&nbsp;</div>
+</td>
+</tr>
+</table>
+<div style=3D"padding-left:35.4pt;">Slds cordials</div>
+<div style=3D"padding-left:920.4pt;"><font color=3D"#C0504D"><b>Cotizaci=F3=
+n disponible del 25 de febrero al 22 de marzo 2019</b></font></div>
+<div style=3D"padding-left:35.4pt;">&nbsp;</div>
+<div>&nbsp;</div>
+<div align=3D"center" style=3D"text-align:center;"><font color=3D"red">&nbs=
+p;</font></div>
+<table width=3D"699" style=3D"width:419.8pt;margin-left:5.4pt;">
+<col width=3D"663" style=3D"width:398.2pt;">
+<col width=3D"12" style=3D"width:7.2pt;">
+<col width=3D"12" style=3D"width:7.2pt;">
+<col width=3D"12" style=3D"width:7.2pt;">
+<tr height=3D"145" style=3D"height:87.5pt;">
+<td>
+<table width=3D"681" style=3D"width:408.6pt;">
+<col width=3D"310" style=3D"width:186.3pt;">
+<col width=3D"12" style=3D"width:7.2pt;">
+<col width=3D"12" style=3D"width:7.2pt;">
+<col width=3D"346" style=3D"width:207.9pt;">
+<tr>
+<td align=3D"center" style=3D"text-align:center;margin-bottom:10pt;padding-=
+left:28.35pt;">
+<img src=3D"cid:EDA8856D69D29A48942C477DF808FB14@thomsonreuters.com"> </td>
+<td style=3D"background-color:#CCCCCC;"><span style=3D"background-color:#CC=
+CCCC;"></span></td>
+<td style=3D"margin-bottom:10pt;"><font color=3D"#1F497D">&nbsp;</font></td=
+>
+<td><b>Bernardo Soto Vega</b>
+<div><font color=3D"#00B0F0">Account Manager</font></div>
+<div><font color=3D"#F57F20">Thomson Reuters</font></div>
+<div><font size=3D"2"><span style=3D"font-size:10pt;"><font face=3D"Wingdin=
+gs">(</font><font face=3D"Segoe UI"> </font><font face=3D"Arial">Dir. (55) =
+5351-9702</font></span></font></div>
+<div><img src=3D"cid:934393EB01C89E4ABE10956A005CAAAC@thomsonreuters.com"> =
+<font face=3D"Arial">&nbsp;</font><font face=3D"Arial" size=3D"2"><span sty=
+le=3D"font-size:10pt;">M=F3vil (044) 5523325412</span></font></div>
+<div><font color=3D"#00B0F0"><font face=3D"Wingdings">*</font><a href=3D"ma=
+ilto:bernardo.soto@thomsonreuters.com"><font face=3D"Arial" size=3D"2"><spa=
+n style=3D"font-size:10pt;"><u>bernardo.soto@thomsonreuters.com</u></span><=
+/font></a></font></div>
+<div><font color=3D"#F79646">www.<a href=3D"https://webmail.thomsonreuters.=
+com/OWA/redir.aspx?C=3DhJmgtlXmyk-rv8RmzXjtPBjTUmNjKdIIOHw3lgNKdr7PMRLOM1o-=
+KsCtez0X5_WDCK--WjYpYjI.&amp;URL=3Dhttp%3a%2f%2fwww.thomsonreutersmexico.co=
+m%2f"><u>thomsonreutersmexico.com</u></a></font></div>
+</td>
+</tr>
+</table>
+<div align=3D"center" style=3D"text-align:center;margin-bottom:10pt;padding=
+-left:28.35pt;">
+<img src=3D"cid:E1C8274720A3F5448C454370DB99FD73@thomsonreuters.com"> </div=
+>
+</td>
+<td style=3D"background-color:#CCCCCC;"><span style=3D"background-color:#CC=
+CCCC;"></span></td>
+<td style=3D"margin-bottom:10pt;"></td>
+<td></td>
+</tr>
+</table>
+<div>&nbsp;</div>
+<div>_____________________________________________<br>
+
+<b>From:</b> Soto, Bernardo <br>
+
+<b>Sent:</b> mi=E9rcoles, 20 de febrero de 2019 12:56 p.m.<br>
+
+<b>To:</b> RAYMUNDO@VPCONSULTORES.COM.MX<br>
+
+<b>Subject:</b> RENOVACION DE COMPILACION FISCAL 2019 (COTIZACION)<br>
+
+<b>Importance:</b> High</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div align=3D"center" style=3D"text-align:center;"><img src=3D"cid:E3197926=
+1DF78A49A72566AD86547E97@thomsonreuters.com"> </div>
+<div align=3D"center" style=3D"text-align:center;"><img src=3D"cid:E67A09D9=
+2FC47B4EA83F03594BE4F058@thomsonreuters.com"> </div>
+<div style=3D"padding-left:35.4pt;"><b>Buenas tardes</b></div>
+<div style=3D"padding-left:35.4pt;">&nbsp;</div>
+<div style=3D"padding-left:35.4pt;"><b>C.P. Raymundo Vazquez M.</b></div>
+<div style=3D"padding-left:35.4pt;">&nbsp;</div>
+<div style=3D"padding-left:35.4pt;">A continuaci=F3n, le mando la cotizaci=
+=F3n por el material que se adquiri=F3 el a=F1o pasado ya con el descuento =
+que tenemos autorizado en este mes de febrero</div>
+<div>&nbsp;</div>
+<div style=3D"padding-left:35.4pt;"><font color=3D"red"><span style=3D"back=
+ground-color:yellow;">Para la emisi=F3n de la factura me puede apoyar con l=
+os siguientes datos por favor:</span></font></div>
+<div style=3D"padding-left:28.35pt;"><font color=3D"red">&nbsp;</font></div=
+>
+<ul style=3D"margin:0;padding-left:64.35pt;">
+<font color=3D"red">
+<li>Uso del CFDI</li><li>M=E9todo de pago</li><li>Forma de pago</li><li>N=
+=FAmero de cuenta</li><li>Banco</li><li>Fecha estimada de pago</li></font>
+</ul>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<table width=3D"2333" style=3D"width:1400.25pt;margin-left:5.4pt;">
+<col width=3D"2333" style=3D"width:1400.25pt;">
+<tr>
+<td>
+<table width=3D"320" style=3D"width:192pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<col width=3D"40" style=3D"width:24pt;">
+<tr>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">CANTIDAD</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">PRODUCTO</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">PRECIO</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">DESCUENTO</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">IMPUESTO</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">SUBTOTAL</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">OBSEQUIO</span></span></font></td>
+<td align=3D"center" style=3D"text-align:center;background-color:#E37222;">=
+<font color=3D"#CFCFCF"><span style=3D"background-color:#E37222;"><span sty=
+le=3D"text-transform:uppercase;">PROMOCION</span></span></font></td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"text-align:center;"><font color=3D"#606060"><=
+span style=3D"text-transform:uppercase;">1</span></font></td>
+<td><font color=3D"#606060"><span style=3D"text-transform:uppercase;">DUO P=
+ROVIEW COMPILACION FISCAL CORRELACIONADA 2019<br>
+
+OBRA DUO (IMPRESO &#43; PROVIEW):<br>
+
+VALORES ADICIONALES IMPRESOS: SUPLEMENTO CFC, SUPLEMENTO INDICE COMPARATIVO=
+ DE RM 2019 VS 2018<br>
+
+VALORES ADICIONALES DIGITALES: NEWS LEGAL-TAX &amp; ACOUNTING, BREAKING NEW=
+S, COMENTARIOS A LA REFORMA FISCAL 2019, RESOLUCION MISCELANEA (PROVIEW - E=
+NERO), =CDNDICE COMPARATIVO DE RM 2019 &#8211; 2018, TRAMITES FISCALES. VIG=
+ENCIA DEL 25/1/2019 AL 24/01/2020</span></font></td>
+<td style=3D"text-align:right;"><font color=3D"#595959"><span style=3D"text=
+-transform:uppercase;">$5,632.00</span></font></td>
+<td style=3D"text-align:right;"><font color=3D"#595959"><span style=3D"text=
+-transform:uppercase;">$532.00</span></font></td>
+<td style=3D"text-align:right;"><font color=3D"#595959"><span style=3D"text=
+-transform:uppercase;">$0.00</span></font></td>
+<td style=3D"text-align:right;"><font color=3D"#595959"><span style=3D"text=
+-transform:uppercase;">$5,100.00</span></font></td>
+<td align=3D"center" style=3D"text-align:center;"><font color=3D"#606060"><=
+span style=3D"text-transform:uppercase;">NO</span></font></td>
+<td align=3D"center" style=3D"text-align:center;"><font color=3D"#606060"><=
+span style=3D"text-transform:uppercase;">-</span></font></td>
+</tr>
+</table>
+<div align=3D"center" style=3D"text-align:center;">&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td>
+<table width=3D"563" style=3D"width:338.25pt;">
+<col width=3D"513" style=3D"width:307.9pt;">
+<col width=3D"50" style=3D"width:30.35pt;">
+<tr height=3D"18" style=3D"height:11.2pt;">
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"#6=
+06060"><span style=3D"font-size:9pt;">Suma:</span></font></td>
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"#6=
+06060"><span style=3D"font-size:9pt;"><b>$5,632.00</b></span></font></td>
+</tr>
+<tr height=3D"22" style=3D"height:13.45pt;">
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"re=
+d"><span style=3D"font-size:9pt;"><b>Descuento:</b></span></font></td>
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"re=
+d"><span style=3D"font-size:9pt;"><b>$532.00</b></span></font></td>
+</tr>
+<tr height=3D"18" style=3D"height:11.2pt;">
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"#6=
+06060"><span style=3D"font-size:9pt;">Subtotal:</span></font></td>
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"#5=
+95959"><span style=3D"font-size:9pt;">$5,100.00</span></font></td>
+</tr>
+<tr height=3D"19" style=3D"height:11.95pt;">
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"#6=
+06060"><span style=3D"font-size:9pt;">&nbsp; Impuesto:</span></font></td>
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2" color=3D"#5=
+95959"><span style=3D"font-size:9pt;">$0.000</span></font></td>
+</tr>
+<tr height=3D"17" style=3D"height:10.45pt;">
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2"><span style=
+=3D"font-size:9pt;"><b>Total:</b></span></font></td>
+<td style=3D"text-align:right;"><font face=3D"Arial" size=3D"2"><span style=
+=3D"font-size:9pt;"><span style=3D"background-color:yellow;"><b>$5,</b></sp=
+an><span style=3D"background-color:yellow;"><b>1</b></span><span style=3D"b=
+ackground-color:yellow;"><b>00.000</b></span></span></font></td>
+</tr>
+</table>
+<div align=3D"center" style=3D"text-align:center;">&nbsp;</div>
+</td>
+</tr>
+</table>
+<div align=3D"center" style=3D"text-align:center;">&nbsp;</div>
+<div align=3D"center" style=3D"text-align:center;">&nbsp;</div>
+<div style=3D"padding-left:35.4pt;"><font face=3D"Times New Roman" size=3D"=
+3"><span style=3D"font-size:12pt;">Slds cordials</span></font></div>
+<div style=3D"padding-left:35.4pt;"><font face=3D"Times New Roman" size=3D"=
+3"><span style=3D"font-size:12pt;">&nbsp;</span></font></div>
+<table width=3D"681" style=3D"width:408.6pt;margin-left:5.4pt;">
+<col width=3D"310" style=3D"width:186.3pt;">
+<col width=3D"12" style=3D"width:7.2pt;">
+<col width=3D"12" style=3D"width:7.2pt;">
+<col width=3D"346" style=3D"width:207.9pt;">
+<tr height=3D"145" style=3D"height:87.5pt;">
+<td align=3D"center" style=3D"text-align:center;margin-bottom:10pt;padding-=
+left:28.35pt;">
+<img src=3D"cid:1F47E2A14C35EA45AD7F8FF8F997AA65@thomsonreuters.com"> </td>
+<td style=3D"background-color:#CCCCCC;"><span style=3D"background-color:#CC=
+CCCC;"></span></td>
+<td style=3D"margin-bottom:10pt;"><font color=3D"#1F497D">&nbsp;</font></td=
+>
+<td><b>Bernardo Soto Vega</b>
+<div><font color=3D"#00B0F0">Account Manager</font></div>
+<div><font color=3D"#F57F20">Thomson Reuters</font></div>
+<div><font size=3D"2"><span style=3D"font-size:10pt;"><font face=3D"Wingdin=
+gs">(</font><font face=3D"Segoe UI"> </font><font face=3D"Arial">Dir. (55) =
+5351-9702</font></span></font></div>
+<div><img src=3D"cid:70C0A2D740980E4286345C35BE82C006@thomsonreuters.com"> =
+<font face=3D"Arial">&nbsp;</font><font face=3D"Arial" size=3D"2"><span sty=
+le=3D"font-size:10pt;">M=F3vil (044) 5523325412</span></font></div>
+<div><font color=3D"#00B0F0"><font face=3D"Wingdings">*</font><a href=3D"ma=
+ilto:bernardo.soto@thomsonreuters.com"><font face=3D"Arial" size=3D"2"><spa=
+n style=3D"font-size:10pt;"><u>bernardo.soto@thomsonreuters.com</u></span><=
+/font></a></font></div>
+<div><font color=3D"#F79646">www.<a href=3D"https://webmail.thomsonreuters.=
+com/OWA/redir.aspx?C=3DhJmgtlXmyk-rv8RmzXjtPBjTUmNjKdIIOHw3lgNKdr7PMRLOM1o-=
+KsCtez0X5_WDCK--WjYpYjI.&amp;URL=3Dhttp%3a%2f%2fwww.thomsonreutersmexico.co=
+m%2f">thomsonreutersmexico.com</a></font></div>
+</td>
+</tr>
+</table>
+<div style=3D"padding-left:35.4pt;"><img src=3D"cid:1CBF10C02A060E498E35E52=
+BD5DAF786@thomsonreuters.com"> </div>
+<div style=3D"padding-left:35.4pt;">&nbsp;</div>
+</span></font>
+</body>
+</html>
+
+--_000_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_--
+
+--_012_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_
+Content-Type: image/jpeg; name="Picture (Device Independent Bitmap) 1.jpg"
+Content-Description: Picture (Device Independent Bitmap) 1.jpg
+Content-Disposition: inline;
+	filename="Picture (Device Independent Bitmap) 1.jpg";
+	creation-date="Thu, 07 Mar 2019 16:31:03 GMT";
+	modification-date="Thu, 07 Mar 2019 16:31:03 GMT"
+Content-ID: <BFC5A5E75AC0FD47A120ACFAD008037E@thomsonreuters.com>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooo
+oA//2Q==
+
+--_012_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_
+Content-Type: image/jpeg; name="Picture (Device Independent Bitmap) 2.jpg"
+Content-Description: Picture (Device Independent Bitmap) 2.jpg
+Content-Disposition: inline;
+	filename="Picture (Device Independent Bitmap) 2.jpg";
+	creation-date="Thu, 07 Mar 2019 16:31:03 GMT";
+	modification-date="Thu, 07 Mar 2019 16:31:03 GMT"
+Content-ID: <EDA8856D69D29A48942C477DF808FB14@thomsonreuters.com>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooo
+oA//2Q==
+
+--_012_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_
+Content-Type: image/jpeg; name="Picture (Device Independent Bitmap) 3.jpg"
+Content-Description: Picture (Device Independent Bitmap) 3.jpg
+Content-Disposition: inline;
+	filename="Picture (Device Independent Bitmap) 3.jpg";
+	creation-date="Thu, 07 Mar 2019 16:31:04 GMT";
+	modification-date="Thu, 07 Mar 2019 16:31:04 GMT"
+Content-ID: <934393EB01C89E4ABE10956A005CAAAC@thomsonreuters.com>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooo
+oA//2Q==
+
+--_012_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_
+Content-Type: image/jpeg; name="Picture (Device Independent Bitmap) 4.jpg"
+Content-Description: Picture (Device Independent Bitmap) 4.jpg
+Content-Disposition: inline;
+	filename="Picture (Device Independent Bitmap) 4.jpg";
+	creation-date="Thu, 07 Mar 2019 16:31:04 GMT";
+	modification-date="Thu, 07 Mar 2019 16:31:04 GMT"
+Content-ID: <E1C8274720A3F5448C454370DB99FD73@thomsonreuters.com>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooo
+oA//2Q==
+
+--_012_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_
+Content-Type: image/jpeg; name="Picture (Device Independent Bitmap) 5.jpg"
+Content-Description: Picture (Device Independent Bitmap) 5.jpg
+Content-Disposition: inline;
+	filename="Picture (Device Independent Bitmap) 5.jpg";
+	creation-date="Thu, 07 Mar 2019 16:31:05 GMT";
+	modification-date="Thu, 07 Mar 2019 16:31:05 GMT"
+Content-ID: <E31979261DF78A49A72566AD86547E97@thomsonreuters.com>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooo
+oA//2Q==
+
+--_012_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_
+Content-Type: image/jpeg; name="Picture (Device Independent Bitmap) 6.jpg"
+Content-Description: Picture (Device Independent Bitmap) 6.jpg
+Content-Disposition: inline;
+	filename="Picture (Device Independent Bitmap) 6.jpg";
+	creation-date="Thu, 07 Mar 2019 16:31:05 GMT";
+	modification-date="Thu, 07 Mar 2019 16:31:05 GMT"
+Content-ID: <E67A09D92FC47B4EA83F03594BE4F058@thomsonreuters.com>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooo
+oA//2Q==
+
+--_012_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_
+Content-Type: image/jpeg; name="Picture (Device Independent Bitmap) 7.jpg"
+Content-Description: Picture (Device Independent Bitmap) 7.jpg
+Content-Disposition: inline;
+	filename="Picture (Device Independent Bitmap) 7.jpg";
+	creation-date="Thu, 07 Mar 2019 16:31:11 GMT";
+	modification-date="Thu, 07 Mar 2019 16:31:11 GMT"
+Content-ID: <1F47E2A14C35EA45AD7F8FF8F997AA65@thomsonreuters.com>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooo
+oA//2Q==
+
+--_012_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_
+Content-Type: image/jpeg; name="Picture (Device Independent Bitmap) 8.jpg"
+Content-Description: Picture (Device Independent Bitmap) 8.jpg
+Content-Disposition: inline;
+	filename="Picture (Device Independent Bitmap) 8.jpg";
+	creation-date="Thu, 07 Mar 2019 16:31:11 GMT";
+	modification-date="Thu, 07 Mar 2019 16:31:11 GMT"
+Content-ID: <70C0A2D740980E4286345C35BE82C006@thomsonreuters.com>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooo
+oA//2Q==
+
+--_012_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_
+Content-Type: image/jpeg; name="Picture (Device Independent Bitmap) 9.jpg"
+Content-Description: Picture (Device Independent Bitmap) 9.jpg
+Content-Disposition: inline;
+	filename="Picture (Device Independent Bitmap) 9.jpg";
+	creation-date="Thu, 07 Mar 2019 16:31:11 GMT";
+	modification-date="Thu, 07 Mar 2019 16:31:11 GMT"
+Content-ID: <1CBF10C02A060E498E35E52BD5DAF786@thomsonreuters.com>
+Content-Transfer-Encoding: base64
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooo
+oA//2Q==
+
+--_012_C22493B5CA4F1A4382837D1FDCE761241341F039c111vpshmbx54ER_--

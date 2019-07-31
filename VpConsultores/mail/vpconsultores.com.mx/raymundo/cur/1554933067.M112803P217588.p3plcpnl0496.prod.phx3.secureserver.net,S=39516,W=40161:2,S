@@ -1,0 +1,645 @@
+Return-Path: <elopez@colegiocpmexico.org.mx>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id kLueBktlrlz0UQMAFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Wed, 10 Apr 2019 14:51:07 -0700
+Return-path: <elopez@colegiocpmexico.org.mx>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Wed, 10 Apr 2019 14:51:07 -0700
+Received: from mail-eopbgr740075.outbound.protection.outlook.com ([40.107.74.75]:28437 helo=NAM01-BN3-obe.outbound.protection.outlook.com)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-SHA384:256)
+	(Exim 4.91)
+	(envelope-from <elopez@colegiocpmexico.org.mx>)
+	id 1hEL7Z-001Mer-EF
+	for raymundo@vpconsultores.com.mx; Wed, 10 Apr 2019 14:51:07 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=colegiocpmexico.onmicrosoft.com; s=selector1-colegiocpmexico-org-mx;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=n4K20ch/oEK8vU1KMseNQ/UYBC207WB42q7dei0fImA=;
+ b=nBsOwJmnSyIoX8kmXvX93PDpbJL/eb7KP+oGVONNouuRjlNBhTGzP6emf4a8Xa2VqJFxFWhFlnzBV9m2TkeeFqdhJS7CHAp1FR5u71KcqSSxtdxfk8GrISK2s3vkduQ8fkZeWg/bAGleF91K8VsH9kSs7cHOkLlZLIGGeWAuCFg=
+Received: from BN8PR17MB2979.namprd17.prod.outlook.com (20.178.217.33) by
+ BN8PR17MB2850.namprd17.prod.outlook.com (20.178.216.11) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.1771.16; Wed, 10 Apr 2019 21:50:23 +0000
+Received: from BN8PR17MB2979.namprd17.prod.outlook.com
+ ([fe80::c0ad:e201:35b:a8f1]) by BN8PR17MB2979.namprd17.prod.outlook.com
+ ([fe80::c0ad:e201:35b:a8f1%6]) with mapi id 15.20.1771.021; Wed, 10 Apr 2019
+ 21:50:23 +0000
+From: =?iso-8859-1?Q?=C9rika__L=F3pez_Garc=EDa?=
+	<elopez@colegiocpmexico.org.mx>
+To: "raymundo@vpconsultores.com.mx" <raymundo@vpconsultores.com.mx>
+Subject:
+ =?iso-8859-1?Q?Invita_al_Colegio_de_Contadores_P=FAblicos_de_M=E9xico_a_t?=
+ =?iso-8859-1?Q?us_instalaciones?=
+Thread-Topic:
+ =?iso-8859-1?Q?Invita_al_Colegio_de_Contadores_P=FAblicos_de_M=E9xico_a_t?=
+ =?iso-8859-1?Q?us_instalaciones?=
+Thread-Index: AdTv5od88/eYozJrTxiIKGWJaipDVw==
+Date: Wed, 10 Apr 2019 21:48:46 +0000
+Message-ID:
+ <BN8PR17MB2979D6642F519275733981BFFE2E0@BN8PR17MB2979.namprd17.prod.outlook.com>
+Accept-Language: es-MX, en-US
+Content-Language: es-ES
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=elopez@colegiocpmexico.org.mx; 
+x-originating-ip: [200.53.126.182]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 539dfeed-0049-4a70-e45e-08d6bdfe8925
+x-microsoft-antispam:
+ BCL:0;PCL:0;RULEID:(2390118)(7020095)(4652040)(8989299)(4534185)(4627221)(201703031133081)(201702281549075)(8990200)(5600139)(711020)(4605104)(2017052603328)(49563074)(7193020);SRVR:BN8PR17MB2850;
+x-ms-traffictypediagnostic: BN8PR17MB2850:
+x-ms-exchange-purlcount: 3
+x-microsoft-antispam-prvs:
+ <BN8PR17MB285048ECD8D86BED70C66B66FE2E0@BN8PR17MB2850.namprd17.prod.outlook.com>
+x-forefront-prvs: 00032065B2
+x-forefront-antispam-report:
+ SFV:NSPM;SFS:(10009020)(136003)(396003)(376002)(366004)(346002)(39850400004)(199004)(189003)(54556002)(1730700003)(256004)(9686003)(476003)(6306002)(99936001)(71200400001)(786003)(53386004)(236005)(54896002)(316002)(25786009)(33656002)(55016002)(102836004)(53936002)(606006)(71190400001)(2501003)(6666004)(478600001)(45776006)(2351001)(97736004)(106356001)(105586002)(224303003)(7696005)(8936002)(68736007)(486006)(861006)(99286004)(81166006)(6916009)(186003)(733005)(6506007)(5640700003)(26005)(6116002)(790700001)(3846002)(2906002)(7736002)(74482002)(52536014)(86362001)(5660300002)(14454004)(81156014)(74316002)(6436002)(66066001);DIR:OUT;SFP:1101;SCL:1;SRVR:BN8PR17MB2850;H:BN8PR17MB2979.namprd17.prod.outlook.com;FPR:;SPF:None;LANG:es;PTR:InfoNoRecords;A:1;MX:1;
+received-spf: None (protection.outlook.com: colegiocpmexico.org.mx does not
+ designate permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam-message-info:
+ 9j27sbzpcewzQ5ZqbHToeP1+ixiWBHgz/Eay+dAvWnL6XROGUXEbsaJ3xNYyyvmOd8GZPwLmI1+CqBq2aU/NP1JuKx8qpzVZH3KZVeXrUhLDdxsx94uiGD38GoZa/gUQ6x52P0kkw3QGK53h2zBetHeXcLZ/ZJpvpTBesqEbaCZrVJU61r3ht6lDyUx7yyr/InxfM1oWKXYwQ7vDBFMRxSfFqB8r7TtLUt3YbmURJmxOUr7Y02oOzcqtpXCQ5gFDtKVESWryY5YNIzArBZxEAqWWqSYUDXope1/ToiPNlMqfN19E5VdXorVH00HG0Yez0Wvk/hf/X10UDzbkxZ9gQN07+6ahnEyV0+ti/Y50icx+MejuGWawCaoSX30BhQYiPSe5fd+6bt8pd9y1of4fFo1I5myhBR9jaK3EiHaKYY4=
+Content-Type: multipart/related;
+	boundary="_005_BN8PR17MB2979D6642F519275733981BFFE2E0BN8PR17MB2979namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: colegiocpmexico.org.mx
+X-MS-Exchange-CrossTenant-Network-Message-Id: 539dfeed-0049-4a70-e45e-08d6bdfe8925
+X-MS-Exchange-CrossTenant-originalarrivaltime: 10 Apr 2019 21:48:46.5429
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: bc0ae707-6cf7-463b-8c3c-8c0594f6933b
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN8PR17MB2850
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  A QUIEN CORRESPONDA SERVICIOS DE CONTABILIDAD Y AUDITORÍA
+   P R E S E N T E El Colegio de Contadores Públicos de México es un enlace natural
+    entre todos y cada uno de los sectores de la Contaduría Públi
+ 
+ Content analysis details:   (0.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: colegiocpmexico.org.mx]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: colegiocpmexico.org.mx]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+X-Spam-Flag: NO
+
+--_005_BN8PR17MB2979D6642F519275733981BFFE2E0BN8PR17MB2979namp_
+Content-Type: multipart/alternative;
+	boundary="_000_BN8PR17MB2979D6642F519275733981BFFE2E0BN8PR17MB2979namp_"
+
+--_000_BN8PR17MB2979D6642F519275733981BFFE2E0BN8PR17MB2979namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+A QUIEN CORRESPONDA
+SERVICIOS DE CONTABILIDAD Y AUDITOR=CDA
+P R E S E N T E
+
+El Colegio de Contadores P=FAblicos de M=E9xico es un enlace natural entre =
+todos y cada uno de los sectores de la Contadur=EDa P=FAblica. Al fomentar =
+el di=E1logo entre colegas, promueve la actualizaci=F3n y la cr=EDtica cons=
+tructiva que fortalecen al gremio.
+Un Contador colegiado se distingue por su rendimiento y profesionalismo. Es=
+ competente en el entorno global de la contadur=EDa, altamente reconocido y=
+ demandado por su calidad profesional y desempe=F1o =E9tico.
+Sabemos del prestigio de la instituci=F3n que usted representa, por ello, m=
+e pongo a sus =F3rdenes y solicito su amable autorizaci=F3n para realizar u=
+na visita a sus instalaciones con la finalidad de dar a conocer a sus coleg=
+as y colaboradores los servicios que ofrece el Colegio.
+Le agradezco su atenci=F3n y quedo en espera de que nos indique la fecha pa=
+ra agendar la visita.
+El Colegio de Contadores P=FAblicos de M=E9xico, es el espacio adecuado par=
+a vincularse, prepararse y convertirse en un asesor integral de negocios.
+
+
+Le env=EDo un cordial saludo y quedo atenta a sus valiosos comentarios,
+
+[cid:image001.png@01D4EFBC.9EAB8D00]
+
+
+Erika L=F3pez Garc=EDa
+Jefa de Membrec=EDa
+
+
+elopez@colegiocpmexico.org.mx<mailto:elopez@colegiocpmexico.org.mx>
+Tel. 1105 1900<tel:11051914> Ext.1914 / 1613
+www.ccpm.org.mx<http://www.ccpm.org.mx>
+
+Bosque de Tabachines 44, Fracc. Bosques de las Lomas, Del. Miguel Hidalgo, =
+C.P. 11700, Ciudad de M=E9xico
+
+
+
+
+
+--_000_BN8PR17MB2979D6642F519275733981BFFE2E0BN8PR17MB2979namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Titillium Web";
+	panose-1:0 0 5 0 0 0 0 0 0 0;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"ES-MX" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"line-height:normal"><b><span style=3D"font-=
+size:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif">A QUIEN CORRESPONDA<=
+/span></b><b><span style=3D"font-size:12.0pt;font-family:&quot;Tahoma&quot;=
+,sans-serif"><o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:normal"><b><span style=3D"font-=
+size:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif">SERVICIOS DE CONTABI=
+LIDAD Y AUDITOR=CDA</span></b><b><span style=3D"font-size:12.0pt;font-famil=
+y:&quot;Tahoma&quot;,sans-serif">
+<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:normal"><span style=3D"font-siz=
+e:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif">P R E S E N T E
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:normal"><span style=3D"font-siz=
+e:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif"><o:p>&nbsp;</o:p></span=
+></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:normal"><spa=
+n style=3D"font-size:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif">El C=
+olegio de Contadores P=FAblicos de M=E9xico es un enlace natural entre todo=
+s y cada uno de los sectores de la Contadur=EDa P=FAblica.
+ Al fomentar el di=E1logo entre colegas, promueve la actualizaci=F3n y la c=
+r=EDtica constructiva que fortalecen al gremio.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:normal"><spa=
+n style=3D"font-size:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif">Un C=
+ontador colegiado se distingue por su rendimiento y profesionalismo. Es com=
+petente en el entorno global de la contadur=EDa, altamente
+ reconocido y demandado por su calidad profesional y desempe=F1o =E9tico.<o=
+:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:normal"><spa=
+n style=3D"font-size:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif">Sabe=
+mos del prestigio de la instituci=F3n que usted representa, por ello, me po=
+ngo a sus =F3rdenes y solicito su amable autorizaci=F3n
+ para realizar una visita a sus instalaciones con la finalidad de dar a con=
+ocer a sus colegas y colaboradores los servicios que ofrece el Colegio.<o:p=
+></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:normal"><spa=
+n style=3D"font-size:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif">Le a=
+gradezco su atenci=F3n y quedo en espera de que nos indique la fecha para a=
+gendar la visita.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:normal"><spa=
+n style=3D"font-size:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif">El C=
+olegio de Contadores P=FAblicos de M=E9xico, es el espacio adecuado para vi=
+ncularse, prepararse y convertirse en un asesor integral
+ de negocios.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:normal"><spa=
+n style=3D"font-size:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif"><o:p=
+>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:normal"><spa=
+n style=3D"font-size:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif"><o:p=
+>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:normal"><spa=
+n style=3D"font-size:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif">Le e=
+nv=EDo un cordial saludo y quedo atenta a sus valiosos comentarios,<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:normal"><spa=
+n style=3D"font-size:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif"><o:p=
+>&nbsp;</o:p></span></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse:collapse">
+<tbody>
+<tr style=3D"height:23.6pt">
+<td width=3D"438" valign=3D"top" style=3D"width:322.25pt;padding:0cm 5.4pt =
+0cm 5.4pt;height:23.6pt">
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;line-height:107%;fon=
+t-family:&quot;Titillium Web&quot;;color:#1F497D;mso-fareast-language:ES-MX=
+"><img width=3D"321" height=3D"52" id=3D"_x0000_i1025" src=3D"cid:image001.=
+png@01D4EFBC.9EAB8D00"></span><span lang=3D"ES-TRAD" style=3D"font-size:12.=
+0pt;line-height:107%;font-family:&quot;Titillium Web&quot;;color:#1F497D"><=
+o:p></o:p></span></p>
+</td>
+</tr>
+<tr style=3D"height:23.6pt">
+<td width=3D"438" valign=3D"top" style=3D"width:322.25pt;padding:0cm 5.4pt =
+0cm 5.4pt;height:23.6pt">
+<p class=3D"MsoNormal" style=3D"line-height:15.0pt;mso-line-height-rule:exa=
+ctly"><span lang=3D"ES-TRAD" style=3D"font-size:18.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:#1B1B1B"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><b><span lang=3D"ES" style=3D"font-size:13.0pt;line-=
+height:107%;font-family:&quot;Arial&quot;,sans-serif;color:#1B1B1B">Erika L=
+=F3pez Garc=EDa</span></b><span lang=3D"ES-TRAD" style=3D"font-size:12.0pt;=
+line-height:107%;color:#1F497D"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:12.0pt;mso-line-height-rule:exa=
+ctly"><span lang=3D"ES" style=3D"font-size:11.5pt;font-family:&quot;Arial&q=
+uot;,sans-serif;color:#7D868E">Jefa de Membrec=EDa</span><b><span lang=3D"E=
+S-TRAD" style=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,sans-serif;=
+color:#7D868E"><o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:12.0pt;mso-line-height-rule:exa=
+ctly"><b><span lang=3D"ES-TRAD" style=3D"font-size:14.0pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:#7D868D"><o:p>&nbsp;</o:p></span></b></p>
+</td>
+</tr>
+<tr style=3D"height:24.7pt">
+<td width=3D"438" valign=3D"top" style=3D"width:322.25pt;padding:0cm 5.4pt =
+0cm 5.4pt;height:24.7pt">
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt;mso-line-height-rule:exa=
+ctly"><span lang=3D"ES-TRAD" style=3D"font-size:11.5pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:black"><a href=3D"mailto:elopez@colegiocpmexico.=
+org.mx">elopez@colegiocpmexico.org.mx</a><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt;mso-line-height-rule:exa=
+ctly"><span lang=3D"ES-TRAD" style=3D"font-size:11.5pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:black">Tel.&nbsp;</span><span lang=3D"ES-TRAD" s=
+tyle=3D"font-size:12.0pt;color:#1F497D"><a href=3D"tel:11051914"><span styl=
+e=3D"font-size:11.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black"=
+>1105
+ 1900</span></a></span><span lang=3D"ES-TRAD" style=3D"font-size:11.5pt;fon=
+t-family:&quot;Arial&quot;,sans-serif;color:black">&nbsp;Ext.1914 / 1613<o:=
+p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt;mso-line-height-rule:exa=
+ctly"><span lang=3D"ES-TRAD" style=3D"font-size:12.0pt;color:#1F497D"><a hr=
+ef=3D"http://www.ccpm.org.mx"><b><span style=3D"font-size:11.5pt;font-famil=
+y:&quot;Arial&quot;,sans-serif;color:#EA0029">www.ccpm.org.mx</span></b></a=
+></span><b><span lang=3D"ES-TRAD" style=3D"font-size:12.0pt;color:#EA0029">=
+<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt;mso-line-height-rule:exa=
+ctly"><b><span lang=3D"ES-TRAD" style=3D"font-size:11.5pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:#EA0029"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt;mso-line-height-rule:exa=
+ctly"><span lang=3D"ES-TRAD" style=3D"font-size:11.5pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:#7D868D">Bosque de Tabachines 44, Fracc. Bosques=
+ de las Lomas, Del. Miguel Hidalgo, C.P. 11700, Ciudad
+ de M=E9xico</span><span lang=3D"ES-TRAD" style=3D"font-size:12.0pt;color:#=
+7D868D"><o:p></o:p></span></p>
+</td>
+</tr>
+<tr style=3D"height:24.7pt">
+<td width=3D"438" valign=3D"top" style=3D"width:322.25pt;padding:0cm 5.4pt =
+0cm 5.4pt;height:24.7pt">
+<p class=3D"MsoNormal" style=3D"line-height:14.0pt;mso-line-height-rule:exa=
+ctly"><span lang=3D"ES-TRAD" style=3D"font-size:11.5pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:black"><img border=3D"0" width=3D"424" height=3D=
+"6" id=3D"Imagen_x0020_2" src=3D"cid:image002.png@01D4EFBC.9EAB8D00"><o:p><=
+/o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:normal"><spa=
+n style=3D"font-size:12.0pt;font-family:&quot;Tahoma&quot;,sans-serif"><o:p=
+>&nbsp;</o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_BN8PR17MB2979D6642F519275733981BFFE2E0BN8PR17MB2979namp_--
+
+--_005_BN8PR17MB2979D6642F519275733981BFFE2E0BN8PR17MB2979namp_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=13972;
+	creation-date="Wed, 10 Apr 2019 21:48:45 GMT";
+	modification-date="Wed, 10 Apr 2019 21:48:45 GMT"
+Content-ID: <image001.png@01D4EFBC.9EAB8D00>
+Content-Transfer-Encoding: base64
+
+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
+RU5ErkJggg==
+
+--_005_BN8PR17MB2979D6642F519275733981BFFE2E0BN8PR17MB2979namp_
+Content-Type: image/png; name="image002.png"
+Content-Description: image002.png
+Content-Disposition: inline; filename="image002.png"; size=573;
+	creation-date="Wed, 10 Apr 2019 21:48:46 GMT";
+	modification-date="Wed, 10 Apr 2019 21:48:46 GMT"
+Content-ID: <image002.png@01D4EFBC.9EAB8D00>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAAagAAAAGCAYAAACW0wrqAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAO
+xAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUATWljcm9zb2Z0IE9mZmljZX/tNXEAAAG9SURBVGhD
+7Zq9S8NAGMafu1ybxNRaJxf/AVFc3F1KQVwcHZwdBMFFHQrSRXARHPoX6CLuzuIkuAu6io620KZJ
+SJvkfKOLixBoST943ywZ7iP3e3N57u6JOju/PJKFwlISxxocIyEgNIWAQ0AdCSQjaZQbmXoCWggB
+rbtCI/y558iRQALTtFUYhJ8qdpvVxu12GeamBx3n+BDcVUYCNoThQz8pSBw7ztxyFEUZq3KxTARI
+nTRdHEzgLwEB0iWWpnxfCpqG0jBgSIlWuVjd279akVi8tyGF4jmaby4y9laGgQ/0rxXNlk7g+yxQ
+GcFxMSbABKaPgFMqoe1365WW+5Cg8mKROH0h4rXChKYyXdrTcYNHAsXBBJgAE5hRAlrDdhz0fP/R
+Ct2LrcZdswJztc3iNBUJpx2uLirFOjVstsh1IpR8pDcsx1mrn1pNbDeNL6tKFdAP+533jbXd09rB
+joX5Q49s4SLvncaXlAw9/+ZHkDIJ8RoNBlHEP0lkwPZvkVSZLGK6wMbTMBhnqy4tWSTJk0tTrZfa
+ILM1uskfTfqJM8h78ix1clOrdZ+xXo8RvwXQCduAk52/AIlBLv7nN+NkgmH+ij+tAAAAAElFTkSu
+QmCC
+
+--_005_BN8PR17MB2979D6642F519275733981BFFE2E0BN8PR17MB2979namp_--

@@ -1,0 +1,803 @@
+Return-Path: <bounce-17_HTML-571925-2846-100015632-142@bounce.promociones.bbva.mx>
+Delivered-To: RAYMUNDO@VPCONSULTORES.COM.MX
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP
+	id GGQLHgdFFV069BMAFq4nlA
+	(envelope-from <bounce-17_HTML-571925-2846-100015632-142@bounce.promociones.bbva.mx>)
+	for <RAYMUNDO@VPCONSULTORES.COM.MX>; Thu, 27 Jun 2019 15:36:55 -0700
+Return-path: <bounce-17_HTML-571925-2846-100015632-142@bounce.promociones.bbva.mx>
+Envelope-to: RAYMUNDO@VPCONSULTORES.COM.MX
+Delivery-date: Thu, 27 Jun 2019 15:36:55 -0700
+Received: from mta.promociones.bbva.mx ([13.111.97.88]:40579)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <bounce-17_HTML-571925-2846-100015632-142@bounce.promociones.bbva.mx>)
+	id 1hgd0c-005e2Y-Dw
+	for RAYMUNDO@VPCONSULTORES.COM.MX; Thu, 27 Jun 2019 15:36:55 -0700
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=10dkim1; d=promociones.bbva.mx;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:List-ID:Message-ID:
+ Content-Type:Content-Transfer-Encoding; i=promociones@promociones.bbva.mx;
+ bh=vCUliegx0IbVgSPxJ5ZrnagzB3TCJVo/AVoDQE+lIag=;
+ b=pfchoWIpnrGb1Af2GI90NMd4ZGkCZNj1F5r5E6/2dgNZLr5MRgzIyblBeKzLYfh2+sTAcjgh8DeS
+   eUZMZWcnVLWkXZ9Eicw05bcbchKuUaogmrnAGKch3QwINzNCsvMP6RHEZoWcx773T9hxWuYm9G+9
+   8sgPfJFDmz7ZfNXTJOiMrQl1fR6drxhU/vewD6ck/cSIq8/3Gf71XtBU1uv9q9ikkzAfgFT7SG9O
+   9b4fvkMNMUTvNM6fC1yeOp01cI4wF4JsWJ1qw4nvcz0blXf/8eZgGj0QlVHAC08hp8OFy9kvF7kk
+   P1XG9v4g0+1NgMHiq8dt0WfxE6cEwNBif7PmKA==
+Received: by mta.promociones.bbva.mx id h2l2fm2fmd4f for <RAYMUNDO@VPCONSULTORES.COM.MX>; Thu, 27 Jun 2019 22:36:03 +0000 (envelope-from <bounce-17_HTML-571925-2846-100015632-142@bounce.promociones.bbva.mx>)
+From: "BBVA" <promociones@promociones.bbva.mx>
+To: <RAYMUNDO@VPCONSULTORES.COM.MX>
+Subject: =?UTF-8?Q?=C2=A1Horlet_Raymundo,_lleg=C3=B3_el_verano!_Y_con_?=
+ =?UTF-8?Q?=C3=A9l_las_mejores_promociones?=
+Date: Thu, 27 Jun 2019 16:36:02 -0600
+List-Unsubscribe: <mailto:leave-fd8315771a3c402029-fec21177746d0678-ff2b16787162-fe3d157075640578731772-ff68157477@leave.promociones.bbva.mx>
+MIME-Version: 1.0
+List-ID: <100015594.xt.local>
+X-CSA-Complaints: whitelistcomplaints@eco.de
+x-job: 100015632_2846
+Message-ID: <bdf98cd2-9e73-4a53-b548-fe955c12e52f@dfw1s10mta361.xt.local>
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: No, score=2.4
+X-Spam-Score: 24
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  BBVA Festejamos nuestro cambio de imagen ¿No puedes ver bien
+    este correo? Haz clic aquí >> 
+ 
+ Content analysis details:   (2.4 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: bbva.mx]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: bbva.mx]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.4 FUZZY_CREDIT           BODY: Attempt to obfuscate words in spam
+  0.0 T_KAM_HTML_FONT_INVALID BODY: Test for Invalidly Named or
+                             Formatted Colors in HTML
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>BBVA</title>
+    <style type="text/css">
+        .fuente{font-family:Helvetica,Arial,sans-serif;text-decoration: none;word-wrap: normal; hyphens: none;}
+        .font2{color:#ffffff;font-size: 15px; line-height: 24px ;font-weight: 300;}
+        .font1{color:#121212;font-size: 15px; line-height: 24px ;font-weight: 300;}
+        .font3{color:#666;font-size:12px;font-weight:300;}
+        .contacto{color:#1973b8;font-size: 15px; line-height: 24px ;font-weight: 400;text-align: center; margin:0 }
+        .legal {color:#666;font-size: 11px; line-height: 14px ;font-weight: 400; margin:0;}
+        body {margin: 0; padding: 0; min-width: 100%!important;}
+        img {height: auto;}  
+        .content {width: 100%; max-width: 600px;}
+        .pre-header{margin: 25px auto 25px;}
+        .header {margin: 25px auto 25px auto;}
+        .h3, h1, h2, .bodycopy1 {font-family: Helvetica,Arial,sans-serif;}
+        .h3 {font-size:20px;line-height:20px;text-align:left;}
+        .h1 {font-size:34px;line-height:36px;text-align:center;}
+        .h2 {font-size: 20px; line-height: 22px;}
+        
+        .bodycopy1 {font-size: 14px; line-height: 22px;font-weight: 300; padding-top: 60px;}
+        .margin {margin-left: 80px; margin-right: 80px;}
+        .margin2 {margin-left: 50px; margin-right: 50px; margin-top: 40px; margin-bottom: 32px;}
+        .margin3 {margin-left: 50px; margin-right: 50px; margin-top: 0px; margin-bottom: 32px;}
+        .margin4 {margin-left: 50px; margin-right: 50px; margin-top: 0px; margin-bottom: 40px;}
+        .margin5{margin-left: 50px; margin-right: 50px; margin-top: 40px; margin-bottom: 0px;}
+        .margin6{margin-left: 50px; margin-right: 50px; margin-top: 32px; margin-bottom: 40px;}
+        
+        @media(max-width:600px){
+   .margin {
+    margin-left: 24px!important;
+                margin-right: 24px!important}
+  }
+        @media(max-width:600px){
+   .margin2 {
+    margin-left: 16px!important;
+                margin-right: 16px!important;
+                margin-top: 24px!important;
+                margin-bottom: 24px!important}
+  } 
+        @media(max-width:600px){
+   .margin3 {
+    margin-left: 16px!important;
+                margin-right: 16px!important;
+                margin-top: 0px!important;
+                margin-bottom: 24px!important}
+  }
+        @media(max-width:600px){
+   .margin4 {
+    margin-left: 16px!important;
+                margin-right: 16px!important;
+                margin-top: 0px!important;
+                margin-bottom: 24px!important}
+  }
+        @media(max-width:600px){
+   .margin5 {
+    margin-left: 16px!important;
+                margin-right: 16px!important;
+                margin-top: 24px!important;
+                margin-bottom: 0px!important}
+  }
+        @media(max-width:600px){
+   .margin6 {
+    margin-left: 16px!important;
+                margin-right: 16px!important;
+                margin-top: 24px!important;
+                margin-bottom: 24px!important}
+  }
+         @media(max-width:600px){
+   .contacto2 {
+    width: 100%!important}
+  }
+        @media(max-width:600px){
+   .contacto3 {
+                text-align: center!important}
+  }
+        
+    </style>
+</head>
+<body bgcolor="#efeeed" style="-moz-box-sizing:border-box;-ms-text-size-adjust:100%;-webkit-box-sizing:border-box;-webkit-text-size-adjust:100%;Margin:0;box-sizing:border-box;margin:0;min-width:100%;padding:0;width:100%!important"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Festejamos nuestro cambio de imagen</div>
+<style>
+/* Apple links fix */
+.apple-data-link, .apple-data-link a {
+    color: inherit !important;
+    text-decoration: none !important; }
+</style>
+<center>
+    <table width="100%" bgcolor="#efeeed" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 100%!important;">
+        <tr>
+            <td>
+            <!--Preheader-->
+                <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td bgcolor="#efeeed">
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" style="margin-bottom:0px;">
+                                <tr>
+                                    <td class="pre-header" style="padding: 0 ">
+                                  <p  class="fuente legal margin6" style="text-align: center;color:#666;font-size: 11px; line-height: 14px ;font-weight: 400;margin-left: 50px; margin-right: 50px; margin-top: 20px; margin-bottom: 20px;">
+                  ¿No puedes ver bien este correo? <a class="link" href="http://view.promociones.bbva.mx/?qs=484a93f10a3ba5c2bd2e7757670f8343c61d483f4ee6d96a8d1af9f943d2d56d3c09c3d81b645bec3cda62aeb5da3c363e992f05cd39328f2d913edcd4e6624b0499b3cb0e943805" target="_blank" style="Margin:0;color:#1973b8;font-family:Helvetica,Arial,sans-serif;font-weight:700;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none; hyphens: none;">Haz clic aquí >> </a>
+                  </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            <!--//Preheader-->
+            <!--header-->
+                <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" height="65" style="height: 65px!important;max-width: 600px;" >
+                    <tr>
+                        <td bgcolor="#072146" style="width: 100%;">
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" style="height:65px;width: 100%;min-width:100%;max-width: 600px; background-color:#072146;  text-align: center;" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <a href="http://click.promociones.bbva.mx/?qs=fe0f205962c37a40d6b356dfc41d386a2ec2da5d2dba87c66158fccea45b33448b12cdb66daeae60c77094c88e991418e925e803063f77a2"     target="_blank"><img class="header" src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/6297d918-3d7a-478c-be48-b367c5e6a9e9.png" border="0" alt="BBVA" style="margin: 21px auto 21px auto!important; width: 84px;"/>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>    
+            <!--//header-->
+            <!--Banner 1-->
+                <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td bgcolor="#ffffff">
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <a href="http://click.promociones.bbva.mx/?qs=fe0f205962c37a40d6b356dfc41d386a2ec2da5d2dba87c66158fccea45b33448b12cdb66daeae60c77094c88e991418e925e803063f77a2"   target="_blank"><img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/3ae0b91f-e5d8-4e14-98d3-264094538812.png" border="0" alt="BBVA" style="width: 100%;margin-bottom: 0px;" />
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>  
+            <!--//Banner 1-->
+            <!--Modulo 1-->
+                <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 0px" >
+                    <tr>
+                        <td bgcolor="#ffffff">
+                            
+                            
+                           
+                        </td>
+                    </tr>
+                </table>  
+            <!--//Modulo 1-->
+            <!--Banner 2-->
+                <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td bgcolor="#ffffff">
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" style="margin-top:32px;" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <a href="http://click.promociones.bbva.mx/?qs=fe0f205962c37a40d6b356dfc41d386a2ec2da5d2dba87c66158fccea45b33448b12cdb66daeae60c77094c88e991418e925e803063f77a2"   target="_blank"><img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/a1d15729-2908-40ad-80ef-b8624ffd8c73.png" border="0" alt="BBVA" style="width: auto;height:auto;margin-bottom: 0px;" />
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>  
+            <!--//Banner 2-->
+            <!--Modulo 2-->
+                <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 28px" >
+                    <tr>
+                        <td bgcolor="#ffffff">
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <h2 style="margin-top: 40px; margin-bottom: 16px; color:#121212;text-align: center;">
+                                    6 meses sin intereses 
+                                        </h2>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <p class="fuente font2 margin" style="text-align: center; margin-top: 0px; margin-bottom: 16px;color:#121212;">
+                                           Durante todo junio en toda la tienda con BBVA. 
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <table cellspacing="0" cellpadding="0" style="display: inline-block; margin-bottom: 40px">
+                                            <tbody>
+                                                <tr>
+                                                <td  align="left"> 
+                                                    
+                                                <a href="http://click.promociones.bbva.mx/?qs=fe0f205962c37a40d6b356dfc41d386a2ec2da5d2dba87c66158fccea45b33448b12cdb66daeae60c77094c88e991418e925e803063f77a2"   target="_blank" style="text-decoration: none"  ><p class="fuente font2" style="margin: 0; font-weight: 700;color:#1973b8" >Compra aquí &#8250;</p></a>
+                                                </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>  
+            <!--//Modulo 2-->
+            <!--Banner 3-->
+            <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td bgcolor="#ffffff">
+                        <table  align="center" border="0" cellpadding="0" cellspacing="0" style="margin-top:32px;" >
+                            <tr>
+                                <td  style="padding: 0 ">
+                                    <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9db758942152844b30eda50e9b651cc96358c22d2b1ab863e27b455bf5b72d8cf492f3e53d2668d994a9666db10e8c0a70"   target="_blank"><img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/892ac210-af39-4e95-a0c0-296af7c7f60b.png" border="0" alt="BBVA" style="width: auto;height:auto;margin-bottom: 0px;" />
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>  
+        <!--//Banner 3-->
+        <!--Modulo 3-->
+            <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 28px" >
+                <tr>
+                    <td bgcolor="#ffffff">
+                        <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                            <tr>
+                                <td  style="padding: 0 ">
+                                    <h2 style="margin-top: 40px; margin-bottom: 16px; color:#121212;text-align: center;">
+                                    Compra hoy y paga en octubre 
+                                    </h2>
+                                </td>
+                            </tr>
+                        </table>
+                        <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                            <tr>
+                                <td  style="padding: 0 ">
+                                    <p class="fuente font2 margin" style="text-align: center; margin-top: 0px; margin-bottom: 16px;color:#121212;">
+                                    A 3 o 6 meses sin intereses en compras a partir de $2,000 pesos M. N. Válido en tiendas físicas de la República Mexicana. 
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                        <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                            <tr>
+                                <td  style="padding: 0 ">
+                                    <table cellspacing="0" cellpadding="0" style="display: inline-block; margin-bottom: 40px">
+                                        <tbody>
+                                            <tr>
+                                            <td  align="left"> 
+                                                
+                                            <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9db758942152844b30eda50e9b651cc96358c22d2b1ab863e27b455bf5b72d8cf492f3e53d2668d994a9666db10e8c0a70"   target="_blank" style="text-decoration: none"  ><p class="fuente font2" style="margin: 0; font-weight: 700;color:#1973b8" >Encuentra una tienda &#8250;</p></a>
+                                            </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>  
+        <!--//Modulo 3-->
+        <!--Banner 2-->
+        <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td bgcolor="#ffffff">
+                    <table  align="center" border="0" cellpadding="0" cellspacing="0" style="margin-top:32px;" >
+                        <tr>
+                            <td  style="padding: 0 ">
+                                <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9d3af883319e011a0771fb995ea2ba9a14f6073adc3a46848db7b711a9de0d663d18e87fb2249dc8dcf170582de0084410"   target="_blank"><img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/c99bc5e5-90da-43a8-af3e-8e4309756372.png" border="0" alt="BBVA" style="width: auto;height:auto;margin-bottom: 0px;" />
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>  
+    <!--//Banner 2-->
+    <!--Modulo 2-->
+        <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 28px" >
+            <tr>
+                <td bgcolor="#ffffff">
+                    <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                        <tr>
+                            <td  style="padding: 0 ">
+                                <h2 style="margin-top: 40px; margin-bottom: 16px; color:#121212;text-align: center;">
+                            Bono de 20% 
+                                </h2>
+                            </td>
+                        </tr>
+                    </table>
+                    <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                        <tr>
+                            <td  style="padding: 0 ">
+                                <p class="fuente font2 margin" style="text-align: center; margin-top: 0px; margin-bottom: 16px;color:#121212;">
+                                 Al transferir tus Puntos Bancomer a Avios durante todo julio. 
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                        <tr>
+                            <td  style="padding: 0 ">
+                                <table cellspacing="0" cellpadding="0" style="display: inline-block; margin-bottom: 40px">
+                                    <tbody>
+                                        <tr>
+                                        <td  align="left"> 
+                                            
+                                        <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9d3af883319e011a0771fb995ea2ba9a14f6073adc3a46848db7b711a9de0d663d18e87fb2249dc8dcf170582de0084410"   target="_blank" style="text-decoration: none"  ><p class="fuente font2" style="margin: 0; font-weight: 700;color:#1973b8" >Transfiere tus Puntos  &#8250;</p></a>
+                                        </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>  
+    <!--//Modulo 2-->
+    <!--Banner 3-->
+    <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td bgcolor="#ffffff">
+                <table  align="center" border="0" cellpadding="0" cellspacing="0" style="margin-top:32px;" >
+                    <tr>
+                        <td  style="padding: 0 ">
+                            <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9dc247c68b7b8d85013d3ae81b3e2ee16d7fa8c1d1b7b8bab22f5f88b911145a77056a00fb537046948fe3d20f77ad32ac"   target="_blank"><img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/eb4c8134-9c9d-472a-b0bf-41e5bf17d3e2.png" border="0" alt="BBVA" style="width: auto;height:auto;margin-bottom: 0px;" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>  
+<!--//Banner 3-->
+<!--Modulo 3-->
+    <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 28px" >
+        <tr>
+            <td bgcolor="#ffffff">
+                <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                    <tr>
+                        <td  style="padding: 0 ">
+                            <h2 style="margin-top: 40px; margin-bottom: 16px; color:#121212;text-align: center;">
+                         18 meses sin intereses 
+                            </h2>
+                        </td>
+                    </tr>
+                </table>
+                <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                    <tr>
+                        <td  style="padding: 0 ">
+                            <p class="fuente font2 margin" style="text-align: center; margin-top: 0px; margin-bottom: 16px;color:#121212;">
+                                En Electrónica, Línea Blanca, Telefonía Celular y más en compras a partir de $1,200 pesos M. N. Válido del 28 de junio al 1 de julio. 
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                    <tr>
+                        <td  style="padding: 0 ">
+                            <table cellspacing="0" cellpadding="0" style="display: inline-block; margin-bottom: 40px">
+                                <tbody>
+                                    <tr>
+                                    <td  align="left"> 
+                                        
+                                    <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9dc247c68b7b8d85013d3ae81b3e2ee16d7fa8c1d1b7b8bab22f5f88b911145a77056a00fb537046948fe3d20f77ad32ac"   target="_blank" style="text-decoration: none"  ><p class="fuente font2" style="margin: 0; font-weight: 700;color:#1973b8" >Compra aquí  &#8250;</p></a>
+                                    </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>  
+<!--//Modulo 3-->
+     <!--Banner 4-->
+                <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td bgcolor="#ffffff">
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" style="margin-top:32px;" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9dc06be9c278809f8f20b08bd15ee75b75555b9f6361a3324dae3f7ac784c60a9c2cd7db5ba8bc44c4e4c73d9635fa79c6"   target="_blank"><img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/e651e314-9c15-4bb8-843b-e5c9872af496.png" border="0" alt="BBVA" style="width: auto;height:auto;margin-bottom: 0px;" />
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>  
+            <!--//Banner 4-->
+            <!--Modulo 4-->
+                <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 28px" >
+                    <tr>
+                        <td bgcolor="#ffffff">
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <h2 style="margin-top: 40px; margin-bottom: 16px; color:#121212;text-align: center;">
+                                     Usa tus Puntos 
+                                        </h2>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <p class="fuente font2 margin" style="text-align: center; margin-top: 0px; margin-bottom: 16px;color:#121212;">
+                                          ¡Cientos de comercios te esperan para que uses tus Puntos Bancomer y compres gratis lo que quieras! 
+          </p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <table cellspacing="0" cellpadding="0" style="display: inline-block; margin-bottom: 40px">
+                                            <tbody>
+                                                <tr>
+                                                <td  align="left"> 
+                                                    
+                                                <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9dc06be9c278809f8f20b08bd15ee75b75555b9f6361a3324dae3f7ac784c60a9c2cd7db5ba8bc44c4e4c73d9635fa79c6"   target="_blank" style="text-decoration: none"  ><p class="fuente font2" style="margin: 0; font-weight: 700;color:#1973b8" >Conócelos &#8250;</p></a>
+                                                </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>  
+            <!--//Modulo 4-->
+     <!--Banner 5-->
+                <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td bgcolor="#ffffff">
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" style="margin-top:32px;" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9d191e93da639325c4f095f9506f1a4e415ae76a884f8af2590dbbd7b7263452075523d5c2a1561c58364617d31aa40825"   target="_blank"><img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/362acf0e-fbc0-48b2-8831-b4c62d531ef1.png" border="0" alt="BBVA" style="width: auto;height:auto;margin-bottom: 0px;" />
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>  
+            <!--//Banner 5-->
+            <!--Modulo 5-->
+                <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 28px" >
+                    <tr>
+                        <td bgcolor="#ffffff">
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <h2 style="margin-top: 40px; margin-bottom: 16px; color:#121212;text-align: center;">
+                                  Gana Puntos Dobles 
+                                        </h2>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <p class="fuente font2 margin" style="text-align: center; margin-top: 0px; margin-bottom: 16px;color:#121212;">
+                                           Al reservar tus vuelos con Aeroméxico a los mejores destinos desde tu app BBVA Wallet, la manera más segura de comprar por internet.
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <table cellspacing="0" cellpadding="0" style="display: inline-block; margin-bottom: 40px">
+                                            <tbody>
+                                                <tr>
+                                                <td  align="left"> 
+                                                    
+                                                <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9d191e93da639325c4f095f9506f1a4e415ae76a884f8af2590dbbd7b7263452075523d5c2a1561c58364617d31aa40825"   target="_blank" style="text-decoration: none"  ><p class="fuente font2" style="margin: 0; font-weight: 700;color:#1973b8" >Reserva tu vuelo &#8250;</p></a>
+                                                </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>  
+            <!--//Modulo 5-->
+    
+     <!--Banner 7-->
+                <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td bgcolor="#ffffff">
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" style="margin-top:32px;" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9d788833c3f6d9582e89ecbe6874f5327796a611d75d82b4ff784eb924cf96f8899d5aaaa7720ab076e8c65930020ac5bf"   target="_blank"><img  src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/eaf515cc-3a69-4500-89ff-5f477b731019.png" border="0" alt="BBVA" style="width: auto;height:auto;margin-bottom: 0px;" />
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>  
+            <!--//Banner 7-->
+            <!--Modulo 7-->
+                <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 28px" >
+                    <tr>
+                        <td bgcolor="#ffffff">
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <h2 style="margin-top: 40px; margin-bottom: 16px; color:#121212;text-align: center;">
+                                    Paga con tu celular
+                                        </h2>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <p class="fuente font2 margin" style="text-align: center; margin-top: 0px; margin-bottom: 16px;color:#121212;">
+                                        ¿Olvidaste tu cartera? ¡No te preocupes! En Farmacias Guadalajara puedes pagar con tu teléfono celular y tu app BBVA Wallet.
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                                <tr>
+                                    <td  style="padding: 0 ">
+                                        <table cellspacing="0" cellpadding="0" style="display: inline-block; margin-bottom: 40px">
+                                            <tbody>
+                                                <tr>
+                                                <td  align="left"> 
+                                                    
+                                                <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9d788833c3f6d9582e89ecbe6874f5327796a611d75d82b4ff784eb924cf96f8899d5aaaa7720ab076e8c65930020ac5bf"   target="_blank" style="text-decoration: none"  ><p class="fuente font2" style="margin: 0; font-weight: 700;color:#1973b8" >Encuentra una tienda &#8250;</p></a>
+                                                </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>  
+            <!--//Modulo 7-->
+    
+     
+            <!--Contacto y RSS-->
+            <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                    <td bgcolor="#ffffff">
+
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" style="padding: 24px 30px 24px 30px;width: 100%;text-align: center" bgcolor="#ffffff">
+                            <tr>
+                                <td class="contacto2"  style="display: inline-block;padding: 0; width:32%;" bgcolor="#ffffff">
+                                    <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9d871e0bed5e2b1e6d45235aafd50a0681246706db1762e326d0632086220a6c52ad728bb506a120c1705f32fa34b9c7e0" target="_blank" style="text-decoration: none"><p class="fuente contacto contacto3" style="color:#1973b8; text-align: left;margin: 0;" >Usa la app de BBVA</p></a>
+
+                                </td>
+                                <td class="contacto2"  style="display: inline-block;padding: 0; width:32%;" bgcolor="#ffffff">
+                                    <a href="tel:01800-226-2663"  target="_blank" style="text-decoration: none"><p class="fuente contacto contacto3" style="color:#1973b8; text-align: center;margin: 0;">01800 226 2663</p></a>
+
+                                </td>
+
+                                <td class="contacto2" style="display: inline-block;padding: 0; width: 32%;" bgcolor="#ffffff">
+                                    <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9d1a63c1fd29a224ed9c154c9e42fe1f6522512427f59368d43f5098c736aed255461180daa64d4e67a46ef38d205c1cc1"  target="_blank" style="text-decoration: none"><p class="fuente contacto contacto3" style="color:#1973b8; text-align: right;margin: 0;" >Busca una sucursal</p></a>
+
+                                </td>
+
+                            </tr>
+                        </table>
+                        <table  align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; text-align: center;">
+                            <tr>
+                                <td  style="padding: 0 ">
+                                    <table cellspacing="0" cellpadding="0" style="display: inline-block; margin-bottom: 24px">
+                                        <tbody>
+                                            <tr>
+                                            <td  align="center">
+                                            <p class="fuente font1" style="text-align: center;margin-top: 0;margin-bottom: 16px">S&iacute;guenos en:</p>
+
+                                            <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9dd9224c71d884935e7eff9c3a62682cdd6104aa03003a17b4a5d251a1d82f408150f91ace8420d08d92fa1a6d57a7ecb1" target="_blank" style="text-decoration: none!important;"  >
+                                                <img alt="" src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/91d4f79a-4f6e-4cb6-a854-834f8a2a4b4a.png" style="width: 24px; max-width: 24px; margin-right: 6px;text-decoration: none;" /></a>
+                                            <a href="http://click.promociones.bbva.mx/?qs=aafecfbf2bedad9dad136b95308a48bd89b1168f90cf25e2f92a8e0a3d49709d61f0e7bdf5ff6cfef7e02617ca1c8923c9dac7aabd9917cb"   target="_blank" style="text-decoration: none!important;"  >
+                                                <img alt="" src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/a6736245-00e8-4187-9f48-44ab977f54f1.png" style="width: 24px; max-width: 24px;margin-left: 6px;text-decoration: mone!important;" /></a>
+                                            </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        <!--Contacto y RSS-->
+        <!--Unsuscribe y Razon social-->
+            <table bgcolor="#f4f4f4" class="content" align="center" cellpadding="0" cellspacing="0" border="0" >
+                <tr>
+                    <td bgcolor="#f4f4f4">
+
+                        <table  align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                            <tr>
+                                <td  style="padding: 0 ">
+                                    <p class="fuente font1 margin2" style="text-align: center;margin-left: 50px; margin-right: 50px; margin-top: 40px; margin-bottom: 32px;font-weight: 300;color:#121212;font-size: 13px; line-height: 17px ; ">Te enviamos este correo porque est&aacute;s suscrito para recibir promociones, beneficios y ofertas especiales. Si ya no lo deseas puedes dar <a class="link" href="http://click.promociones.bbva.mx/?qs=e3a395800fd7e1ef3cdf05045645b458909929e882d3dda806872e12167065b5c3cfdaa38aa8ad7f6f676b70683b42aff89df4630f0348e0" target="_blank" style="Margin:0;color:#1973b8;font-family:Helvetica,Arial,sans-serif;font-weight:700;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none; hyphens: none;">clic aqu&iacute;.</a></p>
+                                </td>
+                            </tr>
+                        </table>
+                        <table  align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%;text-align: center">
+                            <tr>
+                                <td  style="padding: 0;">
+                                    <img alt="" class="margin3" src="http://image.promociones.bbva.mx/lib/fe3d157075640578731772/m/3/04cbaa12-2dd2-447e-9b57-ea8967269e60.png" style="width: 232px;margin-left: 50px; margin-right: 50px; margin-top: 0px; margin-bottom: 32px;" />
+                                </td>
+                            </tr>
+                        </table>
+                        <table  align="center" border="0" cellpadding="0" cellspacing="0" >
+                            <tr>
+                                <td  style="padding: 0 ">
+                                    <table cellspacing="0" cellpadding="0" style="display: inline-block; ">
+                                        <tbody>
+                                            <tr>
+                                            <td  align="center">
+                                            <p class="fuente font1 margin4" style="text-align: center;margin-left: 50px; margin-right: 50px; margin-top: 0px; margin-bottom: 40px;font-weight: 300;color:#121212!important;font-size: 11px; line-height: 14px ;text-decoration: none!important; ">BBVA Bancomer, S.A., Instituci&oacute;n de Banca M&uacute;ltiple, Grupo Financiero BBVA Bancomer.
+                                            Avenida Paseo de la Reforma 510, colonia Ju&aacute;rez, c&oacute;digo postal 06600, alcald&iacute;a Cuauht&eacute;moc, Ciudad de M&eacute;xico.</p>
+                                            </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        <!--Unsuscribe y Razon social-->
+        <!--Legales-->
+            <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0" >
+                <tr>
+                    <td bgcolor="#ffffff">
+
+                        <table  align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                            <tr>
+                                <td  style="padding: 0 ">
+                                    <p class="fuente legal margin5" style="margin-left: 50px; margin-right: 50px; margin-top: 40px; margin-bottom: 0px;color:#666;font-size: 11px; line-height: 14px ;font-weight: 400;">
+          <a style="font-weight:700; font-size:18px;">CAT 91.4%</a> sin IVA. Tasa de interés promedio ponderada por saldo en términos anuales del <a style="font-weight:700; font-size:14px;">63.12%</a> y comisión anual de $1033.00 sin IVA. Informativo. Fecha de cálculo: 28 de febrero de 2019.
+<br /><br />
+          CAT meses sin intereses <a style="font-weight:700; font-size:18px;">CAT 91.4%</a> sin IVA. Tasa de interés promedio ponderada por saldo en términos anuales <a style="font-weight:700; font-size:14px;">0.0%</a> y comisión anual de $1033.00 sin IVA. Informativo. Fecha de cálculo: 28 de febrero de 2019. 
+
+<br /><br />
+
+
+Vigencia del 1 al 30 de junio de 2019. Consulta  Consulta términos y condiciones de la <a href="http://click.promociones.bbva.mx/?qs=e3a395800fd7e1ef465ecb076ecb477a4e41900d24c4e52b62c2bb45adadf450b858e303e5c58cb44a15fd55e39ef6aa90111add163409b6"  target="_blank" style="font-weight: bold; text-decoration: none; color:#237aba;">promoción de Chedraui.</a>
+<br /><br />
+
+Vigencia del 20 de junio al 17 de julio de 2019. Consulta términos y condiciones de la <a href="http://click.promociones.bbva.mx/?qs=e3a395800fd7e1ef637d006e72970f3746d4998868b18c533ec7117505e8bcc746958330dee71f6612e07e23fa8b42392d4f3839ff4b7480"  target="_blank" style="font-weight: bold; text-decoration: none; color:#237aba;">promoción de Best Buy.</a>
+<br /><br />
+
+Vigencia del 1 al 31 de julio de 2019.  Consulta términos y condiciones de la <a href="http://click.promociones.bbva.mx/?qs=e3a395800fd7e1ef4270cd511f6ffb43472358c5bd2d91675b6552190f4ddb730e92f92bed100b604ddd825cc2ae9d1db0d2320e10858856"  target="_blank" style="font-weight: bold; text-decoration: none; color:#237aba;">promoción de Avios.</a>
+<br />
+<br />
+
+Vigencia del 28 de junio al 1 de julio de 2019.   Consulta términos y condiciones de la <a href="http://click.promociones.bbva.mx/?qs=e3a395800fd7e1ef36acef1dd3e43d33664e4881539724d82498b081fa455f2ebad7504e8a0d6999817e009db2b232025b9bb12a5928a3a1"  target="_blank" style="font-weight: bold; text-decoration: none; color:#237aba;">promoción de Walmart. </a>
+<br /><br />
+
+
+Vigencia del 1 al 30 de junio de 2019.  Consulta términos y condiciones de la <a href="http://click.promociones.bbva.mx/?qs=e3a395800fd7e1efa53943cba653291212b08276e0769e3c5287c777e7eecb4b999f5add4b6bdf18c9b4b1d4aa257ef3986cc27321fa72ce"  target="_blank" style="font-weight: bold; text-decoration: none; color:#237aba;">promoción de Aeroméxico.</a>
+<br /><br />
+
+
+
+
+
+ Los productos que aquí se exhiben son responsabilidad exclusiva del proveedor. BBVA Bancomer, S.A. Institución de Banca Múltiple, Grupo Financiero BBVA Bancomer no se hace responsable de la calidad, marca ni precios de los mismos, por lo que la relación contractual es únicamente entre el cliente que los adquiere y el proveedor que los ofrece. <br /><br />
+ 
+  Consulta términos y condiciones de los <strong><a href="http://click.promociones.bbva.mx/?qs=e3a395800fd7e1ef7adc2f4e0feca403b8a5419845eca0605933d07557616bf1243bbb95a7f1d952c0c088dbf713107abc149f872569bb59"  target="_blank" style="text-decoration: none; color:   #237aba">Puntos Bancomer.</a> </strong>
+               <br /><br />
+
+                Consulta términos, condiciones, comisiones y requisitos de la promoción <a href="http://click.promociones.bbva.mx/?qs=e3a395800fd7e1ef75004f9b7b72ba46cf85e25325fb27e24ee84a6a4baee9539ffc182fd30a67dccfe46778ab51b25ddc3c9a9aa04bedc1" style="font-weight: bold; text-decoration: none; color:#1973B8;" target="_blank">tarjetas de crédito</a>. Aplican restricciones.
+          <br /><br />
+         Consulta términos, condiciones y requisitos de contratación de la aplicación <a href="http://click.promociones.bbva.mx/?qs=e3a395800fd7e1efe1987e23471417c8acc398218a10811c84f799c7adbb370a7960428e9af46fb7b07d76ebf1082660755eefe662c58de4" style="font-weight: bold; text-decoration: none; color:#1973B8;" target="_blank">BBVA Wallet</a>.
+         </p>
+         
+
+                                </td>
+                            </tr>
+                        </table>
+                        <!--NO BORRAR-->
+                        <table  align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                            <tr>
+                                <td  style="padding: 0 ">
+                                    <p class="fuente legal margin3" style="color:#666;font-size: 11px; line-height: 14px ;font-weight: 400; margin:0;margin-left: 50px; margin-right: 50px; margin-top: 0px; margin-bottom: 32px;">
+                                     
+                                    </p>
+                                   <p class="fuente legal margin6" style="text-align: right;color:#666;font-size: 11px; line-height: 14px ;font-weight: 400;margin-left: 50px; margin-right: 50px; margin-top: 32px; margin-bottom: 0px;">O01AC</p>
+                                   <p class="fuente legal margin6" style="text-align: right;color:#666;font-size: 11px; line-height: 14px ;font-weight: 400;margin-left: 50px; margin-right: 50px; margin-top: 20px; margin-bottom: 40px;">WF-154417</p>
+                                </td>
+                            </tr>
+                        </table> 
+            <!--//Legales-->
+            
+            </td>
+        </tr>
+    </table>
+   </td></tr></table></center>
+  <img src="http://click.promociones.bbva.mx/open.aspx?ffcb10-ff2b16787162-fec111787d61077c-fe3d157075640578731772-ff971577-fec21177746d0678-ff68157477" width="1" height="1">
+</body>
+</html>

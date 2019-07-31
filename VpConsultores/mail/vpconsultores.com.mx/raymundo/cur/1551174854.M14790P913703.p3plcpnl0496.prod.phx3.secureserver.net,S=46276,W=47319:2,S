@@ -1,0 +1,1043 @@
+Return-Path: <0100016929393946-17e6d05b-b8fa-42e1-b1c3-d46b505b1489-000000@amazonses.com>
+Delivered-To: raymundo@vpconsultores.com.mx
+Received: from p3plcpnl0496.prod.phx3.secureserver.net
+	by p3plcpnl0496.prod.phx3.secureserver.net with LMTP id EGmNOsUMdVwn8Q0AFq4nlA
+	for <raymundo@vpconsultores.com.mx>; Tue, 26 Feb 2019 02:54:14 -0700
+Return-path: <0100016929393946-17e6d05b-b8fa-42e1-b1c3-d46b505b1489-000000@amazonses.com>
+Envelope-to: raymundo@vpconsultores.com.mx
+Delivery-date: Tue, 26 Feb 2019 02:54:14 -0700
+Received: from a9-115.smtp-out.amazonses.com ([54.240.9.115]:58414)
+	by p3plcpnl0496.prod.phx3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-SHA256:128)
+	(Exim 4.91)
+	(envelope-from <0100016929393946-17e6d05b-b8fa-42e1-b1c3-d46b505b1489-000000@amazonses.com>)
+	id 1gyZRD-005OPs-5B
+	for raymundo@vpconsultores.com.mx; Tue, 26 Feb 2019 02:54:13 -0700
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=vopt2gmtvbgbc62fj5t6nuv5ovopezuf; d=elconta.com; t=1551174810;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type;
+	bh=ydGg4kenXTggednJtXpavCjbE8R/H9uEGueo/lhsBEo=;
+	b=NQjnZBTMBxG6VcpY6ScTBHSYQbQELu663bECC/OjzOB9srdaRoRonJOvBc6EtVfZ
+	BJHI+K4Gs3a/oSLrZjdrIyxh52h5wN/OTrwXGsPLngxQo2g+pObYXHz3mxdblJK34Td
+	AGAmyXz1jPoC3Z6KjE3g9Rrih7uQLWbKTwnF+8EA=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1551174810;
+	h=Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Feedback-ID;
+	bh=ydGg4kenXTggednJtXpavCjbE8R/H9uEGueo/lhsBEo=;
+	b=gnm616v1m7L/Z8GYdPsCd690ayzTEou0hPFIveMEF0sBMHOpojghCp8iQRIdLSeh
+	fRh1QaVTgbryGX8dT5SD5sAmRibsTXdLUoro1yy9eMKLLqXO0UgjCK+xrSNlKqfCKWV
+	cug6npZ92aeebFIp7nGeyQIqSx+6LgmulzX/wGfI=
+Date: Tue, 26 Feb 2019 09:53:29 +0000
+To: raymundo@vpconsultores.com.mx
+From: "Cursos ElConta.Com" <cursos@elconta.com>
+Reply-To: "Cursos ElConta.Com" <cursos@elconta.com>
+Subject: =?UTF-8?Q?=E2=8F=B0_Jueves_28_4PM:_Las_empresas_CONSTRUCTORAS_y_la_Seguri?=
+ =?UTF-8?Q?dad_Social_=E2=8F=B0?=
+Message-ID: <0100016929393946-17e6d05b-b8fa-42e1-b1c3-d46b505b1489-000000@email.amazonses.com>
+X-Mailer: Sendy (https://sendy.co)
+List-Unsubscribe: <http://correos.elconta.mx/unsubscribe/JvAVxDP8bgN87630pS4P2P1GcsK2cgggVapROUcs4Tyng/sHf9lRxpnszMGGUbB6weDg/pzam0L9Ry5b45NsyzKHVSw>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-SES-Outgoing: 2019.02.26-54.240.9.115
+Feedback-ID: 1.us-east-1.DkWvtcCI6J0G1/6vBjuXDrPZcjXUlyjqaIVBQ/xHQGw=:AmazonSES
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "p3plcpnl0496.prod.phx3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  *|MC:SUBJECT|* PRIMERA Sesión de TRES que conforman todo
+   lo relativo a la Seguridad Social en las empresas constructoras. Ver versión
+    web Las empresas CONSTRUCTORAS y la Seguridad Social. Expositor
+ 
+ Content analysis details:   (1.3 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mailchimp.com]
+  0.0 SURBL_BLOCKED          ADMINISTRATOR NOTICE: The query to SURBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mailchimp.com]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [54.240.9.115 listed in wl.mailspike.net]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or identical to
+                             background
+  1.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<head><!-- NAME: 1 COLUMN - BANDED --><!--[if gte mso 15]>
+		<xml>
+			<o:OfficeDocumentSettings>
+			<o:AllowPNG/>
+			<o:PixelsPerInch>96</o:PixelsPerInch>
+			</o:OfficeDocumentSettings>
+		</xml>
+		<![endif]--><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>*|MC:SUBJECT|*</title>
+	<style type="text/css">p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		.templateContainer{
+			max-width:600px !important;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	*/
+		body,#bodyTable{
+			/*@editable*/background-color:#FAFAFA;
+		}
+	/*
+	@tab Page
+	@section Background Style
+	@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+	*/
+		#bodyCell{
+			/*@editable*/border-top:0;
+		}
+	/*
+	@tab Page
+	@section Heading 1
+	@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+	@style heading 1
+	*/
+		h1{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:26px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@style heading 2
+	*/
+		h2{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:22px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@style heading 3
+	*/
+		h3{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:20px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section Heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+	@style heading 4
+	*/
+		h4{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:18px;
+			/*@editable*/font-style:normal;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			/*@editable*/letter-spacing:normal;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Preheader
+	@section Preheader Style
+	@tip Set the background color and borders for your email's preheader area.
+	*/
+		#templatePreheader{
+			/*@editable*/background-color:#FAFAFA;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:9px;
+		}
+	/*
+	@tab Preheader
+	@section Preheader Text
+	@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+	*/
+		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
+			/*@editable*/color:#656565;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Preheader
+	@section Preheader Link
+	@tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+	*/
+		#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a{
+			/*@editable*/color:#656565;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Header
+	@section Header Style
+	@tip Set the background color and borders for your email's header area.
+	*/
+		#templateHeader{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:0;
+		}
+	/*
+	@tab Header
+	@section Header Text
+	@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+	*/
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section Header Link
+	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	*/
+		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Body
+	@section Body Style
+	@tip Set the background color and borders for your email's body area.
+	*/
+		#templateBody{
+			/*@editable*/background-color:#FFFFFF;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:9px;
+		}
+	/*
+	@tab Body
+	@section Body Text
+	@tip Set the styling for your email's body text. Choose a size and color that is easy to read.
+	*/
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/color:#202020;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section Body Link
+	@tip Set the styling for your email's body links. Choose a color that helps them stand out from your text.
+	*/
+		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+			/*@editable*/color:#2BAADF;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	/*
+	@tab Footer
+	@section Footer Style
+	@tip Set the background color and borders for your email's footer area.
+	*/
+		#templateFooter{
+			/*@editable*/background-color:#FAFAFA;
+			/*@editable*/border-top:0;
+			/*@editable*/border-bottom:0;
+			/*@editable*/padding-top:9px;
+			/*@editable*/padding-bottom:9px;
+		}
+	/*
+	@tab Footer
+	@section Footer Text
+	@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+	*/
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/color:#656565;
+			/*@editable*/font-family:Helvetica;
+			/*@editable*/font-size:12px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:center;
+		}
+	/*
+	@tab Footer
+	@section Footer Link
+	@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+	*/
+		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+			/*@editable*/color:#656565;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#bodyCell{
+			padding-top:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImage{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardTopImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardBottomImageContent{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockInner{
+			padding-top:0 !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockOuter{
+			padding-top:9px !important;
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent,.mcnBoxedTextContentColumn{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+			padding-right:18px !important;
+			padding-bottom:0 !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 1
+	@tip Make the first-level headings larger in size for better readability on small screens.
+	*/
+		h1{
+			/*@editable*/font-size:22px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 2
+	@tip Make the second-level headings larger in size for better readability on small screens.
+	*/
+		h2{
+			/*@editable*/font-size:20px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 3
+	@tip Make the third-level headings larger in size for better readability on small screens.
+	*/
+		h3{
+			/*@editable*/font-size:18px !important;
+			/*@editable*/line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Heading 4
+	@tip Make the fourth-level headings larger in size for better readability on small screens.
+	*/
+		h4{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Boxed Text
+	@tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Preheader Visibility
+	@tip Set the visibility of the email's preheader on small screens. You can hide it to save space.
+	*/
+		#templatePreheader{
+			/*@editable*/display:block !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Preheader Text
+	@tip Make the preheader text larger in size for better readability on small screens.
+	*/
+		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Header Text
+	@tip Make the header text larger in size for better readability on small screens.
+	*/
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Body Text
+	@tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+	*/
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			/*@editable*/font-size:16px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+	/*
+	@tab Mobile Styles
+	@section Footer Text
+	@tip Make the footer content text larger in size for better readability on small screens.
+	*/
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			/*@editable*/font-size:14px !important;
+			/*@editable*/line-height:150% !important;
+		}
+
+}
+	</style>
+	<script type="text/javascript">
+                    var w=window;
+                    if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document,AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(a,b){AKSB.q.push(["mark",a,b||(new Date).getTime()])};AKSB.measure=function(a,b,c){AKSB.q.push(["measure",a,b,c||(new Date).getTime()])};AKSB.done=function(a){AKSB.q.push(["done",a])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"222777",ustr:"ECDHE-RSA-AES256-GCM-SHA384",originlat:0,clientrtt:82,ghostip:"23.67.253.211",
+                    ipv6:false,pct:10,clientip:"177.240.238.144",requestid:"4d2aa19",protocol:"",blver:7,akM:"x",akN:"ae",akTT:"O",akTX:"1",akTI:"4d2aa19",ai:"199322",ra:""};(function(a){var b=d.createElement("script");b.async="async";b.src=a;a=d.getElementsByTagName("script");a=a[a.length-1];a.parentNode.insertBefore(b,
+                    a)})(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")};
+                  </script>
+</head>
+<body>
+<center>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" id="bodyTable" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" id="bodyCell" valign="top"><!-- BEGIN TEMPLATE // -->
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tbody>
+					<tr>
+						<td align="center" id="templatePreheader" valign="top"><!--[if gte mso 9]>
+									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+									<tr>
+									<td align="center" valign="top" width="600" style="width:600px;">
+									<![endif]-->
+						<table align="center" border="0" cellpadding="0" cellspacing="0" class="templateContainer" width="100%">
+							<tbody>
+								<tr>
+									<td class="preheaderContainer" valign="top">
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width:100%;" width="100%">
+										<tbody class="mcnTextBlockOuter">
+											<tr>
+												<td class="mcnTextBlockInner" valign="top">
+												<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" width="366">
+													<tbody>
+														<tr>
+															<td class="mcnTextContent" style="padding-top:9px; padding-left:18px; padding-bottom:9px; padding-right:0;" valign="top"><span style="color:#FF0000;"><strong>PRIMERA Sesi&oacute;n de TRES que conforman todo lo relativo a la Seguridad Social en las empresas constructoras.</strong></span></td>
+														</tr>
+													</tbody>
+												</table>
+
+												<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" width="197">
+													<tbody>
+														<tr>
+															<td class="mcnTextContent" style="padding: 9px 18px; text-align: center;" valign="top"><a href="http://correos.elconta.mx/w/upWK8Uc1e0cX88r048920Yiw/sHf9lRxpnszMGGUbB6weDg/pzam0L9Ry5b45NsyzKHVSw" >Ver versi&oacute;n web</a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if gte mso 9]>
+									</td>
+									</tr>
+									</table>
+									<![endif]--></td>
+					</tr>
+					<tr>
+						<td align="center" id="templateHeader" valign="top"><!--[if gte mso 9]>
+									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+									<tr>
+									<td align="center" valign="top" width="600" style="width:600px;">
+									<![endif]-->
+						<table align="center" border="0" cellpadding="0" cellspacing="0" class="templateContainer" width="100%">
+							<tbody>
+								<tr>
+									<td class="headerContainer" valign="top">
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnImageBlock" style="min-width:100%;" width="100%">
+										<tbody class="mcnImageBlockOuter">
+											<tr>
+												<td class="mcnImageBlockInner" style="padding:9px" valign="top">
+												<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;" width="100%">
+													<tbody>
+														<tr>
+															<td class="mcnImageContent" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;" valign="top"><a href="http://correos.elconta.mx/l/upWK8Uc1e0cX88r048920Yiw/j9b3WvzKtSj3nz01W284tQ/pzam0L9Ry5b45NsyzKHVSw" target="_blank" title="Mas Info curso Chamlaty"><img align="center" alt="" class="mcnImage" src="https://gallery.mailchimp.com/c34e1670401e8251e0051354a/images/elcnta1_copy5894d4.png" style="max-width: 627px; padding-bottom: 0px; vertical-align: bottom; width: 471px; display: inline !important; height: 200px;" /> </a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" id="templateBody" valign="top">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" class="templateContainer" width="100%">
+							<tbody>
+								<tr>
+									<td class="bodyContainer" valign="top">
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width:100%;" width="100%">
+										<tbody class="mcnTextBlockOuter">
+											<tr>
+												<td class="mcnTextBlockInner" valign="top">
+												<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="min-width:100%;" width="100%">
+													<tbody>
+														<tr>
+															<td class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;" valign="top">
+															<h1 style="text-align: center;"><span style="color:#800080;"><strong>Las empresas CONSTRUCTORAS<br />
+															y la Seguridad Social.</strong></span></h1>
+
+															<h3 style="text-align: center;">&nbsp;</h3>
+
+															<h2 style="text-align: center;"><img alt="" src="https://elconta.com/wp-content/uploads/2018/10/lysete_tellez_elconta-300x300.png" style="width: 174px; height: 174px; float: left;" /><strong>Expositor:</strong></h2>
+
+															<p>&nbsp;</p>
+
+															<h2 style="text-align: center;"><span style="color:#0000CD;"><strong>Lyssette T&eacute;llez Ram&iacute;rez</strong></span></h2>
+
+															<h3 style="text-align: center;"><br />
+															<span style="color:#0000CD;"><strong>Maestra en Impuestos CP LAE y LD*</strong></span></h3>
+
+															<h3 style="text-align: center;">&nbsp;</h3>
+
+															<hr />
+															<h3 style="text-align: center;"><strong>Curso en l&iacute;nea:</strong></h3>
+
+															<h3 style="text-align: center;"><span style="color:#FF8C00;"><strong>Jueves 28&nbsp;Febrero 2019</strong></span></h3>
+
+															<h3 style="text-align: center;"><span style="color:#FF8C00;"><strong>Horario: 16:00 a 20:00 (4 horas)</strong></span></h3>
+
+															<hr />
+															<h4><strong>Dirigido a:</strong></h4>
+
+															<p>Empresarios constructores, personal del departamentos de recursos humanos, nominas, administradores, contadores, empresarios, auxiliares contables y administrativos que tengan encomendados funciones relacionadas con la contratacion de personal, administraci&oacute;n general, departamento contable, departamento fiscal, y legal.</p>
+
+															<h4><strong>Objetivo del curso:</strong></h4>
+
+															<p>Que el participante al concluir este curso conozca y sea capaz de aplicar correctamente las mas importantes disposiciones de seguridad social aplicables a empresas constructoras.</p>
+
+															<p><strong>Acomp&aacute;&ntilde;ame.</strong></p>
+
+															<hr />
+															<p style="text-align: center;"><span style="color:#008000;"><strong style="font-size: 20px;">Temario M&oacute;dulo 1 de 3:&nbsp;</strong></span></p>
+
+															<p><strong>1.-Marco constitucional</strong></p>
+
+															<p><strong>2.-Regulaci&oacute;n laboral</strong></p>
+
+															<p><strong>3.-Origen y definiciones</strong></p>
+
+															<p><strong>4.-Obligaciones de los patrones</strong></p>
+
+															<p><strong>5-Integraci&oacute;n salarial y prestaciones</strong></p>
+
+															<p><strong>6.-Reglamentos aplicables</strong></p>
+
+															<p><strong>7.-Reglamento del IMSS para trabajadores eventuales de la construcci&oacute;n (M&oacute;dulo 2 de 3)</strong></p>
+
+															<p style="margin-left: 40px;"><span style="font-size:12px;"><strong>*(ATENCI&Oacute;N:&nbsp;Como el tema es bastante amplio se comentar&aacute; superficialmente, en m&oacute;dulo 2 de 2 se analizar&aacute; a detalle lo relativo a dicho reglamento) (Para ese pr&oacute;ximo modulo se aplicar&aacute; un&nbsp;descuento del 30%&nbsp;a quienes hayan asistido a esta PRIMERA sesi&oacute;n de TRES)</strong></span></p>
+
+															<p><strong>8.-SIROC y SATIC&nbsp;(M&oacute;dulo 3 de 3)</strong></p>
+
+															<p style="margin-left: 40px;"><span style="font-size:12px;"><strong>*(ATENCI&Oacute;N:&nbsp;Como el tema SIROC/SATIC es bastante amplio se comentar&aacute; superficialmente, en m&oacute;dulo 3 de 3 se analizar&aacute; el manejo del integral del sistema.)&nbsp;&nbsp;(Para ese pr&oacute;ximo m&oacute;dulo se aplicar&aacute; un&nbsp;descuento del 30%&nbsp;a quienes hayan asistido a esta PRIMERA sesi&oacute;n de TRES)</strong></span></p>
+
+															<p><strong>9.-La construcci&oacute;n y los Riesgos de Trabajo</strong></p>
+
+															<p><strong>10.- Obligaciones principales con el INFONAVIT</strong></p>
+
+															<p><strong>11.-Generalidades sobre Normas Oficiales Mexicanas de Seguridad y Salud en el Trabajo&nbsp;aplicables a la construcci&oacute;n</strong></p>
+
+															<p><strong>Conclusiones y recomendaciones</strong></p>
+
+															<p style="text-align: right;"><a href="http://correos.elconta.mx/l/upWK8Uc1e0cX88r048920Yiw/892rBen763z9788H892Ngk6elLLw/pzam0L9Ry5b45NsyzKHVSw"><span style="color:#008000;"><span style="font-size:12px;"><b>Ver temario M&oacute;dulo 2:&nbsp;</b></span></span><span style="color:#0000CD;"><span style="font-size:12px;"><strong>Reglamento del IMSS para trabajadores eventuales de la construcci&oacute;n</strong></span></span></a></p>
+
+															<p style="text-align: right;"><a href="http://correos.elconta.mx/l/upWK8Uc1e0cX88r048920Yiw/892rBen763z9788H892Ngk6elLLw/pzam0L9Ry5b45NsyzKHVSw"><span style="color:#008000;"><span style="font-size:12px;"><b>Ver temario M&oacute;dulo 3:</b></span></span><span style="color:#0000CD;"><span style="font-size:12px;"><b>&nbsp;</b><strong>SIROC y SATIC</strong></span></span></a></p>
+
+															<hr />
+															<h3><span style="color:#0000CD;"><strong>*&nbsp;Curriculum del expositor Maestra en Impuestos CPC LAE y LD Lyssette T&eacute;llez Ram&iacute;rez:</strong></span></h3>
+
+															<p style="text-align: center;"><img alt="" src="https://cursos.elconta.com/wp-content/uploads/2018/01/CV_lyz_tellez.png" style="width: 483px; height: 657px;" /></p>
+
+															<hr />
+															<p><strong>Detalles t&eacute;cnicos:</strong></p>
+
+															<ul>
+																<li>Usaremos GoToWebinar (No es necesario ning&uacute;n software especial, basta con una buena conexi&oacute;n a internet)</li>
+																<li>&iquest;Como ingresar&aacute;s al webinar? <a href="http://correos.elconta.mx/l/upWK8Uc1e0cX88r048920Yiw/9S4zsIXy18oBgyfYcU8922pg/pzam0L9Ry5b45NsyzKHVSw" rel="noopener" target="_blank">Ac&aacute; un ejemplo</a>.</li>
+																<li>El que cuentes con unos buenos aud&iacute;fonos ayuda bastante.</li>
+																<li>Puedes tomar la sesi&oacute;n a trav&eacute;s de un Mac, un PC o un dispositivo m&oacute;vil (Tu ipad, o dispositivo android)</li>
+																<li><strong>&iquest;No puedes asistir en el&nbsp;horario de la sesi&oacute;n en vivo? No te preocupes, nuestros cursos en l&iacute;nea <span style="color:#FF0000;">puedes disfrutarlos en tiempo real de manera presencial (virtual) o bien, puedes disfrutar del v&iacute;deo &iacute;ntegro de la sesi&oacute;n que te&nbsp;proporcionaremos al d&iacute;a siguiente&nbsp;del curso.&nbsp;</span>El cual podr&aacute;s consultar durante los 30 d&iacute;as siguientes</strong>.</li>
+															</ul>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnBoxedTextBlock" style="min-width:100%;" width="100%"><!--[if gte mso 9]>
+	<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+	<![endif]-->
+										<tbody class="mcnBoxedTextBlockOuter">
+											<tr>
+												<td class="mcnBoxedTextBlockInner" valign="top"><!--[if gte mso 9]>
+				<td align="center" valign="top" ">
+				<![endif]-->
+												<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnBoxedTextContentContainer" style="min-width:100%;" width="100%">
+													<tbody>
+														<tr>
+															<td style="padding-top:9px; padding-left:18px; padding-bottom:9px; padding-right:18px;">
+															<table border="0" cellpadding="18" cellspacing="0" class="mcnTextContentContainer" style="min-width: 100% !important;background-color: #404040;" width="100%">
+																<tbody>
+																	<tr>
+																		<td class="mcnTextContent" style="color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;" valign="top">
+																		<h4 class="null" style="text-align: center;"><span style="font-size:16px"><span style="font-family:lucida sans unicode,lucida grande,sans-serif"><strong><span style="color:#00FF00"><u>Precio&nbsp;(IVA Incluido)</u></span></strong></span></span><br />
+																		<span style="font-size:18px;"><span style="font-family:lucida sans unicode,lucida grande,sans-serif"><strong><span style="color:#FFD700">$798.00&nbsp;</span><span style="color:#FFFFFF">P&uacute;blico en General</span></strong></span></span></h4>
+
+																		<h3>&nbsp;</h3>
+
+																		<h3 style="text-align: center;"><span style="font-size:16px"><span style="font-family:lucida sans unicode,lucida grande,sans-serif"><span style="color:#00FF00"><strong>DATOS DE DEP&Oacute;SITO:</strong></span></span></span><br />
+																		<span style="color:#FFFFFF"><span style="font-size:16px"><span style="font-family:lucida sans unicode,lucida grande,sans-serif"><strong>DESARROLLO CONTABLE FISCAL EN REDES SA DE CV</strong><br />
+																		Cuenta Bancomer:&nbsp;0197099339<br />
+																		(CLABE:&nbsp;012320001970993396)</span></span></span></h3>
+
+																		<p>&nbsp;</p>
+
+																		<p style="text-align: center;"><strong><span style="color:#00FF00;">&iquest;Gustas hacer pago con Tarjeta?</span></strong></p>
+
+																		<h2 style="text-align: center;"><strong><span style="background-color:#FFFF00;"><span style="color:#0000CD;">&nbsp;</span><a href="http://correos.elconta.mx/l/upWK8Uc1e0cX88r048920Yiw/u3tTqtBFFS9Etz892FFzMVxQ/pzam0L9Ry5b45NsyzKHVSw" target="_blank"><span style="color:#0000CD;">Clic AQU&Iacute;</span></a><span style="color:#0000CD;">&nbsp;</span></span></strong></h2>
+																		&nbsp;
+
+																		<h3 class="null" style="text-align: center;"><span style="font-size:16px"><span style="font-family:lucida sans unicode,lucida grande,sans-serif"><span style="color:#00FF00"><strong>Para m&aacute;s informaci&oacute;n por favor contacta a nuestra &aacute;rea de atenci&oacute;n a clientes:</strong></span></span></span></h3>
+
+																		<div style="text-align: center;"><strong><span style="font-size:16px"><span style="font-family:lucida sans unicode,lucida grande,sans-serif"><span style="color:#0000CD"><span style="background-color:#FFF0F5">&nbsp;</span></span><span style="background-color:#FFF0F5"><span style="color:#0000CD;">&nbsp;</span><a href="mailto:cursos@elconta.com?subject=Mas%20info%20curso%3A%20Mi%20Contabilidad%20Personas%20F%C3%ADsicas.%20Taller%20pr%C3%A1ctico%20de%20uso." target="_blank"><span style="color:#0000CD;">cursos@elconta.com</span></a><span style="color:#0000CD;">&nbsp;</span><span style="color:#0000FF">&nbsp;</span></span><br />
+																		GDL (33) 3683-9343<br />
+																		GDL&nbsp;(33) 3331-6176</span></span></strong><br />
+																		&nbsp;</div>
+
+																		<div style="text-align: center;">&nbsp;</div>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!--[if gte mso 9]>
+				</td>
+				<![endif]--><!--[if gte mso 9]>
+                </tr>
+                </table>
+				<![endif]--></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if gte mso 9]>
+									</td>
+									</tr>
+									</table>
+									<![endif]--></td>
+					</tr>
+					<tr>
+						<td align="center" id="templateFooter" valign="top"><!--[if gte mso 9]>
+									<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+									<tr>
+									<td align="center" valign="top" width="600" style="width:600px;">
+									<![endif]-->
+						<table align="center" border="0" cellpadding="0" cellspacing="0" class="templateContainer" width="100%">
+							<tbody>
+								<tr>
+									<td class="footerContainer" valign="top">
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowBlock" style="min-width:100%;" width="100%">
+										<tbody class="mcnFollowBlockOuter">
+											<tr>
+												<td align="center" class="mcnFollowBlockInner" style="padding:9px" valign="top">
+												<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentContainer" style="min-width:100%;" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" style="padding-left:9px;padding-right:9px;">
+															<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContent" style="min-width:100%;" width="100%">
+																<tbody>
+																	<tr>
+																		<td align="center" style="padding-top:9px; padding-right:9px; padding-left:9px;" valign="top">
+																		<table align="center" border="0" cellpadding="0" cellspacing="0">
+																			<tbody>
+																				<tr>
+																					<td align="center" valign="top"><!--[if mso]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                    <![endif]--><!--[if mso]>
+                                        <td align="center" valign="top">
+                                        <![endif]-->
+																					<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																						<tbody>
+																							<tr>
+																								<td class="mcnFollowContentItemContainer" style="padding-right:10px; padding-bottom:9px;" valign="top">
+																								<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" width="100%">
+																									<tbody>
+																										<tr>
+																											<td align="left" style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" valign="middle">
+																											<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																												<tbody>
+																													<tr>
+																														<td align="center" class="mcnFollowIconContent" valign="middle" width="24"><a href="http://correos.elconta.mx/l/upWK8Uc1e0cX88r048920Yiw/892vnfYe9mtw5A6yVw84oUDw/pzam0L9Ry5b45NsyzKHVSw" target="_blank"><img src="http://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png" style="display: block; width: 24px; height: 24px;" /></a></td>
+																													</tr>
+																												</tbody>
+																											</table>
+																											</td>
+																										</tr>
+																									</tbody>
+																								</table>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					<!--[if mso]>
+                                        </td>
+                                        <![endif]--><!--[if mso]>
+                                        <td align="center" valign="top">
+                                        <![endif]-->
+
+																					<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																						<tbody>
+																							<tr>
+																								<td class="mcnFollowContentItemContainer" style="padding-right:10px; padding-bottom:9px;" valign="top">
+																								<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" width="100%">
+																									<tbody>
+																										<tr>
+																											<td align="left" style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" valign="middle">
+																											<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																												<tbody>
+																													<tr>
+																														<td align="center" class="mcnFollowIconContent" valign="middle" width="24"><a href="http://correos.elconta.mx/l/upWK8Uc1e0cX88r048920Yiw/P1892YtKG2HG763763QC4xlfarbg/pzam0L9Ry5b45NsyzKHVSw" target="_blank"><img src="http://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" style="display: block; width: 24px; height: 24px;" /></a></td>
+																													</tr>
+																												</tbody>
+																											</table>
+																											</td>
+																										</tr>
+																									</tbody>
+																								</table>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					<!--[if mso]>
+                                        </td>
+                                        <![endif]--><!--[if mso]>
+                                        <td align="center" valign="top">
+                                        <![endif]-->
+
+																					<table align="left" border="0" cellpadding="0" cellspacing="0" style="display:inline;">
+																						<tbody>
+																							<tr>
+																								<td class="mcnFollowContentItemContainer" style="padding-right:0; padding-bottom:9px;" valign="top">
+																								<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" width="100%">
+																									<tbody>
+																										<tr>
+																											<td align="left" style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;" valign="middle">
+																											<table align="left" border="0" cellpadding="0" cellspacing="0" width="">
+																												<tbody>
+																													<tr>
+																														<td align="center" class="mcnFollowIconContent" valign="middle" width="24"><a href="http://correos.elconta.mx/l/upWK8Uc1e0cX88r048920Yiw/nB892q4OY1nHfmSHVumVrGfQ/pzam0L9Ry5b45NsyzKHVSw" target="_blank"><img src="http://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" style="display: block; width: 24px; height: 24px;" /></a></td>
+																													</tr>
+																												</tbody>
+																											</table>
+																											</td>
+																										</tr>
+																									</tbody>
+																								</table>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					<!--[if mso]>
+                                        </td>
+                                        <![endif]--><!--[if mso]>
+                                    </tr>
+                                    </table>
+                                    <![endif]--></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerBlock" style="min-width:100%;" width="100%">
+										<tbody class="mcnDividerBlockOuter">
+											<tr>
+												<td class="mcnDividerBlockInner" style="min-width: 100%; padding: 10px 18px 25px;">
+												<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerContent" style="min-width: 100%;border-top-width: 2px;border-top-style: solid;border-top-color: #EEEEEE;" width="100%">
+													<tbody>
+														<tr>
+															<td>&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												<!--            
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+--></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width:100%;" width="100%">
+										<tbody class="mcnTextBlockOuter">
+											<tr>
+												<td class="mcnTextBlockInner" valign="top">
+												<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="min-width:100%;" width="100%">
+													<tbody>
+														<tr>
+															<td class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;" valign="top"><em>&iquest;Ya no desea recibir nuestros correos?: <a href="http://correos.elconta.mx/unsubscribe/JvAVxDP8bgN87630pS4P2P1GcsK2cgggVapROUcs4Tyng/sHf9lRxpnszMGGUbB6weDg/pzam0L9Ry5b45NsyzKHVSw" >Darse de baja aqu&iacute;</a></em></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--[if gte mso 9]>
+									</td>
+									</tr>
+									</table>
+									<![endif]--></td>
+					</tr>
+				</tbody>
+			</table>
+			<!-- // END TEMPLATE --></td>
+		</tr>
+	</tbody>
+</table>
+</center>
+</body>
+</html>
+<img src="http://correos.elconta.mx/t/pzam0L9Ry5b45NsyzKHVSw/upWK8Uc1e0cX88r048920Yiw" alt="" style="width:1px;height:1px;"/>
